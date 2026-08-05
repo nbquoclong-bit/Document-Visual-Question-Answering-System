@@ -1,14 +1,10 @@
-# Document Visual Question Answering System Using OCR and Multimodal Architecture for Automated Document Processing
-## Authors
+# 📄 Document Visual Question Answering System Using OCR and Multimodal Architecture for Automated Document Processing
 
-* [Nguyễn Bá Quốc Long](https://github.com/nbquoclong-bit)
-* [Lê Minh Sang](https://github.com/LeMinhSang241)
-* [Nguyễn Văn Nhật Nam](https://github.com/uynd)
-* [Trần Hoàng Minh Thiên](https://github.com/TranHoangMinhThien)
-* [Trịnh Minh Đức Hoàng](https://github.com/Emiya2902)
+## ✨ Features
 
-## System Pipeline
+## 🛠️ Tech Stack
 
+## 📐 System Pipeline
 ```mermaid
 flowchart TD
     A[📄 Input File: JPG / PNG / PDF] --> B[🖼️ Image Preprocessing\nOpenCV / Pillow]
@@ -25,4 +21,18 @@ flowchart TD
     F --> G[⚡ FastAPI Backend]
     G --> H[🖥️ React Web UI Dashboard]
 ```
-## Dataset
+## ⚙️ Getting Started
+
+### Prerequisites
+
+### Installation
+
+## 📂 Project Structure
+
+## 👥 Authors
+* [Nguyễn Bá Quốc Long](https://github.com/nbquoclong-bit)
+* [Lê Minh Sang](https://github.com/LeMinhSang241)
+* [Nguyễn Văn Nhật Nam](https://github.com/uynd)
+* [Trần Hoàng Minh Thiên](https://github.com/TranHoangMinhThien)
+* [Trịnh Minh Đức Hoàng](https://github.com/Emiya2902)
+## 📄 License
