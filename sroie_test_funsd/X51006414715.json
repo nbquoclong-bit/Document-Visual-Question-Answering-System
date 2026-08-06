@@ -1,0 +1,374 @@
+{
+    "form": [
+        {
+            "box": [
+                366,
+                202,
+                540,
+                222
+            ],
+            "text": "SECRET RECIPE RESTAURANT",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                380,
+                221,
+                541,
+                235
+            ],
+            "text": "(Company No 559208-M).",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                355,
+                232,
+                547,
+                248
+            ],
+            "text": "Lot G16, Permas Jaya Jusco",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                339,
+                245,
+                572,
+                260
+            ],
+            "text": "Tel : 07-3889980 Fax: 07-3889981",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                311,
+                307,
+                383,
+                321
+            ],
+            "text": "TABLE #11",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                470,
+                307,
+                537,
+                321
+            ],
+            "text": "BILL #1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                468,
+                319,
+                537,
+                336
+            ],
+            "text": "COVERS #1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                315,
+                321,
+                425,
+                333
+            ],
+            "text": "ORDER #P3057498",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                314,
+                333,
+                467,
+                346
+            ],
+            "text": "TAX INVOICE #P1176502",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                304,
+                355,
+                459,
+                372
+            ],
+            "text": "1 M/ROOM CHIC (RICE)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                549,
+                359,
+                601,
+                370
+            ],
+            "text": "16.98 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                310,
+                368,
+                439,
+                384
+            ],
+            "text": "1 SP/TI MBALL CHK",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                547,
+                370,
+                604,
+                385
+            ],
+            "text": "18.87 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                565,
+                381,
+                592,
+                399
+            ],
+            "text": "R",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                310,
+                417,
+                375,
+                434
+            ],
+            "text": "SUBTOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                528,
+                419,
+                587,
+                434
+            ],
+            "text": "RM41.81",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                312,
+                432,
+                384,
+                445
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                481,
+                431,
+                583,
+                448
+            ],
+            "text": "Rm41.81",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                310,
+                443,
+                366,
+                460
+            ],
+            "text": "2 ITEMS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                312,
+                470,
+                349,
+                483
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                547,
+                470,
+                586,
+                483
+            ],
+            "text": "42.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                312,
+                482,
+                374,
+                496
+            ],
+            "text": "ROUNDING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                531,
+                482,
+                587,
+                496
+            ],
+            "text": "RM-0.01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                311,
+                507,
+                360,
+                521
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                553,
+                508,
+                586,
+                520
+            ],
+            "text": "0.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                527,
+                530,
+                588,
+                548
+            ],
+            "text": "RM35.85",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                309,
+                533,
+                444,
+                546
+            ],
+            "text": "SV CHG @ 10% Sales",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                311,
+                545,
+                449,
+                558
+            ],
+            "text": "SV CHG @ 10% Amount",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                537,
+                544,
+                587,
+                559
+            ],
+            "text": "RM3.59",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                527,
+                556,
+                588,
+                573
+            ],
+            "text": "RM39.44",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                311,
+                558,
+                444,
+                571
+            ],
+            "text": "S = GST @ 6% Sales",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                312,
+                571,
+                462,
+                582
+            ],
+            "text": "S = GST @ 6% included",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                537,
+                571,
+                584,
+                583
+            ],
+            "text": "RM2.37",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                310,
+                581,
+                477,
+                596
+            ],
+            "text": "* INDICATES TAXED ITEMS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                339,
+                605,
+                596,
+                622
+            ],
+            "text": "P1-286815  4/22/2018 08:10PM SV-Wani",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                392,
+                630,
+                541,
+                646
+            ],
+            "text": "GST NO. 000260571136",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                366,
+                643,
+                574,
+                659
+            ],
+            "text": "Thank you. Please come again!",
+            "label": "OTHER"
+        }
+    ]
+}

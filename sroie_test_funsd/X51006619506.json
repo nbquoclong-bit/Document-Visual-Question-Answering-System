@@ -1,0 +1,654 @@
+{
+    "form": [
+        {
+            "box": [
+                162,
+                153,
+                842,
+                174
+            ],
+            "text": "KEDAIUBAT &RUNCITHONG",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                328,
+                177,
+                685,
+                200
+            ],
+            "text": "NINGSDN.BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                426,
+                212,
+                593,
+                231
+            ],
+            "text": "(717853-)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                285,
+                231,
+                734,
+                251
+            ],
+            "text": "GTDN0245",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                265,
+                250,
+                752,
+                272
+            ],
+            "text": "NO.S,JALAN LANGKUNING",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                372,
+                272,
+                645,
+                291
+            ],
+            "text": "KEPONGBARI",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                310,
+                292,
+                705,
+                310
+            ],
+            "text": "3210KUALLAMPUR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                375,
+                333,
+                647,
+                350
+            ],
+            "text": "Tol03-2732163",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                371,
+                222,
+                389
+            ],
+            "text": "BillNa",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                281,
+                372,
+                502,
+                389
+            ],
+            "text": "P08/268511",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                391,
+                187,
+                411
+            ],
+            "text": "Date",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                285,
+                392,
+                652,
+                410
+            ],
+            "text": "24/1222822HM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                410,
+                228,
+                431
+            ],
+            "text": "Canhor",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                278,
+                410,
+                411,
+                431
+            ],
+            "text": "adin",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                109,
+                432,
+                250,
+                451
+            ],
+            "text": "Paymont",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                281,
+                432,
+                397,
+                451
+            ],
+            "text": ":Cash",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                96,
+                459,
+                189,
+                486
+            ],
+            "text": "Itorm",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                321,
+                461,
+                401,
+                490
+            ],
+            "text": "Qty",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                481,
+                465,
+                569,
+                485
+            ],
+            "text": "Price",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                695,
+                465,
+                830,
+                488
+            ],
+            "text": "Amount",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                106,
+                488,
+                319,
+                511
+            ],
+            "text": "YJNHLAN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                365,
+                486,
+                492,
+                511
+            ],
+            "text": "2.83",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                109,
+                511,
+                164,
+                533
+            ],
+            "text": "G3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                359,
+                512,
+                395,
+                533
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                495,
+                512,
+                571,
+                532
+            ],
+            "text": "3.C",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                752,
+                513,
+                828,
+                533
+            ],
+            "text": "3.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                859,
+                515,
+                914,
+                533
+            ],
+            "text": "ER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                106,
+                536,
+                250,
+                557
+            ],
+            "text": "TANQI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                322,
+                533,
+                451,
+                557
+            ],
+            "text": "18.87",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                111,
+                558,
+                214,
+                577
+            ],
+            "text": "ST00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                359,
+                558,
+                395,
+                579
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                477,
+                558,
+                571,
+                578
+            ],
+            "text": "20.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                736,
+                559,
+                828,
+                579
+            ],
+            "text": "20.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                109,
+                582,
+                627,
+                603
+            ],
+            "text": "GARDENIA CR-CHOCLTOW",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                109,
+                603,
+                281,
+                621
+            ],
+            "text": "933664132",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                361,
+                605,
+                393,
+                622
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                495,
+                603,
+                571,
+                624
+            ],
+            "text": "0.83",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                748,
+                601,
+                828,
+                625
+            ],
+            "text": "0.85",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                854,
+                605,
+                917,
+                626
+            ],
+            "text": "SR.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                628,
+                622,
+                649
+            ],
+            "text": "MA&IMODUECOFFEE.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                109,
+                651,
+                281,
+                668
+            ],
+            "text": "953475353",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                361,
+                652,
+                393,
+                668
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                495,
+                651,
+                571,
+                670
+            ],
+            "text": ".85",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                752,
+                651,
+                830,
+                671
+            ],
+            "text": "1.83",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                676,
+                620,
+                695
+            ],
+            "text": "MAS&IMODUE-COFFEE Q",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                106,
+                698,
+                279,
+                716
+            ],
+            "text": "933675333",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                354,
+                698,
+                395,
+                717
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                493,
+                696,
+                571,
+                717
+            ],
+            "text": "01.83",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                752,
+                698,
+                828,
+                717
+            ],
+            "text": "0.85",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                856,
+                699,
+                917,
+                719
+            ],
+            "text": "ER.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                477,
+                760,
+                685,
+                781
+            ],
+            "text": "Cash Paid :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                821,
+                764,
+                912,
+                783
+            ],
+            "text": "25.35",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                479,
+                782,
+                685,
+                800
+            ],
+            "text": "Card Paid :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                837,
+                784,
+                914,
+                804
+            ],
+            "text": ".C",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                473,
+                799,
+                598,
+                824
+            ],
+            "text": "Change",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                477,
+                831,
+                686,
+                857
+            ],
+            "text": "RoundAdj.:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                834,
+                836,
+                918,
+                858
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                111,
+                872,
+                339,
+                894
+            ],
+            "text": "GST &umary",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                394,
+                873,
+                527,
+                896
+            ],
+            "text": "Ammount",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                625,
+                872,
+                703,
+                897
+            ],
+            "text": "T3x",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                899,
+                256,
+                921
+            ],
+            "text": "SR6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                410,
+                900,
+                504,
+                920
+            ],
+            "text": "24.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                620,
+                900,
+                701,
+                921
+            ],
+            "text": "1.43",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                402,
+                934,
+                620,
+                952
+            ],
+            "text": "MOAHNVEL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                314,
+                954,
+                698,
+                971
+            ],
+            "text": "PLEAEE COMEAGAIN",
+            "label": "OTHER"
+        }
+    ]
+}

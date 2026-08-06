@@ -1,0 +1,564 @@
+{
+    "form": [
+        {
+            "box": [
+                277,
+                73,
+                540,
+                87
+            ],
+            "text": "THE COFFEE BEAN",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                206,
+                90,
+                612,
+                105
+            ],
+            "text": "&TEA LEAFMSDN.BHD",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                222,
+                109,
+                577,
+                124
+            ],
+            "text": "Company No.:441970-H",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                202,
+                126,
+                600,
+                140
+            ],
+            "text": "Unit G047Ground Flcor",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                237,
+                143,
+                577,
+                158
+            ],
+            "text": "Mid Valley Megamall",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                103,
+                161,
+                715,
+                175
+            ],
+            "text": "Mid Valley City Lingkar an Syed Put",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                256,
+                179,
+                574,
+                192
+            ],
+            "text": "59200 Kuala Lumpur",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                240,
+                195,
+                594,
+                209
+            ],
+            "text": "GSTNo.000384106496",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                302,
+                211,
+                509,
+                228
+            ],
+            "text": "Tax Invoice",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                84,
+                231,
+                368,
+                244
+            ],
+            "text": "15/12/201718:01",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                462,
+                229,
+                790,
+                243
+            ],
+            "text": "A546756",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                84,
+                248,
+                144,
+                262
+            ],
+            "text": "Qty",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                202,
+                247,
+                422,
+                262
+            ],
+            "text": "Descriptions",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                600,
+                247,
+                719,
+                263
+            ],
+            "text": "Amount",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                284,
+                115,
+                298
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                209,
+                284,
+                527,
+                297
+            ],
+            "text": "ICED CAFE LATTE-R",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                618,
+                283,
+                753,
+                297
+            ],
+            "text": "12.08",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                84,
+                302,
+                112,
+                313
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                209,
+                301,
+                524,
+                315
+            ],
+            "text": "ICED DOUBLE CHOC-S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                618,
+                300,
+                753,
+                315
+            ],
+            "text": "11.14T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                206,
+                318,
+                475,
+                333
+            ],
+            "text": "BLACKFORESI CHZ",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                618,
+                318,
+                753,
+                333
+            ],
+            "text": "10.84T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                206,
+                351,
+                384,
+                365
+            ],
+            "text": "STTL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                621,
+                352,
+                853,
+                366
+            ],
+            "text": "34.06",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                209,
+                370,
+                412,
+                385
+            ],
+            "text": "10%SVC CHG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                641,
+                369,
+                722,
+                385
+            ],
+            "text": "3.41",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                202,
+                387,
+                318,
+                403
+            ],
+            "text": "6%GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                631,
+                387,
+                719,
+                403
+            ],
+            "text": "2.25",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                206,
+                422,
+                262,
+                436
+            ],
+            "text": "TTL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                618,
+                422,
+                719,
+                437
+            ],
+            "text": "39.72",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                206,
+                440,
+                431,
+                455
+            ],
+            "text": "Rounding Adj",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                621,
+                439,
+                719,
+                455
+            ],
+            "text": "0.02",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                84,
+                460,
+                112,
+                471
+            ],
+            "text": "3",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                209,
+                457,
+                440,
+                471
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                625,
+                457,
+                862,
+                471
+            ],
+            "text": "39.70",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                209,
+                475,
+                293,
+                491
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                625,
+                475,
+                728,
+                491
+            ],
+            "text": "39.70",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                209,
+                492,
+                487,
+                507
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                672,
+                492,
+                784,
+                508
+            ],
+            "text": ".",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                80,
+                544,
+                285,
+                562
+            ],
+            "text": "GSTSummary",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                431,
+                546,
+                547,
+                562
+            ],
+            "text": "Amount",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                643,
+                543,
+                725,
+                565
+            ],
+            "text": "Tax",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                564,
+                233,
+                579
+            ],
+            "text": "T.GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                446,
+                564,
+                543,
+                580
+            ],
+            "text": "37.47",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                634,
+                565,
+                719,
+                581
+            ],
+            "text": "2.25",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                582,
+                300,
+                596
+            ],
+            "text": "ZZero Rated",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                459,
+                582,
+                547,
+                597
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                634,
+                583,
+                719,
+                599
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                219,
+                635,
+                506,
+                650
+            ],
+            "text": "Simply The Best!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                159,
+                652,
+                610,
+                669
+            ],
+            "text": "I Bean Points earned from",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                168,
+                670,
+                559,
+                686
+            ],
+            "text": "Jan-Dec will expire by",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                115,
+                687,
+                621,
+                704
+            ],
+            "text": "31st March the following year",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                144,
+                833,
+                774,
+                847
+            ],
+            "text": "Scan and provide us your feedback",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                882,
+                175,
+                896
+            ],
+            "text": "T8L10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                74,
+                898,
+                550,
+                914
+            ],
+            "text": "CshF0106 OL-BICKY RANA 600",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                917,
+                462,
+                931
+            ],
+            "text": "POS:T002 Shf:201712151",
+            "label": "OTHER"
+        }
+    ]
+}

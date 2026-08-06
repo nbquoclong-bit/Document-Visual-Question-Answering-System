@@ -1,0 +1,604 @@
+{
+    "form": [
+        {
+            "box": [
+                366,
+                104,
+                660,
+                128
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                176,
+                138,
+                844,
+                163
+            ],
+            "text": "PLATINUM RACKING SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                389,
+                170,
+                644,
+                196
+            ],
+            "text": "(PLAT MART)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                422,
+                205,
+                597,
+                226
+            ],
+            "text": "752173-W",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                112,
+                241,
+                904,
+                263
+            ],
+            "text": "8B,JALAN LUMPUR,OFFJALANPUTRA,05100",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                318,
+                261,
+                695,
+                282
+            ],
+            "text": "ALOR SETAR,KEDAH.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                83,
+                282,
+                377,
+                302
+            ],
+            "text": "Tel04-7342316",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                551,
+                283,
+                871,
+                307
+            ],
+            "text": "Fax: 04-7342317/",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                656,
+                305,
+                798,
+                323
+            ],
+            "text": "7330990",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                264,
+                324,
+                752,
+                351
+            ],
+            "text": "(GST ID No:001034461184)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                82,
+                364,
+                270,
+                388
+            ],
+            "text": "Sales Date:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                397,
+                366,
+                585,
+                390
+            ],
+            "text": "22/04/2018",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                81,
+                391,
+                262,
+                418
+            ],
+            "text": "Sales Rep:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                397,
+                395,
+                812,
+                420
+            ],
+            "text": "platinum racking plat mart",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                83,
+                420,
+                270,
+                442
+            ],
+            "text": "RecaiptNo:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                397,
+                420,
+                563,
+                442
+            ],
+            "text": "31076707",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                83,
+                447,
+                274,
+                465
+            ],
+            "text": "PrintOn:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                262,
+                449,
+                604,
+                466
+            ],
+            "text": "22/04/2018 13:44:23",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                598,
+                481,
+                679,
+                505
+            ],
+            "text": "Unit",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                107,
+                498,
+                188,
+                521
+            ],
+            "text": "Item",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                592,
+                501,
+                683,
+                524
+            ],
+            "text": "Price",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                99,
+                517,
+                196,
+                538
+            ],
+            "text": "Code",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                264,
+                518,
+                442,
+                539
+            ],
+            "text": "Item Name",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                503,
+                519,
+                687,
+                543
+            ],
+            "text": "QtyRM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                735,
+                523,
+                823,
+                541
+            ],
+            "text": "Total",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                856,
+                518,
+                952,
+                547
+            ],
+            "text": "Code",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                82,
+                542,
+                192,
+                564
+            ],
+            "text": "95550",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                216,
+                543,
+                402,
+                564
+            ],
+            "text": "5596VIVID",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                547,
+                544,
+                698,
+                568
+            ],
+            "text": "2 11.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                751,
+                547,
+                849,
+                567
+            ],
+            "text": "23.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                893,
+                546,
+                952,
+                570
+            ],
+            "text": "SF",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                84,
+                563,
+                189,
+                582
+            ],
+            "text": "70731",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                219,
+                564,
+                362,
+                583
+            ],
+            "text": "STOOL-",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                581,
+                152,
+                601
+            ],
+            "text": "084",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                216,
+                582,
+                476,
+                602
+            ],
+            "text": "BLUE/ORANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                617,
+                247,
+                642
+            ],
+            "text": "Total Qty:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                614,
+                621,
+                644,
+                639
+            ],
+            "text": "2",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                78,
+                646,
+                333,
+                673
+            ],
+            "text": "Total Rounding",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                856,
+                653,
+                934,
+                673
+            ],
+            "text": "0.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                78,
+                672,
+                563,
+                698
+            ],
+            "text": "Total Sales Inclusive GST 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                839,
+                680,
+                937,
+                698
+            ],
+            "text": "23.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                75,
+                695,
+                173,
+                721
+            ],
+            "text": "Cash",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                823,
+                703,
+                933,
+                722
+            ],
+            "text": "100.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                75,
+                714,
+                213,
+                741
+            ],
+            "text": "Change",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                837,
+                722,
+                933,
+                741
+            ],
+            "text": "77.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                740,
+                250,
+                764
+            ],
+            "text": "Tendered:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                820,
+                744,
+                933,
+                767
+            ],
+            "text": "100.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                78,
+                766,
+                292,
+                790
+            ],
+            "text": "Change Due",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                837,
+                772,
+                934,
+                792
+            ],
+            "text": "77.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                70,
+                808,
+                177,
+                834
+            ],
+            "text": "Code",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                282,
+                812,
+                403,
+                834
+            ],
+            "text": "GST%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                495,
+                814,
+                735,
+                836
+            ],
+            "text": "Amount (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                770,
+                815,
+                944,
+                838
+            ],
+            "text": "Tax (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                70,
+                846,
+                136,
+                871
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                293,
+                848,
+                355,
+                870
+            ],
+            "text": "6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                629,
+                851,
+                739,
+                873
+            ],
+            "text": "21.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                860,
+                851,
+                949,
+                875
+            ],
+            "text": "1.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                103,
+                888,
+                944,
+                915
+            ],
+            "text": "Please retain receipt to exchange damage goods.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                243,
+                912,
+                804,
+                936
+            ],
+            "text": "within 3 day after sales is made.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                424,
+                935,
+                632,
+                959
+            ],
+            "text": "Thank You",
+            "label": "OTHER"
+        }
+    ]
+}

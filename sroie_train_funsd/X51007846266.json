@@ -1,0 +1,384 @@
+{
+    "form": [
+        {
+            "box": [
+                290,
+                190,
+                564,
+                208
+            ],
+            "text": " UNIHAKKA INTERNATIONAL SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                374,
+                204,
+                476,
+                216
+            ],
+            "text": " 01 Jun 2018 18:41",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                394,
+                217,
+                461,
+                229
+            ],
+            "text": "(867388-U)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                309,
+                225,
+                540,
+                242
+            ],
+            "text": "12, Jalan Tampoi 7/4,Kawasan Perindustriane",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                339,
+                237,
+                513,
+                254
+            ],
+            "text": "Tampoi,81200 Johor Bahru,Johor",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                385,
+                249,
+                463,
+                264
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                276,
+                260,
+                443,
+                274
+            ],
+            "text": "Invoice # : OR18060102160261",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                274,
+                275,
+                304,
+                290
+            ],
+            "text": "Item",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                365,
+                276,
+                396,
+                293
+            ],
+            "text": "Qty",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                543,
+                281,
+                574,
+                293
+            ],
+            "text": "Total",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                270,
+                288,
+                421,
+                307
+            ],
+            "text": " SR 100100000061- 5 Vege",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                273,
+                302,
+                318,
+                316
+            ],
+            "text": "RM6.22",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                525,
+                307,
+                572,
+                321
+            ],
+            "text": "RM6.22",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                272,
+                319,
+                427,
+                336
+            ],
+            "text": " SR 100100000001- Chicken",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                273,
+                335,
+                316,
+                346
+            ],
+            "text": "RM2.54",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                366,
+                337,
+                377,
+                346
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                523,
+                337,
+                570,
+                353
+            ],
+            "text": "RM2.54",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                449,
+                358,
+                568,
+                372
+            ],
+            "text": "Total Amount: RM8.76",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                459,
+                369,
+                568,
+                382
+            ],
+            "text": "gSt @0%: Rm0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                460,
+                379,
+                570,
+                398
+            ],
+            "text": "Rounding: -RM0.01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                465,
+                393,
+                568,
+                407
+            ],
+            "text": "Nett Total: Rm8.75",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                265,
+                404,
+                353,
+                423
+            ],
+            "text": " Payment Mode",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                520,
+                409,
+                568,
+                424
+            ],
+            "text": "Amount",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                267,
+                419,
+                310,
+                434
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                520,
+                422,
+                567,
+                438
+            ],
+            "text": "RM8.75",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                267,
+                432,
+                314,
+                446
+            ],
+            "text": " Change",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                520,
+                435,
+                567,
+                450
+            ],
+            "text": "RM0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                264,
+                460,
+                339,
+                474
+            ],
+            "text": " GST Summary",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                412,
+                464,
+                468,
+                476
+            ],
+            "text": "Amount(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                521,
+                464,
+                566,
+                479
+            ],
+            "text": "Tax(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                264,
+                473,
+                339,
+                487
+            ],
+            "text": " SR = GST @0%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                449,
+                479,
+                467,
+                487
+            ],
+            "text": "8.76",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                543,
+                480,
+                565,
+                490
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                342,
+                493,
+                486,
+                507
+            ],
+            "text": "GST REG #000656195584",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                318,
+                504,
+                509,
+                518
+            ],
+            "text": "BAR WANG RICE@PERMAS JAYA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                340,
+                515,
+                486,
+                532
+            ],
+            "text": "Thank You & Come Again!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                327,
+                529,
+                498,
+                542
+            ],
+            "text": "Like and Follow Us on Facebook!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                332,
+                539,
+                486,
+                556
+            ],
+            "text": "Facebook.com/BarWangRic",
+            "label": "OTHER"
+        }
+    ]
+}

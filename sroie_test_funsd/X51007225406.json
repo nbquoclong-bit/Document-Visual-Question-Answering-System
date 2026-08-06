@@ -1,0 +1,514 @@
+{
+    "form": [
+        {
+            "box": [
+                214,
+                143,
+                707,
+                160
+            ],
+            "text": "UNIPHARMPHARMACY",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                286,
+                169,
+                627,
+                189
+            ],
+            "text": "B12,Jalan SS 15/4D",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                292,
+                191,
+                624,
+                215
+            ],
+            "text": "47500 Subang Jaya,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                233,
+                217,
+                694,
+                235
+            ],
+            "text": "03-56351892/03-56116279",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                259,
+                247,
+                672,
+                267
+            ],
+            "text": "GSTReg:001123352576",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                320,
+                282,
+                606,
+                310
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                65,
+                321,
+                320,
+                342
+            ],
+            "text": "CB#212039",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                484,
+                321,
+                888,
+                343
+            ],
+            "text": "05/Apr/201812:4911pm",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                64,
+                353,
+                403,
+                378
+            ],
+            "text": "Cashier:manager",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                62,
+                381,
+                137,
+                408
+            ],
+            "text": "Qty",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                155,
+                384,
+                372,
+                405
+            ],
+            "text": "Code&Desc",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                558,
+                381,
+                699,
+                409
+            ],
+            "text": "@Price",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                772,
+                381,
+                875,
+                407
+            ],
+            "text": "Total",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                416,
+                112,
+                439
+            ],
+            "text": "2",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                160,
+                417,
+                294,
+                436
+            ],
+            "text": "347959",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                585,
+                417,
+                668,
+                437
+            ],
+            "text": "2.36",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                784,
+                414,
+                936,
+                439
+            ],
+            "text": "4.72SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                160,
+                442,
+                683,
+                463
+            ],
+            "text": "DRESSING SETS 3 FORCEP",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                72,
+                469,
+                115,
+                497
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                156,
+                472,
+                254,
+                494
+            ],
+            "text": "2266",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                566,
+                472,
+                670,
+                494
+            ],
+            "text": "18.77",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                766,
+                470,
+                936,
+                495
+            ],
+            "text": "18.77SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                161,
+                500,
+                744,
+                517
+            ],
+            "text": "BURNSHIELDHYDROGEL25ML",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                533,
+                120,
+                553
+            ],
+            "text": "3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                155,
+                532,
+                262,
+                558
+            ],
+            "text": "Type:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                440,
+                531,
+                476,
+                554
+            ],
+            "text": "2",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                513,
+                530,
+                667,
+                556
+            ],
+            "text": "Subtotal",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                763,
+                532,
+                868,
+                554
+            ],
+            "text": "23.49",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                65,
+                563,
+                219,
+                585
+            ],
+            "text": "GST6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                785,
+                563,
+                868,
+                586
+            ],
+            "text": "1.41",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                60,
+                590,
+                308,
+                618
+            ],
+            "text": "Rounding Adj",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                782,
+                592,
+                873,
+                614
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                64,
+                627,
+                414,
+                647
+            ],
+            "text": "Total Inclusive GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                763,
+                627,
+                868,
+                649
+            ],
+            "text": "24.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                62,
+                657,
+                180,
+                680
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                819,
+                657,
+                872,
+                680
+            ],
+            "text": "00",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                59,
+                684,
+                217,
+                713
+            ],
+            "text": "Change:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                824,
+                687,
+                873,
+                709
+            ],
+            "text": "10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                62,
+                720,
+                332,
+                746
+            ],
+            "text": "GSTSummary",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                60,
+                748,
+                164,
+                770
+            ],
+            "text": "Code",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                323,
+                749,
+                584,
+                770
+            ],
+            "text": "Amount MYR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                662,
+                744,
+                867,
+                766
+            ],
+            "text": "GST(MYR)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                64,
+                778,
+                188,
+                802
+            ],
+            "text": "SR6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                481,
+                778,
+                590,
+                802
+            ],
+            "text": "23.49",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                782,
+                778,
+                868,
+                802
+            ],
+            "text": "1.41",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                62,
+                808,
+                158,
+                830
+            ],
+            "text": "Total",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                481,
+                808,
+                588,
+                829
+            ],
+            "text": "23.49",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                792,
+                809,
+                867,
+                828
+            ],
+            "text": "1.41",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                361,
+                856,
+                585,
+                882
+            ],
+            "text": "hank you",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                256,
+                889,
+                678,
+                915
+            ],
+            "text": "Please come again.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                195,
+                927,
+                696,
+                947
+            ],
+            "text": "Goods sold non returna",
+            "label": "OTHER"
+        }
+    ]
+}
