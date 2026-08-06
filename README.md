@@ -3,7 +3,13 @@
 ## ✨ Features
 
 ## 🛠️ Tech Stack
-
+- **Frameworks & Libraries:** PyTorch, Hugging Face (Transformers, Datasets, Evaluate), PaddlePaddle, OpenCV, Pillow, Seqeval, Editdistance, vLLM
+- **AI / ML Models:** PaddleOCR, Qwen2-VL 2B, Qwen2.5-3B
+- **Backend / API:** FastAPI
+- **Frontend / UI:** React
+- **Database & Storage:** SQLite
+- **DevOps & MLOps:** Docker
+- **Metrics:** Evaluation, KIE, Precision, Recall, F1, QA, Exact Match, ANLS, Latency, GPU Memory				
 ## 📐 System Pipeline
 ```mermaid
 flowchart TD
