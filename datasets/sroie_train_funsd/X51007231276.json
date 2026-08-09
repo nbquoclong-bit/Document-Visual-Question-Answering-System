@@ -1,0 +1,374 @@
+{
+    "form": [
+        {
+            "box": [
+                261,
+                195,
+                529,
+                208
+            ],
+            "text": "UNIHAKKA INTERNATIONAL SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                345,
+                208,
+                448,
+                218
+            ],
+            "text": "02 May 2018 18:16",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                365,
+                219,
+                428,
+                231
+            ],
+            "text": "(867388-U)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                279,
+                230,
+                515,
+                243
+            ],
+            "text": "12, Jalan Tampoi 7/4,Kawasan Perindustrian",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                306,
+                242,
+                484,
+                256
+            ],
+            "text": " Tampoi,81200 Johor Bahru,Johore",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                356,
+                255,
+                434,
+                265
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                248,
+                266,
+                416,
+                277
+            ],
+            "text": "Invoice # : OR18050202160376",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                512,
+                280,
+                556,
+                294
+            ],
+            "text": "Total -",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                247,
+                282,
+                275,
+                293
+            ],
+            "text": "Item",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                340,
+                282,
+                365,
+                293
+            ],
+            "text": "Qty",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                245,
+                296,
+                379,
+                307
+            ],
+            "text": " SR 100100000006- Pork",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                248,
+                309,
+                281,
+                320
+            ],
+            "text": "$2.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                509,
+                308,
+                546,
+                320
+            ],
+            "text": "$2.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                245,
+                323,
+                393,
+                339
+            ],
+            "text": " SR 100100000060- 4 Vege",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                248,
+                339,
+                281,
+                350
+            ],
+            "text": "$5.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                511,
+                339,
+                544,
+                352
+            ],
+            "text": "$5.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                434,
+                359,
+                544,
+                373
+            ],
+            "text": "Total Amount: $8.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                448,
+                372,
+                545,
+                383
+            ],
+            "text": "GST @6%: $0.46",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                453,
+                384,
+                544,
+                395
+            ],
+            "text": "Nett Total: $8.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                496,
+                397,
+                545,
+                414
+            ],
+            "text": "Amount",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                247,
+                400,
+                326,
+                412
+            ],
+            "text": "Payment Modee",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                245,
+                412,
+                287,
+                426
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                509,
+                413,
+                544,
+                426
+            ],
+            "text": "$8.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                245,
+                423,
+                291,
+                439
+            ],
+            "text": "Change",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                509,
+                426,
+                542,
+                438
+            ],
+            "text": "$0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                396,
+                451,
+                449,
+                470
+            ],
+            "text": "Amount($)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                245,
+                455,
+                318,
+                466
+            ],
+            "text": "GST Summary",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                510,
+                453,
+                544,
+                469
+            ],
+            "text": "Tax($)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                242,
+                466,
+                321,
+                480
+            ],
+            "text": "Sr = gst @6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                521,
+                467,
+                544,
+                480
+            ],
+            "text": "0.46",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                428,
+                470,
+                446,
+                478
+            ],
+            "text": "7 74",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                320,
+                485,
+                466,
+                499
+            ],
+            "text": "GST Reg #000656195584",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                296,
+                499,
+                488,
+                509
+            ],
+            "text": "BAR WANG RICE@PERMAS JAYA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                327,
+                509,
+                457,
+                521
+            ],
+            "text": "(Price Inclusive Ot GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                322,
+                520,
+                464,
+                534
+            ],
+            "text": "Thank You & Come Again!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                305,
+                534,
+                480,
+                544
+            ],
+            "text": "Like and Follow Us on Facebook!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                313,
+                544,
+                468,
+                557
+            ],
+            "text": "Facebook.com/BarWangRicee",
+            "label": "OTHER"
+        }
+    ]
+}

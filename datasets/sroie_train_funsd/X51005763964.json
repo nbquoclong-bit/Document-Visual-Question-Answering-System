@@ -1,0 +1,384 @@
+{
+    "form": [
+        {
+            "box": [
+                46,
+                169,
+                519,
+                200
+            ],
+            "text": "YONG CEN ENTERPRISE",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                46,
+                199,
+                544,
+                225
+            ],
+            "text": "9,JALAN SUBANGJASA3",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                48,
+                228,
+                633,
+                251
+            ],
+            "text": "40150 SHAH ALAMSELANGOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                46,
+                254,
+                375,
+                280
+            ],
+            "text": "TEL:012-9719498",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                282,
+                480,
+                304
+            ],
+            "text": "GSTNO:001147981824",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                334,
+                163,
+                360
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                388,
+                840,
+                413
+            ],
+            "text": "RECEIPT#CS00668594DATE:06/01/2018",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                51,
+                420,
+                367,
+                438
+            ],
+            "text": "SALESPERSON:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                464,
+                415,
+                736,
+                440
+            ],
+            "text": "TIME:10:47:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                446,
+                261,
+                467
+            ],
+            "text": "COUNTER:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                497,
+                147,
+                524
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                289,
+                497,
+                379,
+                524
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                424,
+                497,
+                697,
+                522
+            ],
+            "text": "U/P AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                526,
+                340,
+                548
+            ],
+            "text": "9555223500000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                389,
+                525,
+                442,
+                549
+            ],
+            "text": "24",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                487,
+                525,
+                573,
+                548
+            ],
+            "text": "2.58",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                609,
+                525,
+                715,
+                547
+            ],
+            "text": "61.99",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                548,
+                959,
+                578
+            ],
+            "text": "SR:CHAMPIGNONSMUSHROOMS 425G(2.5833X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                604,
+                371,
+                630
+            ],
+            "text": "TOTAL QUANTITY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                472,
+                601,
+                534,
+                631
+            ],
+            "text": "24",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                637,
+                271,
+                658
+            ],
+            "text": "SUB-TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                311,
+                635,
+                417,
+                660
+            ],
+            "text": "61.99",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                45,
+                662,
+                147,
+                688
+            ],
+            "text": "DISC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                260,
+                663,
+                344,
+                686
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                45,
+                689,
+                134,
+                713
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                256,
+                689,
+                343,
+                712
+            ],
+            "text": "3.72",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                45,
+                716,
+                126,
+                740
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                252,
+                716,
+                336,
+                739
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                744,
+                261,
+                766
+            ],
+            "text": "ROUNDING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                323,
+                741,
+                418,
+                767
+            ],
+            "text": "-0.01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                45,
+                770,
+                170,
+                793
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                264,
+                769,
+                371,
+                794
+            ],
+            "text": "65.70",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                46,
+                797,
+                163,
+                820
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                268,
+                797,
+                373,
+                820
+            ],
+            "text": "65.70",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                48,
+                824,
+                220,
+                847
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                314,
+                822,
+                398,
+                847
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                878,
+                779,
+                898
+            ],
+            "text": "GOODS SOLDARE NOTRETURNABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                906,
+                284,
+                926
+            ],
+            "text": "THANKYOU.",
+            "label": "OTHER"
+        }
+    ]
+}

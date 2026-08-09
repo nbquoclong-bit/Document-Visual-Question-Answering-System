@@ -1,0 +1,964 @@
+{
+    "form": [
+        {
+            "box": [
+                96,
+                20,
+                387,
+                40
+            ],
+            "text": "Tax Invoice",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                100,
+                58,
+                938,
+                75
+            ],
+            "text": "GREAT ZONE HOUSEHOLD CENTRE SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                96,
+                72,
+                319,
+                94
+            ],
+            "text": "(801049-U)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                96,
+                93,
+                413,
+                110
+            ],
+            "text": "60 & 62. Jalan Ciku,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                100,
+                112,
+                344,
+                127
+            ],
+            "text": "86000,KLUANG",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                96,
+                143,
+                500,
+                160
+            ],
+            "text": "GST Reg.: 001833082880",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                94,
+                168,
+                622,
+                185
+            ],
+            "text": "Document No. : KLG0201130227",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                186,
+                210,
+                203
+            ],
+            "text": "Date :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                365,
+                187,
+                759,
+                204
+            ],
+            "text": "18/02/2018 06:08:59 PM",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                94,
+                205,
+                237,
+                220
+            ],
+            "text": "Debtor :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                94,
+                222,
+                256,
+                237
+            ],
+            "text": "Member :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                238,
+                259,
+                256
+            ],
+            "text": "Terminal :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                358,
+                240,
+                509,
+                256
+            ],
+            "text": "KLG0201",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                94,
+                257,
+                243,
+                272
+            ],
+            "text": "Cashier :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                358,
+                258,
+                452,
+                274
+            ],
+            "text": "KLG2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                94,
+                285,
+                190,
+                300
+            ],
+            "text": "DESC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                368,
+                287,
+                522,
+                302
+            ],
+            "text": "U.PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                606,
+                288,
+                938,
+                302
+            ],
+            "text": "DiscAMOUNT TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                128,
+                302,
+                206,
+                319
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                452,
+                304,
+                522,
+                320
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                789,
+                301,
+                966,
+                322
+            ],
+            "text": "RM CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                329,
+                725,
+                347
+            ],
+            "text": "200SHEET COMPACT SERVIETTES (NTE)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                347,
+                362,
+                364
+            ],
+            "text": "1PC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                469,
+                349,
+                555,
+                364
+            ],
+            "text": "3.30",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                600,
+                350,
+                688,
+                365
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                774,
+                348,
+                913,
+                366
+            ],
+            "text": "3.30 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                94,
+                369,
+                397,
+                384
+            ],
+            "text": "1.5\" RUBBER BAND",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                388,
+                356,
+                402
+            ],
+            "text": "1200G*",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                469,
+                389,
+                553,
+                405
+            ],
+            "text": "3.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                599,
+                386,
+                685,
+                406
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                771,
+                389,
+                909,
+                407
+            ],
+            "text": "3.60 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                409,
+                259,
+                424
+            ],
+            "text": "PP3X5 04",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                196,
+                427,
+                356,
+                441
+            ],
+            "text": "1200G*",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                469,
+                427,
+                553,
+                443
+            ],
+            "text": "2.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                596,
+                429,
+                684,
+                444
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                772,
+                430,
+                909,
+                445
+            ],
+            "text": "2.50 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                444,
+                434,
+                465
+            ],
+            "text": "18MMX90Y OPP TAPE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                466,
+                290,
+                482
+            ],
+            "text": "1 PC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                469,
+                467,
+                553,
+                483
+            ],
+            "text": "1.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                600,
+                468,
+                684,
+                484
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                774,
+                469,
+                909,
+                485
+            ],
+            "text": "1.60 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                486,
+                434,
+                503
+            ],
+            "text": "911 TAPE DISPENSER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                507,
+                280,
+                520
+            ],
+            "text": "1 PC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                471,
+                508,
+                549,
+                520
+            ],
+            "text": "8.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                596,
+                507,
+                680,
+                522
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                767,
+                505,
+                909,
+                525
+            ],
+            "text": "8.60 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                527,
+                766,
+                544
+            ],
+            "text": "PSI-890 PENSONIC DRY IRON WITH SPRAY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                190,
+                545,
+                356,
+                560
+            ],
+            "text": "1PC*",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                443,
+                545,
+                554,
+                562
+            ],
+            "text": "49.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                594,
+                549,
+                680,
+                562
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                752,
+                546,
+                907,
+                564
+            ],
+            "text": "49.90 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                565,
+                524,
+                583
+            ],
+            "text": "AP-17 APRON PLAIN CLOTH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                168,
+                584,
+                278,
+                599
+            ],
+            "text": "20PC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                445,
+                583,
+                554,
+                602
+            ],
+            "text": "10.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                596,
+                586,
+                680,
+                602
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                730,
+                586,
+                907,
+                604
+            ],
+            "text": "218.00 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                606,
+                305,
+                620
+            ],
+            "text": "TALI UKURAN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                190,
+                624,
+                280,
+                639
+            ],
+            "text": "1 PC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                315,
+                625,
+                346,
+                635
+            ],
+            "text": "*",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                469,
+                625,
+                549,
+                640
+            ],
+            "text": "1.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                600,
+                627,
+                678,
+                640
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                772,
+                627,
+                909,
+                643
+            ],
+            "text": "1.00SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                644,
+                534,
+                662
+            ],
+            "text": "CC-100 100PC CITE CANDLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                183,
+                660,
+                366,
+                680
+            ],
+            "text": "1PC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                446,
+                664,
+                549,
+                680
+            ],
+            "text": "22.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                600,
+                667,
+                674,
+                680
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                748,
+                665,
+                907,
+                683
+            ],
+            "text": "22.90 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                80,
+                682,
+                587,
+                703
+            ],
+            "text": "F1502 SCISSOR 08C (CH) (TLC)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                188,
+                702,
+                287,
+                717
+            ],
+            "text": "6 PC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                278,
+                705,
+                352,
+                716
+            ],
+            "text": "*",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                465,
+                706,
+                543,
+                718
+            ],
+            "text": "6.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                596,
+                707,
+                674,
+                719
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                748,
+                705,
+                903,
+                724
+            ],
+            "text": "36.00SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                84,
+                723,
+                471,
+                740
+            ],
+            "text": "2KG HC KITCHEN SCALE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                188,
+                743,
+                358,
+                758
+            ],
+            "text": "1PC*",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                446,
+                744,
+                549,
+                759
+            ],
+            "text": "19.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                594,
+                745,
+                678,
+                761
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                748,
+                745,
+                903,
+                763
+            ],
+            "text": "19.90SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                117,
+                769,
+                553,
+                792
+            ],
+            "text": "Sub Total Exclusive GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                737,
+                777,
+                852,
+                793
+            ],
+            "text": "346.51",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                387,
+                793,
+                555,
+                811
+            ],
+            "text": "GST 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                754,
+                795,
+                857,
+                815
+            ],
+            "text": "20.79",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                283,
+                810,
+                550,
+                830
+            ],
+            "text": "Service Charge:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                768,
+                816,
+                856,
+                832
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                180,
+                827,
+                550,
+                849
+            ],
+            "text": "Rounding Adjustment :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                772,
+                834,
+                856,
+                850
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                102,
+                850,
+                550,
+                874
+            ],
+            "text": "Rounded Total (RM):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                693,
+                857,
+                860,
+                877
+            ],
+            "text": "367.30",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                143,
+                894,
+                335,
+                914
+            ],
+            "text": "Credit Card",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                759,
+                902,
+                881,
+                918
+            ],
+            "text": "367.30",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                115,
+                928,
+                344,
+                949
+            ],
+            "text": "GST Summary",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                418,
+                932,
+                628,
+                952
+            ],
+            "text": "Amount(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                732,
+                933,
+                888,
+                956
+            ],
+            "text": "Tax(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                111,
+                953,
+                275,
+                974
+            ],
+            "text": "SR@6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                502,
+                958,
+                628,
+                976
+            ],
+            "text": "346.51",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                780,
+                962,
+                887,
+                977
+            ],
+            "text": "20.79",
+            "label": "OTHER"
+        }
+    ]
+}

@@ -1,0 +1,414 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                103,
+                887,
+                131
+            ],
+            "text": "PASARAYA BORONG PINTAR",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                388,
+                138,
+                640,
+                166
+            ],
+            "text": "SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                343,
+                171,
+                703,
+                197
+            ],
+            "text": "BRNo.124525-H",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                136,
+                195,
+                887,
+                219
+            ],
+            "text": "NO 19-G&19-1&19-2JALAN TASIK UTAMA4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                267,
+                218,
+                757,
+                241
+            ],
+            "text": "MEDAN NIAGA TASIK DAMAI",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                395,
+                248,
+                625,
+                272
+            ],
+            "text": "016-5498845",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                431,
+                280,
+                601,
+                305
+            ],
+            "text": "GSTNo.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                304,
+                328,
+                724,
+                350
+            ],
+            "text": "14/02/20185:37:44PM",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                295,
+                361,
+                733,
+                389
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                105,
+                398,
+                531,
+                424
+            ],
+            "text": "TRN:CR0005140",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                100,
+                438,
+                357,
+                462
+            ],
+            "text": "COUNTER4",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                677,
+                438,
+                928,
+                465
+            ],
+            "text": "CASHIER:2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                101,
+                485,
+                287,
+                507
+            ],
+            "text": "QTYUOM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                383,
+                484,
+                930,
+                509
+            ],
+            "text": "UNITAmt Exc.Amt Inc.GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                376,
+                508,
+                479,
+                533
+            ],
+            "text": "Price",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                583,
+                509,
+                656,
+                534
+            ],
+            "text": "Tax",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                759,
+                512,
+                928,
+                534
+            ],
+            "text": "Tax Code",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                103,
+                547,
+                535,
+                569
+            ],
+            "text": "100PLUS LIME 325ML",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                113,
+                575,
+                140,
+                593
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                183,
+                574,
+                306,
+                596
+            ],
+            "text": "WALK",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                390,
+                574,
+                478,
+                597
+            ],
+            "text": "1.45",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                564,
+                574,
+                652,
+                597
+            ],
+            "text": "1.45",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                738,
+                574,
+                929,
+                600
+            ],
+            "text": "1.45ZRL",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                97,
+                622,
+                400,
+                650
+            ],
+            "text": "*TotalQty1.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                833,
+                626,
+                929,
+                649
+            ],
+            "text": "1.45",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                101,
+                661,
+                580,
+                684
+            ],
+            "text": "Total Includes GsT 0%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                831,
+                661,
+                931,
+                688
+            ],
+            "text": "1.45",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                97,
+                696,
+                506,
+                720
+            ],
+            "text": "Customer's Payment",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                95,
+                729,
+                209,
+                756
+            ],
+            "text": "Cash",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                810,
+                732,
+                931,
+                758
+            ],
+            "text": "10.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                95,
+                760,
+                258,
+                790
+            ],
+            "text": "Change",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                831,
+                763,
+                931,
+                790
+            ],
+            "text": "8.55",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                99,
+                800,
+                369,
+                826
+            ],
+            "text": "GST Summary",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                457,
+                803,
+                702,
+                827
+            ],
+            "text": "Amount (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                747,
+                802,
+                922,
+                830
+            ],
+            "text": "TaxRM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                97,
+                834,
+                275,
+                858
+            ],
+            "text": "ZRL=0%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                624,
+                837,
+                707,
+                860
+            ],
+            "text": "1.45",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                840,
+                837,
+                923,
+                861
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                212,
+                868,
+                820,
+                893
+            ],
+            "text": "*Goods sold are not returnable",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                128,
+                896,
+                902,
+                923
+            ],
+            "text": "Thank you for shopping at PASARAYA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                222,
+                924,
+                804,
+                946
+            ],
+            "text": "BORONG PINTAR SDNBHD",
+            "label": "COMPANY"
+        }
+    ]
+}

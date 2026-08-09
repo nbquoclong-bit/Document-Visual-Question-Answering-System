@@ -1,0 +1,504 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                89,
+                833,
+                110
+            ],
+            "text": "SANYUSTATIONERYSHOP",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                77,
+                118,
+                820,
+                138
+            ],
+            "text": "NO.31G&33G,JALAN SETIA INDAH XU13/X",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                80,
+                137,
+                403,
+                151
+            ],
+            "text": "40170SETIA ALAM",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                77,
+                155,
+                702,
+                173
+            ],
+            "text": "Mobile/Whatsapps :+6012-918 7937",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                80,
+                175,
+                434,
+                190
+            ],
+            "text": "Tel:+603-33624137",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                84,
+                192,
+                526,
+                207
+            ],
+            "text": "GSTIDNo:001531760640",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                672,
+                201,
+                961,
+                218
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                67,
+                212,
+                237,
+                226
+            ],
+            "text": "Owned By:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                63,
+                226,
+                620,
+                244
+            ],
+            "text": "SANYU SUPPLY SDN BHD (1135772-K)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                75,
+                264,
+                489,
+                279
+            ],
+            "text": "CASH SALES COUNTER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                303,
+                321,
+                323
+            ],
+            "text": "1.2012-0029",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                447,
+                307,
+                969,
+                321
+            ],
+            "text": "RESTAURANT ORDER CHIT NCR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                445,
+                325,
+                570,
+                340
+            ],
+            "text": "3.5\"x6\"",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                135,
+                345,
+                323,
+                362
+            ],
+            "text": "3 X2.9000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                781,
+                347,
+                875,
+                361
+            ],
+            "text": "8.70",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                885,
+                347,
+                956,
+                362
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                369,
+                562,
+                384
+            ],
+            "text": "Total Sales Inclusive GST @6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                781,
+                371,
+                864,
+                387
+            ],
+            "text": "8.70",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                392,
+                387,
+                544,
+                405
+            ],
+            "text": "Discount",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                781,
+                391,
+                864,
+                407
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                392,
+                416,
+                486,
+                431
+            ],
+            "text": "Total",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                783,
+                418,
+                867,
+                434
+            ],
+            "text": "8.70",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                395,
+                436,
+                573,
+                453
+            ],
+            "text": "Round Adj",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                783,
+                438,
+                867,
+                453
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                395,
+                463,
+                570,
+                481
+            ],
+            "text": "Final Total",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                783,
+                465,
+                869,
+                483
+            ],
+            "text": "8.70",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                392,
+                500,
+                497,
+                519
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                765,
+                502,
+                869,
+                521
+            ],
+            "text": "10.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                395,
+                522,
+                544,
+                540
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                783,
+                524,
+                869,
+                542
+            ],
+            "text": "1.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                550,
+                294,
+                570
+            ],
+            "text": "GST Summary",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                420,
+                553,
+                638,
+                570
+            ],
+            "text": "Amount(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                781,
+                553,
+                928,
+                570
+            ],
+            "text": "Tax(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                572,
+                218,
+                590
+            ],
+            "text": "SR@6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                554,
+                573,
+                634,
+                590
+            ],
+            "text": "8.21",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                846,
+                573,
+                932,
+                591
+            ],
+            "text": "0.49",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                625,
+                476,
+                640
+            ],
+            "text": "INV NO:CS-SA-0130915",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                645,
+                169,
+                661
+            ],
+            "text": "Date:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                285,
+                642,
+                481,
+                660
+            ],
+            "text": "16/12/2017",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                51,
+                663,
+                227,
+                683
+            ],
+            "text": "Total Qty:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                281,
+                665,
+                319,
+                681
+            ],
+            "text": "3",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                59,
+                693,
+                966,
+                708
+            ],
+            "text": "Print TimeSaturday,16December,20176:26:53 PM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                124,
+                747,
+                928,
+                761
+            ],
+            "text": "Goods sold are not Returnable & Refundable",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                197,
+                779,
+                856,
+                794
+            ],
+            "text": "THANK YOUFOR YOURPATRONAGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                327,
+                800,
+                723,
+                814
+            ],
+            "text": "PLEASE COME AGAIN.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                205,
+                834,
+                849,
+                848
+            ],
+            "text": "TERIMA KASIH SILA DATANG LAGI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                119,
+                865,
+                935,
+                885
+            ],
+            "text": "**PLEASE KEEPTHIS RECEIPT FOR PROVE OF",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                96,
+                889,
+                957,
+                905
+            ],
+            "text": "PURCHASEDATEFOR I.TPRODUCT WARRANTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                411,
+                911,
+                646,
+                926
+            ],
+            "text": "PURPOSE**",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                153,
+                943,
+                901,
+                964
+            ],
+            "text": "Follow usin Facebook: Sanyu.Stationery",
+            "label": "COMPANY"
+        }
+    ]
+}

@@ -1,0 +1,744 @@
+{
+    "form": [
+        {
+            "box": [
+                54,
+                90,
+                346,
+                111
+            ],
+            "text": "Tax Invoice",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                128,
+                864,
+                147
+            ],
+            "text": "LA STATIONERY SDN BHD(640899-P",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                52,
+                158,
+                369,
+                172
+            ],
+            "text": "NO.8JALAN46/26",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                178,
+                387,
+                192
+            ],
+            "text": "TAMAN SRI RAMPAI,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                46,
+                199,
+                421,
+                214
+            ],
+            "text": "53300 KUALA LUMPUR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                48,
+                224,
+                471,
+                237
+            ],
+            "text": "Tel No.03-40230088",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                244,
+                473,
+                259
+            ],
+            "text": "GST Reg.:001542721536",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                281,
+                260,
+                295
+            ],
+            "text": "Invoice No.:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                328,
+                278,
+                534,
+                298
+            ],
+            "text": "T01-006194",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                302,
+                158,
+                317
+            ],
+            "text": "Date:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                333,
+                303,
+                742,
+                316
+            ],
+            "text": "09/02/201809:21:19AM",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                48,
+                325,
+                214,
+                340
+            ],
+            "text": "Terminal:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                328,
+                325,
+                401,
+                340
+            ],
+            "text": "T01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                346,
+                179,
+                363
+            ],
+            "text": "Cashier",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                333,
+                345,
+                452,
+                361
+            ],
+            "text": "VICKIE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                387,
+                142,
+                403
+            ],
+            "text": "DESC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                340,
+                386,
+                497,
+                404
+            ],
+            "text": "U.PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                585,
+                387,
+                679,
+                403
+            ],
+            "text": "Disc",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                695,
+                388,
+                922,
+                402
+            ],
+            "text": "AMOUNT TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                407,
+                159,
+                427
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                434,
+                408,
+                497,
+                425
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                784,
+                401,
+                957,
+                426
+            ],
+            "text": "RM CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                446,
+                645,
+                461
+            ],
+            "text": "GELPENREFILL PILOTG20.5 BLACK",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                161,
+                467,
+                273,
+                483
+            ],
+            "text": "5PCS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                443,
+                466,
+                533,
+                485
+            ],
+            "text": "2.86",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                588,
+                467,
+                666,
+                484
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                752,
+                467,
+                906,
+                485
+            ],
+            "text": "14.30 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                491,
+                627,
+                509
+            ],
+            "text": "GELPEN REFILL PILOT G2 0.5 BLUE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                161,
+                515,
+                270,
+                531
+            ],
+            "text": "5PCS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                448,
+                512,
+                533,
+                532
+            ],
+            "text": "2.86",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                588,
+                514,
+                668,
+                531
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                752,
+                514,
+                906,
+                532
+            ],
+            "text": "14.30SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                540,
+                607,
+                555
+            ],
+            "text": "GELPEN REFILL PILOTG20.5 RED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                161,
+                561,
+                270,
+                577
+            ],
+            "text": "2PCS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                448,
+                559,
+                533,
+                578
+            ],
+            "text": "2.86",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                588,
+                561,
+                668,
+                577
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                767,
+                560,
+                906,
+                578
+            ],
+            "text": "5.72 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                585,
+                513,
+                600
+            ],
+            "text": "GLUE-CLEAR GLUE 100OM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                161,
+                608,
+                263,
+                624
+            ],
+            "text": "1BTL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                448,
+                606,
+                533,
+                625
+            ],
+            "text": "7.42",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                588,
+                607,
+                668,
+                624
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                767,
+                607,
+                908,
+                625
+            ],
+            "text": "7.42 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                630,
+                700,
+                649
+            ],
+            "text": "LIQUID PAPER-PAPERMATE NP10 7ml.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                158,
+                651,
+                323,
+                671
+            ],
+            "text": "2 PCS*",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                450,
+                653,
+                528,
+                669
+            ],
+            "text": "3.71",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                585,
+                653,
+                668,
+                669
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                771,
+                655,
+                906,
+                669
+            ],
+            "text": "7.42SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                678,
+                877,
+                693
+            ],
+            "text": "PERMANENT MARKER SHARPIE FINE BLACK 3O051",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                166,
+                700,
+                268,
+                715
+            ],
+            "text": "1 PCS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                297,
+                702,
+                317,
+                712
+            ],
+            "text": "*",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                450,
+                700,
+                531,
+                716
+            ],
+            "text": "2.33",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                588,
+                700,
+                668,
+                715
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                765,
+                699,
+                908,
+                716
+            ],
+            "text": "2.33 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                724,
+                635,
+                738
+            ],
+            "text": "BALLPENPILOT FRIXIONO.5 BLACK",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                161,
+                746,
+                275,
+                762
+            ],
+            "text": "1PCS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                444,
+                743,
+                534,
+                766
+            ],
+            "text": "5.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                588,
+                745,
+                668,
+                762
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                767,
+                745,
+                908,
+                763
+            ],
+            "text": "5.30 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                782,
+                536,
+                796
+            ],
+            "text": "SubTotal(Inclusive GsT):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                760,
+                781,
+                859,
+                796
+            ],
+            "text": "56.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                161,
+                807,
+                538,
+                825
+            ],
+            "text": "Rounding Adjustment :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                778,
+                807,
+                857,
+                822
+            ],
+            "text": "0.01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                836,
+                536,
+                854
+            ],
+            "text": "Rounded Total (RM):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                734,
+                835,
+                861,
+                854
+            ],
+            "text": "56.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                91,
+                877,
+                182,
+                895
+            ],
+            "text": "Cash",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                739,
+                878,
+                857,
+                894
+            ],
+            "text": "100.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                896,
+                310,
+                918
+            ],
+            "text": "Cash Change",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                752,
+                900,
+                857,
+                915
+            ],
+            "text": "43.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                925,
+                325,
+                946
+            ],
+            "text": "GST Summary",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                411,
+                928,
+                617,
+                943
+            ],
+            "text": "Amount(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                742,
+                927,
+                888,
+                945
+            ],
+            "text": "Tax(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                106,
+                958,
+                265,
+                975
+            ],
+            "text": "R@6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                520,
+                957,
+                625,
+                975
+            ],
+            "text": "53.58",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                796,
+                957,
+                900,
+                975
+            ],
+            "text": "3.21",
+            "label": "OTHER"
+        }
+    ]
+}

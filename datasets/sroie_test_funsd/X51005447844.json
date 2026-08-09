@@ -1,0 +1,644 @@
+{
+    "form": [
+        {
+            "box": [
+                278,
+                81,
+                733,
+                103
+            ],
+            "text": "RESTAURANT JIAWEI",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                334,
+                108,
+                655,
+                129
+            ],
+            "text": "JIAWEI HOUSE",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                358,
+                133,
+                658,
+                154
+            ],
+            "text": "002693074~K",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                258,
+                156,
+                725,
+                176
+            ],
+            "text": "13,JLNIASIKUTAMA8",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                216,
+                178,
+                766,
+                197
+            ],
+            "text": "MEDAN NIAGADAMAISGBESI",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                391,
+                199,
+                569,
+                217
+            ],
+            "text": "57000KL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                419,
+                231,
+                604,
+                253
+            ],
+            "text": "INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                291,
+                330,
+                309
+            ],
+            "text": "Invoice:8884",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                481,
+                292,
+                770,
+                310
+            ],
+            "text": "Cashier:admin",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                38,
+                311,
+                221,
+                330
+            ],
+            "text": "POSNo:2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                38,
+                333,
+                591,
+                350
+            ],
+            "text": "Date23/2/2018 20:04:08",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                38,
+                356,
+                263,
+                389
+            ],
+            "text": "Table",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                426,
+                355,
+                528,
+                390
+            ],
+            "text": "13",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                80,
+                412,
+                167,
+                432
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                301,
+                412,
+                372,
+                433
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                426,
+                413,
+                569,
+                432
+            ],
+            "text": "U/PRM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                606,
+                412,
+                756,
+                434
+            ],
+            "text": "D1SC%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                792,
+                412,
+                938,
+                434
+            ],
+            "text": "AmtRM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                80,
+                453,
+                354,
+                473
+            ],
+            "text": "Red Cat Fish",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                391,
+                475,
+                419,
+                492
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                497,
+                473,
+                620,
+                495
+            ],
+            "text": "42.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                716,
+                473,
+                819,
+                496
+            ],
+            "text": "0.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                875,
+                474,
+                957,
+                495
+            ],
+            "text": "42.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                254,
+                491,
+                423,
+                517
+            ],
+            "text": "Steamed",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                84,
+                514,
+                432,
+                535
+            ],
+            "text": "Ginger Clams S)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                584,
+                532,
+                710,
+                557
+            ],
+            "text": "20.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                477,
+                537,
+                504,
+                551
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                802,
+                533,
+                909,
+                558
+            ],
+            "text": "0.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                84,
+                557,
+                538,
+                575
+            ],
+            "text": "BeancurdWDaoGanS)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                589,
+                577,
+                707,
+                599
+            ],
+            "text": "18.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                802,
+                574,
+                909,
+                600
+            ],
+            "text": "0.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                479,
+                581,
+                502,
+                592
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                82,
+                597,
+                477,
+                617
+            ],
+            "text": "G.Dragon ChivesS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                567,
+                617,
+                688,
+                639
+            ],
+            "text": "16.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                778,
+                616,
+                885,
+                639
+            ],
+            "text": "0.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                459,
+                622,
+                477,
+                634
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                258,
+                637,
+                485,
+                658
+            ],
+            "text": "STIR FRIED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                655,
+                323,
+                679
+            ],
+            "text": "PuEr1-3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                153,
+                679,
+                256,
+                698
+            ],
+            "text": "1-3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                366,
+                680,
+                397,
+                695
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                494,
+                677,
+                597,
+                700
+            ],
+            "text": "5.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                696,
+                680,
+                794,
+                699
+            ],
+            "text": "0.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                870,
+                680,
+                952,
+                701
+            ],
+            "text": "5.0",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                145,
+                698,
+                223,
+                718
+            ],
+            "text": "HOT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                718,
+                256,
+                740
+            ],
+            "text": "RiceB",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                565,
+                737,
+                645,
+                761
+            ],
+            "text": ".50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                739,
+                738,
+                841,
+                761
+            ],
+            "text": "0.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                915,
+                741,
+                952,
+                762
+            ],
+            "text": "6",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                80,
+                759,
+                305,
+                780
+            ],
+            "text": "Rice Smal1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                500,
+                781,
+                596,
+                800
+            ],
+            "text": "100",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                694,
+                780,
+                797,
+                802
+            ],
+            "text": "0.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                870,
+                780,
+                955,
+                803
+            ],
+            "text": "3.0",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                125,
+                821,
+                430,
+                841
+            ],
+            "text": "Sub Total Bcit",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                547,
+                824,
+                680,
+                842
+            ],
+            "text": "scount",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                719,
+                823,
+                924,
+                842
+            ],
+            "text": "RM110.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                125,
+                841,
+                435,
+                863
+            ],
+            "text": "Service Char",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                763,
+                844,
+                922,
+                862
+            ],
+            "text": "RM0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                127,
+                862,
+                372,
+                883
+            ],
+            "text": "Total Sales",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                721,
+                864,
+                924,
+                883
+            ],
+            "text": "RM110.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                122,
+                882,
+                585,
+                906
+            ],
+            "text": "Rounding Adjustment:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                763,
+                885,
+                922,
+                904
+            ],
+            "text": "RM0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                120,
+                917,
+                323,
+                947
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                566,
+                918,
+                938,
+                949
+            ],
+            "text": "RM110.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                37,
+                950,
+                919,
+                968
+            ],
+            "text": "***************************************",
+            "label": "OTHER"
+        }
+    ]
+}

@@ -1,0 +1,684 @@
+{
+    "form": [
+        {
+            "box": [
+                829,
+                14,
+                894,
+                44
+            ],
+            "text": "R",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                168,
+                119,
+                812,
+                141
+            ],
+            "text": "KEDAI PAPAN YEW CHUAN",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                353,
+                140,
+                630,
+                159
+            ],
+            "text": "(0005583085-K)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                267,
+                163,
+                711,
+                182
+            ],
+            "text": "LOT 276JALAN BANTING",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                242,
+                186,
+                745,
+                205
+            ],
+            "text": "43800DENGKIL,SELANGOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                154,
+                223,
+                468,
+                238
+            ],
+            "text": "TEL03-87686092",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                506,
+                221,
+                831,
+                241
+            ],
+            "text": "FAX03-87686092",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                290,
+                245,
+                692,
+                264
+            ],
+            "text": "GSTID000781500416",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                363,
+                273,
+                620,
+                291
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                38,
+                293,
+                165,
+                312
+            ],
+            "text": "BillTo:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                40,
+                317,
+                595,
+                337
+            ],
+            "text": "SUCIALAM JAYA TRANSPORT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                38,
+                338,
+                404,
+                358
+            ],
+            "text": "NO 1JALAN AMAN2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                360,
+                394,
+                378
+            ],
+            "text": "TAMANDESA43800",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                40,
+                382,
+                418,
+                401
+            ],
+            "text": "DENGKIL SELANGOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                43,
+                407,
+                264,
+                422
+            ],
+            "text": "017-6057770",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                28,
+                424,
+                178,
+                446
+            ],
+            "text": "Doc No.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                269,
+                427,
+                523,
+                444
+            ],
+            "text": "CS00011014",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                639,
+                428,
+                939,
+                445
+            ],
+            "text": "Date:21/03/2018",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                40,
+                450,
+                175,
+                468
+            ],
+            "text": "Cashier",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                266,
+                447,
+                411,
+                470
+            ],
+            "text": ":USER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                639,
+                451,
+                901,
+                469
+            ],
+            "text": "Time:09:31:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                37,
+                472,
+                288,
+                493
+            ],
+            "text": "Salesperson :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                648,
+                474,
+                740,
+                494
+            ],
+            "text": "Ref.:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                558,
+                508,
+                660,
+                527
+            ],
+            "text": "(GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                745,
+                508,
+                845,
+                528
+            ],
+            "text": "(GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                522,
+                117,
+                542
+            ],
+            "text": "Item",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                297,
+                521,
+                373,
+                545
+            ],
+            "text": "Qty",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                410,
+                526,
+                529,
+                541
+            ],
+            "text": "S/Price",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                554,
+                526,
+                668,
+                541
+            ],
+            "text": "S/Price",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                720,
+                526,
+                848,
+                543
+            ],
+            "text": "Amount",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                886,
+                527,
+                951,
+                545
+            ],
+            "text": "Tax",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                38,
+                543,
+                156,
+                562
+            ],
+            "text": "101870",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                312,
+                544,
+                353,
+                563
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                420,
+                543,
+                517,
+                562
+            ],
+            "text": "65.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                560,
+                544,
+                658,
+                563
+            ],
+            "text": "68.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                757,
+                544,
+                851,
+                563
+            ],
+            "text": "68.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                896,
+                545,
+                951,
+                563
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                37,
+                563,
+                306,
+                585
+            ],
+            "text": "PASIR HALUSD",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                80,
+                585,
+                248,
+                611
+            ],
+            "text": "Total Qty:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                316,
+                592,
+                348,
+                607
+            ],
+            "text": "1",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                750,
+                590,
+                853,
+                609
+            ],
+            "text": "68.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                173,
+                625,
+                663,
+                645
+            ],
+            "text": "Total Sales Excluding GsT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                752,
+                628,
+                853,
+                646
+            ],
+            "text": "65.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                480,
+                655,
+                663,
+                673
+            ],
+            "text": "Discount:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                769,
+                655,
+                853,
+                674
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                459,
+                682,
+                663,
+                701
+            ],
+            "text": "Total GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                769,
+                683,
+                853,
+                702
+            ],
+            "text": "3.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                465,
+                705,
+                667,
+                731
+            ],
+            "text": "Rounding :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                769,
+                709,
+                855,
+                729
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                103,
+                736,
+                663,
+                757
+            ],
+            "text": "Total Sales (Inclusive of GsT):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                752,
+                738,
+                853,
+                757
+            ],
+            "text": "68.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                511,
+                762,
+                669,
+                786
+            ],
+            "text": "CASH:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                746,
+                764,
+                851,
+                786
+            ],
+            "text": "68.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                479,
+                782,
+                669,
+                808
+            ],
+            "text": "Change :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                767,
+                786,
+                851,
+                806
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                98,
+                833,
+                384,
+                852
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                107,
+                856,
+                284,
+                881
+            ],
+            "text": "Tax Code",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                375,
+                861,
+                418,
+                882
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                504,
+                860,
+                675,
+                882
+            ],
+            "text": "Amt (RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                747,
+                862,
+                908,
+                881
+            ],
+            "text": "TaxRM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                110,
+                879,
+                175,
+                900
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                377,
+                880,
+                415,
+                901
+            ],
+            "text": "6",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                574,
+                882,
+                677,
+                901
+            ],
+            "text": "65.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                829,
+                882,
+                913,
+                902
+            ],
+            "text": "3.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                314,
+                903,
+                440,
+                925
+            ],
+            "text": "Total:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                572,
+                905,
+                673,
+                924
+            ],
+            "text": "65.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                829,
+                905,
+                918,
+                925
+            ],
+            "text": "3.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                103,
+                944,
+                880,
+                964
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE,THANK YOU",
+            "label": "OTHER"
+        }
+    ]
+}
