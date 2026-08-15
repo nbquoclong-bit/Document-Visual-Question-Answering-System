@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                83,
+                31,
+                359,
+                46
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                89,
+                40,
+                373,
+                72
+            ],
+            "text": "Số 210 Nguyễn Huệ, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                210,
+                150,
+                434,
+                165
+            ],
+            "text": "Ngày 29 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                122,
+                259,
+                211,
+                275
+            ],
+            "text": "55.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

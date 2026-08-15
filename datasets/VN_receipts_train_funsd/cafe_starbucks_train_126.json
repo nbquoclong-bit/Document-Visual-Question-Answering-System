@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                112,
+                96,
+                270,
+                121
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                19,
+                115,
+                363,
+                165
+            ],
+            "text": "Số 331 Trần Hưng Đạo, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                46,
+                200,
+                120,
+                223
+            ],
+            "text": "09/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                321,
+                143,
+                342
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                318,
+                242,
+                338
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                316,
+                360,
+                337
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                353,
+                136,
+                376
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                350,
+                242,
+                373
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                348,
+                360,
+                370
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                383,
+                136,
+                406
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                382,
+                242,
+                403
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                380,
+                359,
+                402
+            ],
+            "text": "160,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                475,
+                358,
+                495
+            ],
+            "text": "345,060",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

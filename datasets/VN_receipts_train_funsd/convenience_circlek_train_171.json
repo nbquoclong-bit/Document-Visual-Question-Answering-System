@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                40,
+                263,
+                66
+            ],
+            "text": "Circle K Hai Bà Trưng",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                90,
+                68,
+                307,
+                97
+            ],
+            "text": "Số 303 Lê Lợi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                186,
+                183,
+                210
+            ],
+            "text": "31/05/2026 12:30",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                272,
+                183,
+                297
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                271,
+                238,
+                291
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                269,
+                289,
+                291
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                267,
+                382,
+                288
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                298,
+                189,
+                322
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                296,
+                245,
+                316
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                251,
+                295,
+                288,
+                316
+            ],
+            "text": "6,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                293,
+                383,
+                314
+            ],
+            "text": "12,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                333,
+                377,
+                385,
+                398
+            ],
+            "text": "46,200đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

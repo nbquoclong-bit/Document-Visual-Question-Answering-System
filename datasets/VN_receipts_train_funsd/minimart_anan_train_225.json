@@ -1,0 +1,284 @@
+{
+    "form": [
+        {
+            "box": [
+                123,
+                20,
+                291,
+                42
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                22,
+                44,
+                391,
+                66
+            ],
+            "text": "Số 83 Hai Bà Trưng, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                94,
+                163,
+                212,
+                185
+            ],
+            "text": "29/05/2026 12:13",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                234,
+                175,
+                255
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                235,
+                267,
+                255
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                235,
+                333,
+                255
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                235,
+                392,
+                256
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                259,
+                212,
+                281
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                267,
+                261,
+                275,
+                282
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                295,
+                261,
+                333,
+                281
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                261,
+                391,
+                282
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                286,
+                167,
+                307
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                266,
+                287,
+                275,
+                307
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                296,
+                287,
+                332,
+                308
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                288,
+                392,
+                307
+            ],
+            "text": "27.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                313,
+                182,
+                333
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                259,
+                312,
+                267,
+                333
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                289,
+                313,
+                333,
+                333
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                313,
+                391,
+                334
+            ],
+            "text": "22.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                339,
+                168,
+                359
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                253,
+                339,
+                260,
+                360
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                281,
+                339,
+                333,
+                360
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                340,
+                392,
+                359
+            ],
+            "text": "700.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                365,
+                197,
+                386
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                266,
+                365,
+                274,
+                385
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                296,
+                365,
+                333,
+                386
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                365,
+                392,
+                386
+            ],
+            "text": "12.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                406,
+                392,
+                427
+            ],
+            "text": "891.000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                149,
+                15,
+                261,
+                36
+            ],
+            "text": "GS25 NGUYỄN HUỆ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                70,
+                36,
+                340,
+                57
+            ],
+            "text": "Số 161 Lê Lợi, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                148,
+                185,
+                169
+            ],
+            "text": "29/05/2026 14:11",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                242,
+                220,
+                263
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                242,
+                244,
+                263
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                267,
+                242,
+                312,
+                263
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                242,
+                393,
+                263
+            ],
+            "text": "28,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                271,
+                137,
+                292
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                271,
+                244,
+                292
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                267,
+                271,
+                312,
+                292
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                271,
+                393,
+                292
+            ],
+            "text": "44,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                300,
+                197,
+                321
+            ],
+            "text": "Mì trộn Indomie đặc biệt",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                300,
+                244,
+                321
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                267,
+                300,
+                312,
+                321
+            ],
+            "text": "12,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                300,
+                393,
+                321
+            ],
+            "text": "48,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                390,
+                395,
+                411
+            ],
+            "text": "129,600đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

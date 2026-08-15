@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                108,
+                83,
+                268,
+                107
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                102,
+                361,
+                148
+            ],
+            "text": "Số 39 Bùi Thị Xuân, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                43,
+                182,
+                118,
+                206
+            ],
+            "text": "21/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                304,
+                149,
+                326
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                308,
+                241,
+                328
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                316,
+                308,
+                361,
+                330
+            ],
+            "text": "65,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                337,
+                135,
+                359
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                339,
+                241,
+                361
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                340,
+                361,
+                362
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                370,
+                135,
+                392
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                372,
+                243,
+                392
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                372,
+                361,
+                394
+            ],
+            "text": "120,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                401,
+                143,
+                423
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                404,
+                243,
+                425
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                404,
+                361,
+                426
+            ],
+            "text": "240,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                499,
+                362,
+                521
+            ],
+            "text": "598,950",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

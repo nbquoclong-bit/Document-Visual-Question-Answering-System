@@ -1,0 +1,224 @@
+{
+    "form": [
+        {
+            "box": [
+                111,
+                89,
+                262,
+                121
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                32,
+                103,
+                346,
+                147
+            ],
+            "text": "Số 34 Trần Hưng Đạo, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                51,
+                178,
+                120,
+                206
+            ],
+            "text": "01/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                26,
+                298,
+                143,
+                326
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                293,
+                237,
+                314
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                302,
+                287,
+                351,
+                311
+            ],
+            "text": "300,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                332,
+                135,
+                357
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                325,
+                237,
+                346
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                320,
+                351,
+                343
+            ],
+            "text": "80,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                363,
+                135,
+                389
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                358,
+                237,
+                380
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                352,
+                351,
+                375
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                394,
+                149,
+                421
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                390,
+                237,
+                411
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                302,
+                386,
+                351,
+                409
+            ],
+            "text": "260,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                27,
+                426,
+                143,
+                452
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                423,
+                237,
+                444
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                302,
+                418,
+                351,
+                440
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                27,
+                458,
+                157,
+                484
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                456,
+                237,
+                477
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                302,
+                450,
+                351,
+                474
+            ],
+            "text": "255,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                287,
+                546,
+                351,
+                570
+            ],
+            "text": "1,170,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

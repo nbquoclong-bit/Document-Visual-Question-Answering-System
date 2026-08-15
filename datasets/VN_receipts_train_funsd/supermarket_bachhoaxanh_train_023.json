@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                111,
+                15,
+                269,
+                36
+            ],
+            "text": "BÁCH HÓA XANH QUẬN 12",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                36,
+                57,
+                344,
+                78
+            ],
+            "text": "Số 386 Bùi Thị Xuân, Quận Ba Đình, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                146,
+                218,
+                169
+            ],
+            "text": "17/06/2026 16:06",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                235,
+                180,
+                256
+            ],
+            "text": "Nước mắm Nam Ngư 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                35,
+                258,
+                43,
+                279
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                205,
+                258,
+                250,
+                279
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                320,
+                258,
+                365,
+                279
+            ],
+            "text": "42,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                287,
+                165,
+                308
+            ],
+            "text": "Thịt ba rọi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                35,
+                310,
+                43,
+                331
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                205,
+                310,
+                250,
+                331
+            ],
+            "text": "75,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                313,
+                310,
+                365,
+                331
+            ],
+            "text": "300,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                372,
+                365,
+                393
+            ],
+            "text": "369,360",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

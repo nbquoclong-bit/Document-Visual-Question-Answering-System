@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                17,
+                249,
+                38
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                148,
+                59,
+                267,
+                80
+            ],
+            "text": "26/05/2026 17:13",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                43,
+                115,
+                222,
+                136
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                115,
+                362,
+                136
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                43,
+                144,
+                178,
+                165
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                144,
+                363,
+                165
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                317,
+                177,
+                363,
+                201
+            ],
+            "text": "35,640",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

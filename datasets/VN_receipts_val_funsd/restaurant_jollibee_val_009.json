@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                151,
+                21,
+                262,
+                41
+            ],
+            "text": "JOLLIBEE VINCOM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                91,
+                40,
+                321,
+                62
+            ],
+            "text": "Số 388 Lê Lợi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                150,
+                186,
+                171
+            ],
+            "text": "15/06/2026 09:38",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                245,
+                124,
+                266
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                245,
+                217,
+                266
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                241,
+                245,
+                284,
+                266
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                245,
+                391,
+                267
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                275,
+                131,
+                297
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                276,
+                218,
+                297
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                240,
+                275,
+                284,
+                297
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                275,
+                392,
+                297
+            ],
+            "text": "114,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                306,
+                132,
+                327
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                306,
+                218,
+                327
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                240,
+                307,
+                285,
+                327
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                306,
+                392,
+                327
+            ],
+            "text": "51,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                334,
+                395,
+                394,
+                416
+            ],
+            "text": "243,000đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -2,173 +2,213 @@
     "form": [
         {
             "box": [
-                332,
+                96,
+                883,
+                261,
+                902
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                633,
+                881,
+                703,
+                898
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                118,
+                851,
+                188,
+                868
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                560,
+                852,
+                635,
+                864
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                656,
+                850,
+                695,
+                865
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                230,
+                785,
+                592,
+                811
+            ],
+            "text": "Cẩm ơn quỷ khách, hẹn gập lại",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                309,
+                715,
+                690,
+                753
+            ],
+            "text": "Thành tiền: 25,000",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
                 237,
-                639,
-                277
+                649,
+                356,
+                693
             ],
-            "text": "Cuitar Cafe",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                342,
-                287,
-                643,
-                319
+                582,
+                651,
+                696,
+                689
             ],
-            "text": "Te.0985268359",
+            "text": "000",
             "label": "OTHER"
         },
         {
             "box": [
-                144,
-                327,
-                842,
-                374
+                101,
+                609,
+                424,
+                643
             ],
-            "text": "28 Pnan Chu Trinh,Hiep Phu,Quan 9,HO",
+            "text": "Café (nóng/ đá) - Ly",
             "label": "OTHER"
         },
         {
             "box": [
-                128,
-                386,
-                477,
-                416
-            ],
-            "text": "Nqaylap:03/10/2020",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                583,
-                375,
-                867,
-                407
-            ],
-            "text": "Khu vucTang tret",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                729,
-                416,
-                871,
-                447
-            ],
-            "text": "BanT06",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                127,
-                428,
-                545,
-                458
-            ],
-            "text": "H6a donHDL201003 0025",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                201,
-                466,
-                804,
-                512
-            ],
-            "text": "PHIEU TINH TIEN",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                790,
-                524,
-                889,
-                558
-            ],
-            "text": "Tién",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                121,
-                544,
-                216,
-                575
+                108,
+                560,
+                181,
+                590
             ],
             "text": "Món",
             "label": "OTHER"
         },
         {
             "box": [
-                292,
-                527,
-                695,
-                574
+                243,
+                560,
+                413,
+                593
             ],
-            "text": "Don gia só luong",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                114,
-                583,
-                537,
-                623
+                400,
+                557,
+                543,
+                595
             ],
-            "text": "Café (nóng/ da) -Ly",
+            "text": "Số lượng",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                170,
+                489,
+                639,
+                534
+            ],
+            "text": "PHIẾU TINH TIẾN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                117,
+                450,
+                437,
+                476
+            ],
+            "text": "Hóa đơn: HDL201003-0025",
             "label": "OTHER"
         },
         {
             "box": [
                 579,
-                625,
-                609,
-                656
+                449,
+                687,
+                476
             ],
-            "text": "1",
+            "text": "Bàn: T06",
             "label": "OTHER"
         },
         {
             "box": [
-                740,
-                614,
-                891,
-                655
+                119,
+                404,
+                386,
+                433
             ],
-            "text": "25,000",
+            "text": "Ngày lấp: 03/10/2020",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                469,
+                406,
+                686,
+                431
+            ],
+            "text": "Khu vực: Tâng trêt",
             "label": "OTHER"
         },
         {
             "box": [
-                294,
-                624,
-                450,
-                667
+                133,
+                352,
+                668,
+                390
             ],
-            "text": "25,000",
+            "text": "28 Phan Chu Trinh, Hiệp Phú, Quận 9, Hồ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                287,
+                309,
+                516,
+                335
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                390,
-                678,
-                889,
-                724
+                282,
+                256,
+                514,
+                293
             ],
-            "text": "Thanh tien:25,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                283,
-                749,
-                759,
-                786
-            ],
-            "text": "Camonquykhachhengap ial ",
-            "label": "OTHER"
+            "text": "Cuitar Cafe",
+            "label": "SELLER"
         }
     ]
 }

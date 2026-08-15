@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                112,
+                36,
+                277,
+                57
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                58,
+                377,
+                82
+            ],
+            "text": "Số 136 Nguyễn Trãi, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                87,
+                175,
+                203,
+                196
+            ],
+            "text": "11/06/2026 07:16",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                244,
+                168,
+                264
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                249,
+                243,
+                257,
+                263
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                277,
+                243,
+                322,
+                263
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                330,
+                242,
+                381,
+                262
+            ],
+            "text": "128.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                268,
+                204,
+                289
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                257,
+                268,
+                264,
+                288
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                285,
+                268,
+                322,
+                288
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                268,
+                382,
+                287
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                331,
+                307,
+                382,
+                327
+            ],
+            "text": "158.400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

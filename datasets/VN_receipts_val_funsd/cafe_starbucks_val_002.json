@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                101,
+                83,
+                272,
+                106
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                14,
+                102,
+                361,
+                148
+            ],
+            "text": "Số 48 Lê Lợi, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                41,
+                180,
+                114,
+                205
+            ],
+            "text": "19/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                301,
+                132,
+                325
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                306,
+                239,
+                327
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                314,
+                308,
+                361,
+                330
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                333,
+                147,
+                357
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                338,
+                240,
+                360
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                340,
+                361,
+                363
+            ],
+            "text": "130,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                365,
+                132,
+                389
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                370,
+                239,
+                392
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                372,
+                361,
+                395
+            ],
+            "text": "120,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                397,
+                140,
+                421
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                403,
+                240,
+                423
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                405,
+                360,
+                427
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                499,
+                361,
+                522
+            ],
+            "text": "502,740",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

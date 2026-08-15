@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                90,
+                21,
+                280,
+                43
+            ],
+            "text": "7-Eleven Saigon Trade Center",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                144,
+                63,
+                262,
+                84
+            ],
+            "text": "16/06/2026 15:47",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                41,
+                117,
+                173,
+                139
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                120,
+                354,
+                140
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                42,
+                145,
+                218,
+                168
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                147,
+                355,
+                168
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                42,
+                174,
+                217,
+                196
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                176,
+                355,
+                197
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                208,
+                356,
+                232
+            ],
+            "text": "72,360",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

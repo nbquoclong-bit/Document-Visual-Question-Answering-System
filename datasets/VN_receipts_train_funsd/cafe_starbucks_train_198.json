@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                109,
+                82,
+                271,
+                103
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                40,
+                103,
+                340,
+                124
+            ],
+            "text": "Số 217 Trần Hưng Đạo, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                43,
+                163,
+                118,
+                186
+            ],
+            "text": "20/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                288,
+                150,
+                309
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                288,
+                244,
+                309
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                288,
+                365,
+                309
+            ],
+            "text": "195,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                321,
+                135,
+                342
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                321,
+                244,
+                342
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                321,
+                365,
+                342
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                354,
+                158,
+                375
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                354,
+                244,
+                375
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                354,
+                365,
+                375
+            ],
+            "text": "255,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                451,
+                365,
+                472
+            ],
+            "text": "612,360",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

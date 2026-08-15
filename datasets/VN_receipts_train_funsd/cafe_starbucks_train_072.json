@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                106,
+                91,
+                271,
+                113
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                18,
+                110,
+                358,
+                155
+            ],
+            "text": "Số 6 Hai Bà Trưng, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                45,
+                190,
+                119,
+                211
+            ],
+            "text": "17/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                309,
+                136,
+                331
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                311,
+                242,
+                331
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                311,
+                359,
+                333
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                342,
+                144,
+                364
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                343,
+                242,
+                363
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                316,
+                343,
+                359,
+                365
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                375,
+                136,
+                395
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                375,
+                243,
+                396
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                376,
+                360,
+                396
+            ],
+            "text": "160,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                406,
+                159,
+                428
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                407,
+                243,
+                427
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                316,
+                407,
+                360,
+                427
+            ],
+            "text": "85,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                502,
+                361,
+                523
+            ],
+            "text": "381,425",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

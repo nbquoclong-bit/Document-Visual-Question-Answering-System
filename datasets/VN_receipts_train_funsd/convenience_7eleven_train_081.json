@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                134,
+                18,
+                251,
+                43
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                152,
+                61,
+                269,
+                84
+            ],
+            "text": "17/06/2026 20:08",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                48,
+                116,
+                224,
+                141
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                121,
+                362,
+                144
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                48,
+                144,
+                166,
+                168
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                150,
+                362,
+                173
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                183,
+                362,
+                208
+            ],
+            "text": "126,360",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

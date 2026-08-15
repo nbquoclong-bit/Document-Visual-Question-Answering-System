@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                86,
+                32,
+                363,
+                48
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                93,
+                41,
+                382,
+                72
+            ],
+            "text": "Số 247 Nguyễn Trãi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                213,
+                150,
+                436,
+                164
+            ],
+            "text": "Ngày 05 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                258,
+                215,
+                274
+            ],
+            "text": "55.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

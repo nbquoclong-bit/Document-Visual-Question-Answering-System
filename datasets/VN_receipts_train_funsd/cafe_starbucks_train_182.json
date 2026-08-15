@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                118,
+                103,
+                272,
+                128
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                29,
+                122,
+                359,
+                149
+            ],
+            "text": "Số 139 Nguyễn Trãi, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                52,
+                179,
+                127,
+                203
+            ],
+            "text": "04/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                299,
+                141,
+                320
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                300,
+                245,
+                321
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                301,
+                359,
+                322
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                329,
+                155,
+                351
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                331,
+                245,
+                352
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                332,
+                358,
+                353
+            ],
+            "text": "195,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                361,
+                162,
+                381
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                362,
+                243,
+                383
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                363,
+                357,
+                383
+            ],
+            "text": "170,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                452,
+                356,
+                474
+            ],
+            "text": "437,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

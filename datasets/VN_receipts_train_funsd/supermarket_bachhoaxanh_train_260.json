@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                97,
+                25,
+                270,
+                47
+            ],
+            "text": "BÁCH HÓA XANH LÊ ĐỨC THỌ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                67,
+                352,
+                108
+            ],
+            "text": "Số 126 Lê Lợi, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                173,
+                213,
+                196
+            ],
+            "text": "17/06/2026 09:35",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                260,
+                106,
+                280
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                39,
+                282,
+                47,
+                302
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                209,
+                280,
+                245,
+                301
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                319,
+                281,
+                355,
+                301
+            ],
+            "text": "9,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                308,
+                179,
+                330
+            ],
+            "text": "Nước mắm Nam Ngư 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                40,
+                331,
+                48,
+                352
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                203,
+                330,
+                246,
+                350
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                312,
+                330,
+                355,
+                350
+            ],
+            "text": "42,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                389,
+                356,
+                410
+            ],
+            "text": "56,100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

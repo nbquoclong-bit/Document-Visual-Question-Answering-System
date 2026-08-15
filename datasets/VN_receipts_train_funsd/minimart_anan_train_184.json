@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                118,
+                17,
+                289,
+                40
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                41,
+                391,
+                67
+            ],
+            "text": "Số 237 Bùi Thị Xuân, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                166,
+                210,
+                188
+            ],
+            "text": "11/06/2026 07:40",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                238,
+                158,
+                260
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                261,
+                240,
+                269,
+                261
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                240,
+                334,
+                262
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                241,
+                390,
+                262
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                265,
+                166,
+                287
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                269,
+                267,
+                277,
+                288
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                298,
+                267,
+                335,
+                288
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                268,
+                390,
+                289
+            ],
+            "text": "36.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                292,
+                195,
+                314
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                270,
+                294,
+                277,
+                315
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                298,
+                294,
+                334,
+                315
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                294,
+                390,
+                316
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                346,
+                336,
+                391,
+                357
+            ],
+            "text": "92.880",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

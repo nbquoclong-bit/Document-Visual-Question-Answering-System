@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                100,
+                17,
+                307,
+                38
+            ],
+            "text": "CO.OP FOOD NGUYỄN ĐÌNH CHIỂU",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                74,
+                36,
+                333,
+                58
+            ],
+            "text": "Số 421 Lê Lợi, Quận Đống Đa, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                62,
+                155,
+                203,
+                175
+            ],
+            "text": "07/06/2026 08:28:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                231,
+                166,
+                253
+            ],
+            "text": "Khăn ướt Bobby 80 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                185,
+                260,
+                252,
+                282
+            ],
+            "text": "27,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                268,
+                261,
+                276,
+                282
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                261,
+                389,
+                282
+            ],
+            "text": "108,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                289,
+                188,
+                310
+            ],
+            "text": "Hộp dâu tây Đà Lạt 250g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                185,
+                317,
+                252,
+                339
+            ],
+            "text": "65,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                268,
+                317,
+                276,
+                338
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                317,
+                389,
+                339
+            ],
+            "text": "130,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                315,
+                425,
+                389,
+                445
+            ],
+            "text": "261,800.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

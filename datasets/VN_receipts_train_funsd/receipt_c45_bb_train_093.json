@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                95,
+                33,
+                364,
+                50
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                101,
+                43,
+                402,
+                74
+            ],
+            "text": "Số 337 Cách Mạng Tháng Tám, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                216,
+                153,
+                433,
+                168
+            ],
+            "text": "Ngày 12 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                131,
+                261,
+                242,
+                276
+            ],
+            "text": "1.620.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

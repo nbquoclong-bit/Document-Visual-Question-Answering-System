@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                20,
+                282,
+                43
+            ],
+            "text": "KFC Nguyễn Ảnh Thủ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                55,
+                42,
+                355,
+                66
+            ],
+            "text": "Số 434 Lý Thường Kiệt, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                164,
+                206,
+                185
+            ],
+            "text": "23/05/2026 11:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                245,
+                125,
+                266
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                246,
+                215,
+                266
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                238,
+                246,
+                288,
+                267
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                246,
+                391,
+                267
+            ],
+            "text": "66,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                276,
+                149,
+                297
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                276,
+                216,
+                297
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                239,
+                276,
+                289,
+                297
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                277,
+                391,
+                297
+            ],
+            "text": "56,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                328,
+                388,
+                383,
+                409
+            ],
+            "text": "131,760",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

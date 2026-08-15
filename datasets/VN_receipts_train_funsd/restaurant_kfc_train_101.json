@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                19,
+                279,
+                43
+            ],
+            "text": "KFC Nguyễn Ảnh Thủ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                56,
+                40,
+                350,
+                67
+            ],
+            "text": "Số 67 Nguyễn Huệ, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                163,
+                203,
+                187
+            ],
+            "text": "26/05/2026 13:19",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                245,
+                164,
+                269
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                213,
+                245,
+                223,
+                266
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                241,
+                243,
+                292,
+                265
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                242,
+                390,
+                264
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                275,
+                164,
+                298
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                213,
+                276,
+                223,
+                297
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                274,
+                292,
+                296
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                273,
+                390,
+                294
+            ],
+            "text": "54,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                307,
+                101,
+                330
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                216,
+                305,
+                223,
+                326
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                241,
+                304,
+                293,
+                327
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                304,
+                390,
+                326
+            ],
+            "text": "42,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                337,
+                148,
+                360
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                216,
+                336,
+                223,
+                358
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                335,
+                293,
+                356
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                334,
+                390,
+                356
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                318,
+                446,
+                381,
+                469
+            ],
+            "text": "208,440",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

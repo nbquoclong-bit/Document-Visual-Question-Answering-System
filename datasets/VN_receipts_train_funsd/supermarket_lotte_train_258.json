@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                15,
+                250,
+                36
+            ],
+            "text": "SAIGON CO.OP",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                44,
+                36,
+                366,
+                57
+            ],
+            "text": "Số 380 Cách Mạng Tháng Tám, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                62,
+                155,
+                205,
+                176
+            ],
+            "text": "19/06/2026 08:11:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                233,
+                182,
+                254
+            ],
+            "text": "Nước cam ép Twister 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                187,
+                262,
+                254,
+                283
+            ],
+            "text": "28,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                271,
+                262,
+                279,
+                283
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                318,
+                262,
+                393,
+                283
+            ],
+            "text": "112,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                291,
+                175,
+                312
+            ],
+            "text": "Bánh quy Cosy Kinh Đô",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                187,
+                320,
+                254,
+                341
+            ],
+            "text": "22,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                271,
+                320,
+                279,
+                341
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                326,
+                320,
+                393,
+                341
+            ],
+            "text": "88,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                349,
+                190,
+                370
+            ],
+            "text": "Hộp dâu tây Đà Lạt 250g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                187,
+                378,
+                254,
+                399
+            ],
+            "text": "65,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                271,
+                378,
+                279,
+                399
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                318,
+                378,
+                393,
+                399
+            ],
+            "text": "130,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                318,
+                485,
+                393,
+                506
+            ],
+            "text": "356,400.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

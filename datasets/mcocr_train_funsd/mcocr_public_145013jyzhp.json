@@ -2,193 +2,173 @@
     "form": [
         {
             "box": [
-                380,
-                416,
-                613,
-                448
+                295,
+                875,
+                541,
+                909
             ],
-            "text": "CUA HANG NAMOANH",
+            "text": "Cẩm ơn quỹ khách, Hẹn gip lạit",
             "label": "OTHER"
         },
         {
             "box": [
-                384,
-                464,
-                618,
-                495
+                226,
+                825,
+                358,
+                860
             ],
-            "text": "0869322496-02438765210",
-            "label": "OTHER"
+            "text": "",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                399,
-                523,
-                613,
-                552
-            ],
-            "text": "HOADON BAN HANG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                595,
-                548,
-                755,
-                575
-            ],
-            "text": "Ngav:11-08-2020",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                266,
-                566,
-                399,
-                590
-            ],
-            "text": "S6:SON55296",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                460,
-                620,
-                542,
-                648
-            ],
-            "text": "Don gia",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                645,
-                613,
-                761,
-                639
-            ],
-            "text": "Thanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                270,
-                639,
-                299,
-                658
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                266,
-                645,
-                625,
-                693
-            ],
-            "text": "irng tinh luyén xuát kháu Ikg",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                462,
-                673,
-                644,
-                708
-            ],
-            "text": "14.000-0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                674,
-                678,
-                768,
-                698
-            ],
-            "text": "420,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                276,
-                702,
-                305,
-                721
-            ],
-            "text": "30",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                272,
-                708,
-                575,
-                757
-            ],
-            "text": "ung vang xuát kháu Ikg ",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                471,
-                741,
-                552,
-                769
-            ],
-            "text": "14,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                682,
-                740,
-                778,
-                762
-            ],
-            "text": "420,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                278,
-                764,
-                312,
-                787
-            ],
-            "text": "30",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                686,
-                781,
-                781,
-                799
+                538,
+                831,
+                612,
+                853
             ],
             "text": "840,000",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                379,
+                785,
+                438,
+                805
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                277,
-                786,
+                539,
+                792,
+                612,
+                815
+            ],
+            "text": "420,000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                225,
+                751,
+                458,
+                787
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                377,
+                720,
+                442,
+                744
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                536,
+                724,
+                609,
+                748
+            ],
+            "text": "420,000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                224,
+                686,
+                501,
+                722
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                376,
+                659,
+                438,
+                683
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                519,
+                662,
+                606,
+                683
+            ],
+            "text": "Thành tiền",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                230,
+                597,
+                333,
+                617
+            ],
+            "text": "Số: SON55296",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                483,
+                596,
+                606,
+                617
+            ],
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                336,
+                564,
+                499,
+                584
+            ],
+            "text": "HÓA ĐƠN BÁN HÀNG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                327,
+                505,
+                506,
+                523
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                231,
+                472,
+                603,
+                507
+            ],
+            "text": "",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                328,
                 455,
-                829
+                505,
+                477
             ],
-            "text": "Cong tien hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                759,
-                933,
-                805,
-                957
-            ],
-            "text": "11",
-            "label": "OTHER"
+            "text": "",
+            "label": "SELLER"
         }
     ]
 }

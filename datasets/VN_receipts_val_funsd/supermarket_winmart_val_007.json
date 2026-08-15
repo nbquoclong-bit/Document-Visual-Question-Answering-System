@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                151,
+                29,
+                255,
+                51
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                92,
+                64,
+                315,
+                86
+            ],
+            "text": "Số 443 Lê Lợi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                171,
+                184,
+                193
+            ],
+            "text": "06/06/2026 10:23",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                265,
+                187,
+                285
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                265,
+                213,
+                287
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                235,
+                265,
+                279,
+                287
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                265,
+                392,
+                287
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                294,
+                135,
+                315
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                293,
+                213,
+                314
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                235,
+                293,
+                279,
+                314
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                294,
+                392,
+                316
+            ],
+            "text": "224.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                323,
+                188,
+                343
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                213,
+                322,
+                220,
+                344
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                322,
+                279,
+                344
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                322,
+                392,
+                344
+            ],
+            "text": "14.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                410,
+                392,
+                432
+            ],
+            "text": "281.600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

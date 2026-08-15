@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                122,
+                18,
+                257,
+                41
+            ],
+            "text": "PHÚC LONG LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                48,
+                41,
+                332,
+                64
+            ],
+            "text": "Số 12 Trần Hưng Đạo, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                16,
+                158,
+                134,
+                181
+            ],
+            "text": "21/05/2026 11:13",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                241,
+                24,
+                262
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                239,
+                192,
+                263
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                238,
+                363,
+                261
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                267,
+                24,
+                288
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                267,
+                184,
+                289
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                265,
+                363,
+                288
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                294,
+                24,
+                315
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                293,
+                192,
+                316
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                292,
+                363,
+                314
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                373,
+                363,
+                395
+            ],
+            "text": "286,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                111,
+                43,
+                271,
+                65
+            ],
+            "text": "PHÚC LONG TEA & COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                82,
+                63,
+                300,
+                88
+            ],
+            "text": "Số 118 Lê Lợi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                22,
+                174,
+                138,
+                197
+            ],
+            "text": "11/06/2026 07:17",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                253,
+                30,
+                273
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                56,
+                251,
+                142,
+                273
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                247,
+                359,
+                268
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                279,
+                30,
+                298
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                57,
+                275,
+                158,
+                298
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                272,
+                360,
+                293
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                347,
+                360,
+                368
+            ],
+            "text": "174,960",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

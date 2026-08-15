@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                80,
+                15,
+                300,
+                38
+            ],
+            "text": "HIGHLANDS COFFEE TRẦN HƯNG ĐẠO",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                28,
+                36,
+                351,
+                58
+            ],
+            "text": "Số 379 Bùi Thị Xuân, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                69,
+                178,
+                186,
+                198
+            ],
+            "text": "15/06/2026 22:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                239,
+                25,
+                261
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                239,
+                140,
+                260
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                241,
+                360,
+                262
+            ],
+            "text": "70,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                266,
+                25,
+                286
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                266,
+                184,
+                288
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                267,
+                360,
+                288
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                293,
+                25,
+                313
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                292,
+                176,
+                315
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                294,
+                360,
+                314
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                319,
+                25,
+                341
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                319,
+                191,
+                341
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                320,
+                360,
+                342
+            ],
+            "text": "29,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                383,
+                360,
+                405
+            ],
+            "text": "336,960",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

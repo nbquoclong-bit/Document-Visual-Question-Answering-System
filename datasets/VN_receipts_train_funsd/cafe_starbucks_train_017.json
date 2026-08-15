@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                110,
+                84,
+                268,
+                108
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                50,
+                102,
+                329,
+                130
+            ],
+            "text": "Số 240 Nguyễn Trãi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                46,
+                161,
+                120,
+                185
+            ],
+            "text": "30/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                283,
+                152,
+                307
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                287,
+                244,
+                308
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                288,
+                361,
+                310
+            ],
+            "text": "195,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                316,
+                160,
+                339
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                319,
+                244,
+                340
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                310,
+                320,
+                362,
+                342
+            ],
+            "text": "340,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                349,
+                138,
+                371
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                351,
+                244,
+                373
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                317,
+                352,
+                361,
+                374
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                381,
+                145,
+                404
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                383,
+                245,
+                405
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                384,
+                362,
+                405
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                478,
+                363,
+                500
+            ],
+            "text": "803,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

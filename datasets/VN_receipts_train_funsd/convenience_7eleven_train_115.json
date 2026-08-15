@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                17,
+                251,
+                40
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                150,
+                58,
+                267,
+                82
+            ],
+            "text": "12/06/2026 07:53",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                49,
+                116,
+                163,
+                140
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                111,
+                357,
+                134
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                50,
+                144,
+                221,
+                169
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                140,
+                357,
+                162
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                49,
+                172,
+                221,
+                197
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                168,
+                357,
+                190
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                49,
+                201,
+                214,
+                225
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                196,
+                355,
+                219
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                49,
+                229,
+                178,
+                254
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                226,
+                356,
+                248
+            ],
+            "text": "72,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                257,
+                356,
+                281
+            ],
+            "text": "187,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

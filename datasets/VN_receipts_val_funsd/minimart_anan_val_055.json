@@ -1,0 +1,284 @@
+{
+    "form": [
+        {
+            "box": [
+                123,
+                15,
+                288,
+                36
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                40,
+                395,
+                61
+            ],
+            "text": "Số 448 Trần Hưng Đạo, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                164,
+                210,
+                185
+            ],
+            "text": "12/06/2026 12:43",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                237,
+                195,
+                258
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                267,
+                237,
+                275,
+                258
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                297,
+                237,
+                335,
+                258
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                237,
+                395,
+                258
+            ],
+            "text": "24.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                264,
+                165,
+                285
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                252,
+                264,
+                260,
+                285
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                282,
+                264,
+                335,
+                285
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                264,
+                395,
+                285
+            ],
+            "text": "175.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                291,
+                210,
+                312
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                267,
+                291,
+                275,
+                312
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                297,
+                291,
+                335,
+                312
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                358,
+                291,
+                395,
+                312
+            ],
+            "text": "8.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                318,
+                173,
+                339
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                318,
+                267,
+                339
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                318,
+                335,
+                339
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                318,
+                395,
+                339
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                345,
+                180,
+                366
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                345,
+                267,
+                366
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                345,
+                335,
+                366
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                345,
+                395,
+                366
+            ],
+            "text": "22.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                372,
+                158,
+                393
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                372,
+                267,
+                393
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                372,
+                335,
+                393
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                372,
+                395,
+                393
+            ],
+            "text": "48.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                414,
+                395,
+                435
+            ],
+            "text": "339.900",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

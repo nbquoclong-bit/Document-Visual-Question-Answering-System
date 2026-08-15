@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                109,
+                26,
+                275,
+                48
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                37,
+                48,
+                349,
+                71
+            ],
+            "text": "Số 412 Cách Mạng Tháng Tám, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                24,
+                164,
+                140,
+                187
+            ],
+            "text": "27/05/2026 08:37",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                247,
+                32,
+                268
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                57,
+                246,
+                144,
+                269
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                247,
+                359,
+                268
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                273,
+                32,
+                293
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                58,
+                273,
+                158,
+                295
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                275,
+                360,
+                296
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                300,
+                31,
+                321
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                57,
+                299,
+                195,
+                321
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                302,
+                358,
+                323
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                382,
+                359,
+                403
+            ],
+            "text": "433,675",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

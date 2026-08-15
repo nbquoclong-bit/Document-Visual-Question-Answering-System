@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                81,
+                40,
+                350,
+                56
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                88,
+                49,
+                375,
+                79
+            ],
+            "text": "Số 160 Trần Hưng Đạo, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                205,
+                155,
+                425,
+                169
+            ],
+            "text": "Ngày 30 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                121,
+                259,
+                234,
+                274
+            ],
+            "text": "2.035.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

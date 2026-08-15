@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                149,
+                15,
+                261,
+                36
+            ],
+            "text": "JOLLIBEE VINCOM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                36,
+                395,
+                78
+            ],
+            "text": "Số 186 Nguyễn Trãi, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                169,
+                185,
+                190
+            ],
+            "text": "27/05/2026 12:02",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                266,
+                130,
+                287
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                266,
+                233,
+                287
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                266,
+                300,
+                287
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                266,
+                393,
+                287
+            ],
+            "text": "17,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                297,
+                122,
+                318
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                297,
+                233,
+                318
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                297,
+                300,
+                318
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                297,
+                393,
+                318
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                328,
+                175,
+                349
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                328,
+                233,
+                349
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                328,
+                300,
+                349
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                328,
+                393,
+                349
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                419,
+                395,
+                440
+            ],
+            "text": "134,200đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

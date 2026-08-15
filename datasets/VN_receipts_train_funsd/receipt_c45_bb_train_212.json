@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                27,
+                332,
+                43
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                90,
+                37,
+                362,
+                68
+            ],
+            "text": "Số 225 Lê Lợi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                147,
+                434,
+                162
+            ],
+            "text": "Ngày 23 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                128,
+                255,
+                242,
+                270
+            ],
+            "text": "2.052.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                164,
+                24,
+                251,
+                50
+            ],
+            "text": "GS25 THỦ ĐỨC",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                74,
+                39,
+                342,
+                76
+            ],
+            "text": "Số 434 Nguyễn Trãi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                73,
+                157,
+                189,
+                185
+            ],
+            "text": "07/06/2026 13:30",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                28,
+                250,
+                143,
+                278
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                239,
+                245,
+                245,
+                265
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                268,
+                241,
+                311,
+                265
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                237,
+                389,
+                260
+            ],
+            "text": "22,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                28,
+                277,
+                172,
+                305
+            ],
+            "text": "Xúc xích Đức ăn liền",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                239,
+                273,
+                246,
+                293
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                268,
+                269,
+                311,
+                292
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                265,
+                389,
+                288
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                28,
+                302,
+                223,
+                332
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                239,
+                301,
+                246,
+                321
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                268,
+                297,
+                311,
+                321
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                293,
+                389,
+                316
+            ],
+            "text": "56,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                333,
+                379,
+                391,
+                404
+            ],
+            "text": "105,840đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,244 @@
+{
+    "form": [
+        {
+            "box": [
+                150,
+                19,
+                260,
+                41
+            ],
+            "text": "GS25 NGUYỄN HUỆ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                17,
+                40,
+                391,
+                83
+            ],
+            "text": "Số 141 Lý Thường Kiệt, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                172,
+                186,
+                195
+            ],
+            "text": "28/05/2026 12:05",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                266,
+                205,
+                289
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                265,
+                241,
+                287
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                262,
+                266,
+                306,
+                287
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                264,
+                388,
+                286
+            ],
+            "text": "16,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                295,
+                191,
+                317
+            ],
+            "text": "Cơm nắm cá hồi sốt Mayo",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                294,
+                241,
+                316
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                262,
+                294,
+                306,
+                316
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                293,
+                388,
+                315
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                323,
+                198,
+                346
+            ],
+            "text": "Mì trộn Indomie đặc biệt",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                323,
+                241,
+                343
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                262,
+                322,
+                306,
+                344
+            ],
+            "text": "12,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                321,
+                388,
+                342
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                352,
+                139,
+                375
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                351,
+                241,
+                372
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                262,
+                352,
+                306,
+                373
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                350,
+                388,
+                372
+            ],
+            "text": "22,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                380,
+                162,
+                403
+            ],
+            "text": "Sữa chua uống Proby",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                241,
+                380,
+                247,
+                401
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                270,
+                379,
+                306,
+                401
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                378,
+                388,
+                400
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                466,
+                389,
+                487
+            ],
+            "text": "157,300đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

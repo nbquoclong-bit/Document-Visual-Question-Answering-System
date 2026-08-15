@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                164,
+                44,
+                248,
+                65
+            ],
+            "text": "KFC Bà Hom",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                68,
+                65,
+                346,
+                88
+            ],
+            "text": "Số 163 Bùi Thị Xuân, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                185,
+                205,
+                205
+            ],
+            "text": "16/06/2026 16:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                263,
+                166,
+                284
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                214,
+                263,
+                223,
+                283
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                240,
+                263,
+                290,
+                283
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                334,
+                263,
+                386,
+                283
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                293,
+                165,
+                313
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                216,
+                293,
+                223,
+                313
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                242,
+                293,
+                291,
+                313
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                293,
+                386,
+                313
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                322,
+                150,
+                342
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                216,
+                322,
+                223,
+                342
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                322,
+                290,
+                342
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                322,
+                385,
+                343
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                317,
+                430,
+                375,
+                450
+            ],
+            "text": "124,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

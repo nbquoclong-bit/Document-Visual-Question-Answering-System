@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                109,
+                87,
+                269,
+                116
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                36,
+                104,
+                346,
+                138
+            ],
+            "text": "Số 171 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                52,
+                171,
+                121,
+                196
+            ],
+            "text": "25/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                26,
+                289,
+                144,
+                313
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                287,
+                239,
+                308
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                305,
+                284,
+                356,
+                307
+            ],
+            "text": "240,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                322,
+                137,
+                343
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                319,
+                240,
+                340
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                312,
+                317,
+                357,
+                339
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                352,
+                144,
+                375
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                351,
+                240,
+                371
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                305,
+                349,
+                357,
+                371
+            ],
+            "text": "300,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                446,
+                357,
+                467
+            ],
+            "text": "574,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

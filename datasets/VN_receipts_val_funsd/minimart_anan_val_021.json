@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                119,
+                15,
+                291,
+                36
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                40,
+                395,
+                61
+            ],
+            "text": "Số 285 Nguyễn Huệ, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                164,
+                210,
+                185
+            ],
+            "text": "27/05/2026 14:18",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                237,
+                173,
+                258
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                258,
+                237,
+                266,
+                258
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                288,
+                237,
+                333,
+                258
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                237,
+                395,
+                258
+            ],
+            "text": "128.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                264,
+                195,
+                285
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                266,
+                264,
+                273,
+                285
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                296,
+                264,
+                333,
+                285
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                358,
+                264,
+                395,
+                285
+            ],
+            "text": "6.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                291,
+                165,
+                312
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                266,
+                291,
+                273,
+                312
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                296,
+                291,
+                333,
+                312
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                291,
+                395,
+                312
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                318,
+                210,
+                339
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                266,
+                318,
+                273,
+                339
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                296,
+                318,
+                333,
+                339
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                318,
+                395,
+                339
+            ],
+            "text": "24.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                360,
+                395,
+                381
+            ],
+            "text": "190.080",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

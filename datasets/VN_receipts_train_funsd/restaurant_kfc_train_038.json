@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                153,
+                22,
+                253,
+                44
+            ],
+            "text": "KFC VIỆT NAM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                38,
+                44,
+                368,
+                66
+            ],
+            "text": "Số 436 Lý Thường Kiệt, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                160,
+                203,
+                181
+            ],
+            "text": "24/05/2026 19:36",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                238,
+                121,
+                259
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                207,
+                238,
+                213,
+                259
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                238,
+                286,
+                259
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                240,
+                389,
+                260
+            ],
+            "text": "22,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                267,
+                148,
+                289
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                268,
+                213,
+                289
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                239,
+                268,
+                286,
+                289
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                268,
+                389,
+                289
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                297,
+                146,
+                318
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                297,
+                213,
+                317
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                297,
+                286,
+                318
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                298,
+                389,
+                319
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                323,
+                405,
+                380,
+                426
+            ],
+            "text": "176,040",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

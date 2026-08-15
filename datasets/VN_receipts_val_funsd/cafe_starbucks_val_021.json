@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                113,
+                81,
+                268,
+                101
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                51,
+                101,
+                328,
+                121
+            ],
+            "text": "Số 47 Trần Hưng Đạo, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                51,
+                159,
+                121,
+                181
+            ],
+            "text": "29/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                280,
+                137,
+                300
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                280,
+                239,
+                301
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                304,
+                281,
+                354,
+                301
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                312,
+                159,
+                333
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                312,
+                239,
+                333
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                304,
+                313,
+                355,
+                333
+            ],
+            "text": "170,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                304,
+                407,
+                354,
+                428
+            ],
+            "text": "301,950",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

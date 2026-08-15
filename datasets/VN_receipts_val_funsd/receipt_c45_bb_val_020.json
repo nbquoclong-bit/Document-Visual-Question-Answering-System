@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                91,
+                31,
+                364,
+                46
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                98,
+                40,
+                399,
+                70
+            ],
+            "text": "Số 60 Nguyễn Trãi, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                215,
+                150,
+                437,
+                164
+            ],
+            "text": "Ngày 07 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                127,
+                260,
+                224,
+                275
+            ],
+            "text": "432.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                109,
+                96,
+                265,
+                118
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                24,
+                117,
+                349,
+                140
+            ],
+            "text": "Số 367 Bùi Thị Xuân, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                45,
+                177,
+                118,
+                200
+            ],
+            "text": "16/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                294,
+                150,
+                318
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                294,
+                240,
+                314
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                305,
+                292,
+                355,
+                315
+            ],
+            "text": "195,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                327,
+                143,
+                350
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                324,
+                240,
+                349
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                312,
+                320,
+                355,
+                346
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                359,
+                135,
+                382
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                356,
+                240,
+                379
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                312,
+                356,
+                355,
+                376
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                306,
+                447,
+                355,
+                467
+            ],
+            "text": "323,190",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

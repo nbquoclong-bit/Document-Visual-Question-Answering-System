@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                128,
+                25,
+                246,
+                50
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                44,
+                45,
+                331,
+                73
+            ],
+            "text": "Số 251 Bùi Thị Xuân, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                15,
+                160,
+                133,
+                183
+            ],
+            "text": "24/05/2026 19:41",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                241,
+                23,
+                260
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                234,
+                212,
+                260
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                231,
+                361,
+                253
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                265,
+                23,
+                285
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                262,
+                138,
+                284
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                256,
+                361,
+                279
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                332,
+                361,
+                357
+            ],
+            "text": "292,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

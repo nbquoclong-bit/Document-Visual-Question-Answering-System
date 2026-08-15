@@ -1,0 +1,224 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                15,
+                250,
+                36
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                38,
+                365,
+                80
+            ],
+            "text": "Số 50 Bùi Thị Xuân, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                15,
+                175,
+                135,
+                196
+            ],
+            "text": "26/05/2026 22:48",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                257,
+                23,
+                278
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                257,
+                193,
+                278
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                257,
+                365,
+                278
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                284,
+                23,
+                305
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                284,
+                193,
+                305
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                284,
+                365,
+                305
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                311,
+                23,
+                332
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                311,
+                140,
+                332
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                311,
+                365,
+                332
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                338,
+                23,
+                359
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                338,
+                155,
+                359
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                338,
+                365,
+                359
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                365,
+                23,
+                386
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                365,
+                215,
+                386
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                365,
+                365,
+                386
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                392,
+                23,
+                413
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                392,
+                185,
+                413
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                392,
+                365,
+                413
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                473,
+                365,
+                494
+            ],
+            "text": "509,850",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

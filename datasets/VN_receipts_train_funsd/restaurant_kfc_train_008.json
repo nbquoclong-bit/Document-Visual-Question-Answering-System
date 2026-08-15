@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                152,
+                21,
+                254,
+                42
+            ],
+            "text": "KFC VIỆT NAM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                73,
+                43,
+                333,
+                64
+            ],
+            "text": "Số 356 Nguyễn Trãi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                88,
+                163,
+                204,
+                184
+            ],
+            "text": "17/06/2026 16:35",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                243,
+                146,
+                264
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                213,
+                243,
+                224,
+                264
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                242,
+                243,
+                293,
+                264
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                243,
+                389,
+                264
+            ],
+            "text": "56,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                274,
+                164,
+                295
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                216,
+                274,
+                224,
+                294
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                274,
+                293,
+                294
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                274,
+                389,
+                294
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                304,
+                101,
+                325
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                213,
+                304,
+                224,
+                325
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                241,
+                304,
+                293,
+                325
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                331,
+                304,
+                390,
+                325
+            ],
+            "text": "168,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                323,
+                415,
+                382,
+                436
+            ],
+            "text": "261,360",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

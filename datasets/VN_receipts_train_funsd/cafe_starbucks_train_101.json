@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                105,
+                89,
+                263,
+                115
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                46,
+                108,
+                324,
+                136
+            ],
+            "text": "Số 297 Hai Bà Trưng, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                42,
+                165,
+                114,
+                190
+            ],
+            "text": "17/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                286,
+                139,
+                311
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                293,
+                237,
+                314
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                305,
+                297,
+                356,
+                319
+            ],
+            "text": "300,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                317,
+                131,
+                343
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                230,
+                325,
+                237,
+                347
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                312,
+                329,
+                356,
+                351
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                350,
+                146,
+                375
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                230,
+                358,
+                237,
+                379
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                305,
+                360,
+                356,
+                383
+            ],
+            "text": "195,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                455,
+                356,
+                478
+            ],
+            "text": "583,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,194 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                15,
+                250,
+                36
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                48,
+                38,
+                333,
+                59
+            ],
+            "text": "Số 81 Lý Thường Kiệt, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                15,
+                154,
+                135,
+                175
+            ],
+            "text": "12/06/2026 07:42",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                236,
+                23,
+                257
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                236,
+                193,
+                257
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                236,
+                365,
+                257
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                263,
+                23,
+                284
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                263,
+                140,
+                284
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                263,
+                365,
+                284
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                290,
+                23,
+                311
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                290,
+                193,
+                311
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                290,
+                365,
+                311
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                317,
+                23,
+                338
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                317,
+                155,
+                338
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                317,
+                365,
+                338
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                344,
+                23,
+                365
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                344,
+                185,
+                365
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                344,
+                365,
+                365
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                425,
+                365,
+                446
+            ],
+            "text": "729,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

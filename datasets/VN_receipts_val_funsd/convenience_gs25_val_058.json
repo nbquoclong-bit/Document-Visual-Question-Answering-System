@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                134,
+                19,
+                281,
+                41
+            ],
+            "text": "GS25 TÔN THẤT THUYẾT",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                65,
+                39,
+                350,
+                62
+            ],
+            "text": "Số 188 Nguyễn Huệ, Quận Đống Đa, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                70,
+                150,
+                188,
+                173
+            ],
+            "text": "22/05/2026 20:23",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                242,
+                221,
+                265
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                242,
+                244,
+                263
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                266,
+                241,
+                310,
+                263
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                241,
+                389,
+                263
+            ],
+            "text": "28,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                271,
+                139,
+                293
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                270,
+                244,
+                292
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                266,
+                270,
+                310,
+                292
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                269,
+                388,
+                290
+            ],
+            "text": "66,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                331,
+                357,
+                390,
+                379
+            ],
+            "text": "103,400đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

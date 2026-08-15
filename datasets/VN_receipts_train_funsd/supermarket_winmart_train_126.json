@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                158,
+                36,
+                259,
+                58
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                78,
+                71,
+                337,
+                92
+            ],
+            "text": "Số 345 Bùi Thị Xuân, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                72,
+                175,
+                189,
+                197
+            ],
+            "text": "06/06/2026 14:22",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                266,
+                198,
+                289
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                208,
+                266,
+                217,
+                287
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                237,
+                266,
+                281,
+                287
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                265,
+                388,
+                286
+            ],
+            "text": "38.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                294,
+                192,
+                317
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                208,
+                294,
+                216,
+                315
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                237,
+                294,
+                281,
+                315
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                294,
+                389,
+                315
+            ],
+            "text": "36.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                323,
+                141,
+                345
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                209,
+                322,
+                216,
+                344
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                237,
+                323,
+                281,
+                343
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                321,
+                388,
+                343
+            ],
+            "text": "168.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                351,
+                168,
+                372
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                209,
+                350,
+                215,
+                372
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                237,
+                350,
+                280,
+                371
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                349,
+                389,
+                371
+            ],
+            "text": "136.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                435,
+                389,
+                455
+            ],
+            "text": "408.240",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                103,
+                23,
+                281,
+                45
+            ],
+            "text": "BÁCH HÓA XANH LÊ ĐỨC THỌ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                64,
+                63,
+                321,
+                85
+            ],
+            "text": "Số 116 Nguyễn Huệ, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                101,
+                148,
+                219,
+                172
+            ],
+            "text": "23/05/2026 16:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                234,
+                160,
+                256
+            ],
+            "text": "Rau muống nước 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                38,
+                257,
+                47,
+                278
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                213,
+                256,
+                250,
+                277
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                327,
+                255,
+                362,
+                275
+            ],
+            "text": "8,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                285,
+                108,
+                306
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                37,
+                307,
+                45,
+                329
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                212,
+                306,
+                250,
+                326
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                318,
+                305,
+                362,
+                326
+            ],
+            "text": "12,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                318,
+                365,
+                362,
+                386
+            ],
+            "text": "22,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

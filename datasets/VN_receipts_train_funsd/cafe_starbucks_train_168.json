@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                109,
+                83,
+                269,
+                105
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                78,
+                103,
+                300,
+                126
+            ],
+            "text": "Số 279 Lê Lợi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                44,
+                163,
+                118,
+                186
+            ],
+            "text": "28/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                287,
+                135,
+                309
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                288,
+                242,
+                309
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                317,
+                288,
+                361,
+                309
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                319,
+                157,
+                342
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                321,
+                242,
+                342
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                310,
+                321,
+                361,
+                343
+            ],
+            "text": "340,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                416,
+                361,
+                438
+            ],
+            "text": "397,100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

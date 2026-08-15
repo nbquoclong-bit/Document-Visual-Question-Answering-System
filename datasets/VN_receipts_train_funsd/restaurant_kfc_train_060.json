@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                150,
+                22,
+                251,
+                46
+            ],
+            "text": "KFC VIỆT NAM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                95,
+                44,
+                306,
+                70
+            ],
+            "text": "Số 10 Lê Lợi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                88,
+                165,
+                202,
+                188
+            ],
+            "text": "25/05/2026 14:42",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                243,
+                148,
+                267
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                247,
+                212,
+                268
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                237,
+                248,
+                284,
+                270
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                334,
+                251,
+                386,
+                272
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                274,
+                146,
+                297
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                278,
+                212,
+                299
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                278,
+                285,
+                301
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                333,
+                280,
+                386,
+                303
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                304,
+                122,
+                327
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                309,
+                212,
+                328
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                308,
+                285,
+                331
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                334,
+                310,
+                386,
+                333
+            ],
+            "text": "66,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                315,
+                421,
+                377,
+                443
+            ],
+            "text": "203,040",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

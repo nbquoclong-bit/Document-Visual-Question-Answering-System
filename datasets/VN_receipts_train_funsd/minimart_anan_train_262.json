@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                123,
+                20,
+                288,
+                43
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                14,
+                45,
+                394,
+                69
+            ],
+            "text": "Số 424 Lê Lợi, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                170,
+                211,
+                192
+            ],
+            "text": "09/06/2026 17:14",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                242,
+                174,
+                264
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                243,
+                262,
+                264
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                284,
+                243,
+                330,
+                265
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                243,
+                393,
+                264
+            ],
+            "text": "128.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                269,
+                196,
+                291
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                262,
+                269,
+                270,
+                291
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                293,
+                269,
+                330,
+                291
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                349,
+                270,
+                394,
+                290
+            ],
+            "text": "24.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                296,
+                189,
+                318
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                296,
+                263,
+                318
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                284,
+                296,
+                329,
+                318
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                296,
+                393,
+                317
+            ],
+            "text": "10.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                338,
+                393,
+                360
+            ],
+            "text": "178.200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

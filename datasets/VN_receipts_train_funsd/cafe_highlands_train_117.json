@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                77,
+                21,
+                294,
+                48
+            ],
+            "text": "HIGHLANDS COFFEE TRẦN HƯNG ĐẠO",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                58,
+                41,
+                312,
+                69
+            ],
+            "text": "Số 268 Nguyễn Trãi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                179,
+                186,
+                202
+            ],
+            "text": "10/06/2026 08:55",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                238,
+                25,
+                259
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                239,
+                140,
+                262
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                245,
+                357,
+                267
+            ],
+            "text": "105,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                264,
+                26,
+                285
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                265,
+                192,
+                289
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                271,
+                357,
+                293
+            ],
+            "text": "116,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                332,
+                358,
+                353
+            ],
+            "text": "238,680",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

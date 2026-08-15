@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                87,
+                29,
+                335,
+                46
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                94,
+                39,
+                397,
+                71
+            ],
+            "text": "Số 376 Nguyễn Huệ, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                213,
+                149,
+                435,
+                165
+            ],
+            "text": "Ngày 14 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                261,
+                222,
+                275
+            ],
+            "text": "220.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

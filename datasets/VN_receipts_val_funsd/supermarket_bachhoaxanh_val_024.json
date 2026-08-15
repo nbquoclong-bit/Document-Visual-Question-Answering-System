@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                96,
+                15,
+                284,
+                36
+            ],
+            "text": "BÁCH HÓA XANH NGUYỄN TRÃI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                57,
+                355,
+                78
+            ],
+            "text": "Số 40 Trần Hưng Đạo, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                146,
+                218,
+                169
+            ],
+            "text": "15/06/2026 09:50",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                235,
+                225,
+                256
+            ],
+            "text": "Đường cát trắng Biên Hòa 1kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                35,
+                258,
+                43,
+                279
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                205,
+                258,
+                250,
+                279
+            ],
+            "text": "26,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                320,
+                258,
+                365,
+                279
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                287,
+                105,
+                308
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                35,
+                310,
+                43,
+                331
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                212,
+                310,
+                250,
+                331
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                328,
+                310,
+                365,
+                331
+            ],
+            "text": "9,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                320,
+                372,
+                365,
+                393
+            ],
+            "text": "93,960",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

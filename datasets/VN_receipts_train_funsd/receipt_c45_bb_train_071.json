@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                94,
+                32,
+                335,
+                49
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                101,
+                41,
+                374,
+                74
+            ],
+            "text": "Số 228 Nguyễn Trãi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                211,
+                150,
+                430,
+                165
+            ],
+            "text": "Ngày 31 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                126,
+                259,
+                220,
+                274
+            ],
+            "text": "165.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

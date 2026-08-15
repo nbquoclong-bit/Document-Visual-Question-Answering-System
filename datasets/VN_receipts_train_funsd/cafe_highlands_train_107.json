@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                124,
+                31,
+                240,
+                55
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                17,
+                45,
+                354,
+                98
+            ],
+            "text": "Số 269 Nguyễn Huệ, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                205,
+                181,
+                228
+            ],
+            "text": "30/05/2026 08:27",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                267,
+                24,
+                287
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                264,
+                186,
+                286
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                260,
+                355,
+                281
+            ],
+            "text": "58,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                292,
+                24,
+                312
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                290,
+                165,
+                312
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                286,
+                356,
+                307
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                317,
+                24,
+                337
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                42,
+                315,
+                201,
+                337
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                312,
+                356,
+                333
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                343,
+                24,
+                362
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                42,
+                341,
+                136,
+                362
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                303,
+                338,
+                356,
+                359
+            ],
+            "text": "140,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                304,
+                399,
+                356,
+                420
+            ],
+            "text": "284,240",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

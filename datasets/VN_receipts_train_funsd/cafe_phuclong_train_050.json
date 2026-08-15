@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                107,
+                19,
+                271,
+                41
+            ],
+            "text": "PHÚC LONG TEA & COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                35,
+                41,
+                340,
+                65
+            ],
+            "text": "Số 410 Lý Thường Kiệt, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                15,
+                156,
+                135,
+                179
+            ],
+            "text": "27/05/2026 12:48",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                239,
+                23,
+                260
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                238,
+                154,
+                260
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                239,
+                360,
+                261
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                265,
+                23,
+                287
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                265,
+                192,
+                287
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                266,
+                361,
+                287
+            ],
+            "text": "200,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                293,
+                23,
+                314
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                293,
+                214,
+                314
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                294,
+                361,
+                314
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                373,
+                359,
+                395
+            ],
+            "text": "441,180",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

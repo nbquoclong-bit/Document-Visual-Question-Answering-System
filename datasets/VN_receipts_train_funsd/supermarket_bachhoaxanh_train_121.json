@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                29,
+                235,
+                55
+            ],
+            "text": "BÁCH HÓA XANH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                70,
+                64,
+                312,
+                99
+            ],
+            "text": "Số 54 Nguyễn Huệ, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                105,
+                155,
+                216,
+                184
+            ],
+            "text": "08/06/2026 19:39",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                30,
+                239,
+                223,
+                270
+            ],
+            "text": "Đường cát trắng Biên Hòa 1kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                48,
+                270,
+                55,
+                291
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                204,
+                261,
+                246,
+                283
+            ],
+            "text": "26,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                312,
+                256,
+                355,
+                278
+            ],
+            "text": "52,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                30,
+                293,
+                160,
+                320
+            ],
+            "text": "Rau muống nước 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                48,
+                320,
+                55,
+                341
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                210,
+                310,
+                246,
+                332
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                312,
+                306,
+                355,
+                329
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                29,
+                342,
+                167,
+                369
+            ],
+            "text": "Thịt ba rọi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                47,
+                370,
+                55,
+                389
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                204,
+                362,
+                246,
+                384
+            ],
+            "text": "75,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                305,
+                356,
+                355,
+                379
+            ],
+            "text": "300,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                306,
+                416,
+                355,
+                440
+            ],
+            "text": "413,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                103,
+                21,
+                273,
+                43
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                14,
+                43,
+                363,
+                88
+            ],
+            "text": "Số 321 Cách Mạng Tháng Tám, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                15,
+                180,
+                135,
+                202
+            ],
+            "text": "09/06/2026 08:10",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                262,
+                23,
+                283
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                260,
+                140,
+                282
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                258,
+                362,
+                279
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                289,
+                23,
+                309
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                287,
+                154,
+                309
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                284,
+                361,
+                305
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                363,
+                362,
+                384
+            ],
+            "text": "133,650",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

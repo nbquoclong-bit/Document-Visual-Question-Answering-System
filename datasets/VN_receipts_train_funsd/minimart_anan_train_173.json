@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                131,
+                45,
+                287,
+                67
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                31,
+                68,
+                388,
+                91
+            ],
+            "text": "Số 392 Hai Bà Trưng, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                99,
+                188,
+                213,
+                209
+            ],
+            "text": "17/06/2026 20:56",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                29,
+                257,
+                179,
+                278
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                259,
+                257,
+                266,
+                277
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                287,
+                256,
+                330,
+                277
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                256,
+                386,
+                277
+            ],
+            "text": "96.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                28,
+                282,
+                184,
+                304
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                258,
+                282,
+                266,
+                303
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                286,
+                282,
+                329,
+                303
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                281,
+                385,
+                303
+            ],
+            "text": "66.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                29,
+                308,
+                163,
+                328
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                257,
+                308,
+                266,
+                329
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                286,
+                307,
+                329,
+                330
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                307,
+                386,
+                327
+            ],
+            "text": "48.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                347,
+                386,
+                369
+            ],
+            "text": "226.800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

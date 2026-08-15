@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                15,
+                265,
+                36
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                70,
+                36,
+                340,
+                57
+            ],
+            "text": "Số 264 Nguyễn Trãi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                148,
+                185,
+                169
+            ],
+            "text": "03/06/2026 12:40",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                242,
+                197,
+                263
+            ],
+            "text": "Mì trộn Indomie đặc biệt",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                242,
+                239,
+                263
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                242,
+                306,
+                263
+            ],
+            "text": "12,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                242,
+                393,
+                263
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                271,
+                190,
+                292
+            ],
+            "text": "Cơm nắm cá hồi sốt Mayo",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                271,
+                239,
+                292
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                271,
+                306,
+                292
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                271,
+                393,
+                292
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                300,
+                160,
+                321
+            ],
+            "text": "Sữa chua uống Proby",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                239,
+                300,
+                246,
+                321
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                269,
+                300,
+                306,
+                321
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                300,
+                393,
+                321
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                390,
+                395,
+                411
+            ],
+            "text": "138,240đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

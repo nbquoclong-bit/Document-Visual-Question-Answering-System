@@ -1,0 +1,194 @@
+{
+    "form": [
+        {
+            "box": [
+                106,
+                83,
+                266,
+                108
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                46,
+                103,
+                329,
+                128
+            ],
+            "text": "Số 77 Bùi Thị Xuân, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                42,
+                166,
+                117,
+                191
+            ],
+            "text": "05/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                289,
+                148,
+                313
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                288,
+                240,
+                310
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                286,
+                361,
+                309
+            ],
+            "text": "195,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                322,
+                134,
+                345
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                320,
+                241,
+                341
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                320,
+                361,
+                341
+            ],
+            "text": "80,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                354,
+                142,
+                378
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                354,
+                240,
+                375
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                352,
+                360,
+                374
+            ],
+            "text": "120,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                388,
+                142,
+                410
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                387,
+                242,
+                407
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                316,
+                384,
+                361,
+                407
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                421,
+                134,
+                443
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                418,
+                241,
+                439
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                310,
+                418,
+                361,
+                439
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                513,
+                361,
+                535
+            ],
+            "text": "715,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

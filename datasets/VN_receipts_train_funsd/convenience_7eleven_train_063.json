@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                129,
+                38,
+                250,
+                64
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                150,
+                78,
+                264,
+                104
+            ],
+            "text": "03/06/2026 22:06",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                48,
+                134,
+                214,
+                162
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                127,
+                355,
+                150
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                48,
+                163,
+                163,
+                189
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                154,
+                355,
+                176
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                185,
+                354,
+                211
+            ],
+            "text": "104,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

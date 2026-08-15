@@ -1,0 +1,154 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                14,
+                247,
+                37
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                148,
+                54,
+                262,
+                77
+            ],
+            "text": "06/06/2026 22:08",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                46,
+                111,
+                218,
+                133
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                108,
+                354,
+                130
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                139,
+                212,
+                161
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                136,
+                355,
+                158
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                166,
+                161,
+                189
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                164,
+                355,
+                185
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                195,
+                219,
+                217
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                192,
+                355,
+                214
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                222,
+                219,
+                245
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                220,
+                355,
+                242
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                250,
+                175,
+                273
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                249,
+                355,
+                270
+            ],
+            "text": "54,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                281,
+                356,
+                305
+            ],
+            "text": "206,800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

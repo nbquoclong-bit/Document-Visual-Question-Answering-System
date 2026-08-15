@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                123,
+                15,
+                258,
+                36
+            ],
+            "text": "PHÚC LONG LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                44,
+                38,
+                336,
+                59
+            ],
+            "text": "Số 343 Lý Thường Kiệt, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                15,
+                154,
+                135,
+                175
+            ],
+            "text": "27/05/2026 19:45",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                236,
+                23,
+                257
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                236,
+                185,
+                257
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                236,
+                365,
+                257
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                263,
+                23,
+                284
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                263,
+                140,
+                284
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                263,
+                365,
+                284
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                290,
+                23,
+                311
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                290,
+                155,
+                311
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                290,
+                365,
+                311
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                371,
+                365,
+                392
+            ],
+            "text": "313,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

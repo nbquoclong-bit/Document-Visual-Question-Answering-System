@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                103,
+                85,
+                268,
+                112
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                51,
+                105,
+                320,
+                136
+            ],
+            "text": "Số 279 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                44,
+                172,
+                116,
+                197
+            ],
+            "text": "16/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                293,
+                141,
+                318
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                230,
+                289,
+                238,
+                311
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                286,
+                354,
+                309
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                324,
+                156,
+                351
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                230,
+                321,
+                238,
+                344
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                318,
+                354,
+                341
+            ],
+            "text": "85,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                304,
+                411,
+                354,
+                434
+            ],
+            "text": "167,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

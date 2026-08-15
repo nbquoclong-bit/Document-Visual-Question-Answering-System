@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                16,
+                285,
+                36
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                28,
+                39,
+                385,
+                60
+            ],
+            "text": "Số 148 Lê Lợi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                157,
+                211,
+                179
+            ],
+            "text": "02/06/2026 20:50",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                26,
+                226,
+                168,
+                248
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                247,
+                227,
+                255,
+                248
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                276,
+                226,
+                326,
+                248
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                225,
+                385,
+                247
+            ],
+            "text": "350.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                253,
+                196,
+                273
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                261,
+                252,
+                269,
+                272
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                251,
+                325,
+                273
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                253,
+                385,
+                273
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                278,
+                175,
+                300
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                255,
+                278,
+                261,
+                298
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                283,
+                278,
+                325,
+                298
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                278,
+                385,
+                299
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                304,
+                168,
+                326
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                261,
+                304,
+                269,
+                325
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                289,
+                304,
+                325,
+                325
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                304,
+                385,
+                325
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                344,
+                384,
+                365
+            ],
+            "text": "486.000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

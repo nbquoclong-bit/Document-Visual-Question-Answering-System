@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                136,
+                25,
+                249,
+                54
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                51,
+                41,
+                329,
+                80
+            ],
+            "text": "Số 64 Trần Hưng Đạo, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                22,
+                151,
+                139,
+                179
+            ],
+            "text": "18/06/2026 22:59",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                231,
+                30,
+                253
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                56,
+                233,
+                195,
+                260
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                243,
+                354,
+                267
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                257,
+                29,
+                279
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                55,
+                259,
+                187,
+                285
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                305,
+                269,
+                354,
+                292
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                284,
+                30,
+                305
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                55,
+                286,
+                194,
+                311
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                305,
+                295,
+                354,
+                317
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                371,
+                353,
+                393
+            ],
+            "text": "420,750",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

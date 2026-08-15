@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                155,
+                25,
+                244,
+                49
+            ],
+            "text": "SAIGON CO.OP",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                68,
+                43,
+                333,
+                73
+            ],
+            "text": "Số 75 Bùi Thị Xuân, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                63,
+                167,
+                203,
+                192
+            ],
+            "text": "08/06/2026 07:44:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                246,
+                173,
+                269
+            ],
+            "text": "Bánh quy Cosy Kinh Đô",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                184,
+                273,
+                248,
+                295
+            ],
+            "text": "22,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                265,
+                273,
+                273,
+                294
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                318,
+                271,
+                385,
+                293
+            ],
+            "text": "44,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                303,
+                166,
+                326
+            ],
+            "text": "Khăn ướt Bobby 80 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                184,
+                331,
+                250,
+                352
+            ],
+            "text": "27,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                265,
+                330,
+                274,
+                351
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                318,
+                329,
+                385,
+                351
+            ],
+            "text": "54,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                435,
+                385,
+                456
+            ],
+            "text": "105,840.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

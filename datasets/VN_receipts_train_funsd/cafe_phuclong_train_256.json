@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                123,
+                15,
+                258,
+                36
+            ],
+            "text": "PHÚC LONG LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                38,
+                365,
+                80
+            ],
+            "text": "Số 278 Cách Mạng Tháng Tám, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                15,
+                175,
+                135,
+                196
+            ],
+            "text": "16/06/2026 22:25",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                257,
+                23,
+                278
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                257,
+                155,
+                278
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                257,
+                365,
+                278
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                284,
+                23,
+                305
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                284,
+                140,
+                305
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                284,
+                365,
+                305
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                311,
+                23,
+                332
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                311,
+                193,
+                332
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                311,
+                365,
+                332
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                392,
+                365,
+                413
+            ],
+            "text": "492,480",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

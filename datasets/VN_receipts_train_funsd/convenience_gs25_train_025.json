@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                14,
+                255,
+                36
+            ],
+            "text": "GS25 NGUYỄN HUỆ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                31,
+                35,
+                370,
+                58
+            ],
+            "text": "Số 135 Cách Mạng Tháng Tám, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                62,
+                146,
+                181,
+                166
+            ],
+            "text": "10/06/2026 19:47",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                238,
+                185,
+                260
+            ],
+            "text": "Cơm nắm cá hồi sốt Mayo",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                238,
+                238,
+                260
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                239,
+                307,
+                259
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                238,
+                387,
+                260
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                266,
+                216,
+                288
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                267,
+                239,
+                289
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                268,
+                306,
+                289
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                267,
+                387,
+                288
+            ],
+            "text": "14,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                338,
+                357,
+                390,
+                379
+            ],
+            "text": "47,520đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

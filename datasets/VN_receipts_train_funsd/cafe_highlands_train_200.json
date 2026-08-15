@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                95,
+                33,
+                276,
+                57
+            ],
+            "text": "HIGHLANDS COFFEE LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                49,
+                52,
+                323,
+                78
+            ],
+            "text": "Số 360 Bùi Thị Xuân, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                189,
+                184,
+                212
+            ],
+            "text": "30/05/2026 22:45",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                253,
+                25,
+                273
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                251,
+                168,
+                273
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                246,
+                355,
+                268
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                278,
+                24,
+                299
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                276,
+                139,
+                300
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                272,
+                355,
+                295
+            ],
+            "text": "70,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                303,
+                25,
+                325
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                302,
+                182,
+                326
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                297,
+                354,
+                319
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                304,
+                360,
+                354,
+                379
+            ],
+            "text": "222,642",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                148,
+                25,
+                248,
+                50
+            ],
+            "text": "KFC VIỆT NAM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                71,
+                43,
+                324,
+                76
+            ],
+            "text": "Số 277 Bùi Thị Xuân, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                84,
+                167,
+                200,
+                193
+            ],
+            "text": "31/05/2026 21:44",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                251,
+                100,
+                276
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                199,
+                245,
+                209,
+                266
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                230,
+                241,
+                281,
+                264
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                323,
+                236,
+                380,
+                259
+            ],
+            "text": "168,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                278,
+                146,
+                306
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                200,
+                275,
+                210,
+                295
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                271,
+                282,
+                293
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                330,
+                265,
+                380,
+                288
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                314,
+                374,
+                373,
+                397
+            ],
+            "text": "226,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

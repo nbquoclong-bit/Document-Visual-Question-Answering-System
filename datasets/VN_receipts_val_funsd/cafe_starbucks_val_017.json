@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                113,
+                90,
+                270,
+                119
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                49,
+                109,
+                332,
+                142
+            ],
+            "text": "Số 342 Nguyễn Huệ, Quận Đống Đa, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                48,
+                168,
+                122,
+                194
+            ],
+            "text": "07/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                290,
+                145,
+                315
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                298,
+                243,
+                319
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                300,
+                358,
+                322
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                322,
+                145,
+                347
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                329,
+                243,
+                352
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                332,
+                358,
+                355
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                356,
+                152,
+                380
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                361,
+                242,
+                383
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                314,
+                364,
+                357,
+                387
+            ],
+            "text": "65,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                389,
+                137,
+                412
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                395,
+                242,
+                416
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                394,
+                357,
+                418
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                488,
+                356,
+                511
+            ],
+            "text": "418,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

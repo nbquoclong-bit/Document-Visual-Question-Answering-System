@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                120,
+                34,
+                284,
+                60
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                20,
+                53,
+                384,
+                87
+            ],
+            "text": "Số 63 Bùi Thị Xuân, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                169,
+                207,
+                195
+            ],
+            "text": "27/05/2026 20:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                237,
+                157,
+                261
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                253,
+                245,
+                260,
+                266
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                281,
+                246,
+                324,
+                268
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                248,
+                384,
+                270
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                262,
+                207,
+                289
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                271,
+                267,
+                292
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                289,
+                272,
+                324,
+                294
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                274,
+                384,
+                295
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                288,
+                192,
+                314
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                296,
+                267,
+                316
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                289,
+                297,
+                324,
+                318
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                300,
+                384,
+                321
+            ],
+            "text": "6.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                313,
+                171,
+                338
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                253,
+                321,
+                260,
+                342
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                281,
+                322,
+                324,
+                344
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                334,
+                325,
+                384,
+                345
+            ],
+            "text": "128.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                334,
+                363,
+                384,
+                385
+            ],
+            "text": "200.200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

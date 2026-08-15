@@ -1,0 +1,284 @@
+{
+    "form": [
+        {
+            "box": [
+                180,
+                28,
+                231,
+                50
+            ],
+            "text": "CIRCLE K",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                56,
+                55,
+                357,
+                86
+            ],
+            "text": "Số 424 Nguyễn Trãi, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                75,
+                178,
+                191,
+                202
+            ],
+            "text": "21/05/2026 09:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                267,
+                185,
+                292
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                238,
+                265,
+                246,
+                286
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                251,
+                263,
+                296,
+                285
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                260,
+                389,
+                282
+            ],
+            "text": "44,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                294,
+                161,
+                318
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                291,
+                245,
+                312
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                251,
+                290,
+                296,
+                311
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                287,
+                389,
+                309
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                320,
+                168,
+                344
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                244,
+                317,
+                252,
+                338
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                316,
+                296,
+                337
+            ],
+            "text": "9,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                313,
+                388,
+                335
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                345,
+                204,
+                390
+            ],
+            "text": "Băng cá nhân Urgo hộp 10 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                354,
+                245,
+                375
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                251,
+                353,
+                296,
+                374
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                350,
+                388,
+                372
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                391,
+                197,
+                416
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                244,
+                390,
+                252,
+                410
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                259,
+                388,
+                296,
+                410
+            ],
+            "text": "6,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                386,
+                388,
+                407
+            ],
+            "text": "12,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                417,
+                191,
+                442
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                416,
+                245,
+                436
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                251,
+                414,
+                295,
+                436
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                412,
+                388,
+                433
+            ],
+            "text": "10,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                330,
+                496,
+                388,
+                518
+            ],
+            "text": "163,900đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                26,
+                272,
+                45
+            ],
+            "text": "HIGHLANDS COFFEE LÊ LỢI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                50,
+                45,
+                328,
+                67
+            ],
+            "text": "Số 418 Lê Lợi, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                70,
+                183,
+                187,
+                204
+            ],
+            "text": "06/06/2026 10:41",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                243,
+                27,
+                264
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                47,
+                244,
+                171,
+                264
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                245,
+                360,
+                266
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                269,
+                28,
+                291
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                47,
+                268,
+                178,
+                291
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                271,
+                360,
+                292
+            ],
+            "text": "156,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                331,
+                360,
+                352
+            ],
+            "text": "238,032",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                93,
+                23,
+                284,
+                45
+            ],
+            "text": "7-Eleven Saigon Trade Center",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                148,
+                64,
+                266,
+                86
+            ],
+            "text": "31/05/2026 18:32",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                45,
+                121,
+                177,
+                143
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                120,
+                358,
+                141
+            ],
+            "text": "54,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                45,
+                150,
+                214,
+                173
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                150,
+                359,
+                171
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                181,
+                359,
+                205
+            ],
+            "text": "141,900",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

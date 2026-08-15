@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                153,
+                22,
+                258,
+                43
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                57,
+                385,
+                78
+            ],
+            "text": "Số 44 Lý Thường Kiệt, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                165,
+                185,
+                186
+            ],
+            "text": "15/06/2026 16:39",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                259,
+                135,
+                280
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                259,
+                214,
+                280
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                259,
+                281,
+                280
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                259,
+                395,
+                280
+            ],
+            "text": "168.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                288,
+                205,
+                330
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                298,
+                214,
+                319
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                298,
+                281,
+                319
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                298,
+                395,
+                319
+            ],
+            "text": "116.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                338,
+                188,
+                359
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                214,
+                338,
+                221,
+                359
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                338,
+                281,
+                359
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                338,
+                395,
+                359
+            ],
+            "text": "14.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                427,
+                395,
+                448
+            ],
+            "text": "327.800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

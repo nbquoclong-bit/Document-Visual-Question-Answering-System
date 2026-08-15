@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                123,
+                45,
+                289,
+                65
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                20,
+                69,
+                390,
+                90
+            ],
+            "text": "Số 236 Trần Hưng Đạo, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                96,
+                189,
+                211,
+                210
+            ],
+            "text": "21/05/2026 16:29",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                259,
+                197,
+                280
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                268,
+                259,
+                276,
+                279
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                298,
+                259,
+                333,
+                279
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                353,
+                259,
+                388,
+                279
+            ],
+            "text": "6.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                285,
+                161,
+                306
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                261,
+                285,
+                271,
+                305
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                284,
+                334,
+                305
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                284,
+                388,
+                304
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                344,
+                324,
+                388,
+                344
+            ],
+            "text": "23.760",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                131,
+                19,
+                247,
+                43
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                31,
+                38,
+                348,
+                69
+            ],
+            "text": "Số 226 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                21,
+                157,
+                137,
+                181
+            ],
+            "text": "08/06/2026 18:01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                240,
+                30,
+                261
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                55,
+                234,
+                214,
+                260
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                229,
+                359,
+                251
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                267,
+                30,
+                287
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                55,
+                261,
+                194,
+                286
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                255,
+                360,
+                278
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                335,
+                361,
+                357
+            ],
+            "text": "138,510",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

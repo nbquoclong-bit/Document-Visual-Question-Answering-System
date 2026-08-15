@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                108,
+                87,
+                268,
+                113
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                48,
+                105,
+                329,
+                135
+            ],
+            "text": "Số 299 Bùi Thị Xuân, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                44,
+                171,
+                117,
+                197
+            ],
+            "text": "17/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                294,
+                133,
+                319
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                292,
+                241,
+                313
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                314,
+                288,
+                360,
+                310
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                326,
+                156,
+                351
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                323,
+                239,
+                345
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                321,
+                359,
+                342
+            ],
+            "text": "85,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                415,
+                359,
+                438
+            ],
+            "text": "135,850",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

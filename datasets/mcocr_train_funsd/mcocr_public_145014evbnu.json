@@ -2,163 +2,133 @@
     "form": [
         {
             "box": [
-                303,
-                260,
-                630,
-                284
+                246,
+                1036,
+                729,
+                1079
             ],
-            "text": "CUAHANGNAMOANH",
+            "text": "Cẩm ơn quý khách. Hẹn gặp lại",
             "label": "OTHER"
         },
         {
             "box": [
-                127,
-                290,
-                808,
-                321
+                109,
+                938,
+                364,
+                989
             ],
-            "text": "Thon Phu Thuy, Xa Phu Thj, Huyen Gia Lam, TP Ha N$i",
+            "text": "Cộng tiền hàng",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                754,
+                938,
+                873,
+                980
+            ],
+            "text": "22,000",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                409,
+                866,
+                526,
+                907
+            ],
+            "text": "22,000",
             "label": "OTHER"
         },
         {
             "box": [
-                300,
-                328,
-                634,
-                350
+                751,
+                864,
+                869,
+                905
             ],
-            "text": "0869322496-02438765210",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                315,
-                405,
-                624,
-                433
-            ],
-            "text": "HOA DON BAN HANG",
+            "text": "22,000",
             "label": "OTHER"
         },
         {
             "box": [
                 116,
+                808,
+                493,
+                849
+            ],
+            "text": "Hạt nêm Neptune 380g",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                690,
+                739,
+                861,
+                782
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                124,
+                621,
+                316,
+                653
+            ],
+            "text": "Số: SON55528",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                620,
+                616,
+                852,
+                656
+            ],
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                329,
+                558,
+                645,
+                595
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                315,
                 454,
-                305,
-                476
+                656,
+                480
             ],
-            "text": "S6:SON55528",
+            "text": "0869322496 - 02438765210",
             "label": "OTHER"
         },
         {
             "box": [
-                598,
-                446,
-                829,
-                478
-            ],
-            "text": "Ngav:11-08-2020",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                106,
-                546,
-                153,
-                573
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                393,
-                545,
-                508,
-                572
-            ],
-            "text": "Pa.gia",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                669,
-                536,
+                138,
+                402,
                 836,
-                569
+                441
             ],
-            "text": "Thanh tien",
-            "label": "OTHER"
+            "text": "Thôn Phú Thuỷ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+            "label": "ADDRESS"
         },
         {
             "box": [
-                106,
-                589,
-                478,
-                621
+                318,
+                360,
+                652,
+                392
             ],
-            "text": "Hat ném Neptune 380g",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                105,
-                635,
-                125,
-                663
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                394,
-                632,
-                508,
-                662
-            ],
-            "text": "22,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                728,
-                629,
-                846,
-                658
-            ],
-            "text": "22,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                102,
-                689,
-                352,
-                721
-            ],
-            "text": "Cong tién hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                729,
-                679,
-                851,
-                717
-            ],
-            "text": "22,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                237,
-                755,
-                711,
-                789
-            ],
-            "text": "Cam on quy khach. Hen gap lai!",
-            "label": "OTHER"
+            "text": "CỬA HÀNG NĂM OÁNH",
+            "label": "SELLER"
         }
     ]
 }

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                156,
+                15,
+                254,
+                36
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                40,
+                395,
+                61
+            ],
+            "text": "Số 246 Lý Thường Kiệt, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                164,
+                210,
+                185
+            ],
+            "text": "25/05/2026 10:47",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                237,
+                180,
+                258
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                237,
+                268,
+                258
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                237,
+                335,
+                258
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                237,
+                395,
+                258
+            ],
+            "text": "44.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                264,
+                165,
+                285
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                268,
+                264,
+                275,
+                285
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                298,
+                264,
+                335,
+                285
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                358,
+                264,
+                395,
+                285
+            ],
+            "text": "9.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                291,
+                158,
+                312
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                291,
+                268,
+                312
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                291,
+                335,
+                312
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                291,
+                395,
+                312
+            ],
+            "text": "48.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                333,
+                395,
+                354
+            ],
+            "text": "109.080",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

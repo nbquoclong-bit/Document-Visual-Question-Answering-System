@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                146,
+                16,
+                265,
+                37
+            ],
+            "text": "JOLLIBEE PASTEUR",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                69,
+                37,
+                343,
+                59
+            ],
+            "text": "Số 145 Bùi Thị Xuân, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                147,
+                186,
+                170
+            ],
+            "text": "04/06/2026 20:25",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                244,
+                124,
+                266
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                227,
+                246,
+                235,
+                267
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                245,
+                301,
+                268
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                246,
+                389,
+                269
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                274,
+                131,
+                297
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                277,
+                234,
+                298
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                277,
+                300,
+                299
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                277,
+                389,
+                300
+            ],
+            "text": "152,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                305,
+                182,
+                327
+            ],
+            "text": "Gà Giòn Vui Vẻ 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                308,
+                234,
+                329
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                307,
+                300,
+                329
+            ],
+            "text": "35,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                309,
+                390,
+                330
+            ],
+            "text": "140,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                331,
+                398,
+                390,
+                421
+            ],
+            "text": "354,200đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

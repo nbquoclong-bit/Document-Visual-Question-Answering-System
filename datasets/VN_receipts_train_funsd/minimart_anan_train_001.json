@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                118,
+                18,
+                285,
+                42
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                42,
+                385,
+                67
+            ],
+            "text": "Số 216 Lý Thường Kiệt, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                166,
+                208,
+                187
+            ],
+            "text": "21/05/2026 10:38",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                238,
+                194,
+                259
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                267,
+                238,
+                274,
+                258
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                295,
+                237,
+                332,
+                258
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                237,
+                384,
+                258
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                264,
+                173,
+                286
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                259,
+                264,
+                268,
+                284
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                288,
+                263,
+                332,
+                284
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                263,
+                385,
+                284
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                342,
+                304,
+                386,
+                324
+            ],
+            "text": "90.200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

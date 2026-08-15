@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                91,
+                32,
+                358,
+                51
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                98,
+                42,
+                382,
+                74
+            ],
+            "text": "Số 9 Nguyễn Trãi, Quận Đống Đa, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                215,
+                146,
+                432,
+                163
+            ],
+            "text": "Ngày 05 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                133,
+                255,
+                227,
+                269
+            ],
+            "text": "162.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

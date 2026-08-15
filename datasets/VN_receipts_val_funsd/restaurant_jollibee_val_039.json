@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                150,
+                25,
+                266,
+                47
+            ],
+            "text": "JOLLIBEE PASTEUR",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                74,
+                45,
+                342,
+                68
+            ],
+            "text": "Số 338 Nguyễn Trãi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                154,
+                189,
+                175
+            ],
+            "text": "29/05/2026 21:06",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                249,
+                178,
+                270
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                228,
+                248,
+                236,
+                269
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                256,
+                248,
+                300,
+                269
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                248,
+                388,
+                268
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                279,
+                135,
+                300
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                227,
+                279,
+                235,
+                299
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                256,
+                278,
+                300,
+                299
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                278,
+                388,
+                298
+            ],
+            "text": "114,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                309,
+                135,
+                331
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                227,
+                309,
+                234,
+                329
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                256,
+                308,
+                300,
+                329
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                308,
+                388,
+                328
+            ],
+            "text": "34,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                395,
+                390,
+                416
+            ],
+            "text": "217,800đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

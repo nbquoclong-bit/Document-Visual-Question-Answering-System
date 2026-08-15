@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                117,
+                17,
+                288,
+                42
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                40,
+                393,
+                68
+            ],
+            "text": "Số 41 Cách Mạng Tháng Tám, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                88,
+                166,
+                207,
+                189
+            ],
+            "text": "30/05/2026 18:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                239,
+                156,
+                261
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                259,
+                238,
+                266,
+                260
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                288,
+                238,
+                334,
+                260
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                237,
+                391,
+                259
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                266,
+                186,
+                288
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                259,
+                266,
+                265,
+                287
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                288,
+                265,
+                334,
+                286
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                264,
+                392,
+                286
+            ],
+            "text": "40.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                347,
+                306,
+                392,
+                328
+            ],
+            "text": "77.760",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

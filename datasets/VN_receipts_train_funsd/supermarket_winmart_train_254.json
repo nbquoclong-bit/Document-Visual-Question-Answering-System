@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                162,
+                25,
+                242,
+                47
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                43,
+                60,
+                361,
+                82
+            ],
+            "text": "Số 332 Lý Thường Kiệt, Quận Ba Đình, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                169,
+                183,
+                190
+            ],
+            "text": "02/06/2026 10:50",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                261,
+                164,
+                282
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                261,
+                211,
+                283
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                260,
+                278,
+                282
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                261,
+                390,
+                282
+            ],
+            "text": "102.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                289,
+                186,
+                312
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                289,
+                212,
+                310
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                289,
+                277,
+                311
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                289,
+                388,
+                310
+            ],
+            "text": "72.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                337,
+                377,
+                389,
+                399
+            ],
+            "text": "187.920",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

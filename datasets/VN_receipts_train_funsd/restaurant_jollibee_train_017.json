@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                146,
+                20,
+                265,
+                43
+            ],
+            "text": "JOLLIBEE PASTEUR",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                80,
+                41,
+                332,
+                64
+            ],
+            "text": "Số 194 Nguyễn Huệ, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                152,
+                185,
+                173
+            ],
+            "text": "02/06/2026 07:56",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                245,
+                122,
+                268
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                248,
+                233,
+                270
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                248,
+                300,
+                270
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                249,
+                390,
+                270
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                276,
+                181,
+                298
+            ],
+            "text": "Gà Giòn Vui Vẻ 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                278,
+                233,
+                300
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                279,
+                299,
+                300
+            ],
+            "text": "35,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                281,
+                390,
+                302
+            ],
+            "text": "35,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                306,
+                174,
+                330
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                309,
+                233,
+                331
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                310,
+                299,
+                331
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                310,
+                389,
+                333
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                331,
+                400,
+                391,
+                421
+            ],
+            "text": "167,400đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

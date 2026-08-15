@@ -2,223 +2,163 @@
     "form": [
         {
             "box": [
-                239,
-                434,
-                580,
-                457
+                170,
+                741,
+                436,
+                768
             ],
-            "text": "NHASACHGD-TC CAM PHA",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                157,
-                459,
-                559,
-                486
+                441,
+                708,
+                516,
+                732
             ],
-            "text": "DC212Duong Tran Phü-C&m Pha",
+            "text": "P000 09",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                116,
+                709,
+                275,
+                731
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                115,
+                677,
+                285,
+                701
+            ],
+            "text": "Chiết khấu bán hàng:",
             "label": "OTHER"
         },
         {
             "box": [
-                158,
-                496,
-                364,
-                513
+                438,
+                647,
+                516,
+                670
             ],
-            "text": "Nhan vien thu ngan",
+            "text": "50.000đ",
             "label": "OTHER"
         },
         {
             "box": [
-                158,
-                519,
-                526,
-                540
+                112,
+                648,
+                204,
+                673
             ],
-            "text": "DT0333863328-Fax0333863328",
+            "text": "Tổng cộng:",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                115,
+                624,
+                227,
+                643
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                157,
-                543,
-                492,
-                566
+                446,
+                620,
+                515,
+                640
             ],
-            "text": "Thigian:09:42:09-11/08/2020",
+            "text": "P000 09",
             "label": "OTHER"
         },
         {
             "box": [
-                149,
-                571,
-                255,
-                595
+                327,
+                622,
+                385,
+                640
             ],
-            "text": "Ten hang",
+            "text": "000000",
             "label": "OTHER"
         },
         {
             "box": [
-                359,
-                571,
-                399,
-                592
+                121,
+                592,
+                200,
+                613
             ],
-            "text": "SL",
+            "text": "Tên hàng",
             "label": "OTHER"
         },
         {
             "box": [
-                420,
-                573,
-                462,
-                592
+                423,
+                588,
+                517,
+                609
             ],
-            "text": "Gia",
+            "text": "Thành tiền",
             "label": "OTHER"
         },
         {
             "box": [
-                494,
-                572,
-                535,
-                592
+                126,
+                561,
+                382,
+                586
             ],
-            "text": "Ck",
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                127,
+                537,
+                408,
+                559
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                531,
-                570,
-                664,
-                594
+                126,
+                513,
+                288,
+                531
             ],
-            "text": "Thnh tién",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                141,
-                604,
-                290,
-                622
+                126,
+                477,
+                435,
+                504
             ],
-            "text": "Tui but20106",
-            "label": "OTHER"
+            "text": "",
+            "label": "ADDRESS"
         },
         {
             "box": [
-                417,
-                603,
-                494,
-                621
+                188,
+                449,
+                450,
+                475
             ],
-            "text": "50.000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                518,
-                606,
-                531,
-                619
-            ],
-            "text": "0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                572,
-                604,
-                665,
-                623
-            ],
-            "text": "50.000d",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                138,
-                625,
-                257,
-                652
-            ],
-            "text": "T&ng cong",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                378,
-                629,
-                395,
-                647
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                563,
-                629,
-                662,
-                652
-            ],
-            "text": "50.000d",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                138,
-                655,
-                361,
-                679
-            ],
-            "text": "Chiet khau bän hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                628,
-                659,
-                665,
-                681
-            ],
-            "text": "PO",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                139,
-                685,
-                348,
-                709
-            ],
-            "text": "T&ng s thanh toan:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                563,
-                686,
-                665,
-                711
-            ],
-            "text": "50.000d",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                212,
-                719,
-                558,
-                746
-            ],
-            "text": "XIN CAM ON QUi KHACH!",
-            "label": "OTHER"
+            "text": "",
+            "label": "SELLER"
         }
     ]
 }

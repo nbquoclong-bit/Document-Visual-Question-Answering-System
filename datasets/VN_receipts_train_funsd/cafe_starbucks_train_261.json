@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                105,
+                94,
+                260,
+                127
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                76,
+                112,
+                289,
+                150
+            ],
+            "text": "Số 13 Lê Lợi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                44,
+                184,
+                115,
+                212
+            ],
+            "text": "19/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                300,
+                155,
+                330
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                227,
+                294,
+                235,
+                315
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                301,
+                285,
+                352,
+                309
+            ],
+            "text": "170,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                333,
+                141,
+                361
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                228,
+                326,
+                236,
+                346
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                301,
+                317,
+                351,
+                341
+            ],
+            "text": "240,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                302,
+                410,
+                352,
+                434
+            ],
+            "text": "442,800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

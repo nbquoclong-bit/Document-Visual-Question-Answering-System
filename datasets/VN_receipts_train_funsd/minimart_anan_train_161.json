@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                35,
+                285,
+                55
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                29,
+                57,
+                385,
+                78
+            ],
+            "text": "Số 88 Lê Lợi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                171,
+                211,
+                191
+            ],
+            "text": "28/05/2026 17:12",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                26,
+                237,
+                167,
+                259
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                247,
+                239,
+                255,
+                259
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                275,
+                240,
+                327,
+                260
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                239,
+                386,
+                260
+            ],
+            "text": "175.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                263,
+                196,
+                284
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                264,
+                269,
+                284
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                264,
+                325,
+                285
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                265,
+                386,
+                285
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                334,
+                304,
+                386,
+                325
+            ],
+            "text": "212.300",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

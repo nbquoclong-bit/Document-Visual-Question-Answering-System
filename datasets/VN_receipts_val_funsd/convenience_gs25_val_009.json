@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                142,
+                32,
+                258,
+                56
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                50,
+                49,
+                352,
+                79
+            ],
+            "text": "Số 218 Hai Bà Trưng, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                162,
+                183,
+                185
+            ],
+            "text": "15/06/2026 08:57",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                254,
+                165,
+                278
+            ],
+            "text": "Xúc xích Đức ăn liền",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                219,
+                252,
+                227,
+                274
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                247,
+                251,
+                292,
+                272
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                249,
+                383,
+                271
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                282,
+                138,
+                306
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                219,
+                280,
+                228,
+                302
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                249,
+                279,
+                292,
+                302
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                277,
+                383,
+                298
+            ],
+            "text": "88,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                326,
+                365,
+                387,
+                387
+            ],
+            "text": "118,800đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

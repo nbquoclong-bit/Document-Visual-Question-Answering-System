@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                131,
+                40,
+                256,
+                60
+            ],
+            "text": "PHÚC LONG LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                68,
+                60,
+                318,
+                82
+            ],
+            "text": "Số 275 Nguyễn Trãi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                31,
+                170,
+                142,
+                190
+            ],
+            "text": "12/06/2026 18:35",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                31,
+                246,
+                38,
+                267
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                63,
+                247,
+                146,
+                269
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                249,
+                356,
+                271
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                31,
+                272,
+                38,
+                292
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                63,
+                273,
+                188,
+                294
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                273,
+                356,
+                296
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                30,
+                297,
+                38,
+                318
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                63,
+                296,
+                196,
+                320
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                301,
+                356,
+                320
+            ],
+            "text": "200,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                30,
+                323,
+                38,
+                342
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                63,
+                324,
+                196,
+                344
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                325,
+                356,
+                347
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                402,
+                356,
+                424
+            ],
+            "text": "599,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

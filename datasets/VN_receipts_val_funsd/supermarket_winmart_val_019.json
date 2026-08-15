@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                154,
+                26,
+                257,
+                50
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                17,
+                56,
+                389,
+                108
+            ],
+            "text": "Số 298 Nguyễn Trãi, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                184,
+                186,
+                208
+            ],
+            "text": "30/05/2026 09:32",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                276,
+                167,
+                299
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                279,
+                214,
+                300
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                235,
+                280,
+                279,
+                301
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                282,
+                389,
+                303
+            ],
+            "text": "68.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                304,
+                206,
+                348
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                207,
+                317,
+                215,
+                338
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                235,
+                318,
+                280,
+                339
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                319,
+                388,
+                340
+            ],
+            "text": "116.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                353,
+                189,
+                376
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                356,
+                215,
+                377
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                235,
+                356,
+                280,
+                377
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                358,
+                390,
+                379
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                444,
+                390,
+                465
+            ],
+            "text": "218.160",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

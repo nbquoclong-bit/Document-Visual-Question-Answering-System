@@ -1,0 +1,194 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                105,
+                269,
+                127
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                24,
+                124,
+                357,
+                148
+            ],
+            "text": "Số 240 Bùi Thị Xuân, Quận Hai Bà Trưng, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                48,
+                183,
+                119,
+                205
+            ],
+            "text": "18/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                299,
+                144,
+                320
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                301,
+                241,
+                321
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                307,
+                302,
+                360,
+                323
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                330,
+                150,
+                351
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                333,
+                241,
+                353
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                334,
+                360,
+                355
+            ],
+            "text": "260,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                360,
+                159,
+                382
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                364,
+                241,
+                384
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                365,
+                361,
+                386
+            ],
+            "text": "340,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                390,
+                144,
+                412
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                395,
+                242,
+                415
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                397,
+                360,
+                418
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                420,
+                138,
+                443
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                426,
+                242,
+                446
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                428,
+                361,
+                449
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                520,
+                362,
+                542
+            ],
+            "text": "886,050",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

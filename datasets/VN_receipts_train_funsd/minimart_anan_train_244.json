@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                122,
+                18,
+                285,
+                38
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                43,
+                390,
+                64
+            ],
+            "text": "Số 222 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                165,
+                207,
+                187
+            ],
+            "text": "19/06/2026 21:03",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                237,
+                178,
+                260
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                256,
+                239,
+                265,
+                260
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                287,
+                238,
+                331,
+                259
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                238,
+                390,
+                260
+            ],
+            "text": "22.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                264,
+                170,
+                286
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                257,
+                265,
+                265,
+                287
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                285,
+                266,
+                331,
+                287
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                265,
+                390,
+                287
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                345,
+                307,
+                390,
+                329
+            ],
+            "text": "59.400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

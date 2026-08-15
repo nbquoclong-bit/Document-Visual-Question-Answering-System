@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                156,
+                15,
+                254,
+                36
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                40,
+                395,
+                61
+            ],
+            "text": "Số 96 Nguyễn Trãi, Quận Tân Bình, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                164,
+                210,
+                185
+            ],
+            "text": "31/05/2026 07:32",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                237,
+                188,
+                258
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                266,
+                237,
+                273,
+                258
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                296,
+                237,
+                341,
+                258
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                237,
+                395,
+                258
+            ],
+            "text": "10.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                264,
+                210,
+                285
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                273,
+                264,
+                281,
+                285
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                303,
+                264,
+                341,
+                285
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                264,
+                395,
+                285
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                291,
+                165,
+                312
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                273,
+                291,
+                281,
+                312
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                303,
+                291,
+                341,
+                312
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                291,
+                395,
+                312
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                350,
+                333,
+                395,
+                354
+            ],
+            "text": "66.000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

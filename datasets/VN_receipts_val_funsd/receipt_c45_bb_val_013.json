@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                27,
+                335,
+                43
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                92,
+                37,
+                403,
+                68
+            ],
+            "text": "Số 376 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                211,
+                146,
+                435,
+                163
+            ],
+            "text": "Ngày 19 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                121,
+                257,
+                219,
+                273
+            ],
+            "text": "162.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

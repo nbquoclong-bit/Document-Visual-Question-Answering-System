@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                30,
+                337,
+                45
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                93,
+                40,
+                393,
+                70
+            ],
+            "text": "Số 344 Lý Thường Kiệt, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                150,
+                436,
+                165
+            ],
+            "text": "Ngày 14 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                124,
+                260,
+                222,
+                275
+            ],
+            "text": "216.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

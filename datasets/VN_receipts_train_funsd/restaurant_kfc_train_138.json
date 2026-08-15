@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                154,
+                15,
+                256,
+                36
+            ],
+            "text": "KFC VIỆT NAM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                19,
+                38,
+                391,
+                59
+            ],
+            "text": "Số 421 Lý Thường Kiệt, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                160,
+                205,
+                181
+            ],
+            "text": "06/06/2026 16:09",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                242,
+                122,
+                263
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                242,
+                214,
+                263
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                237,
+                242,
+                288,
+                263
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                242,
+                393,
+                263
+            ],
+            "text": "44,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                273,
+                147,
+                294
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                207,
+                273,
+                214,
+                294
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                237,
+                273,
+                288,
+                294
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                273,
+                393,
+                294
+            ],
+            "text": "28,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                304,
+                101,
+                325
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                304,
+                214,
+                325
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                304,
+                288,
+                325
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                304,
+                393,
+                325
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                324,
+                417,
+                384,
+                438
+            ],
+            "text": "168,480",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

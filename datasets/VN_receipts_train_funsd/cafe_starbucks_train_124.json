@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                108,
+                104,
+                267,
+                126
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                28,
+                124,
+                349,
+                147
+            ],
+            "text": "Số 110 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                46,
+                181,
+                118,
+                204
+            ],
+            "text": "03/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                300,
+                157,
+                323
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                304,
+                240,
+                324
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                307,
+                305,
+                359,
+                327
+            ],
+            "text": "170,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                331,
+                135,
+                353
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                336,
+                239,
+                356
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                337,
+                359,
+                358
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                362,
+                149,
+                385
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                367,
+                240,
+                387
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                369,
+                359,
+                390
+            ],
+            "text": "65,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                393,
+                136,
+                416
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                399,
+                240,
+                419
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                314,
+                401,
+                358,
+                422
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                493,
+                359,
+                515
+            ],
+            "text": "394,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

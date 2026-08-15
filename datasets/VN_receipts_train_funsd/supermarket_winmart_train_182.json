@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                166,
+                21,
+                246,
+                44
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                56,
+                56,
+                356,
+                78
+            ],
+            "text": "Số 329 Lý Thường Kiệt, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                69,
+                164,
+                186,
+                186
+            ],
+            "text": "30/05/2026 15:06",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                256,
+                189,
+                279
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                214,
+                258,
+                221,
+                279
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                258,
+                279,
+                280
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                354,
+                258,
+                390,
+                280
+            ],
+            "text": "3.500",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                285,
+                205,
+                329
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                296,
+                214,
+                318
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                235,
+                296,
+                279,
+                318
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                297,
+                390,
+                319
+            ],
+            "text": "116.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                396,
+                390,
+                419
+            ],
+            "text": "131.450",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

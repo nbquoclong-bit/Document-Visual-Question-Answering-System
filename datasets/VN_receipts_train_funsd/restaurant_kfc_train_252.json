@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                167,
+                23,
+                249,
+                45
+            ],
+            "text": "KFC Bà Hom",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                72,
+                44,
+                341,
+                69
+            ],
+            "text": "Số 210 Trần Hưng Đạo, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                96,
+                164,
+                208,
+                186
+            ],
+            "text": "22/05/2026 17:54",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                26,
+                243,
+                169,
+                266
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                216,
+                246,
+                226,
+                266
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                246,
+                294,
+                267
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                247,
+                387,
+                268
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                27,
+                274,
+                128,
+                295
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                216,
+                276,
+                226,
+                297
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                276,
+                294,
+                297
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                277,
+                387,
+                299
+            ],
+            "text": "44,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                321,
+                387,
+                377,
+                408
+            ],
+            "text": "134,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

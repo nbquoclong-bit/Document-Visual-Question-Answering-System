@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                41,
+                292,
+                60
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                64,
+                388,
+                103
+            ],
+            "text": "Số 347 Cách Mạng Tháng Tám, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                199,
+                215,
+                220
+            ],
+            "text": "23/05/2026 07:29",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                267,
+                214,
+                290
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                274,
+                266,
+                281,
+                286
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                303,
+                265,
+                338,
+                285
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                264,
+                390,
+                284
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                293,
+                171,
+                316
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                273,
+                291,
+                280,
+                311
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                302,
+                290,
+                338,
+                311
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                355,
+                289,
+                390,
+                310
+            ],
+            "text": "9.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                348,
+                328,
+                390,
+                349
+            ],
+            "text": "27.500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                87,
+                27,
+                336,
+                42
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                94,
+                37,
+                389,
+                66
+            ],
+            "text": "Số 285 Trần Hưng Đạo, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                213,
+                144,
+                436,
+                160
+            ],
+            "text": "Ngày 29 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                123,
+                256,
+                223,
+                271
+            ],
+            "text": "165.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                133,
+                21,
+                285,
+                42
+            ],
+            "text": "KFC Nguyễn Thái Học",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                47,
+                42,
+                371,
+                65
+            ],
+            "text": "Số 298 Trần Hưng Đạo, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                99,
+                162,
+                209,
+                184
+            ],
+            "text": "01/06/2026 18:07",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                31,
+                242,
+                156,
+                265
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                218,
+                241,
+                226,
+                263
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                247,
+                240,
+                293,
+                263
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                239,
+                385,
+                262
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                31,
+                274,
+                110,
+                296
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                218,
+                272,
+                226,
+                294
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                271,
+                293,
+                293
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                270,
+                385,
+                292
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                31,
+                303,
+                170,
+                325
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                220,
+                303,
+                226,
+                323
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                301,
+                293,
+                323
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                301,
+                385,
+                321
+            ],
+            "text": "39,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                327,
+                411,
+                376,
+                433
+            ],
+            "text": "177,100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

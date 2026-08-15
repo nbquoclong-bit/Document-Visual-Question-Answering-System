@@ -1,0 +1,194 @@
+{
+    "form": [
+        {
+            "box": [
+                120,
+                19,
+                251,
+                39
+            ],
+            "text": "PHÚC LONG LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                45,
+                40,
+                325,
+                61
+            ],
+            "text": "Số 204 Lý Thường Kiệt, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                17,
+                152,
+                134,
+                172
+            ],
+            "text": "04/06/2026 12:35",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                232,
+                26,
+                253
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                231,
+                141,
+                253
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                305,
+                230,
+                355,
+                251
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                258,
+                27,
+                278
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                256,
+                192,
+                278
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                255,
+                356,
+                276
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                285,
+                26,
+                306
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                282,
+                213,
+                305
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                281,
+                357,
+                302
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                310,
+                28,
+                332
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                54,
+                310,
+                185,
+                332
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                307,
+                357,
+                328
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                337,
+                28,
+                359
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                336,
+                156,
+                358
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                332,
+                358,
+                353
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                409,
+                359,
+                431
+            ],
+            "text": "742,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

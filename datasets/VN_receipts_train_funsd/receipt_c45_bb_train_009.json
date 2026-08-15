@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                89,
+                26,
+                339,
+                41
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                96,
+                36,
+                386,
+                66
+            ],
+            "text": "Số 213 Bùi Thị Xuân, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                214,
+                146,
+                438,
+                162
+            ],
+            "text": "Ngày 23 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                257,
+                223,
+                272
+            ],
+            "text": "385.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                100,
+                17,
+                307,
+                41
+            ],
+            "text": "CO.OP FOOD NGUYỄN ĐÌNH CHIỂU",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                79,
+                38,
+                331,
+                61
+            ],
+            "text": "Số 126 Nguyễn Huệ, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                63,
+                156,
+                203,
+                179
+            ],
+            "text": "14/06/2026 08:47:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                234,
+                166,
+                256
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                181,
+                262,
+                256,
+                283
+            ],
+            "text": "175,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                272,
+                261,
+                279,
+                283
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                314,
+                260,
+                388,
+                281
+            ],
+            "text": "350,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                290,
+                174,
+                313
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                188,
+                319,
+                255,
+                340
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                271,
+                318,
+                279,
+                340
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                321,
+                318,
+                389,
+                339
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                423,
+                387,
+                445
+            ],
+            "text": "412,560.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

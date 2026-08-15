@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                110,
+                85,
+                266,
+                110
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                21,
+                104,
+                353,
+                132
+            ],
+            "text": "Số 328 Bùi Thị Xuân, Quận Hai Bà Trưng, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                46,
+                168,
+                119,
+                193
+            ],
+            "text": "18/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                290,
+                151,
+                315
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                288,
+                241,
+                308
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                306,
+                284,
+                355,
+                307
+            ],
+            "text": "195,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                322,
+                143,
+                347
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                320,
+                241,
+                341
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                305,
+                316,
+                354,
+                339
+            ],
+            "text": "120,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                354,
+                144,
+                380
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                352,
+                240,
+                373
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                312,
+                348,
+                355,
+                371
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                386,
+                158,
+                412
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                385,
+                240,
+                405
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                305,
+                380,
+                355,
+                402
+            ],
+            "text": "170,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                306,
+                474,
+                356,
+                497
+            ],
+            "text": "544,320",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

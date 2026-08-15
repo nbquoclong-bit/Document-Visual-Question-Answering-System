@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                16,
+                285,
+                37
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                41,
+                387,
+                62
+            ],
+            "text": "Số 398 Nguyễn Huệ, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                96,
+                162,
+                212,
+                182
+            ],
+            "text": "07/06/2026 19:03",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                25,
+                234,
+                191,
+                255
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                233,
+                263,
+                255
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                283,
+                233,
+                327,
+                255
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                233,
+                389,
+                254
+            ],
+            "text": "20.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                259,
+                183,
+                280
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                260,
+                263,
+                280
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                283,
+                260,
+                326,
+                280
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                261,
+                390,
+                282
+            ],
+            "text": "44.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                286,
+                163,
+                307
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                286,
+                262,
+                308
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                284,
+                286,
+                327,
+                308
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                286,
+                390,
+                307
+            ],
+            "text": "48.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                313,
+                169,
+                334
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                247,
+                313,
+                255,
+                334
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                277,
+                313,
+                326,
+                335
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                313,
+                390,
+                335
+            ],
+            "text": "525.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                355,
+                390,
+                376
+            ],
+            "text": "687.960",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,224 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                25,
+                249,
+                52
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                30,
+                39,
+                348,
+                77
+            ],
+            "text": "Số 205 Cách Mạng Tháng Tám, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                69,
+                177,
+                189,
+                203
+            ],
+            "text": "11/06/2026 14:33",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                234,
+                25,
+                255
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                236,
+                172,
+                261
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                248,
+                362,
+                270
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                260,
+                25,
+                281
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                262,
+                142,
+                286
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                274,
+                362,
+                295
+            ],
+            "text": "70,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                286,
+                24,
+                307
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                287,
+                193,
+                314
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                299,
+                362,
+                321
+            ],
+            "text": "29,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                312,
+                24,
+                332
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                313,
+                209,
+                340
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                324,
+                361,
+                346
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                338,
+                24,
+                358
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                339,
+                187,
+                365
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                350,
+                362,
+                372
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                364,
+                25,
+                384
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                365,
+                193,
+                391
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                375,
+                361,
+                397
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                435,
+                362,
+                456
+            ],
+            "text": "654,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

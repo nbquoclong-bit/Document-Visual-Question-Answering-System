@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                110,
+                89,
+                270,
+                114
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                18,
+                108,
+                363,
+                157
+            ],
+            "text": "Số 96 Lê Lợi, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                45,
+                193,
+                119,
+                218
+            ],
+            "text": "18/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                315,
+                142,
+                339
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                314,
+                242,
+                334
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                310,
+                312,
+                361,
+                334
+            ],
+            "text": "240,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                347,
+                134,
+                370
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                346,
+                242,
+                367
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                343,
+                361,
+                366
+            ],
+            "text": "160,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                439,
+                360,
+                461
+            ],
+            "text": "396,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

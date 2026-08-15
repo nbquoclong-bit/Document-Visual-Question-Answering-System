@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                99,
+                35,
+                288,
+                56
+            ],
+            "text": "7-Eleven Saigon Trade Center",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                153,
+                76,
+                270,
+                96
+            ],
+            "text": "02/06/2026 16:11",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                50,
+                129,
+                168,
+                151
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                128,
+                359,
+                149
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                49,
+                156,
+                225,
+                179
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                155,
+                359,
+                176
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                317,
+                186,
+                358,
+                210
+            ],
+            "text": "83,160",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

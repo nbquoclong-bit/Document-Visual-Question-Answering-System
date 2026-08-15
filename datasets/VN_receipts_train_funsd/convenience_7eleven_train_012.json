@@ -1,0 +1,154 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                21,
+                246,
+                42
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                145,
+                62,
+                264,
+                83
+            ],
+            "text": "02/06/2026 16:14",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                41,
+                118,
+                219,
+                140
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                117,
+                359,
+                139
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                41,
+                146,
+                219,
+                168
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                146,
+                360,
+                166
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                41,
+                175,
+                212,
+                197
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                174,
+                361,
+                196
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                41,
+                203,
+                219,
+                225
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                203,
+                361,
+                224
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                41,
+                232,
+                175,
+                253
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                231,
+                360,
+                253
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                41,
+                260,
+                160,
+                282
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                261,
+                361,
+                281
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                292,
+                360,
+                317
+            ],
+            "text": "249,480",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

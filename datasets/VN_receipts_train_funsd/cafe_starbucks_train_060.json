@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                113,
+                96,
+                271,
+                118
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                33,
+                115,
+                348,
+                139
+            ],
+            "text": "Số 96 Hai Bà Trưng, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                48,
+                175,
+                122,
+                198
+            ],
+            "text": "19/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                296,
+                147,
+                320
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                295,
+                245,
+                316
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                294,
+                362,
+                315
+            ],
+            "text": "300,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                328,
+                138,
+                352
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                327,
+                245,
+                348
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                318,
+                326,
+                362,
+                346
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                418,
+                361,
+                439
+            ],
+            "text": "372,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

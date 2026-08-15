@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                18,
+                263,
+                41
+            ],
+            "text": "JOLLIBEE PASTEUR",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                56,
+                39,
+                352,
+                62
+            ],
+            "text": "Số 45 Nguyễn Trãi, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                151,
+                184,
+                173
+            ],
+            "text": "28/05/2026 19:50",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                248,
+                130,
+                268
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                224,
+                247,
+                232,
+                269
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                254,
+                246,
+                298,
+                268
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                246,
+                390,
+                268
+            ],
+            "text": "17,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                278,
+                175,
+                299
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                224,
+                278,
+                232,
+                299
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                254,
+                278,
+                298,
+                298
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                278,
+                390,
+                299
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                368,
+                392,
+                389
+            ],
+            "text": "72,360đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

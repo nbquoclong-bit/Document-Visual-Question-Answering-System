@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                123,
+                42,
+                286,
+                63
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                18,
+                67,
+                389,
+                109
+            ],
+            "text": "Số 419 Nguyễn Trãi, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                93,
+                208,
+                209,
+                229
+            ],
+            "text": "16/06/2026 19:07",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                278,
+                180,
+                299
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                256,
+                277,
+                264,
+                297
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                284,
+                277,
+                328,
+                297
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                277,
+                386,
+                297
+            ],
+            "text": "22.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                304,
+                165,
+                324
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                303,
+                270,
+                323
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                292,
+                303,
+                328,
+                323
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                302,
+                385,
+                322
+            ],
+            "text": "27.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                342,
+                384,
+                362
+            ],
+            "text": "53.900",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

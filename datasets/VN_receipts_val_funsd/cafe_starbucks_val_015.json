@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                113,
+                93,
+                265,
+                119
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                40,
+                110,
+                337,
+                140
+            ],
+            "text": "Số 99 Hai Bà Trưng, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                49,
+                165,
+                121,
+                190
+            ],
+            "text": "23/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                281,
+                137,
+                304
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                286,
+                241,
+                305
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                306,
+                287,
+                355,
+                309
+            ],
+            "text": "160,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                311,
+                145,
+                335
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                316,
+                241,
+                336
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                306,
+                318,
+                355,
+                338
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                343,
+                159,
+                366
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                348,
+                242,
+                367
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                307,
+                348,
+                356,
+                369
+            ],
+            "text": "340,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                374,
+                145,
+                396
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                378,
+                242,
+                399
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                307,
+                379,
+                356,
+                400
+            ],
+            "text": "240,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                470,
+                357,
+                491
+            ],
+            "text": "961,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

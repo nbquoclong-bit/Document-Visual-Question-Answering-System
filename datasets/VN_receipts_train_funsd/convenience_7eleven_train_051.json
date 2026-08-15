@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                128,
+                22,
+                250,
+                42
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                149,
+                62,
+                266,
+                83
+            ],
+            "text": "21/05/2026 09:54",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                45,
+                117,
+                177,
+                138
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                117,
+                360,
+                138
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                45,
+                144,
+                221,
+                166
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                145,
+                360,
+                165
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                45,
+                172,
+                221,
+                193
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                172,
+                360,
+                193
+            ],
+            "text": "10,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                316,
+                204,
+                360,
+                228
+            ],
+            "text": "46,440",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

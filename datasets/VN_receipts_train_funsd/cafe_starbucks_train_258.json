@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                107,
+                81,
+                275,
+                103
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                53,
+                103,
+                329,
+                124
+            ],
+            "text": "Số 91 Lý Thường Kiệt, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                45,
+                161,
+                119,
+                184
+            ],
+            "text": "04/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                285,
+                136,
+                307
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                286,
+                244,
+                307
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                320,
+                287,
+                364,
+                308
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                318,
+                159,
+                339
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                318,
+                244,
+                340
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                319,
+                364,
+                341
+            ],
+            "text": "255,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                415,
+                364,
+                437
+            ],
+            "text": "335,340",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

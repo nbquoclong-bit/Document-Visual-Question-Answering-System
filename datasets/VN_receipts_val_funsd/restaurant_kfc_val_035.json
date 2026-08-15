@@ -1,0 +1,284 @@
+{
+    "form": [
+        {
+            "box": [
+                118,
+                19,
+                275,
+                45
+            ],
+            "text": "KFC Nguyễn Thái Học",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                36,
+                39,
+                359,
+                70
+            ],
+            "text": "Số 360 Hai Bà Trưng, Quận Hai Bà Trưng, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                85,
+                160,
+                197,
+                185
+            ],
+            "text": "26/05/2026 22:42",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                239,
+                117,
+                263
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                208,
+                244,
+                215,
+                266
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                245,
+                284,
+                268
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                327,
+                248,
+                378,
+                271
+            ],
+            "text": "22,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                268,
+                141,
+                293
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                274,
+                216,
+                295
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                275,
+                283,
+                298
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                329,
+                279,
+                378,
+                302
+            ],
+            "text": "56,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                298,
+                158,
+                324
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                305,
+                216,
+                326
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                235,
+                305,
+                283,
+                328
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                328,
+                309,
+                378,
+                332
+            ],
+            "text": "72,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                328,
+                143,
+                354
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                208,
+                336,
+                216,
+                357
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                235,
+                336,
+                283,
+                359
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                329,
+                339,
+                378,
+                361
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                359,
+                96,
+                382
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                365,
+                216,
+                386
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                367,
+                283,
+                389
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                325,
+                369,
+                378,
+                393
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                389,
+                158,
+                415
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                208,
+                395,
+                215,
+                416
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                396,
+                282,
+                419
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                325,
+                400,
+                378,
+                423
+            ],
+            "text": "39,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                509,
+                369,
+                533
+            ],
+            "text": "315,360",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

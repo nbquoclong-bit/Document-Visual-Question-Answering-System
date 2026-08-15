@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                109,
+                84,
+                266,
+                106
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                33,
+                104,
+                345,
+                127
+            ],
+            "text": "Số 445 Nguyễn Trãi, Quận 7, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                46,
+                164,
+                118,
+                186
+            ],
+            "text": "26/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                283,
+                134,
+                305
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                284,
+                240,
+                305
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                284,
+                359,
+                306
+            ],
+            "text": "120,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                316,
+                134,
+                337
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                316,
+                240,
+                338
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                317,
+                359,
+                339
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                412,
+                360,
+                434
+            ],
+            "text": "297,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

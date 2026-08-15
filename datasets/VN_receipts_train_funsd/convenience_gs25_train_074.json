@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                16,
+                279,
+                38
+            ],
+            "text": "GS25 TÔN THẤT THUYẾT",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                62,
+                36,
+                347,
+                60
+            ],
+            "text": "Số 289 Nguyễn Trãi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                64,
+                147,
+                184,
+                169
+            ],
+            "text": "22/05/2026 21:19",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                240,
+                219,
+                262
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                241,
+                243,
+                263
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                265,
+                241,
+                310,
+                262
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                243,
+                391,
+                264
+            ],
+            "text": "56,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                268,
+                204,
+                291
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                270,
+                243,
+                291
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                265,
+                270,
+                310,
+                291
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                270,
+                391,
+                293
+            ],
+            "text": "64,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                297,
+                196,
+                320
+            ],
+            "text": "Mì trộn Indomie đặc biệt",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                299,
+                243,
+                320
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                265,
+                299,
+                309,
+                321
+            ],
+            "text": "12,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                299,
+                391,
+                321
+            ],
+            "text": "12,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                389,
+                393,
+                410
+            ],
+            "text": "145,200đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

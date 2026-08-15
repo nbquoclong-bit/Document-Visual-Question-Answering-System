@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                155,
+                32,
+                252,
+                55
+            ],
+            "text": "Circle K Lê Lợi",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                56,
+                61,
+                352,
+                91
+            ],
+            "text": "Số 52 Nguyễn Huệ, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                185,
+                188,
+                208
+            ],
+            "text": "03/06/2026 11:51",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                275,
+                166,
+                299
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                243,
+                274,
+                250,
+                295
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                258,
+                274,
+                294,
+                294
+            ],
+            "text": "9,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                351,
+                271,
+                388,
+                293
+            ],
+            "text": "9,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                302,
+                188,
+                324
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                300,
+                243,
+                321
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                300,
+                294,
+                321
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                298,
+                388,
+                320
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                337,
+                384,
+                389,
+                405
+            ],
+            "text": "52,920đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

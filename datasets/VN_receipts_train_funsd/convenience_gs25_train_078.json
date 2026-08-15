@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                146,
+                19,
+                259,
+                43
+            ],
+            "text": "GS25 NGUYỄN HUỆ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                68,
+                40,
+                338,
+                65
+            ],
+            "text": "Số 277 Nguyễn Trãi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                153,
+                184,
+                177
+            ],
+            "text": "29/05/2026 12:50",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                247,
+                218,
+                269
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                247,
+                242,
+                269
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                265,
+                247,
+                310,
+                268
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                245,
+                391,
+                268
+            ],
+            "text": "14,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                276,
+                165,
+                299
+            ],
+            "text": "Xúc xích Đức ăn liền",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                275,
+                241,
+                297
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                264,
+                275,
+                309,
+                297
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                275,
+                391,
+                297
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                365,
+                392,
+                386
+            ],
+            "text": "36,720đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

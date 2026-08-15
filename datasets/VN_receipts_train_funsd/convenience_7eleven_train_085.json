@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                93,
+                25,
+                284,
+                49
+            ],
+            "text": "7-Eleven Saigon Trade Center",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                147,
+                66,
+                265,
+                89
+            ],
+            "text": "17/06/2026 22:31",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                44,
+                123,
+                214,
+                146
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                120,
+                359,
+                142
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                150,
+                221,
+                175
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                148,
+                359,
+                170
+            ],
+            "text": "10,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                314,
+                180,
+                359,
+                204
+            ],
+            "text": "37,800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

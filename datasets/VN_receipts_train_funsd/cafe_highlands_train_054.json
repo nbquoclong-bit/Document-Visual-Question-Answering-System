@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                97,
+                20,
+                280,
+                42
+            ],
+            "text": "HIGHLANDS COFFEE LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                49,
+                40,
+                329,
+                63
+            ],
+            "text": "Số 448 Hai Bà Trưng, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                180,
+                187,
+                201
+            ],
+            "text": "19/06/2026 10:03",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                242,
+                25,
+                263
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                241,
+                185,
+                263
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                240,
+                360,
+                261
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                269,
+                24,
+                289
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                268,
+                177,
+                289
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                266,
+                361,
+                287
+            ],
+            "text": "156,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                329,
+                362,
+                349
+            ],
+            "text": "252,396",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

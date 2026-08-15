@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                144,
+                15,
+                263,
+                36
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                62,
+                35,
+                345,
+                57
+            ],
+            "text": "Số 185 Lê Lợi, Quận 7, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                64,
+                146,
+                184,
+                167
+            ],
+            "text": "02/06/2026 21:01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                239,
+                204,
+                261
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                239,
+                240,
+                260
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                238,
+                305,
+                259
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                238,
+                390,
+                259
+            ],
+            "text": "64,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                268,
+                136,
+                290
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                268,
+                239,
+                288
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                267,
+                306,
+                288
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                267,
+                390,
+                288
+            ],
+            "text": "22,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                355,
+                391,
+                376
+            ],
+            "text": "94,600đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

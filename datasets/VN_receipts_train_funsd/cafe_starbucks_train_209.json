@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                106,
+                82,
+                273,
+                105
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                18,
+                101,
+                361,
+                148
+            ],
+            "text": "Số 444 Hai Bà Trưng, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                45,
+                183,
+                118,
+                207
+            ],
+            "text": "23/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                305,
+                135,
+                329
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                309,
+                242,
+                331
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                311,
+                361,
+                334
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                337,
+                143,
+                362
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                342,
+                242,
+                363
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                344,
+                361,
+                367
+            ],
+            "text": "225,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                440,
+                361,
+                463
+            ],
+            "text": "349,920",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

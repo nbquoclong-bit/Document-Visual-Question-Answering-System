@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                20,
+                276,
+                41
+            ],
+            "text": "CO.OPMART CỐNG QUỲNH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                72,
+                38,
+                334,
+                63
+            ],
+            "text": "Số 443 Lê Lợi, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                64,
+                156,
+                203,
+                179
+            ],
+            "text": "26/05/2026 18:55:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                233,
+                166,
+                255
+            ],
+            "text": "Khăn ướt Bobby 80 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                185,
+                261,
+                251,
+                283
+            ],
+            "text": "27,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                267,
+                260,
+                275,
+                282
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                260,
+                387,
+                282
+            ],
+            "text": "108,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                289,
+                174,
+                312
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                185,
+                317,
+                251,
+                339
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                267,
+                318,
+                275,
+                339
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                317,
+                387,
+                339
+            ],
+            "text": "128,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                423,
+                387,
+                444
+            ],
+            "text": "259,600.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

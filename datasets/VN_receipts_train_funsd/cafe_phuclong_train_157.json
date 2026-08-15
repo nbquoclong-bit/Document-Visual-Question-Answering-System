@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                124,
+                17,
+                257,
+                38
+            ],
+            "text": "PHÚC LONG LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                17,
+                39,
+                362,
+                83
+            ],
+            "text": "Số 431 Cách Mạng Tháng Tám, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                17,
+                174,
+                136,
+                196
+            ],
+            "text": "20/06/2026 15:05",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                256,
+                24,
+                277
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                255,
+                193,
+                277
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                255,
+                362,
+                276
+            ],
+            "text": "200,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                282,
+                24,
+                304
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                283,
+                141,
+                304
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                282,
+                362,
+                303
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                309,
+                24,
+                331
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                308,
+                215,
+                330
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                308,
+                362,
+                329
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                388,
+                362,
+                409
+            ],
+            "text": "334,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

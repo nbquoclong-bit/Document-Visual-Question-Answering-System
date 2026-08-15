@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                110,
+                95,
+                265,
+                117
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                22,
+                114,
+                352,
+                137
+            ],
+            "text": "Số 369 Cách Mạng Tháng Tám, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                47,
+                171,
+                119,
+                194
+            ],
+            "text": "30/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                290,
+                142,
+                311
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                291,
+                239,
+                311
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                292,
+                354,
+                312
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                322,
+                143,
+                342
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                323,
+                239,
+                343
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                304,
+                323,
+                354,
+                343
+            ],
+            "text": "300,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                415,
+                354,
+                435
+            ],
+            "text": "376,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

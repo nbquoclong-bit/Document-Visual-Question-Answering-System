@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                22,
+                255,
+                47
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                151,
+                63,
+                270,
+                89
+            ],
+            "text": "24/05/2026 16:32",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                47,
+                116,
+                217,
+                142
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                125,
+                363,
+                147
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                144,
+                225,
+                172
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                153,
+                362,
+                175
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                45,
+                172,
+                165,
+                197
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                182,
+                363,
+                204
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                214,
+                363,
+                239
+            ],
+            "text": "116,640",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

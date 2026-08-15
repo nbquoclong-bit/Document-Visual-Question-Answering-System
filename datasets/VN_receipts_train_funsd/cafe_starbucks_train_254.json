@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                80,
+                272,
+                102
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                50,
+                102,
+                325,
+                123
+            ],
+            "text": "Số 368 Lê Lợi, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                42,
+                160,
+                117,
+                184
+            ],
+            "text": "24/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                284,
+                142,
+                306
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                284,
+                240,
+                306
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                284,
+                360,
+                305
+            ],
+            "text": "240,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                316,
+                147,
+                337
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                318,
+                241,
+                338
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                318,
+                361,
+                339
+            ],
+            "text": "65,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                413,
+                361,
+                435
+            ],
+            "text": "312,930",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

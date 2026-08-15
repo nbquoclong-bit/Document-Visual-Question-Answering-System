@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                179,
+                29,
+                230,
+                51
+            ],
+            "text": "CIRCLE K",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                57,
+                60,
+                353,
+                83
+            ],
+            "text": "Số 88 Hai Bà Trưng, Quận Ba Đình, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                72,
+                177,
+                190,
+                199
+            ],
+            "text": "10/06/2026 08:04",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                264,
+                183,
+                287
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                238,
+                267,
+                246,
+                287
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                252,
+                267,
+                296,
+                288
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                267,
+                391,
+                289
+            ],
+            "text": "44,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                292,
+                161,
+                313
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                293,
+                245,
+                314
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                252,
+                294,
+                297,
+                314
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                294,
+                391,
+                316
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                379,
+                393,
+                401
+            ],
+            "text": "82,080đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

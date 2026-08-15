@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                98,
+                35,
+                367,
+                51
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                104,
+                45,
+                381,
+                74
+            ],
+            "text": "Số 228 Nguyễn Trãi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                219,
+                150,
+                437,
+                165
+            ],
+            "text": "Ngày 31 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                132,
+                258,
+                228,
+                273
+            ],
+            "text": "162.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

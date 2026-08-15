@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                172,
+                22,
+                254,
+                45
+            ],
+            "text": "KFC Bà Hom",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                84,
+                42,
+                339,
+                69
+            ],
+            "text": "Số 271 Hai Bà Trưng, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                99,
+                160,
+                211,
+                183
+            ],
+            "text": "10/06/2026 12:06",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                28,
+                237,
+                172,
+                261
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                220,
+                242,
+                230,
+                262
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                241,
+                297,
+                265
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                243,
+                390,
+                265
+            ],
+            "text": "54,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                28,
+                267,
+                157,
+                291
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                220,
+                271,
+                230,
+                292
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                271,
+                297,
+                294
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                274,
+                390,
+                294
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                323,
+                382,
+                381,
+                404
+            ],
+            "text": "140,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

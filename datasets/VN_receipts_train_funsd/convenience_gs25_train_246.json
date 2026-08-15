@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                20,
+                248,
+                44
+            ],
+            "text": "GS25 THỦ ĐỨC",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                38,
+                344,
+                68
+            ],
+            "text": "Số 243 Nguyễn Trãi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                146,
+                185,
+                171
+            ],
+            "text": "25/05/2026 15:21",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                237,
+                205,
+                264
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                243,
+                239,
+                265
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                244,
+                306,
+                266
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                246,
+                389,
+                269
+            ],
+            "text": "16,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                265,
+                189,
+                291
+            ],
+            "text": "Cơm nắm cá hồi sốt Mayo",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                271,
+                240,
+                292
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                262,
+                273,
+                306,
+                295
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                275,
+                388,
+                297
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                293,
+                138,
+                318
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                299,
+                240,
+                321
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                301,
+                305,
+                322
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                303,
+                389,
+                325
+            ],
+            "text": "88,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                390,
+                391,
+                413
+            ],
+            "text": "180,400đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

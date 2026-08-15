@@ -1,0 +1,194 @@
+{
+    "form": [
+        {
+            "box": [
+                110,
+                82,
+                271,
+                104
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                27,
+                103,
+                354,
+                125
+            ],
+            "text": "Số 168 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                45,
+                164,
+                120,
+                187
+            ],
+            "text": "25/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                287,
+                151,
+                310
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                287,
+                245,
+                309
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                287,
+                364,
+                307
+            ],
+            "text": "260,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                320,
+                145,
+                342
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                321,
+                245,
+                340
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                319,
+                364,
+                341
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                353,
+                137,
+                375
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                353,
+                245,
+                374
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                320,
+                352,
+                364,
+                374
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                386,
+                145,
+                408
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                385,
+                245,
+                407
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                384,
+                364,
+                405
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                418,
+                137,
+                441
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                418,
+                245,
+                440
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                320,
+                417,
+                364,
+                438
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                514,
+                364,
+                535
+            ],
+            "text": "792,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

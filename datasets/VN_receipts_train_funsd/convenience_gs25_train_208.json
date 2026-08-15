@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                158,
+                20,
+                248,
+                41
+            ],
+            "text": "GS25 THỦ ĐỨC",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                48,
+                39,
+                358,
+                60
+            ],
+            "text": "Số 295 Nguyễn Huệ, Quận 7, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                150,
+                184,
+                170
+            ],
+            "text": "08/06/2026 21:33",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                240,
+                204,
+                262
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                240,
+                239,
+                261
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                240,
+                305,
+                261
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                241,
+                388,
+                262
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                269,
+                195,
+                290
+            ],
+            "text": "Mì trộn Indomie đặc biệt",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                269,
+                240,
+                290
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                269,
+                304,
+                290
+            ],
+            "text": "12,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                268,
+                389,
+                290
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                297,
+                167,
+                319
+            ],
+            "text": "Xúc xích Đức ăn liền",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                297,
+                240,
+                319
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                297,
+                306,
+                318
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                297,
+                389,
+                318
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                385,
+                391,
+                406
+            ],
+            "text": "82,080đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

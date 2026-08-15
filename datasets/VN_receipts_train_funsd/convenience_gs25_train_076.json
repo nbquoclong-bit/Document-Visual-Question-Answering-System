@@ -1,0 +1,284 @@
+{
+    "form": [
+        {
+            "box": [
+                139,
+                21,
+                255,
+                45
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                56,
+                39,
+                339,
+                68
+            ],
+            "text": "Số 331 Lý Thường Kiệt, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                64,
+                151,
+                179,
+                175
+            ],
+            "text": "02/06/2026 10:06",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                242,
+                163,
+                266
+            ],
+            "text": "Xúc xích Đức ăn liền",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                230,
+                239,
+                239,
+                260
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                259,
+                237,
+                304,
+                259
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                235,
+                381,
+                257
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                269,
+                186,
+                294
+            ],
+            "text": "Cơm nắm cá hồi sốt Mayo",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                267,
+                237,
+                287
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                259,
+                265,
+                304,
+                287
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                263,
+                381,
+                284
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                298,
+                135,
+                321
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                230,
+                295,
+                238,
+                315
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                259,
+                293,
+                303,
+                314
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                291,
+                381,
+                312
+            ],
+            "text": "44,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                325,
+                157,
+                349
+            ],
+            "text": "Sữa chua uống Proby",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                322,
+                245,
+                343
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                266,
+                321,
+                304,
+                342
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                318,
+                383,
+                340
+            ],
+            "text": "8,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                351,
+                202,
+                377
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                350,
+                238,
+                371
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                349,
+                305,
+                370
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                346,
+                383,
+                368
+            ],
+            "text": "48,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                379,
+                216,
+                404
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                230,
+                378,
+                240,
+                398
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                376,
+                305,
+                398
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                374,
+                383,
+                395
+            ],
+            "text": "28,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                326,
+                460,
+                386,
+                482
+            ],
+            "text": "228,800đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

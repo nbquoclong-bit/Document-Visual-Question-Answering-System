@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                91,
+                29,
+                363,
+                45
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                98,
+                39,
+                416,
+                70
+            ],
+            "text": "Số 387 Nguyễn Huệ, Quận Tân Bình, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                216,
+                149,
+                435,
+                164
+            ],
+            "text": "Ngày 13 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                128,
+                259,
+                242,
+                275
+            ],
+            "text": "1.650.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                95,
+                36,
+                358,
+                51
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                101,
+                45,
+                384,
+                76
+            ],
+            "text": "Số 262 Lý Thường Kiệt, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                217,
+                154,
+                431,
+                170
+            ],
+            "text": "Ngày 09 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                135,
+                263,
+                246,
+                278
+            ],
+            "text": "2.052.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

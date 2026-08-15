@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                153,
+                28,
+                255,
+                51
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                39,
+                58,
+                367,
+                88
+            ],
+            "text": "Số 340 Cách Mạng Tháng Tám, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                164,
+                186,
+                187
+            ],
+            "text": "25/05/2026 17:14",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                255,
+                205,
+                299
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                268,
+                214,
+                289
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                235,
+                269,
+                278,
+                290
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                271,
+                389,
+                292
+            ],
+            "text": "87.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                304,
+                196,
+                328
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                307,
+                214,
+                328
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                308,
+                279,
+                329
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                309,
+                389,
+                330
+            ],
+            "text": "152.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                396,
+                390,
+                417
+            ],
+            "text": "258.120",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

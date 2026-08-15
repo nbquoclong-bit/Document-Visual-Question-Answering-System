@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                121,
+                24,
+                282,
+                47
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                47,
+                387,
+                73
+            ],
+            "text": "Số 34 Lê Lợi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                88,
+                171,
+                207,
+                193
+            ],
+            "text": "08/06/2026 14:06",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                242,
+                191,
+                265
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                265,
+                245,
+                273,
+                266
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                294,
+                245,
+                331,
+                266
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                246,
+                387,
+                267
+            ],
+            "text": "12.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                269,
+                177,
+                291
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                257,
+                272,
+                266,
+                292
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                287,
+                272,
+                331,
+                293
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                272,
+                387,
+                294
+            ],
+            "text": "22.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                314,
+                387,
+                335
+            ],
+            "text": "36.720",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

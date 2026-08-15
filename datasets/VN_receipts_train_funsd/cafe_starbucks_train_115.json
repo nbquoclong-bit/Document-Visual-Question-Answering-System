@@ -1,0 +1,224 @@
+{
+    "form": [
+        {
+            "box": [
+                109,
+                91,
+                272,
+                114
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                51,
+                111,
+                331,
+                135
+            ],
+            "text": "Số 43 Nguyễn Huệ, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                50,
+                173,
+                122,
+                196
+            ],
+            "text": "03/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                295,
+                138,
+                317
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                294,
+                242,
+                316
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                295,
+                358,
+                316
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                328,
+                160,
+                350
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                327,
+                242,
+                348
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                327,
+                358,
+                348
+            ],
+            "text": "255,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                361,
+                145,
+                382
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                359,
+                242,
+                381
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                359,
+                358,
+                380
+            ],
+            "text": "240,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                392,
+                138,
+                414
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                392,
+                242,
+                413
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                392,
+                358,
+                413
+            ],
+            "text": "120,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                425,
+                145,
+                446
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                424,
+                242,
+                446
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                424,
+                357,
+                445
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                458,
+                152,
+                479
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                457,
+                242,
+                477
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                314,
+                456,
+                357,
+                478
+            ],
+            "text": "65,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                551,
+                357,
+                573
+            ],
+            "text": "955,350",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

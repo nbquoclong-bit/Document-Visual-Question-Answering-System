@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                23,
+                248,
+                48
+            ],
+            "text": "GS25 THỦ ĐỨC",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                31,
+                40,
+                378,
+                72
+            ],
+            "text": "Số 119 Lê Lợi, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                158,
+                184,
+                182
+            ],
+            "text": "11/06/2026 16:42",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                250,
+                188,
+                274
+            ],
+            "text": "Cơm nắm cá hồi sốt Mayo",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                250,
+                238,
+                271
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                259,
+                248,
+                303,
+                271
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                247,
+                389,
+                269
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                279,
+                195,
+                303
+            ],
+            "text": "Mì trộn Indomie đặc biệt",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                278,
+                238,
+                299
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                278,
+                304,
+                299
+            ],
+            "text": "12,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                275,
+                387,
+                298
+            ],
+            "text": "12,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                307,
+                203,
+                332
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                306,
+                238,
+                328
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                259,
+                305,
+                303,
+                328
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                305,
+                388,
+                327
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                337,
+                393,
+                389,
+                415
+            ],
+            "text": "64,900đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

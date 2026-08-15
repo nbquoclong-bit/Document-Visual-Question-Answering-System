@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                135,
+                30,
+                247,
+                54
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                151,
+                71,
+                263,
+                95
+            ],
+            "text": "14/06/2026 12:21",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                51,
+                122,
+                215,
+                147
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                130,
+                353,
+                152
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                49,
+                150,
+                165,
+                174
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                158,
+                353,
+                179
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                50,
+                178,
+                221,
+                203
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                185,
+                353,
+                206
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                216,
+                352,
+                240
+            ],
+            "text": "173,880",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

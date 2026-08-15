@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                102,
+                87,
+                270,
+                110
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                64,
+                107,
+                310,
+                131
+            ],
+            "text": "Số 15 Nguyễn Huệ, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                41,
+                168,
+                116,
+                192
+            ],
+            "text": "21/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                290,
+                139,
+                312
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                289,
+                240,
+                311
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                314,
+                289,
+                359,
+                310
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                322,
+                132,
+                344
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                323,
+                240,
+                343
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                321,
+                360,
+                343
+            ],
+            "text": "160,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                354,
+                132,
+                376
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                354,
+                240,
+                376
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                307,
+                354,
+                360,
+                375
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                449,
+                359,
+                470
+            ],
+            "text": "432,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

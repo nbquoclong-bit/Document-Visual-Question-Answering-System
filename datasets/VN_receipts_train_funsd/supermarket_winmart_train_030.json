@@ -1,0 +1,284 @@
+{
+    "form": [
+        {
+            "box": [
+                166,
+                35,
+                243,
+                60
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                61,
+                380,
+                120
+            ],
+            "text": "Số 112 Bùi Thị Xuân, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                190,
+                186,
+                216
+            ],
+            "text": "26/05/2026 22:14",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                279,
+                204,
+                328
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                296,
+                213,
+                317
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                297,
+                274,
+                320
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                302,
+                379,
+                323
+            ],
+            "text": "29.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                328,
+                188,
+                356
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                336,
+                212,
+                356
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                336,
+                275,
+                359
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                340,
+                380,
+                362
+            ],
+            "text": "54.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                357,
+                137,
+                382
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                363,
+                211,
+                383
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                364,
+                274,
+                385
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                331,
+                367,
+                380,
+                389
+            ],
+            "text": "224.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                386,
+                194,
+                412
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                391,
+                211,
+                412
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                393,
+                275,
+                414
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                331,
+                395,
+                380,
+                417
+            ],
+            "text": "152.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                414,
+                188,
+                440
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                212,
+                419,
+                218,
+                440
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                239,
+                420,
+                274,
+                442
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                423,
+                379,
+                445
+            ],
+            "text": "7.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                443,
+                166,
+                467
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                447,
+                212,
+                469
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                449,
+                274,
+                469
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                331,
+                451,
+                379,
+                472
+            ],
+            "text": "136.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                331,
+                536,
+                378,
+                557
+            ],
+            "text": "662.200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

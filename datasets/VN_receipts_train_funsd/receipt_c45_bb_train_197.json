@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                90,
+                29,
+                358,
+                47
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                96,
+                39,
+                387,
+                71
+            ],
+            "text": "Số 437 Lý Thường Kiệt, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                211,
+                147,
+                429,
+                163
+            ],
+            "text": "Ngày 03 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                124,
+                258,
+                219,
+                274
+            ],
+            "text": "440.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

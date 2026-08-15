@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                155,
+                30,
+                259,
+                52
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                88,
+                63,
+                325,
+                87
+            ],
+            "text": "Số 43 Lê Lợi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                169,
+                186,
+                191
+            ],
+            "text": "03/06/2026 10:01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                261,
+                188,
+                284
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                215,
+                262,
+                221,
+                284
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                263,
+                281,
+                284
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                356,
+                264,
+                393,
+                284
+            ],
+            "text": "3.500",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                291,
+                137,
+                312
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                292,
+                214,
+                312
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                291,
+                280,
+                313
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                292,
+                393,
+                313
+            ],
+            "text": "168.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                379,
+                393,
+                400
+            ],
+            "text": "188.650",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

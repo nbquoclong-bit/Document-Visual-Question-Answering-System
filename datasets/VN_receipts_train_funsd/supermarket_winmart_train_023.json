@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                152,
+                25,
+                256,
+                47
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                59,
+                342,
+                81
+            ],
+            "text": "Số 122 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                167,
+                183,
+                188
+            ],
+            "text": "19/06/2026 17:12",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                260,
+                186,
+                282
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                260,
+                212,
+                282
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                260,
+                279,
+                282
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                261,
+                393,
+                282
+            ],
+            "text": "54.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                290,
+                163,
+                310
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                290,
+                212,
+                311
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                289,
+                279,
+                311
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                289,
+                393,
+                311
+            ],
+            "text": "102.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                317,
+                186,
+                339
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                212,
+                318,
+                219,
+                340
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                242,
+                318,
+                279,
+                340
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                319,
+                393,
+                340
+            ],
+            "text": "14.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                407,
+                392,
+                429
+            ],
+            "text": "187.000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

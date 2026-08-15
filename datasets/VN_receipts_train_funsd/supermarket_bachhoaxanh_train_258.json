@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                144,
+                19,
+                240,
+                40
+            ],
+            "text": "BÁCH HÓA XANH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                55,
+                61,
+                328,
+                83
+            ],
+            "text": "Số 321 Nguyễn Trãi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                101,
+                149,
+                219,
+                173
+            ],
+            "text": "10/06/2026 11:46",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                237,
+                226,
+                260
+            ],
+            "text": "Đường cát trắng Biên Hòa 1kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                39,
+                261,
+                47,
+                282
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                207,
+                260,
+                250,
+                282
+            ],
+            "text": "26,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                312,
+                259,
+                362,
+                281
+            ],
+            "text": "104,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                289,
+                197,
+                312
+            ],
+            "text": "Trứng gà tươi hộp 10 quả",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                39,
+                312,
+                47,
+                334
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                207,
+                312,
+                250,
+                333
+            ],
+            "text": "32,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                312,
+                310,
+                362,
+                332
+            ],
+            "text": "128,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                372,
+                362,
+                392
+            ],
+            "text": "255,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

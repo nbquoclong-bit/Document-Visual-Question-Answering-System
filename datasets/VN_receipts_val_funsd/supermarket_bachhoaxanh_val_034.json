@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                136,
+                43,
+                231,
+                64
+            ],
+            "text": "BÁCH HÓA XANH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                50,
+                81,
+                318,
+                105
+            ],
+            "text": "Số 385 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                96,
+                168,
+                211,
+                190
+            ],
+            "text": "19/06/2026 20:07",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                251,
+                160,
+                272
+            ],
+            "text": "Thịt ba rọi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                37,
+                273,
+                45,
+                293
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                199,
+                272,
+                242,
+                293
+            ],
+            "text": "75,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                303,
+                272,
+                353,
+                293
+            ],
+            "text": "225,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                300,
+                140,
+                320
+            ],
+            "text": "Thịt đùi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                37,
+                321,
+                45,
+                342
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                199,
+                321,
+                242,
+                342
+            ],
+            "text": "68,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                303,
+                321,
+                353,
+                341
+            ],
+            "text": "272,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                348,
+                104,
+                369
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                38,
+                371,
+                46,
+                390
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                206,
+                369,
+                242,
+                389
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                317,
+                369,
+                353,
+                390
+            ],
+            "text": "6,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                303,
+                428,
+                352,
+                448
+            ],
+            "text": "543,240",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                98,
+                28,
+                370,
+                48
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                104,
+                38,
+                398,
+                72
+            ],
+            "text": "Số 250 Lê Lợi, Quận Hai Bà Trưng, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                217,
+                146,
+                437,
+                164
+            ],
+            "text": "Ngày 25 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                126,
+                252,
+                224,
+                268
+            ],
+            "text": "385.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

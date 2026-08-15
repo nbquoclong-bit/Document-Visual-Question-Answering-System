@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                112,
+                28,
+                277,
+                54
+            ],
+            "text": "HIGHLANDS COFFEE LÊ LỢI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                69,
+                46,
+                321,
+                76
+            ],
+            "text": "Số 134 Nguyễn Trãi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                75,
+                186,
+                192,
+                211
+            ],
+            "text": "06/06/2026 15:35",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                25,
+                252,
+                33,
+                272
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                247,
+                176,
+                271
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                241,
+                363,
+                262
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                278,
+                33,
+                298
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                273,
+                182,
+                297
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                266,
+                363,
+                288
+            ],
+            "text": "156,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                304,
+                32,
+                324
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                298,
+                190,
+                323
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                292,
+                362,
+                314
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                353,
+                363,
+                374
+            ],
+            "text": "291,384",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

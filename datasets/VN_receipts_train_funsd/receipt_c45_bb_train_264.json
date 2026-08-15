@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                91,
+                29,
+                347,
+                46
+            ],
+            "text": "ỦY BAN NHÂN DÂN QUẬN CẦU GIẤY",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                98,
+                39,
+                406,
+                71
+            ],
+            "text": "Số 123 Nguyễn Trãi, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                214,
+                147,
+                437,
+                164
+            ],
+            "text": "Ngày 31 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                124,
+                259,
+                222,
+                275
+            ],
+            "text": "440.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

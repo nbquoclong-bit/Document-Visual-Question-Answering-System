@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                177,
+                21,
+                229,
+                43
+            ],
+            "text": "CIRCLE K",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                17,
+                50,
+                386,
+                96
+            ],
+            "text": "Số 261 Cách Mạng Tháng Tám, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                72,
+                190,
+                191,
+                211
+            ],
+            "text": "13/06/2026 11:53",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                279,
+                162,
+                300
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                280,
+                245,
+                300
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                252,
+                280,
+                296,
+                300
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                280,
+                386,
+                301
+            ],
+            "text": "64,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                306,
+                198,
+                327
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                245,
+                306,
+                253,
+                327
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                306,
+                295,
+                327
+            ],
+            "text": "6,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                306,
+                388,
+                327
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                332,
+                184,
+                353
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                238,
+                333,
+                246,
+                353
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                252,
+                333,
+                297,
+                353
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                333,
+                388,
+                353
+            ],
+            "text": "22,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                417,
+                390,
+                438
+            ],
+            "text": "121,000đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

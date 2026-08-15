@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                158,
+                15,
+                255,
+                37
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                18,
+                39,
+                394,
+                64
+            ],
+            "text": "Số 100 Nguyễn Huệ, Quận 7, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                164,
+                211,
+                187
+            ],
+            "text": "13/06/2026 21:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                238,
+                166,
+                260
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                243,
+                238,
+                250,
+                258
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                272,
+                236,
+                324,
+                258
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                236,
+                393,
+                258
+            ],
+            "text": "525.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                265,
+                166,
+                286
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                258,
+                264,
+                265,
+                285
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                287,
+                263,
+                324,
+                285
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                263,
+                393,
+                285
+            ],
+            "text": "36.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                304,
+                393,
+                327
+            ],
+            "text": "617.100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

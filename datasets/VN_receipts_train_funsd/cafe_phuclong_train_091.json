@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                16,
+                250,
+                39
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                14,
+                38,
+                363,
+                83
+            ],
+            "text": "Số 94 Bùi Thị Xuân, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                15,
+                175,
+                136,
+                197
+            ],
+            "text": "08/06/2026 17:17",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                257,
+                23,
+                278
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                257,
+                215,
+                279
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                259,
+                363,
+                280
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                284,
+                24,
+                305
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                284,
+                185,
+                306
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                285,
+                363,
+                306
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                311,
+                23,
+                332
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                311,
+                140,
+                332
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                312,
+                363,
+                333
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                392,
+                363,
+                413
+            ],
+            "text": "357,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

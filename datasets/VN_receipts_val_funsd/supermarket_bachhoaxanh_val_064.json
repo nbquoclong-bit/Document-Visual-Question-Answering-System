@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                102,
+                23,
+                277,
+                54
+            ],
+            "text": "BÁCH HÓA XANH LÊ ĐỨC THỌ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                40,
+                61,
+                338,
+                97
+            ],
+            "text": "Số 37 Nguyễn Huệ, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                100,
+                152,
+                217,
+                180
+            ],
+            "text": "14/06/2026 21:52",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                236,
+                180,
+                264
+            ],
+            "text": "Nước mắm Nam Ngư 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                39,
+                259,
+                47,
+                280
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                204,
+                267,
+                247,
+                288
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                315,
+                271,
+                358,
+                294
+            ],
+            "text": "42,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                286,
+                165,
+                313
+            ],
+            "text": "Thịt ba rọi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                39,
+                309,
+                47,
+                331
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                204,
+                316,
+                247,
+                339
+            ],
+            "text": "75,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                308,
+                321,
+                358,
+                344
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                381,
+                358,
+                404
+            ],
+            "text": "207,360",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

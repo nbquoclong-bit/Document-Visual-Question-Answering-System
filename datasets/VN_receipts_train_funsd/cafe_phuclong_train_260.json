@@ -1,0 +1,194 @@
+{
+    "form": [
+        {
+            "box": [
+                110,
+                31,
+                275,
+                55
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                31,
+                51,
+                356,
+                79
+            ],
+            "text": "Số 30 Trần Hưng Đạo, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                25,
+                161,
+                141,
+                185
+            ],
+            "text": "16/06/2026 14:31",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                25,
+                240,
+                33,
+                260
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                58,
+                241,
+                160,
+                264
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                248,
+                362,
+                270
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                266,
+                33,
+                286
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                58,
+                267,
+                144,
+                290
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                274,
+                362,
+                296
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                292,
+                33,
+                312
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                58,
+                293,
+                217,
+                318
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                300,
+                362,
+                322
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                318,
+                33,
+                339
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                58,
+                319,
+                196,
+                343
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                326,
+                362,
+                348
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                344,
+                32,
+                365
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                58,
+                345,
+                196,
+                369
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                352,
+                362,
+                374
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                431,
+                361,
+                452
+            ],
+            "text": "584,100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

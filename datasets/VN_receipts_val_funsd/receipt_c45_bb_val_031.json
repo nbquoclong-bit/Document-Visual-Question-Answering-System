@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                92,
+                32,
+                343,
+                49
+            ],
+            "text": "ỦY BAN NHÂN DÂN QUẬN CẦU GIẤY",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                99,
+                41,
+                384,
+                73
+            ],
+            "text": "Số 440 Lê Lợi, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                213,
+                148,
+                432,
+                163
+            ],
+            "text": "Ngày 12 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                256,
+                221,
+                272
+            ],
+            "text": "385.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

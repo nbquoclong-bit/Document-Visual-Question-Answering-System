@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                109,
+                87,
+                270,
+                110
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                106,
+                364,
+                153
+            ],
+            "text": "Số 97 Cách Mạng Tháng Tám, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                43,
+                190,
+                118,
+                214
+            ],
+            "text": "10/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                314,
+                134,
+                336
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                313,
+                243,
+                334
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                312,
+                363,
+                332
+            ],
+            "text": "160,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                346,
+                149,
+                367
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                345,
+                243,
+                367
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                344,
+                363,
+                366
+            ],
+            "text": "130,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                379,
+                142,
+                401
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                378,
+                243,
+                398
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                377,
+                363,
+                398
+            ],
+            "text": "240,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                474,
+                363,
+                495
+            ],
+            "text": "524,700",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

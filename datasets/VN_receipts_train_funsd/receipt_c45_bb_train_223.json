@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                82,
+                35,
+                321,
+                51
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                89,
+                44,
+                368,
+                75
+            ],
+            "text": "Số 49 Lê Lợi, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                203,
+                150,
+                419,
+                166
+            ],
+            "text": "Ngày 02 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                120,
+                256,
+                230,
+                272
+            ],
+            "text": "1.836.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

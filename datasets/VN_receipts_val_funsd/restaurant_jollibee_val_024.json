@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                149,
+                18,
+                256,
+                39
+            ],
+            "text": "JOLLIBEE VINCOM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                55,
+                37,
+                350,
+                61
+            ],
+            "text": "Số 156 Lê Lợi, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                147,
+                185,
+                169
+            ],
+            "text": "29/05/2026 18:14",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                242,
+                133,
+                264
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                208,
+                244,
+                215,
+                265
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                237,
+                244,
+                281,
+                265
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                245,
+                385,
+                266
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                273,
+                124,
+                294
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                274,
+                216,
+                295
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                238,
+                275,
+                282,
+                296
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                276,
+                385,
+                297
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                329,
+                365,
+                388,
+                386
+            ],
+            "text": "133,100đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

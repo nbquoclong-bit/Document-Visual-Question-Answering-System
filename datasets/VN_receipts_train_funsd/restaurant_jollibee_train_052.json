@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                150,
+                32,
+                262,
+                58
+            ],
+            "text": "JOLLIBEE VINCOM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                37,
+                51,
+                373,
+                83
+            ],
+            "text": "Số 394 Cách Mạng Tháng Tám, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                169,
+                186,
+                193
+            ],
+            "text": "05/06/2026 11:58",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                268,
+                177,
+                291
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                224,
+                271,
+                233,
+                292
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                271,
+                298,
+                293
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                272,
+                386,
+                294
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                299,
+                133,
+                321
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                224,
+                302,
+                233,
+                323
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                302,
+                297,
+                323
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                303,
+                385,
+                324
+            ],
+            "text": "68,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                328,
+                392,
+                385,
+                413
+            ],
+            "text": "154,440đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

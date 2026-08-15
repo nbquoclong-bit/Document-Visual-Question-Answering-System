@@ -2,172 +2,182 @@
     "form": [
         {
             "box": [
-                624,
-                263,
-                651,
-                544
+                225,
+                656,
+                289,
+                672
             ],
-            "text": "SLGiaCkThOnh tien",
+            "text": "Tên hàng",
             "label": "OTHER"
         },
         {
             "box": [
-                653,
-                265,
-                671,
-                346
-            ],
-            "text": "40.000d",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                678,
-                263,
-                698,
-                346
-            ],
-            "text": "40.000d",
-            "label": "OTHER"
-        },
-        {
-            "box": [
+                216,
                 706,
-                261,
-                721,
-                303
+                300,
+                726
             ],
-            "text": "PO",
-            "label": "OTHER"
+            "text": "Tổng cộng:",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                730,
-                256,
-                750,
-                346
-            ],
-            "text": "40.000d",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                504,
-                337,
-                531,
-                649
-            ],
-            "text": "NHA SACH GD-TC CAM PHA",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                529,
-                351,
-                558,
-                721
-            ],
-            "text": "C212Duong Tran Phü-Cäm Phä",
-            "label": "OTHER"
-        },
-        {
-            "box": [
+                211,
                 759,
-                346,
-                792,
+                360,
+                781
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                213,
+                679,
+                366,
+                703
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                212,
+                731,
+                365,
+                750
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                226,
+                583,
+                368,
+                600
+            ],
+            "text": "Nhân viên thu ngân:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                367,
+                656,
+                384,
+                663
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                398,
+                651,
+                442,
                 667
             ],
-            "text": "XIN CAM ON QUi KHACH!",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                656,
-                369,
-                673,
-                485
+                224,
+                621,
+                459,
+                650
             ],
-            "text": "40.0000",
-            "label": "OTHER"
+            "text": "",
+            "label": "TIMESTAMP"
         },
         {
             "box": [
-                578,
-                388,
-                608,
-                718
+                223,
+                599,
+                476,
+                625
             ],
-            "text": "DT0333863328-Fax0333863328",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                601,
-                410,
-                633,
-                718
+                398,
+                677,
+                475,
+                696
             ],
-            "text": "Thoi gian:08:27:44-11/08/2020",
+            "text": "40.000",
             "label": "OTHER"
         },
         {
             "box": [
-                562,
-                519,
-                583,
-                716
+                222,
+                549,
+                499,
+                576
             ],
-            "text": "Nhan vien thu ngan.",
-            "label": "OTHER"
+            "text": "",
+            "label": "ADDRESS"
         },
         {
             "box": [
-                708,
-                526,
-                730,
-                731
+                260,
+                785,
+                504,
+                815
             ],
-            "text": "Chiet khau ban hang:",
+            "text": "HOYHXINO NO NYO NIX",
             "label": "OTHER"
         },
         {
             "box": [
-                659,
-                537,
-                682,
-                733
+                274,
+                524,
+                510,
+                549
             ],
-            "text": "Büt may kim cuang.",
-            "label": "OTHER"
+            "text": "",
+            "label": "SELLER"
         },
         {
             "box": [
-                736,
-                535,
-                760,
-                729
-            ],
-            "text": "Töng s thanh toan:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                636,
-                625,
-                654,
+                506,
+                701,
+                569,
                 722
             ],
-            "text": "Ten hang",
+            "text": "40.000đ",
             "label": "OTHER"
         },
         {
             "box": [
-                687,
-                618,
-                705,
-                727
+                508,
+                676,
+                569,
+                696
             ],
-            "text": "Tong cong:",
+            "text": "40.000đ",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                449,
+                648,
+                571,
+                670
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                505,
+                756,
+                570,
+                776
+            ],
+            "text": "40.000đ",
             "label": "OTHER"
         }
     ]

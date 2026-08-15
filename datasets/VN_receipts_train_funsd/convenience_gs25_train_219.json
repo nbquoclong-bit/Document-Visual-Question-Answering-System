@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                157,
+                19,
+                245,
+                41
+            ],
+            "text": "GS25 THỦ ĐỨC",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                64,
+                38,
+                340,
+                63
+            ],
+            "text": "Số 379 Lê Lợi, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                146,
+                182,
+                170
+            ],
+            "text": "25/05/2026 20:55",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                238,
+                157,
+                262
+            ],
+            "text": "Sữa chua uống Proby",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                241,
+                244,
+                262
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                264,
+                242,
+                302,
+                263
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                242,
+                385,
+                265
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                265,
+                201,
+                290
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                228,
+                269,
+                237,
+                291
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                257,
+                270,
+                301,
+                293
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                272,
+                385,
+                292
+            ],
+            "text": "48,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                360,
+                387,
+                382
+            ],
+            "text": "88,000đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                89,
+                28,
+                360,
+                44
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                96,
+                38,
+                378,
+                68
+            ],
+            "text": "Số 306 Bùi Thị Xuân, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                146,
+                433,
+                162
+            ],
+            "text": "Ngày 02 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                257,
+                222,
+                272
+            ],
+            "text": "440.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

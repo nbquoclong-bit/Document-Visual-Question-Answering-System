@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                20,
+                273,
+                46
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                40,
+                358,
+                91
+            ],
+            "text": "Số 142 Lý Thường Kiệt, Quận Tân Bình, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                16,
+                178,
+                138,
+                201
+            ],
+            "text": "10/06/2026 11:38",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                261,
+                26,
+                282
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                261,
+                195,
+                281
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                261,
+                357,
+                281
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                288,
+                26,
+                309
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                287,
+                188,
+                309
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                287,
+                358,
+                308
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                364,
+                359,
+                386
+            ],
+            "text": "262,440",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

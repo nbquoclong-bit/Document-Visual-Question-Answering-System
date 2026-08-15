@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                110,
+                19,
+                266,
+                43
+            ],
+            "text": "BÁCH HÓA XANH QUẬN 12",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                35,
+                60,
+                341,
+                86
+            ],
+            "text": "Số 125 Lê Lợi, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                97,
+                148,
+                217,
+                174
+            ],
+            "text": "26/05/2026 10:36",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                235,
+                157,
+                259
+            ],
+            "text": "Rau muống nước 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                35,
+                258,
+                43,
+                280
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                211,
+                262,
+                248,
+                283
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                317,
+                263,
+                362,
+                285
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                287,
+                105,
+                310
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                35,
+                310,
+                44,
+                332
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                210,
+                312,
+                248,
+                335
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                316,
+                314,
+                362,
+                335
+            ],
+            "text": "12,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                338,
+                194,
+                363
+            ],
+            "text": "Trứng gà tươi hộp 10 quả",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                35,
+                361,
+                44,
+                382
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                203,
+                365,
+                247,
+                386
+            ],
+            "text": "32,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                317,
+                365,
+                361,
+                388
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                316,
+                427,
+                362,
+                449
+            ],
+            "text": "73,440",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

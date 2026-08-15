@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                111,
+                86,
+                268,
+                107
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                75,
+                107,
+                305,
+                127
+            ],
+            "text": "Số 414 Lê Lợi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                47,
+                165,
+                121,
+                188
+            ],
+            "text": "21/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                288,
+                152,
+                309
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                287,
+                243,
+                308
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                287,
+                358,
+                308
+            ],
+            "text": "130,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                320,
+                137,
+                341
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                320,
+                243,
+                340
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                319,
+                359,
+                340
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                414,
+                359,
+                435
+            ],
+            "text": "318,060",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

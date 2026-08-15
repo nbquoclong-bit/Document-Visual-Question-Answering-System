@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                98,
+                26,
+                372,
+                41
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                104,
+                36,
+                422,
+                66
+            ],
+            "text": "Số 58 Cách Mạng Tháng Tám, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                221,
+                145,
+                441,
+                162
+            ],
+            "text": "Ngày 04 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                128,
+                255,
+                226,
+                271
+            ],
+            "text": "216.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                99,
+                32,
+                343,
+                49
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                105,
+                41,
+                389,
+                74
+            ],
+            "text": "Số 101 Lê Lợi, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                218,
+                149,
+                439,
+                165
+            ],
+            "text": "Ngày 11 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                127,
+                254,
+                242,
+                271
+            ],
+            "text": "2.090.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                158,
+                29,
+                254,
+                50
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                21,
+                52,
+                393,
+                74
+            ],
+            "text": "Số 224 Bùi Thị Xuân, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                170,
+                210,
+                191
+            ],
+            "text": "31/05/2026 17:12",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                239,
+                189,
+                260
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                241,
+                272,
+                261
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                294,
+                241,
+                339,
+                262
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                242,
+                393,
+                263
+            ],
+            "text": "20.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                264,
+                209,
+                286
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                272,
+                267,
+                279,
+                287
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                300,
+                267,
+                339,
+                288
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                268,
+                393,
+                289
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                290,
+                196,
+                312
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                271,
+                293,
+                280,
+                313
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                301,
+                293,
+                339,
+                314
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                294,
+                392,
+                315
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                348,
+                334,
+                392,
+                355
+            ],
+            "text": "75.600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

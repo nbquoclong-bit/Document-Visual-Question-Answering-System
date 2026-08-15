@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                162,
+                20,
+                249,
+                45
+            ],
+            "text": "SAIGON CO.OP",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                73,
+                37,
+                340,
+                69
+            ],
+            "text": "Số 221 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                69,
+                158,
+                206,
+                183
+            ],
+            "text": "15/06/2026 08:05:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                26,
+                234,
+                176,
+                259
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                187,
+                260,
+                252,
+                283
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                267,
+                259,
+                276,
+                281
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                322,
+                257,
+                388,
+                280
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                291,
+                176,
+                314
+            ],
+            "text": "Bánh quy Cosy Kinh Đô",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                187,
+                317,
+                252,
+                339
+            ],
+            "text": "22,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                267,
+                316,
+                276,
+                336
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                320,
+                314,
+                387,
+                336
+            ],
+            "text": "66,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                418,
+                386,
+                441
+            ],
+            "text": "107,800.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

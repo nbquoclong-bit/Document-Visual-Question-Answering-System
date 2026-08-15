@@ -2,443 +2,393 @@
     "form": [
         {
             "box": [
-                362,
-                270,
-                577,
-                291
+                395,
+                1181,
+                606,
+                1214
             ],
-            "text": "SIEUTHIMINH LOAN",
+            "text": "",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                385,
+                1114,
+                546,
+                1139
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                681,
+                1109,
+                757,
+                1135
+            ],
+            "text": "00019",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                658,
+                1069,
+                756,
+                1102
+            ],
+            "text": "00019",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                374,
+                1073,
+                545,
+                1099
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                382,
+                1035,
+                542,
+                1062
+            ],
+            "text": "Tổng tiền hàng:",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                676,
+                1029,
+                752,
+                1055
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                392,
+                998,
+                542,
+                1025
+            ],
+            "text": "Tổng số lượng:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                328,
+                934,
+                444,
+                965
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                453,
+                932,
+                519,
+                955
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                672,
+                925,
+                745,
+                951
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                250,
+                895,
+                573,
+                927
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                317,
+                863,
+                396,
+                889
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                460,
+                858,
+                521,
+                885
+            ],
+            "text": "000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                674,
+                854,
+                742,
+                880
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                249,
+                827,
+                540,
+                859
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                345,
+                795,
+                396,
+                817
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                459,
+                788,
+                517,
+                815
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                672,
+                781,
+                737,
+                812
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                249,
+                761,
+                430,
+                791
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                345,
+                727,
+                396,
+                749
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                456,
+                722,
+                518,
+                748
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                673,
+                716,
+                734,
+                742
+            ],
+            "text": "6.000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                248,
+                690,
+                607,
+                721
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                251,
+                659,
+                394,
+                684
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                427,
+                657,
+                514,
+                683
+            ],
+            "text": "Đơn giá",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                667,
+                652,
+                725,
+                674
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                403,
+                601,
+                583,
+                622
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                250,
+                595,
+                372,
+                623
+            ],
+            "text": "Số hóa đơn",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                402,
+                569,
+                511,
+                593
+            ],
+            "text": "Thanh Tâm",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                250,
+                567,
+                362,
+                590
+            ],
+            "text": "Nhân viên:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                399,
+                538,
+                599,
+                562
+            ],
+            "text": "07/08/2020 20:16:33",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                248,
+                535,
+                310,
+                565
+            ],
+            "text": "Ngày",
+            "label": "TIMESTAMP"
         },
         {
             "box": [
                 397,
-                319,
-                543,
-                334
+                510,
+                481,
+                535
             ],
-            "text": "DT.0993375",
+            "text": "Khách lê",
             "label": "OTHER"
         },
         {
             "box": [
-                365,
-                340,
-                575,
-                364
+                250,
+                504,
+                374,
+                535
             ],
-            "text": "HOA DON BAN LE",
+            "text": "Khách hàng:",
             "label": "OTHER"
         },
         {
             "box": [
-                242,
-                365,
-                361,
-                387
+                378,
+                471,
+                592,
+                503
             ],
-            "text": "Khach hang",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                385,
-                370,
-                467,
-                388
-            ],
-            "text": "Khachle",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                239,
-                387,
-                301,
-                409
-            ],
-            "text": "Ngay:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                385,
-                389,
-                583,
-                411
-            ],
-            "text": "07/08/202020:16:33",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                239,
                 409,
-                351,
-                431
+                438,
+                562,
+                464
             ],
-            "text": "Nhan vién:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                387,
-                412,
-                496,
-                432
+                274,
+                396,
+                691,
+                443
             ],
-            "text": "Thanh Tam",
-            "label": "OTHER"
+            "text": "",
+            "label": "ADDRESS"
         },
         {
             "box": [
-                238,
-                431,
-                361,
-                453
-            ],
-            "text": "so hba don",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                387,
-                435,
-                567,
-                452
-            ],
-            "text": "BL200807.1.00072",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                240,
-                478,
-                383,
-                497
-            ],
-            "text": "Ten hang...st",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                413,
-                478,
-                498,
-                497
-            ],
-            "text": "Dongia",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                550,
-                478,
-                589,
-                497
-            ],
-            "text": "KM",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                646,
-                477,
-                704,
-                492
-            ],
-            "text": "1.fien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                240,
-                505,
-                584,
-                521
-            ],
-            "text": "Kem Tra Sua TrarChaaHUNslINH",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                329,
-                527,
-                383,
-                546
-            ],
-            "text": "1cai",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                440,
-                526,
-                500,
-                544
-            ],
-            "text": "6,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                577,
-                527,
+                370,
+                373,
                 593,
-                542
+                404
             ],
-            "text": "0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                650,
-                522,
-                711,
-                541
-            ],
-            "text": "6.000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                238,
-                554,
-                415,
-                573
-            ],
-            "text": "Kem Sua Chua.35",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                331,
-                576,
-                384,
-                595
-            ],
-            "text": "10ä",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                441,
-                576,
-                502,
-                594
-            ],
-            "text": "6,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                578,
-                576,
-                596,
-                592
-            ],
-            "text": "0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                655,
-                573,
-                712,
-                589
-            ],
-            "text": "6.000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                238,
-                603,
-                520,
-                625
-            ],
-            "text": "Kem trang tien3Svisua dua",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                303,
-                628,
-                380,
-                647
-            ],
-            "text": "2Chiec",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                443,
-                625,
-                500,
-                644
-            ],
-            "text": "5,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                581,
-                625,
-                599,
-                642
-            ],
-            "text": "0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                652,
-                623,
-                718,
-                642
-            ],
-            "text": "C0,005",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                238,
-                653,
-                553,
-                674
-            ],
-            "text": "Dua Dua Non COCOXIM330ml",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                314,
-                677,
-                382,
-                702
-            ],
-            "text": "3Hop",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                434,
-                677,
-                502,
-                696
-            ],
-            "text": "13,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                583,
-                677,
-                602,
-                693
-            ],
-            "text": "0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                653,
-                675,
-                722,
-                694
-            ],
-            "text": "39,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                375,
-                728,
-                525,
-                748
-            ],
-            "text": "Tong so ludng:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                709,
-                726,
-                724,
-                743
-            ],
-            "text": "7",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                367,
-                753,
-                524,
-                777
-            ],
-            "text": "Tong tien hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                653,
-                751,
-                728,
-                770
-            ],
-            "text": "6100",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                357,
-                781,
-                525,
-                800
-            ],
-            "text": "Tong tien(VND",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                634,
-                781,
-                730,
-                805
-            ],
-            "text": "61,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                368,
-                813,
-                525,
-                830
-            ],
-            "text": "Khach hangtra",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                655,
-                808,
-                734,
-                830
-            ],
-            "text": "61.000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                375,
-                861,
-                586,
-                886
-            ],
-            "text": "Cam on quy khach!",
-            "label": "OTHER"
+            "text": "SIỀU THỊ MINH LOAN",
+            "label": "SELLER"
         }
     ]
 }

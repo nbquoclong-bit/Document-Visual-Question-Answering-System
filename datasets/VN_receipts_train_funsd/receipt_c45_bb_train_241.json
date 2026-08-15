@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                90,
+                31,
+                363,
+                49
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                96,
+                40,
+                377,
+                73
+            ],
+            "text": "Số 44 Nguyễn Huệ, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                213,
+                147,
+                435,
+                165
+            ],
+            "text": "Ngày 13 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                124,
+                259,
+                223,
+                274
+            ],
+            "text": "270.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

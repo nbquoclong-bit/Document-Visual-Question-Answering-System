@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                15,
+                276,
+                36
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                51,
+                38,
+                329,
+                59
+            ],
+            "text": "Số 386 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                15,
+                154,
+                135,
+                175
+            ],
+            "text": "01/06/2026 13:10",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                236,
+                23,
+                257
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                236,
+                155,
+                257
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                236,
+                365,
+                257
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                263,
+                23,
+                284
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                263,
+                193,
+                284
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                263,
+                365,
+                284
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                344,
+                365,
+                365
+            ],
+            "text": "313,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

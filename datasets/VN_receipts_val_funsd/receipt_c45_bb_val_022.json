@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                87,
+                28,
+                336,
+                44
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                94,
+                38,
+                389,
+                69
+            ],
+            "text": "Số 176 Bùi Thị Xuân, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                148,
+                436,
+                164
+            ],
+            "text": "Ngày 18 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                124,
+                259,
+                213,
+                275
+            ],
+            "text": "55.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

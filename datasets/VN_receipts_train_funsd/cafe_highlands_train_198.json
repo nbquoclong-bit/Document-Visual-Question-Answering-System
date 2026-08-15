@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                131,
+                22,
+                249,
+                43
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                46,
+                42,
+                334,
+                64
+            ],
+            "text": "Số 117 Lý Thường Kiệt, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                69,
+                181,
+                188,
+                202
+            ],
+            "text": "24/05/2026 11:10",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                243,
+                26,
+                263
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                243,
+                192,
+                263
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                242,
+                362,
+                263
+            ],
+            "text": "58,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                269,
+                25,
+                289
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                269,
+                186,
+                289
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                269,
+                362,
+                289
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                295,
+                26,
+                316
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                295,
+                171,
+                316
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                295,
+                361,
+                316
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                321,
+                25,
+                342
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                322,
+                141,
+                342
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                322,
+                362,
+                342
+            ],
+            "text": "35,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                383,
+                362,
+                404
+            ],
+            "text": "264,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                143,
+                35,
+                236,
+                60
+            ],
+            "text": "BÁCH HÓA XANH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                65,
+                70,
+                315,
+                104
+            ],
+            "text": "Số 179 Nguyễn Huệ, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                104,
+                157,
+                219,
+                186
+            ],
+            "text": "03/06/2026 13:56",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                25,
+                237,
+                168,
+                265
+            ],
+            "text": "Thịt ba rọi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                45,
+                260,
+                53,
+                281
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                207,
+                269,
+                249,
+                291
+            ],
+            "text": "75,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                309,
+                273,
+                359,
+                296
+            ],
+            "text": "225,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                287,
+                197,
+                315
+            ],
+            "text": "Trứng gà tươi hộp 10 quả",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                45,
+                310,
+                52,
+                332
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                207,
+                317,
+                251,
+                341
+            ],
+            "text": "32,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                317,
+                323,
+                359,
+                344
+            ],
+            "text": "64,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                381,
+                360,
+                403
+            ],
+            "text": "312,120",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

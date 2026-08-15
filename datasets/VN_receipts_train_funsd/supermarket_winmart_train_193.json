@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                150,
+                39,
+                251,
+                59
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                59,
+                73,
+                340,
+                93
+            ],
+            "text": "Số 407 Bùi Thị Xuân, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                177,
+                181,
+                198
+            ],
+            "text": "02/06/2026 11:27",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                268,
+                157,
+                290
+            ],
+            "text": "Coca Cola Lon 320ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                202,
+                267,
+                210,
+                288
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                231,
+                267,
+                275,
+                288
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                266,
+                383,
+                286
+            ],
+            "text": "10.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                296,
+                201,
+                338
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                305,
+                210,
+                325
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                231,
+                304,
+                274,
+                325
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                303,
+                382,
+                324
+            ],
+            "text": "58.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                344,
+                186,
+                367
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                202,
+                344,
+                211,
+                364
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                231,
+                343,
+                275,
+                364
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                342,
+                383,
+                362
+            ],
+            "text": "72.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                373,
+                134,
+                395
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                202,
+                372,
+                211,
+                392
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                231,
+                371,
+                275,
+                392
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                333,
+                369,
+                383,
+                390
+            ],
+            "text": "168.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                334,
+                455,
+                384,
+                476
+            ],
+            "text": "338.800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

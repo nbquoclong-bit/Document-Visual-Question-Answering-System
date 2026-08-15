@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                162,
+                47,
+                257,
+                69
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                29,
+                70,
+                393,
+                93
+            ],
+            "text": "Số 274 Hai Bà Trưng, Quận 7, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                99,
+                189,
+                213,
+                212
+            ],
+            "text": "07/06/2026 14:25",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                28,
+                258,
+                199,
+                281
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                261,
+                270,
+                282
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                292,
+                262,
+                328,
+                283
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                354,
+                263,
+                391,
+                283
+            ],
+            "text": "6.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                28,
+                284,
+                178,
+                305
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                256,
+                288,
+                263,
+                308
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                283,
+                288,
+                328,
+                308
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                288,
+                391,
+                310
+            ],
+            "text": "128.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                329,
+                390,
+                350
+            ],
+            "text": "144.720",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

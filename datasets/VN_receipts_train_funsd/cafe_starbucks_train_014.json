@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                107,
+                91,
+                270,
+                114
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                33,
+                110,
+                343,
+                135
+            ],
+            "text": "Số 210 Lý Thường Kiệt, Quận Ba Đình, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                47,
+                168,
+                120,
+                191
+            ],
+            "text": "05/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                289,
+                144,
+                310
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                291,
+                242,
+                311
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                307,
+                292,
+                356,
+                312
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                321,
+                159,
+                342
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                323,
+                242,
+                343
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                307,
+                323,
+                356,
+                343
+            ],
+            "text": "255,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                353,
+                152,
+                374
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                354,
+                242,
+                374
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                355,
+                357,
+                375
+            ],
+            "text": "195,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                447,
+                356,
+                467
+            ],
+            "text": "612,360",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

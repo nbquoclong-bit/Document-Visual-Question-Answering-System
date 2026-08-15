@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                125,
+                16,
+                257,
+                38
+            ],
+            "text": "PHÚC LONG LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                34,
+                37,
+                348,
+                61
+            ],
+            "text": "Số 30 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                18,
+                151,
+                137,
+                173
+            ],
+            "text": "29/05/2026 15:21",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                232,
+                27,
+                253
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                232,
+                194,
+                254
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                234,
+                362,
+                255
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                258,
+                26,
+                279
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                259,
+                216,
+                280
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                260,
+                362,
+                281
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                340,
+                363,
+                361
+            ],
+            "text": "243,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                86,
+                33,
+                332,
+                50
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                93,
+                42,
+                380,
+                76
+            ],
+            "text": "Số 14 Lê Lợi, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                150,
+                432,
+                166
+            ],
+            "text": "Ngày 15 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                129,
+                259,
+                241,
+                273
+            ],
+            "text": "1.870.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -2,333 +2,313 @@
     "form": [
         {
             "box": [
-                180,
-                83,
-                665,
-                158
+                213,
+                971,
+                518,
+                1018
             ],
-            "text": "THUC COFFEE",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                243,
-                186,
-                616,
-                224
+                190,
+                902,
+                363,
+                947
             ],
-            "text": "22Quang Trung,P10,G Väp",
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                329,
+                836,
+                694,
+                879
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                134,
+                811,
+                253,
+                849
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                135,
+                777,
+                264,
+                811
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                735,
+                764,
+                811,
+                793
+            ],
+            "text": "000 SE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                137,
+                681,
+                406,
+                719
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                704,
+                674,
+                805,
+                708
+            ],
+            "text": "000 SE",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                151,
+                593,
+                314,
+                622
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                576,
+                588,
+                658,
+                616
+            ],
+            "text": "000 SE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                733,
+                587,
+                814,
+                617
+            ],
+            "text": "000 SE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                272,
+                541,
+                381,
+                571
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                593,
+                539,
+                659,
+                570
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                738,
+                536,
+                812,
+                567
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                145,
+                490,
+                373,
+                523
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                149,
+                444,
+                266,
+                477
+            ],
+            "text": "Giờ vào:",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                292,
+                448,
+                361,
+                476
+            ],
+            "text": "25 80",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                488,
+                449,
+                578,
+                477
+            ],
+            "text": "Giờ ra:",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                744,
+                446,
+                811,
+                474
+            ],
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                146,
+                401,
+                247,
+                432
+            ],
+            "text": "Số HĐ:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                487,
+                404,
+                564,
+                439
+            ],
+            "text": "Ngày:",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                680,
+                405,
+                806,
+                432
+            ],
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                289,
+                363,
+                392,
+                399
+            ],
+            "text": "ET - OS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                486,
+                365,
+                623,
+                396
+            ],
+            "text": "Số khách:",
             "label": "OTHER"
         },
         {
             "box": [
                 315,
-                223,
-                553,
-                255
-            ],
-            "text": "Tel02835883591",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                274,
-                266,
-                598,
-                316
-            ],
-            "text": "PHIEUTAMTINH",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                737,
-                324,
-                759,
-                348
-            ],
-            "text": "0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                250,
-                340,
-                353,
-                375
-            ],
-            "text": "s-13",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                443,
-                332,
-                575,
-                362
-            ],
-            "text": "S&khach:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                446,
-                373,
-                524,
-                404
-            ],
-            "text": "Ngay:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                631,
-                359,
-                759,
-                390
-            ],
-            "text": "31.03.2019",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                113,
-                386,
-                211,
-                411
-            ],
-            "text": "SHD",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                696,
-                397,
-                766,
-                430
-            ],
-            "text": "08.52",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                446,
-                412,
+                296,
                 539,
-                444
+                343
             ],
-            "text": "Gidra:",
+            "text": "PHIẾU TẠM",
             "label": "OTHER"
         },
         {
             "box": [
-                115,
+                545,
+                296,
+                647,
+                344
+            ],
+            "text": "TÍNH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                359,
+                252,
+                605,
+                283
+            ],
+            "text": "Tel:028 3588 3591",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                291,
+                214,
                 421,
-                326,
-                458
+                245
             ],
-            "text": "Gi vao08.52",
+            "text": "22 Quang",
             "label": "OTHER"
         },
         {
             "box": [
-                116,
-                463,
-                338,
-                505
+                420,
+                217,
+                667,
+                251
             ],
-            "text": "Thu nganCA01",
-            "label": "OTHER"
+            "text": "Trung, P10, Gò Vấp",
+            "label": "ADDRESS"
         },
         {
             "box": [
-                696,
-                488,
-                773,
-                520
-            ],
-            "text": "T.Tier",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                453,
-                504,
-                488,
-                536
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                553,
-                495,
-                624,
-                531
-            ],
-            "text": "D.Già",
-            "label": "OTHER"
-        },
-        {
-            "box": [
+                415,
                 121,
-                525,
-                155,
-                550
+                715,
+                186
             ],
-            "text": "TT",
-            "label": "OTHER"
+            "text": "COFFEE",
+            "label": "SELLER"
         },
         {
             "box": [
-                241,
-                511,
-                351,
-                546
+                231,
+                97,
+                448,
+                182
             ],
-            "text": "Ten mon",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                694,
-                535,
-                775,
-                567
-            ],
-            "text": "35000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                441,
-                550,
-                500,
-                586
-            ],
-            "text": "1,00",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                541,
-                544,
-                623,
-                577
-            ],
-            "text": "35000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                124,
-                565,
-                287,
-                603
-            ],
-            "text": "1 COCONUT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                669,
-                622,
-                771,
-                660
-            ],
-            "text": "35000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                120,
-                648,
-                382,
-                697
-            ],
-            "text": "Tién Thanh Toän:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                705,
-                708,
-                780,
-                740
-            ],
-            "text": "35000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                764,
-                746,
-                782,
-                769
-            ],
-            "text": "0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                120,
-                748,
-                245,
-                787
-            ],
-            "text": "Khach dua:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                121,
-                783,
-                238,
-                825
-            ],
-            "text": "Tién thu'a:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                311,
-                786,
-                670,
-                844
-            ],
-            "text": "Thank you & see youagain!",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                180,
-                865,
-                351,
-                916
-            ],
-            "text": "Ky xac nhan",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                328,
-                926,
-                504,
-                969
-            ],
-            "text": "18006230",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                204,
-                940,
-                344,
-                984
-            ],
-            "text": "Pass wifi:",
-            "label": "OTHER"
+            "text": "THỨC",
+            "label": "SELLER"
         }
     ]
 }

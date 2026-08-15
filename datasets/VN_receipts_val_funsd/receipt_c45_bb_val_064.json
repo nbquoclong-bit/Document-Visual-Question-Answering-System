@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                101,
+                30,
+                338,
+                49
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                107,
+                40,
+                400,
+                73
+            ],
+            "text": "Số 172 Hai Bà Trưng, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                219,
+                145,
+                433,
+                164
+            ],
+            "text": "Ngày 26 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                130,
+                250,
+                244,
+                267
+            ],
+            "text": "2.090.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

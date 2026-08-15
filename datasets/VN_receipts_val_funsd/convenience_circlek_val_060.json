@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                178,
+                32,
+                230,
+                54
+            ],
+            "text": "CIRCLE K",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                53,
+                62,
+                354,
+                87
+            ],
+            "text": "Số 44 Hai Bà Trưng, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                72,
+                183,
+                189,
+                205
+            ],
+            "text": "03/06/2026 12:12",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                272,
+                200,
+                315
+            ],
+            "text": "Băng cá nhân Urgo hộp 10 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                282,
+                241,
+                303
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                248,
+                281,
+                293,
+                302
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                280,
+                385,
+                301
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                319,
+                188,
+                342
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                318,
+                242,
+                339
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                248,
+                317,
+                293,
+                339
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                316,
+                385,
+                337
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                346,
+                159,
+                368
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                345,
+                242,
+                365
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                248,
+                344,
+                292,
+                365
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                343,
+                385,
+                364
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                334,
+                428,
+                386,
+                449
+            ],
+            "text": "88,560đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

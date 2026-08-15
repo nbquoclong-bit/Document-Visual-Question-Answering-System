@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                83,
+                41,
+                292,
+                64
+            ],
+            "text": "HIGHLANDS COFFEE TRẦN HƯNG ĐẠO",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                59,
+                60,
+                316,
+                84
+            ],
+            "text": "Số 6 Trần Hưng Đạo, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                74,
+                189,
+                184,
+                212
+            ],
+            "text": "13/06/2026 19:11",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                26,
+                244,
+                34,
+                264
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                245,
+                204,
+                271
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                302,
+                255,
+                352,
+                276
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                269,
+                34,
+                289
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                270,
+                177,
+                295
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                304,
+                280,
+                354,
+                302
+            ],
+            "text": "117,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                303,
+                339,
+                354,
+                362
+            ],
+            "text": "333,630",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                105,
+                87,
+                274,
+                109
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                17,
+                108,
+                364,
+                150
+            ],
+            "text": "Số 28 Cách Mạng Tháng Tám, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                43,
+                189,
+                119,
+                213
+            ],
+            "text": "06/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                313,
+                158,
+                335
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                314,
+                243,
+                335
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                314,
+                362,
+                334
+            ],
+            "text": "170,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                347,
+                135,
+                366
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                347,
+                243,
+                367
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                317,
+                346,
+                362,
+                367
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                441,
+                362,
+                463
+            ],
+            "text": "220,590",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

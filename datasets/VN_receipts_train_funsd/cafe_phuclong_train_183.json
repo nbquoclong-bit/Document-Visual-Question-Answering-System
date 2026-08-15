@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                107,
+                21,
+                273,
+                45
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                30,
+                42,
+                349,
+                70
+            ],
+            "text": "Số 418 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                20,
+                155,
+                137,
+                179
+            ],
+            "text": "20/06/2026 17:07",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                236,
+                29,
+                257
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                54,
+                237,
+                214,
+                260
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                242,
+                358,
+                263
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                263,
+                29,
+                283
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                54,
+                263,
+                157,
+                286
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                268,
+                358,
+                289
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                347,
+                358,
+                368
+            ],
+            "text": "138,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                109,
+                85,
+                267,
+                108
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                46,
+                105,
+                331,
+                128
+            ],
+            "text": "Số 38 Lê Lợi, Quận Hai Bà Trưng, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                45,
+                165,
+                118,
+                188
+            ],
+            "text": "28/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                286,
+                142,
+                307
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                286,
+                241,
+                307
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                285,
+                361,
+                307
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                318,
+                135,
+                340
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                318,
+                242,
+                339
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                317,
+                318,
+                361,
+                339
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                351,
+                135,
+                372
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                350,
+                242,
+                371
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                310,
+                350,
+                361,
+                372
+            ],
+            "text": "120,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                382,
+                157,
+                403
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                383,
+                242,
+                404
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                310,
+                383,
+                362,
+                404
+            ],
+            "text": "340,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                479,
+                362,
+                501
+            ],
+            "text": "722,700",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

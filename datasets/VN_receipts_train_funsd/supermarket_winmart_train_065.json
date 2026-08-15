@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                163,
+                22,
+                244,
+                44
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                89,
+                56,
+                318,
+                80
+            ],
+            "text": "Số 78 Lê Lợi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                162,
+                185,
+                185
+            ],
+            "text": "25/05/2026 16:42",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                256,
+                188,
+                276
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                213,
+                257,
+                220,
+                278
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                242,
+                257,
+                279,
+                278
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                256,
+                390,
+                278
+            ],
+            "text": "14.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                285,
+                158,
+                306
+            ],
+            "text": "Coca Cola Lon 320ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                284,
+                213,
+                306
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                284,
+                278,
+                306
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                285,
+                390,
+                306
+            ],
+            "text": "20.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                314,
+                195,
+                335
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                313,
+                212,
+                335
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                313,
+                279,
+                335
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                314,
+                391,
+                335
+            ],
+            "text": "152.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                401,
+                390,
+                423
+            ],
+            "text": "204.600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

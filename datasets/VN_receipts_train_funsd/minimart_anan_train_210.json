@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                129,
+                19,
+                287,
+                42
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                26,
+                40,
+                389,
+                67
+            ],
+            "text": "Số 194 Trần Hưng Đạo, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                97,
+                160,
+                212,
+                183
+            ],
+            "text": "17/06/2026 17:05",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                228,
+                168,
+                252
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                244,
+                233,
+                252,
+                252
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                273,
+                232,
+                324,
+                255
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                234,
+                389,
+                257
+            ],
+            "text": "175.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                256,
+                176,
+                278
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                252,
+                256,
+                258,
+                279
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                280,
+                258,
+                324,
+                280
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                257,
+                389,
+                282
+            ],
+            "text": "96.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                280,
+                168,
+                304
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                258,
+                284,
+                266,
+                306
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                287,
+                285,
+                324,
+                306
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                285,
+                389,
+                308
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                326,
+                389,
+                350
+            ],
+            "text": "312.120",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

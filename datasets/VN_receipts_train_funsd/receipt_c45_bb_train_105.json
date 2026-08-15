@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                31,
+                334,
+                46
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                92,
+                41,
+                430,
+                71
+            ],
+            "text": "Số 123 Trần Hưng Đạo, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                151,
+                435,
+                166
+            ],
+            "text": "Ngày 03 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                124,
+                261,
+                222,
+                277
+            ],
+            "text": "162.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

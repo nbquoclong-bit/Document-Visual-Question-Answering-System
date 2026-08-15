@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                86,
+                33,
+                335,
+                52
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                92,
+                42,
+                385,
+                77
+            ],
+            "text": "Số 126 Bùi Thị Xuân, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                151,
+                433,
+                169
+            ],
+            "text": "Ngày 26 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                262,
+                221,
+                277
+            ],
+            "text": "162.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

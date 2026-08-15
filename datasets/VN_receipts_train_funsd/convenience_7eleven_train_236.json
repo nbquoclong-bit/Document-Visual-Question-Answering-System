@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                129,
+                22,
+                253,
+                48
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                150,
+                62,
+                269,
+                88
+            ],
+            "text": "05/06/2026 11:25",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                46,
+                122,
+                164,
+                146
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                114,
+                364,
+                137
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                149,
+                179,
+                173
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                142,
+                363,
+                165
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                175,
+                223,
+                202
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                171,
+                363,
+                193
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                203,
+                363,
+                229
+            ],
+            "text": "133,100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

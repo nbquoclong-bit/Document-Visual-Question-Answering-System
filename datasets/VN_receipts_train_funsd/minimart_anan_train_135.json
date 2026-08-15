@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                122,
+                31,
+                289,
+                53
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                21,
+                55,
+                389,
+                78
+            ],
+            "text": "Số 17 Lý Thường Kiệt, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                95,
+                177,
+                211,
+                198
+            ],
+            "text": "18/06/2026 16:52",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                248,
+                168,
+                269
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                244,
+                247,
+                252,
+                268
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                273,
+                247,
+                324,
+                268
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                247,
+                390,
+                268
+            ],
+            "text": "350.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                273,
+                168,
+                295
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                259,
+                273,
+                267,
+                295
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                288,
+                274,
+                324,
+                295
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                273,
+                390,
+                293
+            ],
+            "text": "27.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                300,
+                176,
+                321
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                252,
+                299,
+                259,
+                321
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                281,
+                299,
+                324,
+                321
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                299,
+                390,
+                319
+            ],
+            "text": "96.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                340,
+                390,
+                361
+            ],
+            "text": "520.300",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

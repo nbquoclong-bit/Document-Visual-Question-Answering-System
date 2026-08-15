@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                182,
+                31,
+                232,
+                52
+            ],
+            "text": "CIRCLE K",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                71,
+                59,
+                338,
+                84
+            ],
+            "text": "Số 46 Lê Lợi, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                74,
+                174,
+                192,
+                196
+            ],
+            "text": "08/06/2026 10:07",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                262,
+                184,
+                284
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                263,
+                246,
+                284
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                251,
+                263,
+                294,
+                283
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                264,
+                385,
+                284
+            ],
+            "text": "44,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                289,
+                168,
+                310
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                245,
+                289,
+                252,
+                310
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                259,
+                289,
+                295,
+                309
+            ],
+            "text": "9,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                349,
+                289,
+                385,
+                310
+            ],
+            "text": "9,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                337,
+                372,
+                387,
+                393
+            ],
+            "text": "57,240đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

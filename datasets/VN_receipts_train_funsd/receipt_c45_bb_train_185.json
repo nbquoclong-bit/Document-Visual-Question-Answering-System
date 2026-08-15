@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                90,
+                26,
+                365,
+                44
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                97,
+                36,
+                406,
+                69
+            ],
+            "text": "Số 12 Lý Thường Kiệt, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                216,
+                147,
+                438,
+                163
+            ],
+            "text": "Ngày 26 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                126,
+                255,
+                223,
+                272
+            ],
+            "text": "275.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

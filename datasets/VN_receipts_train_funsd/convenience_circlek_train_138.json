@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                181,
+                28,
+                233,
+                50
+            ],
+            "text": "CIRCLE K",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                59,
+                60,
+                352,
+                81
+            ],
+            "text": "Số 324 Lý Thường Kiệt, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                74,
+                176,
+                191,
+                199
+            ],
+            "text": "03/06/2026 17:23",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                266,
+                163,
+                288
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                239,
+                265,
+                247,
+                286
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                264,
+                296,
+                285
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                264,
+                389,
+                285
+            ],
+            "text": "16,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                292,
+                205,
+                336
+            ],
+            "text": "Băng cá nhân Urgo hộp 10 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                239,
+                303,
+                246,
+                322
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                301,
+                297,
+                323
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                300,
+                389,
+                322
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                395,
+                391,
+                417
+            ],
+            "text": "50,600đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                137,
+                19,
+                273,
+                40
+            ],
+            "text": "Circle K Phạm Ngũ Lão",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                33,
+                51,
+                378,
+                72
+            ],
+            "text": "Số 236 Nguyễn Trãi, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                70,
+                171,
+                190,
+                192
+            ],
+            "text": "23/05/2026 13:12",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                262,
+                160,
+                283
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                238,
+                262,
+                246,
+                283
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                262,
+                298,
+                283
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                262,
+                393,
+                283
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                289,
+                167,
+                310
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                246,
+                289,
+                253,
+                310
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                289,
+                298,
+                310
+            ],
+            "text": "9,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                356,
+                289,
+                393,
+                310
+            ],
+            "text": "9,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                376,
+                395,
+                397
+            ],
+            "text": "45,100đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

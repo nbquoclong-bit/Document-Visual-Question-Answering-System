@@ -2,342 +2,252 @@
     "form": [
         {
             "box": [
-                5,
-                143,
-                151,
-                251
+                208,
+                797,
+                580,
+                842
             ],
-            "text": "GH",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                385,
-                221,
+                338,
+                773,
+                480,
+                805
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                159,
+                730,
+                641,
+                771
+            ],
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                135,
+                688,
+                299,
+                719
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                579,
+                684,
+                646,
+                711
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                134,
+                658,
+                261,
+                687
+            ],
+            "text": "Tổng cộng:",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                580,
+                652,
+                645,
+                674
+            ],
+            "text": "000 69",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                134,
+                625,
+                229,
+                654
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                452,
+                580,
+                506,
+                604
+            ],
+            "text": "000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                585,
+                580,
                 638,
-                256
+                600
+            ],
+            "text": "000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                325,
+                579,
+                368,
+                599
+            ],
+            "text": "109",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                147,
+                548,
+                454,
+                571
+            ],
+            "text": "291019760000 Bột chiên xủ NT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                568,
+                514,
+                631,
+                533
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                436,
+                512,
+                505,
+                534
+            ],
+            "text": "27,000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                325,
+                512,
+                368,
+                532
+            ],
+            "text": "GOI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                150,
+                479,
+                546,
+                505
+            ],
+            "text": "291012760000 bánh gạo richy to 315g NT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                563,
+                448,
+                626,
+                470
+            ],
+            "text": "000 SE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                435,
+                447,
+                501,
+                469
+            ],
+            "text": "000 SE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                326,
+                445,
+                365,
+                464
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                150,
+                408,
+                603,
+                444
+            ],
+            "text": "291032390000 quẩy xoắn hàn quốc gói 280g NO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                156,
+                375,
+                611,
+                415
+            ],
+            "text": "Tên hàng SL ĐVT Đơn giá Thành tiền",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                267,
+                339,
+                527,
+                380
+            ],
+            "text": "HÓA ĐƠN BÁN HÀNG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                272,
+                263,
+                513,
+                299
+            ],
+            "text": "Chợ Sủi Phú Thị Gia Lâm",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                297,
+                228,
+                490,
+                265
             ],
             "text": "MINIMART ANAN",
-            "label": "OTHER"
+            "label": "SELLER"
         },
         {
             "box": [
-                350,
-                255,
-                667,
-                291
+                4,
+                1,
+                184,
+                63
             ],
-            "text": "Cho Sui Phu Thi Gia Lam",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                167,
-                275,
-                230,
-                303
-            ],
-            "text": "Tel:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                346,
-                332,
-                684,
-                369
-            ],
-            "text": "HóA DONBAN HANG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                11,
-                343,
-                130,
-                455
-            ],
-            "text": "N",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                205,
-                367,
-                548,
-                400
-            ],
-            "text": "Ten hang SL DVT.....",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                533,
-                375,
-                792,
-                400
-            ],
-            "text": "Don giaThanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                195,
-                401,
-                781,
-                429
-            ],
-            "text": "291032390000 qu&y xo&n han qu&c g6i 280g N0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                355,
-                434,
-                375,
-                450
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                421,
-                431,
-                477,
-                454
-            ],
-            "text": "GOI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                566,
-                435,
-                649,
-                457
-            ],
-            "text": "35,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                733,
-                436,
-                813,
-                458
-            ],
-            "text": "35,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                192,
-                467,
-                707,
-                492
-            ],
-            "text": "291012760000bänh gao richy to315g NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                355,
-                500,
-                375,
-                517
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                423,
-                500,
-                477,
-                518
-            ],
-            "text": "GOI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                569,
-                499,
-                654,
-                521
-            ],
-            "text": "27,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                738,
-                499,
-                824,
-                520
-            ],
-            "text": "27,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                192,
-                534,
-                588,
-                557
-            ],
-            "text": "291019760000Bt chi@nxüNT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                9,
-                563,
-                125,
-                678
-            ],
-            "text": "El",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                355,
-                567,
-                373,
-                584
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                423,
-                565,
-                477,
-                584
-            ],
-            "text": "GOI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                583,
-                561,
-                662,
-                589
-            ],
-            "text": "7,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                761,
-                563,
-                832,
-                586
-            ],
-            "text": "7,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                175,
-                611,
-                296,
-                637
-            ],
-            "text": "Tong sö:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                393,
-                612,
-                417,
-                634
-            ],
-            "text": "3",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                174,
-                642,
-                338,
-                670
-            ],
-            "text": "Töng cong:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                756,
-                634,
-                841,
-                657
-            ],
-            "text": "69,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                174,
-                671,
-                389,
-                702
-            ],
-            "text": "Tién khach tra:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                513,
-                672,
-                575,
-                697
-            ],
-            "text": "VND",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                755,
-                666,
-                841,
-                692
-            ],
-            "text": "69,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                205,
-                710,
-                835,
-                752
-            ],
-            "text": "S6GD000AB2212008004224Ngay17/08/2020-16:55",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                438,
-                753,
-                625,
-                786
-            ],
-            "text": "Thu nganBH2",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                270,
-                777,
-                756,
-                820
-            ],
-            "text": "Xin cam on va hen gap lai quy khäch!",
+            "text": "",
             "label": "OTHER"
         }
     ]

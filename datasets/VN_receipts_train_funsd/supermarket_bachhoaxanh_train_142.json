@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                96,
+                15,
+                284,
+                36
+            ],
+            "text": "BÁCH HÓA XANH NGUYỄN TRÃI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                57,
+                355,
+                78
+            ],
+            "text": "Số 228 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                146,
+                218,
+                169
+            ],
+            "text": "25/05/2026 20:17",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                235,
+                158,
+                256
+            ],
+            "text": "Rau muống nước 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                35,
+                258,
+                43,
+                279
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                212,
+                258,
+                250,
+                279
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                328,
+                258,
+                365,
+                279
+            ],
+            "text": "8,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                287,
+                105,
+                308
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                35,
+                310,
+                43,
+                331
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                212,
+                310,
+                250,
+                331
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                328,
+                310,
+                365,
+                331
+            ],
+            "text": "3,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                320,
+                372,
+                365,
+                393
+            ],
+            "text": "11,880",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

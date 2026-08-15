@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                110,
+                33,
+                276,
+                58
+            ],
+            "text": "HIGHLANDS COFFEE LÊ LỢI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                72,
+                53,
+                313,
+                79
+            ],
+            "text": "Số 427 Lê Lợi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                74,
+                195,
+                192,
+                216
+            ],
+            "text": "08/06/2026 13:03",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                258,
+                30,
+                278
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                257,
+                190,
+                278
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                257,
+                357,
+                277
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                284,
+                29,
+                305
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                284,
+                147,
+                305
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                282,
+                356,
+                302
+            ],
+            "text": "105,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                311,
+                31,
+                332
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                309,
+                195,
+                331
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                308,
+                357,
+                328
+            ],
+            "text": "58,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                367,
+                356,
+                387
+            ],
+            "text": "259,578",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

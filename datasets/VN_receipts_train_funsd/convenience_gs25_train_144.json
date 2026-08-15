@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                15,
+                265,
+                36
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                55,
+                36,
+                355,
+                57
+            ],
+            "text": "Số 57 Lý Thường Kiệt, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                148,
+                185,
+                169
+            ],
+            "text": "04/06/2026 08:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                242,
+                220,
+                263
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                242,
+                244,
+                263
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                267,
+                242,
+                312,
+                263
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                242,
+                393,
+                263
+            ],
+            "text": "28,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                271,
+                190,
+                292
+            ],
+            "text": "Cơm nắm cá hồi sốt Mayo",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                271,
+                244,
+                292
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                267,
+                271,
+                312,
+                292
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                271,
+                393,
+                292
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                361,
+                395,
+                382
+            ],
+            "text": "78,840đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

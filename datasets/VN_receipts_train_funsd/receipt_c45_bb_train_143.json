@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                101,
+                28,
+                374,
+                48
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                107,
+                37,
+                394,
+                72
+            ],
+            "text": "Số 392 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                221,
+                146,
+                441,
+                165
+            ],
+            "text": "Ngày 27 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                129,
+                255,
+                244,
+                268
+            ],
+            "text": "2.052.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

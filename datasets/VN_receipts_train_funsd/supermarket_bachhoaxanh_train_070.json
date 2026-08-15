@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                100,
+                15,
+                280,
+                36
+            ],
+            "text": "BÁCH HÓA XANH LÊ ĐỨC THỌ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                29,
+                57,
+                351,
+                78
+            ],
+            "text": "Số 74 Bùi Thị Xuân, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                146,
+                218,
+                169
+            ],
+            "text": "20/06/2026 15:03",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                235,
+                195,
+                256
+            ],
+            "text": "Trứng gà tươi hộp 10 quả",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                35,
+                258,
+                43,
+                279
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                205,
+                258,
+                250,
+                279
+            ],
+            "text": "32,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                320,
+                258,
+                365,
+                279
+            ],
+            "text": "64,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                287,
+                180,
+                308
+            ],
+            "text": "Nước mắm Nam Ngư 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                35,
+                310,
+                43,
+                331
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                205,
+                310,
+                250,
+                331
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                320,
+                310,
+                365,
+                331
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                372,
+                365,
+                393
+            ],
+            "text": "162,800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

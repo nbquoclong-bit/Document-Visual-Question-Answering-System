@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                161,
+                36,
+                244,
+                57
+            ],
+            "text": "KFC Bà Hom",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                53,
+                57,
+                353,
+                79
+            ],
+            "text": "Số 219 Hai Bà Trưng, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                173,
+                201,
+                194
+            ],
+            "text": "23/05/2026 08:58",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                251,
+                102,
+                272
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                201,
+                252,
+                209,
+                273
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                230,
+                253,
+                282,
+                273
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                325,
+                253,
+                383,
+                275
+            ],
+            "text": "126,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                280,
+                121,
+                302
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                200,
+                282,
+                210,
+                302
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                231,
+                282,
+                283,
+                304
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                331,
+                283,
+                383,
+                305
+            ],
+            "text": "66,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                309,
+                146,
+                331
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                199,
+                311,
+                210,
+                332
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                231,
+                313,
+                282,
+                332
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                332,
+                314,
+                383,
+                334
+            ],
+            "text": "56,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                315,
+                421,
+                375,
+                444
+            ],
+            "text": "267,840",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

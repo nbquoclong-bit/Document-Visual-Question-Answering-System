@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                96,
+                43,
+                286,
+                66
+            ],
+            "text": "7-Eleven Saigon Trade Center",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                152,
+                83,
+                268,
+                105
+            ],
+            "text": "10/06/2026 22:47",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                49,
+                138,
+                180,
+                159
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                136,
+                362,
+                156
+            ],
+            "text": "54,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                50,
+                165,
+                223,
+                186
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                163,
+                363,
+                184
+            ],
+            "text": "10,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                318,
+                195,
+                363,
+                218
+            ],
+            "text": "69,120",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

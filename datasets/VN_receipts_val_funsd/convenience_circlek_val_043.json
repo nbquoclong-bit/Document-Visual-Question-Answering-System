@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                135,
+                23,
+                264,
+                43
+            ],
+            "text": "Circle K Hai Bà Trưng",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                23,
+                53,
+                380,
+                94
+            ],
+            "text": "Số 49 Bùi Thị Xuân, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                75,
+                188,
+                188,
+                209
+            ],
+            "text": "22/05/2026 08:52",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                26,
+                275,
+                167,
+                295
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                241,
+                276,
+                247,
+                297
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                276,
+                290,
+                296
+            ],
+            "text": "9,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                276,
+                381,
+                297
+            ],
+            "text": "9,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                27,
+                301,
+                202,
+                343
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                241,
+                312,
+                249,
+                333
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                256,
+                312,
+                291,
+                333
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                313,
+                381,
+                333
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                406,
+                384,
+                428
+            ],
+            "text": "36,300đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

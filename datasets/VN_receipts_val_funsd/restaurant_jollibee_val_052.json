@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                141,
+                23,
+                267,
+                45
+            ],
+            "text": "JOLLIBEE COOPMART",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                49,
+                43,
+                360,
+                65
+            ],
+            "text": "Số 402 Nguyễn Trãi, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                153,
+                184,
+                176
+            ],
+            "text": "08/06/2026 09:35",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                249,
+                130,
+                271
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                224,
+                250,
+                231,
+                271
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                250,
+                298,
+                271
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                251,
+                390,
+                273
+            ],
+            "text": "68,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                279,
+                174,
+                301
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                223,
+                280,
+                231,
+                302
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                281,
+                298,
+                303
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                281,
+                390,
+                303
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                371,
+                391,
+                393
+            ],
+            "text": "102,300đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

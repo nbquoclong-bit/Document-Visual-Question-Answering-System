@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                120,
+                15,
+                255,
+                38
+            ],
+            "text": "PHÚC LONG LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                24,
+                36,
+                352,
+                61
+            ],
+            "text": "Số 64 Trần Hưng Đạo, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                14,
+                150,
+                133,
+                173
+            ],
+            "text": "10/06/2026 12:53",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                231,
+                23,
+                253
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                231,
+                191,
+                254
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                235,
+                361,
+                258
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                257,
+                23,
+                278
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                259,
+                191,
+                282
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                262,
+                362,
+                284
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                285,
+                23,
+                305
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                285,
+                153,
+                307
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                290,
+                362,
+                310
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                311,
+                23,
+                331
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                311,
+                183,
+                335
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                315,
+                362,
+                338
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                396,
+                362,
+                419
+            ],
+            "text": "615,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

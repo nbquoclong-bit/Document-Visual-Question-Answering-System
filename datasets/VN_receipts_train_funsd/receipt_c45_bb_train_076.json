@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                27,
+                364,
+                42
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                92,
+                37,
+                397,
+                67
+            ],
+            "text": "Số 90 Hai Bà Trưng, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                148,
+                438,
+                163
+            ],
+            "text": "Ngày 28 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                122,
+                260,
+                239,
+                275
+            ],
+            "text": "2.090.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

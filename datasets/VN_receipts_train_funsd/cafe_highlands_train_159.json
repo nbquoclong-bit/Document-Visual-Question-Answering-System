@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                132,
+                15,
+                248,
+                38
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                33,
+                35,
+                344,
+                59
+            ],
+            "text": "Số 213 Trần Hưng Đạo, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                73,
+                177,
+                189,
+                201
+            ],
+            "text": "29/05/2026 17:23",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                243,
+                30,
+                265
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                239,
+                180,
+                264
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                235,
+                358,
+                257
+            ],
+            "text": "156,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                271,
+                30,
+                291
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                266,
+                195,
+                290
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                263,
+                358,
+                284
+            ],
+            "text": "87,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                296,
+                30,
+                317
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                292,
+                188,
+                318
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                289,
+                358,
+                311
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                349,
+                358,
+                372
+            ],
+            "text": "415,800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

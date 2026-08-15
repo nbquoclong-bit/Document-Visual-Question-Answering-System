@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                163,
+                23,
+                260,
+                45
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                19,
+                44,
+                394,
+                72
+            ],
+            "text": "Số 243 Bùi Thị Xuân, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                95,
+                171,
+                215,
+                192
+            ],
+            "text": "06/06/2026 08:19",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                242,
+                163,
+                265
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                263,
+                242,
+                271,
+                263
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                292,
+                241,
+                335,
+                263
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                349,
+                241,
+                391,
+                262
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                268,
+                185,
+                292
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                263,
+                269,
+                271,
+                289
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                291,
+                267,
+                335,
+                289
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                267,
+                391,
+                288
+            ],
+            "text": "44.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                348,
+                307,
+                390,
+                328
+            ],
+            "text": "82.080",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

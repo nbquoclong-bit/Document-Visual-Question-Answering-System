@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                125,
+                21,
+                275,
+                45
+            ],
+            "text": "KFC Nguyễn Ảnh Thủ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                73,
+                42,
+                329,
+                67
+            ],
+            "text": "Số 368 Nguyễn Trãi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                87,
+                160,
+                201,
+                183
+            ],
+            "text": "27/05/2026 16:46",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                237,
+                146,
+                261
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                213,
+                242,
+                220,
+                262
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                241,
+                242,
+                290,
+                264
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                245,
+                386,
+                266
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                267,
+                162,
+                292
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                213,
+                272,
+                220,
+                293
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                239,
+                273,
+                290,
+                295
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                334,
+                276,
+                387,
+                297
+            ],
+            "text": "39,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                297,
+                100,
+                319
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                302,
+                219,
+                322
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                237,
+                303,
+                290,
+                325
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                328,
+                305,
+                387,
+                328
+            ],
+            "text": "126,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                321,
+                416,
+                379,
+                438
+            ],
+            "text": "198,720",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

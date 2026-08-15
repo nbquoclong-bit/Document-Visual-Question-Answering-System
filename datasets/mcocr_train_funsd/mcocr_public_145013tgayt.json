@@ -2,143 +2,173 @@
     "form": [
         {
             "box": [
-                236,
-                422,
-                399,
-                437
+                44,
+                961,
+                240,
+                981
             ],
-            "text": "TIEN KHACH TRA",
+            "text": "Chụp băng Galaxy M21",
             "label": "OTHER"
         },
         {
             "box": [
-                654,
-                420,
-                729,
-                435
-            ],
-            "text": "80.000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                244,
-                439,
-                343,
-                454
-            ],
-            "text": "TIEN MAT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                645,
-                437,
-                729,
-                452
-            ],
-            "text": "100.000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                236,
-                456,
-                376,
-                470
-            ],
-            "text": "TIEN TRALAI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                654,
-                454,
-                729,
-                468
-            ],
-            "text": "20.000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                321,
-                467,
-                633,
-                487
-            ],
-            "text": "Gia da bao gom thue GTGT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                315,
-                520,
-                631,
-                535
-            ],
-            "text": "chi xuat hóa don trong ngay",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                230,
-                536,
-                729,
-                551
-            ],
-            "text": "Tax invoice will be issued within same day",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                289,
-                568,
-                661,
-                583
-            ],
-            "text": "CAM ON QUY KHACH VA HEN GAP LAI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                229,
-                586,
-                722,
-                602
-            ],
-            "text": "Hotline:02471066866websitevinmart.com",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                81,
-                880,
-                178,
-                900
-            ],
-            "text": "000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                72,
-                911,
-                508,
-                933
+                43,
+                934,
+                294,
+                959
             ],
             "text": "Samsung Triple Camera",
             "label": "OTHER"
         },
         {
             "box": [
-                71,
-                935,
-                416,
-                957
+                49,
+                905,
+                98,
+                920
             ],
-            "text": "Chup bäng Galaxy M21",
+            "text": "000",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                188,
+                667,
+                322,
+                681
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                228,
+                654,
+                291,
+                666
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                214,
+                638,
+                277,
+                649
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                135,
+                604,
+                421,
+                621
+            ],
+            "text": "Hot line: 02471066866 Nebsite: Vinmart.Com",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                173,
+                587,
+                385,
+                602
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                138,
+                552,
+                425,
+                568
+            ],
+            "text": "Tax invoice will be issued within same day",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                189,
+                535,
+                368,
+                552
+            ],
+            "text": "Chỉ xuất hóa đơn trong ngày",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                195,
+                485,
+                368,
+                501
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                470,
+                221,
+                483
+            ],
+            "text": "TIỀN TRẢ LẠI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                381,
+                465,
+                428,
+                485
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                146,
+                453,
+                201,
+                466
+            ],
+            "text": "TIỀN MẶT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                378,
+                452,
+                426,
+                467
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                435,
+                236,
+                451
+            ],
+            "text": "TIỀN KHÁCH TRẢ",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                381,
+                434,
+                427,
+                452
+            ],
+            "text": "000 08",
+            "label": "TOTAL_COST"
         }
     ]
 }

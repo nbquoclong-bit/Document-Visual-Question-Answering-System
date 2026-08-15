@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                79,
+                35,
+                343,
+                54
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                86,
+                44,
+                384,
+                78
+            ],
+            "text": "Số 309 Hai Bà Trưng, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                203,
+                152,
+                417,
+                169
+            ],
+            "text": "Ngày 23 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                260,
+                217,
+                275
+            ],
+            "text": "216.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

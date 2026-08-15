@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                139,
+                24,
+                255,
+                51
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                64,
+                39,
+                334,
+                75
+            ],
+            "text": "Số 140 Bùi Thị Xuân, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                64,
+                155,
+                178,
+                180
+            ],
+            "text": "27/05/2026 17:09",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                245,
+                183,
+                269
+            ],
+            "text": "Cơm nắm cá hồi sốt Mayo",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                243,
+                234,
+                265
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                254,
+                241,
+                300,
+                263
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                239,
+                385,
+                262
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                272,
+                199,
+                298
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                272,
+                233,
+                292
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                270,
+                300,
+                291
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                267,
+                386,
+                290
+            ],
+            "text": "48,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                356,
+                389,
+                379
+            ],
+            "text": "68,040đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                98,
+                20,
+                290,
+                52
+            ],
+            "text": "7-Eleven Saigon Trade Center",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                154,
+                64,
+                271,
+                91
+            ],
+            "text": "27/05/2026 20:22",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                49,
+                113,
+                226,
+                144
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                321,
+                127,
+                364,
+                150
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                49,
+                141,
+                226,
+                171
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                321,
+                156,
+                364,
+                178
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                49,
+                169,
+                182,
+                197
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                321,
+                183,
+                364,
+                206
+            ],
+            "text": "72,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                314,
+                215,
+                364,
+                240
+            ],
+            "text": "164,160",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

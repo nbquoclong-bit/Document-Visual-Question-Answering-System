@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                118,
+                21,
+                288,
+                43
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                46,
+                390,
+                68
+            ],
+            "text": "Số 156 Lý Thường Kiệt, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                169,
+                209,
+                190
+            ],
+            "text": "03/06/2026 19:06",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                241,
+                179,
+                262
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                242,
+                271,
+                262
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                293,
+                242,
+                339,
+                263
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                242,
+                391,
+                263
+            ],
+            "text": "88.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                268,
+                208,
+                289
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                270,
+                268,
+                278,
+                289
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                300,
+                268,
+                338,
+                289
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                268,
+                391,
+                289
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                338,
+                310,
+                390,
+                331
+            ],
+            "text": "112.320",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

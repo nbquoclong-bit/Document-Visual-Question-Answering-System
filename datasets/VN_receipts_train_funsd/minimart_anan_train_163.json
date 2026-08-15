@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                161,
+                25,
+                252,
+                49
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                28,
+                42,
+                381,
+                76
+            ],
+            "text": "Số 126 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                97,
+                162,
+                212,
+                188
+            ],
+            "text": "23/05/2026 19:23",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                232,
+                162,
+                260
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                262,
+                228,
+                269,
+                248
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                291,
+                224,
+                334,
+                246
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                221,
+                384,
+                244
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                255,
+                211,
+                284
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                270,
+                253,
+                279,
+                272
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                298,
+                250,
+                334,
+                270
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                246,
+                385,
+                269
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                342,
+                285,
+                385,
+                308
+            ],
+            "text": "86.400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

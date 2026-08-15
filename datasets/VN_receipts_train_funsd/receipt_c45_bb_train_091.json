@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                27,
+                337,
+                42
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                92,
+                37,
+                364,
+                67
+            ],
+            "text": "Số 285 Lê Lợi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                148,
+                438,
+                163
+            ],
+            "text": "Ngày 02 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                122,
+                260,
+                239,
+                275
+            ],
+            "text": "1.650.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

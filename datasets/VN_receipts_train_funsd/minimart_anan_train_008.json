@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                33,
+                291,
+                57
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                28,
+                56,
+                389,
+                82
+            ],
+            "text": "Số 422 Hai Bà Trưng, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                100,
+                178,
+                213,
+                199
+            ],
+            "text": "16/06/2026 18:07",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                29,
+                247,
+                198,
+                269
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                272,
+                251,
+                279,
+                271
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                300,
+                250,
+                335,
+                271
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                251,
+                386,
+                272
+            ],
+            "text": "12.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                29,
+                273,
+                212,
+                295
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                271,
+                276,
+                279,
+                297
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                299,
+                276,
+                335,
+                297
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                277,
+                386,
+                297
+            ],
+            "text": "24.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                29,
+                298,
+                164,
+                321
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                301,
+                271,
+                322
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                292,
+                302,
+                335,
+                323
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                302,
+                385,
+                324
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                343,
+                384,
+                363
+            ],
+            "text": "108.000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

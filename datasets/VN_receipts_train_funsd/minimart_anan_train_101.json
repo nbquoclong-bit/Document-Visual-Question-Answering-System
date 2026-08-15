@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                158,
+                28,
+                255,
+                53
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                20,
+                49,
+                394,
+                81
+            ],
+            "text": "Số 264 Nguyễn Huệ, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                176,
+                210,
+                199
+            ],
+            "text": "27/05/2026 09:41",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                246,
+                165,
+                270
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                246,
+                245,
+                254,
+                266
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                275,
+                243,
+                328,
+                264
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                242,
+                389,
+                264
+            ],
+            "text": "525.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                272,
+                179,
+                296
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                270,
+                262,
+                292
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                283,
+                269,
+                328,
+                291
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                268,
+                390,
+                290
+            ],
+            "text": "66.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                299,
+                194,
+                322
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                296,
+                269,
+                318
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                288,
+                295,
+                328,
+                317
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                294,
+                389,
+                315
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                334,
+                389,
+                357
+            ],
+            "text": "657.720",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

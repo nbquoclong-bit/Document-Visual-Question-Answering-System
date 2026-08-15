@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                107,
+                25,
+                275,
+                56
+            ],
+            "text": "HIGHLANDS COFFEE LÊ LỢI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                20,
+                40,
+                363,
+                101
+            ],
+            "text": "Số 189 Cách Mạng Tháng Tám, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                207,
+                188,
+                234
+            ],
+            "text": "23/05/2026 13:45",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                277,
+                28,
+                298
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                47,
+                267,
+                193,
+                296
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                259,
+                362,
+                282
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                302,
+                28,
+                323
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                47,
+                296,
+                142,
+                322
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                284,
+                362,
+                307
+            ],
+            "text": "140,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                346,
+                361,
+                369
+            ],
+            "text": "335,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

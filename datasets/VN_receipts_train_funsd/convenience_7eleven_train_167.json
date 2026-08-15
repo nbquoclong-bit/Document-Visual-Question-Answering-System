@@ -1,0 +1,114 @@
+{
+    "form": [
+        {
+            "box": [
+                129,
+                21,
+                248,
+                42
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                149,
+                58,
+                264,
+                80
+            ],
+            "text": "14/06/2026 11:20",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                49,
+                113,
+                177,
+                137
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                109,
+                355,
+                130
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                48,
+                140,
+                220,
+                164
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                136,
+                356,
+                158
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                48,
+                166,
+                220,
+                191
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                163,
+                356,
+                184
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                49,
+                195,
+                163,
+                217
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                191,
+                356,
+                212
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                306,
+                222,
+                357,
+                246
+            ],
+            "text": "121,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

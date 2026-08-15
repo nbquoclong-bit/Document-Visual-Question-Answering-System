@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                134,
+                20,
+                289,
+                43
+            ],
+            "text": "KFC Nguyễn Thái Học",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                104,
+                43,
+                318,
+                66
+            ],
+            "text": "Số 206 Lê Lợi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                99,
+                164,
+                210,
+                185
+            ],
+            "text": "23/05/2026 21:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                30,
+                244,
+                173,
+                266
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                221,
+                245,
+                230,
+                267
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                249,
+                245,
+                297,
+                266
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                245,
+                389,
+                267
+            ],
+            "text": "54,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                31,
+                275,
+                112,
+                297
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                220,
+                276,
+                231,
+                296
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                246,
+                275,
+                296,
+                297
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                333,
+                276,
+                389,
+                297
+            ],
+            "text": "126,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                30,
+                306,
+                173,
+                328
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                220,
+                307,
+                230,
+                326
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                246,
+                306,
+                297,
+                327
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                306,
+                389,
+                327
+            ],
+            "text": "117,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                30,
+                336,
+                156,
+                358
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                219,
+                337,
+                229,
+                358
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                336,
+                296,
+                358
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                336,
+                389,
+                358
+            ],
+            "text": "56,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                322,
+                446,
+                380,
+                468
+            ],
+            "text": "381,240",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

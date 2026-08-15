@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                105,
+                97,
+                261,
+                120
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                30,
+                117,
+                338,
+                142
+            ],
+            "text": "Số 102 Hai Bà Trưng, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                44,
+                173,
+                116,
+                197
+            ],
+            "text": "05/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                290,
+                156,
+                314
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                228,
+                295,
+                238,
+                317
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                304,
+                299,
+                356,
+                322
+            ],
+            "text": "255,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                319,
+                142,
+                345
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                230,
+                328,
+                238,
+                347
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                305,
+                330,
+                357,
+                352
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                352,
+                142,
+                377
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                358,
+                240,
+                379
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                361,
+                357,
+                384
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                456,
+                359,
+                477
+            ],
+            "text": "561,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

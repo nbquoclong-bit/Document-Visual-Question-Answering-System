@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                126,
+                16,
+                285,
+                38
+            ],
+            "text": "KFC Nguyễn Thái Học",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                75,
+                38,
+                336,
+                60
+            ],
+            "text": "Số 222 Hai Bà Trưng, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                158,
+                206,
+                180
+            ],
+            "text": "21/05/2026 16:34",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                239,
+                124,
+                261
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                216,
+                241,
+                226,
+                261
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                240,
+                294,
+                261
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                240,
+                390,
+                260
+            ],
+            "text": "66,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                270,
+                167,
+                292
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                216,
+                270,
+                226,
+                292
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                246,
+                271,
+                294,
+                291
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                270,
+                391,
+                292
+            ],
+            "text": "72,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                301,
+                149,
+                322
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                216,
+                301,
+                226,
+                323
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                301,
+                295,
+                322
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                302,
+                391,
+                322
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                320,
+                413,
+                382,
+                433
+            ],
+            "text": "244,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

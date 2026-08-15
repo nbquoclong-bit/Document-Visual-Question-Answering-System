@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                134,
+                37,
+                254,
+                57
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                154,
+                75,
+                268,
+                96
+            ],
+            "text": "17/06/2026 15:06",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                54,
+                128,
+                224,
+                149
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                129,
+                361,
+                149
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                53,
+                155,
+                182,
+                175
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                156,
+                361,
+                176
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                186,
+                361,
+                209
+            ],
+            "text": "100,440",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

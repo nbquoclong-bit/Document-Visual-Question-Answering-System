@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                105,
+                30,
+                372,
+                45
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                112,
+                40,
+                417,
+                69
+            ],
+            "text": "Số 368 Lý Thường Kiệt, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                223,
+                148,
+                440,
+                162
+            ],
+            "text": "Ngày 08 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                134,
+                255,
+                246,
+                270
+            ],
+            "text": "1.650.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

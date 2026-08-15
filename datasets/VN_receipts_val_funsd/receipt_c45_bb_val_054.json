@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                87,
+                29,
+                361,
+                47
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                94,
+                39,
+                379,
+                70
+            ],
+            "text": "Số 185 Hai Bà Trưng, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                148,
+                434,
+                165
+            ],
+            "text": "Ngày 20 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                124,
+                259,
+                212,
+                274
+            ],
+            "text": "55.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

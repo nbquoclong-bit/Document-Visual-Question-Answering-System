@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                161,
+                26,
+                241,
+                47
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                58,
+                60,
+                345,
+                83
+            ],
+            "text": "Số 262 Trần Hưng Đạo, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                64,
+                167,
+                182,
+                188
+            ],
+            "text": "25/05/2026 15:23",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                258,
+                185,
+                279
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                258,
+                210,
+                280
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                259,
+                277,
+                279
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                258,
+                390,
+                280
+            ],
+            "text": "54.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                287,
+                202,
+                328
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                296,
+                211,
+                318
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                296,
+                277,
+                318
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                296,
+                390,
+                318
+            ],
+            "text": "58.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                395,
+                391,
+                416
+            ],
+            "text": "123.200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

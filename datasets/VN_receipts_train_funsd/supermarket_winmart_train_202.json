@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                153,
+                22,
+                258,
+                43
+            ],
+            "text": "VM+QNH HẠ LONG",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                40,
+                57,
+                370,
+                78
+            ],
+            "text": "Số 266 Nguyễn Huệ, Quận Hai Bà Trưng, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                165,
+                185,
+                186
+            ],
+            "text": "21/05/2026 21:03",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                259,
+                188,
+                280
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                259,
+                214,
+                280
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                259,
+                281,
+                280
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                259,
+                395,
+                280
+            ],
+            "text": "54.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                288,
+                135,
+                309
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                288,
+                214,
+                309
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                288,
+                281,
+                309
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                288,
+                395,
+                309
+            ],
+            "text": "112.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                377,
+                395,
+                398
+            ],
+            "text": "179.280",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

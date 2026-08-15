@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                129,
+                20,
+                247,
+                45
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                147,
+                62,
+                265,
+                85
+            ],
+            "text": "14/06/2026 21:24",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                43,
+                119,
+                213,
+                145
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                115,
+                361,
+                138
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                43,
+                148,
+                219,
+                174
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                144,
+                361,
+                166
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                315,
+                176,
+                361,
+                202
+            ],
+            "text": "75,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

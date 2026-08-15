@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                96,
+                15,
+                288,
+                36
+            ],
+            "text": "7-Eleven Saigon Trade Center",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                151,
+                57,
+                269,
+                79
+            ],
+            "text": "10/06/2026 19:47",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                47,
+                113,
+                217,
+                135
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                113,
+                361,
+                135
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                47,
+                142,
+                223,
+                164
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                142,
+                361,
+                163
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                47,
+                171,
+                223,
+                193
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                170,
+                360,
+                191
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                202,
+                360,
+                227
+            ],
+            "text": "164,160",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

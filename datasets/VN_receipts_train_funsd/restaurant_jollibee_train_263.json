@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                18,
+                270,
+                41
+            ],
+            "text": "JOLLIBEE COOPMART",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                50,
+                37,
+                364,
+                64
+            ],
+            "text": "Số 138 Cách Mạng Tháng Tám, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                153,
+                188,
+                177
+            ],
+            "text": "19/06/2026 15:58",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                25,
+                251,
+                185,
+                274
+            ],
+            "text": "Gà Giòn Vui Vẻ 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                228,
+                250,
+                236,
+                271
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                256,
+                249,
+                299,
+                270
+            ],
+            "text": "35,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                247,
+                388,
+                269
+            ],
+            "text": "70,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                282,
+                178,
+                305
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                228,
+                281,
+                236,
+                302
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                256,
+                280,
+                300,
+                301
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                278,
+                388,
+                300
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                331,
+                369,
+                389,
+                391
+            ],
+            "text": "156,600đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

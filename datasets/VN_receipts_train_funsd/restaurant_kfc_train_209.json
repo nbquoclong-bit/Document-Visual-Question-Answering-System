@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                154,
+                15,
+                256,
+                36
+            ],
+            "text": "KFC VIỆT NAM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                38,
+                395,
+                80
+            ],
+            "text": "Số 152 Lý Thường Kiệt, Quận Tân Bình, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                181,
+                205,
+                202
+            ],
+            "text": "23/05/2026 08:55",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                263,
+                122,
+                284
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                215,
+                263,
+                224,
+                284
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                263,
+                295,
+                284
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                263,
+                393,
+                284
+            ],
+            "text": "44,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                294,
+                149,
+                315
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                215,
+                294,
+                224,
+                315
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                246,
+                294,
+                295,
+                315
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                294,
+                393,
+                315
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                325,
+                165,
+                346
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                215,
+                325,
+                224,
+                346
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                325,
+                295,
+                346
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                334,
+                325,
+                393,
+                346
+            ],
+            "text": "156,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                321,
+                438,
+                384,
+                459
+            ],
+            "text": "303,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

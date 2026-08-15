@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                106,
+                21,
+                271,
+                50
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                40,
+                309,
+                75
+            ],
+            "text": "Số 333 Nguyễn Huệ, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                19,
+                150,
+                136,
+                177
+            ],
+            "text": "04/06/2026 16:24",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                230,
+                28,
+                252
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                232,
+                183,
+                259
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                244,
+                354,
+                266
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                257,
+                28,
+                278
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                258,
+                213,
+                285
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                269,
+                354,
+                292
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                347,
+                354,
+                370
+            ],
+            "text": "83,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

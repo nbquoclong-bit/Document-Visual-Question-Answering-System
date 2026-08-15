@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                16,
+                248,
+                39
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                37,
+                361,
+                84
+            ],
+            "text": "Số 200 Cách Mạng Tháng Tám, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                15,
+                173,
+                135,
+                194
+            ],
+            "text": "21/05/2026 07:27",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                253,
+                23,
+                275
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                253,
+                140,
+                276
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                257,
+                361,
+                278
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                279,
+                23,
+                301
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                280,
+                192,
+                302
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                283,
+                362,
+                305
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                364,
+                362,
+                385
+            ],
+            "text": "363,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

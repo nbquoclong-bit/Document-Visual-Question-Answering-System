@@ -1,0 +1,284 @@
+{
+    "form": [
+        {
+            "box": [
+                157,
+                20,
+                252,
+                42
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                18,
+                42,
+                386,
+                89
+            ],
+            "text": "Số 266 Bùi Thị Xuân, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                93,
+                183,
+                210,
+                205
+            ],
+            "text": "30/05/2026 13:07",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                253,
+                175,
+                275
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                253,
+                254,
+                262,
+                275
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                282,
+                254,
+                325,
+                275
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                254,
+                388,
+                274
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                281,
+                161,
+                302
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                255,
+                281,
+                262,
+                302
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                282,
+                280,
+                328,
+                301
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                279,
+                388,
+                301
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                307,
+                168,
+                326
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                263,
+                307,
+                269,
+                327
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                306,
+                328,
+                327
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                352,
+                306,
+                389,
+                327
+            ],
+            "text": "9.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                332,
+                168,
+                354
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                247,
+                331,
+                254,
+                352
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                276,
+                333,
+                327,
+                353
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                332,
+                389,
+                352
+            ],
+            "text": "700.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                359,
+                190,
+                380
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                359,
+                263,
+                379
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                284,
+                358,
+                327,
+                379
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                358,
+                388,
+                379
+            ],
+            "text": "40.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                384,
+                183,
+                407
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                255,
+                384,
+                263,
+                404
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                284,
+                383,
+                327,
+                405
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                383,
+                389,
+                404
+            ],
+            "text": "22.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                423,
+                390,
+                444
+            ],
+            "text": "953.700",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

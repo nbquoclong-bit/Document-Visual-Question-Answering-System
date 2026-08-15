@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                14,
+                249,
+                36
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                21,
+                36,
+                357,
+                58
+            ],
+            "text": "Số 225 Cách Mạng Tháng Tám, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                178,
+                187,
+                199
+            ],
+            "text": "24/05/2026 22:57",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                240,
+                23,
+                262
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                240,
+                140,
+                261
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                240,
+                363,
+                262
+            ],
+            "text": "105,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                268,
+                23,
+                288
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                267,
+                177,
+                289
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                267,
+                363,
+                289
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                330,
+                362,
+                352
+            ],
+            "text": "177,876",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

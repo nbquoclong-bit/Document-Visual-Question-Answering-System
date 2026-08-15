@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                86,
+                272,
+                109
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                58,
+                106,
+                319,
+                130
+            ],
+            "text": "Số 237 Nguyễn Trãi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                42,
+                166,
+                118,
+                190
+            ],
+            "text": "30/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                289,
+                142,
+                312
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                292,
+                242,
+                313
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                316,
+                292,
+                362,
+                314
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                322,
+                157,
+                345
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                324,
+                241,
+                345
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                324,
+                360,
+                347
+            ],
+            "text": "340,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                420,
+                361,
+                442
+            ],
+            "text": "388,800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

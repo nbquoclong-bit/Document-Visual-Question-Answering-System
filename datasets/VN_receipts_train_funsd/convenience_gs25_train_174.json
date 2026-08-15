@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                18,
+                248,
+                40
+            ],
+            "text": "GS25 THỦ ĐỨC",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                50,
+                36,
+                358,
+                63
+            ],
+            "text": "Số 42 Hai Bà Trưng, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                146,
+                185,
+                169
+            ],
+            "text": "23/05/2026 16:10",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                238,
+                167,
+                261
+            ],
+            "text": "Xúc xích Đức ăn liền",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                222,
+                241,
+                230,
+                262
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                242,
+                295,
+                263
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                243,
+                387,
+                264
+            ],
+            "text": "10,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                266,
+                160,
+                289
+            ],
+            "text": "Sữa chua uống Proby",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                270,
+                235,
+                290
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                258,
+                270,
+                295,
+                291
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                271,
+                387,
+                293
+            ],
+            "text": "16,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                338,
+                360,
+                389,
+                381
+            ],
+            "text": "28,600đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

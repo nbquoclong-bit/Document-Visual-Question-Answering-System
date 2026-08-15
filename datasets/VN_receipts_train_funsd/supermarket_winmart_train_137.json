@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                153,
+                22,
+                258,
+                43
+            ],
+            "text": "VM+QNH HẠ LONG",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                93,
+                57,
+                318,
+                78
+            ],
+            "text": "Số 140 Lê Lợi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                165,
+                185,
+                186
+            ],
+            "text": "31/05/2026 13:56",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                259,
+                158,
+                280
+            ],
+            "text": "Coca Cola Lon 320ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                259,
+                214,
+                280
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                259,
+                281,
+                280
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                259,
+                395,
+                280
+            ],
+            "text": "20.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                288,
+                205,
+                330
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                298,
+                214,
+                319
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                298,
+                281,
+                319
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                298,
+                395,
+                319
+            ],
+            "text": "116.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                398,
+                395,
+                419
+            ],
+            "text": "149.600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

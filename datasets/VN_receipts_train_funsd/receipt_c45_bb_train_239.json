@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                89,
+                29,
+                337,
+                48
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                96,
+                38,
+                387,
+                74
+            ],
+            "text": "Số 237 Hai Bà Trưng, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                217,
+                152,
+                434,
+                170
+            ],
+            "text": "Ngày 09 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                132,
+                261,
+                229,
+                277
+            ],
+            "text": "220.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

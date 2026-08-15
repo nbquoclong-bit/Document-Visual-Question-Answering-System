@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                114,
+                85,
+                272,
+                109
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                24,
+                105,
+                364,
+                149
+            ],
+            "text": "Số 152 Cách Mạng Tháng Tám, Quận 7, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                51,
+                184,
+                123,
+                208
+            ],
+            "text": "26/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                306,
+                139,
+                327
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                306,
+                245,
+                326
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                319,
+                306,
+                363,
+                327
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                338,
+                161,
+                359
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                338,
+                245,
+                359
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                319,
+                338,
+                363,
+                359
+            ],
+            "text": "85,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                369,
+                147,
+                391
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                370,
+                245,
+                391
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                312,
+                370,
+                363,
+                392
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                464,
+                362,
+                486
+            ],
+            "text": "383,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

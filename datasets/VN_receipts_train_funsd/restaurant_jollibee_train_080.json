@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                15,
+                265,
+                36
+            ],
+            "text": "JOLLIBEE PASTEUR",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                36,
+                344,
+                57
+            ],
+            "text": "Số 144 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                148,
+                185,
+                169
+            ],
+            "text": "21/05/2026 22:48",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                245,
+                130,
+                266
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                245,
+                217,
+                266
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                240,
+                245,
+                285,
+                266
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                245,
+                393,
+                266
+            ],
+            "text": "152,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                276,
+                130,
+                297
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                276,
+                217,
+                297
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                240,
+                276,
+                285,
+                297
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                276,
+                393,
+                297
+            ],
+            "text": "68,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                307,
+                122,
+                328
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                307,
+                217,
+                328
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                240,
+                307,
+                285,
+                328
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                307,
+                393,
+                328
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                398,
+                395,
+                419
+            ],
+            "text": "258,500đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

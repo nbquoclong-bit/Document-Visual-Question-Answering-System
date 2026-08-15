@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                123,
+                21,
+                286,
+                42
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                17,
+                43,
+                390,
+                68
+            ],
+            "text": "Số 276 Nguyễn Huệ, Quận Tân Bình, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                165,
+                209,
+                187
+            ],
+            "text": "24/05/2026 13:16",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                236,
+                164,
+                258
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                267,
+                238,
+                275,
+                259
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                297,
+                238,
+                333,
+                260
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                238,
+                391,
+                260
+            ],
+            "text": "27.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                263,
+                188,
+                285
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                264,
+                267,
+                286
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                289,
+                265,
+                335,
+                286
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                265,
+                392,
+                286
+            ],
+            "text": "10.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                346,
+                307,
+                391,
+                326
+            ],
+            "text": "39.960",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

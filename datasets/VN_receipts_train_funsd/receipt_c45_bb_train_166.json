@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                90,
+                27,
+                362,
+                47
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                97,
+                37,
+                398,
+                72
+            ],
+            "text": "Số 342 Nguyễn Huệ, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                216,
+                147,
+                434,
+                166
+            ],
+            "text": "Ngày 28 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                130,
+                254,
+                227,
+                271
+            ],
+            "text": "216.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

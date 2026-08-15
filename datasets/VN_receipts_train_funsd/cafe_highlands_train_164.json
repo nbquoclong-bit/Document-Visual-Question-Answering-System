@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                101,
+                22,
+                285,
+                44
+            ],
+            "text": "HIGHLANDS COFFEE LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                42,
+                321,
+                65
+            ],
+            "text": "Số 96 Nguyễn Huệ, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                74,
+                182,
+                191,
+                204
+            ],
+            "text": "02/06/2026 20:24",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                244,
+                31,
+                264
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                244,
+                196,
+                264
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                243,
+                364,
+                263
+            ],
+            "text": "87,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                270,
+                31,
+                291
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                269,
+                181,
+                291
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                269,
+                363,
+                290
+            ],
+            "text": "117,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                296,
+                30,
+                318
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                296,
+                196,
+                317
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                295,
+                364,
+                318
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                357,
+                363,
+                378
+            ],
+            "text": "339,120",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

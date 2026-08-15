@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                148,
+                19,
+                260,
+                40
+            ],
+            "text": "JOLLIBEE VINCOM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                59,
+                40,
+                349,
+                62
+            ],
+            "text": "Số 256 Nguyễn Huệ, Quận Ba Đình, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                150,
+                184,
+                172
+            ],
+            "text": "31/05/2026 19:53",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                246,
+                122,
+                267
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                223,
+                245,
+                232,
+                266
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                254,
+                245,
+                297,
+                267
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                245,
+                390,
+                267
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                276,
+                130,
+                297
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                223,
+                276,
+                231,
+                296
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                276,
+                298,
+                297
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                276,
+                390,
+                297
+            ],
+            "text": "152,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                306,
+                175,
+                328
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                224,
+                306,
+                231,
+                328
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                306,
+                298,
+                328
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                306,
+                390,
+                328
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                396,
+                391,
+                417
+            ],
+            "text": "271,700đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

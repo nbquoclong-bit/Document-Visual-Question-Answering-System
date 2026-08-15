@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                155,
+                20,
+                249,
+                42
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                20,
+                42,
+                384,
+                68
+            ],
+            "text": "Số 292 Nguyễn Huệ, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                164,
+                208,
+                185
+            ],
+            "text": "04/06/2026 17:15",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                234,
+                187,
+                257
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                259,
+                232,
+                266,
+                254
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                287,
+                231,
+                331,
+                252
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                230,
+                387,
+                252
+            ],
+            "text": "30.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                260,
+                180,
+                284
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                259,
+                259,
+                266,
+                280
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                288,
+                257,
+                331,
+                278
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                256,
+                387,
+                278
+            ],
+            "text": "88.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                337,
+                297,
+                388,
+                318
+            ],
+            "text": "127.440",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

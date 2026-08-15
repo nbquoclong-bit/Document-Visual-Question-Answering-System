@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                151,
+                34,
+                256,
+                55
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                43,
+                69,
+                364,
+                90
+            ],
+            "text": "Số 363 Bùi Thị Xuân, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                64,
+                175,
+                184,
+                197
+            ],
+            "text": "22/05/2026 07:22",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                267,
+                133,
+                289
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                268,
+                212,
+                289
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                267,
+                278,
+                289
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                267,
+                390,
+                289
+            ],
+            "text": "112.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                297,
+                193,
+                316
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                296,
+                212,
+                317
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                296,
+                277,
+                316
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                295,
+                391,
+                317
+            ],
+            "text": "38.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                338,
+                383,
+                390,
+                403
+            ],
+            "text": "162.000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

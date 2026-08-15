@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                161,
+                35,
+                242,
+                57
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                74,
+                67,
+                328,
+                91
+            ],
+            "text": "Số 49 Nguyễn Huệ, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                170,
+                182,
+                193
+            ],
+            "text": "02/06/2026 18:56",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                260,
+                157,
+                282
+            ],
+            "text": "Coca Cola Lon 320ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                262,
+                212,
+                283
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                262,
+                278,
+                284
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                263,
+                389,
+                285
+            ],
+            "text": "10.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                288,
+                187,
+                311
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                212,
+                290,
+                219,
+                310
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                241,
+                290,
+                278,
+                312
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                291,
+                389,
+                313
+            ],
+            "text": "10.500",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                315,
+                186,
+                338
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                317,
+                213,
+                339
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                318,
+                278,
+                339
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                319,
+                389,
+                341
+            ],
+            "text": "72.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                343,
+                164,
+                365
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                345,
+                212,
+                366
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                347,
+                278,
+                366
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                347,
+                390,
+                368
+            ],
+            "text": "102.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                432,
+                391,
+                454
+            ],
+            "text": "213.950",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

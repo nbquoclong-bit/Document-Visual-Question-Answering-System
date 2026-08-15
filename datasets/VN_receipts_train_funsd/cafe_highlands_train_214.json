@@ -1,0 +1,194 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                23,
+                240,
+                50
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                27,
+                36,
+                345,
+                75
+            ],
+            "text": "Số 205 Trần Hưng Đạo, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                70,
+                180,
+                182,
+                206
+            ],
+            "text": "12/06/2026 08:12",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                246,
+                28,
+                267
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                241,
+                166,
+                265
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                232,
+                352,
+                254
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                272,
+                28,
+                291
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                265,
+                187,
+                291
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                259,
+                352,
+                280
+            ],
+            "text": "29,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                296,
+                28,
+                316
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                292,
+                137,
+                315
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                302,
+                285,
+                353,
+                307
+            ],
+            "text": "140,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                323,
+                28,
+                343
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                317,
+                172,
+                342
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                302,
+                310,
+                353,
+                332
+            ],
+            "text": "117,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                348,
+                28,
+                368
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                341,
+                201,
+                367
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                302,
+                336,
+                353,
+                359
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                302,
+                398,
+                353,
+                421
+            ],
+            "text": "579,700",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                117,
+                28,
+                287,
+                49
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                51,
+                388,
+                74
+            ],
+            "text": "Số 40 Lê Lợi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                172,
+                208,
+                194
+            ],
+            "text": "16/06/2026 17:52",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                244,
+                171,
+                265
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                248,
+                243,
+                256,
+                265
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                278,
+                243,
+                322,
+                265
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                243,
+                387,
+                265
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                271,
+                164,
+                292
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                241,
+                271,
+                248,
+                291
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                270,
+                270,
+                321,
+                291
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                269,
+                388,
+                290
+            ],
+            "text": "700.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                338,
+                311,
+                389,
+                331
+            ],
+            "text": "840.400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

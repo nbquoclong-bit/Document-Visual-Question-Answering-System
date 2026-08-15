@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                152,
+                30,
+                262,
+                52
+            ],
+            "text": "JOLLIBEE VINCOM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                68,
+                50,
+                347,
+                73
+            ],
+            "text": "Số 238 Lê Lợi, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                70,
+                161,
+                189,
+                183
+            ],
+            "text": "13/06/2026 15:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                256,
+                184,
+                277
+            ],
+            "text": "Gà Giòn Vui Vẻ 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                226,
+                255,
+                235,
+                276
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                255,
+                300,
+                275
+            ],
+            "text": "35,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                254,
+                388,
+                275
+            ],
+            "text": "35,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                286,
+                125,
+                308
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                226,
+                285,
+                234,
+                306
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                285,
+                301,
+                305
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                284,
+                388,
+                305
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                338,
+                372,
+                389,
+                393
+            ],
+            "text": "86,400đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

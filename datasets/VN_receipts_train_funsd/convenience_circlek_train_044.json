@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                150,
+                37,
+                245,
+                60
+            ],
+            "text": "Circle K Lê Lợi",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                58,
+                66,
+                339,
+                92
+            ],
+            "text": "Số 182 Lý Thường Kiệt, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                69,
+                183,
+                183,
+                205
+            ],
+            "text": "26/05/2026 08:07",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                270,
+                183,
+                292
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                230,
+                270,
+                237,
+                289
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                269,
+                288,
+                291
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                269,
+                381,
+                290
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                296,
+                155,
+                317
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                230,
+                295,
+                238,
+                315
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                296,
+                288,
+                315
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                294,
+                381,
+                315
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                321,
+                161,
+                344
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                238,
+                320,
+                244,
+                342
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                252,
+                320,
+                288,
+                343
+            ],
+            "text": "9,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                320,
+                381,
+                340
+            ],
+            "text": "9,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                405,
+                383,
+                425
+            ],
+            "text": "65,880đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

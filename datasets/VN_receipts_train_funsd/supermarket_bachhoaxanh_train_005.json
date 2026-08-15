@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                100,
+                45,
+                281,
+                67
+            ],
+            "text": "BÁCH HÓA XANH NGUYỄN TRÃI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                55,
+                84,
+                327,
+                108
+            ],
+            "text": "Số 9 Lý Thường Kiệt, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                102,
+                171,
+                215,
+                194
+            ],
+            "text": "03/06/2026 21:31",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                255,
+                108,
+                277
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                39,
+                278,
+                48,
+                298
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                209,
+                276,
+                247,
+                296
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                313,
+                273,
+                356,
+                295
+            ],
+            "text": "12,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                304,
+                144,
+                325
+            ],
+            "text": "Thịt đùi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                40,
+                327,
+                47,
+                348
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                202,
+                324,
+                246,
+                345
+            ],
+            "text": "68,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                307,
+                323,
+                356,
+                344
+            ],
+            "text": "204,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                381,
+                356,
+                402
+            ],
+            "text": "237,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

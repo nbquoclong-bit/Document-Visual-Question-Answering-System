@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                99,
+                94,
+                265,
+                122
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                47,
+                113,
+                320,
+                145
+            ],
+            "text": "Số 86 Lê Lợi, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                40,
+                180,
+                112,
+                203
+            ],
+            "text": "04/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                299,
+                129,
+                319
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                298,
+                234,
+                319
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                302,
+                297,
+                356,
+                319
+            ],
+            "text": "120,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                330,
+                129,
+                351
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                227,
+                331,
+                233,
+                351
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                331,
+                356,
+                352
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                302,
+                426,
+                356,
+                446
+            ],
+            "text": "178,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

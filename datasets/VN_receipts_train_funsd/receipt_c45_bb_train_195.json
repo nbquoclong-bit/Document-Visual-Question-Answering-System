@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                95,
+                26,
+                351,
+                44
+            ],
+            "text": "ỦY BAN NHÂN DÂN QUẬN CẦU GIẤY",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                102,
+                36,
+                392,
+                69
+            ],
+            "text": "Số 281 Lê Lợi, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                219,
+                145,
+                440,
+                161
+            ],
+            "text": "Ngày 04 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                129,
+                255,
+                227,
+                271
+            ],
+            "text": "216.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

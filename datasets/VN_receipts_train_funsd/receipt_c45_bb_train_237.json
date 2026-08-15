@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                86,
+                30,
+                363,
+                46
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                93,
+                39,
+                399,
+                71
+            ],
+            "text": "Số 11 Nguyễn Huệ, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                213,
+                150,
+                437,
+                164
+            ],
+            "text": "Ngày 17 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                259,
+                224,
+                275
+            ],
+            "text": "220.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

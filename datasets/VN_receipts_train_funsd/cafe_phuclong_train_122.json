@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                110,
+                18,
+                270,
+                42
+            ],
+            "text": "PHÚC LONG TEA & COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                18,
+                40,
+                360,
+                86
+            ],
+            "text": "Số 379 Lý Thường Kiệt, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                18,
+                177,
+                136,
+                200
+            ],
+            "text": "08/06/2026 16:58",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                259,
+                27,
+                280
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                257,
+                155,
+                279
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                255,
+                359,
+                278
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                285,
+                27,
+                306
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                284,
+                184,
+                306
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                282,
+                360,
+                304
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                362,
+                360,
+                384
+            ],
+            "text": "330,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

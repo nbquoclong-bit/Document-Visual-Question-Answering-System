@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                15,
+                276,
+                36
+            ],
+            "text": "HIGHLANDS COFFEE LÊ LỢI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                33,
+                36,
+                348,
+                57
+            ],
+            "text": "Số 18 Cách Mạng Tháng Tám, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                178,
+                188,
+                199
+            ],
+            "text": "01/06/2026 11:48",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                241,
+                23,
+                262
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                241,
+                193,
+                262
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                241,
+                365,
+                262
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                268,
+                23,
+                289
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                268,
+                193,
+                289
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                268,
+                365,
+                289
+            ],
+            "text": "58,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                331,
+                365,
+                352
+            ],
+            "text": "115,938",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                95,
+                27,
+                335,
+                43
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                101,
+                37,
+                385,
+                67
+            ],
+            "text": "Số 352 Lê Lợi, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                215,
+                144,
+                434,
+                159
+            ],
+            "text": "Ngày 26 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                127,
+                254,
+                240,
+                269
+            ],
+            "text": "1.815.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

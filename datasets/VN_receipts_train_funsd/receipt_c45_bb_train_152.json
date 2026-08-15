@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                93,
+                26,
+                365,
+                45
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                100,
+                36,
+                425,
+                70
+            ],
+            "text": "Số 77 Cách Mạng Tháng Tám, Quận Hai Bà Trưng, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                217,
+                146,
+                436,
+                163
+            ],
+            "text": "Ngày 26 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                130,
+                254,
+                227,
+                269
+            ],
+            "text": "432.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

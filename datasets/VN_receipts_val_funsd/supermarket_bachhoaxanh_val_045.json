@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                99,
+                17,
+                275,
+                41
+            ],
+            "text": "BÁCH HÓA XANH LÊ ĐỨC THỌ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                56,
+                58,
+                320,
+                82
+            ],
+            "text": "Số 294 Bùi Thị Xuân, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                97,
+                147,
+                215,
+                170
+            ],
+            "text": "20/06/2026 12:46",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                235,
+                105,
+                257
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                258,
+                44,
+                279
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                208,
+                257,
+                247,
+                277
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                322,
+                255,
+                360,
+                277
+            ],
+            "text": "6,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                286,
+                142,
+                308
+            ],
+            "text": "Thịt đùi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                310,
+                43,
+                331
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                202,
+                309,
+                247,
+                330
+            ],
+            "text": "68,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                308,
+                308,
+                360,
+                328
+            ],
+            "text": "204,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                368,
+                360,
+                390
+            ],
+            "text": "231,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

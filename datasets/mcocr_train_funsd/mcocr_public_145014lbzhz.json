@@ -2,153 +2,143 @@
     "form": [
         {
             "box": [
-                360,
-                247,
-                691,
-                267
+                328,
+                1111,
+                818,
+                1156
             ],
-            "text": "CUA HANGNAMOANH",
+            "text": "Cẩm ơn quý khách. Hẹn gặp lụi:",
             "label": "OTHER"
         },
         {
             "box": [
-                362,
-                297,
-                698,
-                312
+                186,
+                1019,
+                448,
+                1066
             ],
-            "text": "086932249602438765210",
+            "text": "Cộng tiền hàng",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                838,
+                1016,
+                961,
+                1065
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                500,
+                947,
+                600,
+                992
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                376,
-                351,
-                689,
-                371
+                833,
+                948,
+                954,
+                991
             ],
-            "text": "HOADONBANHANC",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                175,
-                385,
-                368,
-                405
+                194,
+                888,
+                530,
+                932
             ],
-            "text": "S6SON55644",
+            "text": "Phở bò Đệ Nhất 65g",
             "label": "OTHER"
         },
         {
             "box": [
-                665,
-                380,
-                891,
-                404
+                487,
+                830,
+                611,
+                874
             ],
-            "text": "Ngay:12-08-2020",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                460,
-                453,
-                575,
-                474
+                775,
+                829,
+                942,
+                869
             ],
-            "text": "Don gia",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                738,
-                444,
-                903,
-                470
+                203,
+                702,
+                397,
+                745
             ],
-            "text": "Thanhtien",
+            "text": "Số: SON55644",
             "label": "OTHER"
         },
         {
             "box": [
-                174,
-                454,
-                218,
-                474
+                699,
+                707,
+                936,
+                751
             ],
-            "text": "SL",
+            "text": "9207-80-21:",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                405,
+                646,
+                730,
+                686
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                172,
-                485,
-                503,
-                508
+                395,
+                547,
+                742,
+                581
             ],
-            "text": "PhboDe Nhat 65g",
+            "text": "0869322496-02438765210",
             "label": "OTHER"
         },
         {
             "box": [
-                172,
-                517,
-                216,
-                541
+                219,
+                496,
+                914,
+                548
             ],
-            "text": "10",
-            "label": "OTHER"
+            "text": "Thôn Phú Thuỷ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+            "label": "ADDRESS"
         },
         {
             "box": [
-                471,
-                513,
-                570,
-                540
+                401,
+                462,
+                736,
+                500
             ],
-            "text": "5,300",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                795,
-                509,
-                917,
-                535
-            ],
-            "text": "53,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                804,
-                551,
-                922,
-                574
-            ],
-            "text": "53,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                166,
-                557,
-                422,
-                582
-            ],
-            "text": "Cong tien hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                306,
-                604,
-                785,
-                630
-            ],
-            "text": "Cam on quy khach. Hen gap lai.",
-            "label": "OTHER"
+            "text": "CỬA HÀNG NĂM OÁNH",
+            "label": "SELLER"
         }
     ]
 }

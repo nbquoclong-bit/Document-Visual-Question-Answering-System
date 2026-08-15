@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                86,
+                30,
+                340,
+                45
+            ],
+            "text": "ỦY BAN NHÂN DÂN QUẬN CẦU GIẤY",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                92,
+                40,
+                387,
+                70
+            ],
+            "text": "Số 64 Lê Lợi, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                210,
+                150,
+                430,
+                166
+            ],
+            "text": "Ngày 30 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                260,
+                221,
+                275
+            ],
+            "text": "378.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

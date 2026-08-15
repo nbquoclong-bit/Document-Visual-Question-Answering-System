@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                90,
+                30,
+                332,
+                47
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                97,
+                40,
+                399,
+                72
+            ],
+            "text": "Số 116 Hai Bà Trưng, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                213,
+                147,
+                430,
+                164
+            ],
+            "text": "Ngày 25 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                127,
+                253,
+                240,
+                269
+            ],
+            "text": "1.620.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

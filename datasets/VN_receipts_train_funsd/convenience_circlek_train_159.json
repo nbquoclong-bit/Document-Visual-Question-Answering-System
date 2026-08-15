@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                139,
+                27,
+                269,
+                50
+            ],
+            "text": "Circle K Phạm Ngũ Lão",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                60,
+                56,
+                352,
+                82
+            ],
+            "text": "Số 285 Lý Thường Kiệt, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                76,
+                174,
+                189,
+                195
+            ],
+            "text": "13/06/2026 11:09",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                27,
+                262,
+                161,
+                282
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                262,
+                243,
+                283
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                248,
+                262,
+                294,
+                283
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                262,
+                386,
+                283
+            ],
+            "text": "64,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                27,
+                288,
+                202,
+                329
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                242,
+                299,
+                249,
+                319
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                257,
+                299,
+                293,
+                320
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                299,
+                385,
+                320
+            ],
+            "text": "16,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                395,
+                388,
+                416
+            ],
+            "text": "86,400đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

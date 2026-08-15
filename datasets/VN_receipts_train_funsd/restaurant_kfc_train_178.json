@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                158,
+                37,
+                240,
+                59
+            ],
+            "text": "KFC Bà Hom",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                47,
+                58,
+                348,
+                84
+            ],
+            "text": "Số 68 Lý Thường Kiệt, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                87,
+                179,
+                199,
+                202
+            ],
+            "text": "08/06/2026 10:30",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                260,
+                100,
+                282
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                258,
+                209,
+                279
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                230,
+                257,
+                279,
+                278
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                328,
+                255,
+                379,
+                276
+            ],
+            "text": "42,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                290,
+                121,
+                312
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                200,
+                288,
+                209,
+                308
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                230,
+                287,
+                280,
+                308
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                327,
+                285,
+                379,
+                306
+            ],
+            "text": "44,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                319,
+                147,
+                341
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                200,
+                318,
+                209,
+                338
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                317,
+                280,
+                337
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                330,
+                315,
+                379,
+                336
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                317,
+                423,
+                370,
+                444
+            ],
+            "text": "157,300",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

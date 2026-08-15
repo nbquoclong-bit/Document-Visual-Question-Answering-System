@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                151,
+                24,
+                261,
+                44
+            ],
+            "text": "JOLLIBEE VINCOM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                47,
+                43,
+                362,
+                64
+            ],
+            "text": "Số 425 Lý Thường Kiệt, Quận Đống Đa, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                151,
+                186,
+                173
+            ],
+            "text": "26/05/2026 08:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                245,
+                132,
+                265
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                209,
+                245,
+                216,
+                266
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                239,
+                245,
+                284,
+                266
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                246,
+                388,
+                266
+            ],
+            "text": "17,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                275,
+                132,
+                295
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                275,
+                217,
+                296
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                239,
+                275,
+                283,
+                296
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                275,
+                389,
+                296
+            ],
+            "text": "114,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                363,
+                391,
+                384
+            ],
+            "text": "141,480đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

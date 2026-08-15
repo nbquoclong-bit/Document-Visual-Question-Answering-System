@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                97,
+                19,
+                280,
+                44
+            ],
+            "text": "HIGHLANDS COFFEE LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                36,
+                38,
+                343,
+                65
+            ],
+            "text": "Số 433 Nguyễn Trãi, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                180,
+                187,
+                203
+            ],
+            "text": "14/06/2026 18:26",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                245,
+                28,
+                265
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                241,
+                178,
+                265
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                239,
+                361,
+                261
+            ],
+            "text": "117,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                271,
+                27,
+                290
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                47,
+                268,
+                206,
+                291
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                266,
+                361,
+                288
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                328,
+                361,
+                350
+            ],
+            "text": "185,760",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

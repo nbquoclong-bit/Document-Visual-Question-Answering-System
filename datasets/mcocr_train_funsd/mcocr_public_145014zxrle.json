@@ -2,213 +2,183 @@
     "form": [
         {
             "box": [
-                367,
-                488,
-                585,
-                509
+                220,
+                858,
+                506,
+                878
             ],
-            "text": "MINIMARTANAN",
+            "text": "Xin cám ơn và hẹn gặp lại quý khách",
             "label": "OTHER"
         },
         {
             "box": [
-                338,
-                518,
-                608,
-                539
+                316,
+                841,
+                425,
+                857
             ],
-            "text": "Cho Süi Phu Thi Gia Lam",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                192,
-                545,
-                231,
-                562
+                178,
+                814,
+                563,
+                833
             ],
-            "text": "Tel:",
+            "text": "Số GD: 000 CC2018008001092 Ngày: 09/08/2020 - 17:18",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                505,
+                781,
+                568,
+                797
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                332,
-                587,
-                623,
-                609
+                353,
+                779,
+                393,
+                799
             ],
-            "text": "HOA DONBAN HANG",
+            "text": "CINA",
             "label": "OTHER"
         },
         {
             "box": [
-                213,
-                618,
-                321,
-                640
+                160,
+                776,
+                284,
+                796
             ],
-            "text": "Ten hang",
+            "text": "Tiền khách trả:",
             "label": "OTHER"
         },
         {
             "box": [
-                346,
-                619,
-                717,
-                640
+                506,
+                751,
+                570,
+                770
             ],
-            "text": "SL DVT Don giaThanh tién",
-            "label": "OTHER"
+            "text": "",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                207,
-                646,
-                667,
-                666
+                158,
+                753,
+                254,
+                772
             ],
-            "text": "291012480000 Böt giat omo comfor 5,5kg NT",
-            "label": "OTHER"
+            "text": "Tổng cộng:",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                334,
-                673,
-                352,
-                689
+                157,
+                729,
+                229,
+                749
             ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                391,
-                673,
-                437,
-                689
-            ],
-            "text": "GOI",
+            "text": "Tổng số:",
             "label": "OTHER"
         },
         {
             "box": [
                 501,
-                672,
-                587,
-                690
+                692,
+                567,
+                712
             ],
-            "text": "180,000",
+            "text": "000 08",
             "label": "OTHER"
         },
         {
             "box": [
-                647,
-                673,
-                734,
-                691
+                390,
+                692,
+                456,
+                710
             ],
-            "text": "180,000",
+            "text": "000 08",
             "label": "OTHER"
         },
         {
             "box": [
-                199,
-                706,
-                291,
-                728
+                305,
+                693,
+                338,
+                709
             ],
-            "text": "T&ngs:",
+            "text": "109",
             "label": "OTHER"
         },
         {
             "box": [
-                368,
-                712,
-                385,
-                729
+                164,
+                667,
+                518,
+                687
             ],
-            "text": "1",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                199,
-                727,
-                325,
-                754
+                271,
+                637,
+                556,
+                657
             ],
-            "text": "T&ng cöng :",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                652,
-                733,
-                735,
-                750
+                170,
+                640,
+                251,
+                656
             ],
-            "text": "180,000",
+            "text": "Tên hàng",
             "label": "OTHER"
         },
         {
             "box": [
-                203,
-                752,
-                363,
-                775
+                260,
+                604,
+                483,
+                627
             ],
-            "text": "Tien khäch tra:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                454,
-                758,
-                505,
-                777
+                264,
+                535,
+                470,
+                555
             ],
-            "text": "VND",
-            "label": "OTHER"
+            "text": "Chợ Sủi Phú Thị Gia Lâm",
+            "label": "ADDRESS"
         },
         {
             "box": [
-                652,
-                759,
-                735,
-                778
+                285,
+                504,
+                451,
+                524
             ],
-            "text": "180,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                226,
-                789,
-                726,
-                811
-            ],
-            "text": "S8GD000AC2212008001092Ngay09/08/2020-17:18",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                402,
-                816,
-                549,
-                836
-            ],
-            "text": "Thu ngan:BH3",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                279,
-                833,
-                656,
-                856
-            ],
-            "text": "Xin cäm an va hen gap lai quy khäch!",
-            "label": "OTHER"
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
         }
     ]
 }

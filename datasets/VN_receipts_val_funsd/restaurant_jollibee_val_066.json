@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                140,
+                20,
+                261,
+                42
+            ],
+            "text": "JOLLIBEE COOPMART",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                80,
+                40,
+                322,
+                64
+            ],
+            "text": "Số 82 Nguyễn Huệ, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                150,
+                182,
+                173
+            ],
+            "text": "30/05/2026 10:40",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                244,
+                179,
+                269
+            ],
+            "text": "Gà Giòn Vui Vẻ 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                222,
+                244,
+                229,
+                265
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                243,
+                292,
+                264
+            ],
+            "text": "35,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                241,
+                378,
+                262
+            ],
+            "text": "35,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                275,
+                130,
+                299
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                222,
+                274,
+                229,
+                294
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                272,
+                292,
+                293
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                329,
+                271,
+                377,
+                293
+            ],
+            "text": "114,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                305,
+                173,
+                329
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                222,
+                304,
+                229,
+                325
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                302,
+                292,
+                323
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                329,
+                301,
+                377,
+                323
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                323,
+                388,
+                379,
+                410
+            ],
+            "text": "268,920đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

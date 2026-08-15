@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                124,
+                32,
+                237,
+                56
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                29,
+                50,
+                337,
+                79
+            ],
+            "text": "Số 15 Lý Thường Kiệt, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                193,
+                180,
+                215
+            ],
+            "text": "28/05/2026 22:13",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                255,
+                27,
+                275
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                254,
+                186,
+                275
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                253,
+                352,
+                274
+            ],
+            "text": "29,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                281,
+                28,
+                301
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                280,
+                179,
+                301
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                300,
+                280,
+                352,
+                300
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                300,
+                341,
+                352,
+                362
+            ],
+            "text": "162,360",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

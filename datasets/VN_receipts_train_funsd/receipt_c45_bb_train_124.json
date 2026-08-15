@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                101,
+                35,
+                345,
+                50
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                107,
+                44,
+                388,
+                73
+            ],
+            "text": "Số 216 Bùi Thị Xuân, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                222,
+                151,
+                439,
+                167
+            ],
+            "text": "Ngày 19 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                133,
+                261,
+                247,
+                276
+            ],
+            "text": "2.090.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

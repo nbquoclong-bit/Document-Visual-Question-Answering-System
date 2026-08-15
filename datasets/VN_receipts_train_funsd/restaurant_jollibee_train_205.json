@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                27,
+                259,
+                50
+            ],
+            "text": "JOLLIBEE PASTEUR",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                28,
+                43,
+                378,
+                74
+            ],
+            "text": "Số 232 Nguyễn Huệ, Quận Tân Bình, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                69,
+                152,
+                182,
+                176
+            ],
+            "text": "03/06/2026 11:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                243,
+                179,
+                269
+            ],
+            "text": "Gà Giòn Vui Vẻ 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                222,
+                249,
+                230,
+                271
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                251,
+                250,
+                294,
+                274
+            ],
+            "text": "35,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                331,
+                253,
+                382,
+                277
+            ],
+            "text": "105,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                272,
+                130,
+                297
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                222,
+                278,
+                230,
+                302
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                251,
+                280,
+                294,
+                302
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                283,
+                382,
+                306
+            ],
+            "text": "17,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                325,
+                371,
+                383,
+                395
+            ],
+            "text": "134,200đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                132,
+                23,
+                245,
+                43
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                23,
+                44,
+                357,
+                84
+            ],
+            "text": "Số 402 Nguyễn Huệ, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                22,
+                173,
+                137,
+                195
+            ],
+            "text": "12/06/2026 15:17",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                251,
+                30,
+                271
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                55,
+                252,
+                185,
+                274
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                254,
+                359,
+                277
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                278,
+                30,
+                298
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                55,
+                278,
+                192,
+                301
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                281,
+                360,
+                303
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                360,
+                360,
+                382
+            ],
+            "text": "363,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

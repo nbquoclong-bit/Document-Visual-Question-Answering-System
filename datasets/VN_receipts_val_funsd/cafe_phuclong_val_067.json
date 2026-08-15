@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                25,
+                245,
+                47
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                33,
+                47,
+                341,
+                70
+            ],
+            "text": "Số 189 Nguyễn Huệ, Quận 7, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                15,
+                161,
+                133,
+                181
+            ],
+            "text": "15/06/2026 16:39",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                240,
+                24,
+                262
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                240,
+                153,
+                261
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                238,
+                358,
+                260
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                267,
+                24,
+                288
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                266,
+                182,
+                288
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                265,
+                358,
+                286
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                293,
+                23,
+                314
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                293,
+                190,
+                314
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                291,
+                358,
+                312
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                319,
+                24,
+                340
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                319,
+                191,
+                340
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                317,
+                359,
+                339
+            ],
+            "text": "200,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                395,
+                359,
+                417
+            ],
+            "text": "621,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                121,
+                20,
+                254,
+                40
+            ],
+            "text": "PHÚC LONG LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                44,
+                42,
+                330,
+                64
+            ],
+            "text": "Số 281 Bùi Thị Xuân, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                17,
+                155,
+                134,
+                176
+            ],
+            "text": "05/06/2026 13:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                234,
+                26,
+                256
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                235,
+                213,
+                255
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                236,
+                360,
+                257
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                261,
+                26,
+                281
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                261,
+                191,
+                283
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                262,
+                360,
+                283
+            ],
+            "text": "200,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                341,
+                361,
+                361
+            ],
+            "text": "235,125",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

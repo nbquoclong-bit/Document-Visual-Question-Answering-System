@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                168,
+                27,
+                249,
+                48
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                56,
+                60,
+                360,
+                82
+            ],
+            "text": "Số 278 Nguyễn Huệ, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                70,
+                168,
+                189,
+                189
+            ],
+            "text": "21/05/2026 08:12",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                261,
+                209,
+                305
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                271,
+                217,
+                292
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                239,
+                271,
+                283,
+                292
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                270,
+                394,
+                291
+            ],
+            "text": "58.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                311,
+                192,
+                332
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                217,
+                311,
+                224,
+                332
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                247,
+                310,
+                283,
+                332
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                358,
+                310,
+                394,
+                331
+            ],
+            "text": "3.500",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                339,
+                169,
+                362
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                209,
+                339,
+                217,
+                361
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                239,
+                339,
+                283,
+                360
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                337,
+                394,
+                359
+            ],
+            "text": "136.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                424,
+                394,
+                446
+            ],
+            "text": "217.250",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

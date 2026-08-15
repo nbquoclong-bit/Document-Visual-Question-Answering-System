@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                133,
+                27,
+                249,
+                54
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                24,
+                41,
+                351,
+                78
+            ],
+            "text": "Số 337 Lê Lợi, Quận Tân Bình, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                178,
+                190,
+                202
+            ],
+            "text": "30/05/2026 17:35",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                236,
+                26,
+                257
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                236,
+                180,
+                260
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                244,
+                359,
+                265
+            ],
+            "text": "117,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                262,
+                26,
+                283
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                262,
+                195,
+                287
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                270,
+                359,
+                290
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                288,
+                26,
+                309
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                288,
+                174,
+                312
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                295,
+                359,
+                316
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                354,
+                360,
+                374
+            ],
+            "text": "291,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

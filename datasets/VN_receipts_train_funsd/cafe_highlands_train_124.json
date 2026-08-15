@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                108,
+                22,
+                271,
+                46
+            ],
+            "text": "HIGHLANDS COFFEE LÊ LỢI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                41,
+                41,
+                340,
+                67
+            ],
+            "text": "Số 11 Bùi Thị Xuân, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                72,
+                178,
+                186,
+                200
+            ],
+            "text": "08/06/2026 13:58",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                239,
+                30,
+                260
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                239,
+                191,
+                260
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                237,
+                357,
+                258
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                266,
+                29,
+                286
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                263,
+                184,
+                286
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                262,
+                357,
+                284
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                290,
+                29,
+                311
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                47,
+                289,
+                176,
+                311
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                289,
+                357,
+                309
+            ],
+            "text": "156,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                306,
+                351,
+                357,
+                372
+            ],
+            "text": "611,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                101,
+                22,
+                309,
+                44
+            ],
+            "text": "CO.OP FOOD NGUYỄN ĐÌNH CHIỂU",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                65,
+                42,
+                346,
+                65
+            ],
+            "text": "Số 86 Bùi Thị Xuân, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                63,
+                159,
+                204,
+                181
+            ],
+            "text": "19/06/2026 22:49:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                235,
+                189,
+                258
+            ],
+            "text": "Hộp dâu tây Đà Lạt 250g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                190,
+                265,
+                256,
+                287
+            ],
+            "text": "65,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                273,
+                265,
+                280,
+                287
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                316,
+                266,
+                390,
+                288
+            ],
+            "text": "260,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                292,
+                166,
+                315
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                182,
+                322,
+                256,
+                344
+            ],
+            "text": "175,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                273,
+                322,
+                280,
+                344
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                324,
+                390,
+                345
+            ],
+            "text": "700,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                300,
+                428,
+                389,
+                450
+            ],
+            "text": "1,036,800.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

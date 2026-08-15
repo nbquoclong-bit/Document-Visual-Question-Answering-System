@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                28,
+                363,
+                44
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                92,
+                39,
+                400,
+                69
+            ],
+            "text": "Số 68 Nguyễn Trãi, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                148,
+                437,
+                164
+            ],
+            "text": "Ngày 10 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                122,
+                259,
+                239,
+                274
+            ],
+            "text": "2.035.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

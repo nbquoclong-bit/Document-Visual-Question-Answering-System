@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                132,
+                18,
+                248,
+                40
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                29,
+                40,
+                351,
+                64
+            ],
+            "text": "Số 278 Trần Hưng Đạo, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                20,
+                159,
+                136,
+                181
+            ],
+            "text": "08/06/2026 17:29",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                241,
+                28,
+                262
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                54,
+                240,
+                213,
+                262
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                239,
+                360,
+                260
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                268,
+                27,
+                289
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                267,
+                156,
+                289
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                266,
+                360,
+                287
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                295,
+                28,
+                316
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                294,
+                193,
+                316
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                293,
+                360,
+                314
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                373,
+                358,
+                394
+            ],
+            "text": "313,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

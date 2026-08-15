@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                83,
+                30,
+                329,
+                46
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                89,
+                40,
+                377,
+                71
+            ],
+            "text": "Số 450 Nguyễn Trãi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                208,
+                150,
+                430,
+                165
+            ],
+            "text": "Ngày 07 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                124,
+                260,
+                220,
+                275
+            ],
+            "text": "220.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

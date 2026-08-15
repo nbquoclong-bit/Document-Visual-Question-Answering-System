@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                94,
+                28,
+                367,
+                46
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                101,
+                39,
+                434,
+                70
+            ],
+            "text": "Số 222 Trần Hưng Đạo, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                215,
+                148,
+                434,
+                163
+            ],
+            "text": "Ngày 21 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                255,
+                222,
+                271
+            ],
+            "text": "216.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

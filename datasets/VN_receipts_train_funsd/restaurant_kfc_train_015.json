@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                159,
+                30,
+                243,
+                51
+            ],
+            "text": "KFC Bà Hom",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                61,
+                53,
+                341,
+                73
+            ],
+            "text": "Số 14 Lý Thường Kiệt, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                87,
+                170,
+                201,
+                191
+            ],
+            "text": "01/06/2026 10:21",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                249,
+                162,
+                270
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                212,
+                249,
+                222,
+                270
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                238,
+                249,
+                291,
+                270
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                328,
+                250,
+                387,
+                270
+            ],
+            "text": "156,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                279,
+                100,
+                299
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                211,
+                279,
+                221,
+                300
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                238,
+                279,
+                291,
+                300
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                280,
+                387,
+                300
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                309,
+                162,
+                329
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                211,
+                309,
+                221,
+                330
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                242,
+                309,
+                291,
+                330
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                310,
+                388,
+                330
+            ],
+            "text": "72,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                317,
+                419,
+                379,
+                440
+            ],
+            "text": "336,960",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

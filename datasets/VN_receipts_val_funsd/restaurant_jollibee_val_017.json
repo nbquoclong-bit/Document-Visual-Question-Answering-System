@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                138,
+                26,
+                262,
+                46
+            ],
+            "text": "JOLLIBEE COOPMART",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                46,
+                335,
+                68
+            ],
+            "text": "Số 258 Nguyễn Trãi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                155,
+                183,
+                175
+            ],
+            "text": "12/06/2026 15:15",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                252,
+                124,
+                272
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                224,
+                251,
+                232,
+                272
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                250,
+                297,
+                272
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                251,
+                384,
+                271
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                281,
+                182,
+                303
+            ],
+            "text": "Gà Giòn Vui Vẻ 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                281,
+                233,
+                301
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                254,
+                281,
+                297,
+                302
+            ],
+            "text": "35,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                282,
+                385,
+                302
+            ],
+            "text": "140,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                311,
+                132,
+                333
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                311,
+                233,
+                332
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                254,
+                311,
+                298,
+                331
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                311,
+                385,
+                332
+            ],
+            "text": "34,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                342,
+                133,
+                363
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                226,
+                341,
+                234,
+                362
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                254,
+                341,
+                298,
+                362
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                341,
+                385,
+                362
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                331,
+                429,
+                388,
+                450
+            ],
+            "text": "291,500đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

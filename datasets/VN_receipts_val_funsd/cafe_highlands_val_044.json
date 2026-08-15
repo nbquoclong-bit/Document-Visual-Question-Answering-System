@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                77,
+                25,
+                299,
+                45
+            ],
+            "text": "HIGHLANDS COFFEE TRẦN HƯNG ĐẠO",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                49,
+                45,
+                325,
+                66
+            ],
+            "text": "Số 102 Trần Hưng Đạo, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                184,
+                186,
+                205
+            ],
+            "text": "16/06/2026 15:17",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                246,
+                23,
+                266
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                42,
+                246,
+                138,
+                266
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                246,
+                360,
+                266
+            ],
+            "text": "140,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                272,
+                22,
+                293
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                272,
+                169,
+                293
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                272,
+                360,
+                293
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                298,
+                23,
+                319
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                299,
+                176,
+                319
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                299,
+                360,
+                319
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                360,
+                360,
+                381
+            ],
+            "text": "302,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

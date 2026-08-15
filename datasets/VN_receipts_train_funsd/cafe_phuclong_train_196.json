@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                15,
+                274,
+                36
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                26,
+                38,
+                352,
+                59
+            ],
+            "text": "Số 440 Bùi Thị Xuân, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                16,
+                153,
+                135,
+                174
+            ],
+            "text": "11/06/2026 14:03",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                234,
+                25,
+                255
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                234,
+                191,
+                256
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                235,
+                362,
+                256
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                261,
+                25,
+                282
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                261,
+                191,
+                282
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                262,
+                362,
+                283
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                342,
+                362,
+                363
+            ],
+            "text": "323,190",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

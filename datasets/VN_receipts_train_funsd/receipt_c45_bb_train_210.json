@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                88,
+                29,
+                360,
+                46
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                94,
+                38,
+                400,
+                70
+            ],
+            "text": "Số 398 Hai Bà Trưng, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                213,
+                146,
+                433,
+                163
+            ],
+            "text": "Ngày 13 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                258,
+                222,
+                273
+            ],
+            "text": "216.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

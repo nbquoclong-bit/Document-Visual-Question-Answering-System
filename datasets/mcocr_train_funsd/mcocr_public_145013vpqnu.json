@@ -2,233 +2,183 @@
     "form": [
         {
             "box": [
-                211,
-                326,
-                771,
-                353
+                68,
+                1196,
+                320,
+                1218
             ],
-            "text": "NHA SACH GD-TC CAM PHA",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                79,
-                350,
-                738,
-                379
+                74,
+                1168,
+                123,
+                1184
             ],
-            "text": "DC212 Duong Trän Phü-Cäm Phä",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                81,
-                382,
-                422,
-                406
+                117,
+                784,
+                443,
+                821
             ],
-            "text": "Nhanvien thu ngän",
+            "text": "THOYHAINO NO NYI NIX",
             "label": "OTHER"
         },
         {
             "box": [
-                79,
-                406,
-                686,
-                435
+                449,
+                739,
+                541,
+                767
             ],
-            "text": "T0333863328-Fax0333863328",
+            "text": "12.000đ",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                39,
+                744,
+                248,
+                773
+            ],
+            "text": "Tổng số thanh toán:",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                40,
+                707,
+                260,
+                734
+            ],
+            "text": "Chiết khấu bán hàng:",
             "label": "OTHER"
         },
         {
             "box": [
-                83,
-                433,
-                627,
-                457
+                450,
+                668,
+                540,
+                693
             ],
-            "text": "Thoigian:08:42:03-14/08/2020",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                71,
-                457,
-                242,
-                485
+                39,
+                670,
+                159,
+                699
             ],
-            "text": "Ten hang",
+            "text": "Tổng cộng:",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                456,
+                634,
+                540,
+                659
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                408,
-                465,
-                469,
-                484
+                322,
+                639,
+                386,
+                658
             ],
-            "text": "SL",
+            "text": "000 9",
             "label": "OTHER"
         },
         {
             "box": [
-                513,
-                466,
-                577,
-                483
-            ],
-            "text": "Gia",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                640,
-                467,
-                691,
-                483
-            ],
-            "text": "Ck",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                698,
-                466,
-                894,
-                484
-            ],
-            "text": "Thnh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                50,
-                487,
-                289,
-                512
+                41,
+                636,
+                181,
+                659
             ],
             "text": "VPP Loai 6K",
             "label": "OTHER"
         },
         {
             "box": [
-                444,
-                493,
-                472,
-                512
+                431,
+                598,
+                542,
+                623
             ],
-            "text": "2",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                527,
-                493,
-                632,
-                512
+                51,
+                598,
+                151,
+                626
             ],
-            "text": "6.000",
+            "text": "Tên hàng",
             "label": "OTHER"
         },
         {
             "box": [
-                754,
-                492,
-                900,
-                514
+                56,
+                562,
+                380,
+                591
             ],
-            "text": "12.000d",
+            "text": "Thời gian: 08:42:03 - 14/08/2020",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                57,
+                529,
+                411,
+                561
+            ],
+            "text": "ĐT 0333863328 - Fax 0333863328",
             "label": "OTHER"
         },
         {
             "box": [
-                49,
-                514,
-                250,
-                540
+                57,
+                498,
+                260,
+                526
             ],
-            "text": "T&ngcong",
+            "text": "Nhân viên thu ngân",
             "label": "OTHER"
         },
         {
             "box": [
-                445,
-                519,
-                472,
-                538
+                55,
+                457,
+                442,
+                490
             ],
-            "text": "2",
-            "label": "OTHER"
+            "text": "ĐC: 212 Đường Trần Phú-Cẩm Phả",
+            "label": "ADDRESS"
         },
         {
             "box": [
-                740,
-                521,
-                893,
-                539
+                134,
+                425,
+                459,
+                457
             ],
-            "text": "12.000d",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                49,
-                546,
-                416,
-                566
-            ],
-            "text": "Chiet khau ban hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                44,
-                575,
-                400,
-                597
-            ],
-            "text": "T&ng s thanh toän:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                738,
-                575,
-                894,
-                594
-            ],
-            "text": "12.000d",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                171,
-                609,
-                732,
-                633
-            ],
-            "text": "XIN CAM ON QUi KHACH!",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                72,
-                925,
-                513,
-                947
-            ],
-            "text": "Samsung Triple Camera",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                344,
-                952,
-                403,
-                959
-            ],
-            "text": "M2",
-            "label": "OTHER"
+            "text": "NHÀ SÁCH GD-TC CẨM PHẢ",
+            "label": "SELLER"
         }
     ]
 }

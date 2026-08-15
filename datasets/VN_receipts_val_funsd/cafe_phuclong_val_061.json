@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                131,
+                19,
+                249,
+                40
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                56,
+                40,
+                323,
+                64
+            ],
+            "text": "Số 360 Nguyễn Trãi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                17,
+                157,
+                135,
+                180
+            ],
+            "text": "25/05/2026 14:49",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                240,
+                26,
+                262
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                239,
+                193,
+                262
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                238,
+                361,
+                261
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                267,
+                26,
+                289
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                266,
+                155,
+                288
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                265,
+                362,
+                287
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                293,
+                26,
+                315
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                293,
+                185,
+                315
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                293,
+                362,
+                313
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                320,
+                26,
+                342
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                320,
+                141,
+                341
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                319,
+                362,
+                341
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                401,
+                361,
+                421
+            ],
+            "text": "491,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

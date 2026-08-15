@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                15,
+                250,
+                36
+            ],
+            "text": "SAIGON CO.OP",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                36,
+                395,
+                78
+            ],
+            "text": "Số 104 Cách Mạng Tháng Tám, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                62,
+                176,
+                205,
+                197
+            ],
+            "text": "21/05/2026 16:28:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                254,
+                190,
+                275
+            ],
+            "text": "Hộp dâu tây Đà Lạt 250g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                187,
+                283,
+                254,
+                304
+            ],
+            "text": "65,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                271,
+                283,
+                279,
+                304
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                318,
+                283,
+                393,
+                304
+            ],
+            "text": "195,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                312,
+                175,
+                333
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                187,
+                341,
+                254,
+                362
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                271,
+                341,
+                279,
+                362
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                326,
+                341,
+                393,
+                362
+            ],
+            "text": "64,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                318,
+                448,
+                393,
+                469
+            ],
+            "text": "284,900.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

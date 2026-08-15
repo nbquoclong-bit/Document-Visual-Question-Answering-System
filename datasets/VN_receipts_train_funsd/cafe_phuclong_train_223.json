@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                17,
+                275,
+                43
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                40,
+                40,
+                337,
+                67
+            ],
+            "text": "Số 58 Lê Lợi, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                16,
+                152,
+                136,
+                176
+            ],
+            "text": "10/06/2026 21:34",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                234,
+                25,
+                255
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                234,
+                155,
+                257
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                239,
+                362,
+                261
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                260,
+                25,
+                280
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                260,
+                184,
+                284
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                266,
+                362,
+                287
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                344,
+                363,
+                367
+            ],
+            "text": "301,320",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

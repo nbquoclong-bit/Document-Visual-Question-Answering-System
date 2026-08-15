@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                156,
+                25,
+                254,
+                48
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                49,
+                393,
+                75
+            ],
+            "text": "Số 70 Nguyễn Huệ, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                171,
+                212,
+                193
+            ],
+            "text": "26/05/2026 14:30",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                241,
+                160,
+                264
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                244,
+                262,
+                264
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                285,
+                244,
+                328,
+                265
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                349,
+                244,
+                394,
+                266
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                267,
+                167,
+                290
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                248,
+                269,
+                256,
+                291
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                277,
+                270,
+                329,
+                291
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                270,
+                394,
+                291
+            ],
+            "text": "525.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                294,
+                183,
+                316
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                256,
+                296,
+                264,
+                318
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                284,
+                296,
+                328,
+                317
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                296,
+                394,
+                318
+            ],
+            "text": "44.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                342,
+                337,
+                394,
+                357
+            ],
+            "text": "661.100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                100,
+                17,
+                278,
+                39
+            ],
+            "text": "BÁCH HÓA XANH LÊ ĐỨC THỌ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                82,
+                59,
+                297,
+                80
+            ],
+            "text": "Số 76 Lê Lợi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                147,
+                216,
+                171
+            ],
+            "text": "19/06/2026 15:31",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                235,
+                164,
+                257
+            ],
+            "text": "Thịt ba rọi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                258,
+                44,
+                280
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                203,
+                258,
+                248,
+                280
+            ],
+            "text": "75,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                310,
+                259,
+                362,
+                280
+            ],
+            "text": "225,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                286,
+                179,
+                307
+            ],
+            "text": "Nước mắm Nam Ngư 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                309,
+                44,
+                331
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                203,
+                309,
+                248,
+                331
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                317,
+                310,
+                362,
+                331
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                338,
+                105,
+                360
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                361,
+                44,
+                383
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                210,
+                361,
+                248,
+                383
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                325,
+                361,
+                362,
+                382
+            ],
+            "text": "3,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                423,
+                362,
+                445
+            ],
+            "text": "336,960",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

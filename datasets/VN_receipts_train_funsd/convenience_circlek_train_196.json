@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                173,
+                42,
+                223,
+                61
+            ],
+            "text": "CIRCLE K",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                55,
+                70,
+                341,
+                93
+            ],
+            "text": "Số 245 Trần Hưng Đạo, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                69,
+                183,
+                186,
+                201
+            ],
+            "text": "05/06/2026 11:02",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                269,
+                198,
+                309
+            ],
+            "text": "Băng cá nhân Urgo hộp 10 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                279,
+                240,
+                299
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                246,
+                279,
+                289,
+                299
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                279,
+                380,
+                300
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                313,
+                187,
+                335
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                313,
+                242,
+                334
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                247,
+                313,
+                290,
+                333
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                313,
+                380,
+                335
+            ],
+            "text": "10,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                340,
+                200,
+                381
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                240,
+                348,
+                248,
+                370
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                254,
+                348,
+                291,
+                369
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                349,
+                380,
+                370
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                385,
+                194,
+                406
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                240,
+                383,
+                249,
+                405
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                384,
+                292,
+                405
+            ],
+            "text": "6,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                384,
+                382,
+                405
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                327,
+                466,
+                385,
+                487
+            ],
+            "text": "111,240đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

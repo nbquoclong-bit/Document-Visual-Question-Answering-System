@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                82,
+                272,
+                106
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                50,
+                102,
+                327,
+                128
+            ],
+            "text": "Số 399 Nguyễn Huệ, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                43,
+                165,
+                116,
+                188
+            ],
+            "text": "12/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                287,
+                134,
+                309
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                285,
+                241,
+                307
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                285,
+                363,
+                306
+            ],
+            "text": "120,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                319,
+                142,
+                342
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                318,
+                242,
+                339
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                310,
+                317,
+                363,
+                338
+            ],
+            "text": "225,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                352,
+                149,
+                375
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                351,
+                242,
+                371
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                310,
+                350,
+                362,
+                372
+            ],
+            "text": "260,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                446,
+                363,
+                467
+            ],
+            "text": "620,730",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

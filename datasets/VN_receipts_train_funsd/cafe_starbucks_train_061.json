@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                111,
+                96,
+                270,
+                119
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                36,
+                115,
+                344,
+                140
+            ],
+            "text": "Số 36 Trần Hưng Đạo, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                46,
+                174,
+                121,
+                197
+            ],
+            "text": "19/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                295,
+                157,
+                317
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                297,
+                241,
+                317
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                307,
+                298,
+                357,
+                318
+            ],
+            "text": "170,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                327,
+                143,
+                348
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                329,
+                240,
+                349
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                305,
+                329,
+                357,
+                350
+            ],
+            "text": "150,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                422,
+                355,
+                442
+            ],
+            "text": "345,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

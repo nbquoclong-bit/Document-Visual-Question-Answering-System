@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                88,
+                34,
+                361,
+                49
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                96,
+                43,
+                400,
+                73
+            ],
+            "text": "Số 57 Trần Hưng Đạo, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                217,
+                151,
+                436,
+                166
+            ],
+            "text": "Ngày 17 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                132,
+                258,
+                246,
+                272
+            ],
+            "text": "2.090.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

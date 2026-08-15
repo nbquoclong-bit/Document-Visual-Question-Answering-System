@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                97,
+                34,
+                359,
+                51
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                103,
+                44,
+                411,
+                74
+            ],
+            "text": "Số 343 Cách Mạng Tháng Tám, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                215,
+                147,
+                431,
+                163
+            ],
+            "text": "Ngày 20 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                128,
+                255,
+                240,
+                273
+            ],
+            "text": "1.620.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                126,
+                17,
+                283,
+                40
+            ],
+            "text": "KFC Nguyễn Thái Học",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                37,
+                38,
+                371,
+                62
+            ],
+            "text": "Số 310 Cách Mạng Tháng Tám, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                157,
+                203,
+                180
+            ],
+            "text": "11/06/2026 21:31",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                237,
+                149,
+                258
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                216,
+                238,
+                223,
+                260
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                239,
+                292,
+                261
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                239,
+                387,
+                261
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                268,
+                165,
+                290
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                213,
+                269,
+                223,
+                290
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                269,
+                292,
+                291
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                270,
+                387,
+                292
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                299,
+                102,
+                320
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                213,
+                299,
+                223,
+                321
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                241,
+                299,
+                292,
+                321
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                300,
+                387,
+                322
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                326,
+                411,
+                379,
+                433
+            ],
+            "text": "150,120",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

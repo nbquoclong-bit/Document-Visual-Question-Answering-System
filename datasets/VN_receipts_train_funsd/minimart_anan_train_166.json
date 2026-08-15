@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                132,
+                49,
+                290,
+                71
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                29,
+                74,
+                390,
+                95
+            ],
+            "text": "Số 178 Hai Bà Trưng, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                100,
+                194,
+                214,
+                214
+            ],
+            "text": "23/05/2026 20:14",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                29,
+                264,
+                214,
+                284
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                272,
+                264,
+                280,
+                283
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                300,
+                263,
+                337,
+                284
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                264,
+                387,
+                284
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                29,
+                290,
+                198,
+                310
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                271,
+                289,
+                280,
+                309
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                300,
+                288,
+                336,
+                310
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                289,
+                387,
+                310
+            ],
+            "text": "12.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                30,
+                315,
+                192,
+                335
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                265,
+                316,
+                272,
+                335
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                293,
+                316,
+                335,
+                336
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                316,
+                387,
+                336
+            ],
+            "text": "10.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                344,
+                355,
+                386,
+                375
+            ],
+            "text": "59.400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

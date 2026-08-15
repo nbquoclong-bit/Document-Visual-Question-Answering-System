@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                135,
+                33,
+                249,
+                58
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                24,
+                49,
+                356,
+                102
+            ],
+            "text": "Số 91 Hai Bà Trưng, Quận Tân Bình, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                74,
+                206,
+                191,
+                230
+            ],
+            "text": "29/05/2026 16:35",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                25,
+                264,
+                32,
+                286
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                265,
+                196,
+                289
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                272,
+                357,
+                292
+            ],
+            "text": "29,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                290,
+                33,
+                311
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                291,
+                182,
+                314
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                296,
+                357,
+                318
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                355,
+                356,
+                376
+            ],
+            "text": "105,930",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

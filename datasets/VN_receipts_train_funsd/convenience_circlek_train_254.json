@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                179,
+                19,
+                231,
+                40
+            ],
+            "text": "CIRCLE K",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                51,
+                344,
+                72
+            ],
+            "text": "Số 105 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                70,
+                171,
+                190,
+                192
+            ],
+            "text": "16/06/2026 20:22",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                262,
+                197,
+                283
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                246,
+                262,
+                253,
+                283
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                262,
+                298,
+                283
+            ],
+            "text": "6,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                356,
+                262,
+                393,
+                283
+            ],
+            "text": "6,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                289,
+                160,
+                310
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                238,
+                289,
+                246,
+                310
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                289,
+                298,
+                310
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                289,
+                393,
+                310
+            ],
+            "text": "48,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                316,
+                167,
+                337
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                246,
+                316,
+                253,
+                337
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                316,
+                298,
+                337
+            ],
+            "text": "9,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                316,
+                393,
+                337
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                403,
+                395,
+                424
+            ],
+            "text": "99,000đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

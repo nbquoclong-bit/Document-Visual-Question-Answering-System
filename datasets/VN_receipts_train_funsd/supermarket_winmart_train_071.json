@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                152,
+                32,
+                256,
+                52
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                67,
+                64,
+                340,
+                87
+            ],
+            "text": "Số 54 Trần Hưng Đạo, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                172,
+                184,
+                192
+            ],
+            "text": "09/06/2026 09:18",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                262,
+                193,
+                284
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                262,
+                212,
+                285
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                261,
+                277,
+                283
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                260,
+                387,
+                282
+            ],
+            "text": "38.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                292,
+                157,
+                314
+            ],
+            "text": "Coca Cola Lon 320ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                290,
+                211,
+                312
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                290,
+                277,
+                312
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                289,
+                388,
+                310
+            ],
+            "text": "40.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                320,
+                186,
+                342
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                319,
+                218,
+                339
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                240,
+                318,
+                278,
+                340
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                351,
+                317,
+                387,
+                338
+            ],
+            "text": "3.500",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                347,
+                163,
+                370
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                202,
+                347,
+                211,
+                368
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                346,
+                277,
+                367
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                345,
+                387,
+                366
+            ],
+            "text": "136.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                431,
+                387,
+                453
+            ],
+            "text": "239.250",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

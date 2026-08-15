@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                184,
+                24,
+                235,
+                47
+            ],
+            "text": "CIRCLE K",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                107,
+                53,
+                311,
+                81
+            ],
+            "text": "Số 3 Lê Lợi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                77,
+                171,
+                195,
+                194
+            ],
+            "text": "11/06/2026 13:37",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                260,
+                187,
+                283
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                242,
+                262,
+                250,
+                282
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                256,
+                262,
+                300,
+                284
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                263,
+                390,
+                284
+            ],
+            "text": "88,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                286,
+                195,
+                309
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                242,
+                288,
+                250,
+                309
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                256,
+                288,
+                300,
+                310
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                290,
+                390,
+                311
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                374,
+                393,
+                395
+            ],
+            "text": "127,440đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

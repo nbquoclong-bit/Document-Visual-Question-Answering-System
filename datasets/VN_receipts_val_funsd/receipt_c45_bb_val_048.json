@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                29,
+                361,
+                47
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                91,
+                39,
+                379,
+                71
+            ],
+            "text": "Số 54 Nguyễn Huệ, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                149,
+                434,
+                165
+            ],
+            "text": "Ngày 26 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                260,
+                241,
+                274
+            ],
+            "text": "2.052.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                16,
+                276,
+                39
+            ],
+            "text": "HIGHLANDS COFFEE LÊ LỢI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                51,
+                37,
+                329,
+                60
+            ],
+            "text": "Số 290 Nguyễn Trãi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                179,
+                188,
+                202
+            ],
+            "text": "08/06/2026 14:06",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                243,
+                24,
+                265
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                241,
+                208,
+                265
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                239,
+                364,
+                262
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                270,
+                25,
+                291
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                268,
+                193,
+                291
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                266,
+                364,
+                288
+            ],
+            "text": "58,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                298,
+                25,
+                318
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                295,
+                141,
+                318
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                293,
+                363,
+                315
+            ],
+            "text": "35,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                355,
+                364,
+                377
+            ],
+            "text": "344,300",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

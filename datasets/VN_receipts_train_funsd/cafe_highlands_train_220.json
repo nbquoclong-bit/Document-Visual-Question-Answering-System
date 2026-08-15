@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                98,
+                25,
+                281,
+                50
+            ],
+            "text": "HIGHLANDS COFFEE LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                76,
+                45,
+                302,
+                70
+            ],
+            "text": "Số 337 Lê Lợi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                69,
+                184,
+                187,
+                207
+            ],
+            "text": "23/05/2026 10:15",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                245,
+                25,
+                266
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                245,
+                191,
+                268
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                248,
+                357,
+                269
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                271,
+                25,
+                293
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                272,
+                205,
+                293
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                274,
+                356,
+                295
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                297,
+                25,
+                319
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                298,
+                184,
+                321
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                300,
+                356,
+                321
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                360,
+                355,
+                382
+            ],
+            "text": "600,875",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

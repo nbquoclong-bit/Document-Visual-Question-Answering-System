@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                19,
+                265,
+                42
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                65,
+                41,
+                342,
+                63
+            ],
+            "text": "Số 161 Bùi Thị Xuân, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                156,
+                185,
+                177
+            ],
+            "text": "10/06/2026 16:23",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                249,
+                190,
+                272
+            ],
+            "text": "Cơm nắm cá hồi sốt Mayo",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                249,
+                244,
+                271
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                265,
+                249,
+                310,
+                271
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                249,
+                389,
+                269
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                278,
+                219,
+                300
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                278,
+                242,
+                300
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                265,
+                278,
+                309,
+                300
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                278,
+                389,
+                298
+            ],
+            "text": "14,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                308,
+                205,
+                330
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                307,
+                243,
+                329
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                265,
+                307,
+                310,
+                328
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                306,
+                389,
+                327
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                331,
+                395,
+                390,
+                417
+            ],
+            "text": "114,480đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

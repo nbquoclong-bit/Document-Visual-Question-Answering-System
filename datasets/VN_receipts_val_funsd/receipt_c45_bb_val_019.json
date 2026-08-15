@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                97,
+                27,
+                335,
+                44
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                103,
+                37,
+                389,
+                67
+            ],
+            "text": "Số 379 Nguyễn Trãi, Quận Đống Đa, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                218,
+                143,
+                432,
+                159
+            ],
+            "text": "Ngày 30 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                133,
+                251,
+                246,
+                267
+            ],
+            "text": "1.815.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                155,
+                35,
+                252,
+                56
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                17,
+                58,
+                391,
+                81
+            ],
+            "text": "Số 299 Nguyễn Trãi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                176,
+                209,
+                196
+            ],
+            "text": "14/06/2026 10:23",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                244,
+                188,
+                266
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                253,
+                246,
+                261,
+                266
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                282,
+                248,
+                327,
+                268
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                247,
+                392,
+                269
+            ],
+            "text": "10.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                269,
+                165,
+                292
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                245,
+                272,
+                253,
+                293
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                276,
+                272,
+                327,
+                294
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                274,
+                392,
+                294
+            ],
+            "text": "525.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                314,
+                392,
+                335
+            ],
+            "text": "577.800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

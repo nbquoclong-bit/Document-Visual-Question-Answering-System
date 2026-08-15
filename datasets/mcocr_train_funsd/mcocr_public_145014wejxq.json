@@ -2,213 +2,193 @@
     "form": [
         {
             "box": [
-                294,
-                111,
-                634,
-                133
+                121,
+                682,
+                606,
+                728
             ],
-            "text": "MINIMARTANAN",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                247,
-                153,
-                675,
-                176
+                287,
+                650,
+                471,
+                685
             ],
-            "text": "Cho Sui Phu Thi Gia Lam",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                10,
-                192,
-                75,
-                222
+                55,
+                598,
+                683,
+                639
             ],
-            "text": "Tel:",
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                371,
+                543,
+                455,
+                572
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                235,
-                250,
-                709,
-                285
+                602,
+                538,
+                688,
+                570
             ],
-            "text": "HOA DONBAN HANG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                49,
-                308,
-                216,
-                333
-            ],
-            "text": "Tenhang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                270,
-                301,
-                511,
-                330
-            ],
-            "text": "SLDVT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                498,
-                299,
-                856,
-                330
-            ],
-            "text": "Don gia Thanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                36,
-                340,
-                842,
-                377
-            ],
-            "text": "8934755030420Bim Bobby Newborn2-40m N",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                343,
-                388,
-                411,
-                412
-            ],
-            "text": "GO1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                539,
-                383,
-                656,
-                415
-            ],
-            "text": "74,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                764,
-                378,
-                885,
-                412
-            ],
-            "text": "74,00",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                248,
-                391,
-                272,
-                413
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                20,
-                446,
-                178,
-                482
-            ],
-            "text": "Tongso:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                305,
-                450,
-                333,
-                477
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                774,
-                472,
-                890,
-                505
-            ],
-            "text": "74,000",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
                 26,
-                490,
-                225,
-                522
+                501,
+                187,
+                537
             ],
-            "text": "Töng cong",
+            "text": "Tổng cộng :",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                603,
+                492,
+                690,
+                523
+            ],
+            "text": "74,000",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                24,
+                457,
+                146,
+                494
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                475,
-                527,
-                583,
-                552
+                272,
+                402,
+                324,
+                426
             ],
-            "text": "CARD",
+            "text": "GOI",
             "label": "OTHER"
         },
         {
             "box": [
-                776,
-                516,
-                889,
-                550
+                424,
+                400,
+                513,
+                431
             ],
             "text": "74,000",
             "label": "OTHER"
         },
         {
             "box": [
-                66,
-                576,
-                885,
-                624
+                590,
+                390,
+                689,
+                432
             ],
-            "text": "S6GD000AC221200800157.Ngay11/08/2020-06:24",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                369,
-                628,
-                606,
-                666
+                38,
+                356,
+                656,
+                388
             ],
-            "text": "Thu ngan:BH2",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                153,
-                660,
-                779,
-                708
+                46,
+                313,
+                175,
+                345
             ],
-            "text": "Xin cäm on va hen gäp lai quy khäch !",
+            "text": "Tên hàng",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                290,
+                314,
+                346,
+                340
+            ],
+            "text": "ĐVT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                395,
+                313,
+                500,
+                343
+            ],
+            "text": "Đơn giá",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                529,
+                313,
+                664,
+                339
+            ],
+            "text": "Thành tiền",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                189,
+                256,
+                580,
+                299
+            ],
+            "text": "HÓA ĐƠN BÁN HÀNG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                200,
+                158,
+                530,
+                187
+            ],
+            "text": "Chợ Sủi Phú Thị Gia Lâm",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                236,
+                112,
+                498,
+                145
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
         }
     ]
 }

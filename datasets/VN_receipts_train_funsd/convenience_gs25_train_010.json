@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                19,
+                250,
+                40
+            ],
+            "text": "GS25 THỦ ĐỨC",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                47,
+                40,
+                362,
+                61
+            ],
+            "text": "Số 173 Nguyễn Huệ, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                152,
+                185,
+                174
+            ],
+            "text": "31/05/2026 20:52",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                246,
+                161,
+                268
+            ],
+            "text": "Sữa chua uống Proby",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                243,
+                246,
+                252,
+                267
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                273,
+                245,
+                311,
+                266
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                245,
+                391,
+                266
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                275,
+                220,
+                297
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                274,
+                244,
+                295
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                267,
+                274,
+                310,
+                295
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                274,
+                391,
+                295
+            ],
+            "text": "42,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                304,
+                197,
+                326
+            ],
+            "text": "Mì trộn Indomie đặc biệt",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                303,
+                244,
+                324
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                266,
+                303,
+                311,
+                324
+            ],
+            "text": "12,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                302,
+                391,
+                323
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                332,
+                205,
+                355
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                332,
+                244,
+                353
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                266,
+                332,
+                311,
+                353
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                331,
+                391,
+                352
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                420,
+                392,
+                441
+            ],
+            "text": "140,400đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

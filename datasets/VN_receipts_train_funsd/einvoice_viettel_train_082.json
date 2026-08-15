@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                33,
+                54,
+                281,
+                75
+            ],
+            "text": "CÔNG TY CỔ PHẦN CÔNG NGHỆ SAO NAM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                461,
+                33,
+                761,
+                54
+            ],
+            "text": "Số 387 Nguyễn Trãi, Quận Ba Đình, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                303,
+                198,
+                423,
+                219
+            ],
+            "text": "18/06/2026 11:58",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                85,
+                512,
+                250,
+                533
+            ],
+            "text": "Giấy Double A A4 70gsm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                526,
+                512,
+                534,
+                533
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                598,
+                512,
+                643,
+                533
+            ],
+            "text": "65,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                701,
+                512,
+                753,
+                533
+            ],
+            "text": "195,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                85,
+                554,
+                250,
+                575
+            ],
+            "text": "Máy in HP LaserJet Pro",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                526,
+                554,
+                534,
+                575
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                576,
+                554,
+                643,
+                575
+            ],
+            "text": "3,850,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                678,
+                554,
+                753,
+                575
+            ],
+            "text": "11,550,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                671,
+                720,
+                753,
+                741
+            ],
+            "text": "12,684,600đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

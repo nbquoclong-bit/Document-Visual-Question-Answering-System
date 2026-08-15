@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                129,
+                18,
+                252,
+                41
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                150,
+                60,
+                267,
+                82
+            ],
+            "text": "07/06/2026 10:25",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                46,
+                113,
+                180,
+                136
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                118,
+                361,
+                140
+            ],
+            "text": "54,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                141,
+                223,
+                165
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                147,
+                361,
+                168
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                170,
+                216,
+                194
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                175,
+                361,
+                196
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                198,
+                224,
+                222
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                203,
+                362,
+                224
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                46,
+                227,
+                223,
+                250
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                231,
+                362,
+                253
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                264,
+                361,
+                288
+            ],
+            "text": "286,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                111,
+                20,
+                267,
+                47
+            ],
+            "text": "BÁCH HÓA XANH QUẬN 12",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                56,
+                62,
+                322,
+                89
+            ],
+            "text": "Số 368 Lê Lợi, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                96,
+                151,
+                215,
+                176
+            ],
+            "text": "21/05/2026 12:05",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                239,
+                141,
+                262
+            ],
+            "text": "Thịt đùi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                37,
+                262,
+                44,
+                284
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                201,
+                261,
+                247,
+                282
+            ],
+            "text": "68,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                309,
+                260,
+                362,
+                282
+            ],
+            "text": "204,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                291,
+                156,
+                311
+            ],
+            "text": "Rau muống nước 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                37,
+                312,
+                45,
+                333
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                208,
+                313,
+                246,
+                333
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                323,
+                312,
+                361,
+                334
+            ],
+            "text": "8,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                374,
+                362,
+                394
+            ],
+            "text": "233,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

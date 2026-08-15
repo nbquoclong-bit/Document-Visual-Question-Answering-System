@@ -2,163 +2,143 @@
     "form": [
         {
             "box": [
-                316,
-                293,
-                665,
-                322
+                258,
+                1133,
+                761,
+                1177
             ],
-            "text": "CUAHANGNAMOANH",
+            "text": "Cẩm ơn quý khách. Hẹn gặp lụi",
             "label": "OTHER"
         },
         {
             "box": [
-                128,
-                322,
-                852,
-                365
+                787,
+                1030,
+                906,
+                1074
             ],
-            "text": "Thon Phú Thuy, Xa Phu Thi, Huyen Gia Lam, TP Ha N$i",
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                116,
+                1028,
+                380,
+                1079
+            ],
+            "text": "Cộng tiền hàng",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                786,
+                954,
+                907,
+                995
+            ],
+            "text": "00000",
             "label": "OTHER"
         },
         {
             "box": [
-                312,
-                366,
-                666,
-                391
+                430,
+                952,
+                547,
+                997
             ],
-            "text": "0869322496-02438765210",
+            "text": "10,000",
             "label": "OTHER"
         },
         {
             "box": [
-                323,
-                452,
-                652,
-                480
+                121,
+                891,
+                505,
+                933
             ],
-            "text": "HOADONBANHANG",
+            "text": "Bánh mỳ ruốc KĐ 80g",
             "label": "OTHER"
         },
         {
             "box": [
-                110,
-                495,
-                311,
-                525
+                723,
+                820,
+                903,
+                868
             ],
-            "text": "S6: SON55753",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                625,
-                508,
-                859,
-                530
+                424,
+                826,
+                553,
+                868
             ],
-            "text": "Ngav:12-08-2020",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                100,
-                594,
-                152,
-                626
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                400,
-                598,
-                526,
-                631
-            ],
-            "text": "Do'n gia",
-            "label": "OTHER"
-        },
-        {
-            "box": [
+                649,
                 694,
-                600,
-                866,
-                632
+                892,
+                729
             ],
-            "text": "Thanh tien",
-            "label": "OTHER"
+            "text": "Ngày: 12-08-2020",
+            "label": "TIMESTAMP"
         },
         {
             "box": [
-                101,
-                642,
-                483,
-                679
-            ],
-            "text": "Bänh my ruc KD 80g",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                97,
-                690,
                 125,
-                718
+                689,
+                329,
+                727
             ],
-            "text": "1",
+            "text": "Số: SON55753",
             "label": "OTHER"
         },
         {
             "box": [
-                405,
-                691,
-                522,
-                725
+                342,
+                624,
+                675,
+                663
             ],
-            "text": "10,000",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                753,
-                696,
-                871,
-                726
+                327,
+                510,
+                690,
+                541
             ],
-            "text": "10,000",
+            "text": "0869322496 02438765210",
             "label": "OTHER"
         },
         {
             "box": [
-                92,
-                743,
-                358,
-                786
+                138,
+                453,
+                880,
+                504
             ],
-            "text": "Cöng tién hang",
-            "label": "OTHER"
+            "text": "Thôn Phú Thuy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+            "label": "ADDRESS"
         },
         {
             "box": [
-                750,
-                752,
-                872,
-                785
+                330,
+                410,
+                687,
+                445
             ],
-            "text": "10,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                232,
-                819,
-                727,
-                859
-            ],
-            "text": "Cam on quy khach.Hen gap lai!",
-            "label": "OTHER"
+            "text": "CỬA HÀNG NĂM OÁNH",
+            "label": "SELLER"
         }
     ]
 }

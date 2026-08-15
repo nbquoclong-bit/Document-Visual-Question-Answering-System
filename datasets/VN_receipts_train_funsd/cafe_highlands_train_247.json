@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                126,
+                18,
+                242,
+                39
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                27,
+                39,
+                345,
+                60
+            ],
+            "text": "Số 386 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                180,
+                185,
+                201
+            ],
+            "text": "28/05/2026 08:10",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                242,
+                28,
+                262
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                242,
+                176,
+                263
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                243,
+                357,
+                264
+            ],
+            "text": "39,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                268,
+                27,
+                289
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                268,
+                191,
+                290
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                270,
+                357,
+                291
+            ],
+            "text": "58,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                295,
+                27,
+                315
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                295,
+                184,
+                316
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                296,
+                357,
+                318
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                321,
+                29,
+                342
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                321,
+                191,
+                343
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                323,
+                358,
+                344
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                306,
+                386,
+                358,
+                407
+            ],
+            "text": "407,322",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

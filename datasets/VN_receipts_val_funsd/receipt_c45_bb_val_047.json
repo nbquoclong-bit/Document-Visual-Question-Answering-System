@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                37,
+                336,
+                55
+            ],
+            "text": "ỦY BAN NHÂN DÂN QUẬN CẦU GIẤY",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                92,
+                46,
+                361,
+                78
+            ],
+            "text": "Số 234 Lê Lợi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                210,
+                150,
+                430,
+                167
+            ],
+            "text": "Ngày 03 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                259,
+                222,
+                274
+            ],
+            "text": "220.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

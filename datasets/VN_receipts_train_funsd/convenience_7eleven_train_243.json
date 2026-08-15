@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                22,
+                247,
+                50
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                149,
+                64,
+                263,
+                93
+            ],
+            "text": "29/05/2026 08:14",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                47,
+                114,
+                220,
+                146
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                130,
+                354,
+                154
+            ],
+            "text": "5,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                48,
+                143,
+                213,
+                174
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                305,
+                159,
+                354,
+                182
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                190,
+                355,
+                217
+            ],
+            "text": "113,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

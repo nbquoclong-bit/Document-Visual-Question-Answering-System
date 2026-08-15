@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                87,
+                26,
+                335,
+                43
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                94,
+                37,
+                415,
+                68
+            ],
+            "text": "Số 378 Lý Thường Kiệt, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                146,
+                434,
+                162
+            ],
+            "text": "Ngày 25 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                123,
+                255,
+                239,
+                271
+            ],
+            "text": "2.052.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

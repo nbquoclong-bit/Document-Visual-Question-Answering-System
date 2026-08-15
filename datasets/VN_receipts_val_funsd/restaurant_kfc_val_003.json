@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                155,
+                21,
+                256,
+                44
+            ],
+            "text": "KFC VIỆT NAM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                21,
+                41,
+                394,
+                90
+            ],
+            "text": "Số 423 Cách Mạng Tháng Tám, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                93,
+                186,
+                205,
+                208
+            ],
+            "text": "14/06/2026 13:33",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                267,
+                105,
+                288
+            ],
+            "text": "Burger Tôm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                214,
+                266,
+                224,
+                287
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                241,
+                265,
+                294,
+                286
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                331,
+                265,
+                391,
+                286
+            ],
+            "text": "168,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                297,
+                166,
+                318
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                215,
+                296,
+                224,
+                317
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                242,
+                296,
+                294,
+                317
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                295,
+                390,
+                316
+            ],
+            "text": "117,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                323,
+                406,
+                381,
+                427
+            ],
+            "text": "313,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

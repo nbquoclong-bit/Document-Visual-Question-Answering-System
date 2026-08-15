@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                164,
+                22,
+                246,
+                43
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                78,
+                57,
+                333,
+                78
+            ],
+            "text": "Số 77 Nguyễn Huệ, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                165,
+                185,
+                186
+            ],
+            "text": "06/06/2026 07:01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                259,
+                195,
+                280
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                259,
+                214,
+                280
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                259,
+                281,
+                280
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                259,
+                395,
+                280
+            ],
+            "text": "114.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                288,
+                188,
+                309
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                288,
+                214,
+                309
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                288,
+                281,
+                309
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                288,
+                395,
+                309
+            ],
+            "text": "72.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                377,
+                395,
+                398
+            ],
+            "text": "204.600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

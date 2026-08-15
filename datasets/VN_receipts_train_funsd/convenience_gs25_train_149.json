@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                148,
+                20,
+                258,
+                42
+            ],
+            "text": "GS25 NGUYỄN HUỆ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                75,
+                40,
+                333,
+                64
+            ],
+            "text": "Số 189 Nguyễn Trãi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                152,
+                185,
+                175
+            ],
+            "text": "21/05/2026 18:36",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                245,
+                204,
+                269
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                245,
+                240,
+                266
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                244,
+                305,
+                266
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                243,
+                388,
+                265
+            ],
+            "text": "48,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                274,
+                196,
+                298
+            ],
+            "text": "Mì trộn Indomie đặc biệt",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                273,
+                240,
+                294
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                272,
+                305,
+                293
+            ],
+            "text": "12,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                271,
+                388,
+                293
+            ],
+            "text": "12,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                303,
+                137,
+                325
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                302,
+                240,
+                323
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                301,
+                305,
+                323
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                299,
+                388,
+                322
+            ],
+            "text": "66,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                330,
+                387,
+                389,
+                410
+            ],
+            "text": "138,600đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

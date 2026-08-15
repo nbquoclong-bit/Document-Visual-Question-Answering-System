@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                106,
+                15,
+                275,
+                38
+            ],
+            "text": "HIGHLANDS COFFEE LÊ LỢI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                47,
+                35,
+                334,
+                59
+            ],
+            "text": "Số 55 Trần Hưng Đạo, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                70,
+                174,
+                189,
+                196
+            ],
+            "text": "18/06/2026 07:14",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                236,
+                25,
+                258
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                236,
+                187,
+                258
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                237,
+                363,
+                258
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                262,
+                25,
+                284
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                263,
+                172,
+                285
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                265,
+                363,
+                285
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                327,
+                363,
+                348
+            ],
+            "text": "126,720",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

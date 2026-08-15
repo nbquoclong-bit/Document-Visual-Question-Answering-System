@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                144,
+                35,
+                261,
+                58
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                61,
+                54,
+                346,
+                79
+            ],
+            "text": "Số 317 Lý Thường Kiệt, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                167,
+                184,
+                188
+            ],
+            "text": "31/05/2026 11:58",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                257,
+                188,
+                281
+            ],
+            "text": "Cơm nắm cá hồi sốt Mayo",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                226,
+                255,
+                235,
+                277
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                256,
+                300,
+                278
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                256,
+                386,
+                276
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                286,
+                160,
+                309
+            ],
+            "text": "Sữa chua uống Proby",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                284,
+                242,
+                307
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                262,
+                282,
+                300,
+                306
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                284,
+                386,
+                306
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                370,
+                387,
+                392
+            ],
+            "text": "42,120đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                119,
+                22,
+                287,
+                44
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                45,
+                387,
+                69
+            ],
+            "text": "Số 361 Bùi Thị Xuân, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                167,
+                209,
+                189
+            ],
+            "text": "12/06/2026 17:40",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                239,
+                173,
+                260
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                250,
+                239,
+                257,
+                261
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                279,
+                240,
+                324,
+                261
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                240,
+                390,
+                261
+            ],
+            "text": "128.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                267,
+                180,
+                287
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                250,
+                266,
+                258,
+                287
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                279,
+                267,
+                323,
+                287
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                267,
+                390,
+                287
+            ],
+            "text": "22.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                292,
+                165,
+                315
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                258,
+                292,
+                266,
+                314
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                286,
+                292,
+                324,
+                314
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                353,
+                292,
+                390,
+                313
+            ],
+            "text": "9.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                333,
+                389,
+                354
+            ],
+            "text": "171.720",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

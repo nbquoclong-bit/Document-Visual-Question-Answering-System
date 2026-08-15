@@ -2,423 +2,353 @@
     "form": [
         {
             "box": [
-                404,
-                105,
-                534,
-                131
+                518,
+                873,
+                569,
+                895
             ],
-            "text": "Tism tro",
+            "text": "7 80c",
             "label": "OTHER"
         },
         {
             "box": [
-                421,
+                350,
+                868,
+                449,
+                890
+            ],
+            "text": "+ Trả khách:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                510,
+                851,
+                568,
+                873
+            ],
+            "text": "78 000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                349,
+                845,
+                447,
+                867
+            ],
+            "text": "+ Khách trả:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                359,
+                772,
+                561,
+                798
+            ],
+            "text": "CASH(VND) - 70 200",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                466,
+                711,
+                560,
+                738
+            ],
+            "text": "70 200",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                134,
+                710,
+                353,
+                739
+            ],
+            "text": "Tiên Thanh Toán",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                485,
+                663,
+                554,
+                688
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                130,
+                663,
+                277,
+                692
+            ],
+            "text": "Tổng tiền (VAT)",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                505,
+                632,
+                551,
+                653
+            ],
+            "text": "008",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                130,
+                635,
+                240,
+                655
+            ],
+            "text": "Tiền chiết khấu:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                481,
+                597,
+                548,
+                621
+            ],
+            "text": "000 82",
+            "label": "OTHER"
+        },
+        {
+            "box": [
                 128,
-                626,
-                166
+                600,
+                182,
+                627
             ],
-            "text": "Thanh",
+            "text": "Tổng:",
             "label": "OTHER"
         },
         {
             "box": [
-                230,
-                209,
-                800,
-                248
+                487,
+                561,
+                549,
+                581
             ],
-            "text": "244/23a Huynh Vän Bänh,P.11,Q.PN",
+            "text": "000 6E",
             "label": "OTHER"
         },
         {
             "box": [
-                364,
-                242,
-                675,
-                270
+                390,
+                562,
+                450,
+                582
             ],
-            "text": "Pass Wifithanhxuan",
+            "text": "000 6E",
             "label": "OTHER"
         },
         {
             "box": [
-                371,
-                272,
-                668,
-                301
+                104,
+                567,
+                241,
+                585
+            ],
+            "text": "Sưa Dâu Machiato",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                486,
+                531,
+                546,
+                551
+            ],
+            "text": "000 6E",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                388,
+                532,
+                448,
+                552
+            ],
+            "text": "39000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                537,
+                185,
+                558
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                492,
+                495,
+                545,
+                515
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                399,
+                495,
+                447,
+                515
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                173,
+                497,
+                245,
+                521
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                117,
+                470,
+                322,
+                493
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                262,
+                439,
+                412,
+                460
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                114,
+                441,
+                222,
+                469
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                262,
+                413,
+                411,
+                431
+            ],
+            "text": "30.09.2020 20.45",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                114,
+                412,
+                234,
+                439
+            ],
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                115,
+                388,
+                159,
+                408
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                203,
+                381,
+                375,
+                404
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                248,
+                357,
+                384,
+                376
+            ],
+            "text": "TOEOTS - 010001",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                113,
+                358,
+                217,
+                378
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                170,
+                322,
+                438,
+                351
+            ],
+            "text": "PHIẾU THANH TOÁN",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                219,
+                287,
+                392,
+                313
             ],
             "text": "Tel:0888212505",
             "label": "OTHER"
         },
         {
             "box": [
-                282,
-                305,
-                748,
-                338
+                216,
+                256,
+                394,
+                282
             ],
-            "text": "PHIEU THANHTOAN",
+            "text": "Pass Wifi: thanhxuan",
             "label": "OTHER"
         },
         {
             "box": [
-                182,
-                342,
-                362,
-                360
+                140,
+                225,
+                466,
+                256
             ],
-            "text": "so chumg tur:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                414,
-                339,
-                654,
-                365
-            ],
-            "text": "100040-540301",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                175,
-                365,
-                260,
-                390
-            ],
-            "text": "Vi tri:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                338,
-                363,
-                635,
-                388
-            ],
-            "text": "An Tai Cho-Tret",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                180,
-                393,
-                385,
-                418
-            ],
-            "text": "Ngay/ gi váo:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                440,
-                395,
-                694,
-                416
-            ],
-            "text": "30.09.202020.45",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                178,
-                421,
-                364,
-                448
-            ],
-            "text": "Ngay/ gi ra: ",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                442,
-                424,
-                696,
-                442
-            ],
-            "text": "30.09.202020.47",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                180,
-                451,
-                541,
-                472
-            ],
-            "text": "Thu ngan: Administrators",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                281,
-                480,
-                406,
-                499
-            ],
-            "text": "Ten món",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                545,
-                475,
-                602,
-                500
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                668,
-                475,
-                758,
-                500
-            ],
-            "text": "D.Già",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                828,
-                477,
-                928,
-                503
-            ],
-            "text": "T.Tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                157,
-                515,
-                295,
-                534
-            ],
-            "text": "Choco Sua",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                564,
-                515,
-                593,
-                537
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                652,
-                515,
-                758,
-                537
-            ],
-            "text": "39000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                821,
-                516,
-                927,
-                538
-            ],
-            "text": "39000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                156,
-                540,
-                399,
-                564
-            ],
-            "text": "Sua Dau Machiato",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                564,
-                544,
-                593,
-                565
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                654,
-                545,
-                756,
-                564
-            ],
-            "text": "39000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                822,
-                544,
-                928,
-                567
-            ],
-            "text": "39000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                194,
-                574,
-                293,
-                605
-            ],
-            "text": "Töng:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                560,
-                581,
-                590,
-                603
-            ],
-            "text": "2",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                810,
-                580,
-                928,
-                605
-            ],
-            "text": "78000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                197,
-                608,
-                390,
-                632
-            ],
-            "text": "Tien chiet khau",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                567,
-                611,
-                633,
-                630
-            ],
-            "text": "10%",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                852,
-                615,
-                932,
-                635
-            ],
-            "text": "7800",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                197,
-                636,
-                456,
-                668
-            ],
-            "text": "Töng tien (VAT):",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                812,
-                646,
-                934,
-                671
-            ],
-            "text": "70200",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                197,
-                681,
-                585,
-                714
-            ],
-            "text": "Tién Thanh Toän :",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                777,
-                691,
-                942,
-                719
-            ],
-            "text": "70200",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                590,
-                749,
-                940,
-                779
-            ],
-            "text": "CASH(VND)-70200",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                572,
-                819,
-                739,
-                843
-            ],
-            "text": "+Khach tra:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                850,
-                828,
-                953,
-                852
-            ],
-            "text": "7800C",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                572,
-                840,
-                743,
-                867
-            ],
-            "text": "+Tra khach:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                864,
-                851,
-                953,
-                874
-            ],
-            "text": "7800",
-            "label": "OTHER"
+            "text": "244/23a Huỳnh Văn Bánh, P.11, Q.PN",
+            "label": "ADDRESS"
         }
     ]
 }

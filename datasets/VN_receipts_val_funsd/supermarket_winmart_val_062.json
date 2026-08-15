@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                164,
+                32,
+                245,
+                54
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                45,
+                65,
+                367,
+                89
+            ],
+            "text": "Số 195 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                172,
+                185,
+                194
+            ],
+            "text": "20/06/2026 18:45",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                263,
+                187,
+                284
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                264,
+                212,
+                285
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                263,
+                277,
+                285
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                263,
+                390,
+                285
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                291,
+                135,
+                313
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                291,
+                212,
+                313
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                291,
+                278,
+                313
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                293,
+                390,
+                312
+            ],
+            "text": "56.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                320,
+                193,
+                341
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                320,
+                211,
+                340
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                320,
+                277,
+                340
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                321,
+                390,
+                342
+            ],
+            "text": "76.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                337,
+                407,
+                389,
+                428
+            ],
+            "text": "162.000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

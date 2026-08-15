@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                122,
+                15,
+                280,
+                38
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                17,
+                38,
+                383,
+                62
+            ],
+            "text": "Số 230 Lý Thường Kiệt, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                160,
+                207,
+                182
+            ],
+            "text": "31/05/2026 20:44",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                230,
+                208,
+                250
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                261,
+                231,
+                270,
+                250
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                291,
+                230,
+                327,
+                252
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                231,
+                384,
+                251
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                256,
+                165,
+                277
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                247,
+                256,
+                256,
+                277
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                276,
+                256,
+                327,
+                277
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                256,
+                385,
+                278
+            ],
+            "text": "525.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                282,
+                159,
+                303
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                255,
+                282,
+                262,
+                303
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                284,
+                282,
+                327,
+                303
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                282,
+                384,
+                302
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                309,
+                173,
+                328
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                255,
+                308,
+                263,
+                329
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                284,
+                309,
+                328,
+                329
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                334,
+                308,
+                385,
+                329
+            ],
+            "text": "128.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                348,
+                384,
+                368
+            ],
+            "text": "771.100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

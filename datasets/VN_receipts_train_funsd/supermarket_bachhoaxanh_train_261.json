@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                140,
+                24,
+                236,
+                45
+            ],
+            "text": "BÁCH HÓA XANH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                20,
+                62,
+                359,
+                108
+            ],
+            "text": "Số 420 Trần Hưng Đạo, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                99,
+                170,
+                215,
+                194
+            ],
+            "text": "05/06/2026 15:18",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                257,
+                106,
+                278
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                38,
+                280,
+                47,
+                300
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                209,
+                279,
+                246,
+                300
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                322,
+                278,
+                359,
+                300
+            ],
+            "text": "6,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                306,
+                192,
+                327
+            ],
+            "text": "Trứng gà tươi hộp 10 quả",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                38,
+                328,
+                47,
+                350
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                201,
+                329,
+                246,
+                350
+            ],
+            "text": "32,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                313,
+                330,
+                358,
+                350
+            ],
+            "text": "64,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                356,
+                142,
+                378
+            ],
+            "text": "Thịt đùi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                38,
+                378,
+                46,
+                400
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                201,
+                380,
+                246,
+                400
+            ],
+            "text": "68,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                306,
+                380,
+                359,
+                401
+            ],
+            "text": "204,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                306,
+                441,
+                359,
+                462
+            ],
+            "text": "301,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

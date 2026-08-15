@@ -1,0 +1,244 @@
+{
+    "form": [
+        {
+            "box": [
+                152,
+                24,
+                256,
+                46
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                51,
+                59,
+                359,
+                80
+            ],
+            "text": "Số 270 Bùi Thị Xuân, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                165,
+                183,
+                187
+            ],
+            "text": "13/06/2026 16:04",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                259,
+                157,
+                280
+            ],
+            "text": "Coca Cola Lon 320ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                258,
+                213,
+                280
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                258,
+                278,
+                280
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                258,
+                390,
+                280
+            ],
+            "text": "40.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                287,
+                186,
+                307
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                287,
+                213,
+                308
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                287,
+                278,
+                308
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                287,
+                390,
+                308
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                315,
+                204,
+                358
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                325,
+                212,
+                346
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                326,
+                278,
+                347
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                325,
+                390,
+                346
+            ],
+            "text": "87.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                365,
+                135,
+                386
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                365,
+                212,
+                386
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                365,
+                277,
+                387
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                365,
+                390,
+                387
+            ],
+            "text": "56.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                393,
+                187,
+                415
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                212,
+                393,
+                219,
+                415
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                241,
+                393,
+                279,
+                415
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                394,
+                390,
+                414
+            ],
+            "text": "14.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                338,
+                482,
+                390,
+                503
+            ],
+            "text": "236.500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

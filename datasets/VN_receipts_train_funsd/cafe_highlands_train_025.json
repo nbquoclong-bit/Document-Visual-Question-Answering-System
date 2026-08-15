@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                77,
+                15,
+                303,
+                40
+            ],
+            "text": "HIGHLANDS COFFEE TRẦN HƯNG ĐẠO",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                50,
+                35,
+                327,
+                61
+            ],
+            "text": "Số 42 Lý Thường Kiệt, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                177,
+                188,
+                200
+            ],
+            "text": "15/06/2026 21:05",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                239,
+                23,
+                261
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                42,
+                240,
+                208,
+                263
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                243,
+                364,
+                264
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                266,
+                22,
+                287
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                42,
+                266,
+                186,
+                289
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                270,
+                364,
+                290
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                293,
+                22,
+                315
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                42,
+                294,
+                178,
+                316
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                295,
+                364,
+                316
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                358,
+                364,
+                380
+            ],
+            "text": "384,560",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

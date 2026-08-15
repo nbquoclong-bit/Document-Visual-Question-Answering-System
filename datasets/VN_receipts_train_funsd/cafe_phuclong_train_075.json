@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                110,
+                22,
+                271,
+                50
+            ],
+            "text": "PHÚC LONG TEA & COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                57,
+                41,
+                321,
+                75
+            ],
+            "text": "Số 341 Nguyễn Huệ, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                19,
+                157,
+                138,
+                183
+            ],
+            "text": "05/06/2026 17:13",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                240,
+                27,
+                261
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                54,
+                241,
+                194,
+                265
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                246,
+                359,
+                269
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                266,
+                28,
+                288
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                54,
+                267,
+                142,
+                290
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                272,
+                358,
+                295
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                349,
+                358,
+                372
+            ],
+            "text": "104,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

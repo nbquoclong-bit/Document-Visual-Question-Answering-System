@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                156,
+                19,
+                253,
+                45
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                20,
+                40,
+                394,
+                74
+            ],
+            "text": "Số 320 Nguyễn Trãi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                169,
+                208,
+                192
+            ],
+            "text": "12/06/2026 19:47",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                241,
+                186,
+                265
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                238,
+                268,
+                260
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                289,
+                237,
+                335,
+                259
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                236,
+                392,
+                259
+            ],
+            "text": "10.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                266,
+                193,
+                291
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                267,
+                265,
+                274,
+                287
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                297,
+                264,
+                334,
+                286
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                264,
+                392,
+                285
+            ],
+            "text": "12.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                293,
+                178,
+                317
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                259,
+                292,
+                267,
+                313
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                289,
+                291,
+                334,
+                313
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                290,
+                391,
+                312
+            ],
+            "text": "66.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                345,
+                331,
+                391,
+                354
+            ],
+            "text": "96.800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

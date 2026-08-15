@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                138,
+                35,
+                251,
+                60
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                155,
+                74,
+                269,
+                99
+            ],
+            "text": "09/06/2026 18:26",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                55,
+                130,
+                226,
+                157
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                125,
+                360,
+                147
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                55,
+                159,
+                169,
+                185
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                152,
+                360,
+                174
+            ],
+            "text": "80,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                55,
+                186,
+                183,
+                212
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                179,
+                360,
+                201
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                211,
+                360,
+                236
+            ],
+            "text": "149,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

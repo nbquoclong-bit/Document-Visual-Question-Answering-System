@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                99,
+                23,
+                283,
+                48
+            ],
+            "text": "BÁCH HÓA XANH NGUYỄN TRÃI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                63,
+                316,
+                89
+            ],
+            "text": "Số 73 Nguyễn Trãi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                102,
+                150,
+                219,
+                174
+            ],
+            "text": "18/06/2026 19:12",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                235,
+                109,
+                257
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                38,
+                258,
+                46,
+                278
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                213,
+                260,
+                251,
+                281
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                325,
+                262,
+                362,
+                282
+            ],
+            "text": "9,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                286,
+                197,
+                308
+            ],
+            "text": "Trứng gà tươi hộp 10 quả",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                39,
+                308,
+                47,
+                329
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                207,
+                310,
+                251,
+                331
+            ],
+            "text": "32,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                318,
+                312,
+                362,
+                332
+            ],
+            "text": "96,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                371,
+                362,
+                392
+            ],
+            "text": "113,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

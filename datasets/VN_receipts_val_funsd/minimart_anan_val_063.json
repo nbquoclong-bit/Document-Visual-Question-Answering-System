@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                159,
+                34,
+                253,
+                59
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                52,
+                386,
+                88
+            ],
+            "text": "Số 188 Nguyễn Trãi, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                95,
+                173,
+                210,
+                198
+            ],
+            "text": "18/06/2026 09:32",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                239,
+                194,
+                266
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                249,
+                273,
+                270
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                293,
+                251,
+                329,
+                272
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                253,
+                384,
+                275
+            ],
+            "text": "24.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                264,
+                167,
+                291
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                275,
+                272,
+                295
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                292,
+                276,
+                329,
+                298
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                278,
+                383,
+                300
+            ],
+            "text": "27.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                318,
+                383,
+                340
+            ],
+            "text": "55.080",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

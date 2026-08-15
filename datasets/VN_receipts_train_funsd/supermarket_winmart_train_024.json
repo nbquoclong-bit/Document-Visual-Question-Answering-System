@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                150,
+                38,
+                250,
+                65
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                65,
+                63,
+                338,
+                104
+            ],
+            "text": "Số 152 Lê Lợi, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                173,
+                181,
+                201
+            ],
+            "text": "05/06/2026 12:42",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                260,
+                156,
+                288
+            ],
+            "text": "Coca Cola Lon 320ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                200,
+                257,
+                209,
+                277
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                229,
+                254,
+                274,
+                275
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                247,
+                386,
+                270
+            ],
+            "text": "40.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                289,
+                134,
+                314
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                200,
+                284,
+                208,
+                304
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                230,
+                280,
+                274,
+                303
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                274,
+                387,
+                296
+            ],
+            "text": "56.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                312,
+                184,
+                340
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                201,
+                312,
+                209,
+                331
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                229,
+                307,
+                274,
+                330
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                301,
+                388,
+                324
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                385,
+                388,
+                408
+            ],
+            "text": "123.120",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

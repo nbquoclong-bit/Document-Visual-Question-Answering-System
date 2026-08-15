@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                101,
+                31,
+                362,
+                45
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                107,
+                39,
+                407,
+                68
+            ],
+            "text": "Số 299 Cách Mạng Tháng Tám, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                216,
+                144,
+                433,
+                158
+            ],
+            "text": "Ngày 12 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                128,
+                250,
+                224,
+                266
+            ],
+            "text": "220.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

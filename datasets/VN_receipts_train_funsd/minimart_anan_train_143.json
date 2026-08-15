@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                122,
+                23,
+                285,
+                45
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                14,
+                46,
+                390,
+                70
+            ],
+            "text": "Số 54 Lê Lợi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                169,
+                208,
+                191
+            ],
+            "text": "27/05/2026 22:42",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                241,
+                188,
+                263
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                253,
+                240,
+                262,
+                261
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                282,
+                240,
+                327,
+                261
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                239,
+                391,
+                260
+            ],
+            "text": "40.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                268,
+                165,
+                290
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                261,
+                267,
+                268,
+                287
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                266,
+                327,
+                287
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                265,
+                392,
+                286
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                294,
+                165,
+                316
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                247,
+                293,
+                254,
+                314
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                276,
+                292,
+                328,
+                313
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                292,
+                392,
+                313
+            ],
+            "text": "525.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                333,
+                392,
+                354
+            ],
+            "text": "641.300",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

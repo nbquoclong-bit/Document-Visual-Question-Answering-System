@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                168,
+                31,
+                248,
+                55
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                76,
+                63,
+                339,
+                91
+            ],
+            "text": "Số 209 Hai Bà Trưng, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                170,
+                189,
+                195
+            ],
+            "text": "24/05/2026 07:30",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                262,
+                198,
+                287
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                209,
+                266,
+                216,
+                288
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                238,
+                268,
+                281,
+                289
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                269,
+                391,
+                290
+            ],
+            "text": "152.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                291,
+                169,
+                314
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                209,
+                294,
+                216,
+                316
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                238,
+                296,
+                281,
+                317
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                297,
+                390,
+                319
+            ],
+            "text": "102.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                384,
+                390,
+                405
+            ],
+            "text": "279.400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

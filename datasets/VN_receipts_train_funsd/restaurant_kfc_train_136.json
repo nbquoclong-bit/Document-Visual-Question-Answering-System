@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                128,
+                18,
+                282,
+                41
+            ],
+            "text": "KFC Nguyễn Ảnh Thủ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                39,
+                345,
+                63
+            ],
+            "text": "Số 193 Lý Thường Kiệt, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                88,
+                161,
+                205,
+                185
+            ],
+            "text": "16/06/2026 09:12",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                243,
+                121,
+                266
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                214,
+                242,
+                223,
+                264
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                242,
+                242,
+                295,
+                264
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                240,
+                392,
+                263
+            ],
+            "text": "66,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                274,
+                165,
+                297
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                217,
+                274,
+                223,
+                295
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                272,
+                294,
+                294
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                272,
+                392,
+                293
+            ],
+            "text": "39,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                304,
+                147,
+                327
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                217,
+                303,
+                224,
+                325
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                242,
+                304,
+                295,
+                325
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                301,
+                392,
+                324
+            ],
+            "text": "28,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                322,
+                413,
+                383,
+                435
+            ],
+            "text": "143,640",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

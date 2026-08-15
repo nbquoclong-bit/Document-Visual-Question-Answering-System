@@ -1,0 +1,284 @@
+{
+    "form": [
+        {
+            "box": [
+                100,
+                25,
+                277,
+                46
+            ],
+            "text": "BÁCH HÓA XANH LÊ ĐỨC THỌ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                37,
+                66,
+                340,
+                87
+            ],
+            "text": "Số 334 Hai Bà Trưng, Quận Ba Đình, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                153,
+                216,
+                176
+            ],
+            "text": "25/05/2026 20:01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                240,
+                157,
+                261
+            ],
+            "text": "Rau muống nước 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                263,
+                44,
+                285
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                210,
+                263,
+                247,
+                285
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                316,
+                263,
+                361,
+                285
+            ],
+            "text": "16,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                291,
+                178,
+                313
+            ],
+            "text": "Nước mắm Nam Ngư 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                314,
+                44,
+                335
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                203,
+                314,
+                247,
+                335
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                309,
+                314,
+                361,
+                335
+            ],
+            "text": "126,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                343,
+                193,
+                364
+            ],
+            "text": "Trứng gà tươi hộp 10 quả",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                365,
+                44,
+                386
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                203,
+                365,
+                247,
+                387
+            ],
+            "text": "32,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                316,
+                365,
+                361,
+                387
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                393,
+                164,
+                415
+            ],
+            "text": "Thịt ba rọi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                416,
+                44,
+                437
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                203,
+                416,
+                247,
+                437
+            ],
+            "text": "75,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                316,
+                417,
+                361,
+                438
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                444,
+                223,
+                466
+            ],
+            "text": "Đường cát trắng Biên Hòa 1kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                467,
+                44,
+                489
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                203,
+                467,
+                247,
+                489
+            ],
+            "text": "26,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                309,
+                468,
+                361,
+                489
+            ],
+            "text": "104,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                495,
+                142,
+                517
+            ],
+            "text": "Thịt đùi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                519,
+                44,
+                540
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                203,
+                518,
+                247,
+                540
+            ],
+            "text": "68,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                309,
+                519,
+                361,
+                540
+            ],
+            "text": "204,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                581,
+                361,
+                601
+            ],
+            "text": "601,560",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

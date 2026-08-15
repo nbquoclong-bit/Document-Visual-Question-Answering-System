@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                139,
+                28,
+                234,
+                51
+            ],
+            "text": "BÁCH HÓA XANH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                35,
+                66,
+                342,
+                96
+            ],
+            "text": "Số 189 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                153,
+                215,
+                180
+            ],
+            "text": "08/06/2026 19:12",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                236,
+                163,
+                262
+            ],
+            "text": "Thịt ba rọi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                38,
+                259,
+                46,
+                279
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                201,
+                266,
+                246,
+                288
+            ],
+            "text": "75,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                314,
+                270,
+                359,
+                292
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                286,
+                157,
+                312
+            ],
+            "text": "Rau muống nước 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                39,
+                309,
+                47,
+                329
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                209,
+                316,
+                247,
+                338
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                314,
+                321,
+                360,
+                343
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                381,
+                360,
+                403
+            ],
+            "text": "108,900",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

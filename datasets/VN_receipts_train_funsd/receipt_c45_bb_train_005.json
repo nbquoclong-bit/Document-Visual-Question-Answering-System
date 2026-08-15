@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                107,
+                36,
+                361,
+                56
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                112,
+                44,
+                420,
+                79
+            ],
+            "text": "Số 129 Bùi Thị Xuân, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                222,
+                147,
+                431,
+                165
+            ],
+            "text": "Ngày 30 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                139,
+                256,
+                248,
+                272
+            ],
+            "text": "2.052.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

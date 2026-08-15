@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                42,
+                52,
+                370,
+                74
+            ],
+            "text": "CÔNG TY CỔ PHẦN THIẾT BỊ VĂN PHÒNG HOÀNG MINH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                480,
+                32,
+                749,
+                53
+            ],
+            "text": "Số 322 Bùi Thị Xuân, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                304,
+                195,
+                420,
+                215
+            ],
+            "text": "04/06/2026 17:05",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                89,
+                503,
+                316,
+                525
+            ],
+            "text": "Dịch vụ Lắp đặt camera giám sát",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                519,
+                503,
+                527,
+                525
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                568,
+                503,
+                634,
+                525
+            ],
+            "text": "2,500,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                675,
+                503,
+                741,
+                525
+            ],
+            "text": "2,500,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                89,
+                546,
+                286,
+                567
+            ],
+            "text": "Bộ phát Wifi TP-Link Archer",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                519,
+                545,
+                527,
+                566
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                583,
+                546,
+                633,
+                566
+            ],
+            "text": "850,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                675,
+                544,
+                741,
+                565
+            ],
+            "text": "2,550,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                667,
+                710,
+                741,
+                730
+            ],
+            "text": "5,555,000đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

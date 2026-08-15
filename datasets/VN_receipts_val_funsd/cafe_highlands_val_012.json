@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                128,
+                17,
+                247,
+                40
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                55,
+                37,
+                323,
+                63
+            ],
+            "text": "Số 364 Nguyễn Huệ, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                181,
+                187,
+                203
+            ],
+            "text": "08/06/2026 19:36",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                245,
+                23,
+                267
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                243,
+                170,
+                266
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                240,
+                363,
+                263
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                272,
+                24,
+                293
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                270,
+                141,
+                293
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                268,
+                364,
+                289
+            ],
+            "text": "70,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                330,
+                363,
+                352
+            ],
+            "text": "130,302",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

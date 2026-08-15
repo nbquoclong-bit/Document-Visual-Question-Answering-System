@@ -2,159 +2,59 @@
     "form": [
         {
             "box": [
-                479,
-                528,
-                632,
-                544
+                329,
+                802,
+                536,
+                817
             ],
-            "text": "MINIMARTANAN",
+            "text": "Xin cám an và hẹn gặp lại quý khách",
             "label": "OTHER"
         },
         {
             "box": [
-                458,
-                548,
-                649,
-                565
+                399,
+                786,
+                478,
+                802
             ],
-            "text": "Chg Süi Phu Thi Gia Lam",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                359,
-                568,
-                391,
-                583
+                302,
+                763,
+                574,
+                781
             ],
-            "text": "Tel:",
-            "label": "OTHER"
+            "text": "",
+            "label": "TIMESTAMP"
         },
         {
             "box": [
-                455,
-                596,
-                656,
-                614
-            ],
-            "text": "HOADON BAN HANG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                376,
-                618,
-                722,
-                636
-            ],
-            "text": "Ten hang....SL..DVT....Don gia...hanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                373,
-                638,
-                615,
-                652
-            ],
-            "text": "291012390000xucxich cp 10c NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                458,
-                656,
-                531,
-                667
-            ],
-            "text": "3TUI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                579,
-                655,
-                631,
-                669
-            ],
-            "text": "32,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                679,
-                655,
-                734,
-                672
+                534,
+                737,
+                577,
+                754
             ],
             "text": "96,000",
-            "label": "OTHER"
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                365,
-                678,
-                430,
-                694
+                289,
+                735,
+                378,
+                752
             ],
-            "text": "T&ngso",
-            "label": "OTHER"
+            "text": "",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                481,
-                683,
-                496,
-                694
-            ],
-            "text": "3",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                364,
-                695,
-                451,
-                713
-            ],
-            "text": "T&ngcong",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                682,
-                695,
-                738,
-                714
-            ],
-            "text": "96,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                365,
-                713,
-                480,
-                728
-            ],
-            "text": "Tién khach tra:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                544,
+                534,
                 715,
-                582,
-                731
-            ],
-            "text": "VND",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                682,
-                716,
-                739,
+                577,
                 733
             ],
             "text": "96,000",
@@ -162,33 +62,113 @@
         },
         {
             "box": [
-                380,
-                738,
-                733,
-                759
+                290,
+                718,
+                355,
+                738
             ],
-            "text": "S6GD:000AB2212008002618 Ngay10/08/2020-1827",
+            "text": "Tổng cộng",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                291,
+                703,
+                342,
+                717
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                502,
-                761,
-                609,
-                778
+                532,
+                674,
+                574,
+                691
             ],
-            "text": "Thu nganBH4",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                414,
-                777,
-                686,
-                795
+                455,
+                675,
+                494,
+                690
             ],
-            "text": "Xin cam anva hen gap lai quy khach!",
+            "text": "",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                296,
+                658,
+                484,
+                675
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                300,
+                643,
+                355,
+                655
+            ],
+            "text": "Tôn hàng",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                442,
+                638,
+                564,
+                654
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                368,
+                639,
+                443,
+                651
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                358,
+                614,
+                514,
+                632
+            ],
+            "text": "HÓA ĐƠN BÁN HÀNG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                360,
+                567,
+                506,
+                583
+            ],
+            "text": "Chợ Sủi Phú Thị Gia Lâm",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                375,
+                547,
+                492,
+                562
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
         }
     ]
 }

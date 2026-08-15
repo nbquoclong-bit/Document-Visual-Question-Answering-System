@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                154,
+                23,
+                249,
+                44
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                19,
+                46,
+                384,
+                89
+            ],
+            "text": "Số 338 Cách Mạng Tháng Tám, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                186,
+                207,
+                207
+            ],
+            "text": "05/06/2026 07:52",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                256,
+                188,
+                277
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                258,
+                255,
+                267,
+                275
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                287,
+                254,
+                331,
+                275
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                254,
+                386,
+                274
+            ],
+            "text": "40.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                281,
+                193,
+                303
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                266,
+                281,
+                274,
+                301
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                295,
+                280,
+                332,
+                301
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                351,
+                280,
+                385,
+                300
+            ],
+            "text": "6.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                320,
+                387,
+                340
+            ],
+            "text": "49.680",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                166,
+                35,
+                248,
+                57
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                47,
+                68,
+                364,
+                92
+            ],
+            "text": "Số 327 Lý Thường Kiệt, Quận Đống Đa, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                69,
+                175,
+                187,
+                196
+            ],
+            "text": "02/06/2026 18:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                268,
+                190,
+                288
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                268,
+                215,
+                288
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                268,
+                280,
+                288
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                268,
+                391,
+                288
+            ],
+            "text": "36.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                296,
+                160,
+                317
+            ],
+            "text": "Coca Cola Lon 320ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                207,
+                296,
+                215,
+                317
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                296,
+                280,
+                317
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                296,
+                389,
+                316
+            ],
+            "text": "40.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                325,
+                196,
+                346
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                324,
+                215,
+                345
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                324,
+                279,
+                345
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                324,
+                389,
+                345
+            ],
+            "text": "38.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                410,
+                390,
+                431
+            ],
+            "text": "125.400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

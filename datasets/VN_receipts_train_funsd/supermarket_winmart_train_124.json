@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                165,
+                42,
+                241,
+                64
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                46,
+                68,
+                360,
+                101
+            ],
+            "text": "Số 278 Cách Mạng Tháng Tám, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                72,
+                166,
+                184,
+                191
+            ],
+            "text": "12/06/2026 14:55",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                249,
+                138,
+                274
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                257,
+                211,
+                278
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                258,
+                274,
+                281
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                333,
+                263,
+                382,
+                285
+            ],
+            "text": "112.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                276,
+                187,
+                303
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                211,
+                284,
+                219,
+                305
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                239,
+                286,
+                275,
+                308
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                290,
+                383,
+                312
+            ],
+            "text": "10.500",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                303,
+                159,
+                329
+            ],
+            "text": "Coca Cola Lon 320ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                312,
+                212,
+                332
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                232,
+                312,
+                276,
+                335
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                317,
+                384,
+                339
+            ],
+            "text": "10.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                334,
+                400,
+                385,
+                424
+            ],
+            "text": "143.100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

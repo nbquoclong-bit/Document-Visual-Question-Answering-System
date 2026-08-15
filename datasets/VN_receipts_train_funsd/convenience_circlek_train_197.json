@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                181,
+                50,
+                232,
+                72
+            ],
+            "text": "CIRCLE K",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                72,
+                79,
+                339,
+                103
+            ],
+            "text": "Số 283 Nguyễn Trãi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                72,
+                194,
+                191,
+                214
+            ],
+            "text": "29/05/2026 17:41",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                279,
+                168,
+                300
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                246,
+                279,
+                253,
+                300
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                280,
+                297,
+                300
+            ],
+            "text": "9,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                280,
+                390,
+                300
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                304,
+                198,
+                325
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                246,
+                305,
+                253,
+                325
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                305,
+                297,
+                324
+            ],
+            "text": "6,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                305,
+                390,
+                325
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                386,
+                392,
+                407
+            ],
+            "text": "58,320đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

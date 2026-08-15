@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                37,
+                281,
+                59
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                30,
+                58,
+                377,
+                85
+            ],
+            "text": "Số 207 Trần Hưng Đạo, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                99,
+                174,
+                209,
+                194
+            ],
+            "text": "18/06/2026 20:25",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                29,
+                240,
+                196,
+                261
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                241,
+                271,
+                262
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                291,
+                243,
+                326,
+                262
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                243,
+                377,
+                263
+            ],
+            "text": "12.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                28,
+                264,
+                162,
+                284
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                257,
+                265,
+                265,
+                286
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                284,
+                267,
+                326,
+                287
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                267,
+                377,
+                287
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                337,
+                305,
+                377,
+                326
+            ],
+            "text": "30.800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

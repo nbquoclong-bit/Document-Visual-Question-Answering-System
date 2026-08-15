@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                128,
+                36,
+                244,
+                56
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                55,
+                57,
+                317,
+                79
+            ],
+            "text": "Số 300 Bùi Thị Xuân, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                17,
+                165,
+                134,
+                187
+            ],
+            "text": "31/05/2026 08:27",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                243,
+                27,
+                263
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                242,
+                212,
+                265
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                244,
+                357,
+                265
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                267,
+                26,
+                289
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                268,
+                190,
+                289
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                269,
+                357,
+                291
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                293,
+                26,
+                314
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                293,
+                183,
+                315
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                295,
+                357,
+                315
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                371,
+                357,
+                391
+            ],
+            "text": "174,960",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

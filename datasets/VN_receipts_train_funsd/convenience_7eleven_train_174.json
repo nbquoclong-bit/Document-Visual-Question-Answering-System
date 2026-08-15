@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                131,
+                19,
+                245,
+                41
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                147,
+                60,
+                265,
+                82
+            ],
+            "text": "28/05/2026 08:24",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                44,
+                115,
+                220,
+                138
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                118,
+                358,
+                138
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                143,
+                220,
+                166
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                145,
+                358,
+                167
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                171,
+                176,
+                194
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                173,
+                357,
+                194
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                206,
+                358,
+                230
+            ],
+            "text": "172,700",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

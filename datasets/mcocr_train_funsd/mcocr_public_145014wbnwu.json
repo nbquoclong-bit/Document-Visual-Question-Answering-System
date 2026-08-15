@@ -2,153 +2,143 @@
     "form": [
         {
             "box": [
-                394,
-                473,
-                605,
-                495
+                292,
+                819,
+                507,
+                844
             ],
-            "text": "CUA HANG NAM OANH",
+            "text": "Cẩm ơn quý khách. Hẹn gặp lại",
             "label": "OTHER"
         },
         {
             "box": [
-                289,
-                495,
-                714,
+                226,
+                775,
+                344,
+                799
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                516,
+                779,
+                572,
+                800
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                362,
+                741,
+                416,
+                761
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                516,
+                744,
+                572,
+                765
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                228,
+                713,
+                450,
+                736
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                365,
+                686,
+                419,
+                704
+            ],
+            "text": "Đơn giá",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                491,
+                687,
+                569,
+                706
+            ],
+            "text": "Thành tiền",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                233,
+                626,
+                323,
+                644
+            ],
+            "text": "GEESSNOS 99",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                460,
+                628,
+                568,
+                646
+            ],
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                326,
+                598,
+                474,
+                613
+            ],
+            "text": "HÓA ĐƠN BÁN HÀNG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                320,
+                544,
+                480,
+                561
+            ],
+            "text": "0869322496 - 02438765210",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                237,
+                518,
+                564,
+                543
+            ],
+            "text": "Thôn Phú Thuỷ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                322,
+                499,
+                481,
                 518
             ],
-            "text": "Thon Phu ThuyXa Phu Thi Huyen Gia Lam,TP Ha Ni",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                395,
-                518,
-                606,
-                538
-            ],
-            "text": "0869322496-02438765210",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                407,
-                568,
-                601,
-                590
-            ],
-            "text": "HOADON BAN HANG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                285,
-                601,
-                406,
-                622
-            ],
-            "text": "S6:SON55339",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                582,
-                595,
-                725,
-                618
-            ],
-            "text": "Ngay:11-08-2020",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                455,
-                654,
-                535,
-                680
-            ],
-            "text": "Dongia",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                627,
-                655,
-                727,
-                673
-            ],
-            "text": "Thanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                285,
-                665,
-                312,
-                682
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                285,
-                683,
-                575,
-                711
-            ],
-            "text": "Sira dac Dinh dir&ng tüi 560g",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                462,
-                713,
-                531,
-                732
-            ],
-            "text": "30,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                658,
-                708,
-                735,
-                731
-            ],
-            "text": "30,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                283,
-                748,
-                438,
-                773
-            ],
-            "text": "Cong tien hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                662,
-                745,
-                736,
-                763
-            ],
-            "text": "30,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                369,
-                788,
-                653,
-                808
-            ],
-            "text": "Cam on quy khach.Hen gap lai!",
-            "label": "OTHER"
+            "text": "CỬA HÀNG NĂM OÁNH",
+            "label": "SELLER"
         }
     ]
 }

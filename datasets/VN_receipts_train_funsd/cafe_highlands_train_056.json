@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                15,
+                250,
+                36
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                36,
+                365,
+                78
+            ],
+            "text": "Số 246 Lê Lợi, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                199,
+                188,
+                220
+            ],
+            "text": "12/06/2026 10:01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                262,
+                23,
+                283
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                262,
+                178,
+                283
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                262,
+                365,
+                283
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                289,
+                23,
+                310
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                289,
+                171,
+                310
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                289,
+                365,
+                310
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                352,
+                365,
+                373
+            ],
+            "text": "133,650",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

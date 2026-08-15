@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                140,
+                18,
+                265,
+                41
+            ],
+            "text": "JOLLIBEE COOPMART",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                42,
+                38,
+                365,
+                63
+            ],
+            "text": "Số 431 Trần Hưng Đạo, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                151,
+                183,
+                173
+            ],
+            "text": "13/06/2026 07:22",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                246,
+                180,
+                268
+            ],
+            "text": "Gà Giòn Vui Vẻ 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                224,
+                246,
+                232,
+                267
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                246,
+                297,
+                267
+            ],
+            "text": "35,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                246,
+                387,
+                268
+            ],
+            "text": "140,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                277,
+                129,
+                298
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                224,
+                277,
+                232,
+                298
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                253,
+                277,
+                297,
+                298
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                277,
+                387,
+                297
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                329,
+                366,
+                388,
+                387
+            ],
+            "text": "195,800đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                19,
+                248,
+                42
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                148,
+                60,
+                267,
+                83
+            ],
+            "text": "06/06/2026 21:56",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                43,
+                116,
+                221,
+                139
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                120,
+                362,
+                141
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                43,
+                145,
+                221,
+                168
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                147,
+                362,
+                170
+            ],
+            "text": "10,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                317,
+                180,
+                362,
+                205
+            ],
+            "text": "77,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

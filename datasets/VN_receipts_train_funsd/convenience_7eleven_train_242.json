@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                128,
+                20,
+                251,
+                40
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                149,
+                60,
+                267,
+                82
+            ],
+            "text": "06/06/2026 10:34",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                45,
+                117,
+                215,
+                138
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                117,
+                361,
+                138
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                45,
+                144,
+                222,
+                166
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                145,
+                362,
+                167
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                317,
+                178,
+                362,
+                201
+            ],
+            "text": "86,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

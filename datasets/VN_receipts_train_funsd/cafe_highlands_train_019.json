@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                80,
+                19,
+                297,
+                43
+            ],
+            "text": "HIGHLANDS COFFEE TRẦN HƯNG ĐẠO",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                34,
+                39,
+                343,
+                64
+            ],
+            "text": "Số 255 Bùi Thị Xuân, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                179,
+                186,
+                201
+            ],
+            "text": "12/06/2026 18:09",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                242,
+                29,
+                264
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                47,
+                242,
+                169,
+                263
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                241,
+                356,
+                263
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                268,
+                29,
+                290
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                47,
+                269,
+                190,
+                290
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                304,
+                268,
+                355,
+                289
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                294,
+                30,
+                315
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                294,
+                205,
+                316
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                304,
+                294,
+                355,
+                314
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                355,
+                355,
+                377
+            ],
+            "text": "438,480",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

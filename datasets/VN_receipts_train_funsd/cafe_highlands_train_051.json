@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                128,
+                18,
+                248,
+                39
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                73,
+                39,
+                304,
+                60
+            ],
+            "text": "Số 126 Lê Lợi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                179,
+                186,
+                200
+            ],
+            "text": "07/06/2026 08:55",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                242,
+                22,
+                263
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                242,
+                186,
+                263
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                241,
+                361,
+                262
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                269,
+                22,
+                290
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                269,
+                178,
+                290
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                268,
+                362,
+                289
+            ],
+            "text": "39,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                296,
+                23,
+                317
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                42,
+                295,
+                141,
+                317
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                295,
+                361,
+                316
+            ],
+            "text": "35,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                323,
+                23,
+                344
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                43,
+                322,
+                193,
+                343
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                321,
+                362,
+                342
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                383,
+                363,
+                404
+            ],
+            "text": "353,808",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

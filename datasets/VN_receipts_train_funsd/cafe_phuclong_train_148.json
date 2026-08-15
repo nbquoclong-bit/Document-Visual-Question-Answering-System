@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                132,
+                19,
+                250,
+                42
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                30,
+                42,
+                354,
+                65
+            ],
+            "text": "Số 367 Lý Thường Kiệt, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                21,
+                159,
+                137,
+                180
+            ],
+            "text": "12/06/2026 10:05",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                240,
+                29,
+                260
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                55,
+                240,
+                186,
+                262
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                241,
+                363,
+                262
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                267,
+                30,
+                288
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                56,
+                266,
+                194,
+                289
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                268,
+                363,
+                290
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                348,
+                363,
+                370
+            ],
+            "text": "112,860",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

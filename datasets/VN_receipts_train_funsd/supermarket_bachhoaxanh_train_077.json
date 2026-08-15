@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                107,
+                18,
+                282,
+                39
+            ],
+            "text": "BÁCH HÓA XANH LÊ ĐỨC THỌ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                24,
+                59,
+                363,
+                100
+            ],
+            "text": "Số 331 Lý Thường Kiệt, Quận Hai Bà Trưng, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                103,
+                166,
+                221,
+                189
+            ],
+            "text": "01/06/2026 20:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                253,
+                169,
+                274
+            ],
+            "text": "Thịt ba rọi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                41,
+                276,
+                50,
+                297
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                207,
+                275,
+                251,
+                296
+            ],
+            "text": "75,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                318,
+                275,
+                362,
+                296
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                304,
+                198,
+                325
+            ],
+            "text": "Trứng gà tươi hộp 10 quả",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                41,
+                326,
+                50,
+                349
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                206,
+                326,
+                251,
+                348
+            ],
+            "text": "32,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                317,
+                325,
+                362,
+                346
+            ],
+            "text": "64,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                386,
+                362,
+                407
+            ],
+            "text": "152,900",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

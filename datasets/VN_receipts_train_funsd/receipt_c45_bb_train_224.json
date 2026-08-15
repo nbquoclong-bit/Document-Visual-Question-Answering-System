@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                88,
+                30,
+                334,
+                47
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                95,
+                40,
+                418,
+                71
+            ],
+            "text": "Số 42 Nguyễn Trãi, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                211,
+                150,
+                431,
+                165
+            ],
+            "text": "Ngày 02 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                124,
+                261,
+                220,
+                275
+            ],
+            "text": "165.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

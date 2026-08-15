@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                164,
+                22,
+                253,
+                44
+            ],
+            "text": "SAIGON CO.OP",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                69,
+                42,
+                349,
+                66
+            ],
+            "text": "Số 257 Nguyễn Trãi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                161,
+                208,
+                183
+            ],
+            "text": "28/05/2026 09:11:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                239,
+                171,
+                260
+            ],
+            "text": "Khăn ướt Bobby 80 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                189,
+                267,
+                255,
+                289
+            ],
+            "text": "27,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                271,
+                267,
+                280,
+                289
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                324,
+                267,
+                390,
+                289
+            ],
+            "text": "54,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                296,
+                179,
+                317
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                189,
+                324,
+                255,
+                346
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                271,
+                325,
+                280,
+                346
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                324,
+                324,
+                389,
+                346
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                323,
+                429,
+                388,
+                450
+            ],
+            "text": "94,600.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

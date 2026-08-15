@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                155,
+                45,
+                257,
+                63
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                46,
+                76,
+                365,
+                98
+            ],
+            "text": "Số 221 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                69,
+                179,
+                185,
+                199
+            ],
+            "text": "28/05/2026 07:01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                269,
+                205,
+                309
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                205,
+                277,
+                214,
+                298
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                277,
+                279,
+                298
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                277,
+                389,
+                298
+            ],
+            "text": "87.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                315,
+                136,
+                336
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                315,
+                214,
+                336
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                315,
+                279,
+                336
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                316,
+                389,
+                336
+            ],
+            "text": "224.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                338,
+                401,
+                389,
+                420
+            ],
+            "text": "335.880",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

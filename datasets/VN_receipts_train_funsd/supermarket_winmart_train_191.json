@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                168,
+                39,
+                246,
+                60
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                39,
+                71,
+                374,
+                92
+            ],
+            "text": "Số 214 Lý Thường Kiệt, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                72,
+                170,
+                188,
+                191
+            ],
+            "text": "17/06/2026 17:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                258,
+                168,
+                280
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                207,
+                258,
+                215,
+                278
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                257,
+                279,
+                278
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                256,
+                388,
+                277
+            ],
+            "text": "102.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                285,
+                206,
+                327
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                207,
+                294,
+                215,
+                315
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                294,
+                279,
+                315
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                293,
+                389,
+                314
+            ],
+            "text": "29.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                386,
+                389,
+                408
+            ],
+            "text": "144.100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

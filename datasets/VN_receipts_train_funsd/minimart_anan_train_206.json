@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                114,
+                30,
+                281,
+                56
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                13,
+                50,
+                382,
+                83
+            ],
+            "text": "Số 43 Bùi Thị Xuân, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                88,
+                172,
+                205,
+                196
+            ],
+            "text": "06/06/2026 15:55",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                243,
+                169,
+                270
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                250,
+                239,
+                259,
+                261
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                280,
+                238,
+                324,
+                259
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                235,
+                384,
+                257
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                270,
+                160,
+                295
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                258,
+                266,
+                266,
+                286
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                288,
+                264,
+                324,
+                285
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                260,
+                384,
+                283
+            ],
+            "text": "9.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                301,
+                385,
+                323
+            ],
+            "text": "80.300",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

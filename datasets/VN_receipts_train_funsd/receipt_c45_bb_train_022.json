@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                82,
+                36,
+                352,
+                54
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                89,
+                45,
+                380,
+                77
+            ],
+            "text": "Số 450 Trần Hưng Đạo, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                203,
+                150,
+                422,
+                166
+            ],
+            "text": "Ngày 30 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                117,
+                256,
+                228,
+                271
+            ],
+            "text": "1.782.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

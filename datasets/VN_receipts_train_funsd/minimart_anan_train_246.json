@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                124,
+                27,
+                288,
+                48
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                52,
+                394,
+                73
+            ],
+            "text": "Số 33 Lê Lợi, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                172,
+                211,
+                194
+            ],
+            "text": "10/06/2026 16:16",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                243,
+                165,
+                265
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                252,
+                243,
+                261,
+                264
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                282,
+                242,
+                335,
+                263
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                243,
+                394,
+                264
+            ],
+            "text": "175.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                269,
+                211,
+                292
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                267,
+                270,
+                276,
+                290
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                297,
+                269,
+                335,
+                290
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                349,
+                268,
+                394,
+                290
+            ],
+            "text": "24.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                297,
+                158,
+                318
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                295,
+                267,
+                316
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                296,
+                335,
+                317
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                295,
+                394,
+                316
+            ],
+            "text": "48.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                342,
+                336,
+                394,
+                356
+            ],
+            "text": "266.760",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

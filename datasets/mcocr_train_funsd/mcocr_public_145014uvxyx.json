@@ -2,282 +2,232 @@
     "form": [
         {
             "box": [
-                292,
-                0,
-                559,
-                101
+                131,
+                897,
+                520,
+                937
             ],
-            "text": "FIVE",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                296,
-                321,
-                553,
-                354
+                263,
+                871,
+                410,
+                902
             ],
-            "text": "MINIMARTANAN",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                259,
-                354,
-                582,
-                387
+                79,
+                825,
+                584,
+                868
             ],
-            "text": "Cho Sui Phü Thi Gia Lam",
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                48,
+                791,
+                215,
+                815
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                75,
-                377,
-                132,
-                404
+                506,
+                778,
+                585,
+                803
             ],
-            "text": "Tel:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                248,
-                430,
-                598,
-                466
+                505,
+                740,
+                585,
+                765
             ],
-            "text": "HOADONBAN HANG",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                100,
-                465,
+                58,
+                745,
+                224,
+                774
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                57,
                 710,
-                505
+                173,
+                741
             ],
-            "text": "Tén hang....SL...DVT....Don gia...Thanh tien",
-            "label": "OTHER"
+            "text": "Tổng tiền:",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                91,
-                500,
-                527,
-                528
-            ],
-            "text": "291019090000sabavi180ml NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                83,
-                531,
-                252,
-                556
-            ],
-            "text": "Giadang ky:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                486,
-                536,
-                559,
-                559
-            ],
-            "text": "6,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                80,
-                563,
-                201,
-                587
-            ],
-            "text": "Gia bän:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                225,
-                566,
-                268,
-                586
-            ],
-            "text": "12",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                321,
-                567,
-                376,
-                586
-            ],
-            "text": "HOP",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                485,
-                567,
-                558,
-                591
-            ],
-            "text": "5,750",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                641,
-                567,
-                730,
-                592
+                514,
+                703,
+                583,
+                729
             ],
             "text": "69,000",
-            "label": "OTHER"
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                66,
-                607,
-                190,
-                636
+                61,
+                666,
+                186,
+                694
             ],
-            "text": "Tong so:",
-            "label": "OTHER"
+            "text": "Tổng cộng:",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                268,
-                612,
-                309,
-                637
+                512,
+                659,
+                582,
+                683
             ],
-            "text": "12",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                63,
-                636,
-                227,
-                670
-            ],
-            "text": "T&ng cong :",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                653,
-                640,
-                743,
-                663
-            ],
-            "text": "69,000",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
                 62,
-                685,
-                207,
-                711
+                633,
+                156,
+                661
             ],
-            "text": "Töng tien :",
+            "text": "Tổng số:",
             "label": "OTHER"
         },
         {
             "box": [
-                652,
-                680,
-                747,
-                709
+                504,
+                586,
+                571,
+                610
             ],
-            "text": "69,000",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                61,
-                719,
-                274,
-                741
+                383,
+                588,
+                437,
+                610
             ],
-            "text": "Tien khäch tra:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                393,
-                718,
-                462,
-                746
+                72,
+                588,
+                162,
+                612
             ],
-            "text": "VND",
+            "text": "Giá bán:",
             "label": "OTHER"
         },
         {
             "box": [
-                641,
-                718,
-                746,
-                741
+                382,
+                555,
+                439,
+                579
             ],
-            "text": "200,000",
+            "text": "000",
             "label": "OTHER"
         },
         {
             "box": [
-                45,
-                762,
-                263,
-                784
+                74,
+                554,
+                203,
+                579
             ],
-            "text": "Tien tralaiVND",
+            "text": "Giá đăng ký:",
             "label": "OTHER"
         },
         {
             "box": [
-                640,
-                753,
-                747,
-                782
+                79,
+                523,
+                415,
+                549
             ],
-            "text": "131,000",
+            "text": "291019090000 sữa ba vì 180ml NT",
             "label": "OTHER"
         },
         {
             "box": [
-                83,
-                800,
-                744,
-                838
+                85,
+                488,
+                552,
+                519
             ],
-            "text": "SGD000AC2212008002290 Ngay16/08/2020-17:03",
+            "text": "Tên hàng SL ĐVT Đơn giá Thành tiền",
             "label": "OTHER"
         },
         {
             "box": [
-                321,
-                843,
-                516,
-                874
+                200,
+                449,
+                466,
+                484
             ],
-            "text": "Thu ngan:BH3",
+            "text": "HÓA ĐƠN BÁN HÀNG",
             "label": "OTHER"
         },
         {
             "box": [
-                149,
-                869,
-                657,
-                906
+                206,
+                373,
+                453,
+                402
             ],
-            "text": "Xin cäm on va hen gäp lai quy khäch !",
+            "text": "Chợ Sủi Phú Thị Gia Lâm",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                233,
+                339,
+                429,
+                367
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                231,
+                15,
+                427,
+                106
+            ],
+            "text": "FIVE",
             "label": "OTHER"
         }
     ]

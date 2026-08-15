@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                132,
+                28,
+                252,
+                48
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                152,
+                68,
+                268,
+                89
+            ],
+            "text": "22/05/2026 20:48",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                50,
+                123,
+                181,
+                144
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                123,
+                359,
+                143
+            ],
+            "text": "54,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                50,
+                150,
+                217,
+                173
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                149,
+                359,
+                169
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                51,
+                178,
+                225,
+                201
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                177,
+                359,
+                197
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                208,
+                360,
+                232
+            ],
+            "text": "185,900",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

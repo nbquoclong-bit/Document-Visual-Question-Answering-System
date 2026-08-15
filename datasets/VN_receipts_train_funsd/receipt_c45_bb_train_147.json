@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                98,
+                34,
+                368,
+                50
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                104,
+                43,
+                403,
+                75
+            ],
+            "text": "Số 356 Bùi Thị Xuân, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                219,
+                153,
+                436,
+                169
+            ],
+            "text": "Ngày 12 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                132,
+                261,
+                243,
+                278
+            ],
+            "text": "1.870.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

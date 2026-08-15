@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                151,
+                34,
+                268,
+                57
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                82,
+                53,
+                336,
+                77
+            ],
+            "text": "Số 409 Nguyễn Huệ, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                72,
+                159,
+                190,
+                181
+            ],
+            "text": "26/05/2026 12:40",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                25,
+                248,
+                223,
+                271
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                240,
+                251,
+                247,
+                271
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                269,
+                251,
+                313,
+                272
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                253,
+                391,
+                272
+            ],
+            "text": "42,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                276,
+                165,
+                297
+            ],
+            "text": "Sữa chua uống Proby",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                247,
+                278,
+                254,
+                299
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                276,
+                280,
+                313,
+                299
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                279,
+                391,
+                300
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                303,
+                142,
+                326
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                240,
+                306,
+                247,
+                327
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                269,
+                306,
+                313,
+                328
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                307,
+                391,
+                328
+            ],
+            "text": "44,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                332,
+                209,
+                353
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                240,
+                333,
+                247,
+                355
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                269,
+                334,
+                313,
+                355
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                335,
+                391,
+                356
+            ],
+            "text": "16,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                420,
+                393,
+                441
+            ],
+            "text": "136,080đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

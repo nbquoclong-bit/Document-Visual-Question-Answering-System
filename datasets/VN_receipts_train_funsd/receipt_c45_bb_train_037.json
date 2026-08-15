@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                98,
+                39,
+                364,
+                54
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                105,
+                49,
+                385,
+                79
+            ],
+            "text": "Số 154 Lý Thường Kiệt, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                220,
+                157,
+                433,
+                172
+            ],
+            "text": "Ngày 24 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                137,
+                265,
+                249,
+                280
+            ],
+            "text": "1.998.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

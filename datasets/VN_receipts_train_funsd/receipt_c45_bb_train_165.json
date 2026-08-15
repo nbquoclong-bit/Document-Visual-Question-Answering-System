@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                83,
+                27,
+                328,
+                42
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                91,
+                36,
+                399,
+                66
+            ],
+            "text": "Số 194 Cách Mạng Tháng Tám, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                208,
+                143,
+                428,
+                158
+            ],
+            "text": "Ngày 07 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                119,
+                251,
+                217,
+                266
+            ],
+            "text": "378.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

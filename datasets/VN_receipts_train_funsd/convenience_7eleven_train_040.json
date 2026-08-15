@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                134,
+                16,
+                251,
+                38
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                151,
+                57,
+                269,
+                79
+            ],
+            "text": "08/06/2026 20:02",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                47,
+                112,
+                165,
+                134
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                114,
+                364,
+                136
+            ],
+            "text": "80,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                47,
+                140,
+                179,
+                162
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                143,
+                364,
+                164
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                174,
+                363,
+                199
+            ],
+            "text": "107,800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

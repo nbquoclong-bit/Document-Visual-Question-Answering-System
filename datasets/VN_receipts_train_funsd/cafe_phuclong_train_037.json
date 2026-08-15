@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                128,
+                19,
+                247,
+                44
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                58,
+                41,
+                317,
+                67
+            ],
+            "text": "Số 152 Nguyễn Huệ, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                16,
+                159,
+                135,
+                184
+            ],
+            "text": "20/06/2026 16:05",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                243,
+                25,
+                265
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                240,
+                139,
+                264
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                236,
+                362,
+                258
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                270,
+                25,
+                292
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                267,
+                155,
+                291
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                261,
+                362,
+                284
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                341,
+                362,
+                364
+            ],
+            "text": "340,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

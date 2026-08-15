@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                161,
+                27,
+                256,
+                48
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                24,
+                49,
+                391,
+                72
+            ],
+            "text": "Số 227 Lê Lợi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                96,
+                168,
+                216,
+                189
+            ],
+            "text": "13/06/2026 17:35",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                238,
+                162,
+                259
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                258,
+                239,
+                267,
+                259
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                287,
+                239,
+                332,
+                259
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                239,
+                391,
+                260
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                264,
+                177,
+                285
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                258,
+                265,
+                267,
+                285
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                287,
+                265,
+                331,
+                285
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                265,
+                390,
+                285
+            ],
+            "text": "96.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                305,
+                392,
+                326
+            ],
+            "text": "140.800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

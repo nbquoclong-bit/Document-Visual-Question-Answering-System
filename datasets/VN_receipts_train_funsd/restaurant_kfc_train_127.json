@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                131,
+                20,
+                282,
+                42
+            ],
+            "text": "KFC Nguyễn Ảnh Thủ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                57,
+                43,
+                355,
+                64
+            ],
+            "text": "Số 165 Trần Hưng Đạo, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                161,
+                206,
+                183
+            ],
+            "text": "04/06/2026 21:46",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                242,
+                167,
+                263
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                215,
+                242,
+                225,
+                263
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                241,
+                295,
+                262
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                242,
+                391,
+                263
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                271,
+                166,
+                293
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                215,
+                272,
+                226,
+                293
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                246,
+                272,
+                294,
+                292
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                273,
+                391,
+                294
+            ],
+            "text": "72,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                301,
+                124,
+                323
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                215,
+                302,
+                224,
+                323
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                242,
+                303,
+                295,
+                324
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                302,
+                391,
+                324
+            ],
+            "text": "88,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                323,
+                413,
+                382,
+                435
+            ],
+            "text": "257,040",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

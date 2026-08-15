@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                161,
+                30,
+                256,
+                50
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                22,
+                52,
+                391,
+                74
+            ],
+            "text": "Số 433 Lý Thường Kiệt, Quận Ba Đình, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                96,
+                173,
+                214,
+                195
+            ],
+            "text": "26/05/2026 20:22",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                244,
+                199,
+                266
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                272,
+                245,
+                279,
+                265
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                301,
+                244,
+                336,
+                265
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                349,
+                244,
+                392,
+                265
+            ],
+            "text": "24.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                271,
+                178,
+                292
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                270,
+                272,
+                290
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                293,
+                270,
+                337,
+                291
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                349,
+                270,
+                392,
+                290
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                298,
+                170,
+                318
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                272,
+                296,
+                279,
+                318
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                301,
+                296,
+                337,
+                317
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                349,
+                297,
+                392,
+                316
+            ],
+            "text": "36.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                336,
+                392,
+                358
+            ],
+            "text": "136.400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

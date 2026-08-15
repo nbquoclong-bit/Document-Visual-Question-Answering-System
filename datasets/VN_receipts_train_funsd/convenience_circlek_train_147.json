@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                21,
+                255,
+                43
+            ],
+            "text": "Circle K Lê Lợi",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                70,
+                51,
+                344,
+                77
+            ],
+            "text": "Số 225 Bùi Thị Xuân, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                75,
+                170,
+                192,
+                193
+            ],
+            "text": "10/06/2026 10:53",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                259,
+                198,
+                283
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                244,
+                259,
+                252,
+                280
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                258,
+                256,
+                295,
+                279
+            ],
+            "text": "6,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                255,
+                387,
+                277
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                286,
+                169,
+                309
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                244,
+                284,
+                252,
+                306
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                258,
+                282,
+                294,
+                304
+            ],
+            "text": "9,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                283,
+                386,
+                303
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                311,
+                191,
+                336
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                311,
+                245,
+                332
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                310,
+                294,
+                331
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                308,
+                387,
+                330
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                339,
+                161,
+                362
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                337,
+                244,
+                358
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                336,
+                295,
+                358
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                334,
+                386,
+                357
+            ],
+            "text": "48,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                330,
+                420,
+                388,
+                442
+            ],
+            "text": "134,200đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

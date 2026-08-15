@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                101,
+                84,
+                270,
+                110
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                49,
+                103,
+                323,
+                132
+            ],
+            "text": "Số 336 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                42,
+                168,
+                115,
+                193
+            ],
+            "text": "20/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                290,
+                139,
+                313
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                288,
+                240,
+                309
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                286,
+                362,
+                307
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                14,
+                322,
+                154,
+                345
+            ],
+            "text": "Caramel Macchiato L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                321,
+                240,
+                342
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                318,
+                362,
+                340
+            ],
+            "text": "85,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                415,
+                361,
+                436
+            ],
+            "text": "159,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

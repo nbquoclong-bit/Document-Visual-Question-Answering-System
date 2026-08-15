@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                27,
+                268,
+                53
+            ],
+            "text": "HIGHLANDS COFFEE LÊ LỢI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                28,
+                45,
+                343,
+                76
+            ],
+            "text": "Số 330 Trần Hưng Đạo, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                189,
+                186,
+                214
+            ],
+            "text": "11/06/2026 10:48",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                256,
+                30,
+                277
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                251,
+                170,
+                276
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                245,
+                353,
+                267
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                283,
+                30,
+                303
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                279,
+                141,
+                302
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                303,
+                271,
+                353,
+                294
+            ],
+            "text": "140,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                304,
+                332,
+                353,
+                355
+            ],
+            "text": "174,900",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

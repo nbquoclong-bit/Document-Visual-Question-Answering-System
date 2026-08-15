@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                132,
+                21,
+                248,
+                47
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                59,
+                39,
+                320,
+                71
+            ],
+            "text": "Số 94 Nguyễn Trãi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                72,
+                181,
+                188,
+                205
+            ],
+            "text": "02/06/2026 13:32",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                241,
+                29,
+                262
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                240,
+                144,
+                265
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                248,
+                357,
+                271
+            ],
+            "text": "105,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                268,
+                29,
+                289
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                269,
+                188,
+                293
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                274,
+                356,
+                297
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                335,
+                357,
+                357
+            ],
+            "text": "277,020",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

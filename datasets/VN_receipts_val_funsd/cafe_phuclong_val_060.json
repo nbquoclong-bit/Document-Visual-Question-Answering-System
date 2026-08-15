@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                108,
+                16,
+                270,
+                39
+            ],
+            "text": "PHÚC LONG TEA & COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                19,
+                38,
+                360,
+                84
+            ],
+            "text": "Số 129 Nguyễn Huệ, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                19,
+                176,
+                135,
+                197
+            ],
+            "text": "24/05/2026 16:56",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                255,
+                27,
+                277
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                255,
+                213,
+                276
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                254,
+                360,
+                276
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                282,
+                27,
+                302
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                281,
+                192,
+                303
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                281,
+                360,
+                302
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                362,
+                360,
+                383
+            ],
+            "text": "172,800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

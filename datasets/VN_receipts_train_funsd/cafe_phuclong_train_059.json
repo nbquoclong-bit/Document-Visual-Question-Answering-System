@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                124,
+                26,
+                238,
+                51
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                45,
+                355,
+                96
+            ],
+            "text": "Số 359 Cách Mạng Tháng Tám, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                16,
+                184,
+                128,
+                205
+            ],
+            "text": "24/05/2026 21:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                263,
+                23,
+                282
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                263,
+                175,
+                283
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                306,
+                263,
+                352,
+                284
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                288,
+                24,
+                308
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                288,
+                147,
+                309
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                299,
+                290,
+                353,
+                311
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                313,
+                24,
+                333
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                48,
+                314,
+                132,
+                334
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                299,
+                316,
+                352,
+                338
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                299,
+                396,
+                352,
+                418
+            ],
+            "text": "407,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

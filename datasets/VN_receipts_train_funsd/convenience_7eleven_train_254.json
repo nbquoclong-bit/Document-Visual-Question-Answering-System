@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                125,
+                26,
+                246,
+                55
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                146,
+                67,
+                262,
+                96
+            ],
+            "text": "03/06/2026 10:44",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                44,
+                113,
+                219,
+                147
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                133,
+                353,
+                156
+            ],
+            "text": "10,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                140,
+                176,
+                170
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                161,
+                354,
+                184
+            ],
+            "text": "72,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                192,
+                354,
+                217
+            ],
+            "text": "88,560",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

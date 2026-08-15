@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                154,
+                20,
+                250,
+                42
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                45,
+                389,
+                67
+            ],
+            "text": "Số 415 Hai Bà Trưng, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                167,
+                208,
+                188
+            ],
+            "text": "02/06/2026 09:14",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                238,
+                164,
+                261
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                243,
+                239,
+                251,
+                260
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                273,
+                240,
+                325,
+                262
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                240,
+                390,
+                262
+            ],
+            "text": "700.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                265,
+                179,
+                286
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                251,
+                266,
+                258,
+                288
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                281,
+                266,
+                325,
+                288
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                267,
+                390,
+                289
+            ],
+            "text": "88.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                291,
+                157,
+                314
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                251,
+                293,
+                258,
+                315
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                281,
+                293,
+                325,
+                315
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                293,
+                391,
+                315
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                318,
+                172,
+                341
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                251,
+                319,
+                258,
+                341
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                281,
+                320,
+                325,
+                342
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                320,
+                391,
+                342
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                363,
+                391,
+                384
+            ],
+            "text": "937.200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

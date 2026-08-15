@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                124,
+                18,
+                248,
+                41
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                146,
+                60,
+                264,
+                83
+            ],
+            "text": "11/06/2026 12:14",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                42,
+                115,
+                220,
+                139
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                118,
+                358,
+                140
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                43,
+                144,
+                176,
+                167
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                147,
+                360,
+                170
+            ],
+            "text": "72,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                43,
+                173,
+                220,
+                197
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                176,
+                360,
+                198
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                43,
+                201,
+                220,
+                225
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                322,
+                205,
+                359,
+                226
+            ],
+            "text": "5,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                231,
+                214,
+                253
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                233,
+                360,
+                256
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                266,
+                360,
+                292
+            ],
+            "text": "221,100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

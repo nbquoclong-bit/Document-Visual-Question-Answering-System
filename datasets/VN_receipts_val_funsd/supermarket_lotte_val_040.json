@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                15,
+                250,
+                36
+            ],
+            "text": "SAIGON CO.OP",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                55,
+                36,
+                355,
+                57
+            ],
+            "text": "Số 266 Lý Thường Kiệt, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                62,
+                155,
+                205,
+                176
+            ],
+            "text": "15/06/2026 18:50:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                233,
+                175,
+                254
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                191,
+                262,
+                258,
+                283
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                275,
+                262,
+                282,
+                283
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                326,
+                262,
+                393,
+                283
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                291,
+                167,
+                312
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                183,
+                320,
+                258,
+                341
+            ],
+            "text": "175,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                275,
+                320,
+                282,
+                341
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                318,
+                320,
+                393,
+                341
+            ],
+            "text": "350,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                349,
+                182,
+                370
+            ],
+            "text": "Bia Heineken Lon 330ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                191,
+                378,
+                258,
+                399
+            ],
+            "text": "19,500.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                275,
+                378,
+                282,
+                399
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                326,
+                378,
+                393,
+                399
+            ],
+            "text": "78,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                318,
+                485,
+                393,
+                506
+            ],
+            "text": "496,800.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

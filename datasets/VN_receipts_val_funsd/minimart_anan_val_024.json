@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                38,
+                257,
+                60
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                19,
+                62,
+                392,
+                84
+            ],
+            "text": "Số 18 Hai Bà Trưng, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                94,
+                184,
+                214,
+                205
+            ],
+            "text": "04/06/2026 20:26",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                254,
+                168,
+                276
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                272,
+                252,
+                283,
+                274
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                301,
+                252,
+                340,
+                273
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                251,
+                391,
+                272
+            ],
+            "text": "27.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                281,
+                177,
+                303
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                266,
+                278,
+                274,
+                299
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                294,
+                278,
+                338,
+                299
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                278,
+                390,
+                298
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                305,
+                213,
+                329
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                272,
+                304,
+                282,
+                325
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                302,
+                303,
+                339,
+                325
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                302,
+                390,
+                324
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                346,
+                343,
+                390,
+                363
+            ],
+            "text": "81.000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                21,
+                236,
+                43
+            ],
+            "text": "BÁCH HÓA XANH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                30,
+                61,
+                350,
+                87
+            ],
+            "text": "Số 26 Bùi Thị Xuân, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                105,
+                149,
+                216,
+                175
+            ],
+            "text": "07/06/2026 09:11",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                27,
+                238,
+                111,
+                262
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                46,
+                262,
+                53,
+                284
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                211,
+                258,
+                246,
+                280
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                318,
+                255,
+                352,
+                277
+            ],
+            "text": "3,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                27,
+                288,
+                181,
+                313
+            ],
+            "text": "Nước mắm Nam Ngư 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                46,
+                314,
+                53,
+                335
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                204,
+                310,
+                246,
+                330
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                310,
+                306,
+                352,
+                328
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                27,
+                339,
+                146,
+                364
+            ],
+            "text": "Thịt đùi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                46,
+                364,
+                53,
+                386
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                204,
+                359,
+                246,
+                382
+            ],
+            "text": "68,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                304,
+                357,
+                352,
+                379
+            ],
+            "text": "204,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                304,
+                417,
+                352,
+                439
+            ],
+            "text": "320,100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

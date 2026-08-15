@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                161,
+                34,
+                254,
+                55
+            ],
+            "text": "Circle K Lê Lợi",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                52,
+                63,
+                362,
+                86
+            ],
+            "text": "Số 396 Hai Bà Trưng, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                81,
+                178,
+                194,
+                199
+            ],
+            "text": "08/06/2026 09:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                31,
+                265,
+                194,
+                285
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                238,
+                264,
+                246,
+                285
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                252,
+                264,
+                295,
+                285
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                264,
+                384,
+                285
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                31,
+                290,
+                206,
+                331
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                245,
+                300,
+                253,
+                320
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                259,
+                300,
+                295,
+                321
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                300,
+                383,
+                320
+            ],
+            "text": "16,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                392,
+                386,
+                413
+            ],
+            "text": "50,600đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

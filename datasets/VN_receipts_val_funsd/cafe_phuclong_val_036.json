@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                14,
+                249,
+                36
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                36,
+                37,
+                343,
+                60
+            ],
+            "text": "Số 147 Nguyễn Huệ, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                16,
+                152,
+                135,
+                174
+            ],
+            "text": "15/06/2026 20:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                233,
+                24,
+                255
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                233,
+                185,
+                256
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                234,
+                363,
+                256
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                261,
+                23,
+                282
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                260,
+                215,
+                282
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                261,
+                363,
+                283
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                342,
+                363,
+                364
+            ],
+            "text": "264,600",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

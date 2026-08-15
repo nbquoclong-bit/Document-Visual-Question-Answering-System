@@ -2,223 +2,203 @@
     "form": [
         {
             "box": [
-                326,
-                177,
-                647,
-                200
+                247,
+                1143,
+                736,
+                1191
             ],
-            "text": "CUAHANGNAMOANH",
+            "text": "Cẩm ơn quý khách. Hẹn gặp lại:",
             "label": "OTHER"
         },
         {
             "box": [
-                322,
-                239,
-                649,
-                262
+                743,
+                1053,
+                883,
+                1093
             ],
-            "text": "0869322496-02438765210",
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                110,
+                1040,
+                368,
+                1094
+            ],
+            "text": "Cộng tiền hàng",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                760,
+                976,
+                881,
+                1016
+            ],
+            "text": "14,500",
             "label": "OTHER"
         },
         {
             "box": [
-                333,
-                313,
-                634,
-                340
+                417,
+                975,
+                528,
+                1010
             ],
-            "text": "IGADONBAN HANG",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                144,
-                359,
-                322,
-                380
+                123,
+                910,
+                591,
+                953
             ],
-            "text": "S6:SON55655",
+            "text": "BVS Diana dày kc siêu thâm",
             "label": "OTHER"
         },
         {
             "box": [
-                610,
-                356,
-                833,
-                382
+                756,
+                848,
+                876,
+                888
             ],
-            "text": "Ngay:12-08-2020",
+            "text": "005 81",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                416,
+                842,
+                530,
+                884
+            ],
+            "text": "005 81",
             "label": "OTHER"
         },
         {
             "box": [
                 129,
-                443,
-                179,
-                473
+                789,
+                639,
+                827
             ],
-            "text": "SL",
+            "text": "BVS Scnsi Cool móng cánh 8m",
             "label": "OTHER"
         },
         {
             "box": [
-                406,
-                449,
-                516,
-                474
+                735,
+                728,
+                868,
+                763
             ],
-            "text": "Don gia",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                675,
-                441,
-                840,
-                471
+                412,
+                724,
+                541,
+                764
             ],
-            "text": "Thanh tien",
+            "text": "000 Sti",
             "label": "OTHER"
         },
         {
             "box": [
-                131,
-                488,
-                486,
-                517
+                139,
+                670,
+                499,
+                709
             ],
-            "text": "NG Ariel Diu nhe 3.1L",
+            "text": "NG Ariel Dịu nhẹ 3.1L",
             "label": "OTHER"
         },
         {
             "box": [
-                125,
-                528,
-                150,
-                555
+                417,
+                612,
+                533,
+                652
             ],
-            "text": "1",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                395,
-                528,
-                526,
-                560
+                697,
+                608,
+                862,
+                642
             ],
-            "text": "145,000",
+            "text": "Thành tiền",
             "label": "OTHER"
         },
         {
             "box": [
-                714,
-                532,
-                846,
-                558
+                626,
+                489,
+                855,
+                523
             ],
-            "text": "145,000",
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                149,
+                489,
+                331,
+                524
+            ],
+            "text": "Số: SON55655",
             "label": "OTHER"
         },
         {
             "box": [
-                120,
-                572,
-                622,
-                606
+                344,
+                429,
+                652,
+                469
             ],
-            "text": "BVS Scnsi Cool nong canh 8n",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                405,
-                617,
-                515,
-                647
+                333,
+                331,
+                667,
+                361
             ],
-            "text": "18,500",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                734,
-                619,
-                852,
-                649
+                158,
+                275,
+                845,
+                327
             ],
-            "text": "18,500",
-            "label": "OTHER"
+            "text": "",
+            "label": "ADDRESS"
         },
         {
             "box": [
-                115,
+                335,
+                244,
                 663,
-                575,
-                695
+                275
             ],
-            "text": "BVS Diana day kc sieu tham",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                109,
-                708,
-                134,
-                736
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                400,
-                710,
-                514,
-                740
-            ],
-            "text": "14,500",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                738,
-                714,
-                856,
-                743
-            ],
-            "text": "14,500",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                101,
-                761,
-                354,
-                799
-            ],
-            "text": "Cong tién hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                721,
-                769,
-                858,
-                800
-            ],
-            "text": "178,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                235,
-                835,
-                715,
-                871
-            ],
-            "text": "Cam onquykhach.Hengap tai",
-            "label": "OTHER"
+            "text": "HNYO WVN ĐNVH VN",
+            "label": "SELLER"
         }
     ]
 }

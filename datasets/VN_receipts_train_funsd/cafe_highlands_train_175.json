@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                21,
+                248,
+                44
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                46,
+                39,
+                330,
+                65
+            ],
+            "text": "Số 234 Trần Hưng Đạo, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                70,
+                179,
+                188,
+                201
+            ],
+            "text": "13/06/2026 16:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                241,
+                27,
+                263
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                241,
+                143,
+                264
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                244,
+                360,
+                265
+            ],
+            "text": "105,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                268,
+                27,
+                288
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                268,
+                173,
+                290
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                270,
+                360,
+                291
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                294,
+                27,
+                316
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                47,
+                295,
+                194,
+                317
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                296,
+                360,
+                317
+            ],
+            "text": "58,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                322,
+                27,
+                342
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                47,
+                321,
+                179,
+                343
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                322,
+                360,
+                344
+            ],
+            "text": "39,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                383,
+                360,
+                404
+            ],
+            "text": "226,746",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

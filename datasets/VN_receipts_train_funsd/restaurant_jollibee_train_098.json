@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                147,
+                29,
+                262,
+                50
+            ],
+            "text": "JOLLIBEE PASTEUR",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                47,
+                49,
+                360,
+                71
+            ],
+            "text": "Số 90 Trần Hưng Đạo, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                159,
+                186,
+                180
+            ],
+            "text": "09/06/2026 18:45",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                253,
+                176,
+                275
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                253,
+                234,
+                274
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                253,
+                299,
+                273
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                252,
+                386,
+                273
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                284,
+                183,
+                305
+            ],
+            "text": "Gà Giòn Vui Vẻ 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                283,
+                234,
+                304
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                283,
+                299,
+                304
+            ],
+            "text": "35,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                282,
+                386,
+                303
+            ],
+            "text": "70,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                329,
+                370,
+                388,
+                391
+            ],
+            "text": "132,000đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                99,
+                19,
+                302,
+                42
+            ],
+            "text": "CO.OP FOOD NGUYỄN ĐÌNH CHIỂU",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                39,
+                335,
+                63
+            ],
+            "text": "Số 184 Nguyễn Huệ, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                63,
+                155,
+                202,
+                177
+            ],
+            "text": "21/05/2026 13:12:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                231,
+                172,
+                253
+            ],
+            "text": "Bánh quy Cosy Kinh Đô",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                184,
+                261,
+                250,
+                282
+            ],
+            "text": "22,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                265,
+                262,
+                274,
+                282
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                318,
+                262,
+                383,
+                283
+            ],
+            "text": "44,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                288,
+                179,
+                310
+            ],
+            "text": "Nước cam ép Twister 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                184,
+                317,
+                250,
+                338
+            ],
+            "text": "28,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                265,
+                318,
+                274,
+                339
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                318,
+                318,
+                382,
+                339
+            ],
+            "text": "56,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                422,
+                382,
+                443
+            ],
+            "text": "108,000.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

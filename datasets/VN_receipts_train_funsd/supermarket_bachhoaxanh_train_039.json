@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                141,
+                34,
+                237,
+                57
+            ],
+            "text": "BÁCH HÓA XANH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                46,
+                75,
+                334,
+                98
+            ],
+            "text": "Số 359 Lý Thường Kiệt, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                99,
+                163,
+                217,
+                186
+            ],
+            "text": "15/06/2026 21:33",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                248,
+                106,
+                271
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                38,
+                271,
+                46,
+                292
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                211,
+                274,
+                248,
+                295
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                325,
+                275,
+                362,
+                297
+            ],
+            "text": "3,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                299,
+                158,
+                322
+            ],
+            "text": "Rau muống nước 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                39,
+                321,
+                47,
+                342
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                211,
+                324,
+                248,
+                345
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                317,
+                325,
+                361,
+                347
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                317,
+                386,
+                361,
+                407
+            ],
+            "text": "38,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

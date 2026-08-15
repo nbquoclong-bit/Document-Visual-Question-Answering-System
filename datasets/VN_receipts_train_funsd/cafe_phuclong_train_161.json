@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                111,
+                30,
+                270,
+                54
+            ],
+            "text": "PHÚC LONG TEA & COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                29,
+                49,
+                348,
+                77
+            ],
+            "text": "Số 192 Bùi Thị Xuân, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                18,
+                157,
+                136,
+                178
+            ],
+            "text": "21/05/2026 07:03",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                232,
+                26,
+                253
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                54,
+                233,
+                194,
+                256
+            ],
+            "text": "Trà sữa Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                239,
+                359,
+                259
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                258,
+                26,
+                277
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                258,
+                157,
+                280
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                263,
+                360,
+                284
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                338,
+                360,
+                358
+            ],
+            "text": "253,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

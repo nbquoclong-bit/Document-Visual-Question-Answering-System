@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                146,
+                16,
+                266,
+                38
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                64,
+                37,
+                347,
+                60
+            ],
+            "text": "Số 118 Nguyễn Trãi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                148,
+                185,
+                169
+            ],
+            "text": "28/05/2026 10:55",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                243,
+                138,
+                264
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                242,
+                240,
+                264
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                242,
+                305,
+                264
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                243,
+                392,
+                263
+            ],
+            "text": "88,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                270,
+                198,
+                292
+            ],
+            "text": "Mì trộn Indomie đặc biệt",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                231,
+                271,
+                240,
+                293
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                271,
+                305,
+                292
+            ],
+            "text": "12,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                272,
+                392,
+                293
+            ],
+            "text": "48,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                334,
+                361,
+                394,
+                382
+            ],
+            "text": "146,880đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

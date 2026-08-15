@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                136,
+                26,
+                247,
+                48
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                76,
+                46,
+                305,
+                68
+            ],
+            "text": "Số 401 Lê Lợi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                77,
+                180,
+                190,
+                202
+            ],
+            "text": "28/05/2026 16:01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                26,
+                242,
+                35,
+                263
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                239,
+                195,
+                263
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                304,
+                236,
+                353,
+                257
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                268,
+                34,
+                289
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                265,
+                181,
+                289
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                262,
+                353,
+                283
+            ],
+            "text": "78,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                27,
+                294,
+                35,
+                315
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                53,
+                291,
+                207,
+                315
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                304,
+                287,
+                353,
+                309
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                305,
+                348,
+                352,
+                369
+            ],
+            "text": "426,360",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

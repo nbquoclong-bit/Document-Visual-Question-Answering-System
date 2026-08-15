@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                128,
+                40,
+                280,
+                61
+            ],
+            "text": "KFC Nguyễn Ảnh Thủ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                68,
+                62,
+                340,
+                84
+            ],
+            "text": "Số 91 Trần Hưng Đạo, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                178,
+                202,
+                200
+            ],
+            "text": "25/05/2026 17:26",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                255,
+                146,
+                277
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                204,
+                258,
+                211,
+                278
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                233,
+                258,
+                285,
+                281
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                261,
+                389,
+                282
+            ],
+            "text": "28,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                285,
+                122,
+                307
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                201,
+                287,
+                212,
+                309
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                234,
+                288,
+                284,
+                310
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                290,
+                389,
+                312
+            ],
+            "text": "66,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                319,
+                399,
+                379,
+                421
+            ],
+            "text": "103,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

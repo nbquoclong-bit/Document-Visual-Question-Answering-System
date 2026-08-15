@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                104,
+                20,
+                308,
+                45
+            ],
+            "text": "CO.OP FOOD NGUYỄN ĐÌNH CHIỂU",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                70,
+                40,
+                342,
+                67
+            ],
+            "text": "Số 130 Lê Lợi, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                160,
+                207,
+                183
+            ],
+            "text": "09/06/2026 09:30:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                237,
+                178,
+                261
+            ],
+            "text": "Bánh quy Cosy Kinh Đô",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                192,
+                264,
+                258,
+                286
+            ],
+            "text": "22,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                274,
+                264,
+                282,
+                284
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                324,
+                262,
+                390,
+                284
+            ],
+            "text": "66,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                294,
+                178,
+                317
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                192,
+                321,
+                259,
+                343
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                274,
+                321,
+                281,
+                341
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                316,
+                319,
+                390,
+                341
+            ],
+            "text": "128,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                351,
+                170,
+                374
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                185,
+                378,
+                259,
+                400
+            ],
+            "text": "175,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                274,
+                378,
+                282,
+                398
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                317,
+                376,
+                390,
+                398
+            ],
+            "text": "525,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                316,
+                481,
+                390,
+                502
+            ],
+            "text": "790,900.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                18,
+                254,
+                42
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                152,
+                59,
+                269,
+                83
+            ],
+            "text": "27/05/2026 15:33",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                48,
+                111,
+                217,
+                137
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                119,
+                364,
+                141
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                48,
+                138,
+                223,
+                165
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                147,
+                363,
+                169
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                48,
+                166,
+                223,
+                195
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                175,
+                363,
+                198
+            ],
+            "text": "10,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                207,
+                363,
+                232
+            ],
+            "text": "156,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

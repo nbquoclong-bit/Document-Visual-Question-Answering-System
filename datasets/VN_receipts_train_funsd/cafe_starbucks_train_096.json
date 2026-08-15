@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                114,
+                93,
+                271,
+                115
+            ],
+            "text": "STARBUCKS NEW WORLD",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                22,
+                112,
+                359,
+                157
+            ],
+            "text": "Số 248 Cách Mạng Tháng Tám, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                49,
+                193,
+                123,
+                216
+            ],
+            "text": "18/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                313,
+                139,
+                336
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                310,
+                244,
+                330
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                309,
+                307,
+                359,
+                328
+            ],
+            "text": "160,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                344,
+                146,
+                368
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                341,
+                244,
+                362
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                307,
+                338,
+                359,
+                360
+            ],
+            "text": "225,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                430,
+                358,
+                452
+            ],
+            "text": "415,800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

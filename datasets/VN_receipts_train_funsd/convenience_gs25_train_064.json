@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                162,
+                19,
+                250,
+                40
+            ],
+            "text": "GS25 THỦ ĐỨC",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                32,
+                39,
+                380,
+                61
+            ],
+            "text": "Số 160 Lý Thường Kiệt, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                151,
+                187,
+                172
+            ],
+            "text": "14/06/2026 15:19",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                244,
+                140,
+                266
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                243,
+                238,
+                264
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                259,
+                243,
+                304,
+                264
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                242,
+                392,
+                263
+            ],
+            "text": "66,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                272,
+                192,
+                294
+            ],
+            "text": "Cơm nắm cá hồi sốt Mayo",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                229,
+                272,
+                238,
+                293
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                260,
+                271,
+                304,
+                292
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                271,
+                392,
+                292
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                342,
+                359,
+                393,
+                380
+            ],
+            "text": "89,100đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

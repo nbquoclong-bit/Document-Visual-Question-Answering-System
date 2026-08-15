@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                32,
+                254,
+                54
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                52,
+                387,
+                81
+            ],
+            "text": "Số 274 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                96,
+                173,
+                211,
+                196
+            ],
+            "text": "26/05/2026 19:12",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                240,
+                160,
+                263
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                245,
+                261,
+                266
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                283,
+                246,
+                326,
+                268
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                248,
+                385,
+                269
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                266,
+                195,
+                291
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                261,
+                271,
+                269,
+                292
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                289,
+                272,
+                326,
+                294
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                273,
+                385,
+                294
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                292,
+                167,
+                316
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                246,
+                297,
+                254,
+                317
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                275,
+                297,
+                325,
+                319
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                299,
+                385,
+                320
+            ],
+            "text": "175.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                319,
+                188,
+                342
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                322,
+                261,
+                344
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                282,
+                323,
+                325,
+                345
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                324,
+                385,
+                345
+            ],
+            "text": "30.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                364,
+                384,
+                386
+            ],
+            "text": "315.700",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

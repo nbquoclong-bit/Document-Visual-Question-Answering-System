@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                159,
+                25,
+                252,
+                46
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                47,
+                385,
+                69
+            ],
+            "text": "Số 375 Nguyễn Trãi, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                96,
+                165,
+                210,
+                186
+            ],
+            "text": "13/06/2026 18:42",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                25,
+                234,
+                210,
+                256
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                269,
+                236,
+                276,
+                256
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                297,
+                235,
+                332,
+                255
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                236,
+                385,
+                257
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                260,
+                168,
+                281
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                269,
+                261,
+                276,
+                282
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                297,
+                262,
+                333,
+                282
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                261,
+                386,
+                281
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                301,
+                386,
+                322
+            ],
+            "text": "36.720",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

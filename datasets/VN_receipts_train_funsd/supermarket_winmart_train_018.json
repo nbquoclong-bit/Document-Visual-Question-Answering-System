@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                153,
+                29,
+                258,
+                50
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                37,
+                63,
+                372,
+                86
+            ],
+            "text": "Số 271 Lý Thường Kiệt, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                172,
+                186,
+                194
+            ],
+            "text": "12/06/2026 17:43",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                265,
+                160,
+                287
+            ],
+            "text": "Coca Cola Lon 320ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                264,
+                215,
+                285
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                237,
+                263,
+                281,
+                285
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                262,
+                393,
+                283
+            ],
+            "text": "20.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                293,
+                197,
+                316
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                293,
+                215,
+                314
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                292,
+                281,
+                313
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                291,
+                393,
+                312
+            ],
+            "text": "152.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                378,
+                393,
+                399
+            ],
+            "text": "189.200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

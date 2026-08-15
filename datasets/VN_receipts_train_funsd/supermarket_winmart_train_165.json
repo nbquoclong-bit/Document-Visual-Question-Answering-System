@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                153,
+                22,
+                258,
+                43
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                57,
+                385,
+                78
+            ],
+            "text": "Số 29 Cách Mạng Tháng Tám, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                165,
+                185,
+                186
+            ],
+            "text": "05/06/2026 09:29",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                259,
+                195,
+                280
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                259,
+                214,
+                280
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                259,
+                281,
+                280
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                259,
+                395,
+                280
+            ],
+            "text": "152.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                288,
+                188,
+                309
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                214,
+                288,
+                221,
+                309
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                288,
+                281,
+                309
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                358,
+                288,
+                395,
+                309
+            ],
+            "text": "7.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                377,
+                395,
+                398
+            ],
+            "text": "171.720",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

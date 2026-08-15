@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                157,
+                31,
+                246,
+                54
+            ],
+            "text": "GS25 THỦ ĐỨC",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                55,
+                52,
+                350,
+                76
+            ],
+            "text": "Số 196 Lý Thường Kiệt, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                162,
+                182,
+                183
+            ],
+            "text": "26/05/2026 22:06",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                254,
+                135,
+                274
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                217,
+                253,
+                223,
+                274
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                245,
+                253,
+                290,
+                273
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                253,
+                386,
+                274
+            ],
+            "text": "88,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                282,
+                157,
+                301
+            ],
+            "text": "Sữa chua uống Proby",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                222,
+                280,
+                231,
+                303
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                251,
+                281,
+                290,
+                302
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                281,
+                386,
+                303
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                327,
+                369,
+                386,
+                389
+            ],
+            "text": "120,960đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

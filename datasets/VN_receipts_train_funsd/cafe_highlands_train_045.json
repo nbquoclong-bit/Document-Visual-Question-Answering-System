@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                13,
+                247,
+                35
+            ],
+            "text": "HIGHLANDS COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                37,
+                34,
+                341,
+                55
+            ],
+            "text": "Số 382 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                70,
+                172,
+                186,
+                193
+            ],
+            "text": "25/05/2026 22:57",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                234,
+                27,
+                254
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                233,
+                184,
+                255
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                315,
+                233,
+                359,
+                255
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                260,
+                26,
+                282
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                45,
+                261,
+                178,
+                281
+            ],
+            "text": "Phin Sữa Đá Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                260,
+                360,
+                281
+            ],
+            "text": "156,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                288,
+                25,
+                309
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                287,
+                141,
+                308
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                286,
+                359,
+                308
+            ],
+            "text": "140,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                348,
+                360,
+                370
+            ],
+            "text": "403,370",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

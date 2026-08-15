@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                164,
+                22,
+                246,
+                43
+            ],
+            "text": "VINCOMMERCE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                57,
+                395,
+                99
+            ],
+            "text": "Số 41 Lý Thường Kiệt, Quận Tân Bình, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                186,
+                185,
+                207
+            ],
+            "text": "22/05/2026 07:17",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                280,
+                165,
+                301
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                280,
+                214,
+                301
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                280,
+                281,
+                301
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                280,
+                395,
+                301
+            ],
+            "text": "68.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                309,
+                135,
+                330
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                309,
+                214,
+                330
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                309,
+                281,
+                330
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                309,
+                395,
+                330
+            ],
+            "text": "112.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                338,
+                188,
+                359
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                338,
+                214,
+                359
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                338,
+                281,
+                359
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                338,
+                395,
+                359
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                367,
+                205,
+                409
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                206,
+                377,
+                214,
+                398
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                377,
+                281,
+                398
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                350,
+                377,
+                395,
+                398
+            ],
+            "text": "87.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                343,
+                477,
+                395,
+                498
+            ],
+            "text": "313.500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

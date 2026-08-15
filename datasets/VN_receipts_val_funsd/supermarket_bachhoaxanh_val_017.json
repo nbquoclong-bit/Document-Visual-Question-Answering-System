@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                101,
+                20,
+                280,
+                46
+            ],
+            "text": "BÁCH HÓA XANH LÊ ĐỨC THỌ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                79,
+                61,
+                303,
+                88
+            ],
+            "text": "Số 185 Lê Lợi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                99,
+                151,
+                218,
+                177
+            ],
+            "text": "30/05/2026 21:21",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                237,
+                166,
+                262
+            ],
+            "text": "Thịt ba rọi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                260,
+                44,
+                281
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                205,
+                263,
+                250,
+                285
+            ],
+            "text": "75,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                312,
+                266,
+                363,
+                288
+            ],
+            "text": "300,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                288,
+                106,
+                312
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                313,
+                44,
+                333
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                212,
+                315,
+                250,
+                337
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                319,
+                317,
+                363,
+                339
+            ],
+            "text": "12,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                341,
+                159,
+                364
+            ],
+            "text": "Rau muống nước 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                36,
+                364,
+                44,
+                385
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                212,
+                366,
+                250,
+                388
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                319,
+                368,
+                363,
+                390
+            ],
+            "text": "16,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                428,
+                362,
+                451
+            ],
+            "text": "360,800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

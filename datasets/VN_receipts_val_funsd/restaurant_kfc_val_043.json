@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                164,
+                24,
+                247,
+                46
+            ],
+            "text": "KFC Bà Hom",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                79,
+                44,
+                332,
+                70
+            ],
+            "text": "Số 94 Bùi Thị Xuân, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                165,
+                204,
+                188
+            ],
+            "text": "11/06/2026 22:03",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                245,
+                123,
+                268
+            ],
+            "text": "Bắp Cải Trộn L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                214,
+                245,
+                224,
+                265
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                241,
+                243,
+                292,
+                264
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                242,
+                389,
+                264
+            ],
+            "text": "44,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                275,
+                165,
+                298
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                217,
+                274,
+                224,
+                295
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                244,
+                273,
+                292,
+                295
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                273,
+                389,
+                293
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                327,
+                382,
+                379,
+                404
+            ],
+            "text": "68,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

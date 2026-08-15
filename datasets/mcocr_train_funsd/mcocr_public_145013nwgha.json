@@ -2,323 +2,303 @@
     "form": [
         {
             "box": [
-                266,
-                85,
-                583,
-                112
+                79,
+                811,
+                555,
+                843
             ],
-            "text": "MINIMARTANAN",
+            "text": "Xin cám ơn và hẹn gặp lại quý khách",
             "label": "OTHER"
         },
         {
             "box": [
-                223,
-                126,
-                618,
-                150
+                236,
+                775,
+                419,
+                808
             ],
-            "text": "Cho Sui Phu Thi GiaLam",
+            "text": "",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                724,
+                638,
+                758
+            ],
+            "text": "Số GD: 000AC2212008001700 Ngày: 12/08/2020 - 15:31",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                311,
+                665,
+                371,
+                694
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                559,
+                665,
+                648,
+                698
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                10,
+                662,
+                185,
+                687
+            ],
+            "text": "Tiền khách trả:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                560,
+                623,
+                647,
+                650
+            ],
+            "text": "57,000",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
                 3,
-                155,
-                63,
-                178
+                614,
+                128,
+                653
             ],
-            "text": "Tel:",
-            "label": "OTHER"
+            "text": "Tổng tiền :",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                205,
-                212,
-                643,
-                244
+                4,
+                560,
+                142,
+                596
             ],
-            "text": "HOADONBAN HANG",
-            "label": "OTHER"
+            "text": "Tổng cộng:",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                33,
-                255,
-                184,
-                284
-            ],
-            "text": "Ten hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                235,
-                259,
-                397,
-                281
-            ],
-            "text": "SLDVT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                447,
-                255,
-                789,
-                284
-            ],
-            "text": "Don gia Thanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                20,
-                294,
-                748,
-                321
-            ],
-            "text": "291018880000 Banh mi ru8c stass hai chau NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                15,
-                333,
-                205,
-                359
-            ],
-            "text": "Giadang ky",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                502,
-                330,
-                597,
-                361
-            ],
-            "text": "4,500",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                15,
-                375,
-                153,
-                397
-            ],
-            "text": "Giaban:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                184,
-                373,
-                225,
-                393
-            ],
-            "text": "10",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                292,
-                372,
-                359,
-                394
-            ],
-            "text": "CAI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                501,
-                372,
-                593,
-                399
-            ],
-            "text": "4,200",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                707,
-                368,
-                820,
-                398
-            ],
-            "text": "42,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                11,
-                416,
-                708,
-                447
-            ],
-            "text": "291043820000 tuong 6t maggi chai 330g N0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                199,
-                456,
-                229,
-                480
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                290,
-                456,
-                359,
-                480
-            ],
-            "text": "CHA",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                481,
-                453,
-                596,
-                484
-            ],
-            "text": "15,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                713,
-                455,
-                825,
-                481
-            ],
-            "text": "15,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                1,
-                511,
-                130,
-                541
-            ],
-            "text": "Töngso:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                229,
-                515,
-                277,
-                541
-            ],
-            "text": "11",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                0,
-                546,
-                180,
-                583
-            ],
-            "text": "Töngcong:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                721,
-                545,
-                839,
-                575
-            ],
-            "text": "57,1000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                2,
-                602,
-                156,
-                635
-            ],
-            "text": "öng tien:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                721,
-                599,
-                839,
-                631
+                559,
+                565,
+                647,
+                596
             ],
             "text": "57,000",
             "label": "OTHER"
         },
         {
             "box": [
-                3,
-                644,
-                239,
-                669
+                4,
+                524,
+                107,
+                555
             ],
-            "text": "ien khäch tra:",
+            "text": "Tổng số:",
             "label": "OTHER"
         },
         {
             "box": [
-                401,
-                646,
-                480,
-                674
+                180,
+                473,
+                228,
+                492
             ],
-            "text": "VND",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                723,
-                644,
-                841,
-                673
+                225,
+                472,
+                278,
+                492
             ],
-            "text": "57,100",
+            "text": "VHO",
             "label": "OTHER"
         },
         {
             "box": [
-                20,
-                705,
-                828,
-                734
+                554,
+                471,
+                638,
+                499
             ],
-            "text": "SöGD000AC2212008001700Ngay12/08/2020-15:31",
+            "text": "15,000",
             "label": "OTHER"
         },
         {
             "box": [
+                376,
+                468,
+                463,
+                500
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                15,
+                428,
+                549,
+                458
+            ],
+            "text": "291043820000 tương ớt maggi chai 330g NO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                390,
+                383,
+                461,
+                414
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                232,
+                385,
+                280,
+                405
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                550,
+                385,
+                635,
+                412
+            ],
+            "text": "42,000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                14,
+                379,
+                184,
+                412
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                340,
+                167,
+                372
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                391,
+                342,
+                466,
+                376
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                21,
                 303,
-                752,
-                544,
-                785
+                583,
+                332
             ],
-            "text": "Thu nganBH3",
+            "text": "291018880000 Bánh mì ruốc stass hải châu NT",
             "label": "OTHER"
         },
         {
             "box": [
-                98,
-                787,
-                721,
-                821
+                349,
+                266,
+                452,
+                296
             ],
-            "text": "Xin cäm onva hen gap lai quy khäch!",
+            "text": "Đơn giá",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                254,
+                269,
+                307,
+                290
+            ],
+            "text": "ĐVT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                265,
+                150,
+                291
+            ],
+            "text": "Tên hàng",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                476,
+                266,
+                612,
+                292
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                166,
+                218,
+                501,
+                255
+            ],
+            "text": "HOA ĐƠN BÁN HÀNG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                180,
+                131,
+                483,
+                158
+            ],
+            "text": "",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                214,
+                93,
+                454,
+                116
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
         }
     ]
 }

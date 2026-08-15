@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                126,
+                35,
+                281,
+                59
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                55,
+                383,
+                86
+            ],
+            "text": "Số 132 Nguyễn Trãi, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                95,
+                172,
+                208,
+                197
+            ],
+            "text": "26/05/2026 13:55",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                239,
+                158,
+                263
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                246,
+                267,
+                267
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                289,
+                247,
+                331,
+                268
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                249,
+                383,
+                270
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                263,
+                165,
+                288
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                267,
+                272,
+                274,
+                293
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                295,
+                274,
+                331,
+                295
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                275,
+                383,
+                296
+            ],
+            "text": "36.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                290,
+                207,
+                316
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                267,
+                298,
+                274,
+                318
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                295,
+                298,
+                331,
+                319
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                301,
+                383,
+                322
+            ],
+            "text": "8.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                333,
+                340,
+                383,
+                362
+            ],
+            "text": "118.800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

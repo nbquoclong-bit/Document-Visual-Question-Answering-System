@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                121,
+                26,
+                280,
+                57
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                18,
+                43,
+                384,
+                88
+            ],
+            "text": "Số 40 Bùi Thị Xuân, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                88,
+                174,
+                204,
+                201
+            ],
+            "text": "18/06/2026 09:08",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                246,
+                154,
+                275
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                240,
+                261,
+                260
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                283,
+                236,
+                328,
+                258
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                232,
+                384,
+                255
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                271,
+                175,
+                300
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                254,
+                265,
+                261,
+                286
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                284,
+                261,
+                328,
+                284
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                258,
+                384,
+                281
+            ],
+            "text": "44.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                296,
+                183,
+                326
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                255,
+                291,
+                262,
+                312
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                283,
+                287,
+                328,
+                310
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                284,
+                384,
+                306
+            ],
+            "text": "30.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                324,
+                384,
+                347
+            ],
+            "text": "114.480",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

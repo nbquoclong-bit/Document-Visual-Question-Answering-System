@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                150,
+                23,
+                252,
+                45
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                30,
+                56,
+                371,
+                83
+            ],
+            "text": "Số 324 Hai Bà Trưng, Quận Ngũ Hành Sơn, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                165,
+                182,
+                188
+            ],
+            "text": "24/05/2026 18:44",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                258,
+                163,
+                281
+            ],
+            "text": "Bánh Custas Orion 6P",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                202,
+                261,
+                210,
+                281
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                231,
+                260,
+                275,
+                283
+            ],
+            "text": "34.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                334,
+                261,
+                384,
+                283
+            ],
+            "text": "136.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                287,
+                202,
+                331
+            ],
+            "text": "Nước rửa chén Sunlight 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                300,
+                210,
+                320
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                231,
+                299,
+                275,
+                321
+            ],
+            "text": "29.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                300,
+                384,
+                322
+            ],
+            "text": "87.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                337,
+                135,
+                359
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                203,
+                338,
+                210,
+                360
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                231,
+                339,
+                275,
+                360
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                334,
+                339,
+                384,
+                360
+            ],
+            "text": "168.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                334,
+                426,
+                383,
+                448
+            ],
+            "text": "422.280",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

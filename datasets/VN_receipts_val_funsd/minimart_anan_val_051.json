@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                122,
+                21,
+                285,
+                42
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                14,
+                46,
+                392,
+                68
+            ],
+            "text": "Số 296 Nguyễn Trãi, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                168,
+                209,
+                190
+            ],
+            "text": "09/06/2026 20:11",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                240,
+                186,
+                262
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                252,
+                241,
+                260,
+                262
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                283,
+                240,
+                327,
+                262
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                241,
+                392,
+                262
+            ],
+            "text": "20.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                268,
+                164,
+                289
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                246,
+                267,
+                253,
+                289
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                275,
+                267,
+                328,
+                289
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                267,
+                391,
+                289
+            ],
+            "text": "525.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                294,
+                179,
+                314
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                252,
+                294,
+                261,
+                315
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                282,
+                294,
+                328,
+                315
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                294,
+                392,
+                315
+            ],
+            "text": "44.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                335,
+                392,
+                357
+            ],
+            "text": "636.120",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

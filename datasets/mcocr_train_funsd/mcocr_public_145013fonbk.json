@@ -2,163 +2,203 @@
     "form": [
         {
             "box": [
-                342,
-                261,
-                640,
-                293
+                84,
+                705,
+                197,
+                726
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                438,
+                704,
+                465,
+                717
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                119,
+                689,
+                148,
+                701
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                413,
+                684,
+                479,
+                695
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                172,
+                642,
+                413,
+                658
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                225,
+                596,
+                483,
+                623
+            ],
+            "text": "Thành tiền: 25,000",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                407,
+                554,
+                486,
+                583
+            ],
+            "text": "25,000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                180,
+                558,
+                257,
+                581
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                83,
+                523,
+                292,
+                552
+            ],
+            "text": "Café sữa (n/d) - Ly",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                179,
+                493,
+                387,
+                519
+            ],
+            "text": "Đơn giá Số lượng",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                439,
+                492,
+                490,
+                517
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                493,
+                144,
+                517
+            ],
+            "text": "Món",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                127,
+                446,
+                452,
+                475
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                412,
+                416,
+                487,
+                435
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                414,
+                312,
+                436
+            ],
+            "text": "Hóa đơn: HDL201005-0011",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                334,
+                381,
+                488,
+                405
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                379,
+                276,
+                406
+            ],
+            "text": "Ngày lấp: 05/10/2020",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                93,
+                341,
+                479,
+                373
+            ],
+            "text": "28 Phan Chu Trinh, Hiệp Phú, Quận 9, Hồ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                204,
+                312,
+                371,
+                332
+            ],
+            "text": "Tet 098 526 8359",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                199,
+                271,
+                369,
+                302
             ],
             "text": "Guitar Cafe",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                348,
-                300,
-                642,
-                325
-            ],
-            "text": "Tel.0985268359",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                144,
-                367,
-                480,
-                395
-            ],
-            "text": "Ngaylap:05/10/2020",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                574,
-                374,
-                845,
-                392
-            ],
-            "text": "Khu vucTang tret",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                147,
-                401,
-                538,
-                424
-            ],
-            "text": "H6adonHDL201005-0011",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                711,
-                406,
-                842,
-                423
-            ],
-            "text": "Ban:T01",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                217,
-                435,
-                776,
-                462
-            ],
-            "text": "PHIEU TINH TTEN",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                140,
-                477,
-                234,
-                503
-            ],
-            "text": "Mon",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                305,
-                477,
-                668,
-                507
-            ],
-            "text": "Don giá Só iuong",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                756,
-                479,
-                847,
-                505
-            ],
-            "text": "Tién",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                138,
-                511,
-                500,
-                536
-            ],
-            "text": "Café sua (n/d) - Ly",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                302,
-                539,
-                440,
-                568
-            ],
-            "text": "25,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                557,
-                543,
-                588,
-                565
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                706,
-                542,
-                838,
-                565
-            ],
-            "text": "25,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                385,
-                581,
-                833,
-                609
-            ],
-            "text": "Thanh tien: 25,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                291,
-                625,
-                711,
-                643
-            ],
-            "text": "Can cn quykhach,hen gap lat!",
-            "label": "OTHER"
+            "label": "SELLER"
         }
     ]
 }

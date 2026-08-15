@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                112,
+                22,
+                275,
+                54
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                63,
+                40,
+                324,
+                79
+            ],
+            "text": "Số 258 Nguyễn Huệ, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                28,
+                164,
+                141,
+                192
+            ],
+            "text": "20/06/2026 08:29",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                27,
+                249,
+                34,
+                270
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                59,
+                238,
+                214,
+                268
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                228,
+                357,
+                252
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                275,
+                35,
+                296
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                59,
+                265,
+                194,
+                294
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                255,
+                356,
+                278
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                306,
+                333,
+                357,
+                356
+            ],
+            "text": "219,450",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

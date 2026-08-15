@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                152,
+                24,
+                241,
+                49
+            ],
+            "text": "SAIGON CO.OP",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                53,
+                43,
+                346,
+                74
+            ],
+            "text": "Số 175 Trần Hưng Đạo, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                61,
+                165,
+                198,
+                188
+            ],
+            "text": "23/05/2026 09:27:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                243,
+                176,
+                265
+            ],
+            "text": "Bia Heineken Lon 330ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                181,
+                270,
+                246,
+                291
+            ],
+            "text": "19,500.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                262,
+                270,
+                270,
+                291
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                317,
+                271,
+                384,
+                292
+            ],
+            "text": "19,500.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                299,
+                177,
+                320
+            ],
+            "text": "Nước cam ép Twister 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                181,
+                327,
+                246,
+                348
+            ],
+            "text": "28,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                263,
+                327,
+                271,
+                349
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                317,
+                328,
+                384,
+                349
+            ],
+            "text": "28,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                317,
+                432,
+                384,
+                455
+            ],
+            "text": "52,250.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

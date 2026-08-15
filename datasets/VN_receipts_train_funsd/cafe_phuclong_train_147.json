@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                106,
+                17,
+                273,
+                39
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                25,
+                38,
+                352,
+                61
+            ],
+            "text": "Số 102 Nguyễn Trãi, Quận Hai Bà Trưng, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                19,
+                152,
+                135,
+                174
+            ],
+            "text": "04/06/2026 16:35",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                232,
+                27,
+                253
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                230,
+                214,
+                253
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                228,
+                359,
+                251
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                259,
+                27,
+                280
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                257,
+                185,
+                279
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                255,
+                358,
+                276
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                315,
+                333,
+                359,
+                355
+            ],
+            "text": "86,400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

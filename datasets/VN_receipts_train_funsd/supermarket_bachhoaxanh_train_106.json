@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                139,
+                20,
+                233,
+                43
+            ],
+            "text": "BÁCH HÓA XANH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                54,
+                58,
+                317,
+                85
+            ],
+            "text": "Số 33 Hai Bà Trưng, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                100,
+                145,
+                214,
+                171
+            ],
+            "text": "02/06/2026 20:09",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                230,
+                222,
+                255
+            ],
+            "text": "Đường cát trắng Biên Hòa 1kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                41,
+                256,
+                49,
+                278
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                202,
+                251,
+                245,
+                273
+            ],
+            "text": "26,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                312,
+                248,
+                355,
+                271
+            ],
+            "text": "26,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                282,
+                145,
+                305
+            ],
+            "text": "Thịt đùi heo 500g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                41,
+                307,
+                50,
+                327
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                203,
+                302,
+                246,
+                323
+            ],
+            "text": "68,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                305,
+                298,
+                355,
+                321
+            ],
+            "text": "272,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                358,
+                355,
+                380
+            ],
+            "text": "327,800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

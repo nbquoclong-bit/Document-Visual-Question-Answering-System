@@ -2,293 +2,223 @@
     "form": [
         {
             "box": [
+                102,
+                655,
+                233,
+                675
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                476,
+                653,
+                534,
+                672
+            ],
+            "text": "000 8E",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                100,
+                633,
+                192,
+                648
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                474,
+                627,
+                534,
+                646
+            ],
+            "text": "000 21",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                101,
+                610,
+                254,
+                626
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                469,
+                606,
+                533,
+                625
+            ],
+            "text": "000000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                101,
+                587,
+                223,
+                606
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                468,
+                582,
+                532,
+                603
+            ],
+            "text": "000 8E",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                100,
+                550,
+                206,
+                568
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                467,
+                546,
+                532,
+                565
+            ],
+            "text": "000 8E",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                102,
+                516,
+                151,
+                542
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                472,
+                505,
+                532,
+                525
+            ],
+            "text": "000 8E",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                338,
+                506,
+                398,
+                526
+            ],
+            "text": "000 8E",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                496,
+                227,
+                515
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                472,
+                462,
                 527,
-                20,
-                583,
-                49
+                482
             ],
-            "text": "X",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                187,
-                38,
-                258,
-                76
+                341,
+                462,
+                388,
+                483
             ],
-            "text": "X",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                211,
-                270,
-                798,
-                295
+                140,
+                461,
+                220,
+                486
             ],
-            "text": "THE COFFEE HOUSE",
+            "text": "Tên món",
             "label": "OTHER"
         },
         {
             "box": [
-                243,
-                307,
-                769,
-                330
+                66,
+                424,
+                183,
+                449
             ],
-            "text": "403 Phan Huy Ich,P.14,Q.Go Vap",
+            "text": "Khách hàng:",
             "label": "OTHER"
         },
         {
             "box": [
-                395,
-                337,
-                449,
-                358
+                67,
+                401,
+                216,
+                423
             ],
-            "text": "S&:",
+            "text": "Thu ngân: cash1",
             "label": "OTHER"
         },
         {
             "box": [
-                567,
-                339,
-                600,
-                361
+                68,
+                373,
+                516,
+                398
             ],
-            "text": "7",
-            "label": "OTHER"
+            "text": "",
+            "label": "TIMESTAMP"
         },
         {
             "box": [
-                116,
-                364,
-                892,
-                383
+                142,
+                318,
+                445,
+                341
             ],
-            "text": "Thiqian30.09.202009.30SHDI9809053152020",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                118,
-                390,
-                369,
-                408
-            ],
-            "text": "Thungan:cash1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                111,
-                411,
-                310,
-                435
-            ],
-            "text": "Khäch hang:",
-            "label": "OTHER"
+            "text": "403 Phan Huy Ích, P.14, Q.Gò Vấp",
+            "label": "ADDRESS"
         },
         {
             "box": [
                 125,
-                452,
-                163,
-                470
+                278,
+                461,
+                306
             ],
-            "text": "TT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                239,
-                449,
-                376,
-                472
-            ],
-            "text": "Ten mon",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                475,
-                451,
-                513,
-                470
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                586,
-                451,
-                668,
-                469
-            ],
-            "text": "D.Giä",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                814,
-                452,
-                909,
-                470
-            ],
-            "text": "T.Tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                173,
-                481,
-                387,
-                501
-            ],
-            "text": "Ca Phe suaDä",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                486,
-                493,
-                517,
-                512
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                583,
-                493,
-                684,
-                511
-            ],
-            "text": "38000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                812,
-                491,
-                918,
-                513
-            ],
-            "text": "38000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                168,
-                501,
-                253,
-                526
-            ],
-            "text": "(Lan)",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                168,
-                534,
-                350,
-                551
-            ],
-            "text": "Thanhtien:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                805,
-                533,
-                918,
-                550
-            ],
-            "text": "38000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                166,
-                571,
-                380,
-                588
-            ],
-            "text": "ThanhToan:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                807,
-                568,
-                918,
-                587
-            ],
-            "text": "38000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                164,
-                591,
-                435,
-                609
-            ],
-            "text": "Tienkhachdu'a:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                807,
-                589,
-                918,
-                608
-            ],
-            "text": "50000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                164,
-                612,
-                329,
-                630
-            ],
-            "text": "Tien thura:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                815,
-                608,
-                923,
-                633
-            ],
-            "text": "12000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                166,
-                636,
-                399,
-                656
-            ],
-            "text": "+ Tien mat VND",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                817,
-                636,
-                920,
-                655
-            ],
-            "text": "38000",
-            "label": "OTHER"
+            "text": "",
+            "label": "SELLER"
         }
     ]
 }

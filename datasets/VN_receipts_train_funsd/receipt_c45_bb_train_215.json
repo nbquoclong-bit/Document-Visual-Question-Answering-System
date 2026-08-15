@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                100,
+                33,
+                351,
+                50
+            ],
+            "text": "ỦY BAN NHÂN DÂN QUẬN CẦU GIẤY",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                106,
+                42,
+                393,
+                72
+            ],
+            "text": "Số 11 Hai Bà Trưng, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                220,
+                147,
+                439,
+                163
+            ],
+            "text": "Ngày 26 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                131,
+                253,
+                219,
+                269
+            ],
+            "text": "54.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

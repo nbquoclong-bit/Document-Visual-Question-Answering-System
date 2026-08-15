@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                121,
+                22,
+                290,
+                45
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                17,
+                43,
+                391,
+                73
+            ],
+            "text": "Số 80 Nguyễn Trãi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                168,
+                211,
+                191
+            ],
+            "text": "01/06/2026 22:23",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                238,
+                174,
+                262
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                265,
+                242,
+                272,
+                263
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                295,
+                242,
+                338,
+                264
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                243,
+                391,
+                265
+            ],
+            "text": "96.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                265,
+                211,
+                289
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                272,
+                268,
+                280,
+                290
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                301,
+                269,
+                338,
+                289
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                269,
+                391,
+                291
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                340,
+                310,
+                391,
+                332
+            ],
+            "text": "138.240",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

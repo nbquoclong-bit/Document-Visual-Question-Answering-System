@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                124,
+                15,
+                286,
+                36
+            ],
+            "text": "KFC Nguyễn Thái Học",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                38,
+                395,
+                80
+            ],
+            "text": "Số 134 Cách Mạng Tháng Tám, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                181,
+                205,
+                202
+            ],
+            "text": "27/05/2026 20:09",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                263,
+                165,
+                284
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                218,
+                263,
+                224,
+                284
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                243,
+                263,
+                295,
+                284
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                263,
+                393,
+                284
+            ],
+            "text": "39,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                294,
+                149,
+                315
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                215,
+                294,
+                224,
+                315
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                246,
+                294,
+                295,
+                315
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                294,
+                393,
+                315
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                407,
+                384,
+                428
+            ],
+            "text": "83,160",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

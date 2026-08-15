@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                121,
+                16,
+                282,
+                39
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                39,
+                386,
+                65
+            ],
+            "text": "Số 51 Nguyễn Huệ, Quận Tân Bình, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                164,
+                208,
+                187
+            ],
+            "text": "30/05/2026 19:41",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                236,
+                179,
+                260
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                249,
+                234,
+                257,
+                255
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                279,
+                233,
+                323,
+                254
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                232,
+                386,
+                253
+            ],
+            "text": "66.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                263,
+                164,
+                287
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                242,
+                261,
+                250,
+                282
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                271,
+                259,
+                322,
+                281
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                258,
+                386,
+                280
+            ],
+            "text": "175.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                289,
+                172,
+                314
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                250,
+                287,
+                257,
+                308
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                278,
+                286,
+                323,
+                307
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                284,
+                385,
+                306
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                325,
+                385,
+                347
+            ],
+            "text": "329.400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

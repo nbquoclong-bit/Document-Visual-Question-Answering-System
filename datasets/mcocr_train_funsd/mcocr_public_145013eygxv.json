@@ -2,203 +2,173 @@
     "form": [
         {
             "box": [
-                356,
-                197,
-                686,
-                231
+                296,
+                1125,
+                802,
+                1167
             ],
-            "text": "CUAHANGNAM OANH",
+            "text": "Cẩm ơn quý khách. Hẹn gặp lại",
             "label": "OTHER"
         },
         {
             "box": [
-                176,
-                224,
-                862,
-                273
+                824,
+                1001,
+                948,
+                1046
             ],
-            "text": "Thon Phu Thuy, Xa Phu Thi. Huyen Gia Lam, TP Ha N$i",
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                146,
+                1001,
+                421,
+                1056
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                819,
+                922,
+                943,
+                967
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                348,
-                266,
-                686,
-                299
+                469,
+                921,
+                588,
+                970
             ],
-            "text": "0869322496-02438765210",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                360,
-                343,
-                673,
-                379
+                156,
+                863,
+                524,
+                906
             ],
-            "text": "HOADON BAN HANG",
+            "text": "Xúc xích bò CP 200g",
             "label": "OTHER"
         },
         {
             "box": [
-                151,
-                377,
-                347,
-                413
+                812,
+                795,
+                932,
+                837
             ],
-            "text": "SO: SON55849",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                646,
-                402,
-                871,
-                424
+                467,
+                795,
+                585,
+                840
             ],
-            "text": "Ngav:12-08-2020",
+            "text": "30,000",
             "label": "OTHER"
         },
         {
             "box": [
-                136,
-                473,
-                184,
-                499
+                160,
+                733,
+                624,
+                784
             ],
-            "text": "SL",
+            "text": "BG OMO thông minh 800g",
             "label": "OTHER"
         },
         {
             "box": [
-                429,
-                482,
-                548,
-                517
+                751,
+                668,
+                926,
+                719
             ],
-            "text": "Don gia",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                712,
-                490,
-                877,
-                520
-            ],
-            "text": "Thanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                129,
-                516,
+                465,
+                681,
                 584,
-                562
+                721
             ],
-            "text": "BG OMO th6ng minh 800g",
+            "text": "Đơn giá",
             "label": "OTHER"
         },
         {
             "box": [
-                125,
-                561,
-                152,
-                591
+                675,
+                553,
+                914,
+                593
             ],
-            "text": "1",
-            "label": "OTHER"
+            "text": "",
+            "label": "TIMESTAMP"
         },
         {
             "box": [
-                428,
-                569,
-                545,
-                603
-            ],
-            "text": "30,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                765,
-                579,
-                884,
-                609
-            ],
-            "text": "30,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                121,
-                608,
-                485,
-                651
-            ],
-            "text": "Xüc xich bo CP 200g",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                113,
-                656,
-                140,
-                688
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                422,
-                662,
+                174,
                 544,
-                698
+                372,
+                587
             ],
-            "text": "16,000",
+            "text": "Số: SON55849",
             "label": "OTHER"
         },
         {
             "box": [
-                769,
-                673,
-                890,
-                703
+                384,
+                488,
+                706,
+                532
             ],
-            "text": "16,000",
+            "text": "HÓA ĐƠN BÁN HÀNG",
             "label": "OTHER"
         },
         {
             "box": [
-                107,
-                712,
-                376,
-                757
+                372,
+                386,
+                715,
+                418
             ],
-            "text": "Cong tien hang",
+            "text": "0869322496 - 02438765210",
             "label": "OTHER"
         },
         {
             "box": [
-                768,
-                728,
-                895,
-                764
+                191,
+                336,
+                893,
+                380
             ],
-            "text": "46,000",
-            "label": "OTHER"
+            "text": "Thôn Phú Thuỷ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+            "label": "ADDRESS"
         },
         {
             "box": [
-                247,
-                805,
-                748,
-                848
+                372,
+                289,
+                711,
+                330
             ],
-            "text": "Cam on quy khach. Hen gap tai!",
-            "label": "OTHER"
+            "text": "CỬA HÀNG NĂM OÁNH",
+            "label": "SELLER"
         }
     ]
 }

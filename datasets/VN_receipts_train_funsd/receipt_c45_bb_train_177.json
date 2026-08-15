@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                94,
+                33,
+                334,
+                54
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                101,
+                42,
+                398,
+                78
+            ],
+            "text": "Số 329 Bùi Thị Xuân, Quận Hải Châu, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                217,
+                151,
+                433,
+                169
+            ],
+            "text": "Ngày 11 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                134,
+                263,
+                219,
+                280
+            ],
+            "text": "54.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

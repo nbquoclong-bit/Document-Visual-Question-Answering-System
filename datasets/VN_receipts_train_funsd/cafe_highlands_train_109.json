@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                100,
+                18,
+                284,
+                40
+            ],
+            "text": "HIGHLANDS COFFEE LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                75,
+                39,
+                310,
+                60
+            ],
+            "text": "Số 437 Lê Lợi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                176,
+                190,
+                198
+            ],
+            "text": "07/06/2026 22:47",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                238,
+                28,
+                258
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                238,
+                173,
+                258
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                238,
+                362,
+                259
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                264,
+                27,
+                284
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                46,
+                264,
+                194,
+                285
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                317,
+                264,
+                362,
+                285
+            ],
+            "text": "58,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                325,
+                361,
+                346
+            ],
+            "text": "124,200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

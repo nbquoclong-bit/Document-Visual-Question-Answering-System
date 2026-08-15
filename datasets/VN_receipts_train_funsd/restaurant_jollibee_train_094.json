@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                145,
+                15,
+                264,
+                37
+            ],
+            "text": "JOLLIBEE PASTEUR",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                36,
+                343,
+                58
+            ],
+            "text": "Số 335 Nguyễn Trãi, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                148,
+                185,
+                170
+            ],
+            "text": "10/06/2026 08:15",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                244,
+                130,
+                266
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                208,
+                244,
+                215,
+                266
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                238,
+                244,
+                284,
+                266
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                244,
+                391,
+                266
+            ],
+            "text": "51,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                275,
+                122,
+                297
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                208,
+                275,
+                216,
+                296
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                239,
+                275,
+                284,
+                297
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                275,
+                391,
+                296
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                366,
+                392,
+                386
+            ],
+            "text": "119,880đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

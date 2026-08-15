@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                146,
+                18,
+                264,
+                39
+            ],
+            "text": "JOLLIBEE PASTEUR",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                46,
+                37,
+                363,
+                62
+            ],
+            "text": "Số 253 Trần Hưng Đạo, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                148,
+                186,
+                170
+            ],
+            "text": "09/06/2026 17:43",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                244,
+                124,
+                266
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                244,
+                233,
+                266
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                254,
+                244,
+                300,
+                266
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                244,
+                390,
+                266
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                275,
+                177,
+                297
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                226,
+                275,
+                234,
+                297
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                275,
+                300,
+                296
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                275,
+                390,
+                296
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                342,
+                364,
+                392,
+                385
+            ],
+            "text": "44,000đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

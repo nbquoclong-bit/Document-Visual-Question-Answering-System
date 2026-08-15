@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                101,
+                23,
+                277,
+                43
+            ],
+            "text": "HIGHLANDS COFFEE LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                38,
+                43,
+                340,
+                63
+            ],
+            "text": "Số 171 Nguyễn Trãi, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                74,
+                177,
+                186,
+                198
+            ],
+            "text": "05/06/2026 15:34",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                237,
+                31,
+                257
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                237,
+                190,
+                259
+            ],
+            "text": "Trà Thạch Đào Size L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                305,
+                240,
+                355,
+                260
+            ],
+            "text": "165,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                262,
+                31,
+                282
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                263,
+                169,
+                284
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                266,
+                355,
+                287
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                288,
+                31,
+                308
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                288,
+                191,
+                310
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                292,
+                355,
+                313
+            ],
+            "text": "58,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                314,
+                32,
+                334
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                314,
+                184,
+                336
+            ],
+            "text": "Trà Sen Vàng Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                318,
+                355,
+                339
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                304,
+                379,
+                354,
+                400
+            ],
+            "text": "313,956",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

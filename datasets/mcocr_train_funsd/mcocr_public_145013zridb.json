@@ -2,313 +2,253 @@
     "form": [
         {
             "box": [
-                260,
-                227,
-                730,
-                253
+                261,
+                853,
+                527,
+                874
             ],
-            "text": "SCTC COTHO104TRAN PHU-CAM",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                462,
-                256,
+                300,
+                804,
+                467,
+                827
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
                 522,
-                281
+                744,
+                592,
+                764
             ],
-            "text": "PHA",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                238,
-                283,
+                175,
                 746,
-                313
+                284,
+                765
             ],
-            "text": "104 Tran Phü-phung Cam Tay-Thanh ph Cam",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                398,
-                310,
-                582,
-                332
+                524,
+                710,
+                590,
+                726
             ],
-            "text": "Pha-Quäng Ninh",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                388,
-                331,
-                593,
-                353
+                173,
+                711,
+                239,
+                730
             ],
-            "text": "Hotline0963133818",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                341,
-                360,
-                638,
-                384
+                173,
+                676,
+                347,
+                700
             ],
-            "text": "HóADO'N THANH TOAN",
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                498,
+                672,
+                589,
+                696
+            ],
+            "text": "25.000đ",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                198,
+                637,
+                306,
+                653
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                434,
-                395,
-                544,
-                415
-            ],
-            "text": "(MANG VE)",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                406,
-                424,
-                563,
-                446
-            ],
-            "text": "S2003000882",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                212,
-                450,
-                316,
-                468
-            ],
-            "text": "sch06",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                213,
-                480,
-                536,
-                498
-            ],
-            "text": "Ngay10/08/202008:10CH-08:10CH",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                213,
-                507,
-                434,
-                526
-            ],
-            "text": "Thu nganthungan104tp",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                220,
-                550,
-                238,
-                565
-            ],
-            "text": "#",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                291,
-                548,
-                381,
-                570
-            ],
-            "text": "Ten mon",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                436,
-                550,
-                464,
-                569
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                602,
-                541,
-                628,
-                560
-            ],
-            "text": "%",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                516,
-                551,
-                549,
-                568
-            ],
-            "text": "DG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                596,
-                561,
-                635,
-                582
-            ],
-            "text": "KM",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                684,
-                552,
-                714,
-                571
-            ],
-            "text": "TT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                248,
-                595,
-                390,
-                610
-            ],
-            "text": "sua chua tan",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                463,
-                603,
-                480,
-                620
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                515,
-                600,
+                531,
+                620,
                 584,
-                621
+                640
             ],
             "text": "25.000",
             "label": "OTHER"
         },
         {
             "box": [
-                679,
-                600,
-                751,
-                623
+                403,
+                619,
+                457,
+                641
             ],
             "text": "25.000",
             "label": "OTHER"
         },
         {
             "box": [
-                250,
-                614,
-                385,
-                631
+                199,
+                617,
+                308,
+                632
             ],
-            "text": "chau Co Tho",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                213,
-                652,
-                442,
-                679
+                230,
+                568,
+                300,
+                590
             ],
-            "text": "Töng thanh toän",
+            "text": "Tên món",
             "label": "OTHER"
         },
         {
             "box": [
-                639,
-                652,
-                756,
-                677
+                167,
+                526,
+                341,
+                545
             ],
-            "text": "25.000d",
+            "text": "Thu ngàn: thu ngàn 1041p",
             "label": "OTHER"
         },
         {
             "box": [
-                214,
-                687,
-                296,
-                705
+                168,
+                497,
+                420,
+                516
             ],
-            "text": "Tienmat",
+            "text": "(H0 01:80 - H0 01:80) 0702/30/01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                171,
+                470,
+                248,
+                486
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                670,
-                689,
-                759,
-                708
+                319,
+                443,
+                436,
+                459
             ],
-            "text": "100.000d",
+            "text": "788000000",
             "label": "OTHER"
         },
         {
             "box": [
-                216,
-                720,
-                360,
-                741
+                340,
+                410,
+                423,
+                430
             ],
-            "text": "Tralaikhach",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                669,
-                724,
-                759,
-                744
-            ],
-            "text": "75.000d",
-            "label": "OTHER"
-        },
-        {
-            "box": [
+                267,
                 377,
-                780,
-                595,
-                801
+                492,
+                396
             ],
-            "text": "Tran trong cam on!",
+            "text": "NYOJ HNVHI NOG VOH",
             "label": "OTHER"
         },
         {
             "box": [
-                324,
-                827,
-                673,
-                849
+                301,
+                345,
+                459,
+                366
             ],
-            "text": "CUKCUK-Mot sän pham cua MISA",
+            "text": "Hotline: 0963133818",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                310,
+                323,
+                451,
+                344
+            ],
+            "text": "Phả - Quảng Ninh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                300,
+                300,
+                575,
+                322
+            ],
+            "text": "phường Cẩm Tây - Thành phố Cẩm",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                189,
+                301,
+                293,
+                318
+            ],
+            "text": "104 Trần Phú",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                358,
+                269,
+                404,
+                293
+            ],
+            "text": "VHd",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                200,
+                239,
+                564,
+                265
+            ],
+            "text": "SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM",
+            "label": "SELLER"
         }
     ]
 }

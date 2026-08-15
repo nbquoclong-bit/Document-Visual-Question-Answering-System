@@ -2,203 +2,173 @@
     "form": [
         {
             "box": [
-                318,
-                235,
-                658,
-                264
-            ],
-            "text": "CUA HANG NAM OANH",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                141,
-                269,
-                840,
-                304
-            ],
-            "text": "Thon Phu Tluy,Xa Phu Thi,Huyen Gia Lam,TP Ha Nai",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                315,
-                306,
-                662,
-                335
-            ],
-            "text": "0869322496-02438765210",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                331,
-                392,
-                649,
-                419
-            ],
-            "text": "HOADON BAN HANG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                127,
-                440,
-                318,
-                465
-            ],
-            "text": "S6:SON55846",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                619,
-                435,
-                856,
-                466
-            ],
-            "text": "Ngav:12-08-2020",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                113,
-                534,
-                162,
-                561
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                406,
-                534,
-                527,
-                564
-            ],
-            "text": "Don gia",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                693,
-                530,
-                862,
-                562
-            ],
-            "text": "Thanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                109,
-                578,
-                646,
-                610
-            ],
-            "text": "Duong tinh luyén xuat khau 1kg",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                103,
-                624,
-                131,
-                653
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                410,
-                624,
-                527,
-                653
-            ],
-            "text": "14,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                752,
-                624,
-                871,
-                653
-            ],
-            "text": "14,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                102,
-                674,
-                374,
-                700
-            ],
-            "text": "Dau Cai Lan 2L",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                97,
-                720,
-                125,
-                750
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                404,
-                717,
-                530,
-                754
-            ],
-            "text": "49,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
+                251,
+                1181,
                 758,
-                718,
-                877,
-                748
+                1233
+            ],
+            "text": "Cẩm ơn quý khách, Hẹn gặp lại:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                105,
+                1060,
+                372,
+                1115
+            ],
+            "text": "Cộng tiền hàng",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                780,
+                1063,
+                906,
+                1113
+            ],
+            "text": "000 E9",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                419,
+                988,
+                543,
+                1029
             ],
             "text": "49,000",
             "label": "OTHER"
         },
         {
             "box": [
-                98,
                 778,
-                358,
-                814
+                986,
+                900,
+                1030
             ],
-            "text": "Cong tien hang",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                760,
+                111,
+                922,
+                387,
+                963
+            ],
+            "text": "Dâu Cái Lân 21",
+            "label": "OTHER"
+        },
+        {
+            "box": [
                 775,
-                882,
-                808
+                859,
+                893,
+                896
             ],
-            "text": "63,000",
+            "text": "14,000",
             "label": "OTHER"
         },
         {
             "box": [
-                241,
-                863,
-                740,
-                898
+                425,
+                855,
+                544,
+                896
             ],
-            "text": "Cam on quskhach. Hen gop lai!",
+            "text": "14,000",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                120,
+                792,
+                666,
+                838
+            ],
+            "text": "Đường tinh luyện xuất khâu 1kg",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                420,
+                734,
+                546,
+                774
+            ],
+            "text": "Đơn giá",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                712,
+                726,
+                887,
+                774
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                136,
+                602,
+                332,
+                639
+            ],
+            "text": "Số: SON55846",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                641,
+                604,
+                881,
+                642
+            ],
+            "text": "0207-80-71:",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                343,
+                539,
+                669,
+                576
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                330,
+                427,
+                684,
+                457
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                154,
+                377,
+                870,
+                415
+            ],
+            "text": "",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                334,
+                326,
+                683,
+                364
+            ],
+            "text": "HNYO WVN DNVH VM",
+            "label": "SELLER"
         }
     ]
 }

@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                96,
+                31,
+                337,
+                46
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                102,
+                40,
+                389,
+                71
+            ],
+            "text": "Số 98 Nguyễn Trãi, Quận Ba Đình, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                220,
+                148,
+                433,
+                165
+            ],
+            "text": "Ngày 28 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                135,
+                259,
+                248,
+                275
+            ],
+            "text": "1.815.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

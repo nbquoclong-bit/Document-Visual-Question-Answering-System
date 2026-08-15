@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                113,
+                94,
+                271,
+                115
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                53,
+                114,
+                331,
+                135
+            ],
+            "text": "Số 1 Lê Lợi, Quận Hai Bà Trưng, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                48,
+                172,
+                121,
+                195
+            ],
+            "text": "28/05/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                292,
+                153,
+                313
+            ],
+            "text": "Cold Brew Coffee M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                291,
+                245,
+                313
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                311,
+                291,
+                363,
+                312
+            ],
+            "text": "130,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                324,
+                137,
+                345
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                237,
+                323,
+                245,
+                344
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                319,
+                323,
+                363,
+                344
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                416,
+                363,
+                438
+            ],
+            "text": "229,900",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

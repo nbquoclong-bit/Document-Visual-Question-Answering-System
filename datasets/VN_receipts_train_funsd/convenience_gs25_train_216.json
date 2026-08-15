@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                146,
+                32,
+                261,
+                52
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                52,
+                50,
+                357,
+                72
+            ],
+            "text": "Số 173 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                156,
+                183,
+                177
+            ],
+            "text": "12/06/2026 21:27",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                245,
+                159,
+                267
+            ],
+            "text": "Sữa chua uống Proby",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                234,
+                246,
+                241,
+                267
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                264,
+                247,
+                300,
+                268
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                247,
+                385,
+                269
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                273,
+                165,
+                294
+            ],
+            "text": "Xúc xích Đức ăn liền",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                227,
+                274,
+                235,
+                295
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                256,
+                274,
+                300,
+                296
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                276,
+                386,
+                297
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                20,
+                300,
+                194,
+                323
+            ],
+            "text": "Mì trộn Indomie đặc biệt",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                226,
+                302,
+                235,
+                323
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                303,
+                300,
+                323
+            ],
+            "text": "12,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                303,
+                385,
+                325
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                390,
+                388,
+                412
+            ],
+            "text": "99,000đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

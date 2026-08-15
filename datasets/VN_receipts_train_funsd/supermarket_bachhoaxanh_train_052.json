@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                110,
+                25,
+                262,
+                46
+            ],
+            "text": "BÁCH HÓA XANH QUẬN 12",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                28,
+                65,
+                344,
+                87
+            ],
+            "text": "Số 400 Lý Thường Kiệt, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                150,
+                214,
+                173
+            ],
+            "text": "25/05/2026 09:09",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                236,
+                178,
+                257
+            ],
+            "text": "Nước mắm Nam Ngư 750ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                39,
+                258,
+                46,
+                278
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                201,
+                257,
+                244,
+                278
+            ],
+            "text": "42,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                312,
+                257,
+                355,
+                277
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                286,
+                106,
+                306
+            ],
+            "text": "Hành lá 100g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                39,
+                308,
+                46,
+                328
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                208,
+                307,
+                245,
+                327
+            ],
+            "text": "3,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                319,
+                307,
+                356,
+                327
+            ],
+            "text": "6,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                366,
+                355,
+                387
+            ],
+            "text": "99,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

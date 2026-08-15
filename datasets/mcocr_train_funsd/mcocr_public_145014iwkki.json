@@ -2,262 +2,212 @@
     "form": [
         {
             "box": [
-                158,
-                59,
-                261,
-                70
+                263,
+                1084,
+                797,
+                1124
             ],
-            "text": "H%i",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                35,
-                66,
-                411,
-                91
+                872,
+                1005,
+                1018,
+                1049
             ],
-            "text": "Rachhang:Ryachlé",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                30,
-                87,
-                214,
-                113
+                32,
+                1008,
+                146,
+                1057
             ],
-            "text": "Dien thoai:",
+            "text": "Trả lại",
             "label": "OTHER"
         },
         {
             "box": [
-                28,
-                114,
-                164,
-                136
-            ],
-            "text": "Dia chi:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                26,
-                157,
-                79,
-                174
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                406,
-                162,
-                550,
-                181
-            ],
-            "text": "Dongla",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                785,
-                156,
-                983,
-                179
-            ],
-            "text": "Thanh tlan",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                21,
-                194,
-                336,
-                215
-            ],
-            "text": "Bo huc Thai 250ml",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                13,
-                222,
-                67,
-                243
-            ],
-            "text": "12",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                425,
-                228,
-                531,
-                246
-            ],
-            "text": "11,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                858,
-                228,
-                988,
-                246
-            ],
-            "text": "132,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                18,
-                260,
-                277,
-                282
-            ],
-            "text": "TH it Duöng 1L",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                417,
-                295,
-                529,
-                314
-            ],
-            "text": "32,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                875,
-                297,
-                990,
-                315
-            ],
-            "text": "32,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                6,
-                326,
-                272,
-                350
-            ],
-            "text": "Cöng tién hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                845,
-                333,
-                988,
-                351
-            ],
-            "text": "164,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                11,
-                355,
-                192,
-                373
-            ],
-            "text": "Chiét khau",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                958,
-                361,
-                990,
-                378
-            ],
-            "text": "0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                6,
-                382,
-                274,
-                403
-            ],
-            "text": "Khächphäi trä",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                843,
-                388,
-                985,
-                407
-            ],
-            "text": "164,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                11,
-                406,
-                274,
-                430
-            ],
-            "text": "Tién khäch dua",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                835,
-                413,
-                983,
-                434
+                873,
+                944,
+                1024,
+                989
             ],
             "text": "500,000",
             "label": "OTHER"
         },
         {
             "box": [
-                14,
-                435,
-                120,
-                455
+                33,
+                946,
+                302,
+                995
             ],
-            "text": "Tralai",
+            "text": "Tiền khách đưa",
             "label": "OTHER"
         },
         {
             "box": [
-                833,
-                440,
-                978,
-                459
+                876,
+                884,
+                1024,
+                930
             ],
-            "text": "336,000",
+            "text": "164,000",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                27,
+                890,
+                296,
+                933
+            ],
+            "text": "Khách phải trả",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                28,
+                825,
+                211,
+                869
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                232,
-                469,
+                879,
                 759,
-                491
+                1025,
+                802
             ],
-            "text": "Cam on quy khäch. Hen gap lai!",
+            "text": "1000 19",
             "label": "OTHER"
         },
         {
             "box": [
-                45,
-                893,
-                129,
-                917
+                25,
+                762,
+                294,
+                814
             ],
-            "text": "HD",
+            "text": "Cộng tiền hàng",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                911,
+                680,
+                1026,
+                716
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                444,
+                688,
+                553,
+                726
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                29,
+                612,
+                300,
+                658
+            ],
+            "text": "TH Ít Đường 1L",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                886,
+                519,
+                1023,
+                563
+            ],
+            "text": "000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                446,
+                532,
+                553,
+                569
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                31,
+                461,
+                356,
+                503
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                423,
+                381,
+                572,
+                427
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                814,
+                360,
+                1015,
+                415
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                280,
+                171,
+                331
+            ],
+            "text": "Địa chỉ:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                38,
+                223,
+                224,
+                275
+            ],
+            "text": "Điện thoại:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                37,
+                142,
+                426,
+                224
+            ],
+            "text": "",
             "label": "OTHER"
         }
     ]

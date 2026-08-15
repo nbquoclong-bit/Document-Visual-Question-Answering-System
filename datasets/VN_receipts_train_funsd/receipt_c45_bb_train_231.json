@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                100,
+                32,
+                347,
+                50
+            ],
+            "text": "ỦY BAN NHÂN DÂN QUẬN CẦU GIẤY",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                107,
+                40,
+                401,
+                74
+            ],
+            "text": "Số 29 Hai Bà Trưng, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                219,
+                146,
+                435,
+                164
+            ],
+            "text": "Ngày 27 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                134,
+                256,
+                227,
+                272
+            ],
+            "text": "432.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

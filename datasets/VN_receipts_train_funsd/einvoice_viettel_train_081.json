@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                35,
+                61,
+                275,
+                82
+            ],
+            "text": "CÔNG TY CỔ PHẦN CÔNG NGHỆ SAO NAM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                458,
+                41,
+                745,
+                61
+            ],
+            "text": "Số 93 Lý Thường Kiệt, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                297,
+                200,
+                415,
+                221
+            ],
+            "text": "10/06/2026 16:33",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                85,
+                505,
+                298,
+                526
+            ],
+            "text": "Dịch vụ Bảo trì Hệ thống mạng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                518,
+                507,
+                526,
+                527
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                566,
+                507,
+                634,
+                528
+            ],
+            "text": "1,500,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                675,
+                507,
+                743,
+                528
+            ],
+            "text": "6,000,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                85,
+                546,
+                247,
+                567
+            ],
+            "text": "Mực in Canon Cartridge",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                518,
+                548,
+                527,
+                569
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                567,
+                548,
+                635,
+                569
+            ],
+            "text": "1,250,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                676,
+                549,
+                743,
+                570
+            ],
+            "text": "3,750,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                664,
+                712,
+                745,
+                734
+            ],
+            "text": "10,725,000đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

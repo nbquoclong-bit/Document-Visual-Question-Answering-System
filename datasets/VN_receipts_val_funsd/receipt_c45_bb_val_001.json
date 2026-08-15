@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                98,
+                35,
+                342,
+                52
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                106,
+                46,
+                403,
+                77
+            ],
+            "text": "Số 255 Bùi Thị Xuân, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                224,
+                149,
+                440,
+                165
+            ],
+            "text": "Ngày 17 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                137,
+                255,
+                235,
+                270
+            ],
+            "text": "165.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

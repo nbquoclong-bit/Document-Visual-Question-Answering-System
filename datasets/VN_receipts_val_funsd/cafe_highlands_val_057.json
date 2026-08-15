@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                100,
+                21,
+                277,
+                54
+            ],
+            "text": "HIGHLANDS COFFEE LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                57,
+                39,
+                318,
+                77
+            ],
+            "text": "Số 207 Bùi Thị Xuân, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                75,
+                178,
+                190,
+                204
+            ],
+            "text": "15/06/2026 20:43",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                24,
+                237,
+                32,
+                259
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                239,
+                146,
+                263
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                305,
+                248,
+                352,
+                269
+            ],
+            "text": "140,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                264,
+                32,
+                286
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                264,
+                209,
+                291
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                305,
+                273,
+                352,
+                296
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                290,
+                33,
+                312
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                290,
+                175,
+                316
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                312,
+                299,
+                352,
+                320
+            ],
+            "text": "57,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                306,
+                359,
+                353,
+                379
+            ],
+            "text": "303,930",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

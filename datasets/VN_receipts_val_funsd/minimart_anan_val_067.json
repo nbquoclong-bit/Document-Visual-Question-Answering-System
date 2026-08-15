@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                117,
+                24,
+                286,
+                45
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                48,
+                388,
+                71
+            ],
+            "text": "Số 177 Hai Bà Trưng, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                88,
+                169,
+                206,
+                190
+            ],
+            "text": "31/05/2026 19:14",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                14,
+                240,
+                163,
+                262
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                241,
+                239,
+                249,
+                261
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                272,
+                239,
+                323,
+                259
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                239,
+                388,
+                260
+            ],
+            "text": "525.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                267,
+                178,
+                288
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                249,
+                266,
+                257,
+                287
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                279,
+                265,
+                324,
+                287
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                265,
+                388,
+                286
+            ],
+            "text": "44.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                337,
+                306,
+                388,
+                327
+            ],
+            "text": "614.520",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -2,483 +2,373 @@
     "form": [
         {
             "box": [
-                3,
-                39,
-                121,
-                121
+                186,
+                972,
+                557,
+                1025
             ],
-            "text": "FI",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                332,
-                92,
-                583,
-                125
+                292,
+                949,
+                446,
+                983
             ],
-            "text": "MINIMART ANAN",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                299,
-                125,
-                609,
-                158
+                103,
+                891,
+                623,
+                959
             ],
-            "text": "Chg Sui Phu Tht Gia Lam",
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                86,
+                856,
+                337,
+                905
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                123,
-                138,
-                174,
-                162
+                553,
+                848,
+                624,
+                875
             ],
-            "text": "Tel:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                290,
-                195,
-                628,
-                235
+                85,
+                824,
+                264,
+                865
             ],
-            "text": "HOADON BAN HANG",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                149,
-                222,
-                281,
-                254
+                87,
+                784,
+                262,
+                820
             ],
-            "text": "Ten hang",
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                89,
+                748,
+                215,
+                780
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                95,
+                707,
+                250,
+                741
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                95,
+                668,
+                357,
+                700
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                528,
+                614,
+                606,
+                634
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                89,
+                613,
+                253,
+                640
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                582,
+                204,
+                609
+            ],
+            "text": "Tổng tiền:",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                526,
+                579,
+                605,
+                598
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                89,
+                535,
+                217,
+                569
+            ],
+            "text": "Tổng cộng:",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                525,
+                536,
+                602,
+                556
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                504,
+                186,
+                534
+            ],
+            "text": "Tổng số:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                395,
+                468,
+                460,
+                487
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                527,
+                467,
+                591,
+                486
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
                 282,
-                232,
-                490,
-                261
-            ],
-            "text": "SLDVT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                475,
-                237,
-                736,
-                267
-            ],
-            "text": "Don giaThänh tian",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                136,
-                253,
-                662,
-                296
-            ],
-            "text": "291016540000 Súa kun cam,dau110ml NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                135,
-                283,
-                299,
-                313
-            ],
-            "text": "Giadang ky:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                520,
-                299,
-                593,
-                323
-            ],
-            "text": "4,250",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                131,
-                312,
-                319,
-                342
-            ],
-            "text": "Gia ban48",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                364,
-                324,
-                419,
-                342
-            ],
-            "text": "HOP",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                522,
-                330,
-                591,
-                349
-            ],
-            "text": "3,855",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                661,
-                327,
-                760,
-                348
-            ],
-            "text": "185,40",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                130,
-                348,
-                729,
-                388
-            ],
-            "text": "291007210000 Sa dác ng tho d3,xanh VN NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                296,
-                387,
-                316,
-                403
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                365,
-                387,
-                419,
-                406
-            ],
-            "text": "HOP",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                509,
-                391,
-                593,
-                413
-            ],
-            "text": "22,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                675,
-                388,
-                765,
-                413
-            ],
-            "text": "22,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                0,
-                412,
-                104,
-                519
-            ],
-            "text": "EL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                128,
-                416,
-                631,
-                450
-            ],
-            "text": "291015940000 Nüm vü pigeon tr&ng NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                295,
-                453,
-                315,
-                470
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                365,
-                453,
-                417,
-                472
+                467,
+                323,
+                486
             ],
             "text": "CAI",
             "label": "OTHER"
         },
         {
             "box": [
-                510,
-                454,
-                597,
-                475
-            ],
-            "text": "20,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                682,
-                453,
-                769,
-                474
-            ],
-            "text": "20,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                113,
+                102,
+                429,
                 488,
-                238,
-                519
+                463
             ],
-            "text": "Tong sö:",
+            "text": "291015940000 Núm vú pigeon trắng NT",
             "label": "OTHER"
         },
         {
             "box": [
-                317,
-                498,
-                356,
-                518
+                394,
+                404,
+                457,
+                423
             ],
-            "text": "50",
+            "text": "000",
             "label": "OTHER"
         },
         {
             "box": [
-                113,
                 520,
-                278,
-                551
+                400,
+                590,
+                425
             ],
-            "text": "T&ng cong:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                678,
-                520,
-                783,
-                542
-            ],
-            "text": "227,1040",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                113,
-                565,
-                259,
-                591
-            ],
-            "text": "Tong tien:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                680,
-                563,
-                786,
-                584
-            ],
-            "text": "227,140",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                111,
-                596,
-                326,
-                621
-            ],
-            "text": "Tien khäch trä:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                441,
-                597,
-                505,
-                622
-            ],
-            "text": "VND",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                683,
-                595,
-                790,
-                619
-            ],
-            "text": "227,040",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                886,
-                611,
-                977,
-                767
-            ],
-            "text": "Ni",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                117,
-                650,
-                464,
-                680
-            ],
-            "text": "MätheA10000000348",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                117,
-                687,
+                283,
+                399,
                 324,
-                722
+                418
             ],
-            "text": "(0) le thi höng",
+            "text": "HOP",
             "label": "OTHER"
         },
         {
             "box": [
-                761,
-                717,
-                798,
-                741
+                101,
+                357,
+                564,
+                403
             ],
-            "text": "22",
+            "text": "291007210000 Sữa đặc ông thọ đổ, xanh VN NT",
             "label": "OTHER"
         },
         {
             "box": [
-                110,
-                728,
-                276,
-                758
+                402,
+                339,
+                455,
+                359
             ],
-            "text": "Diém mua:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                748,
-                753,
-                802,
-                778
-            ],
-            "text": "$63",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                109,
-                765,
+                508,
                 335,
-                796
+                585,
+                360
             ],
-            "text": "Diém hién thoi:",
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                281,
+                334,
+                323,
+                353
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
                 105,
-                801,
-                342,
-                842
+                325,
+                193,
+                349
             ],
-            "text": "Hang hien thi:",
+            "text": "Giá bán:",
             "label": "OTHER"
         },
         {
             "box": [
-                712,
-                824,
-                809,
-                854
+                402,
+                309,
+                456,
+                330
             ],
-            "text": "41,013",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
                 106,
-                833,
-                433,
-                880
+                293,
+                233,
+                324
             ],
-            "text": "Gia tri thuong tich lúy",
+            "text": "Giá đăng ký:",
             "label": "OTHER"
         },
         {
             "box": [
-                130,
-                870,
-                807,
-                932
+                106,
+                263,
+                511,
+                306
             ],
-            "text": "S GD000AC2212008002362 Ngay16/08/2020-21:18",
+            "text": "291016540000 Sữa kun cam dâu 110ml NT",
             "label": "OTHER"
         },
         {
             "box": [
-                372,
-                924,
-                575,
-                959
+                239,
+                240,
+                571,
+                278
             ],
-            "text": "Thu nganBH3",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                205,
-                947,
-                720,
-                999
+                115,
+                231,
+                218,
+                263
             ],
-            "text": "Xin cam on va hen gäp lai quy khach !",
+            "text": "Tên hàng",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                224,
+                201,
+                484,
+                244
+            ],
+            "text": "HÓA ĐƠN BÁN HÀNG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                230,
+                129,
+                471,
+                164
+            ],
+            "text": "Chợ Sủi Phú Thị Gia Lâm",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                255,
+                95,
+                448,
+                132
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
         }
     ]
 }

@@ -2,153 +2,143 @@
     "form": [
         {
             "box": [
-                406,
-                417,
-                652,
-                449
+                294,
+                815,
+                551,
+                848
             ],
-            "text": "CUAHANG NAM OANH",
+            "text": "Cẩm ơn quý khách, Hẹn gặp lại:",
             "label": "OTHER"
         },
         {
             "box": [
-                404,
-                470,
-                649,
-                498
-            ],
-            "text": "0869322496-02438765210",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                410,
-                530,
-                635,
-                559
-            ],
-            "text": "HOA DON BAN HANG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                264,
                 561,
-                402,
-                584
+                775,
+                626,
+                799
             ],
-            "text": "S6:SON55323",
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                223,
+                768,
+                360,
+                803
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                609,
-                573,
-                778,
-                598
-            ],
-            "text": "Ngav:11-08-2020",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                259,
-                631,
-                287,
-                652
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                457,
-                632,
-                544,
-                660
-            ],
-            "text": "Don gia",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                656,
-                641,
-                777,
-                668
-            ],
-            "text": "Thanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                255,
-                663,
-                571,
-                689
-            ],
-            "text": "Sira Fami canxi bich 200ml",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                251,
-                698,
-                274,
-                720
-            ],
-            "text": "5",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                463,
-                697,
-                531,
-                720
-            ],
-            "text": "3,300",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                691,
-                708,
-                777,
-                734
-            ],
-            "text": "16,500",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                251,
-                735,
-                425,
+                561,
+                734,
+                625,
                 760
             ],
-            "text": "Cong tién hang",
+            "text": "16,500",
             "label": "OTHER"
         },
         {
             "box": [
-                688,
-                747,
-                776,
-                775
+                386,
+                729,
+                439,
+                754
             ],
-            "text": "16,500",
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                224,
+                695,
+                470,
+                725
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                530,
+                667,
+                623,
+                691
+            ],
+            "text": "Thành tiền",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                379,
+                664,
+                444,
+                687
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                493,
+                599,
+                621,
+                619
+            ],
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                226,
+                595,
+                333,
+                617
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
                 339,
-                778,
-                674,
-                817
+                562,
+                509,
+                582
             ],
-            "text": "Cam on quy khach. Hen gap lui!",
+            "text": "HÓA ĐƠN BÁN HÀNG",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                329,
+                501,
+                519,
+                521
+            ],
+            "text": "0869322496 - 02438765210",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                231,
+                466,
+                620,
+                501
+            ],
+            "text": "Thôn Phú Thuỷ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                331,
+                448,
+                517,
+                470
+            ],
+            "text": "CỬA HÀNG NĂM OÁNH",
+            "label": "SELLER"
         }
     ]
 }

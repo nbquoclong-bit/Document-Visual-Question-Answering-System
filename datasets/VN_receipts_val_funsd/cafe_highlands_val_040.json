@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                101,
+                26,
+                269,
+                50
+            ],
+            "text": "HIGHLANDS COFFEE LÊ LỢI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                14,
+                45,
+                359,
+                92
+            ],
+            "text": "Số 196 Hai Bà Trưng, Thành phố Thủ Đức, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                208,
+                184,
+                229
+            ],
+            "text": "30/05/2026 12:50",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                270,
+                23,
+                291
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                42,
+                269,
+                168,
+                291
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                269,
+                359,
+                290
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                296,
+                22,
+                318
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                42,
+                296,
+                189,
+                317
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                295,
+                359,
+                316
+            ],
+            "text": "29,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                314,
+                356,
+                359,
+                378
+            ],
+            "text": "49,248",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                116,
+                16,
+                287,
+                39
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                15,
+                38,
+                388,
+                65
+            ],
+            "text": "Số 99 Lý Thường Kiệt, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                163,
+                208,
+                185
+            ],
+            "text": "15/06/2026 17:01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                234,
+                164,
+                257
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                234,
+                269,
+                255
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                232,
+                328,
+                254
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                354,
+                233,
+                391,
+                254
+            ],
+            "text": "9.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                261,
+                164,
+                284
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                245,
+                260,
+                254,
+                281
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                275,
+                259,
+                327,
+                281
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                258,
+                391,
+                280
+            ],
+            "text": "525.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                287,
+                179,
+                310
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                253,
+                287,
+                261,
+                307
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                283,
+                285,
+                329,
+                307
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                285,
+                391,
+                307
+            ],
+            "text": "88.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                313,
+                194,
+                336
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                260,
+                313,
+                269,
+                334
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                313,
+                329,
+                334
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                312,
+                391,
+                333
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                354,
+                391,
+                374
+            ],
+            "text": "704.000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

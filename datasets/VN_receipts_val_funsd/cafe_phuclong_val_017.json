@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                102,
+                19,
+                267,
+                48
+            ],
+            "text": "PHÚC LONG NGUYỄN VĂN CỪ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                30,
+                39,
+                338,
+                72
+            ],
+            "text": "Số 242 Nguyễn Trãi, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                18,
+                153,
+                132,
+                178
+            ],
+            "text": "06/06/2026 10:41",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                233,
+                25,
+                254
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                51,
+                235,
+                209,
+                262
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                244,
+                351,
+                267
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                260,
+                26,
+                281
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                50,
+                261,
+                152,
+                285
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                301,
+                270,
+                350,
+                293
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                301,
+                349,
+                351,
+                372
+            ],
+            "text": "215,460",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

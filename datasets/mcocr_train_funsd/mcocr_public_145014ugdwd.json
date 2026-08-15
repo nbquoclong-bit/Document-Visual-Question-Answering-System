@@ -2,163 +2,143 @@
     "form": [
         {
             "box": [
-                321,
-                260,
-                671,
-                286
+                253,
+                1083,
+                767,
+                1131
             ],
-            "text": "CUAHANGNXM OANH",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                131,
-                294,
-                858,
-                327
-            ],
-            "text": "Thon Phu Tluy, Xa Phu Thi. Huyen Gia Lam, TP Ha N$i",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                321,
-                337,
-                674,
-                355
-            ],
-            "text": "0869322496-02438765210",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                336,
-                421,
-                662,
-                443
-            ],
-            "text": "HOADONBANHANG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                114,
-                464,
-                318,
-                497
-            ],
-            "text": "S6:SON55402",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                635,
-                468,
-                875,
-                498
-            ],
-            "text": "Ngay:11-08-2020",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                105,
-                567,
-                157,
-                597
-            ],
-            "text": "SL",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                415,
-                568,
-                538,
-                597
-            ],
-            "text": "Don gia",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                708,
-                562,
-                883,
-                597
-            ],
-            "text": "Thanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                108,
-                617,
-                362,
-                642
-            ],
-            "text": "Bia333330ml",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
                 103,
-                661,
-                153,
-                694
+                978,
+                380,
+                1035
             ],
-            "text": "10",
+            "text": "Cộng tiền hàng",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                791,
+                981,
+                915,
+                1022
+            ],
+            "text": "075 86",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                434,
+                901,
+                540,
+                947
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                422,
-                657,
-                530,
-                695
+                785,
+                900,
+                912,
+                944
             ],
-            "text": "9,834",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                768,
-                661,
-                890,
-                690
+                112,
+                842,
+                369,
+                876
             ],
-            "text": "98,340",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                97,
-                718,
-                371,
-                758
+                423,
+                773,
+                555,
+                816
             ],
-            "text": "Cong tién hang",
+            "text": "Đơn giá",
             "label": "OTHER"
         },
         {
             "box": [
+                726,
                 769,
-                717,
-                893,
-                747
+                908,
+                813
             ],
-            "text": "98,340",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                244,
-                792,
-                750,
-                828
+                651,
+                643,
+                895,
+                678
             ],
-            "text": "Cam on qus khach. Hen gap lai!",
+            "text": "0207-80-11:ABIN",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                118,
+                634,
+                329,
+                677
+            ],
+            "text": "Số: SON55402",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                345,
+                576,
+                675,
+                606
+            ],
+            "text": "HÓA ĐƠN BÁN HÀNG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                327,
+                459,
+                691,
+                483
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                135,
+                402,
+                879,
+                447
+            ],
+            "text": "Thôn Phú Thuỷ, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                327,
+                355,
+                688,
+                393
+            ],
+            "text": "CỬA HÀNG NĂM OÁNH",
+            "label": "SELLER"
         }
     ]
 }

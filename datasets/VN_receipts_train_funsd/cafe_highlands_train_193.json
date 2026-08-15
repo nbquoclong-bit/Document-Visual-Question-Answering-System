@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                75,
+                36,
+                297,
+                60
+            ],
+            "text": "HIGHLANDS COFFEE TRẦN HƯNG ĐẠO",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                20,
+                56,
+                353,
+                81
+            ],
+            "text": "Số 116 Lý Thường Kiệt, Quận Hoàn Kiếm, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                198,
+                184,
+                220
+            ],
+            "text": "29/05/2026 09:05",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                261,
+                25,
+                282
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                260,
+                139,
+                281
+            ],
+            "text": "Bánh Tiramisu",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                308,
+                258,
+                358,
+                279
+            ],
+            "text": "105,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                287,
+                26,
+                308
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                44,
+                286,
+                191,
+                308
+            ],
+            "text": "Cà Phê Đen Đá Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                285,
+                358,
+                305
+            ],
+            "text": "116,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                346,
+                358,
+                367
+            ],
+            "text": "226,746",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

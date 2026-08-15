@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                15,
+                250,
+                36
+            ],
+            "text": "SAIGON CO.OP",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                96,
+                36,
+                314,
+                57
+            ],
+            "text": "Số 80 Lê Lợi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                62,
+                155,
+                205,
+                176
+            ],
+            "text": "27/05/2026 19:41:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                233,
+                167,
+                254
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                183,
+                262,
+                258,
+                283
+            ],
+            "text": "175,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                275,
+                262,
+                282,
+                283
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                318,
+                262,
+                393,
+                283
+            ],
+            "text": "350,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                291,
+                182,
+                312
+            ],
+            "text": "Nước cam ép Twister 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                191,
+                320,
+                258,
+                341
+            ],
+            "text": "28,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                275,
+                320,
+                282,
+                341
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                326,
+                320,
+                393,
+                341
+            ],
+            "text": "84,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                318,
+                427,
+                393,
+                448
+            ],
+            "text": "468,720.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

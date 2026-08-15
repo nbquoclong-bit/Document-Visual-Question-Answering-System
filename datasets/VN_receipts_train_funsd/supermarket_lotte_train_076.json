@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                123,
+                20,
+                267,
+                46
+            ],
+            "text": "CO.OPMART CỐNG QUỲNH",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                37,
+                325,
+                68
+            ],
+            "text": "Số 334 Nguyễn Huệ, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                59,
+                155,
+                196,
+                180
+            ],
+            "text": "31/05/2026 10:00:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                230,
+                159,
+                254
+            ],
+            "text": "Khăn ướt Bobby 80 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                178,
+                255,
+                243,
+                277
+            ],
+            "text": "27,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                259,
+                255,
+                267,
+                275
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                313,
+                251,
+                380,
+                274
+            ],
+            "text": "27,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                285,
+                174,
+                309
+            ],
+            "text": "Nước cam ép Twister 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                179,
+                311,
+                244,
+                333
+            ],
+            "text": "28,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                260,
+                311,
+                269,
+                331
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                315,
+                308,
+                381,
+                330
+            ],
+            "text": "56,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                316,
+                412,
+                382,
+                434
+            ],
+            "text": "91,300.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                154,
+                20,
+                255,
+                42
+            ],
+            "text": "KFC VIỆT NAM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                74,
+                41,
+                335,
+                66
+            ],
+            "text": "Số 325 Lê Lợi, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                163,
+                204,
+                186
+            ],
+            "text": "18/06/2026 11:20",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                244,
+                149,
+                267
+            ],
+            "text": "Nước ngọt Pepsi L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                214,
+                243,
+                224,
+                265
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                245,
+                242,
+                293,
+                265
+            ],
+            "text": "19,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                242,
+                390,
+                263
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                276,
+                165,
+                297
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                217,
+                274,
+                224,
+                296
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                242,
+                273,
+                293,
+                294
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                271,
+                390,
+                294
+            ],
+            "text": "39,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                305,
+                165,
+                329
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                214,
+                304,
+                224,
+                326
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                245,
+                303,
+                293,
+                325
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                302,
+                390,
+                324
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                327,
+                413,
+                381,
+                435
+            ],
+            "text": "166,100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

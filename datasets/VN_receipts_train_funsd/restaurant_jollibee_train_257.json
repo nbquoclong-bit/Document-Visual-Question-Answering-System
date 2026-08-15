@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                144,
+                22,
+                262,
+                45
+            ],
+            "text": "JOLLIBEE PASTEUR",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                60,
+                42,
+                346,
+                65
+            ],
+            "text": "Số 367 Bùi Thị Xuân, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                66,
+                152,
+                184,
+                175
+            ],
+            "text": "14/06/2026 20:21",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                247,
+                174,
+                270
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                223,
+                247,
+                232,
+                269
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                252,
+                246,
+                298,
+                268
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                246,
+                389,
+                268
+            ],
+            "text": "25,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                279,
+                131,
+                300
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                223,
+                277,
+                232,
+                298
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                254,
+                277,
+                298,
+                299
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                276,
+                388,
+                298
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                365,
+                392,
+                387
+            ],
+            "text": "69,300đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

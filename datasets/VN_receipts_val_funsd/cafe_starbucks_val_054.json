@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                111,
+                80,
+                276,
+                102
+            ],
+            "text": "STARBUCKS HÀN THUYÊN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                72,
+                100,
+                314,
+                122
+            ],
+            "text": "Số 292 Lê Lợi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                50,
+                161,
+                123,
+                184
+            ],
+            "text": "19/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                283,
+                148,
+                307
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                238,
+                281,
+                246,
+                302
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                319,
+                280,
+                362,
+                302
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                316,
+                140,
+                339
+            ],
+            "text": "Chocolate Muffin",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                238,
+                315,
+                246,
+                335
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                319,
+                313,
+                362,
+                334
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                348,
+                140,
+                372
+            ],
+            "text": "Butter Croissant",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                238,
+                346,
+                246,
+                367
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                312,
+                344,
+                362,
+                366
+            ],
+            "text": "120,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                438,
+                362,
+                461
+            ],
+            "text": "277,020",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

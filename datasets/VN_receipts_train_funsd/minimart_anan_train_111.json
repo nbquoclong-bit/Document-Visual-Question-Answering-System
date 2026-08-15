@@ -1,0 +1,204 @@
+{
+    "form": [
+        {
+            "box": [
+                155,
+                22,
+                251,
+                43
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                18,
+                46,
+                388,
+                68
+            ],
+            "text": "Số 244 Nguyễn Trãi, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                167,
+                209,
+                188
+            ],
+            "text": "05/06/2026 21:03",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                238,
+                173,
+                259
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                263,
+                238,
+                269,
+                258
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                292,
+                237,
+                337,
+                258
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                237,
+                389,
+                257
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                264,
+                186,
+                286
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                263,
+                264,
+                270,
+                284
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                292,
+                263,
+                337,
+                284
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                263,
+                389,
+                284
+            ],
+            "text": "20.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                290,
+                209,
+                312
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                269,
+                290,
+                278,
+                310
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                299,
+                289,
+                336,
+                310
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                289,
+                389,
+                310
+            ],
+            "text": "24.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                317,
+                158,
+                338
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                316,
+                271,
+                336
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                292,
+                316,
+                337,
+                336
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                315,
+                389,
+                336
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                356,
+                389,
+                376
+            ],
+            "text": "154.000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

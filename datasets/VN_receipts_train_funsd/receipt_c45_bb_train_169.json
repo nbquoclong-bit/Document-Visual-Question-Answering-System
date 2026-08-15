@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                31,
+                355,
+                50
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                92,
+                41,
+                378,
+                75
+            ],
+            "text": "Số 137 Lê Lợi, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                209,
+                150,
+                426,
+                167
+            ],
+            "text": "Ngày 20 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                126,
+                261,
+                239,
+                276
+            ],
+            "text": "1.674.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

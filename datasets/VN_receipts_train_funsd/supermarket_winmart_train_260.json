@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                147,
+                32,
+                248,
+                54
+            ],
+            "text": "VM+QNH HẠ LONG",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                65,
+                64,
+                333,
+                89
+            ],
+            "text": "Số 217 Nguyễn Huệ, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                64,
+                170,
+                180,
+                192
+            ],
+            "text": "03/06/2026 22:41",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                260,
+                183,
+                281
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                201,
+                259,
+                209,
+                280
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                229,
+                259,
+                273,
+                279
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                257,
+                384,
+                278
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                287,
+                184,
+                309
+            ],
+            "text": "Mì tôm Hảo Hảo chua cay",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                208,
+                287,
+                216,
+                307
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                237,
+                286,
+                273,
+                307
+            ],
+            "text": "3.500",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                285,
+                384,
+                306
+            ],
+            "text": "3.500",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                371,
+                385,
+                391
+            ],
+            "text": "23.220",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

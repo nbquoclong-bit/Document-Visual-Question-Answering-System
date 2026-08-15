@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                23,
+                286,
+                48
+            ],
+            "text": "ANAN CONVENIENCE STORE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                23,
+                46,
+                390,
+                74
+            ],
+            "text": "Số 334 Lê Lợi, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                94,
+                171,
+                210,
+                194
+            ],
+            "text": "23/05/2026 11:42",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                242,
+                195,
+                266
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                269,
+                240,
+                276,
+                262
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                298,
+                239,
+                334,
+                261
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                238,
+                390,
+                261
+            ],
+            "text": "12.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                268,
+                160,
+                292
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                261,
+                267,
+                269,
+                288
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                266,
+                334,
+                288
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                265,
+                389,
+                287
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                294,
+                181,
+                318
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                261,
+                293,
+                269,
+                315
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                292,
+                334,
+                313
+            ],
+            "text": "22.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                291,
+                389,
+                313
+            ],
+            "text": "22.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                345,
+                332,
+                389,
+                354
+            ],
+            "text": "55.000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

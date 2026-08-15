@@ -1,0 +1,114 @@
+{
+    "form": [
+        {
+            "box": [
+                130,
+                16,
+                246,
+                39
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                148,
+                58,
+                265,
+                80
+            ],
+            "text": "23/05/2026 12:15",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                44,
+                114,
+                220,
+                137
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                322,
+                116,
+                358,
+                136
+            ],
+            "text": "5,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                143,
+                162,
+                165
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                144,
+                358,
+                166
+            ],
+            "text": "60,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                172,
+                213,
+                194
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                172,
+                358,
+                194
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                202,
+                220,
+                223
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                201,
+                358,
+                223
+            ],
+            "text": "19,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                233,
+                358,
+                258
+            ],
+            "text": "144,720",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

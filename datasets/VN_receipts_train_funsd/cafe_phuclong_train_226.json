@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                18,
+                22,
+                137,
+                45
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                143,
+                20,
+                360,
+                44
+            ],
+            "text": "Số 27 Lê Lợi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                14,
+                139,
+                134,
+                161
+            ],
+            "text": "20/06/2026 20:33",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                15,
+                221,
+                22,
+                241
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                220,
+                183,
+                242
+            ],
+            "text": "Trà Lài Đác Thơm L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                219,
+                362,
+                241
+            ],
+            "text": "110,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                248,
+                24,
+                269
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                246,
+                213,
+                269
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                245,
+                362,
+                266
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                15,
+                274,
+                24,
+                295
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                49,
+                273,
+                153,
+                295
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                272,
+                362,
+                294
+            ],
+            "text": "90,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                310,
+                352,
+                361,
+                373
+            ],
+            "text": "243,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                147,
+                33,
+                254,
+                57
+            ],
+            "text": "GS25 NGUYỄN HUỆ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                33,
+                51,
+                364,
+                79
+            ],
+            "text": "Số 94 Lý Thường Kiệt, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                160,
+                183,
+                182
+            ],
+            "text": "19/06/2026 17:01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                252,
+                218,
+                273
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                253,
+                241,
+                274
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                253,
+                305,
+                274
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                253,
+                381,
+                274
+            ],
+            "text": "14,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                280,
+                160,
+                302
+            ],
+            "text": "Sữa chua uống Proby",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                240,
+                281,
+                248,
+                301
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                268,
+                281,
+                305,
+                301
+            ],
+            "text": "8,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                281,
+                381,
+                302
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                334,
+                366,
+                383,
+                388
+            ],
+            "text": "41,800đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

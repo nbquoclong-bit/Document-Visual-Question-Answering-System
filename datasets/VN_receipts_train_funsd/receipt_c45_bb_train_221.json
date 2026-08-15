@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                90,
+                27,
+                335,
+                43
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                97,
+                36,
+                406,
+                66
+            ],
+            "text": "Số 402 Cách Mạng Tháng Tám, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                215,
+                146,
+                434,
+                161
+            ],
+            "text": "Ngày 18 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                130,
+                256,
+                245,
+                271
+            ],
+            "text": "1.650.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

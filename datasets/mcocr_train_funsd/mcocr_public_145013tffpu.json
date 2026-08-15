@@ -2,230 +2,70 @@
     "form": [
         {
             "box": [
-                287,
-                267,
-                555,
-                300
-            ],
-            "text": "MINIMART ANAN",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                253,
-                299,
-                588,
-                336
-            ],
-            "text": "Cho Sii Phu Thi Gia Lam",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                78,
-                348,
-                128,
-                369
-            ],
-            "text": "Tel:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                247,
-                375,
-                610,
-                416
-            ],
-            "text": "HOADON BAN HANG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                102,
-                403,
-                739,
-                459
-            ],
-            "text": "Ten hang....SL..DVT.Don gia..Thanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                96,
-                442,
-                670,
-                489
-            ],
-            "text": "8934673601825 Srachua nha dam100g NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                494,
-                477,
-                574,
-                504
-            ],
-            "text": "7,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                92,
-                492,
-                252,
-                517
-            ],
-            "text": "Giadang ky:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                494,
-                509,
-                575,
-                539
-            ],
-            "text": "6,500",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                670,
-                503,
-                766,
-                530
-            ],
-            "text": "52,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                88,
-                525,
-                201,
-                551
-            ],
-            "text": "Giabän:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                252,
-                526,
-                270,
-                542
-            ],
-            "text": "8",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                322,
-                519,
-                382,
-                541
-            ],
-            "text": "HOP",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                85,
-                543,
-                726,
-                591
-            ],
-            "text": "2910005400001visüa chua men s&ng prob NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                483,
-                582,
-                579,
-                610
-            ],
-            "text": "21,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                661,
-                576,
-                778,
-                605
-            ],
-            "text": "105,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                250,
-                594,
                 272,
-                615
+                902,
+                760,
+                1037
             ],
-            "text": "5",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                332,
-                591,
-                372,
-                612
+                155,
+                894,
+                542,
+                924
             ],
-            "text": "VI",
+            "text": "Xin cám ơn và hẹn gặp lại quý khách",
             "label": "OTHER"
         },
         {
             "box": [
-                71,
-                641,
-                192,
-                673
+                279,
+                872,
+                430,
+                896
             ],
-            "text": "Töng sö:",
+            "text": "Thu ngân: BH5",
             "label": "OTHER"
         },
         {
             "box": [
-                274,
-                644,
-                313,
-                666
+                101,
+                828,
+                617,
+                867
             ],
-            "text": "13",
+            "text": "Số GD: 000AB2212008003917 Ngày: 16/08/2020 - 15:26",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                76,
+                777,
+                235,
+                804
+            ],
+            "text": "Tiền khách trả:",
             "label": "OTHER"
         },
         {
             "box": [
-                674,
-                656,
-                792,
-                685
+                330,
+                786,
+                381,
+                811
             ],
-            "text": "157,000",
+            "text": "ANA",
             "label": "OTHER"
         },
         {
             "box": [
-                75,
-                676,
-                231,
-                703
-            ],
-            "text": "T&ng cong",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                677,
-                701,
-                795,
-                732
+                535,
+                787,
+                623,
+                815
             ],
             "text": "157,000",
             "label": "OTHER"
@@ -233,72 +73,202 @@
         {
             "box": [
                 74,
-                717,
-                222,
-                750
+                744,
+                186,
+                771
             ],
-            "text": "Tong tien:",
-            "label": "OTHER"
+            "text": "Tổng tiền",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                411,
-                747,
-                483,
-                776
+                535,
+                751,
+                624,
+                777
             ],
-            "text": "VND",
-            "label": "OTHER"
+            "text": "157,000",
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                679,
-                739,
-                796,
-                769
+                74,
+                696,
+                198,
+                729
+            ],
+            "text": "Tổng cộng:",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                536,
+                702,
+                624,
+                729
             ],
             "text": "157,000",
             "label": "OTHER"
         },
         {
             "box": [
-                80,
-                750,
-                294,
-                780
+                74,
+                664,
+                167,
+                691
             ],
-            "text": "Tien khach tra:",
+            "text": "Tổng số:",
             "label": "OTHER"
         },
         {
             "box": [
-                117,
-                787,
-                791,
-                833
+                393,
+                620,
+                467,
+                646
             ],
-            "text": "S6GD000AB2212008003917Ngay16/08/2020-15:26",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                350,
-                831,
-                552,
-                861
+                530,
+                620,
+                618,
+                648
             ],
-            "text": "Thu nganBH5",
+            "text": "105,000",
             "label": "OTHER"
         },
         {
             "box": [
-                191,
-                851,
-                699,
-                889
+                90,
+                585,
+                583,
+                611
             ],
-            "text": "Xin cäm an va hen gap lai quy khäch !",
+            "text": "291000540000 1 vỉ sữa chua men sống prob NT",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                93,
+                545,
+                181,
+                568
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                273,
+                546,
+                317,
+                567
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                406,
+                545,
+                467,
+                572
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                540,
+                544,
+                614,
+                572
+            ],
+            "text": "52,000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                97,
+                511,
+                222,
+                536
+            ],
+            "text": "Giá đăng ký:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                406,
+                511,
+                467,
+                537
+            ],
+            "text": "000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                101,
+                479,
+                544,
+                506
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                111,
+                449,
+                244,
+                473
+            ],
+            "text": "Tên hàng",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                236,
+                443,
+                597,
+                475
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                223,
+                406,
+                501,
+                438
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                233,
+                332,
+                487,
+                355
+            ],
+            "text": "",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                261,
+                296,
+                464,
+                320
+            ],
+            "text": "",
+            "label": "SELLER"
         }
     ]
 }

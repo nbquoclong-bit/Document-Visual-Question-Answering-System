@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                160,
+                35,
+                249,
+                57
+            ],
+            "text": "SAIGON CO.OP",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                42,
+                54,
+                363,
+                78
+            ],
+            "text": "Số 125 Hai Bà Trưng, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                171,
+                205,
+                193
+            ],
+            "text": "18/06/2026 22:02:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                248,
+                170,
+                270
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                185,
+                274,
+                258,
+                296
+            ],
+            "text": "175,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                274,
+                274,
+                280,
+                295
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                314,
+                271,
+                386,
+                295
+            ],
+            "text": "525,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                304,
+                185,
+                326
+            ],
+            "text": "Bia Heineken Lon 330ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                193,
+                329,
+                258,
+                351
+            ],
+            "text": "19,500.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                273,
+                330,
+                281,
+                350
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                322,
+                327,
+                386,
+                349
+            ],
+            "text": "78,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                315,
+                428,
+                386,
+                450
+            ],
+            "text": "651,240.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

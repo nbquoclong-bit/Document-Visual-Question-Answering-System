@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                142,
+                41,
+                263,
+                63
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                58,
+                61,
+                349,
+                85
+            ],
+            "text": "Số 370 Nguyễn Huệ, Quận Đống Đa, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                64,
+                170,
+                182,
+                192
+            ],
+            "text": "02/06/2026 21:57",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                259,
+                216,
+                280
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                261,
+                240,
+                282
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                262,
+                257,
+                308,
+                280
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                343,
+                259,
+                388,
+                281
+            ],
+            "text": "42,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                286,
+                201,
+                308
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                287,
+                240,
+                307
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                262,
+                287,
+                308,
+                309
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                285,
+                388,
+                309
+            ],
+            "text": "16,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                374,
+                390,
+                394
+            ],
+            "text": "63,800đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

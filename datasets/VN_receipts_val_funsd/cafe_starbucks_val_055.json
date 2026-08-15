@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                112,
+                103,
+                267,
+                122
+            ],
+            "text": "STARBUCKS REX HOTEL",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                36,
+                123,
+                345,
+                143
+            ],
+            "text": "Số 119 Nguyễn Trãi, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                49,
+                179,
+                120,
+                200
+            ],
+            "text": "16/06/2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                22,
+                295,
+                144,
+                317
+            ],
+            "text": "Caffe Americano L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                297,
+                241,
+                318
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                298,
+                359,
+                319
+            ],
+            "text": "120,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                325,
+                144,
+                348
+            ],
+            "text": "Green Tea Latte M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                328,
+                241,
+                349
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                308,
+                329,
+                359,
+                351
+            ],
+            "text": "225,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                308,
+                422,
+                359,
+                443
+            ],
+            "text": "353,970",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

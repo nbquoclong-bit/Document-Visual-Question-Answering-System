@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                155,
+                22,
+                250,
+                46
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                18,
+                43,
+                391,
+                74
+            ],
+            "text": "Số 17 Lý Thường Kiệt, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                172,
+                209,
+                195
+            ],
+            "text": "23/05/2026 11:44",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                20,
+                245,
+                166,
+                268
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                269,
+                243,
+                276,
+                264
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                298,
+                242,
+                334,
+                264
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                354,
+                241,
+                392,
+                263
+            ],
+            "text": "9.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                271,
+                187,
+                294
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                261,
+                270,
+                269,
+                291
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                290,
+                269,
+                335,
+                291
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                268,
+                392,
+                290
+            ],
+            "text": "20.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                298,
+                195,
+                321
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                269,
+                297,
+                275,
+                318
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                298,
+                296,
+                335,
+                317
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                295,
+                392,
+                317
+            ],
+            "text": "12.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                346,
+                337,
+                392,
+                358
+            ],
+            "text": "44.280",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

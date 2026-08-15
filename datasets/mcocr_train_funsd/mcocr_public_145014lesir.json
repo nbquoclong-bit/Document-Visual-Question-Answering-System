@@ -2,213 +2,203 @@
     "form": [
         {
             "box": [
-                333,
-                281,
-                696,
-                310
+                119,
+                911,
+                653,
+                958
             ],
-            "text": "MINIMART ANAN",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                281,
-                325,
-                738,
-                360
-            ],
-            "text": "Cho Sui Phu Thi Gia Lam",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                29,
-                364,
-                100,
-                392
-            ],
-            "text": "Tel:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                266,
-                433,
-                766,
-                472
-            ],
-            "text": "HOA DON BAN HANG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                63,
-                487,
-                244,
-                522
-            ],
-            "text": "Ten hang",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
                 302,
-                490,
-                548,
-                518
+                876,
+                505,
+                915
             ],
-            "text": "SLDVT",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                541,
-                494,
-                930,
-                521
+                55,
+                817,
+                742,
+                864
             ],
-            "text": "Don gia Thanh tien",
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                375,
+                758,
+                443,
+                790
+            ],
+            "text": "GNA",
             "label": "OTHER"
         },
         {
             "box": [
-                46,
-                533,
-                871,
-                569
+                643,
+                753,
+                749,
+                787
             ],
-            "text": "291003450000 hat di@u kim thanh g6i 500g NT",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                268,
-                580,
-                298,
-                607
+                26,
+                755,
+                246,
+                785
             ],
-            "text": "1",
+            "text": "Tiền khách trả:",
             "label": "OTHER"
         },
         {
             "box": [
-                371,
-                581,
-                446,
-                608
+                643,
+                704,
+                749,
+                736
             ],
-            "text": "GOI",
+            "text": "000000",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                21,
+                704,
+                192,
+                747
+            ],
+            "text": "Tổng cộng:",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                24,
+                660,
+                151,
+                698
+            ],
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                565,
-                581,
-                708,
-                611
-            ],
-            "text": "130,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                819,
-                584,
-                958,
-                614
-            ],
-            "text": "130,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                23,
                 637,
-                187,
-                677
+                598,
+                741,
+                630
             ],
-            "text": "Tongso:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                325,
-                649,
-                356,
-                676
+                441,
+                599,
+                549,
+                631
             ],
-            "text": "1",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                20,
-                681,
-                244,
-                725
+                291,
+                598,
+                348,
+                627
             ],
-            "text": "T&ng cöng",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                828,
-                686,
-                967,
-                715
+                41,
+                553,
+                675,
+                585
             ],
-            "text": "130,000",
+            "text": "291003450000 hạt điều kim thanh gói 500g NT",
             "label": "OTHER"
         },
         {
             "box": [
-                23,
-                731,
-                312,
-                762
+                568,
+                506,
+                717,
+                536
             ],
-            "text": "Tien khach tra:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                480,
-                737,
-                569,
-                768
+                421,
+                502,
+                538,
+                540
             ],
-            "text": "VND",
+            "text": "Đơn giá",
             "label": "OTHER"
         },
         {
             "box": [
-                829,
-                735,
-                970,
-                767
+                309,
+                504,
+                375,
+                536
             ],
-            "text": "130,000",
+            "text": "LAG",
             "label": "OTHER"
         },
         {
             "box": [
-                62,
-                796,
-                958,
-                837
+                53,
+                503,
+                192,
+                539
             ],
-            "text": "SöGD000AB2212008003168Ngay13/08/2020-02:02",
+            "text": "Tên hàng",
             "label": "OTHER"
         },
         {
             "box": [
-                385,
-                854,
-                648,
-                888
+                206,
+                443,
+                594,
+                491
             ],
-            "text": "Thu nganBH2",
+            "text": "HÓA ĐƠN BÁN HÀNG",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                220,
+                337,
+                570,
+                372
+            ],
+            "text": "Chợ Sủi Phú Thị Gia Lâm",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                258,
+                289,
+                537,
+                322
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
         }
     ]
 }

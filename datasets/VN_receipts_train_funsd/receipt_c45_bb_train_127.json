@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                97,
+                33,
+                359,
+                49
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                102,
+                42,
+                393,
+                72
+            ],
+            "text": "Số 270 Bùi Thị Xuân, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                214,
+                145,
+                430,
+                160
+            ],
+            "text": "Ngày 23 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                127,
+                249,
+                240,
+                264
+            ],
+            "text": "1.650.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                27,
+                335,
+                42
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                91,
+                37,
+                376,
+                67
+            ],
+            "text": "Số 347 Nguyễn Trãi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                211,
+                148,
+                435,
+                163
+            ],
+            "text": "Ngày 11 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                123,
+                259,
+                240,
+                274
+            ],
+            "text": "1.870.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

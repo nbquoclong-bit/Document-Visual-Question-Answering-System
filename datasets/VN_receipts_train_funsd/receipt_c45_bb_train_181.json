@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                87,
+                27,
+                361,
+                42
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                94,
+                36,
+                406,
+                68
+            ],
+            "text": "Số 428 Cách Mạng Tháng Tám, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                145,
+                432,
+                162
+            ],
+            "text": "Ngày 16 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                123,
+                256,
+                237,
+                272
+            ],
+            "text": "1.705.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

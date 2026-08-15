@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                120,
+                38,
+                287,
+                59
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                17,
+                59,
+                385,
+                86
+            ],
+            "text": "Số 373 Bùi Thị Xuân, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                177,
+                210,
+                201
+            ],
+            "text": "30/05/2026 18:07",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                246,
+                210,
+                271
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                270,
+                244,
+                279,
+                264
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                299,
+                242,
+                337,
+                263
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                241,
+                388,
+                261
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                271,
+                190,
+                297
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                269,
+                272,
+                290
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                293,
+                267,
+                337,
+                289
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                265,
+                389,
+                287
+            ],
+            "text": "40.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                297,
+                175,
+                323
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                294,
+                272,
+                314
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                294,
+                292,
+                338,
+                314
+            ],
+            "text": "32.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                345,
+                290,
+                388,
+                312
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                339,
+                330,
+                389,
+                351
+            ],
+            "text": "114.400",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

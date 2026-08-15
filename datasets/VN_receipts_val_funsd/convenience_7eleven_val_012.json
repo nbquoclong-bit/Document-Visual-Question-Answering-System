@@ -1,0 +1,94 @@
+{
+    "form": [
+        {
+            "box": [
+                139,
+                34,
+                255,
+                61
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                156,
+                76,
+                273,
+                101
+            ],
+            "text": "17/06/2026 15:31",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                50,
+                125,
+                170,
+                151
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                321,
+                137,
+                363,
+                158
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                50,
+                153,
+                221,
+                181
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                164,
+                363,
+                186
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                50,
+                181,
+                184,
+                207
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                191,
+                363,
+                213
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                314,
+                221,
+                362,
+                246
+            ],
+            "text": "166,100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

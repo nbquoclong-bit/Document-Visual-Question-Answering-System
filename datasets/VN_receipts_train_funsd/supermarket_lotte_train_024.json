@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                159,
+                18,
+                248,
+                40
+            ],
+            "text": "SAIGON CO.OP",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                59,
+                37,
+                349,
+                62
+            ],
+            "text": "Số 213 Hai Bà Trưng, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                62,
+                157,
+                203,
+                180
+            ],
+            "text": "30/05/2026 08:19:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                18,
+                234,
+                173,
+                257
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                185,
+                264,
+                252,
+                285
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                269,
+                263,
+                277,
+                285
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                323,
+                263,
+                390,
+                283
+            ],
+            "text": "96,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                18,
+                292,
+                180,
+                314
+            ],
+            "text": "Bia Heineken Lon 330ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                185,
+                320,
+                252,
+                342
+            ],
+            "text": "19,500.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                268,
+                321,
+                276,
+                341
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                323,
+                320,
+                390,
+                342
+            ],
+            "text": "78,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                315,
+                426,
+                390,
+                448
+            ],
+            "text": "187,920.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

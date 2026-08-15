@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                121,
+                15,
+                290,
+                38
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                18,
+                40,
+                392,
+                62
+            ],
+            "text": "Số 390 Hai Bà Trưng, Quận 1, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                163,
+                211,
+                185
+            ],
+            "text": "27/05/2026 11:56",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                235,
+                196,
+                258
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                272,
+                235,
+                278,
+                256
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                300,
+                235,
+                338,
+                257
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                356,
+                235,
+                394,
+                256
+            ],
+            "text": "6.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                17,
+                262,
+                211,
+                284
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                271,
+                262,
+                279,
+                283
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                301,
+                261,
+                338,
+                283
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                261,
+                394,
+                283
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                348,
+                303,
+                394,
+                325
+            ],
+            "text": "41.040",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

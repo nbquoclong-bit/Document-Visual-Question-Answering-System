@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                96,
+                30,
+                340,
+                44
+            ],
+            "text": "ỦY BAN NHÂN DÂN QUẬN CẦU GIẤY",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                103,
+                40,
+                382,
+                69
+            ],
+            "text": "Số 116 Bùi Thị Xuân, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                215,
+                145,
+                426,
+                160
+            ],
+            "text": "Ngày 09 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                130,
+                252,
+                215,
+                267
+            ],
+            "text": "55.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

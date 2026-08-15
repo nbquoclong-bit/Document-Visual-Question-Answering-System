@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                155,
+                19,
+                252,
+                41
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                43,
+                392,
+                66
+            ],
+            "text": "Số 30 Trần Hưng Đạo, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                89,
+                165,
+                208,
+                188
+            ],
+            "text": "26/05/2026 07:36",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                16,
+                236,
+                194,
+                260
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                269,
+                240,
+                277,
+                261
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                298,
+                240,
+                336,
+                261
+            ],
+            "text": "6.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                241,
+                392,
+                261
+            ],
+            "text": "18.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                263,
+                164,
+                286
+            ],
+            "text": "Mì Ly ăn liền Modern",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                269,
+                266,
+                277,
+                288
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                298,
+                266,
+                336,
+                287
+            ],
+            "text": "9.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                354,
+                267,
+                392,
+                289
+            ],
+            "text": "9.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                289,
+                208,
+                313
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                269,
+                293,
+                277,
+                314
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                298,
+                294,
+                336,
+                315
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                293,
+                391,
+                316
+            ],
+            "text": "16.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                346,
+                335,
+                390,
+                356
+            ],
+            "text": "46.440",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

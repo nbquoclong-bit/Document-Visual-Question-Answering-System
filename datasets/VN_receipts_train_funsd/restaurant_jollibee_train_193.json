@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                146,
+                26,
+                266,
+                47
+            ],
+            "text": "JOLLIBEE PASTEUR",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                52,
+                47,
+                359,
+                68
+            ],
+            "text": "Số 40 Hai Bà Trưng, Quận Cầu Giấy, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                157,
+                186,
+                178
+            ],
+            "text": "17/06/2026 20:37",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                252,
+                132,
+                273
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                252,
+                218,
+                273
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                241,
+                253,
+                285,
+                273
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                253,
+                390,
+                273
+            ],
+            "text": "152,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                282,
+                124,
+                303
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                211,
+                283,
+                218,
+                303
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                239,
+                283,
+                284,
+                303
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                347,
+                283,
+                391,
+                304
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                333,
+                372,
+                393,
+                392
+            ],
+            "text": "180,360đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

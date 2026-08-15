@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                146,
+                18,
+                258,
+                40
+            ],
+            "text": "GS25 NGUYỄN HUỆ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                64,
+                39,
+                339,
+                60
+            ],
+            "text": "Số 228 Hai Bà Trưng, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                63,
+                149,
+                183,
+                170
+            ],
+            "text": "03/06/2026 08:10",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                17,
+                240,
+                134,
+                261
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                220,
+                241,
+                229,
+                262
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                241,
+                295,
+                263
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                243,
+                389,
+                263
+            ],
+            "text": "66,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                16,
+                270,
+                165,
+                291
+            ],
+            "text": "Xúc xích Đức ăn liền",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                220,
+                271,
+                229,
+                291
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                249,
+                271,
+                295,
+                292
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                270,
+                390,
+                292
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                331,
+                360,
+                393,
+                381
+            ],
+            "text": "116,600đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

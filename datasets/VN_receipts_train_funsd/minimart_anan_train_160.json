@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                22,
+                294,
+                52
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                24,
+                40,
+                391,
+                82
+            ],
+            "text": "Số 216 Bùi Thị Xuân, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                165,
+                216,
+                191
+            ],
+            "text": "26/05/2026 12:55",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                233,
+                216,
+                261
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                274,
+                242,
+                282,
+                264
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                302,
+                244,
+                339,
+                264
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                244,
+                389,
+                267
+            ],
+            "text": "24.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                259,
+                164,
+                286
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                267,
+                267,
+                275,
+                290
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                296,
+                268,
+                339,
+                292
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                346,
+                270,
+                389,
+                292
+            ],
+            "text": "64.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                346,
+                309,
+                388,
+                332
+            ],
+            "text": "96.800",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                159,
+                32,
+                260,
+                55
+            ],
+            "text": "VM+QNH CẨM PHẢ",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                24,
+                62,
+                391,
+                112
+            ],
+            "text": "Số 80 Cách Mạng Tháng Tám, Quận 10, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                72,
+                190,
+                190,
+                213
+            ],
+            "text": "07/06/2026 17:20",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                281,
+                198,
+                306
+            ],
+            "text": "Sữa tươi TH True Milk 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                210,
+                285,
+                218,
+                306
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                238,
+                285,
+                282,
+                308
+            ],
+            "text": "38.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                288,
+                392,
+                310
+            ],
+            "text": "38.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                310,
+                192,
+                335
+            ],
+            "text": "Khăn giấy Pulppy 100 tờ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                209,
+                314,
+                217,
+                334
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                238,
+                314,
+                281,
+                336
+            ],
+            "text": "18.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                348,
+                317,
+                392,
+                337
+            ],
+            "text": "72.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                339,
+                140,
+                362
+            ],
+            "text": "Dầu ăn Simply 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                209,
+                342,
+                218,
+                363
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                238,
+                343,
+                282,
+                365
+            ],
+            "text": "56.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                344,
+                392,
+                366
+            ],
+            "text": "168.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                341,
+                431,
+                391,
+                453
+            ],
+            "text": "300.240",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

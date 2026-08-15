@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                135,
+                39,
+                248,
+                61
+            ],
+            "text": "PHÚC LONG LÊ LAI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                34,
+                58,
+                352,
+                84
+            ],
+            "text": "Số 212 Trần Hưng Đạo, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                27,
+                171,
+                140,
+                192
+            ],
+            "text": "23/05/2026 09:47",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                26,
+                247,
+                35,
+                268
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                59,
+                246,
+                159,
+                267
+            ],
+            "text": "Hồng Trà Sữa M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                243,
+                358,
+                264
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                272,
+                34,
+                292
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                59,
+                271,
+                194,
+                293
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                269,
+                358,
+                290
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                307,
+                344,
+                357,
+                367
+            ],
+            "text": "104,500",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

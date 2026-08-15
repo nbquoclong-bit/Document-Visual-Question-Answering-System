@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                27,
+                365,
+                44
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                92,
+                37,
+                392,
+                68
+            ],
+            "text": "Số 198 Bùi Thị Xuân, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                214,
+                147,
+                439,
+                163
+            ],
+            "text": "Ngày 22 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                124,
+                258,
+                241,
+                273
+            ],
+            "text": "1.674.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

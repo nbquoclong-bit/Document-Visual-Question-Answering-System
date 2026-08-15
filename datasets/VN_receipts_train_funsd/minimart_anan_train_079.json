@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                152,
+                30,
+                245,
+                57
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                21,
+                44,
+                381,
+                89
+            ],
+            "text": "Số 101 Bùi Thị Xuân, Quận Thanh Khê, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                173,
+                204,
+                200
+            ],
+            "text": "02/06/2026 08:46",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                242,
+                205,
+                272
+            ],
+            "text": "Xúc xích tiệt trùng Ponnie",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                264,
+                238,
+                272,
+                259
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                294,
+                235,
+                330,
+                257
+            ],
+            "text": "8.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                232,
+                383,
+                254
+            ],
+            "text": "32.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                269,
+                184,
+                297
+            ],
+            "text": "Trà xanh Không Độ 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                257,
+                264,
+                265,
+                285
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                286,
+                261,
+                330,
+                283
+            ],
+            "text": "10.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                338,
+                258,
+                383,
+                280
+            ],
+            "text": "20.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                338,
+                298,
+                383,
+                320
+            ],
+            "text": "57.200",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

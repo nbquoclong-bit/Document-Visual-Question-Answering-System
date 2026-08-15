@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                116,
+                29,
+                284,
+                55
+            ],
+            "text": "CỬA HÀNG TIỆN LỢI AN AN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                16,
+                52,
+                385,
+                83
+            ],
+            "text": "Số 12 Nguyễn Trãi, Quận 1, Cần Thơ",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                90,
+                175,
+                206,
+                198
+            ],
+            "text": "30/05/2026 12:23",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                242,
+                163,
+                268
+            ],
+            "text": "Bột giặt Ariel 3.2kg",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                238,
+                250,
+                245,
+                270
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                267,
+                252,
+                318,
+                274
+            ],
+            "text": "175.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                335,
+                254,
+                386,
+                277
+            ],
+            "text": "350.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                269,
+                157,
+                294
+            ],
+            "text": "Bánh bao trứng muối",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                245,
+                276,
+                253,
+                298
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                274,
+                278,
+                318,
+                300
+            ],
+            "text": "16.000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                342,
+                280,
+                386,
+                303
+            ],
+            "text": "48.000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                335,
+                320,
+                386,
+                344
+            ],
+            "text": "429.840",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

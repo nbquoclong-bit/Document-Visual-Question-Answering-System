@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                127,
+                16,
+                254,
+                38
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                149,
+                58,
+                270,
+                81
+            ],
+            "text": "18/06/2026 17:16",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                44,
+                117,
+                224,
+                139
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                115,
+                363,
+                137
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                145,
+                217,
+                169
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                311,
+                144,
+                362,
+                167
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                174,
+                223,
+                198
+            ],
+            "text": "Snack khoai tây Lays 95g",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                173,
+                363,
+                196
+            ],
+            "text": "38,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                205,
+                179,
+                227
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                318,
+                202,
+                363,
+                225
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                44,
+                233,
+                164,
+                256
+            ],
+            "text": "Mì xào tương đen",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                231,
+                363,
+                253
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                311,
+                264,
+                362,
+                289
+            ],
+            "text": "225,720",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

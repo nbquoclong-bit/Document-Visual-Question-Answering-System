@@ -2,353 +2,323 @@
     "form": [
         {
             "box": [
-                322,
-                84,
-                638,
-                119
+                134,
+                996,
+                618,
+                1026
             ],
-            "text": "MINIMART ANAN",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                278,
-                116,
-                679,
-                150
+                295,
+                969,
+                483,
+                996
             ],
-            "text": "Chy Sti PhoThiGiaLam",
+            "text": "Thu ngân: BH5",
             "label": "OTHER"
         },
         {
             "box": [
-                59,
-                157,
-                123,
-                184
-            ],
-            "text": "Tel:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                263,
-                195,
-                710,
-                231
-            ],
-            "text": "HOA DON BAN HANG",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                83,
-                247,
-                239,
-                268
-            ],
-            "text": "Ten hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                291,
-                238,
-                454,
-                266
-            ],
-            "text": "SLDVT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                513,
-                235,
-                864,
-                262
-            ],
-            "text": "Don giaThanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                63,
-                271,
-                707,
-                303
-            ],
-            "text": "s850228000151Nu6c redbull 250ml NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                263,
-                312,
-                286,
-                332
-            ],
-            "text": "2",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                352,
-                307,
-                428,
-                333
-            ],
-            "text": "LON",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                554,
-                303,
-                670,
-                333
-            ],
-            "text": "11,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                792,
-                305,
-                903,
-                329
-            ],
-            "text": "22,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                44,
-                348,
-                716,
-                379
-            ],
-            "text": "291016070000xüc xich cp 8.10dai NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                256,
-                391,
-                282,
-                415
-            ],
-            "text": "3",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                355,
-                391,
-                423,
-                415
-            ],
-            "text": "TUI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                558,
-                388,
-                678,
-                417
-            ],
-            "text": "46,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                783,
-                388,
+                65,
                 917,
-                415
+                709,
+                959
             ],
-            "text": "138,000",
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                40,
+                863,
+                352,
+                899
+            ],
+            "text": "Giá trị thường tích lủy:",
             "label": "OTHER"
         },
         {
             "box": [
-                19,
-                449,
-                177,
-                481
+                629,
+                858,
+                719,
+                890
             ],
-            "text": "Tongso:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                312,
-                452,
-                341,
-                480
+                34,
+                822,
+                252,
+                854
             ],
-            "text": "5",
+            "text": "Hạng hiện thời:",
             "label": "OTHER"
         },
         {
             "box": [
-                19,
-                493,
-                230,
-                521
+                33,
+                772,
+                248,
+                808
             ],
-            "text": "Tong cong:",
+            "text": "Điểm hiện thời:",
             "label": "OTHER"
         },
         {
             "box": [
-                795,
-                482,
-                930,
-                513
+                637,
+                771,
+                724,
+                803
             ],
-            "text": "160,000",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                18,
-                532,
-                300,
-                563
+                32,
+                730,
+                186,
+                759
             ],
-            "text": "Tien khäch tra:",
+            "text": "Điềm mua:",
             "label": "OTHER"
         },
         {
             "box": [
-                462,
-                533,
-                549,
-                563
+                36,
+                678,
+                337,
+                710
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                31,
+                629,
+                384,
+                658
+            ],
+            "text": "2900000000000000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                365,
+                554,
+                431,
+                586
             ],
             "text": "VND",
             "label": "OTHER"
         },
         {
             "box": [
-                796,
-                529,
-                934,
-                559
+                24,
+                550,
+                243,
+                579
+            ],
+            "text": "Tiền khách trả:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                623,
+                558,
+                726,
+                589
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                24,
+                501,
+                191,
+                542
+            ],
+            "text": "Tổng cộng :",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                621,
+                510,
+                726,
+                540
             ],
             "text": "160,000",
-            "label": "OTHER"
+            "label": "TOTAL_COST"
         },
         {
             "box": [
-                31,
-                607,
-                488,
-                640
+                25,
+                458,
+                151,
+                496
             ],
-            "text": "Math6A10000000067",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                36,
-                655,
-                430,
-                693
+                285,
+                406,
+                341,
+                432
             ],
-            "text": "(0) Nguyen van hung",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                893,
-                691,
-                938,
-                719
+                442,
+                407,
+                534,
+                440
             ],
-            "text": "16",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                32,
-                711,
-                231,
-                736
+                614,
+                410,
+                718,
+                442
             ],
-            "text": "Diernmua:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                820,
-                735,
-                938,
-                770
+                47,
+                363,
+                567,
+                396
             ],
-            "text": "10,048",
+            "text": "291016070000 xúc xích cp 8,10 dài NT",
             "label": "OTHER"
         },
         {
             "box": [
-                35,
-                752,
-                319,
-                787
-            ],
-            "text": "Diem hien thoi:",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                39,
-                799,
+                287,
                 322,
-                832
+                344,
+                348
             ],
-            "text": "Hang hian thdi:",
+            "text": "NOT",
             "label": "OTHER"
         },
         {
             "box": [
-                811,
-                821,
-                933,
-                856
+                440,
+                323,
+                530,
+                351
             ],
-            "text": "44,149",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                46,
-                841,
-                451,
-                871
+                621,
+                326,
+                708,
+                353
             ],
-            "text": "Giatri thuong tich luy",
+            "text": "000",
             "label": "OTHER"
         },
         {
             "box": [
-                382,
-                935,
-                627,
-                967
+                65,
+                287,
+                562,
+                315
             ],
-            "text": "Thu nganBH5",
+            "text": "8850228000151 Nước redbull 250mi",
             "label": "OTHER"
         },
         {
             "box": [
-                173,
-                958,
-                804,
-                999
+                78,
+                248,
+                205,
+                282
             ],
-            "text": "Xin cam onva hengap lai quy khach!",
+            "text": "Tên hàng",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                241,
+                252,
+                368,
+                279
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                411,
+                255,
+                514,
+                280
+            ],
+            "text": "Đơn giá",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                543,
+                255,
+                680,
+                278
+            ],
+            "text": "Thành tiền",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                219,
+                210,
+                566,
+                243
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                232,
+                129,
+                543,
+                161
+            ],
+            "text": "",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                269,
+                100,
+                509,
+                127
+            ],
+            "text": "",
+            "label": "SELLER"
         }
     ]
 }

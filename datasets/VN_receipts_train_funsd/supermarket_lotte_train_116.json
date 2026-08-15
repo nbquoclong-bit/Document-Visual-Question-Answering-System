@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                161,
+                18,
+                250,
+                40
+            ],
+            "text": "SAIGON CO.OP",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                67,
+                39,
+                345,
+                62
+            ],
+            "text": "Số 201 Trần Hưng Đạo, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                159,
+                205,
+                181
+            ],
+            "text": "31/05/2026 07:06:00",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                237,
+                177,
+                259
+            ],
+            "text": "Kem đánh răng Colgate",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                187,
+                267,
+                253,
+                288
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                268,
+                267,
+                276,
+                289
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                322,
+                267,
+                386,
+                288
+            ],
+            "text": "32,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                294,
+                184,
+                317
+            ],
+            "text": "Nước cam ép Twister 1L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                187,
+                324,
+                253,
+                346
+            ],
+            "text": "28,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                268,
+                324,
+                277,
+                346
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                314,
+                325,
+                386,
+                346
+            ],
+            "text": "112,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                352,
+                177,
+                374
+            ],
+            "text": "Bánh quy Cosy Kinh Đô",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                187,
+                381,
+                253,
+                403
+            ],
+            "text": "22,000.00",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                268,
+                382,
+                277,
+                404
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                321,
+                383,
+                387,
+                404
+            ],
+            "text": "22,000.00",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                488,
+                386,
+                510
+            ],
+            "text": "182,600.00",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

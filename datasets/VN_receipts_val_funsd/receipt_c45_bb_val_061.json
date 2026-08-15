@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                90,
+                27,
+                339,
+                43
+            ],
+            "text": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                97,
+                38,
+                424,
+                68
+            ],
+            "text": "Số 311 Cách Mạng Tháng Tám, Quận Thanh Xuân, Hà Nội",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                215,
+                147,
+                438,
+                162
+            ],
+            "text": "Ngày 14 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                125,
+                257,
+                240,
+                273
+            ],
+            "text": "1.620.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

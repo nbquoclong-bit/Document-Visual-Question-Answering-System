@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                134,
+                15,
+                286,
+                37
+            ],
+            "text": "KFC Nguyễn Thái Học",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                78,
+                36,
+                342,
+                58
+            ],
+            "text": "Số 30 Hai Bà Trưng, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                99,
+                151,
+                209,
+                173
+            ],
+            "text": "26/05/2026 13:29",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                31,
+                229,
+                173,
+                252
+            ],
+            "text": "Gà Giòn Cay 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                219,
+                228,
+                229,
+                249
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                245,
+                227,
+                295,
+                248
+            ],
+            "text": "39,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                331,
+                227,
+                387,
+                248
+            ],
+            "text": "156,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                29,
+                259,
+                155,
+                281
+            ],
+            "text": "Khoai Tây Chiên L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                218,
+                258,
+                229,
+                278
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                245,
+                258,
+                295,
+                278
+            ],
+            "text": "28,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                255,
+                386,
+                276
+            ],
+            "text": "84,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                29,
+                288,
+                173,
+                311
+            ],
+            "text": "Bánh Trứng Egg Tart",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                218,
+                288,
+                228,
+                307
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                248,
+                286,
+                295,
+                308
+            ],
+            "text": "18,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                285,
+                388,
+                305
+            ],
+            "text": "54,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                327,
+                392,
+                379,
+                413
+            ],
+            "text": "317,520",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

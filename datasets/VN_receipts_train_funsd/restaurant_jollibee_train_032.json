@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                142,
+                26,
+                265,
+                52
+            ],
+            "text": "JOLLIBEE COOPMART",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                85,
+                43,
+                322,
+                75
+            ],
+            "text": "Số 335 Lê Lợi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                70,
+                159,
+                184,
+                185
+            ],
+            "text": "06/06/2026 10:31",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                25,
+                256,
+                125,
+                280
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                208,
+                252,
+                215,
+                273
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                250,
+                280,
+                272
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                245,
+                384,
+                268
+            ],
+            "text": "30,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                286,
+                132,
+                310
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                208,
+                282,
+                215,
+                303
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                236,
+                280,
+                280,
+                302
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                276,
+                383,
+                298
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                327,
+                364,
+                386,
+                387
+            ],
+            "text": "116,600đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

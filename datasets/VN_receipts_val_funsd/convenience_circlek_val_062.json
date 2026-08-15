@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                179,
+                23,
+                230,
+                44
+            ],
+            "text": "CIRCLE K",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                65,
+                51,
+                343,
+                77
+            ],
+            "text": "Số 84 Trần Hưng Đạo, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                75,
+                167,
+                191,
+                189
+            ],
+            "text": "26/05/2026 08:10",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                254,
+                183,
+                277
+            ],
+            "text": "Kẹo cao su Cool Air hũ",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                256,
+                244,
+                276
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                256,
+                293,
+                278
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                258,
+                381,
+                278
+            ],
+            "text": "88,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                281,
+                196,
+                302
+            ],
+            "text": "Nước uống Aquafina 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                244,
+                282,
+                250,
+                303
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                257,
+                282,
+                293,
+                303
+            ],
+            "text": "6,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                283,
+                382,
+                304
+            ],
+            "text": "24,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                327,
+                367,
+                384,
+                386
+            ],
+            "text": "120,960đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                106,
+                20,
+                286,
+                52
+            ],
+            "text": "HIGHLANDS COFFEE LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                66,
+                38,
+                325,
+                74
+            ],
+            "text": "Số 154 Nguyễn Huệ, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                77,
+                177,
+                194,
+                203
+            ],
+            "text": "24/05/2026 21:59",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                25,
+                236,
+                33,
+                257
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                238,
+                177,
+                265
+            ],
+            "text": "Bánh Mì Que Gà Xé",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                320,
+                250,
+                363,
+                273
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                24,
+                262,
+                33,
+                284
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                52,
+                264,
+                213,
+                293
+            ],
+            "text": "Freeze Trà Xanh Size M",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                313,
+                276,
+                363,
+                299
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                313,
+                337,
+                363,
+                359
+            ],
+            "text": "287,712",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

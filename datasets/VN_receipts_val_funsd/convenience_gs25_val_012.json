@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                158,
+                18,
+                244,
+                41
+            ],
+            "text": "GS25 THỦ ĐỨC",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                51,
+                37,
+                353,
+                62
+            ],
+            "text": "Số 152 Bùi Thị Xuân, Quận Sơn Trà, Đà Nẵng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                146,
+                182,
+                168
+            ],
+            "text": "13/06/2026 19:30",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                237,
+                165,
+                259
+            ],
+            "text": "Xúc xích Đức ăn liền",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                235,
+                239,
+                256
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                235,
+                305,
+                256
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                234,
+                384,
+                255
+            ],
+            "text": "10,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                264,
+                216,
+                287
+            ],
+            "text": "Bánh giò thịt băm trứng cút",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                232,
+                263,
+                239,
+                285
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                261,
+                263,
+                305,
+                284
+            ],
+            "text": "14,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                263,
+                384,
+                284
+            ],
+            "text": "42,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                21,
+                292,
+                136,
+                315
+            ],
+            "text": "Cafe sữa đá GS25",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                233,
+                290,
+                239,
+                313
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                262,
+                291,
+                306,
+                312
+            ],
+            "text": "22,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                290,
+                385,
+                312
+            ],
+            "text": "88,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                329,
+                378,
+                388,
+                400
+            ],
+            "text": "154,000đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

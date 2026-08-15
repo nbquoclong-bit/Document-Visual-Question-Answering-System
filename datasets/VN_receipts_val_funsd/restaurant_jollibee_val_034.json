@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                141,
+                16,
+                266,
+                37
+            ],
+            "text": "JOLLIBEE COOPMART",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                64,
+                36,
+                344,
+                58
+            ],
+            "text": "Số 9 Lý Thường Kiệt, Quận 1, Hải Phòng",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                67,
+                145,
+                185,
+                167
+            ],
+            "text": "26/05/2026 11:30",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                19,
+                241,
+                182,
+                262
+            ],
+            "text": "Gà Giòn Vui Vẻ 1 miếng",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                241,
+                234,
+                262
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                242,
+                300,
+                262
+            ],
+            "text": "35,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                242,
+                389,
+                263
+            ],
+            "text": "70,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                271,
+                131,
+                292
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                272,
+                234,
+                293
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                272,
+                300,
+                293
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                272,
+                389,
+                293
+            ],
+            "text": "51,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                19,
+                302,
+                131,
+                323
+            ],
+            "text": "Mì Ý Sốt Bò Bằm",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                225,
+                303,
+                234,
+                323
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                303,
+                299,
+                324
+            ],
+            "text": "38,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                344,
+                303,
+                388,
+                324
+            ],
+            "text": "76,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                332,
+                393,
+                391,
+                414
+            ],
+            "text": "212,760đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                82,
+                34,
+                355,
+                49
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                90,
+                45,
+                369,
+                74
+            ],
+            "text": "Số 350 Nguyễn Huệ, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                210,
+                151,
+                429,
+                167
+            ],
+            "text": "Ngày 28 tháng 05 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                126,
+                259,
+                240,
+                275
+            ],
+            "text": "1.870.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

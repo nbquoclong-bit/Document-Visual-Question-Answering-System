@@ -1,0 +1,114 @@
+{
+    "form": [
+        {
+            "box": [
+                132,
+                18,
+                250,
+                40
+            ],
+            "text": "7-ELEVEN BÙI VIỆN",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                150,
+                60,
+                269,
+                81
+            ],
+            "text": "27/05/2026 08:28",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                45,
+                115,
+                179,
+                137
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                115,
+                363,
+                136
+            ],
+            "text": "18,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                45,
+                144,
+                223,
+                166
+            ],
+            "text": "Nước khoáng Dasani 500ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                144,
+                363,
+                165
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                45,
+                172,
+                223,
+                194
+            ],
+            "text": "Kẹo dẻo Haribo Goldbears",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                172,
+                363,
+                193
+            ],
+            "text": "45,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                45,
+                200,
+                216,
+                223
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                319,
+                200,
+                363,
+                222
+            ],
+            "text": "50,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                312,
+                233,
+                363,
+                256
+            ],
+            "text": "143,640",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

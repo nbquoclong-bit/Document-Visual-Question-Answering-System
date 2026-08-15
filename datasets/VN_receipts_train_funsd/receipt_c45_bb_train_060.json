@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                88,
+                30,
+                364,
+                45
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                94,
+                39,
+                384,
+                69
+            ],
+            "text": "Số 63 Nguyễn Trãi, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                212,
+                148,
+                436,
+                163
+            ],
+            "text": "Ngày 12 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                122,
+                258,
+                238,
+                274
+            ],
+            "text": "1.998.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

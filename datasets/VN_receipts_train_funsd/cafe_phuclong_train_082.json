@@ -1,0 +1,104 @@
+{
+    "form": [
+        {
+            "box": [
+                124,
+                22,
+                252,
+                50
+            ],
+            "text": "PHÚC LONG LANDMARK",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                63,
+                41,
+                313,
+                75
+            ],
+            "text": "Số 263 Nguyễn Huệ, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                22,
+                161,
+                137,
+                188
+            ],
+            "text": "08/06/2026 18:09",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                23,
+                246,
+                31,
+                265
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                56,
+                237,
+                193,
+                265
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                314,
+                227,
+                357,
+                251
+            ],
+            "text": "55,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                23,
+                270,
+                31,
+                292
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                57,
+                266,
+                143,
+                289
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                307,
+                254,
+                357,
+                277
+            ],
+            "text": "135,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                332,
+                358,
+                354
+            ],
+            "text": "188,100",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

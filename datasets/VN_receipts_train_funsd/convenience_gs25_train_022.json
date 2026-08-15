@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                152,
+                32,
+                266,
+                57
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                87,
+                49,
+                328,
+                80
+            ],
+            "text": "Số 43 Nguyễn Huệ, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                74,
+                156,
+                191,
+                180
+            ],
+            "text": "15/06/2026 07:01",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                29,
+                245,
+                209,
+                270
+            ],
+            "text": "Trà sữa Kirin Latte 345ml",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                235,
+                250,
+                242,
+                270
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                263,
+                251,
+                305,
+                272
+            ],
+            "text": "16,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                252,
+                383,
+                274
+            ],
+            "text": "32,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                29,
+                272,
+                174,
+                296
+            ],
+            "text": "Xúc xích Đức ăn liền",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                236,
+                278,
+                243,
+                298
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                263,
+                278,
+                305,
+                299
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                341,
+                279,
+                382,
+                300
+            ],
+            "text": "20,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                363,
+                384,
+                384
+            ],
+            "text": "57,200đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

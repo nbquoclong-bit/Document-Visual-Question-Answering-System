@@ -1,0 +1,124 @@
+{
+    "form": [
+        {
+            "box": [
+                143,
+                45,
+                258,
+                67
+            ],
+            "text": "GS25 LANDMARK 81",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                61,
+                63,
+                340,
+                86
+            ],
+            "text": "Số 140 Hai Bà Trưng, Quận 1, Bình Dương",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                68,
+                167,
+                182,
+                188
+            ],
+            "text": "25/05/2026 22:54",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                21,
+                254,
+                166,
+                275
+            ],
+            "text": "Xúc xích Đức ăn liền",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                227,
+                253,
+                234,
+                273
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                255,
+                252,
+                299,
+                273
+            ],
+            "text": "10,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                340,
+                251,
+                383,
+                272
+            ],
+            "text": "40,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                22,
+                280,
+                194,
+                302
+            ],
+            "text": "Mì trộn Indomie đặc biệt",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                227,
+                280,
+                236,
+                300
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                256,
+                280,
+                300,
+                300
+            ],
+            "text": "12,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                339,
+                278,
+                384,
+                299
+            ],
+            "text": "36,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                336,
+                361,
+                387,
+                382
+            ],
+            "text": "82,080đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

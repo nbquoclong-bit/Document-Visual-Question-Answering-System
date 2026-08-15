@@ -1,0 +1,44 @@
+{
+    "form": [
+        {
+            "box": [
+                96,
+                35,
+                357,
+                50
+            ],
+            "text": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                103,
+                45,
+                398,
+                74
+            ],
+            "text": "Số 230 Cách Mạng Tháng Tám, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                215,
+                151,
+                427,
+                167
+            ],
+            "text": "Ngày 19 tháng 06 năm 2026",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                130,
+                258,
+                223,
+                273
+            ],
+            "text": "385.000 VND",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

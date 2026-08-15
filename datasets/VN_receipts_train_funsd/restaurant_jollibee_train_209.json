@@ -1,0 +1,164 @@
+{
+    "form": [
+        {
+            "box": [
+                152,
+                23,
+                255,
+                43
+            ],
+            "text": "JOLLIBEE VINCOM",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                97,
+                40,
+                310,
+                63
+            ],
+            "text": "Số 274 Lê Lợi, Quận 1, Đồng Nai",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                73,
+                140,
+                186,
+                161
+            ],
+            "text": "14/06/2026 11:09",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                27,
+                228,
+                175,
+                250
+            ],
+            "text": "Khoai Tây Lắc Phô Mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                222,
+                231,
+                230,
+                250
+            ],
+            "text": "3",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                251,
+                230,
+                293,
+                250
+            ],
+            "text": "25,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                336,
+                232,
+                379,
+                251
+            ],
+            "text": "75,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                258,
+                134,
+                278
+            ],
+            "text": "Nước ngọt 7Up L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                222,
+                258,
+                229,
+                279
+            ],
+            "text": "2",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                250,
+                258,
+                293,
+                279
+            ],
+            "text": "17,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                259,
+                380,
+                279
+            ],
+            "text": "34,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                25,
+                286,
+                125,
+                307
+            ],
+            "text": "Bánh Khoai Môn",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                222,
+                288,
+                230,
+                306
+            ],
+            "text": "1",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                251,
+                287,
+                293,
+                307
+            ],
+            "text": "15,000",
+            "label": "ITEM_PRICE"
+        },
+        {
+            "box": [
+                337,
+                288,
+                380,
+                308
+            ],
+            "text": "15,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                326,
+                372,
+                382,
+                393
+            ],
+            "text": "136,400đ",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

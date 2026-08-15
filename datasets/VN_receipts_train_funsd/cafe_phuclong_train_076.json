@@ -1,0 +1,134 @@
+{
+    "form": [
+        {
+            "box": [
+                113,
+                34,
+                270,
+                61
+            ],
+            "text": "PHÚC LONG TEA & COFFEE",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                46,
+                53,
+                339,
+                86
+            ],
+            "text": "Số 14 Nguyễn Huệ, Quận 3, TP. Hồ Chí Minh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                26,
+                161,
+                140,
+                187
+            ],
+            "text": "18/06/2026 12:34",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                27,
+                237,
+                35,
+                259
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                59,
+                238,
+                195,
+                268
+            ],
+            "text": "Trà Đào Phúc Long L",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                253,
+                360,
+                275
+            ],
+            "text": "220,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                26,
+                264,
+                35,
+                284
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                59,
+                265,
+                217,
+                294
+            ],
+            "text": "Bánh Croissant Bơ Pháp",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                309,
+                277,
+                360,
+                301
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                27,
+                290,
+                35,
+                310
+            ],
+            "text": "4",
+            "label": "ITEM_QTY"
+        },
+        {
+            "box": [
+                60,
+                290,
+                145,
+                315
+            ],
+            "text": "Cà phê Latte",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                303,
+                360,
+                326
+            ],
+            "text": "180,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                380,
+                360,
+                403
+            ],
+            "text": "486,000",
+            "label": "TOTAL_COST"
+        }
+    ]
+}

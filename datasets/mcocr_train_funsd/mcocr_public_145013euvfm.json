@@ -2,543 +2,453 @@
     "form": [
         {
             "box": [
-                324,
-                20,
-                617,
-                41
+                547,
+                1006,
+                676,
+                1028
             ],
-            "text": "MINIMART ANAN",
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                352,
+                970,
+                413,
+                996
+            ],
+            "text": "CNA",
             "label": "OTHER"
         },
         {
             "box": [
-                283,
                 46,
-                653,
-                67
+                966,
+                237,
+                992
             ],
-            "text": "Chg Soi PhuThi Gia Lam",
+            "text": "Tiền khách trả:",
             "label": "OTHER"
         },
         {
             "box": [
-                83,
-                76,
-                141,
-                98
+                593,
+                959,
+                689,
+                991
             ],
-            "text": "Tel:",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                272,
-                122,
+                40,
+                922,
+                193,
+                962
+            ],
+            "text": "Tổng cộng :",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                593,
+                912,
+                690,
+                948
+            ],
+            "text": "000",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                40,
+                881,
+                155,
+                920
+            ],
+            "text": "Tổng số:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                277,
+                825,
+                329,
+                851
+            ],
+            "text": "GOI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                436,
+                819,
+                508,
+                855
+            ],
+            "text": "000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                604,
+                815,
                 675,
-                157
+                850
             ],
-            "text": "HOADON BAN HANG",
+            "text": "000",
             "label": "OTHER"
         },
         {
             "box": [
-                114,
-                168,
-                260,
-                197
-            ],
-            "text": "Ten hang",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                299,
-                168,
-                802,
-                197
-            ],
-            "text": "SL VT Don gia Thanh tien",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                108,
-                208,
-                730,
-                230
-            ],
-            "text": "291018390000 camép Twister lon 320ml NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                283,
-                245,
-                303,
-                261
-            ],
-            "text": "2",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                359,
-                241,
-                424,
-                264
-            ],
-            "text": "LON",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                545,
-                240,
-                630,
-                266
-            ],
-            "text": "8,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                733,
-                243,
-                826,
-                264
-            ],
-            "text": "16,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                109,
-                280,
-                781,
-                308
-            ],
-            "text": "8854761184019 nu6c dira,tao,xoai chabaaN0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                283,
-                318,
-                303,
-                336
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                360,
-                317,
-                423,
-                337
-            ],
-            "text": "LON",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                548,
-                315,
-                634,
-                341
-            ],
-            "text": "8,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                748,
-                313,
-                833,
-                339
-            ],
-            "text": "8,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                100,
-                354,
-                721,
-                380
-            ],
-            "text": "8936036022124 Bim bim Tonisse cac vi NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                281,
-                391,
-                298,
-                409
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                360,
-                391,
-                421,
-                410
-            ],
-            "text": "GOI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                549,
-                385,
-                638,
-                415
-            ],
-            "text": "6,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                759,
-                387,
-                842,
-                410
-            ],
-            "text": "6,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                92,
-                426,
-                781,
-                455
-            ],
-            "text": "8850548010113 bim bim täm MAXs g6i 55g N0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                277,
-                466,
-                299,
-                487
-            ],
-            "text": "2.",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                358,
-                466,
-                421,
-                486
-            ],
-            "text": "GOI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                537,
-                463,
-                640,
-                489
-            ],
-            "text": "10,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                747,
-                462,
-                852,
-                488
-            ],
-            "text": "20,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                88,
-                505,
+                60,
                 778,
-                535
+                550,
+                816
             ],
-            "text": "8938507891581bim bim doremon.g&u trüc N0",
+            "text": "",
             "label": "OTHER"
         },
         {
             "box": [
-                276,
-                546,
-                298,
-                568
-            ],
-            "text": "2",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                360,
-                546,
-                421,
-                566
-            ],
-            "text": "GOT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                554,
-                541,
-                644,
-                571
-            ],
-            "text": "5,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                751,
-                542,
-                854,
-                568
-            ],
-            "text": "10,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                82,
-                588,
-                523,
-                620
-            ],
-            "text": "291030240000 gaxécay N0",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                359,
-                627,
-                424,
-                651
-            ],
-            "text": "GOI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                539,
-                624,
-                647,
-                653
-            ],
-            "text": "25,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                752,
-                624,
-                858,
-                650
-            ],
-            "text": "25,000",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                277,
-                633,
-                296,
-                651
-            ],
-            "text": "1",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                76,
-                669,
-                752,
-                703
-            ],
-            "text": "291026450000 kem suachua subo VNM NT",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                359,
-                713,
-                423,
-                737
-            ],
-            "text": "GOI",
-            "label": "OTHER"
-        },
-        {
-            "box": [
-                558,
-                707,
-                652,
-                740
+                435,
+                730,
+                504,
+                762
             ],
             "text": "3,000",
             "label": "OTHER"
         },
         {
             "box": [
-                756,
-                703,
-                864,
-                736
+                586,
+                730,
+                664,
+                758
             ],
-            "text": "12,000",
+            "text": "000",
             "label": "OTHER"
         },
         {
             "box": [
-                274,
-                716,
-                296,
-                739
+                63,
+                693,
+                583,
+                720
             ],
-            "text": "4",
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                280,
+                646,
+                330,
+                672
+            ],
+            "text": "GOI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                418,
+                645,
+                501,
+                674
+            ],
+            "text": "000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                582,
+                646,
+                662,
+                674
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                69,
+                607,
+                407,
+                636
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                282,
+                562,
+                331,
+                586
+            ],
+            "text": "GOI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                431,
+                561,
+                498,
+                590
+            ],
+            "text": "000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                583,
+                564,
+                660,
+                588
+            ],
+            "text": "10,000",
             "label": "OTHER"
         },
         {
             "box": [
                 75,
-                753,
-                712,
-                794
+                524,
+                605,
+                551
             ],
-            "text": "8851929011590 Keo sugus nho,cam NT",
+            "text": "8938507891581 bim bim doremon gấu trúc NO",
             "label": "OTHER"
         },
         {
             "box": [
-                354,
-                799,
-                427,
-                829
+                281,
+                481,
+                330,
+                502
             ],
-            "text": "GOT",
+            "text": "GOI",
             "label": "OTHER"
         },
         {
             "box": [
-                565,
-                792,
-                660,
-                829
+                418,
+                479,
+                498,
+                508
             ],
-            "text": "5,000",
+            "text": "000",
             "label": "OTHER"
         },
         {
             "box": [
-                782,
-                786,
-                877,
-                824
+                580,
+                481,
+                659,
+                508
             ],
-            "text": "5,000",
+            "text": "20,000",
             "label": "OTHER"
         },
         {
             "box": [
-                269,
-                805,
+                79,
+                442,
+                609,
+                470
+            ],
+            "text": "8850548010113 bim bim tăm MAXs gói 55g NO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                285,
+                404,
+                330,
+                425
+            ],
+            "text": "GOI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                431,
+                404,
+                496,
+                428
+            ],
+            "text": "6,000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                590,
+                404,
+                653,
+                428
+            ],
+            "text": "6,000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                366,
+                561,
+                395
+            ],
+            "text": "0990036022124 Bim bim Tonisse các vị NT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                428,
+                328,
+                494,
+                356
+            ],
+            "text": "000 8",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                285,
+                327,
+                334,
+                352
+            ],
+            "text": "TON",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                585,
+                330,
+                647,
+                355
+            ],
+            "text": "8,000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                92,
                 292,
-                829
+                611,
+                318
             ],
-            "text": "1",
+            "text": "8854761184019 nước dừa, táo, xoài chabaa NO",
             "label": "OTHER"
         },
         {
             "box": [
-                53,
-                862,
-                199,
-                895
+                571,
+                256,
+                643,
+                280
             ],
-            "text": "Töngso:",
+            "text": "16,000",
             "label": "OTHER"
         },
         {
             "box": [
-                295,
-                865,
-                346,
-                895
+                429,
+                251,
+                492,
+                279
             ],
-            "text": "14",
+            "text": "8,000",
             "label": "OTHER"
         },
         {
             "box": [
-                769,
-                882,
-                897,
-                917
+                285,
+                250,
+                334,
+                275
             ],
-            "text": "102,000",
+            "text": "LON",
             "label": "OTHER"
         },
         {
             "box": [
-                50,
-                901,
-                248,
-                937
+                93,
+                213,
+                574,
+                244
             ],
-            "text": "T&ng cong:",
+            "text": "291018390000 cam ép Twister lon 320ml NT",
             "label": "OTHER"
         },
         {
             "box": [
-                458,
-                942,
-                540,
-                969
+                391,
+                177,
+                628,
+                212
             ],
-            "text": "VND",
+            "text": "Đơn giá Thành tiền",
             "label": "OTHER"
         },
         {
             "box": [
-                770,
-                927,
-                899,
-                959
+                98,
+                174,
+                209,
+                202
             ],
-            "text": "102,000",
+            "text": "Tên hàng",
             "label": "OTHER"
         },
         {
             "box": [
-                59,
-                944,
-                309,
-                966
+                300,
+                178,
+                353,
+                202
             ],
-            "text": "Tienkhachtra:",
+            "text": "ĐVT",
             "label": "OTHER"
         },
         {
             "box": [
-                626,
-                974,
-                881,
-                999
+                218,
+                123,
+                530,
+                168
             ],
-            "text": "11/08/2020.16:36",
+            "text": "HÓA ĐƠN BÁN HÀNG",
             "label": "OTHER"
+        },
+        {
+            "box": [
+                76,
+                81,
+                119,
+                101
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                229,
+                49,
+                514,
+                76
+            ],
+            "text": "Chợ Sủi Phú Thị Gia Lâm",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                262,
+                25,
+                484,
+                49
+            ],
+            "text": "MINIMART ANAN",
+            "label": "SELLER"
         }
     ]
 }

@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "box": [
+                134,
+                19,
+                252,
+                41
+            ],
+            "text": "7-Eleven Nguyễn Du",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                154,
+                61,
+                268,
+                83
+            ],
+            "text": "03/06/2026 10:36",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                55,
+                115,
+                181,
+                137
+            ],
+            "text": "Trà đào sả Slurpee",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                316,
+                118,
+                360,
+                139
+            ],
+            "text": "54,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                55,
+                143,
+                218,
+                167
+            ],
+            "text": "Sandwich xá xíu phô mai",
+            "label": "ITEM_NAME"
+        },
+        {
+            "box": [
+                310,
+                147,
+                360,
+                168
+            ],
+            "text": "100,000",
+            "label": "ITEM_AMOUNT"
+        },
+        {
+            "box": [
+                309,
+                179,
+                359,
+                204
+            ],
+            "text": "166,320",
+            "label": "TOTAL_COST"
+        }
+    ]
+}
