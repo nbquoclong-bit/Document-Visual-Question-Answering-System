@@ -1,0 +1,354 @@
+{
+    "form": [
+        {
+            "box": [
+                81,
+                973,
+                277,
+                999
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                78,
+                944,
+                329,
+                976
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                96,
+                927,
+                121,
+                935
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                123,
+                733,
+                520,
+                755
+            ],
+            "text": "Hot line: 02471066866 Website: Vinmart.com",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                175,
+                707,
+                469,
+                732
+            ],
+            "text": "CÁM ON QUÝ KHÁCH VÀ HEN GẶP LẠI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                125,
+                661,
+                527,
+                685
+            ],
+            "text": "Tax invoice will be issued within same",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                193,
+                635,
+                449,
+                660
+            ],
+            "text": "Chỉ xuất hóa đơn trong ngày",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                202,
+                566,
+                446,
+                590
+            ],
+            "text": "(Giá đã bao gồm thuế GTGT)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                125,
+                542,
+                243,
+                565
+            ],
+            "text": "TIỀN TRẢ LẠI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                466,
+                522,
+                527,
+                541
+            ],
+            "text": "10.000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                135,
+                519,
+                215,
+                540
+            ],
+            "text": "TIỀN MẶT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                468,
+                499,
+                527,
+                519
+            ],
+            "text": "000 01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                128,
+                497,
+                261,
+                516
+            ],
+            "text": "TIỀN KHÁCH TRẢ",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                128,
+                473,
+                289,
+                494
+            ],
+            "text": "TỔNG TIỀN Đã GIẢM",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                467,
+                452,
+                527,
+                472
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                130,
+                450,
+                326,
+                472
+            ],
+            "text": "TỔNG TIỀN PHẢI T.TOÁN",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                467,
+                405,
+                524,
+                426
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                306,
+                405,
+                365,
+                428
+            ],
+            "text": "10.000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                128,
+                406,
+                252,
+                426
+            ],
+            "text": "8935039570151",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                360,
+                383,
+                449,
+                403
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                287,
+                383,
+                358,
+                402
+            ],
+            "text": "Robusta",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                128,
+                382,
+                279,
+                403
+            ],
+            "text": "Cả Phê Lon Birdy",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                464,
+                357,
+                524,
+                382
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                296,
+                357,
+                366,
+                381
+            ],
+            "text": "Đơn giá",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                128,
+                356,
+                207,
+                380
+            ],
+            "text": "Mặt hàng",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                397,
+                312,
+                523,
+                334
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                130,
+                314,
+                205,
+                333
+            ],
+            "text": "Quầy: 001",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                416,
+                289,
+                523,
+                309
+            ],
+            "text": "HĐ:00181862",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                128,
+                290,
+                365,
+                312
+            ],
+            "text": "Ngày bán: 14/08/2020 08:57",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                252,
+                268,
+                401,
+                288
+            ],
+            "text": "HÓA ĐƠN BÁN HÀNG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                329,
+                225,
+                443,
+                245
+            ],
+            "text": "024 71068868-39671",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                313,
+                200,
+                459,
+                222
+            ],
+            "text": "TP. Cẩm Phả, Quảng Ninh",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                135,
+                197,
+                255,
+                227
+            ],
+            "text": "",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                288,
+                174,
+                483,
+                196
+            ],
+            "text": "",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                314,
+                148,
+                459,
+                171
+            ],
+            "text": "VM+QNH 112 Thanh Niên",
+            "label": "ADDRESS"
+        }
+    ]
+}

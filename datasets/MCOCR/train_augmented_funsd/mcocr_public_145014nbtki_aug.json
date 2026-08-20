@@ -1,0 +1,554 @@
+{
+    "form": [
+        {
+            "box": [
+                225,
+                1170,
+                719,
+                1210
+            ],
+            "text": "Hot line: 02471066866 Nebsite: Vinmart.Com",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                287,
+                1141,
+                658,
+                1176
+            ],
+            "text": "CÁM DN QUÝ KHÁCH VÀ HỆN GẶP LẠI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                228,
+                1079,
+                730,
+                1121
+            ],
+            "text": "Tax invoice will be issued within same day",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                315,
+                1050,
+                635,
+                1087
+            ],
+            "text": "Chỉ xuất hóa đơn trong ngày",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                233,
+                963,
+                389,
+                994
+            ],
+            "text": "số tham Chiếu",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                527,
+                973,
+                710,
+                999
+            ],
+            "text": "003841001002000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                235,
+                934,
+                543,
+                972
+            ],
+            "text": "Điểm tích(1.000VND:1 điểm)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                237,
+                904,
+                438,
+                941
+            ],
+            "text": "TD thẻ khách hàng",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                542,
+                913,
+                731,
+                944
+            ],
+            "text": "5886XXXXXXXXXXXX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                331,
+                849,
+                638,
+                887
+            ],
+            "text": "Giá đã bao gồm thuế GTGT)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                239,
+                818,
+                384,
+                848
+            ],
+            "text": "TIỀN TRẢ LẠI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                251,
+                792,
+                312,
+                815
+            ],
+            "text": "Vinid",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                670,
+                796,
+                733,
+                825
+            ],
+            "text": "000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                256,
+                764,
+                347,
+                787
+            ],
+            "text": "TIỀN MẶT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                651,
+                770,
+                731,
+                795
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                249,
+                732,
+                409,
+                758
+            ],
+            "text": "TIỀN KHÁCH TRẢ",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                649,
+                740,
+                733,
+                767
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                252,
+                704,
+                443,
+                730
+            ],
+            "text": "TỔNG TIỀN Đã GIẢM",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                252,
+                675,
+                490,
+                704
+            ],
+            "text": "TỔNG TIỀN PHẢI T.TOÁN",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                651,
+                684,
+                740,
+                709
+            ],
+            "text": "101.100",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                254,
+                625,
+                398,
+                645
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                478,
+                624,
+                540,
+                649
+            ],
+            "text": "7.600",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                664,
+                626,
+                740,
+                655
+            ],
+            "text": "30.400",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                257,
+                595,
+                425,
+                619
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                412,
+                591,
+                652,
+                625
+            ],
+            "text": "Milk ít đường gói",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                641,
+                598,
+                704,
+                621
+            ],
+            "text": "220m 1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                252,
+                566,
+                397,
+                589
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                481,
+                566,
+                542,
+                591
+            ],
+            "text": "7.200",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                678,
+                570,
+                738,
+                591
+            ],
+            "text": "7.200",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                248,
+                535,
+                648,
+                564
+            ],
+            "text": "sữa TT Vinami kk có đường túi 220m1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                251,
+                511,
+                403,
+                532
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                483,
+                512,
+                543,
+                535
+            ],
+            "text": "6.000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                670,
+                510,
+                741,
+                533
+            ],
+            "text": "24.000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                251,
+                479,
+                549,
+                512
+            ],
+            "text": "SCA Vinamilk có đường hộp",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                541,
+                485,
+                608,
+                509
+            ],
+            "text": "600",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                254,
+                459,
+                407,
+                482
+            ],
+            "text": "8935101600960",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                473,
+                460,
+                546,
+                484
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                668,
+                450,
+                743,
+                472
+            ],
+            "text": "39.500",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                255,
+                432,
+                448,
+                459
+            ],
+            "text": "Đăm bông hấp Đức",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                438,
+                432,
+                547,
+                459
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                551,
+                427,
+                605,
+                448
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                261,
+                408,
+                357,
+                433
+            ],
+            "text": "Hàt hàng",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                462,
+                401,
+                550,
+                435
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                668,
+                388,
+                747,
+                417
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                267,
+                358,
+                357,
+                382
+            ],
+            "text": "Quầy: 001",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                586,
+                334,
+                744,
+                369
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                264,
+                322,
+                550,
+                363
+            ],
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                610,
+                307,
+                744,
+                339
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                412,
+                291,
+                594,
+                332
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                283,
+                235,
+                423,
+                265
+            ],
+            "text": "VinCommerce",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                502,
+                236,
+                644,
+                272
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                505,
+                206,
+                641,
+                245
+            ],
+            "text": "",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                459,
+                183,
+                607,
+                222
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                612,
+                178,
+                692,
+                200
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                492,
+                147,
+                657,
+                185
+            ],
+            "text": "",
+            "label": "ADDRESS"
+        }
+    ]
+}
