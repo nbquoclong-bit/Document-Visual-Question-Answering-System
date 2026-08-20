@@ -1,0 +1,534 @@
+{
+    "form": [
+        {
+            "box": [
+                78,
+                242,
+                651,
+                274
+            ],
+            "text": "FY EAGLE ENTERPRISE",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                280,
+                273,
+                447,
+                301
+            ],
+            "text": "002065464-X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                178,
+                300,
+                543,
+                335
+            ],
+            "text": "NO. 42, JALAN PBS 14/11,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                112,
+                336,
+                614,
+                367
+            ],
+            "text": "TAMAN PERINDUSTRIAN BUKIT SERDANG,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                208,
+                360,
+                526,
+                394
+            ],
+            "text": "43300 SERI KEMBANGAN,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                301,
+                394,
+                423,
+                423
+            ],
+            "text": "SELANGOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                111,
+                421,
+                611,
+                453
+            ],
+            "text": "TEL: 03-89433143 FAX: 03-89433143",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                214,
+                455,
+                514,
+                482
+            ],
+            "text": "GST NO: 001663156224",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                63,
+                546,
+                226,
+                572
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                59,
+                602,
+                633,
+                633
+            ],
+            "text": "RECEIPT #: CS00031180 DATE: 04/12/2017",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                62,
+                633,
+                253,
+                663
+            ],
+            "text": "SALESPERSON:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                385,
+                632,
+                605,
+                666
+            ],
+            "text": "TIME: 15:14:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                62,
+                663,
+                271,
+                690
+            ],
+            "text": "CASHIER: USER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                63,
+                721,
+                127,
+                750
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                332,
+                723,
+                374,
+                751
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                448,
+                722,
+                497,
+                749
+            ],
+            "text": "U/P",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                541,
+                724,
+                634,
+                749
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                437,
+                753,
+                493,
+                788
+            ],
+            "text": "(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                573,
+                753,
+                629,
+                789
+            ],
+            "text": "(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                61,
+                812,
+                136,
+                842
+            ],
+            "text": "12089",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                330,
+                814,
+                347,
+                842
+            ],
+            "text": "2",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                437,
+                813,
+                495,
+                840
+            ],
+            "text": "3.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                569,
+                812,
+                631,
+                841
+            ],
+            "text": "7.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                62,
+                846,
+                606,
+                878
+            ],
+            "text": "SR: TAPE OPP 48MMX80Y CLEAR(B.PY)-ECS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                62,
+                904,
+                270,
+                930
+            ],
+            "text": "TOTAL QUANTUTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                436,
+                906,
+                453,
+                930
+            ],
+            "text": "2",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                380,
+                993,
+                514,
+                1017
+            ],
+            "text": "SUB-TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                604,
+                994,
+                666,
+                1017
+            ],
+            "text": "6.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                381,
+                1020,
+                441,
+                1046
+            ],
+            "text": "DISC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                603,
+                1023,
+                665,
+                1047
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                381,
+                1051,
+                424,
+                1079
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                604,
+                1053,
+                665,
+                1078
+            ],
+            "text": "0.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                380,
+                1082,
+                499,
+                1107
+            ],
+            "text": "ROUNDING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                607,
+                1082,
+                668,
+                1106
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                1109,
+                247,
+                1136
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                547,
+                1112,
+                666,
+                1138
+            ],
+            "text": "7.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                98,
+                1140,
+                220,
+                1168
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                548,
+                1139,
+                665,
+                1168
+            ],
+            "text": "7.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                101,
+                1172,
+                273,
+                1197
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                547,
+                1173,
+                666,
+                1197
+            ],
+            "text": "0.0",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                499,
+                1233,
+                669,
+                1261
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                82,
+                1295,
+                144,
+                1321
+            ],
+            "text": "CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                319,
+                1291,
+                412,
+                1318
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                487,
+                1296,
+                501,
+                1322
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                561,
+                1293,
+                665,
+                1319
+            ],
+            "text": "TAX/AMT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                83,
+                1353,
+                113,
+                1376
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                351,
+                1353,
+                413,
+                1378
+            ],
+            "text": "6.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                485,
+                1351,
+                504,
+                1376
+            ],
+            "text": "6",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                606,
+                1353,
+                667,
+                1379
+            ],
+            "text": "0.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                367,
+                1438,
+                514,
+                1469
+            ],
+            "text": "TAX TOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                606,
+                1443,
+                665,
+                1466
+            ],
+            "text": "0.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                1621,
+                585,
+                1650
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE,",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                293,
+                1648,
+                437,
+                1675
+            ],
+            "text": "THANK YOU.",
+            "label": "OTHER"
+        }
+    ]
+}

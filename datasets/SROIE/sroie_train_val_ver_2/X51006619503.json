@@ -1,0 +1,594 @@
+{
+    "form": [
+        {
+            "box": [
+                277,
+                1,
+                621,
+                29
+            ],
+            "text": "PLEASE COME AGAIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                230,
+                302,
+                665,
+                357
+            ],
+            "text": "DUPLICATED RECEIPT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                137,
+                366,
+                745,
+                404
+            ],
+            "text": "KEDAI UBAT & RUNCIT HONG",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                287,
+                409,
+                610,
+                448
+            ],
+            "text": "NING SDN. BHD.",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                369,
+                471,
+                522,
+                510
+            ],
+            "text": "(717853-P)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                250,
+                509,
+                647,
+                547
+            ],
+            "text": "(GST ID NO : 002006163456)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                228,
+                547,
+                665,
+                582
+            ],
+            "text": "NO.8,JALAN LANG KUNING,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                328,
+                583,
+                573,
+                620
+            ],
+            "text": "KEPONG BARU��",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                270,
+                620,
+                625,
+                653
+            ],
+            "text": "52100 KUALA LUMPUR.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                327,
+                694,
+                570,
+                727
+            ],
+            "text": "TEL: 03-6273 2163",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                94,
+                765,
+                194,
+                798
+            ],
+            "text": "BILL NO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                89,
+                800,
+                159,
+                835
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                245,
+                804,
+                575,
+                833
+            ],
+            "text": ": 21/12/16 9:29:44 AM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                96,
+                839,
+                200,
+                871
+            ],
+            "text": "CASHIER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                874,
+                213,
+                914
+            ],
+            "text": "PAYMENT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                935,
+                157,
+                967
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                286,
+                938,
+                345,
+                974
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                421,
+                938,
+                496,
+                969
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                610,
+                940,
+                725,
+                970
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                983,
+                514,
+                1023
+            ],
+            "text": "BROWN CANDY 400G @2.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                92,
+                1020,
+                246,
+                1051
+            ],
+            "text": "693449770",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                318,
+                1018,
+                346,
+                1054
+            ],
+            "text": "2",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                437,
+                1022,
+                501,
+                1055
+            ],
+            "text": "2.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                664,
+                1023,
+                806,
+                1058
+            ],
+            "text": "5.00 ZRL.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                190,
+                1068,
+                559,
+                1109
+            ],
+            "text": "LUO HAN GUO (B) @1.42",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                95,
+                1106,
+                185,
+                1137
+            ],
+            "text": "ST051",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                318,
+                1107,
+                342,
+                1142
+            ],
+            "text": "2",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                437,
+                1107,
+                501,
+                1139
+            ],
+            "text": "1.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                663,
+                1107,
+                725,
+                1140
+            ],
+            "text": "3.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                280,
+                1178,
+                558,
+                1216
+            ],
+            "text": "NET AMT @ GST6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                738,
+                1181,
+                804,
+                1211
+            ],
+            "text": "8.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                416,
+                1226,
+                552,
+                1258
+            ],
+            "text": "CASH PAID",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                418,
+                1263,
+                552,
+                1295
+            ],
+            "text": "CARD PAID",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                414,
+                1299,
+                520,
+                1340
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                738,
+                1228,
+                802,
+                1261
+            ],
+            "text": "8.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                740,
+                1264,
+                802,
+                1294
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                736,
+                1298,
+                802,
+                1334
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                420,
+                1363,
+                569,
+                1400
+            ],
+            "text": "ROUND ADJ.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                742,
+                1365,
+                808,
+                1392
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                98,
+                1429,
+                297,
+                1473
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                351,
+                1430,
+                459,
+                1466
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                558,
+                1433,
+                615,
+                1466
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                91,
+                1478,
+                225,
+                1520
+            ],
+            "text": "SR @6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                98,
+                1527,
+                249,
+                1569
+            ],
+            "text": "ZRL @0%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                369,
+                1479,
+                432,
+                1514
+            ],
+            "text": "2.83",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                550,
+                1479,
+                614,
+                1515
+            ],
+            "text": "0.17",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                375,
+                1529,
+                433,
+                1561
+            ],
+            "text": "5.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                552,
+                1531,
+                618,
+                1561
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                351,
+                1591,
+                546,
+                1623
+            ],
+            "text": "THANK YOU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                252,
+                767,
+                445,
+                800
+            ],
+            "text": ": POS/266870",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                248,
+                840,
+                362,
+                875
+            ],
+            "text": ": ADMIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                248,
+                876,
+                344,
+                906
+            ],
+            "text": ": CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                756,
+                1108,
+                808,
+                1140
+            ],
+            "text": "SR.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                92,
+                1066,
+                190,
+                1104
+            ],
+            "text": "***",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                585,
+                1189,
+                599,
+                1214
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                584,
+                1238,
+                594,
+                1260
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                587,
+                1273,
+                598,
+                1300
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                584,
+                1307,
+                595,
+                1332
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                587,
+                1368,
+                598,
+                1394
+            ],
+            "text": ":",
+            "label": "OTHER"
+        }
+    ]
+}

@@ -1,0 +1,464 @@
+{
+    "form": [
+        {
+            "box": [
+                166,
+                183,
+                793,
+                224
+            ],
+            "text": "KEDAI UHAT DAN RUNCIT CHONG HWA",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                63,
+                226,
+                868,
+                281
+            ],
+            "text": "3, JALAN PERDANA 5, TAMAN INDAH PERDANA,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                304,
+                282,
+                648,
+                325
+            ],
+            "text": "KEPONG, 52100 KL.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                228,
+                329,
+                732,
+                373
+            ],
+            "text": "TELEPHONE NO. 03-62801198",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                264,
+                380,
+                674,
+                423
+            ],
+            "text": "GST NO. 001379917824",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                483,
+                210,
+                525
+            ],
+            "text": "RECEIPT:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                347,
+                480,
+                449,
+                521
+            ],
+            "text": "33037",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                533,
+                148,
+                577
+            ],
+            "text": "DATE:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                349,
+                530,
+                810,
+                572
+            ],
+            "text": "OCT 3, 2016 12:16:25 PM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                583,
+                227,
+                625
+            ],
+            "text": "TERMINAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                345,
+                580,
+                430,
+                625
+            ],
+            "text": "CW01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                44,
+                630,
+                246,
+                672
+            ],
+            "text": "SERVED BY:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                349,
+                629,
+                510,
+                673
+            ],
+            "text": "EMPLOYEE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                45,
+                728,
+                133,
+                772
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                444,
+                727,
+                552,
+                769
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                625,
+                725,
+                688,
+                772
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                788,
+                725,
+                889,
+                769
+            ],
+            "text": "VALUE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                826,
+                349,
+                875
+            ],
+            "text": "LIQUID MEDICINE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                403,
+                826,
+                551,
+                873
+            ],
+            "text": "RM33.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                645,
+                830,
+                685,
+                869
+            ],
+            "text": "X1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                745,
+                824,
+                886,
+                868
+            ],
+            "text": "RM33.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                51,
+                927,
+                331,
+                970
+            ],
+            "text": "ITEMS COUNT: 1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                44,
+                1025,
+                571,
+                1102
+            ],
+            "text": "TOTAL SALES INCL, GST @ 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                742,
+                1028,
+                896,
+                1102
+            ],
+            "text": "RM33.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                46,
+                1105,
+                131,
+                1144
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                45,
+                1152,
+                226,
+                1197
+            ],
+            "text": "TENDERED:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                724,
+                1152,
+                889,
+                1190
+            ],
+            "text": "RM100.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                1200,
+                189,
+                1245
+            ],
+            "text": "CHANGE:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                746,
+                1198,
+                891,
+                1243
+            ],
+            "text": "RM66.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                1300,
+                287,
+                1342
+            ],
+            "text": "NETT OF TAX:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                745,
+                1298,
+                886,
+                1337
+            ],
+            "text": "RM31.98",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                44,
+                1346,
+                229,
+                1391
+            ],
+            "text": "GST @ 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                766,
+                1347,
+                892,
+                1386
+            ],
+            "text": "RM1.92",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                45,
+                1446,
+                89,
+                1487
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                506,
+                1446,
+                651,
+                1488
+            ],
+            "text": "RM31.98",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                761,
+                1445,
+                889,
+                1488
+            ],
+            "text": "RM1.92",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                1498,
+                408,
+                1538
+            ],
+            "text": "STANDARD RATED TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                522,
+                1494,
+                651,
+                1535
+            ],
+            "text": "RM0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                764,
+                1495,
+                888,
+                1535
+            ],
+            "text": "RM0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                1542,
+                88,
+                1586
+            ],
+            "text": "ZR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                527,
+                1544,
+                650,
+                1582
+            ],
+            "text": "RM0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                763,
+                1541,
+                890,
+                1582
+            ],
+            "text": "RM0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                49,
+                1592,
+                409,
+                1634
+            ],
+            "text": "ZERO RATED TAX (ZR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                525,
+                1595,
+                651,
+                1633
+            ],
+            "text": "RM0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                764,
+                1592,
+                890,
+                1631
+            ],
+            "text": "RM0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                389,
+                1691,
+                574,
+                1732
+            ],
+            "text": "THANK YOU",
+            "label": "OTHER"
+        }
+    ]
+}

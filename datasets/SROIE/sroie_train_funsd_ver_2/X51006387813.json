@@ -1,0 +1,734 @@
+{
+    "form": [
+        {
+            "box": [
+                132,
+                241,
+                498,
+                271
+            ],
+            "text": "TOKYO KITCHEN (CITTA MALL)",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                174,
+                277,
+                469,
+                306
+            ],
+            "text": "TOKYO KITCHEN SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                242,
+                313,
+                386,
+                341
+            ],
+            "text": "(945402-P)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                115,
+                347,
+                498,
+                377
+            ],
+            "text": "G-26, GRD FLOOR,CITTA MALL,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                200,
+                380,
+                424,
+                409
+            ],
+            "text": "NO 1, JALAN PJU,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                93,
+                414,
+                525,
+                446
+            ],
+            "text": "1A/4B, JLN PJU 1,ARA DAMANSARA,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                173,
+                452,
+                453,
+                479
+            ],
+            "text": "47301 PETALING JAYA.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                253,
+                486,
+                381,
+                512
+            ],
+            "text": "SELANGOR.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                130,
+                520,
+                498,
+                549
+            ],
+            "text": "GST REG. NO : 002007515136",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                145,
+                587,
+                455,
+                620
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                29,
+                658,
+                256,
+                712
+            ],
+            "text": "TABLE D2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                423,
+                636,
+                649,
+                696
+            ],
+            "text": "POSTED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                30,
+                714,
+                230,
+                741
+            ],
+            "text": "ORDER#. 149308",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                30,
+                746,
+                301,
+                776
+            ],
+            "text": "BILL#: V007- 147795",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                411,
+                747,
+                541,
+                777
+            ],
+            "text": "PAX(S): 4",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                30,
+                783,
+                89,
+                813
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                130,
+                783,
+                426,
+                811
+            ],
+            "text": ": 23-04-2017 21:04:28",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                115,
+                2405,
+                498,
+                2435
+            ],
+            "text": "POWERED BY WWW.MYSIS.COM.MY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                29,
+                817,
+                230,
+                846
+            ],
+            "text": "CASHIER: JIMIE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                29,
+                886,
+                189,
+                919
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                240,
+                886,
+                287,
+                919
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                340,
+                885,
+                440,
+                917
+            ],
+            "text": "U.PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                468,
+                884,
+                538,
+                916
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                553,
+                885,
+                597,
+                914
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                32,
+                956,
+                331,
+                987
+            ],
+            "text": "SALMON TERIYAKI WAZEN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                26,
+                1024,
+                444,
+                1054
+            ],
+            "text": "CHICKEN SALAD & SASHIMI GOZEN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                32,
+                1096,
+                385,
+                1126
+            ],
+            "text": "CHICKEN KATSU CURRY WAZEN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                31,
+                1164,
+                299,
+                1192
+            ],
+            "text": "SABA TERIYAKI WAZEN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                230,
+                994,
+                273,
+                1019
+            ],
+            "text": "1 X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                231,
+                1059,
+                272,
+                1087
+            ],
+            "text": "1 X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                231,
+                1131,
+                271,
+                1156
+            ],
+            "text": "1 X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                230,
+                1200,
+                271,
+                1225
+            ],
+            "text": "1 X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                341,
+                992,
+                415,
+                1018
+            ],
+            "text": "25.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                340,
+                1059,
+                413,
+                1088
+            ],
+            "text": "25.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                344,
+                1130,
+                413,
+                1156
+            ],
+            "text": "19.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                341,
+                1197,
+                411,
+                1226
+            ],
+            "text": "25.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                465,
+                991,
+                539,
+                1021
+            ],
+            "text": "25.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                466,
+                1059,
+                540,
+                1086
+            ],
+            "text": "25.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                470,
+                1128,
+                539,
+                1157
+            ],
+            "text": "19.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                466,
+                1199,
+                539,
+                1226
+            ],
+            "text": "25.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                567,
+                992,
+                596,
+                1020
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                567,
+                1060,
+                597,
+                1088
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                565,
+                1129,
+                596,
+                1159
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                567,
+                1197,
+                596,
+                1226
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                31,
+                1263,
+                341,
+                1297
+            ],
+            "text": "TOTAL (EXCLUDING GST):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                29,
+                1300,
+                298,
+                1330
+            ],
+            "text": "SERV. CHARGE (10%):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                29,
+                1332,
+                200,
+                1364
+            ],
+            "text": "GST PAYABLE:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                1369,
+                385,
+                1399
+            ],
+            "text": "TOTAL (INCLUSIVE OF GST):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                522,
+                1262,
+                598,
+                1294
+            ],
+            "text": "97.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                536,
+                1298,
+                597,
+                1329
+            ],
+            "text": "9.76",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                536,
+                1334,
+                595,
+                1362
+            ],
+            "text": "6.44",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                511,
+                1370,
+                595,
+                1398
+            ],
+            "text": "113.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                31,
+                1439,
+                192,
+                1492
+            ],
+            "text": "TOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                429,
+                1440,
+                594,
+                1489
+            ],
+            "text": "113.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                30,
+                1526,
+                201,
+                1554
+            ],
+            "text": "CLOSED: 1528",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                297,
+                1525,
+                440,
+                1555
+            ],
+            "text": "23-04-2017",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                480,
+                1529,
+                596,
+                1557
+            ],
+            "text": "21:42:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                30,
+                1560,
+                216,
+                1592
+            ],
+            "text": "SERVER: PETER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                32,
+                1665,
+                88,
+                1692
+            ],
+            "text": "VISA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                511,
+                1667,
+                592,
+                1693
+            ],
+            "text": "113.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                23,
+                1693,
+                284,
+                1728
+            ],
+            "text": "- ************7501",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                26,
+                1732,
+                247,
+                1763
+            ],
+            "text": "- WONG TAI CHIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                27,
+                1768,
+                116,
+                1795
+            ],
+            "text": "- %B42",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                28,
+                1904,
+                187,
+                1936
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                310,
+                1905,
+                453,
+                1938
+            ],
+            "text": "AMOUNT(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                493,
+                1905,
+                593,
+                1937
+            ],
+            "text": "TAX(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                29,
+                1937,
+                62,
+                1965
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                171,
+                1938,
+                254,
+                1970
+            ],
+            "text": "(@ 6%)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                368,
+                1938,
+                456,
+                1970
+            ],
+            "text": "107.36",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                535,
+                1942,
+                593,
+                1970
+            ],
+            "text": "6.44",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                198,
+                2104,
+                437,
+                2136
+            ],
+            "text": "(GUEST SIGNATURE)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                238,
+                2308,
+                371,
+                2340
+            ],
+            "text": "THANK YOU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                196,
+                2341,
+                441,
+                2374
+            ],
+            "text": "PLEASE COME AGAIN",
+            "label": "OTHER"
+        }
+    ]
+}

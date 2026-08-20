@@ -1,0 +1,634 @@
+{
+    "form": [
+        {
+            "box": [
+                48,
+                257,
+                512,
+                295
+            ],
+            "text": "GREEN LANE PHARMACY SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                51,
+                298,
+                524,
+                338
+            ],
+            "text": "33 JLN BANGAU 1,KEPONG BARU,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                52,
+                348,
+                308,
+                387
+            ],
+            "text": "52100 KEPONG,KL",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                53,
+                397,
+                293,
+                434
+            ],
+            "text": "TEL : 62760693",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                447,
+                295,
+                484
+            ],
+            "text": "BRN : 631002-U",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                495,
+                412,
+                532
+            ],
+            "text": "GST NO : 001888309248",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                204,
+                597,
+                396,
+                635
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                642,
+                365,
+                685
+            ],
+            "text": "INV NO : 16-073042",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                696,
+                125,
+                732
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                798,
+                634,
+                839
+            ],
+            "text": "1)9557892102639 IBUPROFEN 400MG 10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                83,
+                847,
+                286,
+                882
+            ],
+            "text": "3.00 X 3.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                607,
+                845,
+                715,
+                884
+            ],
+            "text": "9.00 Z",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                895,
+                537,
+                941
+            ],
+            "text": "2)0253K AMOXICAP 500MG CAPSU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                945,
+                279,
+                982
+            ],
+            "text": "2.00 X 6.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                596,
+                946,
+                716,
+                981
+            ],
+            "text": "12.00 Z",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                998,
+                634,
+                1037
+            ],
+            "text": "3)9557892201011 NOFLUX TAB 90MG 10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                1041,
+                284,
+                1087
+            ],
+            "text": "5.00 X 4.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                592,
+                1045,
+                714,
+                1091
+            ],
+            "text": "19.98 *",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                1094,
+                598,
+                1140
+            ],
+            "text": "4)9556492002837K FEBRICOL -RX 10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                83,
+                1144,
+                284,
+                1181
+            ],
+            "text": "2.00 X 2.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                608,
+                1146,
+                717,
+                1181
+            ],
+            "text": "5.40 Z",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                1196,
+                650,
+                1238
+            ],
+            "text": "5)9316254866387 VITAMORE EPO 1000MG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                1242,
+                303,
+                1288
+            ],
+            "text": "2.00 X 68.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                1296,
+                160,
+                1333
+            ],
+            "text": "DISC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                386,
+                1296,
+                501,
+                1331
+            ],
+            "text": "-28.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                1344,
+                651,
+                1387
+            ],
+            "text": "6)9555197602366 NOVA ROSELLE &F VIT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                85,
+                1393,
+                307,
+                1436
+            ],
+            "text": "1.00 X 28.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                1446,
+                163,
+                1483
+            ],
+            "text": "DISC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                388,
+                1446,
+                484,
+                1483
+            ],
+            "text": "-2.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                591,
+                1446,
+                718,
+                1483
+            ],
+            "text": "25.70 *",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                147,
+                1540,
+                329,
+                1588
+            ],
+            "text": "ROUNDING :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                153,
+                1595,
+                245,
+                1632
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                156,
+                1645,
+                242,
+                1690
+            ],
+            "text": "( GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                602,
+                1538,
+                689,
+                1584
+            ],
+            "text": "0.02",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                579,
+                1594,
+                684,
+                1635
+            ],
+            "text": "180.10",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                104,
+                1745,
+                257,
+                1781
+            ],
+            "text": "PAYMENT :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                1795,
+                360,
+                1832
+            ],
+            "text": "TOTAL PAYMENT :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                104,
+                1845,
+                210,
+                1880
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                69,
+                1894,
+                178,
+                1934
+            ],
+            "text": "> VISA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                582,
+                1791,
+                684,
+                1832
+            ],
+            "text": "180.10",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                610,
+                1845,
+                685,
+                1882
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                580,
+                1892,
+                692,
+                1931
+            ],
+            "text": "180.10",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                71,
+                2141,
+                178,
+                2178
+            ],
+            "text": "RATE %",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                253,
+                2142,
+                346,
+                2179
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                458,
+                2145,
+                514,
+                2180
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                2241,
+                161,
+                2281
+            ],
+            "text": "* : 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                2294,
+                161,
+                2329
+            ],
+            "text": "Z : 0%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                239,
+                2241,
+                346,
+                2276
+            ],
+            "text": "144.98",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                256,
+                2291,
+                345,
+                2331
+            ],
+            "text": "26.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                441,
+                2242,
+                515,
+                2279
+            ],
+            "text": "8.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                442,
+                2292,
+                512,
+                2328
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                2389,
+                262,
+                2426
+            ],
+            "text": "LEE MEI YEIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                68,
+                2488,
+                392,
+                2526
+            ],
+            "text": "PREV BALANCE : 2651",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                67,
+                2537,
+                562,
+                2580
+            ],
+            "text": "POINTS EARN : 171 (COMPLETE)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                2586,
+                346,
+                2626
+            ],
+            "text": "FARMASI ALPHA.COM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                50,
+                2637,
+                549,
+                2674
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                69,
+                2685,
+                648,
+                2725
+            ],
+            "text": "* TOTAL SALES INCLUSIVE GST @ 6% *",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                354,
+                396,
+                596,
+                431
+            ],
+            "text": "FAX : 62760693",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                172,
+                697,
+                566,
+                733
+            ],
+            "text": ": 12/13/2016 9:52:15 AM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                577,
+                1294,
+                720,
+                1334
+            ],
+            "text": "108.00 *",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                310,
+                1603,
+                328,
+                1632
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                309,
+                1641,
+                443,
+                1687
+            ],
+            "text": ": 8.70 )",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                342,
+                1852,
+                359,
+                1884
+            ],
+            "text": ":",
+            "label": "OTHER"
+        }
+    ]
+}

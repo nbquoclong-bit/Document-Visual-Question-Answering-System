@@ -1,0 +1,574 @@
+{
+    "form": [
+        {
+            "box": [
+                57,
+                259,
+                517,
+                292
+            ],
+            "text": "GREEN LANE PHARMACY SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                57,
+                303,
+                526,
+                344
+            ],
+            "text": "33 JLN BANGAU 1,KEPONG BARU,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                57,
+                353,
+                311,
+                394
+            ],
+            "text": "52100 KEPONG,KL",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                58,
+                403,
+                294,
+                435
+            ],
+            "text": "TEL : 62760693",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                360,
+                403,
+                603,
+                437
+            ],
+            "text": "FAX : 62760693",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                453,
+                295,
+                487
+            ],
+            "text": "BRN : 631002-U",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                58,
+                501,
+                413,
+                538
+            ],
+            "text": "GST NO : 001888309248",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                208,
+                602,
+                395,
+                636
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                650,
+                362,
+                687
+            ],
+            "text": "INV NO : 18-001641",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                703,
+                131,
+                734
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                176,
+                701,
+                347,
+                738
+            ],
+            "text": ": 1/8/2018",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                360,
+                700,
+                482,
+                738
+            ],
+            "text": "9:42:41",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                494,
+                704,
+                536,
+                735
+            ],
+            "text": "AM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                800,
+                566,
+                845
+            ],
+            "text": "1)UAM006K AMOXICAP 500MG CAPSU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                852,
+                277,
+                883
+            ],
+            "text": "1.00 X 6.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                897,
+                499,
+                942
+            ],
+            "text": "2)0984K NOFLUX TAB 90MG 10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                89,
+                948,
+                277,
+                983
+            ],
+            "text": "2.00 X 4.51",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                997,
+                633,
+                1043
+            ],
+            "text": "3)9557892102639 IBUPROFEN 400MG 10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                1051,
+                278,
+                1086
+            ],
+            "text": "3.00 X 3.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                1097,
+                598,
+                1142
+            ],
+            "text": "4)9556492002837K FEBRICOL -RX 10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                1149,
+                282,
+                1187
+            ],
+            "text": "4.00 X 2.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                615,
+                854,
+                721,
+                884
+            ],
+            "text": "6.00 Z",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                614,
+                951,
+                717,
+                983
+            ],
+            "text": "9.01 *",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                615,
+                1052,
+                718,
+                1084
+            ],
+            "text": "9.00 Z",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                602,
+                1151,
+                718,
+                1186
+            ],
+            "text": "10.80 Z",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                155,
+                1247,
+                324,
+                1291
+            ],
+            "text": "ROUNDING :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                155,
+                1300,
+                243,
+                1332
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                309,
+                1306,
+                328,
+                1334
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                160,
+                1350,
+                241,
+                1390
+            ],
+            "text": "(GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                314,
+                1348,
+                442,
+                1390
+            ],
+            "text": ": 0.51)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                598,
+                1251,
+                682,
+                1285
+            ],
+            "text": "-0.01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                597,
+                1300,
+                684,
+                1336
+            ],
+            "text": "34.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                106,
+                1448,
+                256,
+                1482
+            ],
+            "text": "PAYMENT :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                105,
+                1498,
+                358,
+                1532
+            ],
+            "text": "TOTAL PAYMENT :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                105,
+                1547,
+                206,
+                1581
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                71,
+                1597,
+                209,
+                1631
+            ],
+            "text": "> MASTER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                341,
+                1554,
+                359,
+                1583
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                598,
+                1499,
+                683,
+                1531
+            ],
+            "text": "34.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                614,
+                1547,
+                685,
+                1583
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                596,
+                1597,
+                685,
+                1633
+            ],
+            "text": "34.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                72,
+                1845,
+                179,
+                1883
+            ],
+            "text": "RATE %",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                256,
+                1847,
+                343,
+                1880
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                460,
+                1847,
+                513,
+                1880
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                1944,
+                158,
+                1979
+            ],
+            "text": "* : 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                1993,
+                163,
+                2031
+            ],
+            "text": "Z : 0%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                272,
+                1946,
+                345,
+                1981
+            ],
+            "text": "8.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                255,
+                1992,
+                345,
+                2029
+            ],
+            "text": "25.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                442,
+                1947,
+                513,
+                1981
+            ],
+            "text": "0.51",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                444,
+                1994,
+                515,
+                2031
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                2093,
+                260,
+                2127
+            ],
+            "text": "LEE MEI YEIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                71,
+                2191,
+                394,
+                2226
+            ],
+            "text": "PREV BALANCE : 1455",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                72,
+                2242,
+                260,
+                2275
+            ],
+            "text": "POINTS EARN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                296,
+                2240,
+                543,
+                2284
+            ],
+            "text": ": 34 (COMPLETE)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                2291,
+                342,
+                2323
+            ],
+            "text": "FARMASI ALPHA.COM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                2339,
+                548,
+                2376
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                2391,
+                445,
+                2423
+            ],
+            "text": "WHATSAPP NO: 0103768122",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                69,
+                2439,
+                649,
+                2474
+            ],
+            "text": "* TOTAL SALES INCLUSIVE GST @ 6% *",
+            "label": "OTHER"
+        }
+    ]
+}

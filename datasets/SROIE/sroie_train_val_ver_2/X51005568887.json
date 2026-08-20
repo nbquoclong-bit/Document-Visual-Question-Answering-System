@@ -1,0 +1,504 @@
+{
+    "form": [
+        {
+            "box": [
+                47,
+                265,
+                784,
+                309
+            ],
+            "text": "HON HWA HARDWARE TRADING",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                125,
+                315,
+                697,
+                358
+            ],
+            "text": "COMPANY REG. NO. : 001055194X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                49,
+                359,
+                763,
+                399
+            ],
+            "text": "NO 37, JALAN MANIS 7, TAMAN SEGAR,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                109,
+                400,
+                705,
+                441
+            ],
+            "text": "56100 CHERAS, KUALA LUMPUR.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                271,
+                447,
+                552,
+                481
+            ],
+            "text": "+603-9130 2672",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                209,
+                493,
+                603,
+                527
+            ],
+            "text": "GST REG : 001125220352",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                281,
+                553,
+                549,
+                591
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                630,
+                247,
+                664
+            ],
+            "text": "CB#: 75588",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                421,
+                637,
+                795,
+                668
+            ],
+            "text": "06/04/2017 11:01:36 AM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                49,
+                675,
+                251,
+                704
+            ],
+            "text": "M# : C2 - 0",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                49,
+                717,
+                317,
+                754
+            ],
+            "text": "CASHIER : CASH1 -",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                775,
+                103,
+                809
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                128,
+                775,
+                300,
+                810
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                546,
+                775,
+                625,
+                806
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                664,
+                771,
+                811,
+                812
+            ],
+            "text": "TOTAL(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                61,
+                820,
+                464,
+                855
+            ],
+            "text": "1.2 3/4\" ALUMINIUM ROD",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                561,
+                824,
+                629,
+                856
+            ],
+            "text": "6.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                683,
+                824,
+                811,
+                856
+            ],
+            "text": "7.20 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                103,
+                873,
+                285,
+                902
+            ],
+            "text": "ITEM DISCOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                727,
+                875,
+                781,
+                901
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                59,
+                911,
+                110,
+                943
+            ],
+            "text": "1.2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                129,
+                912,
+                216,
+                947
+            ],
+            "text": "TYPE:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                246,
+                914,
+                268,
+                945
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                338,
+                914,
+                416,
+                948
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                681,
+                912,
+                746,
+                946
+            ],
+            "text": "7.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                50,
+                973,
+                190,
+                1010
+            ],
+            "text": "DISCOUNT:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                683,
+                976,
+                748,
+                1007
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                1033,
+                256,
+                1070
+            ],
+            "text": "ROUNDING ADJ",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                681,
+                1037,
+                749,
+                1063
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                50,
+                1092,
+                355,
+                1127
+            ],
+            "text": "TOTAL INCLUSIVE GST:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                667,
+                1093,
+                748,
+                1125
+            ],
+            "text": "7.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                50,
+                1156,
+                146,
+                1187
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                667,
+                1156,
+                748,
+                1191
+            ],
+            "text": "7.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                49,
+                1223,
+                327,
+                1264
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                1283,
+                128,
+                1318
+            ],
+            "text": "CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                165,
+                1284,
+                197,
+                1310
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                288,
+                1282,
+                416,
+                1317
+            ],
+            "text": "NET AMT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                511,
+                1282,
+                582,
+                1319
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                642,
+                1282,
+                791,
+                1322
+            ],
+            "text": "TOTAL(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                1336,
+                104,
+                1371
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                159,
+                1339,
+                209,
+                1368
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                344,
+                1340,
+                409,
+                1369
+            ],
+            "text": "6.79",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                514,
+                1342,
+                580,
+                1368
+            ],
+            "text": "0.41",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                722,
+                1339,
+                785,
+                1368
+            ],
+            "text": "7.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                54,
+                1389,
+                126,
+                1426
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                341,
+                1392,
+                410,
+                1423
+            ],
+            "text": "6.79",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                516,
+                1395,
+                579,
+                1427
+            ],
+            "text": "0.41",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                721,
+                1395,
+                786,
+                1423
+            ],
+            "text": "7.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                49,
+                1479,
+                779,
+                1529
+            ],
+            "text": "THANK YOU ! & PLEASE COME AGAIN !!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                57,
+                1533,
+                769,
+                1562
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE FOR REFUND OR EXCHANGE !!",
+            "label": "OTHER"
+        }
+    ]
+}

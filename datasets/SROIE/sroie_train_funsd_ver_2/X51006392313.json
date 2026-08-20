@@ -1,0 +1,624 @@
+{
+    "form": [
+        {
+            "box": [
+                19,
+                129,
+                476,
+                157
+            ],
+            "text": "SUPER.SEVEN CASH & CARRY SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                19,
+                165,
+                162,
+                195
+            ],
+            "text": "(590150-A)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                199,
+                406,
+                229
+            ],
+            "text": "PASARAYA BORONG SUPER SEVEN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                19,
+                235,
+                275,
+                263
+            ],
+            "text": "NO. 1 JALAN EURO 1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                18,
+                270,
+                292,
+                303
+            ],
+            "text": "OFF JALAN BATU TIGA",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                16,
+                307,
+                573,
+                338
+            ],
+            "text": "SUNGAI BULOH SEKSYEN U3 SHAH ALAM,40150",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                17,
+                342,
+                367,
+                373
+            ],
+            "text": "HTTP://WWW.SUPER7.COM.MY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                376,
+                260,
+                405
+            ],
+            "text": "TEL : 03-78590861",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                20,
+                411,
+                261,
+                440
+            ],
+            "text": "FAX : 03-78590864",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                19,
+                485,
+                319,
+                513
+            ],
+            "text": "GST ID : 000639090688",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                234,
+                553,
+                389,
+                584
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                20,
+                624,
+                347,
+                654
+            ],
+            "text": "TAX INVOICE NO : 138652",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                415,
+                626,
+                588,
+                655
+            ],
+            "text": "COUNTER :002",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                19,
+                661,
+                585,
+                691
+            ],
+            "text": "OPERATOR :[NORIZZATI BT MOHD ZU-CASHIER]",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                21,
+                694,
+                165,
+                726
+            ],
+            "text": "22-06-2017",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                433,
+                694,
+                590,
+                721
+            ],
+            "text": "10:20:00 AM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                503,
+                729,
+                560,
+                759
+            ],
+            "text": "(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                19,
+                800,
+                422,
+                830
+            ],
+            "text": "KK KACANG GORENG 400G @7.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                21,
+                835,
+                206,
+                863
+            ],
+            "text": "9556624004265",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                247,
+                837,
+                278,
+                863
+            ],
+            "text": "*3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                461,
+                835,
+                574,
+                864
+            ],
+            "text": "21.60 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                23,
+                871,
+                305,
+                900
+            ],
+            "text": "TERUNG PENDEK @3.15",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                20,
+                908,
+                93,
+                934
+            ],
+            "text": "42066",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                250,
+                909,
+                277,
+                935
+            ],
+            "text": "*1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                473,
+                907,
+                576,
+                936
+            ],
+            "text": "3.15 ZR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                19,
+                941,
+                347,
+                969
+            ],
+            "text": "HALIA MUDA LOCAL @2.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                20,
+                975,
+                97,
+                1003
+            ],
+            "text": "42006",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                249,
+                978,
+                275,
+                1003
+            ],
+            "text": "*1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                474,
+                976,
+                574,
+                1003
+            ],
+            "text": "2.30 ZR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                19,
+                1011,
+                377,
+                1038
+            ],
+            "text": "BAWANG BESAR INDIA @0.98",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                22,
+                1046,
+                92,
+                1072
+            ],
+            "text": "42901",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                250,
+                1048,
+                274,
+                1073
+            ],
+            "text": "*1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                471,
+                1044,
+                576,
+                1073
+            ],
+            "text": "0.98 ZR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                19,
+                1114,
+                275,
+                1143
+            ],
+            "text": "QUANTITY : 6 UNITS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                20,
+                1184,
+                402,
+                1214
+            ],
+            "text": "TOTAL SALES (INCL. GST @6%)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                486,
+                1184,
+                588,
+                1214
+            ],
+            "text": "RM28.03",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                20,
+                1220,
+                286,
+                1249
+            ],
+            "text": "ROUNDING ADJUSTMENT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                503,
+                1220,
+                591,
+                1246
+            ],
+            "text": "RM0.02",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                19,
+                1256,
+                148,
+                1283
+            ],
+            "text": "NET TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                488,
+                1255,
+                588,
+                1283
+            ],
+            "text": "RM28.05",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                19,
+                1288,
+                220,
+                1319
+            ],
+            "text": "PAYMENT METHOD",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                531,
+                1290,
+                589,
+                1316
+            ],
+            "text": "CASH",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                19,
+                1324,
+                207,
+                1355
+            ],
+            "text": "RECEIVED CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                489,
+                1325,
+                587,
+                1351
+            ],
+            "text": "RM28.05",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                19,
+                1361,
+                106,
+                1391
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                503,
+                1361,
+                589,
+                1387
+            ],
+            "text": "RM0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                1430,
+                192,
+                1463
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                303,
+                1428,
+                433,
+                1459
+            ],
+            "text": "SALES AMT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                488,
+                1429,
+                588,
+                1457
+            ],
+            "text": "TAX AMT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                376,
+                1465,
+                431,
+                1495
+            ],
+            "text": "(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                519,
+                1465,
+                572,
+                1495
+            ],
+            "text": "(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                1500,
+                134,
+                1531
+            ],
+            "text": "SR (6%)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                360,
+                1500,
+                433,
+                1529
+            ],
+            "text": "20.38",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                531,
+                1502,
+                589,
+                1528
+            ],
+            "text": "1.22",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                1536,
+                133,
+                1567
+            ],
+            "text": "ZR (0%)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                374,
+                1536,
+                433,
+                1567
+            ],
+            "text": "6.43",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                530,
+                1535,
+                591,
+                1563
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                1605,
+                387,
+                1633
+            ],
+            "text": "PLEASE VERIFY YOUR RECEIPT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                21,
+                1641,
+                403,
+                1669
+            ],
+            "text": "BEFORE LEAVING THE COUNTER.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                22,
+                1676,
+                446,
+                1704
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                24,
+                1745,
+                151,
+                1773
+            ],
+            "text": "THANK YOU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                367,
+                1596,
+                672,
+                1690
+            ],
+            "text": "POSTED",
+            "label": "OTHER"
+        }
+    ]
+}

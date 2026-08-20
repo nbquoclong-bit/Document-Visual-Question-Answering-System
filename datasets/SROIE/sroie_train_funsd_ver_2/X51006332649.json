@@ -1,0 +1,584 @@
+{
+    "form": [
+        {
+            "box": [
+                139,
+                229,
+                516,
+                260
+            ],
+            "text": "BEMED (SP) SDN. BHD.",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                164,
+                269,
+                497,
+                294
+            ],
+            "text": "NO.49, JALAN DINAR G U3/G,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                223,
+                310,
+                438,
+                340
+            ],
+            "text": "SUBANG PERDANA,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                133,
+                349,
+                532,
+                377
+            ],
+            "text": "40150 SHAH ALAM, SELANGOR D.E.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                247,
+                387,
+                412,
+                414
+            ],
+            "text": "03-7845 8155",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                173,
+                425,
+                487,
+                454
+            ],
+            "text": "GST REG : 001734164480",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                209,
+                475,
+                451,
+                500
+            ],
+            "text": "CASH RECEIPT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                520,
+                318,
+                549
+            ],
+            "text": "CB# : 45976649320",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                358,
+                518,
+                620,
+                544
+            ],
+            "text": "25/FEB/2017 07:43:54",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                558,
+                243,
+                592
+            ],
+            "text": "CASHIER : BE ()",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                599,
+                93,
+                632
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                125,
+                600,
+                283,
+                629
+            ],
+            "text": "CODE&DESC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                406,
+                597,
+                482,
+                628
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                512,
+                598,
+                583,
+                625
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                640,
+                650,
+                670
+            ],
+            "text": "NH DELICADERMA PROTECTIVE CR 50M",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                65,
+                686,
+                84,
+                716
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                98,
+                692,
+                212,
+                720
+            ],
+            "text": "349000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                402,
+                688,
+                475,
+                715
+            ],
+            "text": "76.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                550,
+                688,
+                628,
+                712
+            ],
+            "text": "76 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                738,
+                474,
+                772
+            ],
+            "text": "11-(BEPROGENT CR LS) 30G",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                69,
+                787,
+                81,
+                816
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                107,
+                789,
+                208,
+                816
+            ],
+            "text": "178032",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                404,
+                784,
+                478,
+                812
+            ],
+            "text": "10.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                549,
+                786,
+                636,
+                811
+            ],
+            "text": "10 ZRL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                831,
+                578,
+                859
+            ],
+            "text": "ALPHA LIPID LIFE LINE 450MG 450G",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                71,
+                880,
+                82,
+                904
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                108,
+                881,
+                204,
+                907
+            ],
+            "text": "184810",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                387,
+                877,
+                478,
+                903
+            ],
+            "text": "165.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                533,
+                876,
+                627,
+                902
+            ],
+            "text": "165 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                68,
+                932,
+                86,
+                958
+            ],
+            "text": "3",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                127,
+                934,
+                201,
+                967
+            ],
+            "text": "TYPE:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                242,
+                934,
+                257,
+                958
+            ],
+            "text": "3",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                47,
+                979,
+                177,
+                1008
+            ],
+            "text": "SUBTOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                528,
+                976,
+                622,
+                1002
+            ],
+            "text": "251.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                1018,
+                263,
+                1047
+            ],
+            "text": "CASH PROMOTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                1057,
+                245,
+                1093
+            ],
+            "text": "ROUNDING ADJ :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                560,
+                1055,
+                624,
+                1083
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                1103,
+                411,
+                1135
+            ],
+            "text": "TOTAL INCLUSIVE GST:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                497,
+                1100,
+                623,
+                1135
+            ],
+            "text": "217.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                47,
+                1149,
+                175,
+                1180
+            ],
+            "text": "MASTER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                526,
+                1147,
+                627,
+                1177
+            ],
+            "text": "217.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                45,
+                1218,
+                256,
+                1249
+            ],
+            "text": "GST SUMMARY:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                377,
+                1215,
+                493,
+                1242
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                579,
+                1211,
+                632,
+                1241
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                397,
+                1246,
+                485,
+                1278
+            ],
+            "text": "(MYR)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                543,
+                1247,
+                630,
+                1278
+            ],
+            "text": "(MYR)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                1301,
+                89,
+                1332
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                394,
+                1300,
+                486,
+                1327
+            ],
+            "text": "195.28",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                561,
+                1298,
+                633,
+                1325
+            ],
+            "text": "11.72",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                1412,
+                103,
+                1439
+            ],
+            "text": "ZRL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                414,
+                1411,
+                487,
+                1437
+            ],
+            "text": "10.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                574,
+                1410,
+                635,
+                1436
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                1512,
+                301,
+                1539
+            ],
+            "text": "ONG GUAT CHYE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                1557,
+                147,
+                1586
+            ],
+            "text": "POINTS :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                1589,
+                101,
+                1617
+            ],
+            "text": "215",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                252,
+                1611,
+                434,
+                1647
+            ],
+            "text": "THANK YOU.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                181,
+                1653,
+                509,
+                1687
+            ],
+            "text": "PLEASE COME AGAIN.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                542,
+                1016,
+                626,
+                1044
+            ],
+            "text": "34.00",
+            "label": "OTHER"
+        }
+    ]
+}

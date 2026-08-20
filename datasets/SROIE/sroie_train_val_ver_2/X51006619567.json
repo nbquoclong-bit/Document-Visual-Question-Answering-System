@@ -1,0 +1,554 @@
+{
+    "form": [
+        {
+            "box": [
+                129,
+                288,
+                736,
+                329
+            ],
+            "text": "KEDAI UBAT & RUNCIT HONG",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                274,
+                333,
+                594,
+                376
+            ],
+            "text": "NING SDN. BHD.",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                360,
+                398,
+                512,
+                436
+            ],
+            "text": "(717853-P)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                238,
+                435,
+                638,
+                470
+            ],
+            "text": "(GST ID NO : 002006163456)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                223,
+                469,
+                657,
+                504
+            ],
+            "text": "NO.8,JALAN LANG KUNING,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                313,
+                505,
+                566,
+                544
+            ],
+            "text": "KEPONG BARU,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                253,
+                544,
+                611,
+                578
+            ],
+            "text": "52100 KUALA LUMPUR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                310,
+                619,
+                556,
+                653
+            ],
+            "text": "TEL: 03-6273 2163",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                82,
+                693,
+                180,
+                725
+            ],
+            "text": "BILL NO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                80,
+                728,
+                148,
+                764
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                236,
+                732,
+                584,
+                761
+            ],
+            "text": ": 02/02/16 10:23:36 AM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                79,
+                766,
+                185,
+                796
+            ],
+            "text": "CASHIER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                78,
+                799,
+                201,
+                838
+            ],
+            "text": "PAYMENT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                79,
+                863,
+                147,
+                892
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                274,
+                863,
+                332,
+                900
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                412,
+                864,
+                487,
+                897
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                601,
+                866,
+                715,
+                896
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                80,
+                910,
+                645,
+                949
+            ],
+            "text": "FOMEC\"S LUCKY BLESSINGS @101.89",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                946,
+                234,
+                981
+            ],
+            "text": "955657967",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                308,
+                947,
+                330,
+                982
+            ],
+            "text": "5",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                390,
+                947,
+                487,
+                981
+            ],
+            "text": "108.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                621,
+                949,
+                712,
+                982
+            ],
+            "text": "540.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                80,
+                996,
+                638,
+                1034
+            ],
+            "text": "FOMEC\"S GIFT OF HAPPINESS @64.15",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                83,
+                1034,
+                237,
+                1068
+            ],
+            "text": "955657967",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                304,
+                1035,
+                329,
+                1068
+            ],
+            "text": "2",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                404,
+                1033,
+                487,
+                1066
+            ],
+            "text": "68.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                618,
+                1032,
+                715,
+                1074
+            ],
+            "text": "136.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                742,
+                1038,
+                790,
+                1068
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                271,
+                1107,
+                545,
+                1146
+            ],
+            "text": "NET AMT @ GST 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                690,
+                1106,
+                786,
+                1145
+            ],
+            "text": "676.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                407,
+                1155,
+                546,
+                1187
+            ],
+            "text": "CASH PAIT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                693,
+                1156,
+                789,
+                1190
+            ],
+            "text": "676.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                409,
+                1191,
+                543,
+                1226
+            ],
+            "text": "CARD PAID",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                719,
+                1194,
+                792,
+                1222
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                405,
+                1227,
+                511,
+                1267
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                721,
+                1229,
+                788,
+                1261
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                405,
+                1293,
+                553,
+                1328
+            ],
+            "text": "ROUND ADJ.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                725,
+                1297,
+                788,
+                1324
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                84,
+                1363,
+                285,
+                1401
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                333,
+                1366,
+                448,
+                1394
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                544,
+                1364,
+                600,
+                1397
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                80,
+                1411,
+                215,
+                1450
+            ],
+            "text": "SR@6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                344,
+                1410,
+                438,
+                1447
+            ],
+            "text": "637.73",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                529,
+                1413,
+                613,
+                1445
+            ],
+            "text": "38.27",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                338,
+                1471,
+                538,
+                1508
+            ],
+            "text": "THANK YOU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                267,
+                1507,
+                605,
+                1541
+            ],
+            "text": "PLEASE COME AGAIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                241,
+                693,
+                430,
+                726
+            ],
+            "text": ": POS/132621",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                237,
+                767,
+                349,
+                798
+            ],
+            "text": ": ADMIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                240,
+                802,
+                334,
+                833
+            ],
+            "text": ": CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                744,
+                952,
+                790,
+                985
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                575,
+                1118,
+                584,
+                1144
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                575,
+                1164,
+                587,
+                1187
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                574,
+                1199,
+                586,
+                1225
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                573,
+                1236,
+                587,
+                1262
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                575,
+                1299,
+                588,
+                1322
+            ],
+            "text": ":",
+            "label": "OTHER"
+        }
+    ]
+}

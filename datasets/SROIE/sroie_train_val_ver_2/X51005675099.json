@@ -1,0 +1,554 @@
+{
+    "form": [
+        {
+            "box": [
+                66,
+                212,
+                642,
+                260
+            ],
+            "text": "SUPER TERMINAL SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                62,
+                265,
+                377,
+                320
+            ],
+            "text": "(1150024-H)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                331,
+                390,
+                380
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                62,
+                399,
+                679,
+                441
+            ],
+            "text": "NO. 18 & 19, TAMAN CITY, JALAN KUCHING,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                65,
+                439,
+                386,
+                476
+            ],
+            "text": "52100 KUALA LUMPUR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                62,
+                485,
+                137,
+                522
+            ],
+            "text": "TEL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                168,
+                488,
+                429,
+                525
+            ],
+            "text": "+603-6251 2293",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                65,
+                534,
+                484,
+                569
+            ],
+            "text": "GST ID NO: 000180269056",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                68,
+                605,
+                244,
+                640
+            ],
+            "text": "PLATE NO.:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                82,
+                667,
+                353,
+                699
+            ],
+            "text": "1. LED 11 SIGNAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                118,
+                713,
+                272,
+                748
+            ],
+            "text": "1X55.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                702,
+                714,
+                791,
+                744
+            ],
+            "text": "58.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                831,
+                713,
+                873,
+                746
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                72,
+                761,
+                676,
+                798
+            ],
+            "text": "2. KZ SIGNAL CONDENSOR (KOZI) 12V",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                115,
+                801,
+                459,
+                844
+            ],
+            "text": "(MODEL:SC1201)(MT)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                120,
+                850,
+                273,
+                885
+            ],
+            "text": "1X18.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                700,
+                851,
+                794,
+                881
+            ],
+            "text": "19.08",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                830,
+                851,
+                875,
+                878
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                536,
+                729,
+                553,
+                739
+            ],
+            "text": "-",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                537,
+                863,
+                556,
+                875
+            ],
+            "text": "-",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                75,
+                897,
+                573,
+                930
+            ],
+            "text": "3. YAMLUBE (SEMI) MOTOR OIL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                117,
+                945,
+                270,
+                974
+            ],
+            "text": "1 X 30.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                537,
+                954,
+                549,
+                967
+            ],
+            "text": "-",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                696,
+                942,
+                791,
+                977
+            ],
+            "text": "31.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                830,
+                944,
+                876,
+                977
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                73,
+                991,
+                396,
+                1021
+            ],
+            "text": "4. OIL FILTER LC135",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                122,
+                1037,
+                269,
+                1070
+            ],
+            "text": "1 X 13.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                534,
+                1050,
+                554,
+                1062
+            ],
+            "text": "-",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                702,
+                1040,
+                800,
+                1070
+            ],
+            "text": "13.78",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                830,
+                1037,
+                878,
+                1072
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                75,
+                1070,
+                581,
+                1106
+            ],
+            "text": "5. BULB SIGNAL 12V8 RXZ G18.5",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                122,
+                1116,
+                249,
+                1149
+            ],
+            "text": "1 X 3.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                536,
+                1131,
+                553,
+                1143
+            ],
+            "text": "-",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                716,
+                1115,
+                791,
+                1148
+            ],
+            "text": "3.18",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                830,
+                1118,
+                875,
+                1151
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                73,
+                1165,
+                391,
+                1198
+            ],
+            "text": "6. NUMBER PLASTIC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                118,
+                1210,
+                249,
+                1243
+            ],
+            "text": "6 X 1.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                536,
+                1222,
+                552,
+                1238
+            ],
+            "text": "-",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                714,
+                1213,
+                789,
+                1243
+            ],
+            "text": "6.36",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                828,
+                1210,
+                873,
+                1246
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                36,
+                1269,
+                511,
+                1302
+            ],
+            "text": "TOTAL SALES INCLUSIVE GST @6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                689,
+                1272,
+                793,
+                1302
+            ],
+            "text": "132.50",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                356,
+                1354,
+                450,
+                1387
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                687,
+                1356,
+                789,
+                1389
+            ],
+            "text": "132.50",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                358,
+                1402,
+                492,
+                1435
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                716,
+                1407,
+                789,
+                1437
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                39,
+                1462,
+                258,
+                1497
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                375,
+                1456,
+                580,
+                1496
+            ],
+            "text": "AMOUNT(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                712,
+                1458,
+                850,
+                1494
+            ],
+            "text": "TAX(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                1502,
+                191,
+                1541
+            ],
+            "text": "SR @ 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                471,
+                1505,
+                578,
+                1537
+            ],
+            "text": "125.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                774,
+                1507,
+                852,
+                1539
+            ],
+            "text": "7.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                1625,
+                173,
+                1655
+            ],
+            "text": "INV NO:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                192,
+                1623,
+                516,
+                1655
+            ],
+            "text": "CS-1801-00883DATE :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                543,
+                1627,
+                725,
+                1657
+            ],
+            "text": "20/01/2018",
+            "label": "DATE"
+        }
+    ]
+}

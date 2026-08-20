@@ -1,0 +1,684 @@
+{
+    "form": [
+        {
+            "box": [
+                56,
+                277,
+                539,
+                318
+            ],
+            "text": "SIMPLIFIED TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                58,
+                313,
+                487,
+                356
+            ],
+            "text": "AA PHARMACY",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                53,
+                353,
+                249,
+                394
+            ],
+            "text": "1188096-W",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                66,
+                394,
+                440,
+                435
+            ],
+            "text": "GST NO: 001930047488",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                427,
+                411,
+                473
+            ],
+            "text": "NO.47, JALAN 3/36,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                56,
+                470,
+                404,
+                511
+            ],
+            "text": "BUKIT SRI BINTANG,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                53,
+                511,
+                574,
+                547
+            ],
+            "text": "KEPONG 52100, KUALA LUMPUR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                58,
+                549,
+                381,
+                579
+            ],
+            "text": "TEL: 03-6263 8480",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                399,
+                544,
+                727,
+                587
+            ],
+            "text": "FAX: 03-6263 8480",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                58,
+                620,
+                152,
+                663
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                58,
+                699,
+                452,
+                740
+            ],
+            "text": "RECEIPT #: CS00123688",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                475,
+                696,
+                785,
+                737
+            ],
+            "text": "DATE: 29/01/2018",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                737,
+                381,
+                778
+            ],
+            "text": "SALESPERSON : C2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                475,
+                737,
+                742,
+                775
+            ],
+            "text": "TIME: 12:09:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                58,
+                775,
+                287,
+                813
+            ],
+            "text": "CASHIER : C2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                58,
+                854,
+                155,
+                895
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                402,
+                846,
+                463,
+                889
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                531,
+                844,
+                628,
+                890
+            ],
+            "text": "U/P",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                658,
+                851,
+                785,
+                887
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                928,
+                185,
+                961
+            ],
+            "text": "930602",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                391,
+                928,
+                424,
+                961
+            ],
+            "text": "4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                531,
+                920,
+                615,
+                963
+            ],
+            "text": "3.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                673,
+                925,
+                828,
+                966
+            ],
+            "text": "12.00 Z",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                961,
+                557,
+                1002
+            ],
+            "text": "IBUPROFEN FILM COATED TAB",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                61,
+                1004,
+                315,
+                1037
+            ],
+            "text": "9556492002837",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                394,
+                1001,
+                430,
+                1031
+            ],
+            "text": "4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                516,
+                996,
+                638,
+                1042
+            ],
+            "text": "3.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                679,
+                999,
+                837,
+                1040
+            ],
+            "text": "12.00 Z",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                1037,
+                480,
+                1078
+            ],
+            "text": "FEBRICOL - RX 10X10'S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                1070,
+                183,
+                1118
+            ],
+            "text": "940152",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                394,
+                1075,
+                427,
+                1118
+            ],
+            "text": "6",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                523,
+                1072,
+                614,
+                1118
+            ],
+            "text": "3.49",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                679,
+                1070,
+                821,
+                1121
+            ],
+            "text": "20.94 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                1111,
+                320,
+                1152
+            ],
+            "text": "NOFLUX TABLET",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                1184,
+                336,
+                1235
+            ],
+            "text": "TOTAL QUANTITY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                503,
+                1184,
+                567,
+                1232
+            ],
+            "text": "14",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                458,
+                1267,
+                625,
+                1307
+            ],
+            "text": "SUB-TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                704,
+                1266,
+                823,
+                1304
+            ],
+            "text": "44.94",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                455,
+                1301,
+                536,
+                1339
+            ],
+            "text": "DISC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                732,
+                1304,
+                831,
+                1345
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                445,
+                1347,
+                526,
+                1383
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                737,
+                1344,
+                818,
+                1382
+            ],
+            "text": "1.26",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                452,
+                1382,
+                620,
+                1428
+            ],
+            "text": "ROUNDING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                729,
+                1388,
+                813,
+                1418
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                91,
+                1413,
+                287,
+                1459
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                620,
+                1418,
+                823,
+                1459
+            ],
+            "text": "46.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                91,
+                1454,
+                338,
+                1500
+            ],
+            "text": "MASTER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                618,
+                1454,
+                811,
+                1500
+            ],
+            "text": "46.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                99,
+                1497,
+                325,
+                1538
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                648,
+                1492,
+                818,
+                1538
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                150,
+                1637,
+                729,
+                1688
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE,",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                338,
+                1677,
+                534,
+                1723
+            ],
+            "text": "THANK YOU.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                154,
+                1713,
+                718,
+                1756
+            ],
+            "text": "S=STANDARD RATED, Z=ZERO RATED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                61,
+                1863,
+                287,
+                1911
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                1939,
+                150,
+                1985
+            ],
+            "text": "CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                356,
+                1942,
+                488,
+                1983
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                562,
+                1944,
+                595,
+                1990
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                658,
+                1942,
+                800,
+                1990
+            ],
+            "text": "TAX/AMT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                2015,
+                120,
+                2058
+            ],
+            "text": "SR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                376,
+                2018,
+                475,
+                2061
+            ],
+            "text": "20.94",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                564,
+                2023,
+                584,
+                2059
+            ],
+            "text": "6",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                718,
+                2018,
+                795,
+                2058
+            ],
+            "text": "1.26",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                61,
+                2061,
+                117,
+                2096
+            ],
+            "text": "ZRL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                379,
+                2061,
+                488,
+                2091
+            ],
+            "text": "24.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                562,
+                2058,
+                595,
+                2088
+            ],
+            "text": "0",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                706,
+                2061,
+                810,
+                2097
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                414,
+                2165,
+                610,
+                2221
+            ],
+            "text": "TAX TOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                712,
+                2163,
+                796,
+                2214
+            ],
+            "text": "1.26",
+            "label": "OTHER"
+        }
+    ]
+}

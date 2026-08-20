@@ -1,0 +1,654 @@
+{
+    "form": [
+        {
+            "box": [
+                1446,
+                1005,
+                2398,
+                1486
+            ],
+            "text": "LAVENDER",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                1374,
+                1584,
+                2613,
+                1666
+            ],
+            "text": "LAVENDER CONFECTIONERY & BAKERY S/B",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                1621,
+                1683,
+                2344,
+                1755
+            ],
+            "text": "COMPANY NO: 499702-V",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1340,
+                1768,
+                2642,
+                1853
+            ],
+            "text": "LOT G29 & G30, AEON MALL TEBRAU CITY,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1552,
+                1863,
+                2429,
+                1940
+            ],
+            "text": "NO. 1, JALAN DESA TEBRAU,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1338,
+                1953,
+                2638,
+                2035
+            ],
+            "text": "TAMAN DESA TEBRAU, 81100 JOHOR BAHRU.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1694,
+                2045,
+                2299,
+                2121
+            ],
+            "text": "TEL : 07-364 3785",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1590,
+                2135,
+                2401,
+                2219
+            ],
+            "text": "GST ID NO: 001872379904",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1592,
+                2227,
+                2363,
+                2307
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1314,
+                2422,
+                1871,
+                2500
+            ],
+            "text": "17/06/2018 18:21",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2219,
+                2415,
+                2708,
+                2481
+            ],
+            "text": "B063895",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1306,
+                2516,
+                1416,
+                2592
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1554,
+                2514,
+                1977,
+                2586
+            ],
+            "text": "DESCRIPTIONS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2500,
+                2500,
+                2714,
+                2570
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1316,
+                2704,
+                1344,
+                2766
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1552,
+                2692,
+                2119,
+                2766
+            ],
+            "text": "HONEY SOFT TOAST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2568,
+                2686,
+                2786,
+                2754
+            ],
+            "text": "3.30 T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1308,
+                2794,
+                1346,
+                2866
+            ],
+            "text": "2",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1552,
+                2790,
+                1915,
+                2862
+            ],
+            "text": "XIAO GE GE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2570,
+                2772,
+                2782,
+                2842
+            ],
+            "text": "5.40 T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1316,
+                2884,
+                1346,
+                2956
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1556,
+                2872,
+                2339,
+                2944
+            ],
+            "text": "PARMESAN CHEDDAR CHEES",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2570,
+                2870,
+                2784,
+                2936
+            ],
+            "text": "4.15 T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1314,
+                2978,
+                1342,
+                3044
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1552,
+                2972,
+                2019,
+                3042
+            ],
+            "text": "TOFFEE DANISH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2570,
+                2956,
+                2788,
+                3032
+            ],
+            "text": "5.45 T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1304,
+                3070,
+                1346,
+                3138
+            ],
+            "text": "2",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1558,
+                3066,
+                1844,
+                3136
+            ],
+            "text": "EGG TART",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2566,
+                3058,
+                2790,
+                3122
+            ],
+            "text": "5.10 T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1316,
+                3159,
+                1340,
+                3231
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1554,
+                3155,
+                2087,
+                3227
+            ],
+            "text": "OTAK CHEESE BUN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2572,
+                3145,
+                2784,
+                3215
+            ],
+            "text": "3.10 T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1302,
+                3345,
+                1350,
+                3415
+            ],
+            "text": "8",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1556,
+                3339,
+                1902,
+                3407
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2363,
+                3327,
+                2709,
+                3401
+            ],
+            "text": "26.50",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                1552,
+                3433,
+                1702,
+                3499
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2538,
+                3417,
+                2716,
+                3491
+            ],
+            "text": "50.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1556,
+                3517,
+                1981,
+                3593
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2361,
+                3513,
+                2710,
+                3585
+            ],
+            "text": "23.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1310,
+                3803,
+                1699,
+                3879
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1308,
+                3896,
+                1526,
+                3960
+            ],
+            "text": "T: GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1304,
+                3982,
+                1773,
+                4056
+            ],
+            "text": "Z: ZERO RATED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2157,
+                3789,
+                2367,
+                3867
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2183,
+                3884,
+                2367,
+                3950
+            ],
+            "text": "26.50",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                2215,
+                3976,
+                2365,
+                4046
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2604,
+                3787,
+                2720,
+                3861
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2564,
+                3884,
+                2720,
+                3946
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2570,
+                3974,
+                2718,
+                4040
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1306,
+                4166,
+                1480,
+                4248
+            ],
+            "text": "SIGN :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1656,
+                4254,
+                2341,
+                4326
+            ],
+            "text": "WWW.LAVENDER.COM.MY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1833,
+                4346,
+                2182,
+                4420
+            ],
+            "text": "THANK YOU.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1314,
+                4527,
+                2516,
+                4605
+            ],
+            "text": "1. ALL SALES ARE FINAL. GOODS SOLD",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1406,
+                4621,
+                2680,
+                4699
+            ],
+            "text": "ARE NOT REFUNDABLE NOR EXCHANGEABLE.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1302,
+                4709,
+                2444,
+                4791
+            ],
+            "text": "2. OUR PRODUCTS CONTAIN NO ADDED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1412,
+                4801,
+                2694,
+                4889
+            ],
+            "text": "PRESERVATIVES, PLEASE CONSUME WITHIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1408,
+                4897,
+                2341,
+                4981
+            ],
+            "text": "A DAY OR KEEP ACCORDING TO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1409,
+                4993,
+                2427,
+                5069
+            ],
+            "text": "RECOMMENDATIONS ON PACKAGING.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1307,
+                5080,
+                2542,
+                5158
+            ],
+            "text": "3. FOR FEEDBACK , PLEASE RETAIN THIS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1418,
+                5179,
+                2506,
+                5252
+            ],
+            "text": "TAX INVOICE , SEEK STORE MANAGER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1411,
+                5267,
+                2492,
+                5345
+            ],
+            "text": "ASSISTANCE OR DROP US AN EMAIL.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1312,
+                5354,
+                2474,
+                5435
+            ],
+            "text": "4. TAX INVOICE CAN ONLY BE ISSUED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1408,
+                5451,
+                2621,
+                5525
+            ],
+            "text": "ON THE PURCHASE DATE. AMENOMENT IS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1411,
+                5544,
+                2256,
+                5615
+            ],
+            "text": "NOT ALLOWED ONCE ISSUED.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1310,
+                5720,
+                2127,
+                5801
+            ],
+            "text": "CSH:C1337 LEE FING TING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1309,
+                5820,
+                2078,
+                5894
+            ],
+            "text": "POS:T012 SHF :201806171",
+            "label": "OTHER"
+        }
+    ]
+}

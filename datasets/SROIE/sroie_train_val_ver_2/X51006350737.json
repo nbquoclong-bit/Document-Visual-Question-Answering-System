@@ -1,0 +1,524 @@
+{
+    "form": [
+        {
+            "box": [
+                442,
+                165,
+                612,
+                196
+            ],
+            "text": "(481500-M)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                112,
+                204,
+                657,
+                236
+            ],
+            "text": "C W KHOO HARDWARE SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                217,
+                236,
+                548,
+                266
+            ],
+            "text": "NO.50 , JALAN PBS 14/11 ,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                106,
+                268,
+                660,
+                298
+            ],
+            "text": "KAWASAN PERINDUSTRIAN BUKIT SERDANG,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                129,
+                299,
+                353,
+                328
+            ],
+            "text": "TEL : 03-89410243",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                403,
+                303,
+                635,
+                328
+            ],
+            "text": "FAX : 03-89410243",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                199,
+                335,
+                566,
+                365
+            ],
+            "text": "GST REG NO. : 000549584896",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                270,
+                385,
+                447,
+                413
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                437,
+                181,
+                460
+            ],
+            "text": "INVOICE NO.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                222,
+                438,
+                422,
+                461
+            ],
+            "text": ": CR 1803/1905",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                472,
+                105,
+                495
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                223,
+                470,
+                554,
+                498
+            ],
+            "text": ": 31/03/2018 10:35:17 AM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                505,
+                184,
+                529
+            ],
+            "text": "CASHIER NO.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                227,
+                504,
+                304,
+                529
+            ],
+            "text": ": KHOO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                539,
+                191,
+                563
+            ],
+            "text": "COUNTER NO.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                226,
+                539,
+                270,
+                562
+            ],
+            "text": ": C1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                574,
+                199,
+                602
+            ],
+            "text": "PRINTED DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                225,
+                576,
+                556,
+                601
+            ],
+            "text": ": 31/03/2018 10:34:21 AM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                615,
+                185,
+                639
+            ],
+            "text": "ITEM NAME",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                246,
+                618,
+                289,
+                643
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                334,
+                613,
+                450,
+                641
+            ],
+            "text": "UNIT PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                523,
+                615,
+                620,
+                640
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                49,
+                653,
+                512,
+                681
+            ],
+            "text": "2.0MM 'EVACUT' HSS DRILL BIT @ PC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                271,
+                696,
+                288,
+                720
+            ],
+            "text": "3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                393,
+                698,
+                448,
+                721
+            ],
+            "text": "4.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                549,
+                697,
+                657,
+                723
+            ],
+            "text": "13.80 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                747,
+                171,
+                776
+            ],
+            "text": "3 ITEM(S)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                278,
+                745,
+                443,
+                776
+            ],
+            "text": "TOTAL(MYR) :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                547,
+                747,
+                618,
+                772
+            ],
+            "text": "13.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                288,
+                789,
+                443,
+                816
+            ],
+            "text": "GST @ 6% :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                559,
+                789,
+                619,
+                813
+            ],
+            "text": "0.83",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                231,
+                838,
+                443,
+                867
+            ],
+            "text": "NET TOTAL (MYR) :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                548,
+                842,
+                619,
+                866
+            ],
+            "text": "14.63",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                254,
+                885,
+                442,
+                914
+            ],
+            "text": "ROUNDING ADJ. :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                562,
+                887,
+                617,
+                910
+            ],
+            "text": "0.02",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                117,
+                937,
+                442,
+                966
+            ],
+            "text": "NET TOTAL ROUNDED (MYR) :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                547,
+                938,
+                618,
+                962
+            ],
+            "text": "14.65",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                47,
+                978,
+                108,
+                1004
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                434,
+                980,
+                442,
+                1001
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                549,
+                978,
+                618,
+                1000
+            ],
+            "text": "15.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                1027,
+                141,
+                1057
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                433,
+                1030,
+                444,
+                1050
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                562,
+                1024,
+                617,
+                1050
+            ],
+            "text": "0.35",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                1110,
+                198,
+                1136
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                325,
+                1110,
+                375,
+                1132
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                391,
+                1107,
+                546,
+                1132
+            ],
+            "text": "AMOUNT (MYR)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                566,
+                1108,
+                678,
+                1133
+            ],
+            "text": "GST (MYR)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                45,
+                1152,
+                152,
+                1180
+            ],
+            "text": "SR @ 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                363,
+                1152,
+                377,
+                1177
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                489,
+                1152,
+                549,
+                1177
+            ],
+            "text": "13.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                633,
+                1153,
+                679,
+                1175
+            ],
+            "text": "0.83",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                152,
+                1268,
+                546,
+                1299
+            ],
+            "text": "THANK YOU. PLEASE COME AGAIN !",
+            "label": "OTHER"
+        }
+    ]
+}

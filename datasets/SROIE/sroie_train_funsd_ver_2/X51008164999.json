@@ -1,0 +1,664 @@
+{
+    "form": [
+        {
+            "box": [
+                85,
+                334,
+                690,
+                363
+            ],
+            "text": "ONE ONE THREE SEAFOOD RESTAURANT SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                301,
+                368,
+                463,
+                402
+            ],
+            "text": "(1120908-M)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                409,
+                689,
+                439
+            ],
+            "text": "NO.1, TAMAN SRI DENGKIL, JALAN AIR HITAM",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                210,
+                446,
+                566,
+                477
+            ],
+            "text": "43800 DENGKIL, SELANGOR.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                180,
+                481,
+                597,
+                514
+            ],
+            "text": "(GST REG. NO : 000670224384)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                210,
+                520,
+                537,
+                552
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                91,
+                557,
+                326,
+                587
+            ],
+            "text": "TABLE 33",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                117,
+                596,
+                372,
+                625
+            ],
+            "text": "BILL#:V001-541021",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                450,
+                597,
+                658,
+                627
+            ],
+            "text": "ORDER#: 141126",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                632,
+                150,
+                663
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                198,
+                635,
+                509,
+                663
+            ],
+            "text": ": 23-06-2018 20:52:16",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                671,
+                389,
+                702
+            ],
+            "text": "CASHIER: 113 CASHIER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                524,
+                672,
+                628,
+                705
+            ],
+            "text": "PAX(S):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                674,
+                673,
+                691,
+                702
+            ],
+            "text": "0",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                88,
+                750,
+                134,
+                781
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                178,
+                750,
+                344,
+                781
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                554,
+                748,
+                689,
+                779
+            ],
+            "text": "TOTAL TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                137,
+                825,
+                149,
+                851
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                478,
+                826,
+                495,
+                853
+            ],
+            "text": "D",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                525,
+                823,
+                643,
+                855
+            ],
+            "text": "30.00 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                862,
+                210,
+                893
+            ],
+            "text": "YAM ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                136,
+                900,
+                147,
+                929
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                480,
+                900,
+                496,
+                931
+            ],
+            "text": "D",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                526,
+                901,
+                645,
+                929
+            ],
+            "text": "30.00 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                937,
+                402,
+                969
+            ],
+            "text": "S.SOUP LALA ITEM (XL)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                136,
+                975,
+                148,
+                1004
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                479,
+                976,
+                495,
+                1004
+            ],
+            "text": "D",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                523,
+                976,
+                645,
+                1005
+            ],
+            "text": "77.00 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                1012,
+                224,
+                1041
+            ],
+            "text": "FISH ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                137,
+                1052,
+                148,
+                1080
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                478,
+                1051,
+                494,
+                1079
+            ],
+            "text": "D",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                527,
+                1052,
+                645,
+                1080
+            ],
+            "text": "15.00 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                1087,
+                286,
+                1119
+            ],
+            "text": "OMELLETE ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                138,
+                1129,
+                150,
+                1155
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                477,
+                1126,
+                498,
+                1157
+            ],
+            "text": "D",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                538,
+                1127,
+                646,
+                1159
+            ],
+            "text": "7.50 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                1162,
+                238,
+                1194
+            ],
+            "text": "WHITE RICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                138,
+                1204,
+                149,
+                1232
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                477,
+                1204,
+                495,
+                1234
+            ],
+            "text": "D",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                528,
+                1204,
+                647,
+                1235
+            ],
+            "text": "15.00 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                1242,
+                282,
+                1278
+            ],
+            "text": "VEGE ITEM (M)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                138,
+                1282,
+                149,
+                1310
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                476,
+                1282,
+                496,
+                1312
+            ],
+            "text": "D",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                540,
+                1281,
+                644,
+                1312
+            ],
+            "text": "5.00 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                1317,
+                208,
+                1350
+            ],
+            "text": "BEVERAGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                1390,
+                416,
+                1420
+            ],
+            "text": "TOTAL (EXCLUDING GST):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                601,
+                1391,
+                690,
+                1420
+            ],
+            "text": "179.50",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                90,
+                1427,
+                462,
+                1458
+            ],
+            "text": "TOTAL (INCLUSIVE OF GST):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                601,
+                1429,
+                690,
+                1457
+            ],
+            "text": "179.50",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                89,
+                1463,
+                260,
+                1496
+            ],
+            "text": "TOTAL :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                518,
+                1464,
+                688,
+                1495
+            ],
+            "text": "179.50",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                89,
+                1536,
+                224,
+                1567
+            ],
+            "text": "CLOSED: 1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                373,
+                1539,
+                525,
+                1570
+            ],
+            "text": "23-06-2018",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                569,
+                1539,
+                689,
+                1570
+            ],
+            "text": "21:29:23",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                1574,
+                374,
+                1605
+            ],
+            "text": "SERVER: 113 CASHIER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                1611,
+                177,
+                1642
+            ],
+            "text": "CASH :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                601,
+                1612,
+                690,
+                1641
+            ],
+            "text": "179.50",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                88,
+                1686,
+                255,
+                1720
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                389,
+                1687,
+                537,
+                1718
+            ],
+            "text": "AMOUNT(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                585,
+                1688,
+                686,
+                1718
+            ],
+            "text": "TAX(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                89,
+                1723,
+                119,
+                1751
+            ],
+            "text": "SR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                241,
+                1722,
+                327,
+                1755
+            ],
+            "text": "(@ 6%)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                450,
+                1724,
+                539,
+                1752
+            ],
+            "text": "179.50",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                628,
+                1727,
+                689,
+                1754
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                237,
+                1835,
+                524,
+                1863
+            ],
+            "text": "**** THANK YOU ****",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                269,
+                1872,
+                525,
+                1903
+            ],
+            "text": "PLEASE COME AGAIN",
+            "label": "OTHER"
+        }
+    ]
+}

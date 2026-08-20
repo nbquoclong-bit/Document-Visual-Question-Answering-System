@@ -1,0 +1,734 @@
+{
+    "form": [
+        {
+            "box": [
+                2263,
+                958,
+                2671,
+                1020
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2211,
+                1041,
+                2730,
+                1103
+            ],
+            "text": "DOMINO'S PIZZA",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                1982,
+                1156,
+                2968,
+                1211
+            ],
+            "text": "GST REF NO : 001694261248",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1938,
+                1253,
+                2980,
+                1315
+            ],
+            "text": "DOMINO'S PIZZA PERMAS JAYA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1902,
+                1345,
+                3024,
+                1414
+            ],
+            "text": "NO.12, JALAN PERMAS JAYA 10,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1745,
+                1448,
+                3198,
+                1517
+            ],
+            "text": "BANDAR BARU PERMAS JAYA, 81750 MASAI",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                2363,
+                1540,
+                2574,
+                1606
+            ],
+            "text": "JOHOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1723,
+                1792,
+                2328,
+                1851
+            ],
+            "text": "CARRY OUT TIMED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2619,
+                1796,
+                3103,
+                1862
+            ],
+            "text": "PAY BY: CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1726,
+                2038,
+                1923,
+                2100
+            ],
+            "text": "ORDER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2153,
+                2038,
+                2361,
+                2087
+            ],
+            "text": ":6224",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2623,
+                2031,
+                2706,
+                2107
+            ],
+            "text": "BY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2831,
+                2030,
+                3222,
+                2110
+            ],
+            "text": ":WEB_30263",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1720,
+                2128,
+                2523,
+                2190
+            ],
+            "text": "ORDER TIME :10:15:18",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1723,
+                2273,
+                2401,
+                2339
+            ],
+            "text": "NAME: MS JUNE LOO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1730,
+                2373,
+                2574,
+                2442
+            ],
+            "text": "PICKUP TIME: 22:00:14",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1723,
+                2543,
+                2048,
+                2616
+            ],
+            "text": "QTY MENU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1747,
+                2685,
+                1806,
+                2744
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1754,
+                2802,
+                1806,
+                2871
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                2760,
+                2980,
+                2966,
+                3041
+            ],
+            "text": "21.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1720,
+                3096,
+                2155,
+                3160
+            ],
+            "text": "TOTAL ITEMS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2574,
+                3111,
+                2610,
+                3149
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1718,
+                3216,
+                2072,
+                3273
+            ],
+            "text": "SUB-TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2578,
+                3226,
+                2606,
+                3276
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2864,
+                3219,
+                3055,
+                3276
+            ],
+            "text": "25.60",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                1716,
+                3339,
+                2314,
+                3400
+            ],
+            "text": "COUPON DISCOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2583,
+                3344,
+                2602,
+                3394
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2857,
+                3332,
+                3056,
+                3391
+            ],
+            "text": "21.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1716,
+                3453,
+                2158,
+                3510
+            ],
+            "text": "GRAND TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2578,
+                3462,
+                2599,
+                3505
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2897,
+                3455,
+                3055,
+                3509
+            ],
+            "text": "3.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1713,
+                3575,
+                1994,
+                3634
+            ],
+            "text": "PAYMENT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2576,
+                3578,
+                2604,
+                3623
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2900,
+                3571,
+                3056,
+                3625
+            ],
+            "text": "5.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1713,
+                3689,
+                2110,
+                3755
+            ],
+            "text": "CHANGE DUE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2571,
+                3696,
+                2602,
+                3739
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2859,
+                3684,
+                3050,
+                3743
+            ],
+            "text": "01.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1711,
+                3800,
+                2349,
+                3859
+            ],
+            "text": "*6% GST INCLUDED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2573,
+                3814,
+                2594,
+                3857
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2897,
+                3805,
+                3058,
+                3862
+            ],
+            "text": "0.22",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1860,
+                3994,
+                3046,
+                4065
+            ],
+            "text": "SUPPORT OUR SMILE CAMPAIGN : )",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2061,
+                4114,
+                2850,
+                4190
+            ],
+            "text": "DID WE SMILE AT YOU?",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2176,
+                4213,
+                2731,
+                4272
+            ],
+            "text": "LET US KNOW AT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1938,
+                4308,
+                2966,
+                4374
+            ],
+            "text": "WWW.DOMINOS.COM.MY/SMILE AND",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1750,
+                4412,
+                3183,
+                4483
+            ],
+            "text": "RECEIVE A 30% OFF SIDE ITEM E-COUPON",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2017,
+                4512,
+                2891,
+                4571
+            ],
+            "text": "UPON SURVEY SUBMISSION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1895,
+                4609,
+                3005,
+                4674
+            ],
+            "text": "SURVEY CODE: WBD171560041515",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1765,
+                4756,
+                3029,
+                4820
+            ],
+            "text": "THANK YOU FOR VISITING DOMINO'S.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2043,
+                4841,
+                2746,
+                4908
+            ],
+            "text": "PLEASE COME AGAIN!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1897,
+                4956,
+                2913,
+                5025
+            ],
+            "text": "1 - 3 0 0 - 8 8 8 - 3 3 3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2041,
+                5052,
+                2756,
+                5118
+            ],
+            "text": "WWW.DOMINOS.COM.MY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1721,
+                5214,
+                3065,
+                5278
+            ],
+            "text": "WE ARE COMPLIANT TO THE PDPA 2010.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1803,
+                5306,
+                2988,
+                5372
+            ],
+            "text": "VISIT WWW.DOMINOS.COM.MY/TERMS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1899,
+                5395,
+                2903,
+                5451
+            ],
+            "text": "TO VIEW OUR PERSONAL DATA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2041,
+                5470,
+                2748,
+                5536
+            ],
+            "text": "PROTECTION POLICY.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2238,
+                5603,
+                2556,
+                5667
+            ],
+            "text": "OWNED BY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1833,
+                5690,
+                2957,
+                5746
+            ],
+            "text": "DOMMAL FOOD SERVICES SDN BHD",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2078,
+                5783,
+                2719,
+                5836
+            ],
+            "text": "CO. NO. 419060-A",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3142,
+                5781,
+                3177,
+                5832
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                2619,
+                2131,
+                3197,
+                2193
+            ],
+            "text": "DATE :17/04/18",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2180,
+                2550,
+                2353,
+                2605
+            ],
+            "text": "DESC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2429,
+                2546,
+                2668,
+                2612
+            ],
+            "text": "COUPON",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2761,
+                2546,
+                2931,
+                2608
+            ],
+            "text": "DISC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3034,
+                2543,
+                3245,
+                2605
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1879,
+                2681,
+                2049,
+                2743
+            ],
+            "text": "6\"HT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2131,
+                2678,
+                2290,
+                2754
+            ],
+            "text": "(TE)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2415,
+                2681,
+                2737,
+                2743
+            ],
+            "text": "FPP-FREE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3022,
+                2685,
+                3211,
+                2739
+            ],
+            "text": "12.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1881,
+                2803,
+                2051,
+                2864
+            ],
+            "text": "6\"HT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2143,
+                2807,
+                2275,
+                2873
+            ],
+            "text": "(BP)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2417,
+                2807,
+                2734,
+                2864
+            ],
+            "text": "WTUE1A-E",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3018,
+                2800,
+                3214,
+                2864
+            ],
+            "text": "12.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3011,
+                2982,
+                3207,
+                3036
+            ],
+            "text": "25.60",
+            "label": "TOTAL"
+        }
+    ]
+}

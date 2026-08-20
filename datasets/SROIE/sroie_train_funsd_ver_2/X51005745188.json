@@ -1,0 +1,494 @@
+{
+    "form": [
+        {
+            "box": [
+                116,
+                240,
+                597,
+                271
+            ],
+            "text": "SLF CASH & CARRY",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                122,
+                272,
+                591,
+                309
+            ],
+            "text": "NO.15,JLN TSJ2,TMN SUBANG JASA,",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                205,
+                302,
+                506,
+                340
+            ],
+            "text": "OFF JLN BT 3 SUBANG,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                207,
+                335,
+                507,
+                370
+            ],
+            "text": "40000 SHAH ALAM, SEL.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                205,
+                364,
+                509,
+                395
+            ],
+            "text": "GST NO: 001169362944",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                107,
+                392,
+                607,
+                423
+            ],
+            "text": "TEL: 03-77343662 FAX: TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                482,
+                118,
+                511
+            ],
+            "text": "CASH",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                55,
+                536,
+                632,
+                567
+            ],
+            "text": "RECEIPT #: CS00241867 DATE: 02/02/2018",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                57,
+                571,
+                252,
+                601
+            ],
+            "text": "SALESPERSON :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                388,
+                571,
+                601,
+                601
+            ],
+            "text": "TIME: 08:31:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                55,
+                601,
+                282,
+                629
+            ],
+            "text": "CASHIER : KELLY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                57,
+                660,
+                118,
+                690
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                326,
+                664,
+                371,
+                691
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                446,
+                663,
+                494,
+                691
+            ],
+            "text": "U/P",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                535,
+                663,
+                628,
+                691
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                724,
+                254,
+                751
+            ],
+            "text": "6194020100124",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                325,
+                720,
+                350,
+                751
+            ],
+            "text": "4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                418,
+                724,
+                495,
+                751
+            ],
+            "text": "11.32",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                550,
+                722,
+                658,
+                752
+            ],
+            "text": "45.28 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                59,
+                754,
+                525,
+                786
+            ],
+            "text": "(UNIT) ROYAL BAKING POWDER 450G",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                57,
+                814,
+                268,
+                840
+            ],
+            "text": "TOTAL QUANTITY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                430,
+                815,
+                456,
+                841
+            ],
+            "text": "4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                371,
+                902,
+                508,
+                932
+            ],
+            "text": "SUB-TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                581,
+                902,
+                660,
+                929
+            ],
+            "text": "45.28",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                371,
+                933,
+                433,
+                960
+            ],
+            "text": "DISC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                596,
+                933,
+                657,
+                959
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                372,
+                964,
+                420,
+                990
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                597,
+                962,
+                659,
+                989
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                372,
+                992,
+                494,
+                1022
+            ],
+            "text": "ROUNDING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                596,
+                992,
+                658,
+                1016
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                1020,
+                235,
+                1051
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                508,
+                1023,
+                659,
+                1052
+            ],
+            "text": "48.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                88,
+                1049,
+                208,
+                1081
+            ],
+            "text": "CASH",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                508,
+                1052,
+                657,
+                1080
+            ],
+            "text": "48.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                87,
+                1082,
+                265,
+                1112
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                537,
+                1082,
+                655,
+                1111
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                132,
+                1141,
+                582,
+                1178
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE,",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                282,
+                1173,
+                430,
+                1201
+            ],
+            "text": "THANK YOU.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                273,
+                1232,
+                440,
+                1260
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                63,
+                1292,
+                127,
+                1319
+            ],
+            "text": "CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                303,
+                1294,
+                398,
+                1320
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                469,
+                1291,
+                488,
+                1321
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                543,
+                1293,
+                652,
+                1320
+            ],
+            "text": "TAX/AMT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                64,
+                1352,
+                96,
+                1381
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                319,
+                1352,
+                395,
+                1382
+            ],
+            "text": "45.28",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                469,
+                1353,
+                487,
+                1383
+            ],
+            "text": "6",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                590,
+                1351,
+                654,
+                1381
+            ],
+            "text": "2.72",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                347,
+                1441,
+                500,
+                1472
+            ],
+            "text": "TAX TOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                588,
+                1442,
+                652,
+                1471
+            ],
+            "text": "2.72",
+            "label": "OTHER"
+        }
+    ]
+}

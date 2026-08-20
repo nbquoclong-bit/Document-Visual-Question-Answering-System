@@ -1,0 +1,404 @@
+{
+    "form": [
+        {
+            "box": [
+                288,
+                159,
+                646,
+                201
+            ],
+            "text": "IKANO HANDEL SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                377,
+                201,
+                555,
+                250
+            ],
+            "text": "(1074617K)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                271,
+                281,
+                659,
+                327
+            ],
+            "text": "IKEA CHERAS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                285,
+                324,
+                646,
+                367
+            ],
+            "text": "NO 2A JALAN COCHRANE",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                357,
+                362,
+                576,
+                406
+            ],
+            "text": "TAMAN MALURI",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                302,
+                404,
+                630,
+                447
+            ],
+            "text": "55100 KUALA LUMPUR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                281,
+                443,
+                663,
+                492
+            ],
+            "text": "GST NO.: 000115154944",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                372,
+                527,
+                578,
+                607
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                126,
+                643,
+                596,
+                687
+            ],
+            "text": "SLIP: 0000000011000140428",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                511,
+                686,
+                769,
+                729
+            ],
+            "text": "DATE: 09/08/17",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                513,
+                729,
+                718,
+                771
+            ],
+            "text": "TIME: 1:06",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                127,
+                765,
+                415,
+                812
+            ],
+            "text": "TRANS: 311140123",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                513,
+                765,
+                626,
+                809
+            ],
+            "text": "STAFF:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                726,
+                766,
+                825,
+                810
+            ],
+            "text": "96728",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                131,
+                845,
+                323,
+                888
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                640,
+                847,
+                809,
+                894
+            ],
+            "text": "AMOUNT TX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                125,
+                966,
+                648,
+                1013
+            ],
+            "text": "30169728 BAGIS COAT-HANGER CH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                173,
+                1009,
+                379,
+                1052
+            ],
+            "text": "2 PC @ 4.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                673,
+                1009,
+                841,
+                1056
+            ],
+            "text": "9.80 SRM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                126,
+                1086,
+                488,
+                1130
+            ],
+            "text": "70350938 TEODORES CH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                658,
+                1089,
+                841,
+                1131
+            ],
+            "text": "90.00 SR S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                126,
+                1208,
+                575,
+                1253
+            ],
+            "text": "TOTAL RM INCLUDING GST 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                659,
+                1212,
+                749,
+                1251
+            ],
+            "text": "99.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                126,
+                1250,
+                352,
+                1293
+            ],
+            "text": "ROUNDING ADJ.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                672,
+                1251,
+                751,
+                1291
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                127,
+                1286,
+                363,
+                1332
+            ],
+            "text": "TOTAL ROUNDED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                658,
+                1289,
+                754,
+                1333
+            ],
+            "text": "99.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                126,
+                1377,
+                308,
+                1414
+            ],
+            "text": "MASTERCARD",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                642,
+                1371,
+                755,
+                1417
+            ],
+            "text": "-99.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                129,
+                1491,
+                185,
+                1533
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                212,
+                1486,
+                259,
+                1532
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                352,
+                1491,
+                402,
+                1533
+            ],
+            "text": "6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                499,
+                1491,
+                594,
+                1531
+            ],
+            "text": "99.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                670,
+                1491,
+                749,
+                1533
+            ],
+            "text": "5.64",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                122,
+                1529,
+                378,
+                1578
+            ],
+            "text": "AMT. EXCL. GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                659,
+                1532,
+                751,
+                1571
+            ],
+            "text": "94.16",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                122,
+                1607,
+                341,
+                1654
+            ],
+            "text": "NO. OF ITEMS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                726,
+                1614,
+                753,
+                1655
+            ],
+            "text": "3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                216,
+                1769,
+                728,
+                1820
+            ],
+            "text": "THANK YOU. PLEASE COME AGAIN.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                218,
+                2063,
+                741,
+                2109
+            ],
+            "text": "*T3620000011000140428*",
+            "label": "OTHER"
+        }
+    ]
+}

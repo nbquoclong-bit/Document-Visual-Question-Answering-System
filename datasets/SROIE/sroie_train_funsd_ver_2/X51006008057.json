@@ -1,0 +1,824 @@
+{
+    "form": [
+        {
+            "box": [
+                196,
+                130,
+                485,
+                179
+            ],
+            "text": "SARANG HAE YO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                183,
+                182,
+                501,
+                210
+            ],
+            "text": "TRENDYMAX (M) SDN. BHD.",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                159,
+                210,
+                531,
+                240
+            ],
+            "text": "COMPANY REG. NO. : (583246-A).",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                103,
+                244,
+                588,
+                273
+            ],
+            "text": "P6, BLOCK C, GM KLANG WHOLESALE CITY,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                232,
+                276,
+                459,
+                306
+            ],
+            "text": "JALAN KASUARINA 1,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                168,
+                308,
+                521,
+                341
+            ],
+            "text": "41200 KLANG, SELANGOR D.E.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                157,
+                347,
+                528,
+                377
+            ],
+            "text": "WHATSAPP : +6012-5060668",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                154,
+                392,
+                519,
+                426
+            ],
+            "text": "WWW.SARANGHAEYO.COM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                434,
+                501,
+                462
+            ],
+            "text": "GST REG : 000384098304",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                254,
+                511,
+                445,
+                539
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                32,
+                557,
+                92,
+                581
+            ],
+            "text": "CB# :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                602,
+                133,
+                624
+            ],
+            "text": "CASHIER :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                645,
+                137,
+                671
+            ],
+            "text": "REMARKS:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                119,
+                558,
+                254,
+                583
+            ],
+            "text": "GM3-46792",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                151,
+                602,
+                359,
+                631
+            ],
+            "text": "W001 - ERAH @ C6",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                380,
+                560,
+                650,
+                586
+            ],
+            "text": "15/01/2018 1:48:36 PM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                708,
+                72,
+                736
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                132,
+                708,
+                265,
+                738
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                313,
+                708,
+                371,
+                733
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                434,
+                708,
+                482,
+                734
+            ],
+            "text": "DISC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                563,
+                709,
+                621,
+                734
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                89,
+                768,
+                107,
+                796
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                73,
+                882,
+                104,
+                905
+            ],
+            "text": "10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                76,
+                1028,
+                102,
+                1050
+            ],
+            "text": "12",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                91,
+                1187,
+                106,
+                1215
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                142,
+                770,
+                179,
+                793
+            ],
+            "text": "MS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                801,
+                247,
+                824
+            ],
+            "text": "LOYALTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                834,
+                250,
+                857
+            ],
+            "text": "PACKAGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                877,
+                227,
+                903
+            ],
+            "text": "IB-RDM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                911,
+                296,
+                934
+            ],
+            "text": "IRON BASKET",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                141,
+                943,
+                311,
+                968
+            ],
+            "text": "ROUND 27 * 25",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                138,
+                1025,
+                249,
+                1051
+            ],
+            "text": "AOR5058",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                139,
+                1055,
+                275,
+                1082
+            ],
+            "text": "50MM PULL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                140,
+                1090,
+                235,
+                1116
+            ],
+            "text": "FLOWER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                139,
+                1120,
+                231,
+                1145
+            ],
+            "text": "RIBBON",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                1187,
+                232,
+                1214
+            ],
+            "text": "QC2018",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                1219,
+                220,
+                1243
+            ],
+            "text": "HORSE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                143,
+                1252,
+                263,
+                1277
+            ],
+            "text": "CALENDAR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                143,
+                1284,
+                201,
+                1310
+            ],
+            "text": "2018",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                308,
+                767,
+                378,
+                795
+            ],
+            "text": "15.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                306,
+                878,
+                375,
+                903
+            ],
+            "text": "28.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                315,
+                1022,
+                373,
+                1047
+            ],
+            "text": "5.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                316,
+                1183,
+                374,
+                1207
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                425,
+                769,
+                483,
+                794
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                412,
+                879,
+                490,
+                902
+            ],
+            "text": "-28.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                412,
+                1019,
+                479,
+                1045
+            ],
+            "text": "-6.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                420,
+                1182,
+                479,
+                1205
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                574,
+                770,
+                675,
+                795
+            ],
+            "text": "15.00 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                555,
+                877,
+                672,
+                899
+            ],
+            "text": "260.10 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                565,
+                1018,
+                666,
+                1045
+            ],
+            "text": "54.00 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                580,
+                1175,
+                669,
+                1199
+            ],
+            "text": "0.00 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                1352,
+                117,
+                1378
+            ],
+            "text": "24",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                162,
+                1348,
+                229,
+                1378
+            ],
+            "text": "TYPE:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                267,
+                1346,
+                291,
+                1372
+            ],
+            "text": "4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                490,
+                1337,
+                552,
+                1361
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                605,
+                1334,
+                686,
+                1361
+            ],
+            "text": "329.10",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                48,
+                1421,
+                203,
+                1451
+            ],
+            "text": "ROUNDING ADJ",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                593,
+                1408,
+                651,
+                1431
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                1460,
+                285,
+                1492
+            ],
+            "text": "TOTAL INCLUSIVE GST:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                45,
+                1518,
+                108,
+                1542
+            ],
+            "text": "VISA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                567,
+                1447,
+                650,
+                1475
+            ],
+            "text": "329.10",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                568,
+                1499,
+                650,
+                1525
+            ],
+            "text": "329.10",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                48,
+                1586,
+                233,
+                1612
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                1628,
+                107,
+                1651
+            ],
+            "text": "CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                48,
+                1683,
+                79,
+                1706
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                1722,
+                103,
+                1748
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                149,
+                1625,
+                179,
+                1650
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                138,
+                1681,
+                176,
+                1704
+            ],
+            "text": "6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                261,
+                1623,
+                353,
+                1646
+            ],
+            "text": "NET AMT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                271,
+                1677,
+                353,
+                1703
+            ],
+            "text": "310.47",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                272,
+                1719,
+                354,
+                1743
+            ],
+            "text": "310.47",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                445,
+                1617,
+                493,
+                1640
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                426,
+                1673,
+                490,
+                1697
+            ],
+            "text": "18.63",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                426,
+                1713,
+                489,
+                1739
+            ],
+            "text": "18.63",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                594,
+                1609,
+                656,
+                1635
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                575,
+                1668,
+                656,
+                1696
+            ],
+            "text": "329.10",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                574,
+                1708,
+                655,
+                1734
+            ],
+            "text": "329.10",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                38,
+                1789,
+                313,
+                1815
+            ],
+            "text": "RINEE AMELIA ZAKARIA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                38,
+                1822,
+                155,
+                1848
+            ],
+            "text": "SHY32516",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                40,
+                1853,
+                178,
+                1878
+            ],
+            "text": "POINTS : 310",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                97,
+                1896,
+                596,
+                1937
+            ],
+            "text": "THANK YOU ! PLEASE COME AGAIN !",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                41,
+                1938,
+                664,
+                1965
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE FOR REFUND OR EXCHANGE!!",
+            "label": "OTHER"
+        }
+    ]
+}

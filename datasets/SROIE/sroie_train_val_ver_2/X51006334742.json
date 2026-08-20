@@ -1,0 +1,624 @@
+{
+    "form": [
+        {
+            "box": [
+                121,
+                241,
+                501,
+                270
+            ],
+            "text": "THE CUT STEAKHOUSE &BURGERS",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                147,
+                279,
+                498,
+                306
+            ],
+            "text": "LOT L1-4 STAR AVENUE MALL",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                120,
+                316,
+                529,
+                345
+            ],
+            "text": "JALAN ZUHAL U5/179 SEKSYEN U5",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                115,
+                354,
+                528,
+                383
+            ],
+            "text": "PUSAT KOMERSIAL ARENA BINTANG",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                148,
+                394,
+                500,
+                419
+            ],
+            "text": "40150 SHAH ALAM, SELANGOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                204,
+                429,
+                440,
+                456
+            ],
+            "text": "TEL : 03-78316111",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                120,
+                466,
+                513,
+                495
+            ],
+            "text": "(GST REG. NO : 000974557184)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                148,
+                542,
+                455,
+                568
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                32,
+                615,
+                173,
+                666
+            ],
+            "text": "TABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                259,
+                616,
+                314,
+                667
+            ],
+            "text": "30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                717,
+                143,
+                747
+            ],
+            "text": "INV NO.:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                191,
+                719,
+                272,
+                745
+            ],
+            "text": "507684",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                457,
+                717,
+                554,
+                744
+            ],
+            "text": "PAX(S):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                601,
+                716,
+                613,
+                742
+            ],
+            "text": "4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                33,
+                757,
+                91,
+                783
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                137,
+                757,
+                303,
+                782
+            ],
+            "text": ": 01-01-2017",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                571,
+                1754,
+                628,
+                1781
+            ],
+            "text": "6.08",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                346,
+                755,
+                457,
+                781
+            ],
+            "text": "21:14:17",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                794,
+                145,
+                819
+            ],
+            "text": "CASHIER:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                190,
+                794,
+                246,
+                819
+            ],
+            "text": "SHAM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                868,
+                190,
+                894
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                247,
+                870,
+                287,
+                896
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                345,
+                868,
+                445,
+                898
+            ],
+            "text": "U.PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                474,
+                866,
+                540,
+                892
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                559,
+                865,
+                600,
+                893
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                943,
+                303,
+                971
+            ],
+            "text": "BEEF STEAK ESCALOPE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                234,
+                979,
+                247,
+                1007
+            ],
+            "text": "2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                289,
+                986,
+                301,
+                1004
+            ],
+            "text": "X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                403,
+                979,
+                471,
+                1004
+            ],
+            "text": "37.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                558,
+                977,
+                629,
+                1005
+            ],
+            "text": "75.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                685,
+                978,
+                713,
+                1003
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                1055,
+                204,
+                1083
+            ],
+            "text": "CHICKEN DOME",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                235,
+                1092,
+                245,
+                1117
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                290,
+                1097,
+                302,
+                1115
+            ],
+            "text": "X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                402,
+                1090,
+                473,
+                1118
+            ],
+            "text": "27.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                559,
+                1091,
+                628,
+                1116
+            ],
+            "text": "27.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                684,
+                1089,
+                713,
+                1115
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                1164,
+                175,
+                1192
+            ],
+            "text": "TENDERLOIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                236,
+                1203,
+                245,
+                1228
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                290,
+                1208,
+                302,
+                1229
+            ],
+            "text": "X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                404,
+                1204,
+                471,
+                1228
+            ],
+            "text": "43.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                559,
+                1202,
+                627,
+                1227
+            ],
+            "text": "43.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                685,
+                1200,
+                713,
+                1228
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                1278,
+                176,
+                1303
+            ],
+            "text": "WARM WATER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                233,
+                1317,
+                245,
+                1340
+            ],
+            "text": "4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                289,
+                1321,
+                301,
+                1339
+            ],
+            "text": "X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                419,
+                1315,
+                473,
+                1340
+            ],
+            "text": "1.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                572,
+                1314,
+                629,
+                1341
+            ],
+            "text": "6.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                686,
+                1314,
+                713,
+                1340
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                1427,
+                173,
+                1452
+            ],
+            "text": "TOTAL QTY:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                218,
+                1427,
+                233,
+                1450
+            ],
+            "text": "8",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                1463,
+                317,
+                1491
+            ],
+            "text": "TOTAL (EXCLUDING GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                546,
+                1464,
+                627,
+                1488
+            ],
+            "text": "158.08",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                1503,
+                274,
+                1529
+            ],
+            "text": "GST PAYABLE (6%):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                570,
+                1502,
+                628,
+                1527
+            ],
+            "text": "9.48",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                1538,
+                259,
+                1565
+            ],
+            "text": "TOTAL (INCLUSIVE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                545,
+                1538,
+                628,
+                1564
+            ],
+            "text": "167.56",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                1576,
+                214,
+                1605
+            ],
+            "text": "ROUNDING ADJ :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                559,
+                1576,
+                625,
+                1601
+            ],
+            "text": "-0.01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                1652,
+                195,
+                1702
+            ],
+            "text": "TOTAL :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                491,
+                1652,
+                654,
+                1702
+            ],
+            "text": "167.55",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                174,
+                1749,
+                219,
+                1778
+            ],
+            "text": "DED",
+            "label": "OTHER"
+        }
+    ]
+}

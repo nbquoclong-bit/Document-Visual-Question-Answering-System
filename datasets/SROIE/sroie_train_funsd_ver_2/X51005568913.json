@@ -1,0 +1,384 @@
+{
+    "form": [
+        {
+            "box": [
+                288,
+                167,
+                639,
+                208
+            ],
+            "text": "IKANO HANDEL SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                375,
+                206,
+                548,
+                251
+            ],
+            "text": "(1074617K)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                264,
+                281,
+                652,
+                333
+            ],
+            "text": "IKEA CHERAS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                281,
+                326,
+                641,
+                373
+            ],
+            "text": "NO 2A JALAN COCHRANE",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                350,
+                368,
+                568,
+                412
+            ],
+            "text": "TAMAN MALURI",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                298,
+                407,
+                623,
+                451
+            ],
+            "text": "55100 KUALA LUMPUR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                283,
+                448,
+                656,
+                497
+            ],
+            "text": "GST NO.: 000115154944",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                363,
+                530,
+                570,
+                607
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                122,
+                649,
+                592,
+                691
+            ],
+            "text": "SLIP: 0000000011000136498",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                509,
+                691,
+                765,
+                735
+            ],
+            "text": "DATE: 27/07/17",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                510,
+                730,
+                716,
+                774
+            ],
+            "text": "TIME: 1:12",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                119,
+                766,
+                408,
+                816
+            ],
+            "text": "TRANS: 311136194",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                512,
+                768,
+                619,
+                818
+            ],
+            "text": "STAFF:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                721,
+                771,
+                813,
+                815
+            ],
+            "text": "95837",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                117,
+                847,
+                326,
+                899
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                632,
+                853,
+                803,
+                897
+            ],
+            "text": "AMOUNT TX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                119,
+                970,
+                641,
+                1012
+            ],
+            "text": "50346155 BOSTRAK WRD 80X50X18",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                171,
+                1011,
+                410,
+                1055
+            ],
+            "text": "2 PC @ 269.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                634,
+                1011,
+                835,
+                1060
+            ],
+            "text": "538.00 SRS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                117,
+                1129,
+                570,
+                1174
+            ],
+            "text": "TOTAL RM INCLUDING GST 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                627,
+                1131,
+                746,
+                1176
+            ],
+            "text": "538.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                114,
+                1171,
+                355,
+                1216
+            ],
+            "text": "ROUNDING ADJ.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                663,
+                1175,
+                750,
+                1215
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                119,
+                1210,
+                357,
+                1257
+            ],
+            "text": "TOTAL ROUNDED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                631,
+                1213,
+                745,
+                1257
+            ],
+            "text": "538.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                119,
+                1292,
+                196,
+                1336
+            ],
+            "text": "VISA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                617,
+                1295,
+                746,
+                1339
+            ],
+            "text": "-538.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                117,
+                1409,
+                181,
+                1453
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                204,
+                1409,
+                251,
+                1453
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                348,
+                1409,
+                393,
+                1454
+            ],
+            "text": "6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                470,
+                1416,
+                587,
+                1460
+            ],
+            "text": "538.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                649,
+                1414,
+                744,
+                1458
+            ],
+            "text": "30.45",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                126,
+                1458,
+                371,
+                1497
+            ],
+            "text": "AMT. EXCL. GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                631,
+                1454,
+                743,
+                1498
+            ],
+            "text": "507.55",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                120,
+                1531,
+                338,
+                1581
+            ],
+            "text": "NO. OF ITEMS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                721,
+                1538,
+                745,
+                1579
+            ],
+            "text": "2",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                210,
+                1689,
+                719,
+                1739
+            ],
+            "text": "THANK YOU. PLEASE COME AGAIN.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                216,
+                1986,
+                741,
+                2030
+            ],
+            "text": "*T3620000011000136498*",
+            "label": "OTHER"
+        }
+    ]
+}

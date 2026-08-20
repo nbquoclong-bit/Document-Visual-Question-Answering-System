@@ -1,0 +1,514 @@
+{
+    "form": [
+        {
+            "box": [
+                190,
+                144,
+                707,
+                189
+            ],
+            "text": "PAPPARICH BMC",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                330,
+                194,
+                528,
+                235
+            ],
+            "text": "NO.19 & 21",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                239,
+                243,
+                655,
+                288
+            ],
+            "text": "JALAN TEMENGGUNG 23/9",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                228,
+                293,
+                650,
+                336
+            ],
+            "text": "BANDAR MAHKOTA CHERAS",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                71,
+                340,
+                790,
+                390
+            ],
+            "text": "43200 SELANGOR DARUL EHSAN, MALAYSIA",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                308,
+                444,
+                532,
+                489
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                131,
+                540,
+                730,
+                581
+            ],
+            "text": "GST ID:0 0 0 1 6 4 2 7 0 0 8 0",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                26,
+                590,
+                244,
+                631
+            ],
+            "text": "2 COUNTERI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                612,
+                592,
+                830,
+                639
+            ],
+            "text": "2003 SAIFUL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                30,
+                683,
+                232,
+                728
+            ],
+            "text": "CHK 274898",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                711,
+                689,
+                829,
+                730
+            ],
+            "text": "GUEST1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                239,
+                737,
+                655,
+                782
+            ],
+            "text": "15 JUN 18 08:34:31 PM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                30,
+                780,
+                385,
+                864
+            ],
+            "text": "TBL35 / 1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                920,
+                435,
+                954
+            ],
+            "text": "B02 HALF BL EGG E",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                674,
+                918,
+                790,
+                957
+            ],
+            "text": "4.53 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                961,
+                435,
+                1004
+            ],
+            "text": "B03 HNN TST+B+K E",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                670,
+                967,
+                791,
+                1010
+            ],
+            "text": "5.57 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                93,
+                1017,
+                375,
+                1056
+            ],
+            "text": "D19 CHAM (I) E",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                670,
+                1019,
+                793,
+                1056
+            ],
+            "text": "5.57 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                1062,
+                172,
+                1099
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                644,
+                1066,
+                752,
+                1103
+            ],
+            "text": "20.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                650,
+                1163,
+                747,
+                1200
+            ],
+            "text": "15.67",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                93,
+                1208,
+                248,
+                1251
+            ],
+            "text": "SUBTOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                655,
+                1210,
+                752,
+                1249
+            ],
+            "text": "15.67",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                95,
+                1258,
+                315,
+                1308
+            ],
+            "text": "10% SRV CHG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                670,
+                1262,
+                750,
+                1301
+            ],
+            "text": "1.55",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                1307,
+                209,
+                1346
+            ],
+            "text": "TOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                657,
+                1312,
+                754,
+                1353
+            ],
+            "text": "17.22",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                91,
+                1359,
+                235,
+                1393
+            ],
+            "text": "RND ADJ",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                672,
+                1359,
+                780,
+                1402
+            ],
+            "text": "0.02-",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                1404,
+                314,
+                1449
+            ],
+            "text": "TTL ATF RND",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                655,
+                1409,
+                750,
+                1450
+            ],
+            "text": "17.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                1454,
+                234,
+                1495
+            ],
+            "text": "PAYMENT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                646,
+                1460,
+                749,
+                1499
+            ],
+            "text": "20.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                1501,
+                292,
+                1544
+            ],
+            "text": "CHANGE DUE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                668,
+                1505,
+                750,
+                1542
+            ],
+            "text": "2.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                110,
+                1553,
+                771,
+                1594
+            ],
+            "text": "2003 CLOSED 15 JUN 18 09:08:37 PM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                149,
+                1600,
+                728,
+                1641
+            ],
+            "text": "THANK YOU! PLEASE COME AGAIN!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                351,
+                1650,
+                536,
+                1695
+            ],
+            "text": "GST AT 0%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                1742,
+                293,
+                1789
+            ],
+            "text": "GSTSUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                330,
+                1749,
+                530,
+                1790
+            ],
+            "text": "AMOUNT(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                571,
+                1749,
+                711,
+                1792
+            ],
+            "text": "GST(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                93,
+                1796,
+                289,
+                1833
+            ],
+            "text": "S=GST @0%:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                334,
+                1794,
+                433,
+                1833
+            ],
+            "text": "17.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                571,
+                1798,
+                653,
+                1837
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                90,
+                1841,
+                288,
+                1884
+            ],
+            "text": "Z=GST @0%:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                330,
+                1848,
+                412,
+                1882
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                564,
+                1846,
+                654,
+                1887
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                920,
+                51,
+                959
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                32,
+                967,
+                51,
+                999
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                32,
+                1014,
+                49,
+                1051
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        }
+    ]
+}

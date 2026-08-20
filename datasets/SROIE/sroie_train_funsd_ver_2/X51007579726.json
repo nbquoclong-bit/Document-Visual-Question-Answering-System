@@ -1,0 +1,564 @@
+{
+    "form": [
+        {
+            "box": [
+                263,
+                170,
+                398,
+                224
+            ],
+            "text": "MRT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                265,
+                232,
+                387,
+                244
+            ],
+            "text": "OPERATED BY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                250,
+                246,
+                401,
+                276
+            ],
+            "text": "RAPIDKL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                285,
+                197,
+                304
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                330,
+                288,
+                353
+            ],
+            "text": "RAPID RAIL SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                50,
+                356,
+                300,
+                377
+            ],
+            "text": "NO.1 JALAN PJU 1A/46,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                51,
+                382,
+                518,
+                404
+            ],
+            "text": "OFF JALAN LAPANGAN TERBANG SUBANG",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                50,
+                407,
+                429,
+                429
+            ],
+            "text": "PETALING JAYA SELANGOR 47301",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                50,
+                433,
+                368,
+                458
+            ],
+            "text": "GST REG. NO : 001345261568",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                495,
+                319,
+                529
+            ],
+            "text": "OTP SALE RECEIPT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                545,
+                368,
+                566
+            ],
+            "text": "TSC : 22MG00SUBS----11002",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                577,
+                232,
+                598
+            ],
+            "text": "AGENT ID : 114500",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                607,
+                236,
+                630
+            ],
+            "text": "SHIFT ID : 38599",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                50,
+                638,
+                210,
+                659
+            ],
+            "text": "TRANSACTION : 89",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                667,
+                344,
+                690
+            ],
+            "text": "DATE : 18/06/2018 08:18:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                715,
+                183,
+                741
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                294,
+                715,
+                392,
+                738
+            ],
+            "text": "QUANTITY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                400,
+                719,
+                492,
+                740
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                528,
+                719,
+                570,
+                738
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                796,
+                154,
+                815
+            ],
+            "text": "MEDIA NB",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                195,
+                796,
+                331,
+                815
+            ],
+            "text": "3097352783",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                826,
+                203,
+                848
+            ],
+            "text": "BALANCE BEFORE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                242,
+                825,
+                327,
+                844
+            ],
+            "text": "RM 1.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                857,
+                185,
+                877
+            ],
+            "text": "BALANCE AFTER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                242,
+                853,
+                338,
+                876
+            ],
+            "text": "RM 31.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                49,
+                900,
+                253,
+                921
+            ],
+            "text": "TNG RELOAD RM 30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                932,
+                171,
+                952
+            ],
+            "text": "RELOAD FEE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                345,
+                898,
+                357,
+                917
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                347,
+                931,
+                356,
+                950
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                412,
+                898,
+                516,
+                918
+            ],
+            "text": "RM 29.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                430,
+                929,
+                516,
+                950
+            ],
+            "text": "RM 0.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                534,
+                896,
+                566,
+                917
+            ],
+            "text": "ES",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                537,
+                930,
+                569,
+                949
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                55,
+                981,
+                140,
+                1009
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                351,
+                975,
+                497,
+                1003
+            ],
+            "text": "RM 30.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                54,
+                1025,
+                154,
+                1048
+            ],
+            "text": "ROUNDING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                1056,
+                196,
+                1078
+            ],
+            "text": "INCLUDING GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                415,
+                1022,
+                501,
+                1042
+            ],
+            "text": "RM 0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                417,
+                1053,
+                503,
+                1072
+            ],
+            "text": "RM 0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                55,
+                1096,
+                220,
+                1121
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                1135,
+                229,
+                1156
+            ],
+            "text": "SR=GST 0.00%:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                55,
+                1164,
+                230,
+                1187
+            ],
+            "text": "ES=GST 0.00%:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                362,
+                1094,
+                454,
+                1115
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                365,
+                1132,
+                454,
+                1152
+            ],
+            "text": "RM 0.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                351,
+                1161,
+                456,
+                1182
+            ],
+            "text": "RM 29.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                531,
+                1093,
+                578,
+                1112
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                490,
+                1131,
+                581,
+                1153
+            ],
+            "text": "RM 0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                491,
+                1162,
+                580,
+                1181
+            ],
+            "text": "RM 0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                57,
+                1216,
+                228,
+                1237
+            ],
+            "text": "PAYMENT MODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                56,
+                1254,
+                114,
+                1275
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                490,
+                1211,
+                582,
+                1232
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                478,
+                1249,
+                583,
+                1270
+            ],
+            "text": "RM 30.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                98,
+                1312,
+                541,
+                1335
+            ],
+            "text": "**** PLEASE RETAIN RECEIPT FOR REFERENCE ****",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                58,
+                1362,
+                407,
+                1388
+            ],
+            "text": "DATE PRINTED 18/06/2018 08:18:01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                419,
+                745,
+                474,
+                768
+            ],
+            "text": "(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                519,
+                746,
+                579,
+                765
+            ],
+            "text": "CODE",
+            "label": "OTHER"
+        }
+    ]
+}

@@ -1,0 +1,434 @@
+{
+    "form": [
+        {
+            "box": [
+                115,
+                77,
+                294,
+                102
+            ],
+            "text": "RESTORAN HOETIM",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                130,
+                106,
+                280,
+                134
+            ],
+            "text": "(002612214-H)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                38,
+                137,
+                376,
+                162
+            ],
+            "text": "1-G,JALAN OS 1/3,ONE SELAYANG",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                34,
+                167,
+                388,
+                194
+            ],
+            "text": "OFF JALAN RAWANG 68100 B.CAVES",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                92,
+                197,
+                320,
+                222
+            ],
+            "text": "GST NO:000119910400",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                132,
+                225,
+                282,
+                254
+            ],
+            "text": "(TAX INVOICE)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                23,
+                255,
+                73,
+                281
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                281,
+                255,
+                402,
+                282
+            ],
+            "text": "TIME 20:15",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                22,
+                312,
+                141,
+                337
+            ],
+            "text": "TABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                329,
+                315,
+                400,
+                338
+            ],
+            "text": "#12",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                25,
+                341,
+                109,
+                365
+            ],
+            "text": "SQUID S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                316,
+                343,
+                402,
+                367
+            ],
+            "text": "RM25.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                24,
+                371,
+                131,
+                394
+            ],
+            "text": "NOODLES S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                327,
+                371,
+                402,
+                395
+            ],
+            "text": "RM8.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                24,
+                397,
+                157,
+                423
+            ],
+            "text": "VEGETABLE S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                317,
+                400,
+                401,
+                425
+            ],
+            "text": "RM12.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                23,
+                428,
+                96,
+                452
+            ],
+            "text": "MEAT S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                317,
+                429,
+                403,
+                455
+            ],
+            "text": "RM22.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                23,
+                456,
+                51,
+                481
+            ],
+            "text": "3X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                201,
+                458,
+                272,
+                483
+            ],
+            "text": "@ 1.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                24,
+                487,
+                100,
+                509
+            ],
+            "text": "RICE S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                329,
+                489,
+                401,
+                512
+            ],
+            "text": "RM4.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                25,
+                515,
+                49,
+                537
+            ],
+            "text": "4X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                202,
+                516,
+                272,
+                538
+            ],
+            "text": "@ 1.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                23,
+                542,
+                121,
+                565
+            ],
+            "text": "OTHERS S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                329,
+                542,
+                402,
+                565
+            ],
+            "text": "RM6.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                144,
+                569,
+                273,
+                592
+            ],
+            "text": "11.00XITEMS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                24,
+                597,
+                117,
+                619
+            ],
+            "text": "SUBTOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                318,
+                598,
+                401,
+                620
+            ],
+            "text": "RM78.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                24,
+                623,
+                59,
+                648
+            ],
+            "text": "TTL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                317,
+                626,
+                400,
+                649
+            ],
+            "text": "RM78.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                24,
+                653,
+                96,
+                676
+            ],
+            "text": "GST 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                328,
+                653,
+                403,
+                678
+            ],
+            "text": "RM4.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                20,
+                680,
+                155,
+                705
+            ],
+            "text": "CHECKS PAID",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                318,
+                682,
+                402,
+                705
+            ],
+            "text": "RM83.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                23,
+                708,
+                82,
+                732
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                317,
+                710,
+                401,
+                735
+            ],
+            "text": "RM83.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                24,
+                737,
+                117,
+                762
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                303,
+                737,
+                403,
+                763
+            ],
+            "text": "RM100.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                21,
+                764,
+                97,
+                790
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                317,
+                766,
+                401,
+                790
+            ],
+            "text": "RM17.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                294,
+                794,
+                401,
+                818
+            ],
+            "text": "CHK # : 2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                94,
+                255,
+                262,
+                281
+            ],
+            "text": "28/05/2018 MON",
+            "label": "OTHER"
+        }
+    ]
+}

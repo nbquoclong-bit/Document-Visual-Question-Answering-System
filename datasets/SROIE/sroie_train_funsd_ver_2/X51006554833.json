@@ -1,0 +1,614 @@
+{
+    "form": [
+        {
+            "box": [
+                39,
+                175,
+                321,
+                201
+            ],
+            "text": "SIMPLIFIED TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                41,
+                199,
+                317,
+                223
+            ],
+            "text": "AA PHARMACY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                223,
+                312,
+                248
+            ],
+            "text": "SUBANG HEALTHCARE SDN",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                41,
+                248,
+                162,
+                274
+            ],
+            "text": "1118258-K",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                39,
+                274,
+                297,
+                299
+            ],
+            "text": "GST NO: 001536708608",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                300,
+                284,
+                326
+            ],
+            "text": "B-8, JALAN SS15/4D,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                42,
+                325,
+                384,
+                350
+            ],
+            "text": "47500 SUBANG JAYA, SELANGOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                43,
+                348,
+                249,
+                373
+            ],
+            "text": "TEL: 03-56127718",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                41,
+                398,
+                98,
+                423
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                450,
+                310,
+                473
+            ],
+            "text": "RECEIPT #: CS00251915",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                318,
+                448,
+                520,
+                474
+            ],
+            "text": "DATE: 29/10/2017",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                473,
+                246,
+                499
+            ],
+            "text": "SALESPERSON : C3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                317,
+                473,
+                497,
+                499
+            ],
+            "text": "TIME: 20:18:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                41,
+                499,
+                197,
+                524
+            ],
+            "text": "CASHIER : C3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                44,
+                547,
+                98,
+                574
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                266,
+                548,
+                308,
+                575
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                365,
+                548,
+                408,
+                574
+            ],
+            "text": "U/P",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                442,
+                547,
+                522,
+                572
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                341,
+                574,
+                409,
+                606
+            ],
+            "text": "(GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                457,
+                574,
+                518,
+                606
+            ],
+            "text": "(GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                44,
+                622,
+                124,
+                650
+            ],
+            "text": "030249",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                267,
+                628,
+                283,
+                650
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                344,
+                627,
+                409,
+                649
+            ],
+            "text": "14.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                454,
+                625,
+                548,
+                649
+            ],
+            "text": "14.90 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                651,
+                546,
+                676
+            ],
+            "text": "(BOX 100S) SUPER SAFE POWDER FREE NITRIL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                676,
+                105,
+                700
+            ],
+            "text": "03022",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                267,
+                679,
+                281,
+                700
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                344,
+                676,
+                407,
+                702
+            ],
+            "text": "14.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                456,
+                676,
+                545,
+                702
+            ],
+            "text": "14.00 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                702,
+                547,
+                730
+            ],
+            "text": "(S SIZE) SUPER SAFE LATEX GLOVE POWDER F",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                44,
+                752,
+                227,
+                777
+            ],
+            "text": "TOTAL QUANTITY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                354,
+                752,
+                372,
+                776
+            ],
+            "text": "2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                304,
+                825,
+                420,
+                853
+            ],
+            "text": "SUB-TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                480,
+                827,
+                548,
+                851
+            ],
+            "text": "27.27",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                303,
+                852,
+                357,
+                877
+            ],
+            "text": "DISC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                491,
+                853,
+                548,
+                877
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                305,
+                879,
+                346,
+                902
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                491,
+                879,
+                544,
+                901
+            ],
+            "text": "1.64",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                305,
+                903,
+                408,
+                929
+            ],
+            "text": "ROUNDING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                482,
+                905,
+                543,
+                929
+            ],
+            "text": "-0.01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                69,
+                923,
+                194,
+                954
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                415,
+                927,
+                544,
+                953
+            ],
+            "text": "28.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                67,
+                953,
+                169,
+                977
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                415,
+                953,
+                542,
+                978
+            ],
+            "text": "28.90",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                68,
+                978,
+                221,
+                1004
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                441,
+                977,
+                545,
+                1003
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                106,
+                1078,
+                481,
+                1107
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE,",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                230,
+                1105,
+                360,
+                1129
+            ],
+            "text": "THANK YOU.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                105,
+                1131,
+                483,
+                1161
+            ],
+            "text": "S=STANDARD RATED, Z=ZERO RATED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                40,
+                1231,
+                186,
+                1259
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                1282,
+                97,
+                1308
+            ],
+            "text": "CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                243,
+                1282,
+                316,
+                1307
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                374,
+                1285,
+                396,
+                1311
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                443,
+                1283,
+                531,
+                1309
+            ],
+            "text": "TAX/AMT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                41,
+                1334,
+                73,
+                1360
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                257,
+                1334,
+                324,
+                1359
+            ],
+            "text": "27.27",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                378,
+                1335,
+                396,
+                1361
+            ],
+            "text": "6",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                479,
+                1334,
+                533,
+                1359
+            ],
+            "text": "1.64",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                280,
+                1411,
+                407,
+                1436
+            ],
+            "text": "TAX TOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                479,
+                1410,
+                538,
+                1436
+            ],
+            "text": "1.64",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                329,
+                224,
+                371,
+                249
+            ],
+            "text": "BHD",
+            "label": "COMPANY"
+        }
+    ]
+}

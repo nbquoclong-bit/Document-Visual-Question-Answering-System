@@ -1,0 +1,614 @@
+{
+    "form": [
+        {
+            "box": [
+                305,
+                306,
+                411,
+                325
+            ],
+            "text": "PREMIO",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                109,
+                331,
+                608,
+                360
+            ],
+            "text": "PREMIO STATIONERY SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                249,
+                369,
+                469,
+                391
+            ],
+            "text": "(CO.NO.: 123769-W)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                199,
+                408,
+                518,
+                434
+            ],
+            "text": "GST REG NO : 001032994816",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                212,
+                438,
+                503,
+                465
+            ],
+            "text": "F-G-01 JALAN SS 6/5B",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                177,
+                480,
+                537,
+                506
+            ],
+            "text": "DATARAN GLOMAC. KELANA JAYA",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                175,
+                517,
+                541,
+                544
+            ],
+            "text": "47301 PETALING JAYA. SELANGOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                272,
+                551,
+                447,
+                578
+            ],
+            "text": "03-7880 5750",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                227,
+                610,
+                508,
+                637
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                50,
+                646,
+                182,
+                675
+            ],
+            "text": "INVOICE NO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                204,
+                647,
+                370,
+                675
+            ],
+            "text": ": KJ1-248350",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                50,
+                683,
+                114,
+                711
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                205,
+                682,
+                517,
+                714
+            ],
+            "text": ": 08/02/2017 2:09:49 PM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                50,
+                720,
+                142,
+                749
+            ],
+            "text": "CASHIER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                204,
+                722,
+                320,
+                749
+            ],
+            "text": ": SU MAY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                106,
+                802,
+                245,
+                828
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                376,
+                802,
+                418,
+                831
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                470,
+                802,
+                532,
+                828
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                568,
+                800,
+                667,
+                826
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                67,
+                841,
+                124,
+                866
+            ],
+            "text": "1 SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                841,
+                323,
+                862
+            ],
+            "text": "SQUARE THUMB",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                390,
+                841,
+                424,
+                862
+            ],
+            "text": "30",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                486,
+                839,
+                535,
+                863
+            ],
+            "text": "0.85",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                601,
+                839,
+                664,
+                861
+            ],
+            "text": "25.44",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                866,
+                220,
+                890
+            ],
+            "text": "TACKS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                351,
+                908,
+                421,
+                936
+            ],
+            "text": "TOTAL :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                604,
+                908,
+                664,
+                930
+            ],
+            "text": "25.44",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                322,
+                943,
+                420,
+                972
+            ],
+            "text": "DISCOUNT:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                617,
+                946,
+                668,
+                968
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                979,
+                420,
+                1006
+            ],
+            "text": "TOTAL SALES INCLUSIVE GST @6.00%:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                605,
+                983,
+                666,
+                1007
+            ],
+            "text": "25.44",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                1018,
+                419,
+                1043
+            ],
+            "text": "ROUNDING ADJUSTMENT:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                620,
+                1018,
+                666,
+                1042
+            ],
+            "text": "0.01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                184,
+                1058,
+                417,
+                1081
+            ],
+            "text": "AMOUNT TO BE PAID :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                596,
+                1057,
+                667,
+                1082
+            ],
+            "text": "25.45",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                248,
+                1090,
+                417,
+                1115
+            ],
+            "text": "CASH RECEIVED :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                604,
+                1088,
+                668,
+                1116
+            ],
+            "text": "25.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                326,
+                1127,
+                421,
+                1157
+            ],
+            "text": "CHANGE :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                620,
+                1126,
+                670,
+                1154
+            ],
+            "text": "0.05",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                94,
+                1188,
+                642,
+                1210
+            ],
+            "text": "STARTING 1ST APRIL, WE WILL NO LONGER BE ISSUING HANDWRITTEN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                73,
+                1211,
+                663,
+                1233
+            ],
+            "text": "INVOICES YOUR SERVICE JOBS SUCH AS PHOTOCOPY AND PRINTING ARE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                88,
+                1233,
+                642,
+                1254
+            ],
+            "text": "REPLACED BY THE ORDER FORM ALONG WITH A COPY OF THIS RECEIPT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                1278,
+                689,
+                1297
+            ],
+            "text": "ALL GOODS AND SERVICES ARE SUBJECTED TO THE 6% GST DURING CHECHOUT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                64,
+                1339,
+                673,
+                1364
+            ],
+            "text": "ALL GOODS SOLD ARE NOT RETURNABLE/REFUNDABLE EXCHANGES ARE ONLY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                1364,
+                585,
+                1387
+            ],
+            "text": "ACCEPTABLE WITHIN 3 DAYS WITH A PROOF OF RECEIPT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                111,
+                1386,
+                623,
+                1409
+            ],
+            "text": "ALL CARTRIDGE & TONER SALES ARE FINAL AND NON-REFUNDABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                167,
+                1408,
+                563,
+                1432
+            ],
+            "text": "NO CASH REFUNDS FOR CREDIT CARD PURCHASES",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                1433,
+                682,
+                1455
+            ],
+            "text": "NO REFUNDS OR EXCHANGES WILL BE ENTERTAINED WITHOUT PROOF OF RECEIPT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                220,
+                1455,
+                515,
+                1476
+            ],
+            "text": "TERMS AND CONDITIONS APPLIED.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                68,
+                1600,
+                225,
+                1627
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                280,
+                1600,
+                305,
+                1625
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                379,
+                1601,
+                516,
+                1627
+            ],
+            "text": "AMOUNT(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                553,
+                1599,
+                648,
+                1627
+            ],
+            "text": "TAX(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                70,
+                1638,
+                104,
+                1661
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                257,
+                1639,
+                307,
+                1660
+            ],
+            "text": "6.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                455,
+                1638,
+                514,
+                1660
+            ],
+            "text": "24.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                603,
+                1640,
+                647,
+                1659
+            ],
+            "text": "1.44",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                169,
+                1722,
+                568,
+                1748
+            ],
+            "text": "THANK YOU FOR SHOPPING AT PREMIO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                273,
+                1749,
+                463,
+                1775
+            ],
+            "text": "HAVE A NICE DAY!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                219,
+                1794,
+                518,
+                1817
+            ],
+            "text": "FOR THE LATEST NEWS AND UPDATES",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                172,
+                1817,
+                565,
+                1839
+            ],
+            "text": "THE US ON FACEBOOK.COM/PREMIOSTATIONERY",
+            "label": "OTHER"
+        }
+    ]
+}

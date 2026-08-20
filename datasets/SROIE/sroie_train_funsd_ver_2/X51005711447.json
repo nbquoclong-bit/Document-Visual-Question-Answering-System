@@ -1,0 +1,444 @@
+{
+    "form": [
+        {
+            "box": [
+                222,
+                260,
+                562,
+                308
+            ],
+            "text": "RESTORAN WAN SHENG",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                285,
+                310,
+                484,
+                344
+            ],
+            "text": "002043319-W",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                132,
+                348,
+                639,
+                392
+            ],
+            "text": "NO.2, JALAN TEMENGGUNG 19/9,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                99,
+                394,
+                688,
+                436
+            ],
+            "text": "SEKSYEN 9, BANDAR MAHKOTA CHERAS,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                189,
+                436,
+                587,
+                478
+            ],
+            "text": "43200 CHERAS, SELANGOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                178,
+                478,
+                612,
+                518
+            ],
+            "text": "GST REG NO: 001335787520",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                182,
+                554,
+                562,
+                608
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                31,
+                646,
+                318,
+                690
+            ],
+            "text": "INV NO.: 1044151",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                354,
+                646,
+                639,
+                694
+            ],
+            "text": "CASHIER: THANDAR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                691,
+                114,
+                734
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                162,
+                694,
+                546,
+                731
+            ],
+            "text": ": 14-03-2018 10:22:59",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                36,
+                774,
+                239,
+                818
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                289,
+                774,
+                362,
+                824
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                417,
+                769,
+                553,
+                821
+            ],
+            "text": "U.PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                581,
+                769,
+                679,
+                821
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                690,
+                776,
+                755,
+                814
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                858,
+                221,
+                904
+            ],
+            "text": "KOPI O (B)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                289,
+                902,
+                356,
+                950
+            ],
+            "text": "1 X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                447,
+                902,
+                522,
+                946
+            ],
+            "text": "2.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                600,
+                902,
+                675,
+                946
+            ],
+            "text": "2.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                711,
+                902,
+                745,
+                948
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                31,
+                939,
+                203,
+                993
+            ],
+            "text": "TAKE AWAY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                287,
+                988,
+                342,
+                1028
+            ],
+            "text": "1 X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                436,
+                985,
+                518,
+                1027
+            ],
+            "text": "0.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                600,
+                979,
+                678,
+                1029
+            ],
+            "text": "0.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                709,
+                988,
+                753,
+                1024
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                36,
+                1071,
+                256,
+                1117
+            ],
+            "text": "TOTAL QTY:2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                1111,
+                429,
+                1159
+            ],
+            "text": "TOTAL (EXCLUDING GST):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                669,
+                1117,
+                751,
+                1151
+            ],
+            "text": "2.17",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                27,
+                1157,
+                337,
+                1195
+            ],
+            "text": "GST PAYABLE (6%):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                667,
+                1159,
+                755,
+                1199
+            ],
+            "text": "0.13",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                1199,
+                477,
+                1237
+            ],
+            "text": "TOTAL (INCLUSIVE OF GST):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                665,
+                1203,
+                749,
+                1241
+            ],
+            "text": "2.30",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                38,
+                1239,
+                252,
+                1281
+            ],
+            "text": "TOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                598,
+                1239,
+                747,
+                1289
+            ],
+            "text": "2.30",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                38,
+                1325,
+                147,
+                1365
+            ],
+            "text": "CASH:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                27,
+                1447,
+                235,
+                1491
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                392,
+                1449,
+                568,
+                1489
+            ],
+            "text": "AMOUNT (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                619,
+                1445,
+                743,
+                1495
+            ],
+            "text": "TAX (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                1491,
+                80,
+                1529
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                216,
+                1497,
+                321,
+                1537
+            ],
+            "text": "(@ 6%)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                497,
+                1497,
+                568,
+                1541
+            ],
+            "text": "2.17",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                673,
+                1497,
+                744,
+                1537
+            ],
+            "text": "0.13",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                667,
+                1323,
+                753,
+                1371
+            ],
+            "text": "2.30",
+            "label": "TOTAL"
+        }
+    ]
+}

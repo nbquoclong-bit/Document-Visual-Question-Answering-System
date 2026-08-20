@@ -1,0 +1,564 @@
+{
+    "form": [
+        {
+            "box": [
+                88,
+                197,
+                795,
+                257
+            ],
+            "text": "YOUR ORDER NUMBER IS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                341,
+                311,
+                544,
+                388
+            ],
+            "text": "7290",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                189,
+                530,
+                692,
+                668
+            ],
+            "text": "TEALIVE",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                215,
+                700,
+                673,
+                735
+            ],
+            "text": "CT281 - TEALIVE SHELL KEPONG",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                314,
+                767,
+                586,
+                806
+            ],
+            "text": "OTTOGO ENTERPRISE",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                339,
+                845,
+                567,
+                876
+            ],
+            "text": "002570632-X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                256,
+                895,
+                644,
+                929
+            ],
+            "text": "GST ID:001018802176",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                178,
+                938,
+                713,
+                971
+            ],
+            "text": "SHELL STATION PT15944, MUKIM",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                405,
+                980,
+                487,
+                1011
+            ],
+            "text": "BATU,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                308,
+                1018,
+                581,
+                1053
+            ],
+            "text": "JLN BESAR KEPONG",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                290,
+                1089,
+                604,
+                1133
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                64,
+                1165,
+                219,
+                1200
+            ],
+            "text": "COUNTER:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                65,
+                1233,
+                192,
+                1269
+            ],
+            "text": "BILL NO:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                66,
+                1303,
+                159,
+                1339
+            ],
+            "text": "DATE:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                65,
+                1372,
+                345,
+                1406
+            ],
+            "text": "SALES REMARKS:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                239,
+                1234,
+                433,
+                1270
+            ],
+            "text": "394024495",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                218,
+                1305,
+                416,
+                1338
+            ],
+            "text": "21/01/2018",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                562,
+                1164,
+                757,
+                1206
+            ],
+            "text": "TAKE AWAY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                506,
+                1235,
+                755,
+                1270
+            ],
+            "text": "COMPLETED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                614,
+                1304,
+                764,
+                1337
+            ],
+            "text": "15:46:09",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                63,
+                1497,
+                258,
+                1532
+            ],
+            "text": "ITEM NAME",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                1566,
+                389,
+                1600
+            ],
+            "text": "HAZELNUT COCO -L",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                111,
+                1619,
+                214,
+                1653
+            ],
+            "text": ":PEARL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                514,
+                1495,
+                576,
+                1537
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                529,
+                1565,
+                551,
+                1598
+            ],
+            "text": "1",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                532,
+                1619,
+                553,
+                1650
+            ],
+            "text": "1",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                597,
+                1498,
+                763,
+                1535
+            ],
+            "text": "PRICE(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                695,
+                1565,
+                772,
+                1598
+            ],
+            "text": "7.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                691,
+                1618,
+                767,
+                1651
+            ],
+            "text": "1.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                804,
+                1566,
+                861,
+                1599
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                342,
+                1699,
+                520,
+                1733
+            ],
+            "text": "SUB TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                343,
+                1747,
+                516,
+                1789
+            ],
+            "text": "ROUNDING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                631,
+                1700,
+                769,
+                1732
+            ],
+            "text": "RM8.60",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                632,
+                1749,
+                767,
+                1782
+            ],
+            "text": "RM0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                63,
+                1828,
+                468,
+                1869
+            ],
+            "text": "TOTAL SALES INCL GST @ 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                569,
+                1837,
+                767,
+                1885
+            ],
+            "text": "RM8.60",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                392,
+                1964,
+                469,
+                1995
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                327,
+                2002,
+                472,
+                2036
+            ],
+            "text": "TENDERED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                356,
+                2041,
+                467,
+                2077
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                704,
+                1965,
+                769,
+                1994
+            ],
+            "text": "8.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                702,
+                2004,
+                770,
+                2034
+            ],
+            "text": "9.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                701,
+                2040,
+                767,
+                2071
+            ],
+            "text": "0.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                63,
+                2176,
+                161,
+                2213
+            ],
+            "text": "CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                71,
+                2255,
+                222,
+                2292
+            ],
+            "text": "SR @ 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                443,
+                2180,
+                587,
+                2214
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                517,
+                2258,
+                587,
+                2286
+            ],
+            "text": "8.12",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                730,
+                2179,
+                798,
+                2214
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                730,
+                2262,
+                799,
+                2292
+            ],
+            "text": "0.48",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                115,
+                2417,
+                718,
+                2461
+            ],
+            "text": "YOU HAVE JUST MISSED OUT 8 POINTS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                115,
+                2472,
+                723,
+                2514
+            ],
+            "text": "SIGN UP FOR A TEALIVE UNITEA CARD",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                124,
+                2516,
+                712,
+                2560
+            ],
+            "text": "TODAY TO ENJOY EXCLUSIVE MEMBER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                117,
+                2565,
+                720,
+                2606
+            ],
+            "text": "PROMOTIONS AND COLLECT BPOINTS TO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                164,
+                2614,
+                672,
+                2653
+            ],
+            "text": "REDEEM ON FUTURE PURCHASES",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                139,
+                2753,
+                696,
+                2798
+            ],
+            "text": "THANK YOU PLEASE COME AGAIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                161,
+                2808,
+                679,
+                2842
+            ],
+            "text": "PRINTED AT:21/01/2018 15:46:09",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                237,
+                1165,
+                325,
+                1199
+            ],
+            "text": "7290",
+            "label": "OTHER"
+        }
+    ]
+}

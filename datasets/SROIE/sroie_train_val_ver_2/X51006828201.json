@@ -1,0 +1,574 @@
+{
+    "form": [
+        {
+            "box": [
+                256,
+                212,
+                508,
+                248
+            ],
+            "text": "THE COFFEE BEAN",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                190,
+                266,
+                586,
+                301
+            ],
+            "text": "& TEA LEAF (M) SDN. BHD.",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                206,
+                317,
+                542,
+                351
+            ],
+            "text": "COMPANY NO.:441970-H",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                190,
+                367,
+                567,
+                401
+            ],
+            "text": "UNIT G047, GROUND FLOOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                227,
+                417,
+                534,
+                452
+            ],
+            "text": "MID VALLEY MEGAMALL",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                96,
+                467,
+                668,
+                501
+            ],
+            "text": "MID VALLEY CITY, LINGKARAN SYED PUT",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                242,
+                517,
+                537,
+                551
+            ],
+            "text": "59200 KUALA LUMPUR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                225,
+                565,
+                557,
+                597
+            ],
+            "text": "GST NO.:000384106496",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                292,
+                615,
+                474,
+                650
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                84,
+                666,
+                341,
+                698
+            ],
+            "text": "15/12/2017 18:01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                437,
+                660,
+                746,
+                697
+            ],
+            "text": "A546756",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                718,
+                136,
+                752
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                192,
+                715,
+                391,
+                752
+            ],
+            "text": "DESCRIPTIONS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                566,
+                717,
+                665,
+                748
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                820,
+                98,
+                854
+            ],
+            "text": "1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                195,
+                818,
+                489,
+                857
+            ],
+            "text": "ICED CAFE LATTE -R",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                583,
+                817,
+                697,
+                854
+            ],
+            "text": "12.08 T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                873,
+                101,
+                902
+            ],
+            "text": "1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                196,
+                870,
+                495,
+                906
+            ],
+            "text": "ICED DOUBLE CHOC-S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                586,
+                871,
+                700,
+                902
+            ],
+            "text": "11.14 T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                920,
+                441,
+                951
+            ],
+            "text": "BLACKFOREST CHZ",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                582,
+                920,
+                699,
+                956
+            ],
+            "text": "10.84 T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                190,
+                1012,
+                372,
+                1053
+            ],
+            "text": "STTL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                582,
+                1006,
+                806,
+                1052
+            ],
+            "text": "34.06",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                200,
+                1071,
+                384,
+                1101
+            ],
+            "text": "10% SVC CHG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                605,
+                1066,
+                671,
+                1101
+            ],
+            "text": "3.41",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                1116,
+                295,
+                1151
+            ],
+            "text": "6% GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                596,
+                1117,
+                666,
+                1151
+            ],
+            "text": "2.25",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                1216,
+                245,
+                1253
+            ],
+            "text": "TTL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                585,
+                1218,
+                667,
+                1252
+            ],
+            "text": "39.72",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                1267,
+                408,
+                1303
+            ],
+            "text": "ROUNDING ADJ.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                586,
+                1269,
+                668,
+                1301
+            ],
+            "text": "-0.02",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                80,
+                1319,
+                100,
+                1351
+            ],
+            "text": "3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                199,
+                1312,
+                413,
+                1352
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                585,
+                1308,
+                804,
+                1352
+            ],
+            "text": "39.70",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                200,
+                1372,
+                269,
+                1407
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                590,
+                1371,
+                672,
+                1403
+            ],
+            "text": "39.70",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                191,
+                1416,
+                461,
+                1457
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                632,
+                1417,
+                808,
+                1458
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                1572,
+                265,
+                1609
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                401,
+                1576,
+                510,
+                1608
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                618,
+                1573,
+                665,
+                1608
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                79,
+                1622,
+                104,
+                1657
+            ],
+            "text": "T",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                417,
+                1624,
+                509,
+                1658
+            ],
+            "text": "37.47",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                598,
+                1628,
+                664,
+                1662
+            ],
+            "text": "2.25",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                1670,
+                277,
+                1710
+            ],
+            "text": "Z:ZERO RATED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                437,
+                1678,
+                505,
+                1711
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                601,
+                1679,
+                666,
+                1711
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                210,
+                1828,
+                475,
+                1865
+            ],
+            "text": "SIMPLY THE BEST!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                161,
+                1877,
+                570,
+                1919
+            ],
+            "text": "I BEAN POINTS EARNED FROM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                160,
+                1925,
+                522,
+                1966
+            ],
+            "text": "JAN-DEC WILL EXPIRE BY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                112,
+                1977,
+                584,
+                2017
+            ],
+            "text": "31ST MARCH THE FOLLOWING YEAR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                129,
+                2389,
+                734,
+                2433
+            ],
+            "text": "SCAN AND PROVIDE US YOUR FEEDBACK!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                73,
+                2536,
+                165,
+                2567
+            ],
+            "text": "TBL10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                72,
+                2580,
+                516,
+                2619
+            ],
+            "text": "CSH:F0106 OL-BICKY RANA 600",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                72,
+                2634,
+                433,
+                2670
+            ],
+            "text": "POS:T002 SHF:201712151",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                164,
+                1624,
+                213,
+                1656
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        }
+    ]
+}

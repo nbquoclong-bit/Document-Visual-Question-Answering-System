@@ -1,0 +1,584 @@
+{
+    "form": [
+        {
+            "box": [
+                78,
+                242,
+                500,
+                265
+            ],
+            "text": "AIK HUAT HARDWARE",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                78,
+                264,
+                503,
+                289
+            ],
+            "text": "ENTERPRISE (SETIA",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                129,
+                291,
+                454,
+                314
+            ],
+            "text": "ALAM) SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                239,
+                316,
+                345,
+                337
+            ],
+            "text": "822737-X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                118,
+                338,
+                465,
+                366
+            ],
+            "text": "NO. 17-G, JALAN SETIA INDAH",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                151,
+                365,
+                426,
+                389
+            ],
+            "text": "(X) U13/X, SETIA ALAM,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                108,
+                388,
+                471,
+                416
+            ],
+            "text": "SEKSYEN U13, 40170 SHAH ALAM,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                56,
+                415,
+                524,
+                439
+            ],
+            "text": "TEL: 012 - 6651783 FAX: 03 - 33623608",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                163,
+                441,
+                418,
+                465
+            ],
+            "text": "GST NO: 000394528768",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                146,
+                491,
+                430,
+                535
+            ],
+            "text": "SIMPLIFIED TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                585,
+                93,
+                612
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                38,
+                637,
+                517,
+                662
+            ],
+            "text": "RECEIPT #: CSP0407141 DATE: 22/09/2017",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                663,
+                276,
+                687
+            ],
+            "text": "SALESPERSON : AH019",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                311,
+                663,
+                485,
+                686
+            ],
+            "text": "TIME: 15:53:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                36,
+                712,
+                92,
+                734
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                259,
+                712,
+                302,
+                734
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                357,
+                715,
+                403,
+                736
+            ],
+            "text": "U/P",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                437,
+                715,
+                515,
+                738
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                349,
+                738,
+                396,
+                764
+            ],
+            "text": "(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                465,
+                740,
+                510,
+                763
+            ],
+            "text": "(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                761,
+                204,
+                786
+            ],
+            "text": "9555019100268",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                259,
+                765,
+                277,
+                788
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                334,
+                764,
+                399,
+                785
+            ],
+            "text": "28.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                448,
+                766,
+                514,
+                787
+            ],
+            "text": "28.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                521,
+                766,
+                539,
+                788
+            ],
+            "text": "S",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                35,
+                788,
+                387,
+                813
+            ],
+            "text": "MILUX M268 GAS REGULATOR H/D",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                32,
+                836,
+                218,
+                864
+            ],
+            "text": "TOTAL QUANTITY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                349,
+                839,
+                363,
+                861
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                228,
+                910,
+                416,
+                936
+            ],
+            "text": "SUB-TOTAL (GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                477,
+                911,
+                544,
+                935
+            ],
+            "text": "28.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                302,
+                936,
+                353,
+                959
+            ],
+            "text": "DISC",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                488,
+                939,
+                544,
+                959
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                300,
+                960,
+                407,
+                985
+            ],
+            "text": "ROUNDING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                488,
+                962,
+                539,
+                983
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                66,
+                985,
+                188,
+                1008
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                417,
+                988,
+                541,
+                1010
+            ],
+            "text": "28.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                68,
+                1012,
+                172,
+                1035
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                420,
+                1011,
+                540,
+                1036
+            ],
+            "text": "40.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                67,
+                1035,
+                217,
+                1060
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                418,
+                1035,
+                542,
+                1064
+            ],
+            "text": "12.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                121,
+                1085,
+                462,
+                1114
+            ],
+            "text": "*GST @ 6% INCLUDED IN TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                217,
+                1133,
+                358,
+                1162
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                45,
+                1184,
+                101,
+                1208
+            ],
+            "text": "CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                243,
+                1184,
+                323,
+                1209
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                376,
+                1183,
+                403,
+                1210
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                444,
+                1183,
+                536,
+                1210
+            ],
+            "text": "TAX/AMT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                1231,
+                76,
+                1256
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                259,
+                1232,
+                321,
+                1257
+            ],
+            "text": "26.42",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                380,
+                1236,
+                394,
+                1256
+            ],
+            "text": "6",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                483,
+                1233,
+                533,
+                1256
+            ],
+            "text": "1.58",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                281,
+                1306,
+                411,
+                1335
+            ],
+            "text": "TAX TOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                482,
+                1308,
+                534,
+                1335
+            ],
+            "text": "1.58",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                103,
+                1414,
+                474,
+                1438
+            ],
+            "text": "GOODS SOLD ARE NOT REFUNDABLE,",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                127,
+                1440,
+                450,
+                1463
+            ],
+            "text": "THANK YOU FOR CHOOSING US.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                68,
+                1465,
+                509,
+                1483
+            ],
+            "text": "PLS PROVIDE ORIGINAL BILL FOR GOODS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                44,
+                1486,
+                537,
+                1506
+            ],
+            "text": "EXCHANGE WITHIN 1 WEEK FROM TRANSACTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                59,
+                1511,
+                530,
+                1531
+            ],
+            "text": "GOODS MUST BE IN ORIGINAL STATE TO BE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                153,
+                1534,
+                423,
+                1557
+            ],
+            "text": "ENTITLED FOR EXCHANGE.",
+            "label": "OTHER"
+        }
+    ]
+}

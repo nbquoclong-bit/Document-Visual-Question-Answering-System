@@ -1,0 +1,604 @@
+{
+    "form": [
+        {
+            "box": [
+                153,
+                205,
+                438,
+                228
+            ],
+            "text": "RESTORAN IBRAHIM MAJU SB",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                61,
+                233,
+                533,
+                256
+            ],
+            "text": "NO.2, GROUND FLOOR, JALAN REKO SENTRAL 8",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                105,
+                256,
+                492,
+                287
+            ],
+            "text": "TAMAN REKO SENTRAL, 43000 KAJANG",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                232,
+                290,
+                365,
+                313
+            ],
+            "text": "SELANGOR DE",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                196,
+                320,
+                396,
+                344
+            ],
+            "text": "TEL : 03-87342689",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                154,
+                344,
+                440,
+                375
+            ],
+            "text": "GST ID NO : 000696532992",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                235,
+                407,
+                364,
+                432
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                16,
+                465,
+                124,
+                493
+            ],
+            "text": "INVOICE #",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                13,
+                492,
+                70,
+                520
+            ],
+            "text": "TIME",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                142,
+                493,
+                442,
+                521
+            ],
+            "text": ":19/03/2018 03:43:44 PM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                16,
+                525,
+                99,
+                550
+            ],
+            "text": "CASHIER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                149,
+                525,
+                311,
+                550
+            ],
+            "text": ": JAHABA R ALI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                16,
+                555,
+                231,
+                577
+            ],
+            "text": "SELF SERVICE: 1000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                15,
+                608,
+                195,
+                633
+            ],
+            "text": "QTY DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                347,
+                609,
+                406,
+                634
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                440,
+                608,
+                511,
+                631
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                671,
+                33,
+                692
+            ],
+            "text": "1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                21,
+                699,
+                31,
+                726
+            ],
+            "text": "1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                20,
+                726,
+                30,
+                752
+            ],
+            "text": "1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                62,
+                668,
+                149,
+                692
+            ],
+            "text": "MAKANAN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                65,
+                697,
+                150,
+                722
+            ],
+            "text": "MAKANAN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                65,
+                727,
+                153,
+                751
+            ],
+            "text": "MAKANAN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                347,
+                670,
+                397,
+                692
+            ],
+            "text": "2.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                350,
+                699,
+                394,
+                720
+            ],
+            "text": "1.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                350,
+                728,
+                397,
+                750
+            ],
+            "text": "1.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                441,
+                668,
+                515,
+                691
+            ],
+            "text": "2.30 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                443,
+                698,
+                513,
+                722
+            ],
+            "text": "1.40 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                443,
+                727,
+                514,
+                748
+            ],
+            "text": "1.60 S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                20,
+                785,
+                244,
+                812
+            ],
+            "text": "SUB TOTAL INCL. GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                359,
+                785,
+                384,
+                809
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                440,
+                783,
+                489,
+                811
+            ],
+            "text": "5.30",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                16,
+                813,
+                190,
+                842
+            ],
+            "text": "ROUND ADJUSTMT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                354,
+                813,
+                389,
+                838
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                439,
+                811,
+                498,
+                840
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                10,
+                867,
+                85,
+                898
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                354,
+                868,
+                392,
+                900
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                433,
+                871,
+                495,
+                899
+            ],
+            "text": "5.30",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                15,
+                928,
+                183,
+                957
+            ],
+            "text": "PAYMENT CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                359,
+                925,
+                390,
+                954
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                428,
+                928,
+                495,
+                954
+            ],
+            "text": "10.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                15,
+                955,
+                94,
+                983
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                359,
+                956,
+                393,
+                984
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                439,
+                958,
+                493,
+                984
+            ],
+            "text": "4.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                12,
+                1013,
+                183,
+                1047
+            ],
+            "text": "GST 6% PAID",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                290,
+                1010,
+                321,
+                1039
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                369,
+                1010,
+                426,
+                1041
+            ],
+            "text": "0.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                15,
+                1068,
+                170,
+                1102
+            ],
+            "text": "GST ANALYSIS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                259,
+                1068,
+                370,
+                1103
+            ],
+            "text": "AMT (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                416,
+                1066,
+                517,
+                1100
+            ],
+            "text": "TAX (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                1128,
+                103,
+                1156
+            ],
+            "text": "S = 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                1161,
+                93,
+                1183
+            ],
+            "text": "Z=0%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                302,
+                1132,
+                353,
+                1157
+            ],
+            "text": "5.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                305,
+                1161,
+                350,
+                1182
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                455,
+                1130,
+                508,
+                1155
+            ],
+            "text": "0.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                455,
+                1159,
+                503,
+                1183
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                178,
+                1215,
+                433,
+                1240
+            ],
+            "text": "19/03/2018 03:44:03 PM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                231,
+                1243,
+                377,
+                1269
+            ],
+            "text": "<THANK YOU>",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                186,
+                1270,
+                417,
+                1302
+            ],
+            "text": "<PLEASE COME AGAIN>",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                147,
+                468,
+                266,
+                488
+            ],
+            "text": ": 1-161696",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                27,
+                23,
+                142,
+                50
+            ],
+            "text": "3180301",
+            "label": "OTHER"
+        }
+    ]
+}

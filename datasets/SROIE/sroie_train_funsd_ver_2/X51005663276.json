@@ -1,0 +1,584 @@
+{
+    "form": [
+        {
+            "box": [
+                106,
+                196,
+                698,
+                240
+            ],
+            "text": "SYARIKAT PERNIAGAAN GIN KEE",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                340,
+                244,
+                463,
+                277
+            ],
+            "text": "(81109-A)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                224,
+                280,
+                577,
+                312
+            ],
+            "text": "NO 290, JALAN AIR PANAS.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                338,
+                319,
+                467,
+                346
+            ],
+            "text": "SETAPAK,",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                250,
+                355,
+                558,
+                386
+            ],
+            "text": "53200, KUALA LUMPUR.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                287,
+                391,
+                521,
+                419
+            ],
+            "text": "TEL: 03-40210276",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                257,
+                442,
+                555,
+                469
+            ],
+            "text": "GST ID: 000750673920",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                227,
+                477,
+                588,
+                511
+            ],
+            "text": "SIMPLIFIED TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                545,
+                149,
+                570
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                592,
+                169,
+                615
+            ],
+            "text": "DOC NO.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                250,
+                583,
+                437,
+                613
+            ],
+            "text": ": CS00011955",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                487,
+                574,
+                714,
+                604
+            ],
+            "text": "DATE: 02/12/2017",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                629,
+                172,
+                653
+            ],
+            "text": "CASHIER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                249,
+                625,
+                355,
+                650
+            ],
+            "text": ": USER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                492,
+                616,
+                683,
+                643
+            ],
+            "text": "TIME: 17:21:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                667,
+                259,
+                697
+            ],
+            "text": "SALESPERSON:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                490,
+                657,
+                559,
+                687
+            ],
+            "text": "REF.:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                78,
+                736,
+                136,
+                760
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                323,
+                731,
+                371,
+                753
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                424,
+                724,
+                518,
+                747
+            ],
+            "text": "S/PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                554,
+                719,
+                665,
+                742
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                695,
+                712,
+                748,
+                732
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                83,
+                769,
+                145,
+                789
+            ],
+            "text": "1587",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                339,
+                758,
+                359,
+                776
+            ],
+            "text": "1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                448,
+                754,
+                504,
+                771
+            ],
+            "text": "7.42",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                609,
+                743,
+                670,
+                766
+            ],
+            "text": "7.42",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                707,
+                740,
+                748,
+                762
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                796,
+                270,
+                828
+            ],
+            "text": "SPRAY PAINT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                159,
+                834,
+                275,
+                859
+            ],
+            "text": "TOTAL QTY:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                344,
+                826,
+                360,
+                849
+            ],
+            "text": "1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                620,
+                807,
+                679,
+                834
+            ],
+            "text": "7.42",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                161,
+                877,
+                537,
+                916
+            ],
+            "text": "TOTAL SALES (EXCLUDING GST) :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                627,
+                866,
+                684,
+                892
+            ],
+            "text": "7.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                400,
+                921,
+                541,
+                947
+            ],
+            "text": "DISCOUNT :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                628,
+                910,
+                681,
+                936
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                387,
+                961,
+                542,
+                995
+            ],
+            "text": "TOTAL GST :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                627,
+                954,
+                688,
+                980
+            ],
+            "text": "0.42",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                398,
+                1010,
+                543,
+                1040
+            ],
+            "text": "ROUNDING :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                633,
+                997,
+                691,
+                1024
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                119,
+                1056,
+                548,
+                1111
+            ],
+            "text": "TOTAL SALES(INCLUSIVE OF GST) :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                632,
+                1049,
+                692,
+                1075
+            ],
+            "text": "7.42",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                437,
+                1109,
+                551,
+                1133
+            ],
+            "text": "CASH :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                635,
+                1095,
+                693,
+                1122
+            ],
+            "text": "7.42",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                417,
+                1149,
+                551,
+                1176
+            ],
+            "text": "CHANGE :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                640,
+                1138,
+                696,
+                1163
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                161,
+                1231,
+                385,
+                1270
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                169,
+                1293,
+                295,
+                1321
+            ],
+            "text": "TAX CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                361,
+                1284,
+                389,
+                1311
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                454,
+                1274,
+                582,
+                1302
+            ],
+            "text": "AMT(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                628,
+                1266,
+                752,
+                1293
+            ],
+            "text": "TAX(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                174,
+                1329,
+                216,
+                1352
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                370,
+                1318,
+                388,
+                1340
+            ],
+            "text": "6",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                517,
+                1306,
+                583,
+                1334
+            ],
+            "text": "7.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                692,
+                1297,
+                752,
+                1323
+            ],
+            "text": "0.42",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                323,
+                1366,
+                415,
+                1396
+            ],
+            "text": "TOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                520,
+                1354,
+                581,
+                1382
+            ],
+            "text": "7.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                693,
+                1347,
+                755,
+                1371
+            ],
+            "text": "0.42",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                615,
+                1424,
+                756,
+                1448
+            ],
+            "text": "THANK YOU",
+            "label": "OTHER"
+        }
+    ]
+}

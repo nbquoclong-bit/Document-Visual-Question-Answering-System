@@ -1,0 +1,574 @@
+{
+    "form": [
+        {
+            "box": [
+                132,
+                177,
+                671,
+                223
+            ],
+            "text": "RESTORAN DE COFFEE O",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                153,
+                243,
+                643,
+                274
+            ],
+            "text": "NO 33, 35, G F,JALAN TEMENGGUNG 3/9,",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                222,
+                278,
+                571,
+                303
+            ],
+            "text": "BANDAR MAHKOTA CHERAS,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                233,
+                303,
+                565,
+                333
+            ],
+            "text": "43200 CHERAS, SELANGOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                254,
+                335,
+                545,
+                364
+            ],
+            "text": "GST NO. : 002062008320",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                296,
+                368,
+                498,
+                400
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                448,
+                156,
+                475
+            ],
+            "text": "RECEIPT #",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                219,
+                447,
+                367,
+                475
+            ],
+            "text": "CS00119810",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                467,
+                447,
+                528,
+                473
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                597,
+                448,
+                722,
+                472
+            ],
+            "text": "03/04/2018",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                51,
+                492,
+                112,
+                515
+            ],
+            "text": "TIME :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                178,
+                493,
+                274,
+                515
+            ],
+            "text": "12:32:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                529,
+                543,
+                604,
+                572
+            ],
+            "text": "(GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                673,
+                543,
+                748,
+                569
+            ],
+            "text": "(GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                572,
+                101,
+                596
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                434,
+                575,
+                479,
+                601
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                539,
+                571,
+                606,
+                596
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                637,
+                571,
+                749,
+                597
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                604,
+                348,
+                632
+            ],
+            "text": "SR: COFFEE O (T.AWAY)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                463,
+                606,
+                474,
+                630
+            ],
+            "text": "1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                551,
+                606,
+                606,
+                629
+            ],
+            "text": "2.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                701,
+                606,
+                753,
+                632
+            ],
+            "text": "2.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                639,
+                265,
+                667
+            ],
+            "text": "SR: TEA (T.AWAY)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                464,
+                644,
+                475,
+                665
+            ],
+            "text": "1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                553,
+                642,
+                603,
+                664
+            ],
+            "text": "2.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                699,
+                640,
+                754,
+                668
+            ],
+            "text": "2.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                46,
+                675,
+                319,
+                703
+            ],
+            "text": "SR: COFFEE (T.AWAY)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                463,
+                678,
+                479,
+                701
+            ],
+            "text": "2",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                553,
+                679,
+                605,
+                699
+            ],
+            "text": "2.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                698,
+                679,
+                750,
+                700
+            ],
+            "text": "4.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                44,
+                711,
+                362,
+                739
+            ],
+            "text": "SR: SOYA BEAN (T AWAY)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                464,
+                714,
+                476,
+                736
+            ],
+            "text": "1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                554,
+                713,
+                607,
+                738
+            ],
+            "text": "2.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                702,
+                714,
+                756,
+                738
+            ],
+            "text": "2.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                295,
+                749,
+                378,
+                776
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                459,
+                749,
+                483,
+                772
+            ],
+            "text": "5",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                689,
+                751,
+                759,
+                774
+            ],
+            "text": "11.60",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                205,
+                804,
+                536,
+                832
+            ],
+            "text": "(EXCLUDED GST) SUB TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                689,
+                807,
+                759,
+                834
+            ],
+            "text": "10.94",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                403,
+                839,
+                532,
+                868
+            ],
+            "text": "TOTAL GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                697,
+                840,
+                764,
+                867
+            ],
+            "text": "0.66",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                412,
+                880,
+                533,
+                915
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                669,
+                884,
+                758,
+                917
+            ],
+            "text": "11.60",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                49,
+                974,
+                339,
+                1016
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                70,
+                1049,
+                212,
+                1077
+            ],
+            "text": "TAX CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                260,
+                1051,
+                295,
+                1085
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                411,
+                1051,
+                531,
+                1083
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                682,
+                1048,
+                757,
+                1082
+            ],
+            "text": "GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                108,
+                1090,
+                169,
+                1125
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                260,
+                1092,
+                292,
+                1121
+            ],
+            "text": "6",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                436,
+                1092,
+                527,
+                1121
+            ],
+            "text": "10.94",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                675,
+                1089,
+                760,
+                1124
+            ],
+            "text": "0.66",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                192,
+                1144,
+                302,
+                1180
+            ],
+            "text": "TOTAL :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                439,
+                1146,
+                534,
+                1179
+            ],
+            "text": "10.94",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                675,
+                1147,
+                757,
+                1181
+            ],
+            "text": "0.66",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                129,
+                1224,
+                668,
+                1255
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                313,
+                1276,
+                483,
+                1304
+            ],
+            "text": "THANK YOU",
+            "label": "OTHER"
+        }
+    ]
+}

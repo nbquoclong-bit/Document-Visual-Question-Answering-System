@@ -1,0 +1,624 @@
+{
+    "form": [
+        {
+            "box": [
+                2262,
+                1723,
+                2885,
+                1802
+            ],
+            "text": "HASHA PETROKIOSK",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                2271,
+                1800,
+                2675,
+                1871
+            ],
+            "text": "COMPANY NO:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2259,
+                1842,
+                3293,
+                1941
+            ],
+            "text": "LOT PTD 198718 TMN SIERRA P",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                2266,
+                1935,
+                2918,
+                2007
+            ],
+            "text": "81750 MASAI JOHOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                2278,
+                2012,
+                2616,
+                2084
+            ],
+            "text": "SITE: 2591",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2281,
+                2090,
+                2648,
+                2154
+            ],
+            "text": "TELEPHONE:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2275,
+                2163,
+                2537,
+                2229
+            ],
+            "text": "GST NO:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2589,
+                2290,
+                2853,
+                2365
+            ],
+            "text": "RECEIPT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2284,
+                2368,
+                2817,
+                2443
+            ],
+            "text": "INVOICE NUMBER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2439,
+                2483,
+                3247,
+                2571
+            ],
+            "text": "22.73 LITRE PUMP # 02",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2293,
+                2579,
+                2729,
+                2656
+            ],
+            "text": "FUELSAVE 95",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2864,
+                2567,
+                2943,
+                2627
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3056,
+                2553,
+                3320,
+                2622
+            ],
+            "text": "50.00 C",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2445,
+                2653,
+                2638,
+                2717
+            ],
+            "text": "2.200",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2715,
+                2641,
+                2795,
+                2703
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2870,
+                2630,
+                2901,
+                2697
+            ],
+            "text": "/",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2943,
+                2634,
+                3132,
+                2694
+            ],
+            "text": "LITRE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2303,
+                2728,
+                2483,
+                2797
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2867,
+                2703,
+                2947,
+                2777
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3063,
+                2694,
+                3250,
+                2758
+            ],
+            "text": "50.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                2301,
+                2804,
+                2456,
+                2868
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2874,
+                2778,
+                2947,
+                2840
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3061,
+                2767,
+                3256,
+                2834
+            ],
+            "text": "50.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                2306,
+                2861,
+                2684,
+                2934
+            ],
+            "text": "RELIEF GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2795,
+                2851,
+                2958,
+                2920
+            ],
+            "text": "C RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3098,
+                2834,
+                3259,
+                2898
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2307,
+                2936,
+                2728,
+                3012
+            ],
+            "text": "TOTAL GROSS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2800,
+                2924,
+                2957,
+                2986
+            ],
+            "text": "C RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3074,
+                2915,
+                3259,
+                2977
+            ],
+            "text": "50.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                2460,
+                3070,
+                2838,
+                3143
+            ],
+            "text": "2018-04-06",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2889,
+                3055,
+                3194,
+                3126
+            ],
+            "text": "17:36:35",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2572,
+                3138,
+                3093,
+                3207
+            ],
+            "text": "CUSTOMER COPY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2317,
+                3212,
+                2764,
+                3296
+            ],
+            "text": "TERMINAL ID:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3036,
+                3187,
+                3344,
+                3254
+            ],
+            "text": "84259112",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2320,
+                3292,
+                2615,
+                3359
+            ],
+            "text": "ID/STAN:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2855,
+                3260,
+                3345,
+                3340
+            ],
+            "text": "274961/000000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2315,
+                3367,
+                2728,
+                3436
+            ],
+            "text": "ENTRY MODE:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3154,
+                3324,
+                3346,
+                3397
+            ],
+            "text": "MSR/1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2323,
+                3439,
+                2503,
+                3503
+            ],
+            "text": "CARD:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2668,
+                3406,
+                3348,
+                3494
+            ],
+            "text": "ATTENDANT TAG CARD",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2855,
+                3468,
+                3358,
+                3551
+            ],
+            "text": "XXXXXXXXX0053",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2327,
+                3577,
+                2697,
+                3652
+            ],
+            "text": "RESPONSE:-",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2901,
+                3544,
+                3363,
+                3615
+            ],
+            "text": "000 APPROVED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2337,
+                3796,
+                2700,
+                3865
+            ],
+            "text": "ATTENDANT:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2341,
+                3860,
+                2565,
+                3937
+            ],
+            "text": "MRIFAN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2344,
+                4009,
+                2492,
+                4069
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2685,
+                3987,
+                2831,
+                4054
+            ],
+            "text": "TIME",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2911,
+                3985,
+                3029,
+                4049
+            ],
+            "text": "NUM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3141,
+                3968,
+                3248,
+                4037
+            ],
+            "text": "OPT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2335,
+                4071,
+                2651,
+                4150
+            ],
+            "text": "06/04/18",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2348,
+                4267,
+                3148,
+                4353
+            ],
+            "text": "DIESEL & PETROL RON95",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2352,
+                4328,
+                3345,
+                4435
+            ],
+            "text": "GIVEN RELIEF UNDER SECTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2352,
+                4404,
+                3233,
+                4507
+            ],
+            "text": "56 (3) (B) GST ACT 2014",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2356,
+                4563,
+                2699,
+                4643
+            ],
+            "text": "THANK YOU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2354,
+                4631,
+                3009,
+                4713
+            ],
+            "text": "PLEASE COME AGAIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2735,
+                1772,
+                3148,
+                1856
+            ],
+            "text": "JM0032980-V",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2696,
+                2066,
+                3038,
+                2133
+            ],
+            "text": "073000190",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2582,
+                2139,
+                3044,
+                2210
+            ],
+            "text": "000908345344",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2894,
+                2335,
+                3319,
+                2412
+            ],
+            "text": "60000437782",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2688,
+                4062,
+                2879,
+                4122
+            ],
+            "text": "17:36",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2915,
+                4052,
+                3115,
+                4114
+            ],
+            "text": "41766",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                3139,
+                4050,
+                3229,
+                4110
+            ],
+            "text": "02",
+            "label": "OTHER"
+        }
+    ]
+}

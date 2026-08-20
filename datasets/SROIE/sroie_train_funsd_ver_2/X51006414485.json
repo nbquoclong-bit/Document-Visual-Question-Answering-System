@@ -1,0 +1,394 @@
+{
+    "form": [
+        {
+            "box": [
+                1647,
+                1729,
+                2990,
+                1804
+            ],
+            "text": "UNIHAKKA INTERNATIONAL SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                2080,
+                1807,
+                2572,
+                1868
+            ],
+            "text": "11 APR 2018 18:13",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2166,
+                1889,
+                2480,
+                1957
+            ],
+            "text": "(867388-U)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1746,
+                1968,
+                2895,
+                2040
+            ],
+            "text": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                1882,
+                2050,
+                2757,
+                2129
+            ],
+            "text": "TAMPOI,81200 JOHOR BAHRU,JOHOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                2128,
+                2139,
+                2507,
+                2207
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1589,
+                2213,
+                2416,
+                2276
+            ],
+            "text": "INVOICE # : OR18041102170437",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1586,
+                2330,
+                1699,
+                2387
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2056,
+                2337,
+                2151,
+                2408
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2911,
+                2337,
+                3048,
+                2408
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1586,
+                2427,
+                2531,
+                2505
+            ],
+            "text": "SR I00100000035- 1 MEAT + 3 VEGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1588,
+                2517,
+                1732,
+                2578
+            ],
+            "text": "$7.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2054,
+                2526,
+                2085,
+                2580
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                2888,
+                2526,
+                3042,
+                2595
+            ],
+            "text": "$7.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1588,
+                2635,
+                2361,
+                2715
+            ],
+            "text": "SR I00100000015- VEGETABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1586,
+                2727,
+                1737,
+                2796
+            ],
+            "text": "$1.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2051,
+                2732,
+                2084,
+                2796
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                2883,
+                2744,
+                3037,
+                2808
+            ],
+            "text": "$1.10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2510,
+                2883,
+                3035,
+                2949
+            ],
+            "text": "TOTAL AMOUNT: $8.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2572,
+                2969,
+                3050,
+                3037
+            ],
+            "text": "GST @6%: $0.46",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2611,
+                3053,
+                3032,
+                3119
+            ],
+            "text": "NETT TOTAL: $8.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1574,
+                3162,
+                1969,
+                3233
+            ],
+            "text": "PAYMENT MODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2826,
+                3174,
+                3032,
+                3231
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1579,
+                3256,
+                1749,
+                3315
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2881,
+                3266,
+                3028,
+                3325
+            ],
+            "text": "$8.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                1574,
+                3341,
+                1784,
+                3410
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2878,
+                3353,
+                3027,
+                3412
+            ],
+            "text": "$0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1574,
+                3542,
+                1907,
+                3603
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2328,
+                3549,
+                2548,
+                3610
+            ],
+            "text": "AMOUNT($)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2888,
+                3552,
+                3030,
+                3613
+            ],
+            "text": "TAX($)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1569,
+                3634,
+                1912,
+                3698
+            ],
+            "text": "SR = GST @6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2460,
+                3642,
+                2562,
+                3701
+            ],
+            "text": "7.74",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                2928,
+                3646,
+                3030,
+                3700
+            ],
+            "text": "0.46",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1945,
+                3760,
+                2640,
+                3826
+            ],
+            "text": "GST REG #000656195584",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1824,
+                3842,
+                2763,
+                3917
+            ],
+            "text": "BAR WANG RICE@PERMAS JAYA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1976,
+                3925,
+                2602,
+                4001
+            ],
+            "text": "(PRICE INCLUSIVE OF GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1945,
+                4008,
+                2635,
+                4081
+            ],
+            "text": "THANK YOU & COME AGAIN!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1862,
+                4091,
+                2715,
+                4157
+            ],
+            "text": "LIKE AND FOLLOW US ON FACEBOOK!",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                1912,
+                4171,
+                2671,
+                4251
+            ],
+            "text": "FACEBOOK.COM/BARWANGRICE",
+            "label": "OTHER"
+        }
+    ]
+}

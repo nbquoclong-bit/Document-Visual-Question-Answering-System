@@ -1,0 +1,844 @@
+{
+    "form": [
+        {
+            "box": [
+                158,
+                257,
+                758,
+                300
+            ],
+            "text": "KEDAI PAPAN YEW CHUAN",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                331,
+                302,
+                585,
+                335
+            ],
+            "text": "(0005583085-K)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                250,
+                352,
+                663,
+                385
+            ],
+            "text": "LOT 276 JALAN BANTING",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                224,
+                397,
+                696,
+                430
+            ],
+            "text": "43800 DENGKIL, SELANGOR.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                140,
+                471,
+                435,
+                504
+            ],
+            "text": "TEL : 03-87686092",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                477,
+                473,
+                776,
+                509
+            ],
+            "text": "FAX : 03-87686092",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                272,
+                523,
+                643,
+                556
+            ],
+            "text": "GST ID : 000781500416",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                337,
+                581,
+                577,
+                615
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                45,
+                625,
+                154,
+                661
+            ],
+            "text": "BILL TO :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                676,
+                553,
+                710
+            ],
+            "text": "SUCI ALAM JAYA TRANSPORT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                44,
+                722,
+                374,
+                753
+            ],
+            "text": "NO 1 JALAN AMAN 2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                762,
+                367,
+                795
+            ],
+            "text": "TAMAN DESA 43800",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                44,
+                811,
+                390,
+                847
+            ],
+            "text": "DENGKIL SELANGOR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                859,
+                251,
+                895
+            ],
+            "text": "017-6057770",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                905,
+                166,
+                937
+            ],
+            "text": "DOC NO.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                251,
+                907,
+                263,
+                937
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                283,
+                905,
+                483,
+                941
+            ],
+            "text": "CS00012431",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                596,
+                905,
+                875,
+                939
+            ],
+            "text": "DATE: 03/05/2018",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                40,
+                952,
+                165,
+                986
+            ],
+            "text": "CASHIER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                254,
+                959,
+                265,
+                984
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                283,
+                957,
+                384,
+                984
+            ],
+            "text": "USER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                595,
+                956,
+                840,
+                990
+            ],
+            "text": "TIME: 13:54:00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                39,
+                1001,
+                230,
+                1043
+            ],
+            "text": "SALESPERSON",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                249,
+                1009,
+                264,
+                1037
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                607,
+                1006,
+                681,
+                1040
+            ],
+            "text": "REF.:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                38,
+                1111,
+                106,
+                1141
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                282,
+                1111,
+                338,
+                1146
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                382,
+                1110,
+                485,
+                1140
+            ],
+            "text": "S/PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                522,
+                1074,
+                610,
+                1107
+            ],
+            "text": "(GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                696,
+                1077,
+                785,
+                1111
+            ],
+            "text": "(GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                519,
+                1109,
+                619,
+                1137
+            ],
+            "text": "S/PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                672,
+                1109,
+                783,
+                1140
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                829,
+                1115,
+                879,
+                1145
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                44,
+                1149,
+                142,
+                1180
+            ],
+            "text": "100135",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                40,
+                1198,
+                263,
+                1229
+            ],
+            "text": "BESI R 5.5 (CQ)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                300,
+                1155,
+                318,
+                1180
+            ],
+            "text": "4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                408,
+                1153,
+                464,
+                1180
+            ],
+            "text": "8.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                537,
+                1154,
+                597,
+                1184
+            ],
+            "text": "8.48",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                706,
+                1157,
+                785,
+                1183
+            ],
+            "text": "33.92",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                841,
+                1156,
+                879,
+                1183
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                42,
+                1251,
+                143,
+                1283
+            ],
+            "text": "100139",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                1296,
+                256,
+                1332
+            ],
+            "text": "BESI Y 10 (CQ)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                300,
+                1253,
+                319,
+                1279
+            ],
+            "text": "8",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                397,
+                1253,
+                473,
+                1283
+            ],
+            "text": "17.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                530,
+                1256,
+                608,
+                1284
+            ],
+            "text": "18.02",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                696,
+                1255,
+                785,
+                1285
+            ],
+            "text": "144.16",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                843,
+                1258,
+                880,
+                1284
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                83,
+                1344,
+                225,
+                1383
+            ],
+            "text": "TOTAL QTY:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                293,
+                1348,
+                333,
+                1381
+            ],
+            "text": "12",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                684,
+                1349,
+                787,
+                1381
+            ],
+            "text": "178.08",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                164,
+                1424,
+                580,
+                1466
+            ],
+            "text": "TOTAL SALES (EXCLUDING GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                600,
+                1431,
+                618,
+                1459
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                685,
+                1429,
+                791,
+                1461
+            ],
+            "text": "168.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                448,
+                1484,
+                583,
+                1516
+            ],
+            "text": "DISCOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                604,
+                1490,
+                618,
+                1516
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                721,
+                1488,
+                790,
+                1517
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                429,
+                1543,
+                587,
+                1574
+            ],
+            "text": "TOTAL GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                604,
+                1549,
+                619,
+                1575
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                706,
+                1546,
+                790,
+                1574
+            ],
+            "text": "10.08",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                439,
+                1598,
+                584,
+                1637
+            ],
+            "text": "ROUNDING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                602,
+                1603,
+                616,
+                1628
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                723,
+                1603,
+                789,
+                1633
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                98,
+                1654,
+                583,
+                1696
+            ],
+            "text": "TOTAL SALES (INCLUSIVE OF GST)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                602,
+                1667,
+                616,
+                1688
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                685,
+                1660,
+                792,
+                1696
+            ],
+            "text": "178.08",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                484,
+                1714,
+                585,
+                1747
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                602,
+                1722,
+                619,
+                1746
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                685,
+                1721,
+                791,
+                1752
+            ],
+            "text": "178.08",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                452,
+                1762,
+                585,
+                1801
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                605,
+                1767,
+                616,
+                1791
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                723,
+                1763,
+                792,
+                1796
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                97,
+                1862,
+                365,
+                1896
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                106,
+                1917,
+                264,
+                1949
+            ],
+            "text": "TAX CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                356,
+                1922,
+                387,
+                1953
+            ],
+            "text": "%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                472,
+                1922,
+                626,
+                1955
+            ],
+            "text": "AMT (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                697,
+                1921,
+                846,
+                1958
+            ],
+            "text": "TAX (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                107,
+                1961,
+                157,
+                1992
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                359,
+                1963,
+                382,
+                1995
+            ],
+            "text": "6",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                522,
+                1966,
+                625,
+                1999
+            ],
+            "text": "168.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                760,
+                1970,
+                843,
+                1997
+            ],
+            "text": "10.08",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                299,
+                2012,
+                407,
+                2044
+            ],
+            "text": "TOTAL :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                517,
+                2012,
+                620,
+                2045
+            ],
+            "text": "168.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                759,
+                2016,
+                847,
+                2049
+            ],
+            "text": "10.08",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                94,
+                2095,
+                826,
+                2129
+            ],
+            "text": "GOODS SOLD ARE NOT RETURNABLE, THANK YOU.",
+            "label": "OTHER"
+        }
+    ]
+}

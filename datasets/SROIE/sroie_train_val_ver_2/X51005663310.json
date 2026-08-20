@@ -1,0 +1,424 @@
+{
+    "form": [
+        {
+            "box": [
+                119,
+                218,
+                793,
+                263
+            ],
+            "text": "LIM SENG THO HARDWARE TRADING",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                179,
+                271,
+                650,
+                312
+            ],
+            "text": "NO 7, SIMPANG OFF BATU VILLAGE,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                113,
+                317,
+                705,
+                352
+            ],
+            "text": "JALAN IPOH BATU 5, 51200 KUALA LUMPUR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                325,
+                356,
+                502,
+                391
+            ],
+            "text": "MALAYSIA",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                199,
+                395,
+                633,
+                432
+            ],
+            "text": "TEI & FAX NO : 03-6258 7191",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                308,
+                436,
+                520,
+                471
+            ],
+            "text": "03-6258 7191",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                154,
+                491,
+                682,
+                536
+            ],
+            "text": "COMPANY REG NO.: (002231061-T)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                183,
+                545,
+                646,
+                584
+            ],
+            "text": "GST REG NO.: 001269075968",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                308,
+                598,
+                524,
+                643
+            ],
+            "text": "TAX INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                31,
+                668,
+                224,
+                705
+            ],
+            "text": "INVOICE NO :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                277,
+                666,
+                441,
+                703
+            ],
+            "text": "CS 24388",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                39,
+                719,
+                119,
+                756
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                284,
+                713,
+                555,
+                754
+            ],
+            "text": "09/02/2018 10:05",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                33,
+                771,
+                191,
+                808
+            ],
+            "text": "CASHIER #",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                284,
+                771,
+                348,
+                804
+            ],
+            "text": "LST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                572,
+                833,
+                634,
+                876
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                693,
+                835,
+                792,
+                872
+            ],
+            "text": "CODE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                37,
+                874,
+                208,
+                913
+            ],
+            "text": "BEG GUNI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                64,
+                927,
+                241,
+                964
+            ],
+            "text": "12.00 NOS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                302,
+                937,
+                337,
+                960
+            ],
+            "text": "X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                376,
+                929,
+                448,
+                964
+            ],
+            "text": "0.70",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                567,
+                931,
+                641,
+                962
+            ],
+            "text": "8.40",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                740,
+                929,
+                793,
+                966
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                206,
+                981,
+                350,
+                1018
+            ],
+            "text": "SUBTOTAL :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                565,
+                981,
+                639,
+                1016
+            ],
+            "text": "8.40",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                86,
+                1069,
+                349,
+                1104
+            ],
+            "text": "TOTAL INCL OF GST :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                568,
+                1071,
+                638,
+                1104
+            ],
+            "text": "8.40",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                197,
+                1122,
+                351,
+                1157
+            ],
+            "text": "PAYMENT :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                567,
+                1122,
+                637,
+                1155
+            ],
+            "text": "8.40",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                140,
+                1170,
+                352,
+                1205
+            ],
+            "text": "CHANGE DUE :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                563,
+                1164,
+                641,
+                1205
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                41,
+                1225,
+                304,
+                1264
+            ],
+            "text": "TOTAL ITEM(S) : 12",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                1287,
+                269,
+                1330
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                327,
+                1285,
+                524,
+                1322
+            ],
+            "text": "AMOUNT(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                600,
+                1283,
+                744,
+                1322
+            ],
+            "text": "TAX (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                49,
+                1342,
+                104,
+                1377
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                173,
+                1340,
+                274,
+                1385
+            ],
+            "text": "@ 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                446,
+                1338,
+                524,
+                1377
+            ],
+            "text": "7.92",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                674,
+                1344,
+                744,
+                1381
+            ],
+            "text": "0.48",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                313,
+                1486,
+                510,
+                1520
+            ],
+            "text": "THANK YOU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                225,
+                1531,
+                587,
+                1565
+            ],
+            "text": "PLEASE COME AGAIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                82,
+                1577,
+                738,
+                1616
+            ],
+            "text": "*GOODS SOLD ARE NOT RETURNABLE*",
+            "label": "OTHER"
+        }
+    ]
+}

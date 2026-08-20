@@ -1,0 +1,834 @@
+{
+    "form": [
+        {
+            "box": [
+                136,
+                203,
+                763,
+                240
+            ],
+            "text": "THAI DELICIOUS RESTAURANT",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                218,
+                254,
+                685,
+                294
+            ],
+            "text": "NO.22 JALAN PUTERI 2/4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                298,
+                303,
+                606,
+                342
+            ],
+            "text": "BANDAR PUTERI",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                181,
+                353,
+                719,
+                390
+            ],
+            "text": "47100 PUCHONG, SELANGOR",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                321,
+                397,
+                578,
+                433
+            ],
+            "text": "03-8051 9514",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                70,
+                461,
+                165,
+                492
+            ],
+            "text": "BILL NO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                211,
+                467,
+                226,
+                495
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                258,
+                464,
+                406,
+                492
+            ],
+            "text": "01-36870",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                703,
+                459,
+                810,
+                497
+            ],
+            "text": "TABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                69,
+                509,
+                143,
+                537
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                209,
+                512,
+                225,
+                541
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                257,
+                508,
+                623,
+                542
+            ],
+            "text": "02/02/2017 7:31:08 PM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                720,
+                509,
+                767,
+                541
+            ],
+            "text": "A3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                69,
+                556,
+                180,
+                585
+            ],
+            "text": "CASHIER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                211,
+                561,
+                223,
+                585
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                262,
+                557,
+                317,
+                585
+            ],
+            "text": "123",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                69,
+                601,
+                121,
+                634
+            ],
+            "text": "PAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                211,
+                609,
+                223,
+                632
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                256,
+                602,
+                276,
+                634
+            ],
+            "text": "4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                162,
+                711,
+                335,
+                744
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                450,
+                710,
+                503,
+                746
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                564,
+                710,
+                645,
+                739
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                712,
+                709,
+                835,
+                738
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                109,
+                758,
+                125,
+                785
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                156,
+                754,
+                341,
+                780
+            ],
+            "text": "06S BRAISED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                486,
+                757,
+                507,
+                785
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                567,
+                754,
+                646,
+                784
+            ],
+            "text": "20.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                757,
+                757,
+                835,
+                783
+            ],
+            "text": "20.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                157,
+                788,
+                400,
+                814
+            ],
+            "text": "PORK LEG SMALL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                109,
+                853,
+                128,
+                882
+            ],
+            "text": "2",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                159,
+                852,
+                375,
+                881
+            ],
+            "text": "32 PHRANAKON",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                488,
+                855,
+                501,
+                881
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                566,
+                855,
+                645,
+                882
+            ],
+            "text": "28.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                757,
+                857,
+                831,
+                881
+            ],
+            "text": "28.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                155,
+                885,
+                337,
+                911
+            ],
+            "text": "SALTED EGG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                159,
+                916,
+                246,
+                944
+            ],
+            "text": "SQUID",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                110,
+                949,
+                127,
+                977
+            ],
+            "text": "3",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                157,
+                950,
+                394,
+                975
+            ],
+            "text": "51 GARLIC FRIED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                488,
+                952,
+                505,
+                976
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                571,
+                953,
+                644,
+                978
+            ],
+            "text": "13.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                759,
+                951,
+                831,
+                977
+            ],
+            "text": "13.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                158,
+                981,
+                258,
+                1007
+            ],
+            "text": "KAILAN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                106,
+                1052,
+                126,
+                1078
+            ],
+            "text": "4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                158,
+                1048,
+                356,
+                1073
+            ],
+            "text": "84 THAI STYLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                486,
+                1050,
+                505,
+                1075
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                572,
+                1050,
+                649,
+                1078
+            ],
+            "text": "15.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                756,
+                1049,
+                836,
+                1079
+            ],
+            "text": "15.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                155,
+                1080,
+                359,
+                1103
+            ],
+            "text": "KERABUTOFU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                107,
+                1144,
+                126,
+                1170
+            ],
+            "text": "5",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                159,
+                1145,
+                372,
+                1170
+            ],
+            "text": "130 PLAINRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                486,
+                1147,
+                504,
+                1171
+            ],
+            "text": "4",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                586,
+                1143,
+                652,
+                1173
+            ],
+            "text": "1.80",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                774,
+                1142,
+                840,
+                1169
+            ],
+            "text": "7.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                107,
+                1190,
+                125,
+                1217
+            ],
+            "text": "6",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                159,
+                1189,
+                355,
+                1215
+            ],
+            "text": "113 COCONUT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                485,
+                1189,
+                503,
+                1220
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                585,
+                1190,
+                651,
+                1220
+            ],
+            "text": "6.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                775,
+                1190,
+                834,
+                1218
+            ],
+            "text": "6.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                159,
+                1220,
+                223,
+                1247
+            ],
+            "text": "THAI",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                110,
+                1257,
+                126,
+                1281
+            ],
+            "text": "7",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                159,
+                1254,
+                351,
+                1282
+            ],
+            "text": "116 DISTILLED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                487,
+                1260,
+                502,
+                1285
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                585,
+                1256,
+                646,
+                1284
+            ],
+            "text": "0.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                772,
+                1258,
+                838,
+                1286
+            ],
+            "text": "0.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                159,
+                1285,
+                258,
+                1315
+            ],
+            "text": "WATER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                106,
+                1324,
+                127,
+                1352
+            ],
+            "text": "8",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                156,
+                1323,
+                308,
+                1348
+            ],
+            "text": "106B COLD",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                483,
+                1324,
+                501,
+                1351
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                585,
+                1324,
+                651,
+                1351
+            ],
+            "text": "2.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                775,
+                1320,
+                835,
+                1348
+            ],
+            "text": "2.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                156,
+                1352,
+                390,
+                1377
+            ],
+            "text": "PANDAN GINGER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                159,
+                1383,
+                215,
+                1410
+            ],
+            "text": "TEA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                445,
+                1442,
+                527,
+                1471
+            ],
+            "text": "TOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                757,
+                1444,
+                835,
+                1470
+            ],
+            "text": "92.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                355,
+                1492,
+                527,
+                1522
+            ],
+            "text": "GRAND TOTAL:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                756,
+                1493,
+                836,
+                1520
+            ],
+            "text": "92.80",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                313,
+                1536,
+                530,
+                1566
+            ],
+            "text": "CASH RECEIVED:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                744,
+                1538,
+                834,
+                1563
+            ],
+            "text": "100.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                408,
+                1581,
+                533,
+                1612
+            ],
+            "text": "CHANGE:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                775,
+                1580,
+                834,
+                1610
+            ],
+            "text": "7.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                270,
+                1649,
+                537,
+                1680
+            ],
+            "text": "AVERAGE/PAX(S):",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                754,
+                1648,
+                835,
+                1679
+            ],
+            "text": "23.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                252,
+                1732,
+                676,
+                1764
+            ],
+            "text": "THANK YOU. PLEASE COME AGAIN.",
+            "label": "OTHER"
+        }
+    ]
+}

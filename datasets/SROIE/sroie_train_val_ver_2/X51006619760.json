@@ -1,0 +1,554 @@
+{
+    "form": [
+        {
+            "box": [
+                119,
+                284,
+                736,
+                323
+            ],
+            "text": "KEDAI UBAT & RUNCIT HONG",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                270,
+                330,
+                607,
+                373
+            ],
+            "text": "NING SDN. BHD.",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                354,
+                390,
+                506,
+                430
+            ],
+            "text": "(717853-P)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                234,
+                429,
+                631,
+                465
+            ],
+            "text": "(GST ID NO : 002006163456)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                211,
+                469,
+                651,
+                502
+            ],
+            "text": "NO.8,JALAN LANG KUNING,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                311,
+                504,
+                557,
+                537
+            ],
+            "text": "KEPONG BARU,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                254,
+                538,
+                607,
+                578
+            ],
+            "text": "52100 KUALA LUMPUR.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                310,
+                611,
+                561,
+                649
+            ],
+            "text": "TEL: 03-6273 2163",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                688,
+                178,
+                718
+            ],
+            "text": "BILL NO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                73,
+                721,
+                144,
+                754
+            ],
+            "text": "DATE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                758,
+                181,
+                791
+            ],
+            "text": "CASHIER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                74,
+                796,
+                196,
+                836
+            ],
+            "text": "PAYMENT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                73,
+                860,
+                143,
+                891
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                270,
+                860,
+                332,
+                896
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                404,
+                859,
+                479,
+                890
+            ],
+            "text": "PRICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                594,
+                859,
+                709,
+                890
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                74,
+                908,
+                672,
+                943
+            ],
+            "text": "CLOROX BLEACH ORIGINAL 4L @11.23",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                72,
+                941,
+                225,
+                975
+            ],
+            "text": "955682313",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                303,
+                944,
+                324,
+                976
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                404,
+                942,
+                481,
+                975
+            ],
+            "text": "11.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                632,
+                943,
+                709,
+                972
+            ],
+            "text": "11.90",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                736,
+                942,
+                789,
+                973
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                734,
+                1026,
+                789,
+                1060
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                76,
+                991,
+                651,
+                1029
+            ],
+            "text": "COCON SALT & LEMON CANDY @4.06",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                76,
+                1023,
+                229,
+                1057
+            ],
+            "text": "955643701",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                302,
+                1028,
+                328,
+                1056
+            ],
+            "text": "4",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                423,
+                1026,
+                485,
+                1061
+            ],
+            "text": "4.30",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                632,
+                1028,
+                709,
+                1059
+            ],
+            "text": "17.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                267,
+                1099,
+                542,
+                1137
+            ],
+            "text": "NET AMT @ GST 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                401,
+                1145,
+                541,
+                1177
+            ],
+            "text": "CASH PAID",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                399,
+                1182,
+                539,
+                1215
+            ],
+            "text": "CARD PAID",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                400,
+                1222,
+                506,
+                1260
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                406,
+                1259,
+                552,
+                1297
+            ],
+            "text": "ROUND ADJ.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                702,
+                1097,
+                793,
+                1131
+            ],
+            "text": "29.10",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                700,
+                1142,
+                791,
+                1178
+            ],
+            "text": "29.10",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                721,
+                1183,
+                793,
+                1214
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                717,
+                1220,
+                782,
+                1251
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                717,
+                1257,
+                784,
+                1290
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                1328,
+                287,
+                1368
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                78,
+                1379,
+                210,
+                1419
+            ],
+            "text": "SR@6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                332,
+                1329,
+                449,
+                1365
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                349,
+                1378,
+                429,
+                1411
+            ],
+            "text": "27.46",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                543,
+                1328,
+                596,
+                1362
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                537,
+                1378,
+                596,
+                1410
+            ],
+            "text": "1.64",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                339,
+                1435,
+                537,
+                1473
+            ],
+            "text": "THANK YOU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                260,
+                1473,
+                602,
+                1507
+            ],
+            "text": "PLEASE COME AGAIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                233,
+                688,
+                428,
+                720
+            ],
+            "text": ": POS/118958",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                229,
+                724,
+                575,
+                756
+            ],
+            "text": ": 02/01/16 11:41:47 AM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                232,
+                761,
+                345,
+                792
+            ],
+            "text": ": ADMIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                232,
+                798,
+                327,
+                829
+            ],
+            "text": ": CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                570,
+                1109,
+                581,
+                1133
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                567,
+                1155,
+                582,
+                1182
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                567,
+                1191,
+                581,
+                1215
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                568,
+                1229,
+                580,
+                1253
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                570,
+                1265,
+                583,
+                1290
+            ],
+            "text": ":",
+            "label": "OTHER"
+        }
+    ]
+}

@@ -1,0 +1,664 @@
+{
+    "form": [
+        {
+            "box": [
+                263,
+                167,
+                688,
+                205
+            ],
+            "text": "RESTAURANT JIAWEI",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                314,
+                219,
+                615,
+                262
+            ],
+            "text": "JIAWEI HOUSE",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                337,
+                272,
+                615,
+                311
+            ],
+            "text": "002693074-K",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                247,
+                317,
+                678,
+                355
+            ],
+            "text": "13, JLN TASIK UTAMA 8",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                200,
+                358,
+                713,
+                398
+            ],
+            "text": "MEDAN NIAGA DAMAI SG BESI",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                367,
+                403,
+                536,
+                438
+            ],
+            "text": "57000 KL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                390,
+                470,
+                564,
+                508
+            ],
+            "text": "INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                43,
+                584,
+                310,
+                624
+            ],
+            "text": "INVOICE :8884",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                449,
+                592,
+                718,
+                625
+            ],
+            "text": "cashier : admin",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                37,
+                628,
+                206,
+                662
+            ],
+            "text": "POS NO: 2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                712,
+                245,
+                785
+            ],
+            "text": "TABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                81,
+                834,
+                151,
+                868
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                917,
+                327,
+                952
+            ],
+            "text": "RED CAT FISH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                245,
+                1001,
+                390,
+                1033
+            ],
+            "text": "STEAMED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                75,
+                1036,
+                402,
+                1079
+            ],
+            "text": "GINGER CLAMS (S)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                1121,
+                504,
+                1158
+            ],
+            "text": "BEANCURD W DAO GAN (S)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                78,
+                1203,
+                443,
+                1245
+            ],
+            "text": "G.DRAGON CHIVES (S)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                243,
+                1288,
+                453,
+                1322
+            ],
+            "text": "STIR FRIED",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                79,
+                1327,
+                300,
+                1367
+            ],
+            "text": "PU ER (1-3)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                143,
+                1367,
+                235,
+                1406
+            ],
+            "text": "(1-3)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                137,
+                1411,
+                201,
+                1444
+            ],
+            "text": "HOT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                73,
+                1450,
+                239,
+                1488
+            ],
+            "text": "RICE (B)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                78,
+                1531,
+                283,
+                1567
+            ],
+            "text": "RICE SMALL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                118,
+                1661,
+                365,
+                1693
+            ],
+            "text": "SUB TOTAL BE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                512,
+                1668,
+                642,
+                1696
+            ],
+            "text": "SCOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                673,
+                1661,
+                862,
+                1693
+            ],
+            "text": "RM 110.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                121,
+                1700,
+                392,
+                1738
+            ],
+            "text": "SERVICE CHARG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                715,
+                1703,
+                861,
+                1736
+            ],
+            "text": "RN 0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                120,
+                1740,
+                351,
+                1778
+            ],
+            "text": "TOTAL SALES",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                673,
+                1744,
+                861,
+                1776
+            ],
+            "text": "RM 110.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                117,
+                1781,
+                544,
+                1818
+            ],
+            "text": "ROUNDING ADJUSTMENT :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                714,
+                1786,
+                864,
+                1818
+            ],
+            "text": "RM 0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                114,
+                1847,
+                304,
+                1911
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                531,
+                1852,
+                611,
+                1911
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                653,
+                1852,
+                877,
+                1912
+            ],
+            "text": "110.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                860,
+                1495,
+                885,
+                1528
+            ],
+            "text": "6",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                475,
+                1580,
+                552,
+                1612
+            ],
+            "text": "1.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                696,
+                1497,
+                779,
+                1529
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                655,
+                1578,
+                739,
+                1612
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                821,
+                1579,
+                881,
+                1612
+            ],
+            "text": "3.0",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                450,
+                590,
+                720,
+                624
+            ],
+            "text": "CASHIER : ADMIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                36,
+                670,
+                555,
+                708
+            ],
+            "text": "DATE : 23/2/2018 20:04:08",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                337,
+                732,
+                360,
+                786
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                418,
+                724,
+                491,
+                783
+            ],
+            "text": "13",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                285,
+                833,
+                344,
+                867
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                400,
+                836,
+                530,
+                870
+            ],
+            "text": "U/P (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                574,
+                836,
+                702,
+                871
+            ],
+            "text": "DISC (%)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                747,
+                836,
+                868,
+                875
+            ],
+            "text": "AMT (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                367,
+                960,
+                387,
+                993
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                468,
+                959,
+                575,
+                996
+            ],
+            "text": "42.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                677,
+                961,
+                759,
+                995
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                822,
+                961,
+                873,
+                994
+            ],
+            "text": "42.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                449,
+                1083,
+                470,
+                1114
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                551,
+                1083,
+                657,
+                1116
+            ],
+            "text": "20.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                760,
+                1084,
+                843,
+                1119
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                451,
+                1167,
+                471,
+                1199
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                554,
+                1168,
+                657,
+                1201
+            ],
+            "text": "18.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                760,
+                1166,
+                843,
+                1202
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                430,
+                1246,
+                447,
+                1282
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                536,
+                1250,
+                640,
+                1281
+            ],
+            "text": "16.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                736,
+                1252,
+                821,
+                1284
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                346,
+                1371,
+                367,
+                1402
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                469,
+                1373,
+                554,
+                1407
+            ],
+            "text": "5",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                657,
+                1374,
+                739,
+                1409
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                821,
+                1373,
+                885,
+                1408
+            ],
+            "text": "5.0",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                531,
+                1499,
+                597,
+                1530
+            ],
+            "text": ".50",
+            "label": "OTHER"
+        }
+    ]
+}

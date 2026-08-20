@@ -1,0 +1,444 @@
+{
+    "form": [
+        {
+            "box": [
+                64,
+                174,
+                371,
+                199
+            ],
+            "text": "THREE STOOGES",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                170,
+                203,
+                325,
+                226
+            ],
+            "text": "BISTRO & CAFE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                173,
+                231,
+                323,
+                256
+            ],
+            "text": "109, SS21/1A,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                158,
+                259,
+                338,
+                283
+            ],
+            "text": "DAMANSARA UTAMA",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                124,
+                288,
+                374,
+                312
+            ],
+            "text": "GST ID : 001661886464",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                16,
+                342,
+                80,
+                366
+            ],
+            "text": "TABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                102,
+                343,
+                242,
+                368
+            ],
+            "text": ": BAR 7",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                399,
+                78,
+                421
+            ],
+            "text": "ORDER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                103,
+                399,
+                313,
+                423
+            ],
+            "text": ": 00012916",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                427,
+                245,
+                452
+            ],
+            "text": "BIZDATE: 12/03/2018",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                467,
+                945,
+                492,
+                968
+            ],
+            "text": "50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                17,
+                454,
+                209,
+                478
+            ],
+            "text": "CASHIER : CASHIER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                482,
+                386,
+                507
+            ],
+            "text": "BILL DT: 12/03/2018 10:25:49 PM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                101,
+                1026,
+                198,
+                1049
+            ],
+            "text": "THANK YO",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                464,
+                484,
+                492,
+                508
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                17,
+                538,
+                116,
+                561
+            ],
+            "text": "QTY ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                418,
+                540,
+                491,
+                564
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                595,
+                31,
+                617
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                52,
+                595,
+                304,
+                617
+            ],
+            "text": "HH GUINESS 12 GLASSES",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                421,
+                596,
+                492,
+                619
+            ],
+            "text": "150.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                19,
+                622,
+                30,
+                645
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                52,
+                622,
+                280,
+                646
+            ],
+            "text": "HH TIGER 12 GLASSES",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                421,
+                624,
+                492,
+                647
+            ],
+            "text": "145.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                678,
+                33,
+                700
+            ],
+            "text": "2",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                53,
+                678,
+                162,
+                701
+            ],
+            "text": "SUB TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                419,
+                680,
+                492,
+                702
+            ],
+            "text": "295.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                706,
+                268,
+                729
+            ],
+            "text": "SERVICE CHARGE 10%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                431,
+                707,
+                492,
+                729
+            ],
+            "text": "29.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                53,
+                733,
+                126,
+                755
+            ],
+            "text": "GST 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                433,
+                735,
+                492,
+                758
+            ],
+            "text": "19.47",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                52,
+                761,
+                196,
+                784
+            ],
+            "text": "ROUNDING ADJ",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                431,
+                763,
+                492,
+                786
+            ],
+            "text": "-0.02",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                54,
+                835,
+                162,
+                858
+            ],
+            "text": "NET TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                418,
+                817,
+                491,
+                860
+            ],
+            "text": "343.95",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                17,
+                914,
+                150,
+                942
+            ],
+            "text": "TAX SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                313,
+                917,
+                383,
+                940
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                455,
+                917,
+                493,
+                940
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                19,
+                944,
+                268,
+                967
+            ],
+            "text": "SVC SERVICE CHARGE 10",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                314,
+                945,
+                386,
+                967
+            ],
+            "text": "295.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                18,
+                971,
+                44,
+                994
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                66,
+                971,
+                138,
+                995
+            ],
+            "text": "GST 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                313,
+                973,
+                385,
+                994
+            ],
+            "text": "324.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                246,
+                1024,
+                255,
+                1050
+            ],
+            "text": "L",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                303,
+                1028,
+                385,
+                1051
+            ],
+            "text": "ME AGAI",
+            "label": "OTHER"
+        }
+    ]
+}

@@ -1,0 +1,454 @@
+{
+    "form": [
+        {
+            "box": [
+                155,
+                127,
+                551,
+                149
+            ],
+            "text": "CROSS CHANNEL NETWORK SDN. BHD.",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                197,
+                153,
+                507,
+                179
+            ],
+            "text": "47,JALAN MERANTI 1, SEK. 3,",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                197,
+                178,
+                511,
+                203
+            ],
+            "text": "BANDAR UTAMA BATANG KALI,",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                183,
+                204,
+                520,
+                230
+            ],
+            "text": "44300 BATANG KALI, SELANGOR.",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                143,
+                231,
+                339,
+                255
+            ],
+            "text": "TEL : 03-6057 9688",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                362,
+                231,
+                562,
+                255
+            ],
+            "text": "FAX : 03-6057 9678",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                236,
+                258,
+                454,
+                279
+            ],
+            "text": "GST ID : 001151500288",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                269,
+                282,
+                417,
+                308
+            ],
+            "text": "TAX INVOLCE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                431,
+                303,
+                590,
+                323
+            ],
+            "text": "NO.:BTG-052332",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                446,
+                329,
+                488,
+                356
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                511,
+                328,
+                549,
+                351
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                552,
+                329,
+                595,
+                351
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                89,
+                356,
+                423,
+                380
+            ],
+            "text": "SCHNEIDER E15R 13A SWITCH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                460,
+                356,
+                475,
+                380
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                87,
+                383,
+                381,
+                408
+            ],
+            "text": "SOCKET OUTLET @ 6.0000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                132,
+                417,
+                409,
+                443
+            ],
+            "text": "TOTAL AMT INCL. GST @ 6% :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                181,
+                440,
+                408,
+                465
+            ],
+            "text": "ROUNDING ADJUSTMENT :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                213,
+                464,
+                409,
+                489
+            ],
+            "text": "TOTAL AMT PAYABLE :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                266,
+                484,
+                408,
+                505
+            ],
+            "text": "PAID AMOUNT :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                317,
+                504,
+                411,
+                529
+            ],
+            "text": "CHANGE :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                226,
+                524,
+                412,
+                548
+            ],
+            "text": "TOTAL QTY TENDER:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                443,
+                419,
+                491,
+                441
+            ],
+            "text": "6.36",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                437,
+                443,
+                488,
+                463
+            ],
+            "text": "-0.01",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                443,
+                464,
+                491,
+                486
+            ],
+            "text": "6.35",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                434,
+                486,
+                490,
+                506
+            ],
+            "text": "10.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                445,
+                506,
+                492,
+                525
+            ],
+            "text": "3.65",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                445,
+                526,
+                489,
+                546
+            ],
+            "text": "1.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                140,
+                554,
+                284,
+                582
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                348,
+                555,
+                428,
+                579
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                529,
+                552,
+                571,
+                576
+            ],
+            "text": "TAX",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                376,
+                582,
+                427,
+                607
+            ],
+            "text": "(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                518,
+                578,
+                569,
+                603
+            ],
+            "text": "(RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                139,
+                612,
+                218,
+                636
+            ],
+            "text": "SR @ A",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                381,
+                612,
+                428,
+                634
+            ],
+            "text": "6.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                523,
+                611,
+                571,
+                634
+            ],
+            "text": "0.36",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                138,
+                643,
+                193,
+                666
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                380,
+                643,
+                426,
+                665
+            ],
+            "text": "6.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                523,
+                644,
+                570,
+                665
+            ],
+            "text": "0.36",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                320,
+                675,
+                459,
+                698
+            ],
+            "text": "THANK YOU",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                129,
+                698,
+                603,
+                724
+            ],
+            "text": "GOODS SOLD ARE NOT REFUNDABLE NOR EXCHANGEBLE.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                199,
+                725,
+                534,
+                752
+            ],
+            "text": "FOR ANY ENQUIRY, PLEASE E-MAIL US:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                253,
+                752,
+                479,
+                778
+            ],
+            "text": "GOWA9688@GMAIL.COM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                245,
+                777,
+                487,
+                803
+            ],
+            "text": "29/01/2018 4:40:40 PM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                504,
+                357,
+                552,
+                379
+            ],
+            "text": "6.36",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                561,
+                359,
+                589,
+                378
+            ],
+            "text": "SR",
+            "label": "OTHER"
+        }
+    ]
+}

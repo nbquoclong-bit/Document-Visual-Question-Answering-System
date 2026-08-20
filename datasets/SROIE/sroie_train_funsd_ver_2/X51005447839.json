@@ -1,0 +1,534 @@
+{
+    "form": [
+        {
+            "box": [
+                257,
+                166,
+                683,
+                215
+            ],
+            "text": "RESTAURANT JIAWEI",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                316,
+                219,
+                613,
+                259
+            ],
+            "text": "JIAWEI HOUSE",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                337,
+                264,
+                616,
+                313
+            ],
+            "text": "002693074-K",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                235,
+                314,
+                677,
+                353
+            ],
+            "text": "13, JLN TASIK UTAMA 8",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                193,
+                355,
+                714,
+                396
+            ],
+            "text": "MEDAN NIAGA DAMAI SG BESI",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                365,
+                401,
+                535,
+                440
+            ],
+            "text": "57000 KL",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                390,
+                467,
+                568,
+                508
+            ],
+            "text": "INVOICE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                41,
+                588,
+                305,
+                626
+            ],
+            "text": "INVOICE :9820",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                689,
+                1607,
+                878,
+                1664
+            ],
+            "text": "65.20",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                448,
+                588,
+                716,
+                631
+            ],
+            "text": "CASHIER : ADMIN",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                32,
+                627,
+                202,
+                663
+            ],
+            "text": "POS NO : 1",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                669,
+                543,
+                710
+            ],
+            "text": "DATE : 9/3/2018 20:54:50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                718,
+                243,
+                781
+            ],
+            "text": "TABLE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                336,
+                739,
+                357,
+                783
+            ],
+            "text": ":",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                414,
+                722,
+                493,
+                783
+            ],
+            "text": "16",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                78,
+                839,
+                154,
+                869
+            ],
+            "text": "ITEM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                282,
+                837,
+                345,
+                873
+            ],
+            "text": "QTY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                401,
+                839,
+                527,
+                871
+            ],
+            "text": "U/P (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                572,
+                835,
+                704,
+                874
+            ],
+            "text": "DISC (%)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                740,
+                836,
+                875,
+                872
+            ],
+            "text": "AMT (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                75,
+                915,
+                758,
+                954
+            ],
+            "text": "B. BEAN BITTERGROUND FISH HEAD (S)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                470,
+                959,
+                492,
+                993
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                570,
+                959,
+                676,
+                992
+            ],
+            "text": "35.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                777,
+                959,
+                861,
+                993
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                75,
+                998,
+                547,
+                1034
+            ],
+            "text": "F. HONG KONG SAUTEED (S)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                472,
+                1043,
+                489,
+                1073
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                574,
+                1043,
+                675,
+                1073
+            ],
+            "text": "16.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                780,
+                1042,
+                861,
+                1073
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                75,
+                1081,
+                364,
+                1119
+            ],
+            "text": "STEAMED EGG (S)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                430,
+                1125,
+                447,
+                1155
+            ],
+            "text": "1",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                537,
+                1121,
+                644,
+                1155
+            ],
+            "text": "10.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                736,
+                1124,
+                821,
+                1156
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                77,
+                1165,
+                305,
+                1201
+            ],
+            "text": "CHINESE TEA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                325,
+                1203,
+                346,
+                1239
+            ],
+            "text": "2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                447,
+                1208,
+                534,
+                1240
+            ],
+            "text": "0.60",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                634,
+                1206,
+                717,
+                1239
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                801,
+                1208,
+                884,
+                1244
+            ],
+            "text": "1.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                138,
+                1247,
+                219,
+                1278
+            ],
+            "text": "COLD",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                75,
+                1285,
+                235,
+                1325
+            ],
+            "text": "RICE (B)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                388,
+                1329,
+                410,
+                1364
+            ],
+            "text": "2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                511,
+                1330,
+                596,
+                1362
+            ],
+            "text": "1.50",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                692,
+                1330,
+                781,
+                1363
+            ],
+            "text": "0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                860,
+                1330,
+                883,
+                1363
+            ],
+            "text": "3",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                115,
+                1408,
+                638,
+                1448
+            ],
+            "text": "SUB TOTAL BEFORE DISCOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                691,
+                1407,
+                865,
+                1446
+            ],
+            "text": "RM 65.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                120,
+                1454,
+                410,
+                1491
+            ],
+            "text": "SERVICE CHARGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                714,
+                1454,
+                860,
+                1486
+            ],
+            "text": "RM 0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                122,
+                1494,
+                351,
+                1530
+            ],
+            "text": "TOTAL SALES",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                695,
+                1494,
+                863,
+                1529
+            ],
+            "text": "RM 65.20",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                116,
+                1532,
+                551,
+                1572
+            ],
+            "text": "ROUNDING ADJUSTMENT :",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                714,
+                1534,
+                862,
+                1568
+            ],
+            "text": "RM 0.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                115,
+                1606,
+                304,
+                1659
+            ],
+            "text": "TOTAL",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                572,
+                1604,
+                648,
+                1660
+            ],
+            "text": "RM",
+            "label": "OTHER"
+        }
+    ]
+}

@@ -1,0 +1,464 @@
+{
+    "form": [
+        {
+            "box": [
+                138,
+                121,
+                556,
+                169
+            ],
+            "text": "POPULAR BOOK",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                104,
+                185,
+                625,
+                238
+            ],
+            "text": "CO. (M) SDN BHD",
+            "label": "COMPANY"
+        },
+        {
+            "box": [
+                193,
+                249,
+                502,
+                275
+            ],
+            "text": "(CO. NO. 113825-W)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                124,
+                287,
+                572,
+                314
+            ],
+            "text": "(GST REG NO. 001492992000)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                47,
+                327,
+                645,
+                352
+            ],
+            "text": "NO 8, JALAN 7/118B, DESA TUN RAZAK",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                102,
+                365,
+                593,
+                392
+            ],
+            "text": "56000 KUALA LUMPUR, MALAYSIA",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                208,
+                404,
+                471,
+                431
+            ],
+            "text": "SUNWAY VELOCITY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                155,
+                485,
+                558,
+                511
+            ],
+            "text": "TEL: 03-9201 6281/6920",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                565,
+                171,
+                591
+            ],
+            "text": "12/01/18",
+            "label": "DATE"
+        },
+        {
+            "box": [
+                192,
+                566,
+                278,
+                590
+            ],
+            "text": "16:52",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                334,
+                563,
+                685,
+                589
+            ],
+            "text": "SLIP NO.: 0020070154",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                603,
+                133,
+                630
+            ],
+            "text": "PEI YI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                387,
+                602,
+                596,
+                629
+            ],
+            "text": "TRANS: 77499",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                683,
+                224,
+                709
+            ],
+            "text": "DESCRIPTION",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                529,
+                681,
+                631,
+                706
+            ],
+            "text": "AMOUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                758,
+                313,
+                786
+            ],
+            "text": "70G P. COPY 450'S",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                86,
+                798,
+                283,
+                826
+            ],
+            "text": "2PC @ 13.69",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                564,
+                797,
+                686,
+                823
+            ],
+            "text": "27.38 T",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                51,
+                839,
+                350,
+                865
+            ],
+            "text": "STAT-GREAT SAVING",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                568,
+                834,
+                652,
+                863
+            ],
+            "text": "-6.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                916,
+                405,
+                942
+            ],
+            "text": "TOTAL RM INCL. OF GST",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                565,
+                912,
+                650,
+                940
+            ],
+            "text": "20.98",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                34,
+                955,
+                242,
+                983
+            ],
+            "text": "ROUNDING ADJ",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                585,
+                953,
+                653,
+                980
+            ],
+            "text": "0.02",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                35,
+                997,
+                176,
+                1022
+            ],
+            "text": "TOTAL RM",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                567,
+                994,
+                651,
+                1021
+            ],
+            "text": "21.00",
+            "label": "TOTAL"
+        },
+        {
+            "box": [
+                38,
+                1035,
+                104,
+                1062
+            ],
+            "text": "CASH",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                551,
+                1032,
+                651,
+                1060
+            ],
+            "text": "-50.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                36,
+                1072,
+                139,
+                1102
+            ],
+            "text": "CHANGE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                565,
+                1072,
+                651,
+                1098
+            ],
+            "text": "29.00",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                40,
+                1152,
+                208,
+                1178
+            ],
+            "text": "ITEM COUNT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                36,
+                1190,
+                226,
+                1219
+            ],
+            "text": "GST SUMMARY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                265,
+                1190,
+                455,
+                1216
+            ],
+            "text": "AMOUNT (RM)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                634,
+                1148,
+                652,
+                1177
+            ],
+            "text": "2",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                37,
+                1229,
+                140,
+                1255
+            ],
+            "text": "T @ 6%",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                376,
+                1229,
+                458,
+                1253
+            ],
+            "text": "19.79",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                587,
+                1229,
+                652,
+                1253
+            ],
+            "text": "1.19",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                36,
+                1309,
+                263,
+                1335
+            ],
+            "text": "TOTAL SAVINGS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                569,
+                1303,
+                652,
+                1334
+            ],
+            "text": "-6.40",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                143,
+                1386,
+                567,
+                1413
+            ],
+            "text": "BE A POPULAR CARD MEMBER",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                125,
+                1425,
+                602,
+                1454
+            ],
+            "text": "AND ENJOY SPECIAL DISCOUNTS",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                106,
+                1461,
+                611,
+                1490
+            ],
+            "text": "THANK YOU. PLEASE COME AGAIN.",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                195,
+                1508,
+                511,
+                1529
+            ],
+            "text": "WWW.POPULAR.COM.MY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                143,
+                1541,
+                563,
+                1566
+            ],
+            "text": "BUY CHINESE BOOKS ONLINE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                146,
+                1582,
+                567,
+                1608
+            ],
+            "text": "WWW.POPULARONLINE.COM.MY",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                513,
+                1188,
+                651,
+                1217
+            ],
+            "text": "TAX (RM)",
+            "label": "OTHER"
+        }
+    ]
+}
