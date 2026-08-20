@@ -1,6 +1,7 @@
 """PaddleOCR adapter that exposes normalized OCR tokens to the pipeline."""
 from dataclasses import dataclass
 from functools import lru_cache
+import os
 from pathlib import Path
 from typing import List
 
@@ -21,6 +22,14 @@ class OCRRuntimeError(RuntimeError):
 @lru_cache(maxsize=1)
 def _get_ocr_engine():
     """Load PaddleOCR once per worker, avoiding a model reload for every upload."""
+    # PaddlePaddle 3.x on Windows ignores PADDLE_HOME for a legacy dataset
+    # import and derives its cache from USERPROFILE. Point that process-local
+    # location at the writable project runtime directory before importing Paddle.
+    os.environ["USERPROFILE"] = str(settings.paddle_home)
+    os.environ.setdefault("PADDLE_HOME", str(settings.paddle_home))
+    # PP-OCRv3 inference graphs can fail against Paddle 3.x oneDNN on Windows.
+    # Disabling it trades a little CPU speed for a stable, portable demo runtime.
+    os.environ.setdefault("FLAGS_use_mkldnn", "0")
     try:
         from paddleocr import PaddleOCR
     except ImportError as exc:

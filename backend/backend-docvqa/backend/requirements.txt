@@ -9,9 +9,14 @@ httpx==0.27.2
 pillow>=10.0.0
 # Model runtimes are loaded lazily by app/services. Checkpoints are mounted, not baked in.
 paddleocr>=2.7,<3.0
-paddlepaddle>=2.5
+# PP-OCRv3 model exports are compatible with Paddle 2.x; Paddle 3.x triggers
+# oneDNN inference failures on the Windows CPU runtime.
+paddlepaddle==2.6.2
 torch>=2.0.0
 transformers>=4.35.0
 peft>=0.10.0
 accelerate>=0.24.0
 opencv-python-headless>=4.8.0
+# PaddleOCR 2.x imports Albumentations at startup; the 1.x line does not force
+# an unrelated PyTorch import for the OCR-only runtime.
+albumentations<2.0

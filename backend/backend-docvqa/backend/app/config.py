@@ -6,6 +6,7 @@ Mọi tham số có thể thay đổi theo môi trường triển khai (local / 
 """
 from pathlib import Path
 from typing import Literal
+import os
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -32,6 +33,7 @@ class Settings(BaseSettings):
     # Chỉ đọc checkpoint từ đường dẫn local để API không tự tải nhiều GB weights
     # trong lúc nhận request. Khi chạy Docker, mount thư mục checkpoint vào MODEL_DIR.
     model_dir: Path = base_dir.parent.parent.parent / "model"
+    paddle_home: Path = base_dir / ".paddle"
     ocr_language: Literal["vi", "en"] = "vi"
     ocr_use_angle_classifier: bool = True
     ocr_min_confidence: float = 0.5
@@ -49,3 +51,7 @@ settings = Settings()
 # Đảm bảo thư mục lưu trữ luôn tồn tại khi app khởi động
 settings.upload_dir.mkdir(parents=True, exist_ok=True)
 settings.result_dir.mkdir(parents=True, exist_ok=True)
+settings.paddle_home.mkdir(parents=True, exist_ok=True)
+# PaddleOCR otherwise writes its model cache under the user profile, which can be
+# read-only in a managed desktop environment.
+os.environ.setdefault("PADDLE_HOME", str(settings.paddle_home))

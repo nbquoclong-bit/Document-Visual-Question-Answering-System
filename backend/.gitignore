@@ -4,3 +4,4 @@ venv/
 # Bỏ qua các file rác sinh ra trong quá trình chạy Python
 __pycache__/
 *.pyc
+.paddle/
