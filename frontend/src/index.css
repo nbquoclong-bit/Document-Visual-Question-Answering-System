@@ -1,0 +1,45 @@
+/* File này CHỈ chứa những gì Tailwind (chạy qua CDN, không qua PostCSS) không
+   làm được bằng utility class thuần — vd nền hoạ tiết, scrollbar, global reset.
+   Toàn bộ layout/màu sắc còn lại nằm trực tiếp trong JSX bằng class Tailwind. */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: radial-gradient(circle at 1px 1px, rgba(34, 40, 59, 0.05) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+/* Focus rõ ràng cho mọi phần tử tương tác — accessibility */
+button:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: 2px solid #22283b;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Thanh cuộn mảnh cho khung lịch sử hỏi-đáp */
+.thin-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background: #cfc6b0;
+  border-radius: 999px;
+}

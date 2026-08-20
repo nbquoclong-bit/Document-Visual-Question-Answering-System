@@ -17,8 +17,8 @@ RUN npm ci || npm install
 COPY . ./
 
 # Build arguments for dynamic environment configurations
-ARG VITE_API_BASE_URL
-ENV VITE_API_BASE_URL=$VITE_API_BASE_URL
+ARG VITE_API_URL
+ENV VITE_API_URL=$VITE_API_URL
 
 # Build application for production (Vite outputs to /app/dist)
 RUN npm run build

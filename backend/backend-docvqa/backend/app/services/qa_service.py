@@ -1,22 +1,12 @@
-"""
-QA SERVICE (Visual Question Answering)
-=======================================
-Nhiệm vụ: nhận câu hỏi tự nhiên của người dùng + ảnh hoá đơn (+ token OCR đã có),
-trả về câu trả lời và vùng ảnh làm bằng chứng (evidence bbox) để highlight.
-
->>> ĐÂY LÀ ĐIỂM TÍCH HỢP SẢN PHẨM CỦA NHÓM <<<
-Theo đề cương: Qwen2-VL 2B (đọc ảnh trực tiếp) hoặc Qwen2.5-3B (xử lý text sau OCR).
-Người phụ trách: Model Lead (Lê Minh Sang).
-
-Hàm `answer_question()` hiện dùng logic tra cứu đơn giản trên các field đã trích
-xuất (mock), đủ để test toàn bộ luồng end-to-end mà không cần load model nặng.
-
-Khi tích hợp model thật, giữ nguyên chữ ký hàm:
-    Input : image_path, ocr_tokens, extracted_fields, question
-    Output: QAResult(answer, evidence_bbox, confidence)
-"""
+"""Accounting QA service backed by the team's Qwen2.5 checkpoint when configured."""
+import json
+from difflib import SequenceMatcher
 from dataclasses import dataclass
-from typing import List, Optional
+from functools import lru_cache
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+
+from app.config import settings
 
 from app.services.ocr_service import OCRToken
 from app.services.kie_service import FieldResult
@@ -29,37 +19,96 @@ class QAResult:
     confidence: float
 
 
+@lru_cache(maxsize=1)
+def _get_qa_runtime() -> Tuple[object, object, object]:
+    """Load the local Qwen checkpoint lazily, keeping API startup lightweight."""
+    if not settings.qa_model_path:
+        raise RuntimeError("QA_MODEL_PATH chưa được cấu hình.")
+    checkpoint = Path(settings.qa_model_path)
+    if not checkpoint.is_dir():
+        raise RuntimeError(f"Không tìm thấy QA checkpoint: {checkpoint}")
+
+    try:
+        import torch
+        from transformers import AutoModelForCausalLM, AutoTokenizer
+        from peft import PeftModel
+    except ImportError as exc:
+        raise RuntimeError("Qwen runtime chưa được cài trong backend environment.") from exc
+
+    tokenizer = AutoTokenizer.from_pretrained(str(checkpoint))
+    model = AutoModelForCausalLM.from_pretrained(
+        str(checkpoint),
+        torch_dtype="auto",
+        device_map="auto" if settings.device.startswith("cuda") else None,
+    )
+    if settings.qa_adapter_path:
+        adapter = Path(settings.qa_adapter_path)
+        if not adapter.is_dir():
+            raise RuntimeError(f"Không tìm thấy QLoRA adapter: {adapter}")
+        model = PeftModel.from_pretrained(model, str(adapter))
+    if not settings.device.startswith("cuda"):
+        model.to(settings.device)
+    model.eval()
+    return model, tokenizer, torch
+
+
+def _build_invoice_context(fields: List[FieldResult]) -> Dict[str, str]:
+    """Give Stage 3 only structured KIE data, preserving the no-raw-image design."""
+    return {field.key: field.value for field in fields}
+
+
+def _model_answer(fields: List[FieldResult], question: str) -> str:
+    model, tokenizer, torch = _get_qa_runtime()
+    invoice_json = json.dumps(_build_invoice_context(fields), ensure_ascii=False)
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "Bạn là trợ lý kế toán. Chỉ trả lời dựa trên JSON hoá đơn được cung cấp. "
+                "Nếu dữ liệu không có câu trả lời, hãy nói rõ không tìm thấy thông tin."
+            ),
+        },
+        {"role": "user", "content": f"Dữ liệu hoá đơn: {invoice_json}\n\nCâu hỏi: {question}"},
+    ]
+    prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+    with torch.no_grad():
+        output = model.generate(**inputs, max_new_tokens=160, do_sample=False)
+    return tokenizer.decode(output[0][inputs.input_ids.shape[-1] :], skip_special_tokens=True).strip()
+
+
+def _best_evidence(
+    answer: str, ocr_tokens: List[OCRToken], extracted_fields: List[FieldResult]
+) -> Tuple[Optional[List[float]], float]:
+    """Map generated text back to an existing field/OCR span without inventing evidence."""
+    candidates = [(field.value, field.bbox, field.confidence) for field in extracted_fields]
+    candidates.extend((token.text, token.bbox, token.confidence) for token in ocr_tokens)
+    answer_normalized = answer.lower().strip()
+    best = (None, 0.0)
+    for text, bbox, confidence in candidates:
+        if not bbox or not text:
+            continue
+        score = 1.0 if text.lower() in answer_normalized else SequenceMatcher(None, text.lower(), answer_normalized).ratio()
+        if score > best[1]:
+            best = (bbox, score * confidence)
+    return best if best[1] >= 0.6 else (None, 0.0)
+
+
 def answer_question(
     image_path: str,
     ocr_tokens: List[OCRToken],
     extracted_fields: List[FieldResult],
     question: str,
 ) -> QAResult:
-    """
-    TODO(Model Lead): thay nội dung hàm này bằng lời gọi Qwen2-VL / Qwen2.5 thật.
+    """Answer with Qwen2.5 or use deterministic KIE lookup when no QA checkpoint exists."""
+    if settings.qa_model_path:
+        answer = _model_answer(extracted_fields, question)
+        evidence_bbox, confidence = _best_evidence(answer, ocr_tokens, extracted_fields)
+        return QAResult(answer=answer, evidence_bbox=evidence_bbox, confidence=confidence)
 
-    Ví dụ khung tích hợp thật (tham khảo):
+    if not settings.allow_rule_based_fallback:
+        raise RuntimeError("QA_MODEL_PATH chưa được cấu hình và fallback đã bị tắt.")
 
-        from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
-        _model = Qwen2VLForConditionalGeneration.from_pretrained(settings.qa_model_path)
-        _processor = AutoProcessor.from_pretrained(settings.qa_model_path)
-
-        def answer_question(image_path, ocr_tokens, extracted_fields, question):
-            # build prompt từ question + (tuỳ chọn) text OCR làm context
-            # chạy generate(), parse câu trả lời
-            # ánh xạ câu trả lời về bbox của token/field liên quan để làm evidence
-            ...
-
-    Input :
-        image_path: đường dẫn ảnh gốc
-        ocr_tokens: toàn bộ token OCR (context bổ sung, có thể model không cần dùng
-                    nếu là Qwen2-VL đọc ảnh trực tiếp)
-        extracted_fields: các field đã có từ kie_service (mock tra cứu dùng cái này)
-        question: câu hỏi của người dùng, tiếng Việt hoặc tiếng Anh
-    Output:
-        QAResult
-    """
-    # --- MOCK: tra cứu đơn giản theo từ khoá trong field đã trích xuất ---
     q_lower = question.lower()
 
     keyword_map = {

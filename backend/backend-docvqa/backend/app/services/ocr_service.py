@@ -1,63 +1,82 @@
-"""
-OCR SERVICE
-===========
-Nhiệm vụ: nhận đường dẫn ảnh hoá đơn, trả về danh sách token văn bản kèm bounding box.
-
->>> ĐÂY LÀ ĐIỂM TÍCH HỢP SẢN PHẨM CỦA NHÓM <<<
-Theo đề cương, model dùng ở bước này là PaddleOCR (PP-OCRv4). Người phụ trách theo
-phân công là Model Lead (Lê Minh Sang) / Data Engineer (Nguyễn Văn Nhật Nam).
-
-Hàm `run_ocr()` bên dưới hiện đang trả về dữ liệu MOCK (giả lập) để toàn bộ API chạy
-được ngay hôm nay, không phải chờ model thật. Khi nhóm có checkpoint PaddleOCR:
-
-    1. Xoá phần mock bên trong `run_ocr`.
-    2. Load model thật (gợi ý dùng `settings.ocr_model_path` trong app/config.py để
-       không hard-code đường dẫn).
-    3. Giữ nguyên chữ ký hàm (input: str, output: List[OCRToken]) — phần còn lại của
-       backend (pipeline_service, routers) sẽ không cần sửa gì thêm.
-
-Contract (hợp đồng dữ liệu) — PHẢI giữ nguyên khi thay bằng model thật:
-    Input : image_path: str — đường dẫn ảnh đã lưu trên disk
-    Output: List[OCRToken] — mỗi token gồm text, bbox [x1,y1,x2,y2] (pixel, gốc trên-trái),
-            và confidence trong [0,1]
-"""
+"""PaddleOCR adapter that exposes normalized OCR tokens to the pipeline."""
 from dataclasses import dataclass
+from functools import lru_cache
+from pathlib import Path
 from typing import List
+
+from app.config import settings
 
 
 @dataclass
 class OCRToken:
     text: str
-    bbox: List[float]        # [x1, y1, x2, y2]
+    bbox: List[float]  # [x0, y0, x1, y1], normalized to [0, 1]
     confidence: float
 
 
-def run_ocr(image_path: str) -> List[OCRToken]:
-    """
-    TODO(Model Lead / Data Engineer): thay nội dung hàm này bằng lời gọi PaddleOCR thật.
+class OCRRuntimeError(RuntimeError):
+    """Raised when the configured OCR runtime is unavailable."""
 
-    Ví dụ tích hợp thật (tham khảo, chưa chạy được vì thiếu model đã tải):
 
+@lru_cache(maxsize=1)
+def _get_ocr_engine():
+    """Load PaddleOCR once per worker, avoiding a model reload for every upload."""
+    try:
         from paddleocr import PaddleOCR
-        _ocr_engine = PaddleOCR(use_angle_cls=True, lang="vi")
+    except ImportError as exc:
+        raise OCRRuntimeError(
+            "PaddleOCR chưa được cài. Cài dependencies model trước khi xử lý tài liệu."
+        ) from exc
 
-        def run_ocr(image_path: str) -> List[OCRToken]:
-            result = _ocr_engine.ocr(image_path, cls=True)
-            tokens = []
-            for line in result[0]:
-                bbox_points, (text, confidence) = line
-                xs = [p[0] for p in bbox_points]
-                ys = [p[1] for p in bbox_points]
-                tokens.append(OCRToken(
-                    text=text,
-                    bbox=[min(xs), min(ys), max(xs), max(ys)],
-                    confidence=float(confidence),
-                ))
-            return tokens
+    return PaddleOCR(
+        use_angle_cls=settings.ocr_use_angle_classifier,
+        lang=settings.ocr_language,
+        show_log=False,
+        use_gpu=settings.device.startswith("cuda"),
+    )
+
+
+def run_ocr(image_path: str) -> List[OCRToken]:
+    """Run PaddleOCR and convert quadrilaterals into normalized, sorted boxes.
+
+    The public contract deliberately uses normalized coordinates. Model-specific
+    coordinates (PaddleOCR pixels, LayoutLMv3's 0-1000 scale) stay inside services.
     """
-    # --- MOCK: xoá khối này khi tích hợp model thật ---
-    return [
-        OCRToken(text="CỬA HÀNG ABC", bbox=[50, 20, 300, 45], confidence=0.98),
-        OCRToken(text="Ngày: 01/08/2026", bbox=[50, 60, 220, 82], confidence=0.95),
-        OCRToken(text="Tổng cộng: 150,000 VND", bbox=[50, 400, 320, 425], confidence=0.93),
-    ]
+    try:
+        from PIL import Image
+    except ImportError as exc:
+        raise OCRRuntimeError("Pillow chưa được cài. Cài dependencies model trước khi xử lý tài liệu.") from exc
+
+    with Image.open(Path(image_path)) as image:
+        width, height = image.size
+
+    if width <= 0 or height <= 0:
+        raise OCRRuntimeError("Không thể xác định kích thước ảnh tài liệu.")
+
+    result = _get_ocr_engine().ocr(image_path, cls=settings.ocr_use_angle_classifier)
+    if not result or not result[0]:
+        return []
+
+    tokens: List[OCRToken] = []
+    for quadrilateral, (text, confidence) in result[0]:
+        score = float(confidence)
+        if score < settings.ocr_min_confidence or not text.strip():
+            continue
+
+        xs = [point[0] for point in quadrilateral]
+        ys = [point[1] for point in quadrilateral]
+        tokens.append(
+            OCRToken(
+                text=text.strip(),
+                bbox=[
+                    max(0.0, min(xs) / width),
+                    max(0.0, min(ys) / height),
+                    min(1.0, max(xs) / width),
+                    min(1.0, max(ys) / height),
+                ],
+                confidence=score,
+            )
+        )
+
+    # PaddleOCR does not guarantee reading order for complex invoice layouts.
+    return sorted(tokens, key=lambda item: ((item.bbox[1] + item.bbox[3]) / 2, item.bbox[0]))

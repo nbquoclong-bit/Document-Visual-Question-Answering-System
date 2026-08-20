@@ -27,10 +27,17 @@ class ExtractedFieldOut(BaseModel):
     model_config = {"from_attributes": True}
 
 
+class OCRTokenOut(BaseModel):
+    text: str
+    bbox: List[float]
+    confidence: float
+
+
 class ProcessResponse(BaseModel):
     document_id: str
     status: DocumentStatus
     fields: List[ExtractedFieldOut] = Field(default_factory=list)
+    ocr_tokens: List[OCRTokenOut] = Field(default_factory=list)
     error_message: Optional[str] = None
 
 
@@ -65,6 +72,7 @@ class DocumentDetailOut(BaseModel):
     original_filename: str
     status: DocumentStatus
     error_message: Optional[str] = None
+    ocr_tokens: List[OCRTokenOut] = Field(default_factory=list)
     fields: List[ExtractedFieldOut] = Field(default_factory=list)
     qa_history: List[QARecordOut] = Field(default_factory=list)
     created_at: datetime

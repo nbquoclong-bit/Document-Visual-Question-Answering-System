@@ -29,14 +29,16 @@ WORKDIR /app
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel
 
 # Copy requirements.txt and install Python dependencies
-COPY backend-docvqa/backend/requirements.txt ./requirements.txt
+COPY backend/backend-docvqa/backend/requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Create necessary directories for runtime storage (uploads, results, database)
 RUN mkdir -p /app/uploads /app/results
 
 # Copy application source code
-COPY backend-docvqa/backend /app
+COPY backend/backend-docvqa/backend /app
+# Source code for the team's Stage 0-3 adapters. Model weights remain a runtime volume.
+COPY model /model
 
 # Create non-root user for security best practices and assign permissions
 RUN useradd -m -u 1000 appuser && \

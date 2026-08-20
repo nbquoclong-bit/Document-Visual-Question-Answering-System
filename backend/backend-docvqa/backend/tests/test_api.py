@@ -1,12 +1,10 @@
-"""
-Test smoke: kiểm tra toàn bộ luồng nghiệp vụ chạy được với dữ liệu mock,
-KHÔNG kiểm tra độ chính xác của model (vì model thật chưa được tích hợp).
-"""
+"""API contract tests with injected model outputs; no GPU or weights are required."""
 import io
 
 from fastapi.testclient import TestClient
 
 from app.main import app
+from app.services import kie_service, ocr_service, qa_service
 
 client = TestClient(app)
 
@@ -22,7 +20,27 @@ def test_health():
     assert resp.json()["status"] == "ok"
 
 
-def test_full_pipeline_flow():
+def test_full_pipeline_flow(monkeypatch):
+    monkeypatch.setattr(
+        ocr_service,
+        "run_ocr",
+        lambda _: [
+            ocr_service.OCRToken("CỬA HÀNG ABC", [0.1, 0.05, 0.5, 0.1], 0.98),
+            ocr_service.OCRToken("Tổng cộng: 150,000 VND", [0.1, 0.8, 0.7, 0.85], 0.93),
+        ],
+    )
+    monkeypatch.setattr(
+        kie_service,
+        "extract_fields",
+        lambda _path, _tokens: [
+            kie_service.FieldResult("total_amount", "150,000 VND", [0.1, 0.8, 0.7, 0.85], 0.93)
+        ],
+    )
+    monkeypatch.setattr(
+        qa_service,
+        "answer_question",
+        lambda *_args: qa_service.QAResult("150,000 VND", [0.1, 0.8, 0.7, 0.85], 0.93),
+    )
     # 1) Upload
     files = {"file": ("invoice.jpg", io.BytesIO(_fake_image_bytes()), "image/jpeg")}
     resp = client.post("/api/v1/documents/upload", files=files)
@@ -36,6 +54,7 @@ def test_full_pipeline_flow():
     body = resp.json()
     assert body["status"] == "processed"
     assert len(body["fields"]) > 0
+    assert body["ocr_tokens"][0]["bbox"] == [0.1, 0.05, 0.5, 0.1]
 
     # 3) Ask (VQA mock)
     resp = client.post(
@@ -50,7 +69,11 @@ def test_full_pipeline_flow():
     assert resp.status_code == 200
     assert len(resp.json()["qa_history"]) == 1
 
-    # 5) Export JSON
+    # 5) Original image URL used by the React document viewer
+    resp = client.get(f"/api/v1/documents/{document_id}/image")
+    assert resp.status_code == 200
+
+    # 6) Export JSON
     resp = client.get(f"/api/v1/documents/{document_id}/export")
     assert resp.status_code == 200
     assert resp.headers["content-type"] == "application/json"

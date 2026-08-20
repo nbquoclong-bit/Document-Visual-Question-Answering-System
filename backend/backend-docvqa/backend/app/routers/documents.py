@@ -4,8 +4,9 @@ Chứa toàn bộ endpoint theo đúng luồng nghiệp vụ mô tả trong đ�
 
     upload ảnh -> process (OCR + KIE) -> ask (VQA) -> get/export JSON
 """
-import json
+import mimetypes
 from dataclasses import asdict
+from pathlib import Path
 
 from fastapi import APIRouter, Depends, UploadFile, File, HTTPException
 from fastapi.responses import FileResponse
@@ -14,7 +15,7 @@ from sqlalchemy.orm import Session
 from app.database import get_db
 from app.models_db import Document, DocumentStatus, QARecord
 from app.schemas import (
-    UploadResponse, ProcessResponse, AskRequest, AskResponse,
+    UploadResponse, ProcessResponse, AskRequest, AskResponse, OCRTokenOut,
     DocumentDetailOut, ExtractedFieldOut, QARecordOut,
 )
 from app.services import pipeline_service, qa_service, ocr_service
@@ -62,6 +63,7 @@ def process_document(document_id: str, db: Session = Depends(get_db)):
         document_id=document.id,
         status=document.status,
         fields=[ExtractedFieldOut.model_validate(f) for f in document.fields],
+        ocr_tokens=[OCRTokenOut(**token) for token in (document.ocr_raw or [])],
         error_message=document.error_message,
     )
 
@@ -117,11 +119,24 @@ def get_document(document_id: str, db: Session = Depends(get_db)):
         original_filename=document.original_filename,
         status=document.status,
         error_message=document.error_message,
+        ocr_tokens=[OCRTokenOut(**token) for token in (document.ocr_raw or [])],
         fields=[ExtractedFieldOut.model_validate(f) for f in document.fields],
         qa_history=[QARecordOut.model_validate(q) for q in document.qa_records],
         created_at=document.created_at,
         updated_at=document.updated_at,
     )
+
+
+@router.get("/{document_id}/image")
+def get_document_image(document_id: str, db: Session = Depends(get_db)):
+    """Serve the original upload so the React document viewer can overlay evidence."""
+    document = _get_document_or_404(db, document_id)
+    image_path = Path(document.stored_path)
+    if not image_path.is_file():
+        raise HTTPException(status_code=404, detail="Không tìm thấy file gốc của tài liệu.")
+
+    media_type, _ = mimetypes.guess_type(image_path.name)
+    return FileResponse(path=image_path, media_type=media_type or "application/octet-stream")
 
 
 @router.get("/{document_id}/export")
@@ -134,6 +149,7 @@ def export_document(document_id: str, db: Session = Depends(get_db)):
         original_filename=document.original_filename,
         status=document.status,
         error_message=document.error_message,
+        ocr_tokens=[OCRTokenOut(**token) for token in (document.ocr_raw or [])],
         fields=[ExtractedFieldOut.model_validate(f) for f in document.fields],
         qa_history=[QARecordOut.model_validate(q) for q in document.qa_records],
         created_at=document.created_at,

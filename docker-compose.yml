@@ -3,17 +3,19 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ./backend
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: backend/Dockerfile
     container_name: docvqa-backend
     ports:
       - "8000:8000"
     environment:
       - PYTHONUNBUFFERED=1
       - DATABASE_URL=sqlite:////app/app.db
+      - MODEL_DIR=/model
     volumes:
       - backend-uploads:/app/uploads
       - backend-results:/app/results
+      - ./model:/model:ro
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
