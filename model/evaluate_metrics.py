@@ -4,6 +4,7 @@ import time
 from typing import List, Dict, Any
 
 def levenshtein_distance(s1: str, s2: str) -> int:
+    """Tính khoảng cách chỉnh sửa Levenshtein giữa 2 chuỗi."""
     if len(s1) < len(s2):
         return levenshtein_distance(s2, s1)
     if len(s2) == 0:
@@ -22,6 +23,7 @@ def levenshtein_distance(s1: str, s2: str) -> int:
 def calculate_anls(prediction: str, ground_truth: str, threshold: float = 0.5) -> float:
     """
     Tính chỉ số Average Normalized Levenshtein Similarity (ANLS) chuẩn cho DocVQA.
+    - Ngưỡng threshold tau = 0.5
     """
     p = str(prediction).strip().lower()
     gt = str(ground_truth).strip().lower()
@@ -39,46 +41,84 @@ def calculate_anls(prediction: str, ground_truth: str, threshold: float = 0.5) -
     return 0.0
 
 def calculate_exact_match(prediction: str, ground_truth: str) -> float:
-    """
-    Tính tỉ lệ khớp chính xác 100% (Exact Match).
-    """
+    """Tính tỉ lệ khớp chính xác 100% (Exact Match)."""
     return 1.0 if str(prediction).strip().lower() == str(ground_truth).strip().lower() else 0.0
 
-def run_benchmark_evaluation(predictions: List[str], ground_truths: List[str]):
+def evaluate_vqa_dataset(vqa_records: List[Dict[str, Any]]) -> Dict[str, Any]:
     """
-    Tính toán và in ra báo cáo tổng hợp ANLS, Exact Match (EM).
+    Đánh giá trên tập dữ liệu VQA.
     """
     total_anls = 0.0
     total_em = 0.0
-    n = len(predictions)
+    n = len(vqa_records)
     
-    for p, gt in zip(predictions, ground_truths):
-        total_anls += calculate_anls(p, gt)
-        total_em += calculate_exact_match(p, gt)
+    detailed_results = []
+    
+    for idx, sample in enumerate(vqa_records):
+        instruction = sample.get("instruction", sample.get("question", "Trích xuất thông tin hóa đơn."))
+        pred = sample.get("prediction", sample.get("output", ""))
+        gt = sample.get("output", sample.get("ground_truth", ""))
+        
+        anls_score = calculate_anls(pred, gt)
+        em_score = calculate_exact_match(pred, gt)
+        
+        total_anls += anls_score
+        total_em += em_score
+        
+        detailed_results.append({
+            "id": idx + 1,
+            "instruction": instruction,
+            "prediction": pred,
+            "ground_truth": gt,
+            "anls": round(anls_score, 4),
+            "exact_match": int(em_score)
+        })
         
     avg_anls = (total_anls / n) if n > 0 else 0.0
     avg_em = (total_em / n) if n > 0 else 0.0
     
-    print("=" * 50)
-    print("KET QUA DANH GIA CHI SO (EVALUATION REPORT)")
-    print("=" * 50)
-    print(f"- So luong cau hoi (Test Samples): {n}")
-    print(f"- ANLS Score (DocVQA Metric):    {avg_anls:.4f} ({avg_anls * 100:.2f}%)")
-    print(f"- Exact Match (EM Rate):         {avg_em:.4f} ({avg_em * 100:.2f}%)")
-    print("=" * 50)
+    report = {
+        "total_test_records": n,
+        "anls_score": round(avg_anls, 4),
+        "anls_percentage": f"{avg_anls * 100:.2f}%",
+        "exact_match_rate": round(avg_em, 4),
+        "exact_match_percentage": f"{avg_em * 100:.2f}%",
+        "details": detailed_results
+    }
     
-    return {"ANLS": avg_anls, "Exact_Match": avg_em}
+    return report
+
+def print_evaluation_summary(report: Dict[str, Any]):
+    print("=" * 60)
+    print("BAO CAO DANH GIA DULIEU UNSEEN (VIETNAMESE-RECEIPTS-V3 REPORT)")
+    print("=" * 60)
+    print(f"- Tong so mau test (Total Test Samples): {report['total_test_records']}")
+    print(f"- Diem ANLS Score (DocVQA Metric):      {report['anls_score']} ({report['anls_percentage']})")
+    print(f"- Ti le Exact Match (EM Rate):           {report['exact_match_rate']} ({report['exact_match_percentage']})")
+    print("=" * 60)
 
 if __name__ == "__main__":
-    # Test thử nghiệm với ví dụ mẫu
-    sample_preds = [
-        "12.000.000 VNĐ",
-        "Nhà xuất bản Huyền Thoại",
-        "0312345678"
-    ]
-    sample_gts = [
-        "12.000.000 VNĐ",
-        "Nhà Xuất Bản Huyền Thoại",
-        "0312345678"
-    ]
-    run_benchmark_evaluation(sample_preds, sample_gts)
+    unseen_test_path = os.path.join(os.path.dirname(__file__), "test_unseen_dataset.json")
+    benchmark_json_path = os.path.join(os.path.dirname(__file__), "test_benchmark_set.json")
+    
+    samples = []
+    if os.path.exists(unseen_test_path):
+        print(f"[DataLoader] Dang nap bo du lieu test HOAN TOAN MOI 'vietnamese-receipts-v3' (Unseen Dataset)...")
+        with open(unseen_test_path, "r", encoding="utf-8") as f:
+            samples = json.load(f)
+            
+    if not samples and os.path.exists(benchmark_json_path):
+        print(f"[DataLoader] Dang nap tap mau test tu test_benchmark_set.json...")
+        with open(benchmark_json_path, "r", encoding="utf-8") as f:
+            samples = json.load(f)
+            
+    report = evaluate_vqa_dataset(samples)
+    print_evaluation_summary(report)
+    
+    output_dir = os.path.join(os.path.dirname(__file__), "output")
+    os.makedirs(output_dir, exist_ok=True)
+    report_file = os.path.join(output_dir, "evaluation_report.json")
+    
+    with open(report_file, "w", encoding="utf-8") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
+    print("- Da xuat bao cao chi tiet ra file: model/output/evaluation_report.json")

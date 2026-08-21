@@ -13,13 +13,13 @@ class VQAEngine:
         )
         
         if adapter_dir:
-            self.model = PeftModel.from_pretrained(self.model, adapter_dir)
+            try:
+                self.model = PeftModel.from_pretrained(self.model, adapter_dir)
+            except Exception as e:
+                print(f"[Warning] Failed to load adapter from {adapter_dir}: {e}. Running base model.")
         
         self.model.eval()
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        # Ensure model is on device if device_map="auto" didn't already put it there
-        if not hasattr(self.model, "hf_device_map"):
-            self.model.to(self.device)
 
     def extract_and_answer(self, image_path: str, question: str = "Trích xuất thông tin hóa đơn và kiểm tra tính toán.") -> str:
         messages = [
@@ -47,13 +47,17 @@ class VQAEngine:
             videos=video_inputs,
             padding=True,
             return_tensors="pt",
-        ).to(self.device)
+        )
+        
+        # Place input tensors on model device
+        target_device = self.model.device if hasattr(self.model, "device") else self.device
+        inputs = {k: v.to(target_device) for k, v in inputs.items()}
 
         with torch.no_grad():
             generated_ids = self.model.generate(**inputs, max_new_tokens=512, temperature=0.1, do_sample=False)
 
         generated_ids_trimmed = [
-            out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+            out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs["input_ids"], generated_ids)
         ]
         
         response = self.processor.batch_decode(
@@ -63,7 +67,4 @@ class VQAEngine:
         return response[0].strip()
 
 if __name__ == "__main__":
-    # Test inference
-    # engine = VQAEngine()
-    # print(engine.extract_and_answer("path/to/invoice.jpg", "Tổng tiền là bao nhiêu?"))
     pass
