@@ -36,11 +36,22 @@ class Qwen2VLDataCollator:
         )
         
         # Labels are identical to input_ids for Causal LM. 
-        # We replace padding token ids with -100 so they are ignored in loss computation.
+        # We replace padding token ids and prompt tokens with -100 so loss is calculated ONLY on completion tokens.
         labels = inputs["input_ids"].clone()
         labels[inputs["attention_mask"] == 0] = -100
-        inputs["labels"] = labels
         
+        # Mask system + user prompt tokens
+        assistant_token_ids = self.processor.tokenizer.encode("<|im_start|>assistant\n", add_special_tokens=False)
+        for i, text_str in enumerate(texts):
+            input_ids_list = inputs["input_ids"][i].tolist()
+            assistant_start = -1
+            for idx in range(len(input_ids_list) - len(assistant_token_ids) + 1):
+                if input_ids_list[idx : idx + len(assistant_token_ids)] == assistant_token_ids:
+                    assistant_start = idx + len(assistant_token_ids)
+            if assistant_start != -1:
+                labels[i, :assistant_start] = -100
+                
+        inputs["labels"] = labels
         return inputs
 
 

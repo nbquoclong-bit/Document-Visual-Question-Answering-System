@@ -66,19 +66,51 @@ def convert_funsd_to_vqa(data_dirs, image_index, output_path):
                 entities[label.upper()].append(text)
             
             if entities:
+                # 1. Full JSON extraction record
                 output_dict = {lbl: " ".join(texts) for lbl, texts in entities.items()}
-                
-                record = {
+                vqa_records.append({
                     "image_path": os.path.abspath(target_image),
-                    "instruction": "Trích xuất thông tin hóa đơn dưới dạng JSON.",
+                    "instruction": "Trích xuất toàn bộ thông tin hóa đơn dưới dạng JSON.",
                     "output": json.dumps(output_dict, ensure_ascii=False)
-                }
-                vqa_records.append(record)
+                })
+                
+                # 2. Single-field VQA QA pairs for targeted instruction tuning
+                if "SELLER" in entities:
+                    vqa_records.append({
+                        "image_path": os.path.abspath(target_image),
+                        "instruction": "Tên cửa hàng / bên bán là gì?",
+                        "output": " ".join(entities["SELLER"])
+                    })
+                if "TOTAL_COST" in entities:
+                    vqa_records.append({
+                        "image_path": os.path.abspath(target_image),
+                        "instruction": "Tổng tiền thanh toán trên hóa đơn?",
+                        "output": " ".join(entities["TOTAL_COST"])
+                    })
+                if "TIMESTAMP" in entities:
+                    vqa_records.append({
+                        "image_path": os.path.abspath(target_image),
+                        "instruction": "Ngày giờ lập hóa đơn là khi nào?",
+                        "output": " ".join(entities["TIMESTAMP"])
+                    })
+                if "ITEM_NAME" in entities:
+                    vqa_records.append({
+                        "image_path": os.path.abspath(target_image),
+                        "instruction": "Đã mua những sản phẩm / món ăn nào?",
+                        "output": ", ".join(entities["ITEM_NAME"])
+                    })
+                if "TAX" in entities or "VAT" in entities:
+                    tax_val = " ".join(entities.get("TAX", entities.get("VAT", [])))
+                    vqa_records.append({
+                        "image_path": os.path.abspath(target_image),
+                        "instruction": "Thuế VAT / Tiền thuế là bao nhiêu?",
+                        "output": tax_val
+                    })
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(vqa_records, f, ensure_ascii=False, indent=2)
         
-    print(f"[INFO] Successfully created {output_path} with {len(vqa_records)} records!")
+    print(f"[INFO] Successfully created {output_path} with {len(vqa_records)} VQA records!")
 
 if __name__ == "__main__":
     base_dir = os.path.dirname(os.path.abspath(__file__))
