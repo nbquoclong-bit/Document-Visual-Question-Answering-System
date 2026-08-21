@@ -1,0 +1,34 @@
+# Python / PyCache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual Environments & IDE
+venv/
+env/
+ENV/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary Image / Input / Certificate Files
+temp_*.jpg
+temp_*.png
+*.tmp
+.gradio/
+
+# Archives & Large Model Weights
+*.zip
+*.tar.gz
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Exception: keep .gitkeep in output folders
+!*/.gitkeep

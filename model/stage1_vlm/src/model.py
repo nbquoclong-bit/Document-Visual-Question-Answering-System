@@ -1,7 +1,7 @@
 """
-model.py - Qwen2.5-1.5B-Instruct with QLoRA for Vietnamese accounting QA.
+model.py - Qwen2-VL-2B-Instruct with QLoRA for Vietnamese accounting VQA.
 
-Loads the base model with 4-bit quantization, applies LoRA adapters,
+Loads the base Vision-Language Model with 4-bit quantization, applies LoRA adapters,
 and provides utilities to save adapters or merge them into the base model.
 """
 
@@ -17,18 +17,9 @@ from peft import (
     TaskType,
     prepare_model_for_kbit_training,
 )
-from transformers import AutoTokenizer, BitsAndBytesConfig
+from transformers import Qwen2VLForConditionalGeneration, AutoProcessor, BitsAndBytesConfig
 
-try:
-    from unsloth import FastLanguageModel
-except ImportError:
-    raise ImportError(
-        "unsloth is required. Install with: pip install unsloth"
-    )
-
-
-BASE_MODEL_NAME = "Qwen/Qwen2.5-1.5B-Instruct"
-MAX_SEQ_LENGTH = 512
+BASE_MODEL_NAME = "Qwen/Qwen2-VL-2B-Instruct"
 
 
 def get_quantization_config() -> BitsAndBytesConfig:
@@ -42,14 +33,14 @@ def get_quantization_config() -> BitsAndBytesConfig:
 
 
 def get_lora_config(target_modules: Optional[list] = None) -> LoraConfig:
-    """Return LoRA configuration for Qwen2.5 attention + MLP layers."""
+    """Return LoRA configuration for Qwen2-VL attention + MLP layers."""
     default_targets = [
         "q_proj", "k_proj", "v_proj", "o_proj",
         "gate_proj", "up_proj", "down_proj",
     ]
     return LoraConfig(
-        r=8,
-        lora_alpha=16,
+        r=16,
+        lora_alpha=32,
         lora_dropout=0.05,
         bias="none",
         task_type=TaskType.CAUSAL_LM,
@@ -57,57 +48,61 @@ def get_lora_config(target_modules: Optional[list] = None) -> LoraConfig:
     )
 
 
-def load_model_and_tokenizer(
+def load_model_and_processor(
     base_model_name: str = BASE_MODEL_NAME,
-    max_seq_length: int = MAX_SEQ_LENGTH,
     device_map: str = "auto",
+    is_training: bool = True
 ) -> Tuple:
     """
-    Load base model with 4-bit quantization and apply LoRA adapters.
+    Load base VLM with 4-bit quantization and processor. Apply LoRA if training.
 
     Args:
         base_model_name: Hugging Face model identifier.
-        max_seq_length: Maximum sequence length.
         device_map: Device allocation strategy.
+        is_training: If True, applies QLoRA preparation.
 
     Returns:
-        Tuple of (model, tokenizer) ready for training.
+        Tuple of (model, processor).
     """
     print(f"[model] Loading base model: {base_model_name}")
 
-    model, tokenizer = FastLanguageModel.from_pretrained(
-        model_name=base_model_name,
-        max_seq_length=max_seq_length,
-        dtype=None,
-        load_in_4bit=True,
+    processor = AutoProcessor.from_pretrained(base_model_name)
+    
+    quantization_config = get_quantization_config() if is_training else None
+
+    model = Qwen2VLForConditionalGeneration.from_pretrained(
+        base_model_name,
+        quantization_config=quantization_config,
+        torch_dtype=torch.bfloat16,
+        device_map=device_map,
     )
 
-    model = prepare_model_for_kbit_training(model)
+    if is_training:
+        model = prepare_model_for_kbit_training(model)
+        lora_cfg = get_lora_config()
+        model = get_peft_model(model, lora_cfg)
+        model.print_trainable_parameters()
+        print("[model] Model loaded with QLoRA adapters applied.")
+    else:
+        print("[model] Model loaded for inference.")
 
-    lora_cfg = get_lora_config()
-    model = get_peft_model(model, lora_cfg)
-
-    model.print_trainable_parameters()
-    print("[model] Model loaded with QLoRA adapters applied.")
-    return model, tokenizer
+    return model, processor
 
 
 def save_model(
     model,
-    tokenizer,
+    processor,
     save_dir: str,
     merge: bool = False,
-    save_tokenizer: bool = True,
 ) -> Path:
     """
     Save LoRA adapters (and optionally merge with base model).
 
     Args:
         model: PeftModel to save.
-        tokenizer: Tokenizer to save alongside adapters.
+        processor: Processor to save alongside adapters.
         save_dir: Output directory path.
         merge: If True, merge LoRA weights into base model.
-        save_tokenizer: Whether to save the tokenizer.
 
     Returns:
         Path to the saved model directory.
@@ -120,8 +115,7 @@ def save_model(
         merged_model = model.merge_and_unload()
         merged_save_path = save_path / "merged_model"
         merged_model.save_pretrained(str(merged_save_path))
-        if save_tokenizer:
-            tokenizer.save_pretrained(str(merged_save_path))
+        processor.save_pretrained(str(merged_save_path))
         print(f"[model] Merged model saved to: {merged_save_path}")
 
         del merged_model
@@ -131,18 +125,17 @@ def save_model(
     else:
         adapter_path = save_path / "lora_adapters"
         model.save_pretrained(str(adapter_path))
-        if save_tokenizer:
-            tokenizer.save_pretrained(str(adapter_path))
+        processor.save_pretrained(str(adapter_path))
         print(f"[model] LoRA adapters saved to: {adapter_path}")
         return adapter_path
 
 
-def free_memory(model=None, tokenizer=None) -> None:
+def free_memory(model=None, processor=None) -> None:
     """Explicitly free GPU memory after training or inference."""
     if model is not None:
         del model
-    if tokenizer is not None:
-        del tokenizer
+    if processor is not None:
+        del processor
     gc.collect()
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
