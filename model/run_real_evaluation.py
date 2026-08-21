@@ -109,6 +109,7 @@ def run_real_model_evaluation(num_samples: int = 10):
     avg_em = total_em / n if n > 0 else 0.0
     
     report = {
+        "total_test_records": n,
         "total_evaluated": n,
         "anls_score": round(avg_anls, 4),
         "anls_percentage": f"{avg_anls * 100:.2f}%",
