@@ -1,14 +1,27 @@
 import sys
-import codecs
-sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
-
 import os
+
+# Tự động nạp thư mục gốc dự án và thư mục model vào sys.path
+base_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.abspath(os.path.join(base_dir, ".."))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+if base_dir not in sys.path:
+    sys.path.insert(0, base_dir)
+
 import json
 import time
 from typing import List, Dict, Any
 
-from model.stage1_vlm.src.inference import VQAEngine
-from model.evaluate_metrics import calculate_anls, calculate_exact_match, print_evaluation_summary
+try:
+    from stage1_vlm.src.inference import VQAEngine
+except ImportError:
+    from model.stage1_vlm.src.inference import VQAEngine
+
+try:
+    from evaluate_metrics import calculate_anls, calculate_exact_match, print_evaluation_summary
+except ImportError:
+    from model.evaluate_metrics import calculate_anls, calculate_exact_match, print_evaluation_summary
 
 def find_adapter_dir():
     possible_paths = [
