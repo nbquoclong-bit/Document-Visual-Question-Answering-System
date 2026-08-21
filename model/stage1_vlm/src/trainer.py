@@ -1,11 +1,22 @@
 import os
+import sys
 import yaml
 import torch
 from transformers import Trainer, TrainingArguments
 from qwen_vl_utils import process_vision_info
 
-from stage1_vlm.src.model import load_model_and_processor, save_model
-from stage1_vlm.src.dataset import VQADataset, load_dataset_records
+# Auto-add model directory to sys.path so imports work from any cwd
+_here = os.path.dirname(os.path.abspath(__file__))
+_model_dir = os.path.abspath(os.path.join(_here, "../.."))
+if _model_dir not in sys.path:
+    sys.path.insert(0, _model_dir)
+
+try:
+    from stage1_vlm.src.model import load_model_and_processor, save_model
+    from stage1_vlm.src.dataset import VQADataset, load_dataset_records
+except ImportError:
+    from src.model import load_model_and_processor, save_model
+    from src.dataset import VQADataset, load_dataset_records
 
 class Qwen2VLDataCollator:
     """
