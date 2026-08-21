@@ -23,12 +23,14 @@ BASE_MODEL_NAME = "Qwen/Qwen2-VL-2B-Instruct"
 
 
 def get_quantization_config() -> BitsAndBytesConfig:
-    """Return 4-bit quantization config for memory-efficient loading."""
+    """Return 4-bit quantization config for memory-efficient loading.
+    Uses float16 compute dtype for compatibility with T4/P100 GPUs (no bfloat16).
+    """
     return BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_use_double_quant=True,
         bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16,
+        bnb_4bit_compute_dtype=torch.float16,
     )
 
 
@@ -73,7 +75,7 @@ def load_model_and_processor(
     model = Qwen2VLForConditionalGeneration.from_pretrained(
         base_model_name,
         quantization_config=quantization_config,
-        torch_dtype=torch.bfloat16 if use_cuda else torch.float32,
+        torch_dtype=torch.float16 if use_cuda else torch.float32,
         device_map=device_map if use_cuda else None,
         low_cpu_mem_usage=True,
     )

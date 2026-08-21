@@ -79,17 +79,22 @@ def train(config_path="stage1_vlm/configs/train_config.yaml"):
     # Use the custom dynamic collator instead of default
     data_collator = Qwen2VLDataCollator(processor)
 
+    use_cuda = torch.cuda.is_available()
     training_args = TrainingArguments(
         output_dir=cfg.get("output_dir", "./stage1_vlm/output"),
         max_steps=cfg.get("max_steps", 500),
         per_device_train_batch_size=cfg.get("batch_size", 2),
+        gradient_accumulation_steps=4,
         learning_rate=float(cfg.get("learning_rate", 2e-4)),
-        fp16=True,
+        warmup_ratio=0.05,
+        lr_scheduler_type="cosine",
+        fp16=use_cuda,
         logging_steps=10,
         save_strategy="steps",
         save_steps=100,
-        remove_unused_columns=False, # Essential for multimodal inputs
+        remove_unused_columns=False,
         label_names=["labels"],
+        dataloader_pin_memory=use_cuda,
     )
 
     trainer = Trainer(
