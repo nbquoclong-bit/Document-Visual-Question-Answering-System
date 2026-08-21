@@ -45,5 +45,8 @@ backend/backend-docvqa/backend/pytest-cache-files-*/
 datasets/vietnamese-receipts-v3/train/
 datasets/vietnamese-receipts-v3/val/
 
+# Configuration & Credential Files (OAuth, secrets, etc.)
+*.conf
+
 # Exception: keep .gitkeep in output folders
 !*/.gitkeep

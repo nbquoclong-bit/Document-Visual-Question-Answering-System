@@ -58,8 +58,17 @@ class VQAEngine:
         target_device = next(self.model.parameters()).device
         inputs = inputs.to(target_device)
 
+        eos_ids = [self.processor.tokenizer.eos_token_id, 151643, 151645]
+        eos_ids = [t for t in eos_ids if t is not None]
+
         with torch.no_grad():
-            generated_ids = self.model.generate(**inputs, max_new_tokens=512, temperature=0.1, do_sample=False)
+            generated_ids = self.model.generate(
+                **inputs,
+                max_new_tokens=256,
+                repetition_penalty=1.2,
+                eos_token_id=eos_ids,
+                do_sample=False
+            )
 
         generated_ids_trimmed = [
             out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs["input_ids"], generated_ids)
