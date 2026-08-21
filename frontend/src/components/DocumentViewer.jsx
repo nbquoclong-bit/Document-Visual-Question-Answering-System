@@ -8,7 +8,7 @@ import { ImageOff } from "lucide-react";
  * kích thước gốc (naturalWidth/naturalHeight) để quy đổi sang PHẦN TRĂM —
  * nhờ đó khung luôn đúng vị trí dù ảnh hiển thị to/nhỏ thế nào (responsive).
  */
-export default function DocumentViewer({ imageUrl, activeBbox, ocrTokens = [] }) {
+export default function DocumentViewer({ imageUrl, isPdf = false, activeBbox, ocrTokens = [] }) {
   const [naturalSize, setNaturalSize] = useState(null);
 
   if (!imageUrl) {
@@ -16,6 +16,23 @@ export default function DocumentViewer({ imageUrl, activeBbox, ocrTokens = [] })
       <div className="flex flex-col items-center gap-2 py-16 text-center text-sm text-ink-soft">
         <ImageOff size={28} strokeWidth={1.5} />
         Chưa có ảnh nào được tải lên. Hãy upload một hoá đơn để bắt đầu.
+      </div>
+    );
+  }
+
+  // PDF được hiển thị bằng trình xem có sẵn của trình duyệt. Stage 0 sẽ tự
+  // render trang đầu thành ảnh để VLM xử lý khi người dùng bấm "Xử lý tài liệu".
+  if (isPdf) {
+    return (
+      <div>
+        <iframe
+          src={imageUrl}
+          title="Tài liệu PDF đã tải lên"
+          className="h-[620px] w-full rounded-sm border border-line bg-paper"
+        />
+        <p className="mt-2 text-xs leading-5 text-ink-soft">
+          Với PDF nhiều trang, phiên bản hiện tại xử lý trang đầu tiên.
+        </p>
       </div>
     );
   }

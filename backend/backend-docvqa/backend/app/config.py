@@ -5,7 +5,6 @@ Mọi tham số có thể thay đổi theo môi trường triển khai (local / 
 được đưa hết vào đây, đọc từ biến môi trường với giá trị mặc định hợp lý cho dev.
 """
 from pathlib import Path
-from typing import Literal
 import os
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -30,28 +29,17 @@ class Settings(BaseSettings):
     allowed_extensions: tuple = (".jpg", ".jpeg", ".png", ".pdf")
 
     # --- Cấu hình model ---
-    # Chỉ đọc checkpoint từ đường dẫn local để API không tự tải nhiều GB weights
-    # trong lúc nhận request. Khi chạy Docker, mount thư mục checkpoint vào MODEL_DIR.
+    # Khi chạy Docker, mount source/checkpoint vào MODEL_DIR (mặc định: model/ ở root repo).
     model_dir: Path = base_dir.parent.parent.parent / "model"
-    paddle_home: Path = base_dir / ".paddle"
-    ocr_language: Literal["vi", "en"] = "vi"
-    ocr_use_angle_classifier: bool = True
-    ocr_min_confidence: float = 0.5
-    kie_model_path: str | None = None
-    qa_model_path: str | None = None
-    qa_adapter_path: str | None = None
-    device: str = "cpu"  # Đặt DEVICE=cuda khi môi trường có GPU.
+    vlm_base_model: str = "Qwen/Qwen2-VL-2B-Instruct"
+    vlm_adapter_path: Path | None = None
+    vlm_allow_base_model: bool = True
 
-    # Khi checkpoint KIE/QA chưa có, demo vẫn dùng rule/field lookup trên OCR
-    # thật. Đặt false để môi trường production báo lỗi thay vì fallback.
-    allow_rule_based_fallback: bool = True
+    # Kept configurable so a deployed model can be forced to CPU if necessary.
+    device: str = "cuda" if os.environ.get("CUDA_VISIBLE_DEVICES") else "cpu"
 
 settings = Settings()
 
 # Đảm bảo thư mục lưu trữ luôn tồn tại khi app khởi động
 settings.upload_dir.mkdir(parents=True, exist_ok=True)
 settings.result_dir.mkdir(parents=True, exist_ok=True)
-settings.paddle_home.mkdir(parents=True, exist_ok=True)
-# PaddleOCR otherwise writes its model cache under the user profile, which can be
-# read-only in a managed desktop environment.
-os.environ.setdefault("PADDLE_HOME", str(settings.paddle_home))

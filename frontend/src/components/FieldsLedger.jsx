@@ -2,8 +2,11 @@ import { Receipt } from "lucide-react";
 
 const KEY_LABELS = {
   store_name: "Tên cửa hàng",
+  invoice_number: "Số hóa đơn",
+  tax_code: "Mã số thuế",
   invoice_date: "Ngày hoá đơn",
   total_amount: "Tổng cộng",
+  vlm_response: "Phản hồi VLM",
 };
 
 export default function FieldsLedger({ fields, onSelectField }) {

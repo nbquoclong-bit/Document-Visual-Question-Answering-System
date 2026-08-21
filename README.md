@@ -1,5 +1,7 @@
 # 📄 Document Visual Question Answering System Using End-to-End Vision-Language Model (Qwen2-VL)
 
+> Hướng dẫn cài đặt và chạy đầy đủ frontend, backend và Qwen2-VL: [RUNNING.md](RUNNING.md).
+
 > **Hệ thống Hỏi - Đáp và Trích xuất thông tin tự động trên Tài liệu / Hóa đơn tiếng Việt ứng dụng mô hình Thị giác - Ngôn ngữ (VLM) Qwen2-VL & Kỹ thuật Fine-Tuning QLoRA.**
 
 ---

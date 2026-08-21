@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   backend:
     build:
@@ -10,12 +8,14 @@ services:
       - "8000:8000"
     environment:
       - PYTHONUNBUFFERED=1
-      - DATABASE_URL=sqlite:////app/app.db
-      - MODEL_DIR=/model
+      - DATABASE_URL=sqlite:////app/db/app.db
+      - MODEL_DIR=/app/model
+      - VLM_ADAPTER_PATH=/app/model/stage1_vlm/output/lora_adapters
     volumes:
       - backend-uploads:/app/uploads
       - backend-results:/app/results
-      - ./model:/model:ro
+      - backend-db:/app/db
+      - ./model:/app/model:ro
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
@@ -43,3 +43,4 @@ services:
 volumes:
   backend-uploads:
   backend-results:
+  backend-db:

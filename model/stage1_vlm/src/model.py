@@ -67,14 +67,15 @@ def load_model_and_processor(
     print(f"[model] Loading base model: {base_model_name}")
 
     processor = AutoProcessor.from_pretrained(base_model_name)
-    
-    quantization_config = get_quantization_config() if is_training else None
+    use_cuda = torch.cuda.is_available()
+    quantization_config = get_quantization_config() if is_training and use_cuda else None
 
     model = Qwen2VLForConditionalGeneration.from_pretrained(
         base_model_name,
         quantization_config=quantization_config,
-        torch_dtype=torch.bfloat16,
-        device_map=device_map,
+        torch_dtype=torch.bfloat16 if use_cuda else torch.float32,
+        device_map=device_map if use_cuda else None,
+        low_cpu_mem_usage=True,
     )
 
     if is_training:

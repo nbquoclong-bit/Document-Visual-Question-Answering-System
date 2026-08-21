@@ -20,6 +20,14 @@ temp_*.png
 *.tmp
 .gradio/
 
+# Backend runtime data and local model caches
+backend/backend-docvqa/backend/.paddle/
+backend/backend-docvqa/backend/uploads/*
+!backend/backend-docvqa/backend/uploads/.gitkeep
+backend/backend-docvqa/backend/results/*
+!backend/backend-docvqa/backend/results/.gitkeep
+backend/backend-docvqa/backend/pytest-cache-files-*/
+
 # Archives & Large Model Weights
 *.zip
 *.tar.gz

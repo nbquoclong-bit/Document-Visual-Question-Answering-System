@@ -5,7 +5,6 @@ Chứa toàn bộ endpoint theo đúng luồng nghiệp vụ mô tả trong đ�
     upload ảnh -> process (OCR + KIE) -> ask (VQA) -> get/export JSON
 """
 import mimetypes
-from dataclasses import asdict
 from pathlib import Path
 
 from fastapi import APIRouter, Depends, UploadFile, File, HTTPException
@@ -18,8 +17,7 @@ from app.schemas import (
     UploadResponse, ProcessResponse, AskRequest, AskResponse, OCRTokenOut,
     DocumentDetailOut, ExtractedFieldOut, QARecordOut,
 )
-from app.services import pipeline_service, qa_service, ocr_service
-from app.services.kie_service import FieldResult
+from app.services import pipeline_service, preprocessing_service, qa_service, vlm_service
 from app.storage import save_upload, save_result_json
 
 router = APIRouter(prefix="/documents", tags=["documents"])
@@ -80,13 +78,11 @@ def ask_question(document_id: str, payload: AskRequest, db: Session = Depends(ge
                    f"Cần gọi /process trước và đợi status='processed'.",
         )
 
-    ocr_tokens = [ocr_service.OCRToken(**t) for t in (document.ocr_raw or [])]
-    fields = [
-        FieldResult(key=f.key, value=f.value, bbox=f.bbox, confidence=f.confidence)
-        for f in document.fields
-    ]
-
-    result = qa_service.answer_question(document.stored_path, ocr_tokens, fields, payload.question)
+    processed_path = preprocessing_service.get_processed_image_path(document.id)
+    try:
+        result = qa_service.answer_question(str(processed_path), payload.question)
+    except vlm_service.VLMRuntimeError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
 
     qa_record = QARecord(
         document_id=document.id,

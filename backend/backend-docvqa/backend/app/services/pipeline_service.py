@@ -1,30 +1,29 @@
 """
 PIPELINE SERVICE — điều phối toàn bộ luồng xử lý một Document:
 
-    Document (ảnh) --run_ocr--> OCRToken[] --extract_fields--> ExtractedField[]
+    Document (ảnh/PDF) --Stage 0 preprocessing--> Qwen2-VL --> ExtractedField[]
 
-Đây là lớp "glue code" duy nhất phụ thuộc vào cả ocr_service và kie_service.
-Router (documents.py) không gọi trực tiếp 2 service đó mà luôn đi qua đây,
+Đây là lớp "glue code" duy nhất phụ thuộc vào Stage 0 và VLM service.
+Router (documents.py) không gọi trực tiếp các service này mà luôn đi qua đây,
 để logic ghi DB / xử lý lỗi chỉ nằm ở một chỗ.
 """
-from dataclasses import asdict
-
 from sqlalchemy.orm import Session
 
 from app.models_db import Document, ExtractedField, DocumentStatus
-from app.services import ocr_service, kie_service
+from app.services import preprocessing_service, vlm_service
 
 
 def process_document(db: Session, document: Document) -> Document:
-    """Chạy OCR + KIE cho một document, cập nhật status và lưu field vào DB."""
+    """Run Stage 0 then Qwen2-VL extraction, saving fields for the React dashboard."""
     document.status = DocumentStatus.PROCESSING
     db.commit()
 
     try:
-        ocr_tokens = ocr_service.run_ocr(document.stored_path)
-        document.ocr_raw = [asdict(t) for t in ocr_tokens]
-
-        fields = kie_service.extract_fields(document.stored_path, ocr_tokens)
+        preprocessed = preprocessing_service.preprocess_document(document.id, document.stored_path)
+        fields, _raw_vlm_response = vlm_service.extract_fields(preprocessed.image_path)
+        # Qwen2-VL is end-to-end and does not emit OCR token boxes. Preserve the
+        # legacy JSON column as an empty list to keep the frontend contract stable.
+        document.ocr_raw = []
 
         # Xoá field cũ (nếu re-process) rồi ghi field mới
         db.query(ExtractedField).filter(ExtractedField.document_id == document.id).delete()
@@ -33,7 +32,7 @@ def process_document(db: Session, document: Document) -> Document:
                 document_id=document.id,
                 key=f.key,
                 value=f.value,
-                bbox=f.bbox,
+                bbox=None,
                 confidence=f.confidence,
             ))
 

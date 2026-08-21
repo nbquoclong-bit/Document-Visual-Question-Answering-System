@@ -3,7 +3,7 @@ from typing import Dict, Any
 from peft import PeftModel
 from qwen_vl_utils import process_vision_info
 
-from stage1_vlm.src.model import load_model_and_processor
+from .model import load_model_and_processor
 
 class VQAEngine:
     def __init__(self, adapter_dir: str = None, base_model: str = "Qwen/Qwen2-VL-2B-Instruct"):
@@ -47,7 +47,9 @@ class VQAEngine:
             videos=video_inputs,
             padding=True,
             return_tensors="pt",
-        ).to(self.device)
+        )
+        if not hasattr(self.model, "hf_device_map"):
+            inputs = inputs.to(self.device)
 
         with torch.no_grad():
             generated_ids = self.model.generate(**inputs, max_new_tokens=512, temperature=0.1, do_sample=False)

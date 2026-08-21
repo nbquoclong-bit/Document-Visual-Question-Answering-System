@@ -38,6 +38,11 @@ export default function QAConsole({ qaHistory, onAsk, onShowEvidence, disabled, 
                   xem bằng chứng
                 </button>
               )}
+              {!entry.evidence_bbox && (
+                <span className="ml-2 text-[11px] text-ink-soft">
+                  VLM chưa trả về toạ độ bằng chứng.
+                </span>
+              )}
             </p>
           </div>
         ))}

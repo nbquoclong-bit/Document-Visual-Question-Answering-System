@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Union, List, Tuple
-import fitz
 import numpy as np
+import cv2
 from PIL import Image
 
 
@@ -13,6 +13,8 @@ def is_pdf(path: Union[str, Path]) -> bool:
 
 
 def render_pdf_pages(pdf_path: Union[str, Path], dpi: int = 300, max_pages: int = 10) -> List[Tuple[int, np.ndarray]]:
+    import fitz
+
     doc = fitz.open(pdf_path)
     results = []
     for page_idx in range(min(len(doc), max_pages)):

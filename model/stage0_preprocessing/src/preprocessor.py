@@ -1,13 +1,14 @@
 ﻿import cv2
 import numpy as np
 from pathlib import Path
-from .pdf_router import is_pdf, render_pdf_pages, load_image
+from .pdf_router import load_input
 
 
 class PreprocessingEngine:
-    def __init__(self, config_path=None):
+    def __init__(self, config_path: str | None = None):
         import yaml
-        with open(config_path, 'r', encoding='utf-8') as f:
+        resolved_config = Path(config_path) if config_path else Path(__file__).with_name("config.py")
+        with resolved_config.open('r', encoding='utf-8') as f:
             self.cfg = yaml.safe_load(f)
         self.quality_cfg = self.cfg.get('quality', {})
         self.clahe_cfg = self.cfg.get('clahe', {})

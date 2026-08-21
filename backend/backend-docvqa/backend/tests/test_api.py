@@ -1,10 +1,10 @@
-"""API contract tests with injected model outputs; no GPU or weights are required."""
+"""API contract tests with injected Stage 0/VLM results; no GPU or weights required."""
 import io
 
 from fastapi.testclient import TestClient
 
 from app.main import app
-from app.services import kie_service, ocr_service, qa_service
+from app.services import preprocessing_service, qa_service, vlm_service
 
 client = TestClient(app)
 
@@ -22,24 +22,21 @@ def test_health():
 
 def test_full_pipeline_flow(monkeypatch):
     monkeypatch.setattr(
-        ocr_service,
-        "run_ocr",
-        lambda _: [
-            ocr_service.OCRToken("CỬA HÀNG ABC", [0.1, 0.05, 0.5, 0.1], 0.98),
-            ocr_service.OCRToken("Tổng cộng: 150,000 VND", [0.1, 0.8, 0.7, 0.85], 0.93),
-        ],
+        preprocessing_service,
+        "preprocess_document",
+        lambda _document_id, _source: preprocessing_service.PreprocessedDocument(
+            image_path="preprocessed-invoice.jpg", metadata={"source_kind": "image"}
+        ),
     )
     monkeypatch.setattr(
-        kie_service,
+        vlm_service,
         "extract_fields",
-        lambda _path, _tokens: [
-            kie_service.FieldResult("total_amount", "150,000 VND", [0.1, 0.8, 0.7, 0.85], 0.93)
-        ],
+        lambda _path: ([vlm_service.VLMField("total_amount", "150,000 VND")], '{"total_amount":"150,000 VND"}'),
     )
     monkeypatch.setattr(
         qa_service,
         "answer_question",
-        lambda *_args: qa_service.QAResult("150,000 VND", [0.1, 0.8, 0.7, 0.85], 0.93),
+        lambda *_args: qa_service.QAResult("150,000 VND", None, None),
     )
     # 1) Upload
     files = {"file": ("invoice.jpg", io.BytesIO(_fake_image_bytes()), "image/jpeg")}
@@ -48,15 +45,15 @@ def test_full_pipeline_flow(monkeypatch):
     document_id = resp.json()["document_id"]
     assert resp.json()["status"] == "uploaded"
 
-    # 2) Process (OCR + KIE mock)
+    # 2) Process (Stage 0 + VLM extraction)
     resp = client.post(f"/api/v1/documents/{document_id}/process")
     assert resp.status_code == 200, resp.text
     body = resp.json()
     assert body["status"] == "processed"
     assert len(body["fields"]) > 0
-    assert body["ocr_tokens"][0]["bbox"] == [0.1, 0.05, 0.5, 0.1]
+    assert body["ocr_tokens"] == []
 
-    # 3) Ask (VQA mock)
+    # 3) Ask (VLM mock)
     resp = client.post(
         f"/api/v1/documents/{document_id}/ask",
         json={"question": "Tổng tiền trên hoá đơn là bao nhiêu?"},

@@ -10,7 +10,7 @@ ENV PYTHONUNBUFFERED=1 \
     PORT=8000 \
     HOST=0.0.0.0
 
-# Install system dependencies required for OpenCV, PaddleOCR, Pillow, and HTTP health checks
+# Install system dependencies required for OpenCV, PyMuPDF, Pillow, and health checks
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     curl \
@@ -33,12 +33,13 @@ COPY backend/backend-docvqa/backend/requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Create necessary directories for runtime storage (uploads, results, database)
-RUN mkdir -p /app/uploads /app/results
+RUN mkdir -p /app/uploads /app/results /app/db
 
 # Copy application source code
 COPY backend/backend-docvqa/backend /app
-# Source code for the team's Stage 0-3 adapters. Model weights remain a runtime volume.
-COPY model /model
+# Source code for the team's Stage 0-1 modules. Keeping it under /app makes
+# `model.*` importable by Python; checkpoint files remain a runtime volume.
+COPY model /app/model
 
 # Create non-root user for security best practices and assign permissions
 RUN useradd -m -u 1000 appuser && \

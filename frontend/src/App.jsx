@@ -22,6 +22,7 @@ export default function App() {
   const [ocrTokens, setOcrTokens] = useState([]);
   const [qaHistory, setQaHistory] = useState([]);
   const [activeBbox, setActiveBbox] = useState(null);
+  const [isPdf, setIsPdf] = useState(false);
 
   // Trạng thái UI phụ
   const [processing, setProcessing] = useState(false);
@@ -40,6 +41,7 @@ export default function App() {
       const result = await uploadDocument(file);
       setDocumentId(result.document_id);
       setStatus(result.status);
+      setIsPdf((result.original_filename || file.name).toLowerCase().endsWith(".pdf"));
     } catch (err) {
       setError(`Upload thất bại: ${getErrorMessage(err)}`);
     }
@@ -88,6 +90,7 @@ export default function App() {
     setOcrTokens([]);
     setQaHistory([]);
     setActiveBbox(null);
+    setIsPdf(false);
     setError(null);
   }
 
@@ -102,7 +105,7 @@ export default function App() {
             Sổ Hoá Đơn
           </h1>
           <p className="mt-1 text-[13px] text-ink-soft">
-            Hỏi-đáp trực quan trên tài liệu — OCR &amp; trích xuất thông tin hoá đơn
+            Hỏi-đáp trực quan trên tài liệu — tiền xử lý &amp; trích xuất bằng Qwen2-VL
           </p>
         </div>
         <StatusBadge status={status} />
@@ -127,7 +130,12 @@ export default function App() {
             {!documentId ? (
               <UploadZone onFileSelected={handleFileSelected} disabled={processing} />
             ) : (
-              <DocumentViewer imageUrl={imageUrl} activeBbox={activeBbox} ocrTokens={ocrTokens} />
+              <DocumentViewer
+                imageUrl={imageUrl}
+                isPdf={isPdf}
+                activeBbox={activeBbox}
+                ocrTokens={ocrTokens}
+              />
             )}
 
             <div className="mt-4.5 flex items-center justify-between gap-3">
