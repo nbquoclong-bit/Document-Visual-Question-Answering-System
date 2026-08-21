@@ -38,5 +38,9 @@ backend/backend-docvqa/backend/pytest-cache-files-*/
 *.ckpt
 *.onnx
 
+# Large extracted dataset image directories
+datasets/vietnamese-receipts-v3/train/
+datasets/vietnamese-receipts-v3/val/
+
 # Exception: keep .gitkeep in output folders
 !*/.gitkeep

@@ -13,11 +13,15 @@ class VQAEngine:
         )
         
         if adapter_dir:
-            self.model = PeftModel.from_pretrained(self.model, adapter_dir)
+            try:
+                self.model = PeftModel.from_pretrained(self.model, adapter_dir)
+            except Exception as e:
+                print(f"[Warning] Failed to load adapter from {adapter_dir}: {e}. Running base model.")
         
         self.model.eval()
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        # Ensure model is on device if device_map="auto" didn't already put it there
+        # `device_map="auto"` has already dispatched a GPU model. A CPU model
+        # still needs an explicit placement for consistent inference behaviour.
         if not hasattr(self.model, "hf_device_map"):
             self.model.to(self.device)
 
@@ -48,14 +52,17 @@ class VQAEngine:
             padding=True,
             return_tensors="pt",
         )
-        if not hasattr(self.model, "hf_device_map"):
-            inputs = inputs.to(self.device)
+        # The processor returns a BatchEncoding; moving it as a whole preserves
+        # all image/video tensors. With an Accelerate device map, use the first
+        # model parameter's device as the input device.
+        target_device = next(self.model.parameters()).device
+        inputs = inputs.to(target_device)
 
         with torch.no_grad():
             generated_ids = self.model.generate(**inputs, max_new_tokens=512, temperature=0.1, do_sample=False)
 
         generated_ids_trimmed = [
-            out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+            out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs["input_ids"], generated_ids)
         ]
         
         response = self.processor.batch_decode(
@@ -65,7 +72,4 @@ class VQAEngine:
         return response[0].strip()
 
 if __name__ == "__main__":
-    # Test inference
-    # engine = VQAEngine()
-    # print(engine.extract_and_answer("path/to/invoice.jpg", "Tổng tiền là bao nhiêu?"))
     pass

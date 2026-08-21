@@ -92,3 +92,13 @@ Các API tests mock VLM output để chạy không cần GPU hoặc checkpoint; 
 | Lỗi tải base model | Kiểm tra mạng/Hugging Face cache; có thể đặt `VLM_BASE_MODEL` thành đường dẫn local của base model. |
 | Hết RAM/VRAM | Dùng GPU; đóng các chương trình nặng; hoặc dùng base/adapter nhẹ hơn. CPU chỉ phù hợp demo ít request. |
 | Frontend không gọi được API local | Kiểm tra backend ở cổng 8000 và `VITE_API_URL=http://localhost:8000/api/v1`. |
+
+## 7. Đánh giá model (tuỳ chọn)
+
+Sau khi có checkpoint và ảnh của bộ `vietnamese-receipts-v3` trong repo, chạy:
+
+```powershell
+.\backend\backend-docvqa\backend\.venv\Scripts\python.exe -m model.run_real_evaluation
+```
+
+Lệnh này mới tạo prediction từ Qwen2-VL trước khi tính ANLS và Exact Match. Không dùng báo cáo được sinh trực tiếp từ file nhãn, vì nhãn không phải là kết quả suy luận.

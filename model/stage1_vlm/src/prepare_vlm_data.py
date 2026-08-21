@@ -8,14 +8,23 @@ import glob
 from collections import defaultdict
 
 def find_all_images(image_dirs):
-    """Quét đệ quy tìm tất cả ảnh và lập chỉ mục theo basename."""
+    """Quét đệ quy tìm tất cả ảnh (mọi định dạng hoa/thường) và lập chỉ mục theo basename."""
     image_index = {}
+    valid_exts = {'.jpg', '.png', '.jpeg', '.bmp'}
+    
     for img_dir in image_dirs:
-        for ext in ('*.jpg', '*.png', '*.jpeg'):
-            # Dùng ** để tìm đệ quy
-            for filepath in glob.glob(os.path.join(img_dir, '**', ext), recursive=True):
-                basename = os.path.splitext(os.path.basename(filepath))[0]
-                image_index[basename] = filepath
+        if not os.path.exists(img_dir):
+            continue
+        for root, dirs, files in os.walk(img_dir):
+            for file in files:
+                ext = os.path.splitext(file)[1].lower()
+                if ext in valid_exts:
+                    basename = os.path.splitext(file)[0]
+                    image_index[basename] = os.path.join(root, file)
+                    # Lưu thêm biến thể không có prefix/suffix
+                    clean_name = basename.replace("mcocr_public_", "").replace("mcocr_val_", "")
+                    image_index[clean_name] = os.path.join(root, file)
+                    
     return image_index
 
 def convert_funsd_to_vqa(data_dirs, image_index, output_path):
@@ -30,16 +39,22 @@ def convert_funsd_to_vqa(data_dirs, image_index, output_path):
         for json_path in json_files:
             basename = os.path.splitext(os.path.basename(json_path))[0]
             
-            # Kiểm tra ảnh tồn tại
-            if basename not in image_index:
+            # Kiểm tra ảnh tồn tại trong chỉ mục
+            target_image = None
+            if basename in image_index:
+                target_image = image_index[basename]
+            else:
+                alt_name = basename.replace("mcocr_public_", "").replace("_ver2", "")
+                if alt_name in image_index:
+                    target_image = image_index[alt_name]
+            
+            # Nếu không tìm thấy ảnh theo tên exact, lấy ảnh đầu tiên cùng folder để demo test
+            if not target_image:
                 continue
                 
-            image_path = image_index[basename]
-            
             with open(json_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 
-            # Gom nhóm các từ theo nhãn
             entities = defaultdict(list)
             for item in data.get("form", []):
                 text = item.get("text", "").strip()
@@ -50,13 +65,11 @@ def convert_funsd_to_vqa(data_dirs, image_index, output_path):
                     
                 entities[label.upper()].append(text)
             
-            # Nếu có dữ liệu trích xuất được
             if entities:
-                # Ghép các từ có cùng nhãn bằng khoảng trắng
                 output_dict = {lbl: " ".join(texts) for lbl, texts in entities.items()}
                 
                 record = {
-                    "image_path": os.path.abspath(image_path),
+                    "image_path": os.path.abspath(target_image),
                     "instruction": "Trích xuất thông tin hóa đơn dưới dạng JSON.",
                     "output": json.dumps(output_dict, ensure_ascii=False)
                 }
@@ -68,25 +81,26 @@ def convert_funsd_to_vqa(data_dirs, image_index, output_path):
     print(f"[INFO] Successfully created {output_path} with {len(vqa_records)} records!")
 
 if __name__ == "__main__":
-    train_data_dirs = [
-        "../../../datasets/sroie_train_funsd",
-        "../../../datasets/mcocr_train_funsd"
-    ]
-    test_data_dirs = [
-        "../../../datasets/sroie_test_funsd",
-        "../../../datasets/mcocr_test_funsd"
-    ]
-    image_dirs = [
-        "../../../datasets/sroie_images",
-        "../../../datasets/mcocr_images"
-    ]
-    
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    train_data_dirs = [os.path.abspath(os.path.join(base_dir, d)) for d in train_data_dirs]
-    test_data_dirs = [os.path.abspath(os.path.join(base_dir, d)) for d in test_data_dirs]
-    image_dirs = [os.path.abspath(os.path.join(base_dir, d)) for d in image_dirs]
+    project_root = os.path.abspath(os.path.join(base_dir, "../../.."))
     
-    print("[INFO] Scanning for images...")
+    train_data_dirs = [
+        os.path.join(project_root, "datasets/SROIE/sroie_train_funsd_ver_2"),
+        os.path.join(project_root, "datasets/MCOCR/mcocr_train_funsd"),
+        os.path.join(project_root, "datasets/vietnamese-receipts-v3/VN_receipts_train_funsd")
+    ]
+    
+    test_data_dirs = [
+        os.path.join(project_root, "datasets/SROIE/sroie_train_val_ver_2"),
+        os.path.join(project_root, "datasets/MCOCR/mcocr_val_funsd"),
+        os.path.join(project_root, "datasets/vietnamese-receipts-v3/VN_receipts_val_funsd")
+    ]
+    
+    image_dirs = [
+        os.path.join(project_root, "datasets")
+    ]
+    
+    print("[INFO] Scanning for images in datasets...")
     image_index = find_all_images(image_dirs)
     print(f"[INFO] Found {len(image_index)} image files.")
     
