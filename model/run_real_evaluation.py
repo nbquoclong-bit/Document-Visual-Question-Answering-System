@@ -63,16 +63,33 @@ def run_real_model_evaluation(num_samples: int = 10):
     with open(unseen_path, "r", encoding="utf-8") as f:
         all_samples = json.load(f)
         
+    # Quét tự động thư mục datasets để lập chỉ mục tất cả các file ảnh thực tế
+    datasets_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "datasets"))
+    image_map = {}
+    if os.path.exists(datasets_dir):
+        for root, _, files in os.walk(datasets_dir):
+            for f in files:
+                if f.lower().endswith(('.png', '.jpg', '.jpeg')):
+                    image_map[f] = os.path.join(root, f)
+
     eval_samples = []
     for s in all_samples:
-        img_path = s.get("image_path")
-        if img_path and os.path.exists(img_path):
+        raw_path = str(s.get("image_path", "")).replace('\\', '/')
+        img_name = os.path.basename(raw_path)
+        
+        if img_name in image_map:
+            s["image_path"] = image_map[img_name]
             eval_samples.append(s)
-            if len(eval_samples) >= num_samples:
-                break
+        elif raw_path and os.path.exists(raw_path):
+            s["image_path"] = raw_path
+            eval_samples.append(s)
+            
+        if len(eval_samples) >= num_samples:
+            break
                 
     if not eval_samples:
-        print("[Notice] Khong tim thay file anh dinh kem tuong ung tren may local.")
+        print("[Notice] Khong tim thay file anh dinh kem tuong ung tren may local trong thu muc datasets/.")
+        print("👉 Hay dam bao ban da gia nien archive.zip vao folder datasets/vietnamese-receipts-v3/.")
         return
         
     print(f"[Inference] Da chon {len(eval_samples)} mau hoa don thuc te tu archive.zip de suy luan...")
