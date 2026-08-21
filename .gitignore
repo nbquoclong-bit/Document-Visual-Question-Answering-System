@@ -38,6 +38,9 @@ backend/backend-docvqa/backend/pytest-cache-files-*/
 *.ckpt
 *.onnx
 
+# Exceptions for tracked model files
+!model/stage1_vlm/output/lora_adapters/adapter_model.safetensors
+
 # Large extracted dataset image directories
 datasets/vietnamese-receipts-v3/train/
 datasets/vietnamese-receipts-v3/val/
