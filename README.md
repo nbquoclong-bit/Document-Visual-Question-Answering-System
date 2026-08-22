@@ -48,7 +48,8 @@ flowchart TD
 
 Tập trung vào 2 bộ dữ liệu đại diện đã được chuẩn hóa về định dạng Qwen2-VL Conversation format:
 1. **SROIE (Scanned Receipts Information Extraction):** Tập dữ liệu bóc tách thực thể hóa đơn (Vendor, Date, Tax Code, Total).
-2. **ViOCRVQA:** Tập dữ liệu Hỏi - Đáp trực quan trên tài liệu và hóa đơn tiếng Việt.
+2. **MCOCR:** Tập dữ liệu bóc tách thông tin hóa đơn tiếng Việt (Shop Name, Total, Items).
+3. **VietnamReceiptsV3:** TTập dữ liệu trích xuất thông tin hóa đơn tiếng Việt nâng cao.
 
 ---
 
@@ -118,8 +119,8 @@ Document-Visual-Question-Answering-System/
 | Thành viên | MSSV | Vai trò chính | Nhiệm vụ chi tiết |
 | :--- | :---: | :--- | :--- |
 | **Nguyễn Bá Quốc Long** | *(Điền MSSV)* | **Team Leader & VLM Lead** | Quản lý dự án, Fine-tune mô hình **Qwen2-VL-2B** bằng QLoRA trên Kaggle GPU. |
-| **Lê Minh Sang** | *(Điền MSSV)* | **Data Engineer** | Tiền xử lý, gán nhãn và chuẩn hóa 2 bộ dataset (**SROIE** & **ViOCRVQA**) sang Qwen2-VL format. |
-| **Nguyễn Văn Nhật Nam** | *(Điền MSSV)* | **AI Evaluation Lead** | Xây dựng pipeline đánh giá, tính toán chỉ số **ANLS**, **Exact Match (EM)**, **F1-Score** & **Latency**. |
+| **Nguyễn Văn Nhật Nam** | *(Điền MSSV)* | **Data Engineer** | Tiền xử lý, gán nhãn và chuẩn hóa 2 bộ dataset (**SROIE** & **ViOCRVQA**) sang Qwen2-VL format. |
+| **Lê Minh Sang** | *(Điền MSSV)* | **AI Evaluation Lead** | Xây dựng pipeline đánh giá, tính toán chỉ số **ANLS**, **Exact Match (EM)**, **F1-Score** & **Latency**. |
 | **Trần Hoàng Minh Thiên** | *(Điền MSSV)* | **Backend Engineer** | Lập trình RESTful API với **FastAPI**, kết nối pipeline VLM và lưu trữ SQLite. |
 | **Trịnh Minh Đức Hoàng** | *(Điền MSSV)* | **Frontend & Demo Lead** | Phát triển giao diện Demo (**Gradio/Streamlit** & **React Web UI**) và thực hiện video demo. |
 
