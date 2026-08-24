@@ -1,13 +1,13 @@
 # Runtime dependencies for Qwen2-VL inference and QLoRA fine-tuning.
 torch>=2.2.0
 torchvision>=0.17.0
-transformers>=4.45.0,<5.0.0
+transformers>=4.45.0,<4.49.0
 peft>=0.13.0
+bitsandbytes>=0.43.0
 accelerate>=0.30.0
 qwen-vl-utils>=0.0.8
-# Unsloth is only needed by the optional training notebook/script.
-unsloth>=0.8.0
 datasets>=2.16.0
 numpy>=1.24.0
 tqdm>=4.65.0
 pyyaml>=6.0
+
