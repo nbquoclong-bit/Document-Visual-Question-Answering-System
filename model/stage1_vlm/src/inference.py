@@ -34,7 +34,7 @@ class VQAEngine:
             {
                 "role": "user",
                 "content": [
-                    {"type": "image", "image": image_path},
+                    {"type": "image", "image": image_path, "max_pixels": 768 * 768},
                     {"type": "text", "text": question},
                 ],
             }
