@@ -113,6 +113,7 @@ def train(config_path="stage1_vlm/configs/train_config.yaml"):
         save_strategy="steps",
         save_steps=100,
         remove_unused_columns=False,
+        report_to="none",
         label_names=["labels"],
         dataloader_pin_memory=use_cuda,
     )
