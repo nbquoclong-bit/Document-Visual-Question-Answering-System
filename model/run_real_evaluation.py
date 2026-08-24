@@ -56,13 +56,27 @@ def run_real_model_evaluation(num_samples: int = 10):
         return
 
     unseen_path = os.path.join(os.path.dirname(__file__), "test_unseen_dataset.json")
-    if not os.path.exists(unseen_path):
-        print(f"[Error] Khong tim thay file test_unseen_dataset.json.")
+    vlm_test_path = os.path.join(os.path.dirname(__file__), "data", "vlm_test.json")
+
+    all_samples = []
+    if os.path.exists(unseen_path):
+        with open(unseen_path, "r", encoding="utf-8") as f:
+            all_samples.extend(json.load(f))
+            
+    if os.path.exists(vlm_test_path):
+        with open(vlm_test_path, "r", encoding="utf-8") as f:
+            vlm_test_records = json.load(f)
+            for r in vlm_test_records:
+                all_samples.append({
+                    "image_path": r.get("image_path", ""),
+                    "question": r.get("instruction", "Trích xuất thông tin hóa đơn."),
+                    "ground_truth": r.get("output", "")
+                })
+
+    if not all_samples:
+        print("[Error] Không tìm thấy dữ liệu test ở cả test_unseen_dataset.json lẫn data/vlm_test.json.")
         return
-        
-    with open(unseen_path, "r", encoding="utf-8") as f:
-        all_samples = json.load(f)
-        
+
     # Quét tự động thư mục datasets để lập chỉ mục tất cả các file ảnh thực tế
     datasets_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "datasets"))
     image_map = {}
@@ -88,11 +102,12 @@ def run_real_model_evaluation(num_samples: int = 10):
             break
                 
     if not eval_samples:
-        print("[Notice] Khong tim thay file anh dinh kem tuong ung tren may local trong thu muc datasets/.")
-        print("👉 Hay dam bao ban da gia nien archive.zip vao folder datasets/vietnamese-receipts-v3/.")
+        print("[Notice] Khong tim thay file anh dinh kem tuong ung trong thu muc datasets/.")
+        print("👉 Hãy đảm bảo bạn đã chạy prepare_vlm_data để tạo dữ liệu test.")
         return
         
-    print(f"[Inference] Da chon {len(eval_samples)} mau hoa don thuc te tu archive.zip de suy luan...")
+    print(f"[Inference] Da chon {len(eval_samples)} mau hoa don thuc te de suy luan danh gia...")
+
     
     results = []
     total_anls = 0.0

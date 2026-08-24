@@ -51,19 +51,28 @@ class Qwen2VLDataCollator:
         labels = inputs["input_ids"].clone()
         labels[inputs["attention_mask"] == 0] = -100
         
-        # Mask system + user prompt tokens
-        assistant_token_ids = self.processor.tokenizer.encode("<|im_start|>assistant\n", add_special_tokens=False)
-        for i, text_str in enumerate(texts):
+        # Mask system + vision + user prompt tokens accurately
+        # In Qwen2 tokenizer: <|im_start|> is 151644, assistant token is 77091
+        im_start_id = self.processor.tokenizer.convert_tokens_to_ids("<|im_start|>")
+        assistant_id = self.processor.tokenizer.convert_tokens_to_ids("assistant")
+
+        for i in range(inputs["input_ids"].size(0)):
             input_ids_list = inputs["input_ids"][i].tolist()
             assistant_start = -1
-            for idx in range(len(input_ids_list) - len(assistant_token_ids) + 1):
-                if input_ids_list[idx : idx + len(assistant_token_ids)] == assistant_token_ids:
-                    assistant_start = idx + len(assistant_token_ids)
+            # Find the LAST occurrence of <|im_start|> assistant in the sequence
+            for idx in range(len(input_ids_list) - 1):
+                if input_ids_list[idx] == im_start_id and input_ids_list[idx + 1] == assistant_id:
+                    # Skip <|im_start|>, assistant, and newline tokens (\n = 198)
+                    cur = idx + 2
+                    while cur < len(input_ids_list) and input_ids_list[cur] in (198, 271):
+                        cur += 1
+                    assistant_start = cur
             if assistant_start != -1:
                 labels[i, :assistant_start] = -100
                 
         inputs["labels"] = labels
         return inputs
+
 
 
 def train(config_path="stage1_vlm/configs/train_config.yaml"):

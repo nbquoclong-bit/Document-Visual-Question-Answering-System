@@ -118,19 +118,28 @@ if __name__ == "__main__":
     
     train_data_dirs = [
         os.path.join(project_root, "datasets/SROIE/sroie_train_funsd_ver_2"),
+        os.path.join(project_root, "datasets/SROIE/sroie_train_funsd"),
+        os.path.join(project_root, "datasets/sroie_train_funsd"),
         os.path.join(project_root, "datasets/MCOCR/mcocr_train_funsd"),
-        os.path.join(project_root, "datasets/vietnamese-receipts-v3/VN_receipts_train_funsd")
+        os.path.join(project_root, "datasets/mcocr_train_funsd"),
+        os.path.join(project_root, "datasets/vietnamese-receipts-v3/VN_receipts_train_funsd"),
+        os.path.join(project_root, "datasets/VN_receipts_train_funsd"),
     ]
     
     test_data_dirs = [
         os.path.join(project_root, "datasets/SROIE/sroie_train_val_ver_2"),
+        os.path.join(project_root, "datasets/SROIE/sroie_test_funsd"),
+        os.path.join(project_root, "datasets/sroie_test_funsd"),
         os.path.join(project_root, "datasets/MCOCR/mcocr_val_funsd"),
-        os.path.join(project_root, "datasets/vietnamese-receipts-v3/VN_receipts_val_funsd")
+        os.path.join(project_root, "datasets/mcocr_val_funsd"),
+        os.path.join(project_root, "datasets/vietnamese-receipts-v3/VN_receipts_val_funsd"),
+        os.path.join(project_root, "datasets/VN_receipts_val_funsd"),
     ]
     
     image_dirs = [
         os.path.join(project_root, "datasets")
     ]
+
     
     print("[INFO] Scanning for images in datasets...")
     image_index = find_all_images(image_dirs)
