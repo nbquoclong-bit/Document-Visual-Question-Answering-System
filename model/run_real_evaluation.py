@@ -1,5 +1,6 @@
 import sys
 import os
+import re
 
 # Tự động nạp thư mục gốc dự án và thư mục model vào sys.path
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -36,13 +37,37 @@ def find_adapter_dir():
             return full_p
     return None
 
-def run_real_model_evaluation(num_samples: int = 10):
+def clean_model_prediction(pred: str) -> str:
+    """Làm sạch output từ mô hình (loại bỏ markdown json block và lời dẫn thừa)."""
+    if not pred:
+        return ""
+    text = str(pred).strip()
+    
+    # Nếu là markdown code block ```json ... ```
+    match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
+    if match:
+        cleaned_json = match.group(1).strip()
+        try:
+            # Parse để chuẩn hóa JSON nếu hợp lệ
+            parsed = json.loads(cleaned_json)
+            return json.dumps(parsed, ensure_ascii=False)
+        except Exception:
+            return cleaned_json
+            
+    # Loại bỏ các tiền tố hội thoại thường gặp nếu câu hỏi là đơn lẻ
+    for prefix in ["Đáp án:", "Câu trả lời:", "Dưới đây là", "Thông tin:"]:
+        if text.startswith(prefix):
+            text = text[len(prefix):].strip()
+            
+    return text
+
+def run_real_model_evaluation(num_samples: int = 20):
     """
-    Cho mô hình Qwen2-VL SUY LUẬN THỰC TẾ trên các file ảnh hóa đơn thực tế
-    từ bộ archive.zip và tính toán chỉ số ANLS + Exact Match thật 100%.
+    Cho mô hình Qwen2-VL SUY LUẬN THỰC TẾ trên tập kiểm thử tiếng Việt (MCOCR & vietnamese-receipts-v3)
+    và tính toán chỉ số ANLS + Exact Match thật 100%.
     """
     print("=" * 60)
-    print("BAT DAU CHAY SUY LUAN THUC TE TREN MO HINH QWEN2-VL VLM")
+    print("BAT DAU CHAY SUY LUAN THUC TE TREN MO HINH QWEN2-VL VLM (DATA TIENG VIET)")
     print("=" * 60)
     
     adapter_dir = find_adapter_dir()
@@ -55,14 +80,11 @@ def run_real_model_evaluation(num_samples: int = 10):
         print(f"[Error] Loi nap mo hinh: {e}")
         return
 
-    unseen_path = os.path.join(os.path.dirname(__file__), "test_unseen_dataset.json")
     vlm_test_path = os.path.join(os.path.dirname(__file__), "data", "vlm_test.json")
+    unseen_path = os.path.join(os.path.dirname(__file__), "test_unseen_dataset.json")
 
     all_samples = []
-    if os.path.exists(unseen_path):
-        with open(unseen_path, "r", encoding="utf-8") as f:
-            all_samples.extend(json.load(f))
-            
+    # Ưu tiên tập test chuẩn mới nhất từ data/vlm_test.json
     if os.path.exists(vlm_test_path):
         with open(vlm_test_path, "r", encoding="utf-8") as f:
             vlm_test_records = json.load(f)
@@ -72,9 +94,12 @@ def run_real_model_evaluation(num_samples: int = 10):
                     "question": r.get("instruction", "Trích xuất thông tin hóa đơn."),
                     "ground_truth": r.get("output", "")
                 })
+    elif os.path.exists(unseen_path):
+        with open(unseen_path, "r", encoding="utf-8") as f:
+            all_samples.extend(json.load(f))
 
     if not all_samples:
-        print("[Error] Không tìm thấy dữ liệu test ở cả test_unseen_dataset.json lẫn data/vlm_test.json.")
+        print("[Error] Không tìm thấy dữ liệu test ở data/vlm_test.json. Hãy chạy prepare_vlm_data trước!")
         return
 
     # Quét tự động thư mục datasets để lập chỉ mục tất cả các file ảnh thực tế
@@ -83,16 +108,23 @@ def run_real_model_evaluation(num_samples: int = 10):
     if os.path.exists(datasets_dir):
         for root, _, files in os.walk(datasets_dir):
             for f in files:
-                if f.lower().endswith(('.png', '.jpg', '.jpeg')):
-                    image_map[f] = os.path.join(root, f)
+                if f.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp')):
+                    basename = os.path.splitext(f)[0]
+                    full_p = os.path.join(root, f)
+                    image_map[f] = full_p
+                    image_map[basename] = full_p
 
     eval_samples = []
     for s in all_samples:
         raw_path = str(s.get("image_path", "")).replace('\\', '/')
         img_name = os.path.basename(raw_path)
+        img_base = os.path.splitext(img_name)[0]
         
         if img_name in image_map:
             s["image_path"] = image_map[img_name]
+            eval_samples.append(s)
+        elif img_base in image_map:
+            s["image_path"] = image_map[img_base]
             eval_samples.append(s)
         elif raw_path and os.path.exists(raw_path):
             s["image_path"] = raw_path
@@ -103,12 +135,11 @@ def run_real_model_evaluation(num_samples: int = 10):
                 
     if not eval_samples:
         print("[Notice] Khong tim thay file anh dinh kem tuong ung trong thu muc datasets/.")
-        print("👉 Hãy đảm bảo bạn đã chạy prepare_vlm_data để tạo dữ liệu test.")
+        print("👉 Hãy đảm bảo bạn đã giải nén thư mục ảnh vào datasets/ trước khi chạy.")
         return
         
-    print(f"[Inference] Da chon {len(eval_samples)} mau hoa don thuc te de suy luan danh gia...")
+    print(f"[Inference] Da chon {len(eval_samples)} mau hoa don tieng Viet de suy luan danh gia...")
 
-    
     results = []
     total_anls = 0.0
     total_em = 0.0
@@ -124,7 +155,8 @@ def run_real_model_evaluation(num_samples: int = 10):
         
         start_t = time.time()
         try:
-            pred = engine.extract_and_answer(img, q)
+            raw_pred = engine.extract_and_answer(img, q)
+            pred = clean_model_prediction(raw_pred)
         except Exception as err:
             pred = f"Loi suy luan: {err}"
         elapsed = time.time() - start_t
@@ -172,4 +204,5 @@ def run_real_model_evaluation(num_samples: int = 10):
     print(f"- Da luu ket qua suy luan thuc te ra file: model/output/real_evaluation_report.json")
 
 if __name__ == "__main__":
-    run_real_model_evaluation(num_samples=10)
+    run_real_model_evaluation(num_samples=20)
+

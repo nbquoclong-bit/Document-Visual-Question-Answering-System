@@ -44,6 +44,8 @@ backend/backend-docvqa/backend/pytest-cache-files-*/
 # Large extracted dataset image directories
 datasets/vietnamese-receipts-v3/train/
 datasets/vietnamese-receipts-v3/val/
+datasets/MCOCR/train_images/
+datasets/MCOCR/val_images/
 
 # Configuration & Credential Files (OAuth, secrets, etc.)
 *.conf

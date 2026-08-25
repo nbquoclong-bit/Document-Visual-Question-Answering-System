@@ -1,5 +1,10 @@
 import os
 import sys
+
+# Vô hiệu hóa hoàn toàn WandB để không bị crash yêu cầu API key trên Kaggle/Colab
+os.environ["WANDB_DISABLED"] = "true"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 import yaml
 import torch
 from transformers import Trainer, TrainingArguments
