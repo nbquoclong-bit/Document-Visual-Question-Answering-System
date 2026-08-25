@@ -181,6 +181,8 @@ if __name__ == "__main__":
     ]
     
     image_dirs = [
+        "/kaggle/input",
+        "/kaggle/working",
         os.path.join(project_root, "datasets/vietnamese-receipts-v3"),
         os.path.join(project_root, "datasets/MCOCR"),
         os.path.join(project_root, "datasets"),
