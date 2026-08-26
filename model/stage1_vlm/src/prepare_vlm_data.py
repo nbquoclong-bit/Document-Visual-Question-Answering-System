@@ -192,14 +192,38 @@ if __name__ == "__main__":
     image_index = find_all_images(image_dirs)
     print(f"[INFO] Found {len(image_index)} Vietnamese image files.")
     
-    out_dir = os.path.abspath(os.path.join(base_dir, "../../data"))
-    os.makedirs(out_dir, exist_ok=True)
+    out_dirs = [
+        os.path.abspath(os.path.join(base_dir, "../../data")),
+        os.path.abspath(os.path.join(project_root, "data")),
+        os.path.abspath(os.path.join(base_dir, "../data")),
+        "/kaggle/working/Document-Visual-Question-Answering-System/model/data",
+        "/kaggle/working/Document-Visual-Question-Answering-System/data"
+    ]
     
-    train_out = os.path.join(out_dir, "vlm_train.json")
-    test_out = os.path.join(out_dir, "vlm_test.json")
+    for od in out_dirs:
+        try:
+            os.makedirs(od, exist_ok=True)
+        except Exception:
+            pass
+    
+    train_out = os.path.join(out_dirs[0], "vlm_train.json")
+    test_out = os.path.join(out_dirs[0], "vlm_test.json")
     
     print("\n[INFO] Processing Vietnamese Train data...")
     convert_funsd_to_vqa(train_data_dirs, image_index, train_out)
     
     print("\n[INFO] Processing Vietnamese Validation / Test data...")
     convert_funsd_to_vqa(test_data_dirs, image_index, test_out)
+
+    # Đồng bộ sang tất cả các thư mục dự phòng
+    for od in out_dirs[1:]:
+        if os.path.exists(od) and od != out_dirs[0]:
+            try:
+                import shutil
+                if os.path.exists(train_out):
+                    shutil.copy2(train_out, os.path.join(od, "vlm_train.json"))
+                if os.path.exists(test_out):
+                    shutil.copy2(test_out, os.path.join(od, "vlm_test.json"))
+            except Exception:
+                pass
+    print("✅ Đã tạo và đồng bộ file dữ liệu huấn luyện sang toàn bộ các thư mục thành công!")
