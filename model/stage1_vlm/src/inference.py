@@ -57,8 +57,12 @@ class VQAEngine:
         if hasattr(image, "mode") and image.mode != "RGB":
             image = image.convert("RGB")
 
-        # Giới hạn max_pixels để tránh bùng nổ token trên ảnh hóa đơn 4K/A4
+        # System prompt định hướng chuyên gia trích xuất trực tiếp giá trị
         messages = [
+            {
+                "role": "system",
+                "content": "Bạn là chuyên gia trích xuất dữ liệu hóa đơn kế toán. Hãy đọc kỹ ảnh và trả lời ngắn gọn, chính xác thông tin hoặc số tiền thực tế ghi trên hóa đơn, không giải thích dài dòng."
+            },
             {
                 "role": "user",
                 "content": [
@@ -66,7 +70,7 @@ class VQAEngine:
                         "type": "image", 
                         "image": image,
                         "min_pixels": 256 * 28 * 28,
-                        "max_pixels": 768 * 28 * 28
+                        "max_pixels": 1024 * 1024
                     },
                     {"type": "text", "text": question},
                 ],
