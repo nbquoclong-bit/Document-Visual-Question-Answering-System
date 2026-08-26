@@ -105,15 +105,57 @@ def train(config_path="stage1_vlm/configs/train_config.yaml"):
     
     data_cfg = cfg.get("data", {})
     train_path = data_cfg.get("train_data_path", "data/vlm_train.json")
-    if not os.path.exists(train_path):
-        alt_train = os.path.join(_model_dir, "data/vlm_train.json")
-        if os.path.exists(alt_train):
-            train_path = alt_train
     
-    records = load_dataset_records(train_path) if os.path.exists(train_path) else []
+    # Tìm kiếm đệ quy file dữ liệu
+    possible_paths = [
+        train_path,
+        os.path.join(_model_dir, "data/vlm_train.json"),
+        os.path.join(project_root, "data/vlm_train.json"),
+        "/kaggle/working/Document-Visual-Question-Answering-System/model/data/vlm_train.json",
+        "/kaggle/working/Document-Visual-Question-Answering-System/data/vlm_train.json"
+    ]
+    
+    actual_train_path = None
+    for p in possible_paths:
+        if os.path.exists(p) and os.path.getsize(p) > 100:
+            actual_train_path = p
+            break
+            
+    if not actual_train_path:
+        print("[trainer] ⚠️ Chưa tìm thấy vlm_train.json. Đang tự động quét và tạo tập dữ liệu ngay lập tức...")
+        try:
+            from stage1_vlm.src.prepare_vlm_data import find_all_images, convert_funsd_to_vqa
+        except ImportError:
+            from prepare_vlm_data import find_all_images, convert_funsd_to_vqa
+            
+        image_dirs = [
+            "/kaggle/input", "/kaggle/working",
+            os.path.join(project_root, "datasets/vietnamese-receipts-v3"),
+            os.path.join(project_root, "datasets/MCOCR"),
+            os.path.join(project_root, "datasets"),
+        ]
+        image_index = find_all_images(image_dirs)
+        
+        train_data_dirs = [
+            os.path.join(project_root, "datasets/vietnamese-receipts-v3/VN_receipts_train_funsd"),
+            os.path.join(project_root, "datasets/vietnamese-receipts-v3/train/funsd_json"),
+            os.path.join(project_root, "datasets/VN_receipts_train_funsd"),
+            os.path.join(project_root, "datasets/MCOCR/mcocr_train_funsd"),
+            os.path.join(project_root, "datasets/MCOCR/train/funsd_json"),
+            os.path.join(project_root, "datasets/mcocr_train_funsd"),
+        ]
+        out_dir = os.path.abspath(os.path.join(_model_dir, "data"))
+        os.makedirs(out_dir, exist_ok=True)
+        train_out = os.path.join(out_dir, "vlm_train.json")
+        convert_funsd_to_vqa(train_data_dirs, image_index, train_out)
+        actual_train_path = train_out
+
+    records = load_dataset_records(actual_train_path) if actual_train_path and os.path.exists(actual_train_path) else []
     if not records:
-        print(f"[Warning] Training data file not found at {train_path}. Please prepare it before training.")
+        print(f"[Error] Không thể nạp dữ liệu từ {actual_train_path}. Vui lòng kiểm tra thư mục datasets.")
         return
+
+    print(f"📊 [trainer] Nạp thành công {len(records)} mẫu huấn luyện từ {actual_train_path}!")
 
     train_dataset = VQADataset(
         records=records,
@@ -122,9 +164,13 @@ def train(config_path="stage1_vlm/configs/train_config.yaml"):
     # Use the custom dynamic collator instead of default
     data_collator = Qwen2VLDataCollator(processor)
 
+    # Đảm bảo đường dẫn output luôn chuẩn xác
+    abs_output_dir = os.path.abspath(os.path.join(_here, "../output"))
+    os.makedirs(abs_output_dir, exist_ok=True)
+
     use_cuda = torch.cuda.is_available()
     training_args = TrainingArguments(
-        output_dir=cfg.get("output_dir", "./stage1_vlm/output"),
+        output_dir=abs_output_dir,
         max_steps=cfg.get("max_steps", 400),
         per_device_train_batch_size=cfg.get("batch_size", 2),
         gradient_accumulation_steps=4,
