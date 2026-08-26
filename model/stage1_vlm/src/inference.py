@@ -1,9 +1,23 @@
 import os
+import sys
 import torch
 from typing import Dict, Any
 from PIL import Image
-from peft import PeftModel
-from qwen_vl_utils import process_vision_info
+
+try:
+    from peft import PeftModel
+except ImportError:
+    import subprocess
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "peft>=0.12.0", "bitsandbytes>=0.43.0", "-q"])
+    from peft import PeftModel
+
+try:
+    from qwen_vl_utils import process_vision_info
+except ImportError:
+    import subprocess
+    print("📦 [inference] Đang tự động cài đặt thư viện 'qwen-vl-utils'...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "qwen-vl-utils>=0.0.8", "-q"])
+    from qwen_vl_utils import process_vision_info
 
 from .model import load_model_and_processor
 

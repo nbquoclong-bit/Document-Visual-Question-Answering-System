@@ -8,13 +8,19 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 import yaml
 import torch
 from transformers import Trainer, TrainingArguments
-from qwen_vl_utils import process_vision_info
-
 # Auto-add model directory to sys.path so imports work from any cwd
 _here = os.path.dirname(os.path.abspath(__file__))
 _model_dir = os.path.abspath(os.path.join(_here, "../.."))
 if _model_dir not in sys.path:
     sys.path.insert(0, _model_dir)
+
+try:
+    from qwen_vl_utils import process_vision_info
+except ImportError:
+    import subprocess
+    print("📦 [trainer] Đang tự động cài đặt thư viện 'qwen-vl-utils'...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "qwen-vl-utils>=0.0.8", "peft>=0.12.0", "bitsandbytes>=0.43.0", "-q"])
+    from qwen_vl_utils import process_vision_info
 
 try:
     from stage1_vlm.src.model import load_model_and_processor, save_model
