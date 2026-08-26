@@ -24,13 +24,14 @@ BASE_MODEL_NAME = "Qwen/Qwen2-VL-2B-Instruct"
 
 def get_quantization_config() -> BitsAndBytesConfig:
     """Return 4-bit quantization config for memory-efficient loading.
-    Uses float16 compute dtype for compatibility with T4/P100 GPUs (no bfloat16).
+    Uses bfloat16 compute dtype to prevent RoPE numerical overflow in Qwen2-VL.
     """
+    compute_dtype = torch.bfloat16 if torch.cuda.is_available() and torch.cuda.is_bf16_supported() else torch.float16
     return BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_use_double_quant=True,
         bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.float16,
+        bnb_4bit_compute_dtype=compute_dtype,
     )
 
 
@@ -72,13 +73,15 @@ def load_model_and_processor(
 
     processor = AutoProcessor.from_pretrained(base_model_name)
     use_cuda = torch.cuda.is_available()
-    # Luôn áp dụng 4-bit quantization trên GPU để khớp 100% với trọng số QLoRA
     quantization_config = get_quantization_config() if (use_4bit and use_cuda) else None
+
+    # Qwen2-VL khuyến nghị dùng bfloat16 để tránh lỗi tràn số (overflow) ở tầng RoPE
+    model_dtype = torch.bfloat16 if (use_cuda and torch.cuda.is_bf16_supported()) else (torch.float16 if use_cuda else torch.float32)
 
     model = Qwen2VLForConditionalGeneration.from_pretrained(
         base_model_name,
         quantization_config=quantization_config,
-        torch_dtype=torch.float16 if use_cuda else torch.float32,
+        torch_dtype=model_dtype,
         device_map=device_map if use_cuda else None,
         low_cpu_mem_usage=True,
     )
