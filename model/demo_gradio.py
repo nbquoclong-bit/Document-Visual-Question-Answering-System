@@ -98,14 +98,16 @@ with gr.Blocks(title="Document VQA System - Qwen2-VL") as demo:
             
             gr.Examples(
                 examples=[
-                    ["Tổng tiền thanh toán là bao nhiêu?"],
-                    ["Tên đơn vị bán / Cửa hàng là gì?"],
-                    ["Mã số thuế của người bán là gì?"],
-                    ["Ngày lập hóa đơn là ngày nào?"],
-                    ["Trích xuất toàn bộ thông tin quan trọng dưới dạng JSON."]
+                    ["Tổng tiền thanh toán trên hóa đơn là bao nhiêu?"],
+                    ["Tên cửa hàng / bên bán trên hóa đơn là gì?"],
+                    ["Địa chỉ cửa hàng / bên bán là ở đâu?"],
+                    ["Ngày giờ lập hóa đơn là khi nào?"],
+                    ["Thuế VAT / Tiền thuế trên hóa đơn là bao nhiêu?"],
+                    ["Các sản phẩm / món hàng được mua trên hóa đơn là gì?"],
+                    ["Trích xuất toàn bộ thông tin hóa đơn dưới dạng JSON."]
                 ],
                 inputs=[q_input],
-                label="Gợi ý câu hỏi nhanh"
+                label="💡 Gợi ý câu hỏi chuẩn hóa đơn"
             )
         
         with gr.Column():

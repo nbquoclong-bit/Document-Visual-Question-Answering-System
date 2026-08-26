@@ -26,15 +26,16 @@ class VQAEngine:
             self.model.to(self.device)
 
     def extract_and_answer(self, image_path: str, question: str = "Trích xuất thông tin hóa đơn và kiểm tra tính toán.") -> str:
+        # Sử dụng đúng System Prompt đã được huấn luyện trong Dataset
         messages = [
             {
                 "role": "system",
-                "content": "Bạn là một chuyên gia kế toán kiểm toán Việt Nam. Hãy đọc hóa đơn và trả lời câu hỏi."
+                "content": "Bạn là một chuyên gia kế toán kiểm toán. Hãy đọc hóa đơn và trả lời."
             },
             {
                 "role": "user",
                 "content": [
-                    {"type": "image", "image": image_path, "max_pixels": 768 * 768},
+                    {"type": "image", "image": image_path, "max_pixels": 1024 * 1024},
                     {"type": "text", "text": question},
                 ],
             }
@@ -52,22 +53,17 @@ class VQAEngine:
             padding=True,
             return_tensors="pt",
         )
-        # The processor returns a BatchEncoding; moving it as a whole preserves
-        # all image/video tensors. With an Accelerate device map, use the first
-        # model parameter's device as the input device.
+        
         target_device = next(self.model.parameters()).device
         inputs = inputs.to(target_device)
 
-        eos_ids = [self.processor.tokenizer.eos_token_id, 151643, 151645]
-        eos_ids = [t for t in eos_ids if t is not None]
-
+        # Tránh repetition_penalty gây phạt token kết thúc <|im_end|> và sinh ký tự rác
         with torch.no_grad():
             generated_ids = self.model.generate(
                 **inputs,
-                max_new_tokens=512,
-                repetition_penalty=1.1,
-                eos_token_id=eos_ids,
-                do_sample=False
+                max_new_tokens=300,
+                do_sample=False,
+                use_cache=True,
             )
 
         generated_ids_trimmed = [
