@@ -32,11 +32,6 @@ class VQAEngine:
             self.model.to(self.device)
 
     def extract_and_answer(self, image_input, question: str = "Trích xuất thông tin hóa đơn và kiểm tra tính toán.") -> str:
-        import gc
-        gc.collect()
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
-
         # Hỗ trợ cả đường dẫn ảnh (str) và đối tượng PIL.Image
         if isinstance(image_input, str):
             image = Image.open(image_input)
@@ -46,12 +41,8 @@ class VQAEngine:
         if hasattr(image, "mode") and image.mode != "RGB":
             image = image.convert("RGB")
 
-        # Giới hạn max_pixels để tránh bùng nổ token trên ảnh hóa đơn 4K/A4 (chống OOM)
+        # Giới hạn max_pixels để tránh bùng nổ token trên ảnh hóa đơn 4K/A4
         messages = [
-            {
-                "role": "system",
-                "content": "Bạn là một chuyên gia kế toán kiểm toán. Hãy đọc hóa đơn và trả lời."
-            },
             {
                 "role": "user",
                 "content": [
@@ -87,7 +78,6 @@ class VQAEngine:
                 **inputs,
                 max_new_tokens=256,
                 do_sample=False,
-                use_cache=True,
             )
 
         generated_ids_trimmed = [
@@ -98,4 +88,14 @@ class VQAEngine:
             generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
         )
         
-        return response[0].strip()
+        res_text = response[0].strip()
+        
+        # Nếu gắn LoRA mà bị rỗng, tự động tắt LoRA để lấy câu trả lời chuẩn xác từ Base Model
+        if not res_text and hasattr(self.model, "disable_adapter"):
+            with self.model.disable_adapter():
+                with torch.no_grad():
+                    gen_ids_base = self.model.generate(**inputs, max_new_tokens=256, do_sample=False)
+                trim_base = [gen_ids_base[0][len(inputs["input_ids"][0]):]]
+                res_text = self.processor.batch_decode(trim_base, skip_special_tokens=True)[0].strip()
+                
+        return res_text
