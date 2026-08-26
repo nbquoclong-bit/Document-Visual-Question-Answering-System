@@ -36,14 +36,11 @@ def get_quantization_config() -> BitsAndBytesConfig:
 
 
 def get_lora_config(target_modules: Optional[list] = None) -> LoraConfig:
-    """Return LoRA configuration for Qwen2-VL attention + MLP layers."""
-    default_targets = [
-        "q_proj", "k_proj", "v_proj", "o_proj",
-        "gate_proj", "up_proj", "down_proj",
-    ]
+    """Return LoRA configuration for Qwen2-VL attention layers (q_proj, v_proj)."""
+    default_targets = ["q_proj", "v_proj"]
     return LoraConfig(
         r=16,
-        lora_alpha=32,
+        lora_alpha=16,
         lora_dropout=0.05,
         bias="none",
         task_type=TaskType.CAUSAL_LM,

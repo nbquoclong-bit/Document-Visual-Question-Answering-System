@@ -20,23 +20,7 @@ class VQAEngine:
             try:
                 print(f"[VQAEngine] Loading LoRA adapters from {adapter_dir}...")
                 self.model = PeftModel.from_pretrained(self.model, adapter_dir, is_trainable=False)
-                
-                # Áp dụng Hệ số hòa trộn tối ưu (Optimal LoRA Scale = 0.08)
-                # Giúp mô hình phát huy 100% tri thức hóa đơn tiếng Việt mà không bị bão hòa
-                for name, module in self.model.named_modules():
-                    if hasattr(module, "scaling"):
-                        if isinstance(module.scaling, dict):
-                            for k in module.scaling:
-                                orig_r = getattr(module, "r", {}).get(k, 16) if isinstance(getattr(module, "r", None), dict) else getattr(module, "r", 16)
-                                orig_alpha = getattr(module, "lora_alpha", {}).get(k, 32) if isinstance(getattr(module, "lora_alpha", None), dict) else getattr(module, "lora_alpha", 32)
-                                base_scale = orig_alpha / orig_r if orig_r else 1.0
-                                module.scaling[k] = base_scale * 0.08
-                        elif isinstance(module.scaling, (int, float)):
-                            orig_r = getattr(module, "r", 16)
-                            orig_alpha = getattr(module, "lora_alpha", 32)
-                            base_scale = orig_alpha / orig_r if orig_r else 1.0
-                            module.scaling = base_scale * 0.08
-                print("🎯 [VQAEngine] Nạp và tối ưu Scale LoRA (0.08) thành công!")
+                print("🎯 [VQAEngine] Nạp LoRA adapter chuẩn thành công 100%!")
             except Exception as e:
                 print(f"[Warning] Failed to load adapter from {adapter_dir}: {e}. Running base model.")
         elif adapter_dir:

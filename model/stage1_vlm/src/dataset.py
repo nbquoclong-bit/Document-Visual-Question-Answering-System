@@ -33,16 +33,21 @@ class VQADataset(Dataset):
         image_path = record.get('image_path', '')
         output = record.get('output', '')
 
-        # Construct chat template messages
+        # Cấu trúc messages chuẩn chỉ của Qwen2-VL
         messages = [
             {
                 "role": "system",
-                "content": "Bạn là một chuyên gia kế toán kiểm toán. Hãy đọc hóa đơn và trả lời."
+                "content": "Bạn là chuyên gia trích xuất dữ liệu hóa đơn kế toán. Hãy đọc kỹ ảnh và trả lời ngắn gọn, chính xác thông tin hoặc số tiền thực tế ghi trên hóa đơn, không giải thích dài dòng."
             },
             {
                 "role": "user",
                 "content": [
-                    {"type": "image", "image": image_path, "max_pixels": 768 * 768},
+                    {
+                        "type": "image", 
+                        "image": image_path, 
+                        "min_pixels": 256 * 28 * 28, 
+                        "max_pixels": 768 * 28 * 28
+                    },
                     {"type": "text", "text": instruction},
                 ],
             },
