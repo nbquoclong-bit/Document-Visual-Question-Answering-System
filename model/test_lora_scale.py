@@ -60,19 +60,24 @@ def test_lora_scales(image_path: str, question: str = "Tổng tiền thanh toán
     image_inputs, video_inputs = process_vision_info(messages)
     inputs = processor(text=[text], images=image_inputs, videos=video_inputs, padding=True, return_tensors="pt").to(device)
 
-    # Thử nghiệm các mức scale khác nhau từ 0.0 (Base), 0.1, 0.3, 0.5, 1.0 (Full)
-    scales_to_test = [0.0, 0.1, 0.25, 0.5, 1.0]
+    # Thử nghiệm các mức scale khác nhau từ 0.0 (Base), 0.05, 0.1, 0.2, 0.5, 1.0 (Full)
+    scales_to_test = [0.0, 0.05, 0.1, 0.2, 0.5, 1.0]
     
     for scale in scales_to_test:
         # Cập nhật scale factor cho toàn bộ các layer LoRA
         for name, module in model.named_modules():
             if hasattr(module, "scaling"):
-                for k in module.scaling:
-                    # Gán scale mới
-                    orig_r = getattr(module, "r", {}).get(k, 16)
-                    orig_alpha = getattr(module, "lora_alpha", {}).get(k, 32)
+                if isinstance(module.scaling, dict):
+                    for k in module.scaling:
+                        orig_r = getattr(module, "r", {}).get(k, 16) if isinstance(getattr(module, "r", None), dict) else getattr(module, "r", 16)
+                        orig_alpha = getattr(module, "lora_alpha", {}).get(k, 32) if isinstance(getattr(module, "lora_alpha", None), dict) else getattr(module, "lora_alpha", 32)
+                        base_scale = orig_alpha / orig_r if orig_r else 1.0
+                        module.scaling[k] = base_scale * scale
+                elif isinstance(module.scaling, (int, float)):
+                    orig_r = getattr(module, "r", 16)
+                    orig_alpha = getattr(module, "lora_alpha", 32)
                     base_scale = orig_alpha / orig_r if orig_r else 1.0
-                    module.scaling[k] = base_scale * scale
+                    module.scaling = base_scale * scale
 
         with torch.no_grad():
             out = model.generate(**inputs, max_new_tokens=128, do_sample=False)
