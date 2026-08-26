@@ -57,23 +57,31 @@ class Qwen2VLDataCollator:
         labels[inputs["attention_mask"] == 0] = -100
         
         # Mask system + vision + user prompt tokens accurately
-        # In Qwen2 tokenizer: <|im_start|> is 151644, assistant token is 77091
         im_start_id = self.processor.tokenizer.convert_tokens_to_ids("<|im_start|>")
-        assistant_id = self.processor.tokenizer.convert_tokens_to_ids("assistant")
 
         for i in range(inputs["input_ids"].size(0)):
             input_ids_list = inputs["input_ids"][i].tolist()
             assistant_start = -1
-            # Find the LAST occurrence of <|im_start|> assistant in the sequence
-            for idx in range(len(input_ids_list) - 1):
-                if input_ids_list[idx] == im_start_id and input_ids_list[idx + 1] == assistant_id:
-                    # Skip <|im_start|>, assistant, and newline tokens (\n = 198)
-                    cur = idx + 2
+            
+            # Tìm thẻ <|im_start|> cuối cùng trong chuỗi (chính là lượt của assistant)
+            for idx in range(len(input_ids_list) - 1, -1, -1):
+                if input_ids_list[idx] == im_start_id:
+                    # Bỏ qua <|im_start|>, 'assistant', và ký tự xuống dòng (\n)
+                    cur = idx + 1
+                    while cur < len(input_ids_list) and input_ids_list[cur] not in (198, 271) and cur < idx + 4:
+                        cur += 1
                     while cur < len(input_ids_list) and input_ids_list[cur] in (198, 271):
                         cur += 1
                     assistant_start = cur
-            if assistant_start != -1:
+                    break
+                    
+            if assistant_start != -1 and assistant_start < len(input_ids_list):
                 labels[i, :assistant_start] = -100
+            else:
+                # Dự phòng: tìm vị trí <|im_start|> cuối cùng và mask toàn bộ phần trước
+                last_starts = [k for k, val in enumerate(input_ids_list) if val == im_start_id]
+                if last_starts:
+                    labels[i, :last_starts[-1] + 3] = -100
                 
         inputs["labels"] = labels
         return inputs
