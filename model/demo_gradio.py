@@ -18,14 +18,15 @@ except ImportError:
 
 def find_adapter_dir():
     import zipfile
-    # Tự động giải nén nếu có file zip trong /kaggle/working hoặc thư mục model/output
-    zip_candidates = [
+    
+    # 1. Tự động giải nén nếu có file zip trong /kaggle/working hoặc thư mục model/output
+    possible_zips = [
         "/kaggle/working/qwen2_vl_lora_adapters.zip",
         os.path.join(base_dir, "output", "qwen2_vl_lora_adapters.zip"),
         os.path.join(base_dir, "qwen2_vl_lora_adapters.zip"),
         os.path.join(project_root, "qwen2_vl_lora_adapters.zip")
     ]
-    for z in zip_candidates:
+    for z in possible_zips:
         if os.path.exists(z):
             extract_target = os.path.join(base_dir, "output", "lora_adapters")
             if not os.path.exists(os.path.join(extract_target, "adapter_config.json")):
@@ -33,27 +34,28 @@ def find_adapter_dir():
                 try:
                     with zipfile.ZipFile(z, 'r') as zip_ref:
                         zip_ref.extractall(extract_target)
-                    print(f"📦 Đã tự động giải nén trọng số LoRA từ {z}!")
+                    print(f"📦 Đã tự động giải nén trọng số LoRA từ {z} vào {extract_target}!")
                 except Exception as err:
                     print(f"⚠️ Lỗi giải nén {z}: {err}")
 
-    candidates = [
-        os.path.join(base_dir, "stage1_vlm", "output", "lora_adapters"),
-        os.path.join(base_dir, "output", "lora_adapters"),
+    # 2. Tìm kiếm đệ quy thư mục chứa 'adapter_config.json'
+    search_roots = [
+        os.path.join(base_dir, "output"),
         os.path.join(base_dir, "stage1_vlm", "output"),
-        "/kaggle/working/Document-Visual-Question-Answering-System/model/stage1_vlm/output/lora_adapters",
-        "/kaggle/working/lora_adapters",
-        "output/lora_adapters"
+        "/kaggle/working",
+        base_dir
     ]
-    for p in candidates:
-        if os.path.exists(os.path.join(p, "adapter_config.json")):
-            return p
+    for root in search_roots:
+        if os.path.exists(root):
+            for dirpath, dirnames, filenames in os.walk(root):
+                if "adapter_config.json" in filenames:
+                    return dirpath
     return None
 
 print("🚀 Đang khởi tạo VQA Engine (Qwen2-VL)...")
 adapter_path = find_adapter_dir()
 if adapter_path:
-    print(f"✅ Đã tìm thấy trọng số LoRA tại: {adapter_path}")
+    print(f"✅ Đã tìm thấy và nạp trọng số LoRA tại: {adapter_path}")
 else:
     print("ℹ️ Chạy trực tiếp Base Model Qwen2-VL-2B (Không tìm thấy LoRA adapter cục bộ).")
 
@@ -67,7 +69,12 @@ def predict_vqa(image, question):
         question = "Trích xuất các thông tin quan trọng: Tên đơn vị bán, Mã số thuế, Ngày lập, Tổng tiền thanh toán."
     
     temp_img_path = os.path.join(base_dir, "temp_gradio_input.jpg")
-    image.save(temp_img_path)
+    try:
+        if hasattr(image, "mode") and image.mode != "RGB":
+            image = image.convert("RGB")
+        image.save(temp_img_path, format="JPEG", quality=95)
+    except Exception as e:
+        return f"❌ Lỗi xử lý ảnh: {e}"
     
     try:
         res = engine.extract_and_answer(temp_img_path, question)

@@ -64,8 +64,8 @@ class VQAEngine:
         with torch.no_grad():
             generated_ids = self.model.generate(
                 **inputs,
-                max_new_tokens=256,
-                repetition_penalty=1.2,
+                max_new_tokens=512,
+                repetition_penalty=1.1,
                 eos_token_id=eos_ids,
                 do_sample=False
             )
