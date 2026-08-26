@@ -68,16 +68,8 @@ def predict_vqa(image, question):
     if not question or question.strip() == "":
         question = "Trích xuất các thông tin quan trọng: Tên đơn vị bán, Mã số thuế, Ngày lập, Tổng tiền thanh toán."
     
-    temp_img_path = os.path.join(base_dir, "temp_gradio_input.jpg")
     try:
-        if hasattr(image, "mode") and image.mode != "RGB":
-            image = image.convert("RGB")
-        image.save(temp_img_path, format="JPEG", quality=95)
-    except Exception as e:
-        return f"❌ Lỗi xử lý ảnh: {e}"
-    
-    try:
-        res = engine.extract_and_answer(temp_img_path, question)
+        res = engine.extract_and_answer(image, question)
         return res
     except Exception as e:
         return f"❌ Lỗi khi xử lý: {str(e)}"

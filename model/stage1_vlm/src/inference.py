@@ -1,5 +1,7 @@
+import os
 import torch
 from typing import Dict, Any
+from PIL import Image
 from peft import PeftModel
 from qwen_vl_utils import process_vision_info
 
@@ -7,26 +9,38 @@ from .model import load_model_and_processor
 
 class VQAEngine:
     def __init__(self, adapter_dir: str = None, base_model: str = "Qwen/Qwen2-VL-2B-Instruct"):
+        use_cuda = torch.cuda.is_available()
         self.model, self.processor = load_model_and_processor(
             base_model_name=base_model,
-            is_training=False
+            is_training=False,
+            use_4bit=use_cuda
         )
         
-        if adapter_dir:
+        if adapter_dir and os.path.exists(os.path.join(adapter_dir, "adapter_config.json")):
             try:
-                self.model = PeftModel.from_pretrained(self.model, adapter_dir)
+                print(f"[VQAEngine] Loading LoRA adapters from {adapter_dir}...")
+                self.model = PeftModel.from_pretrained(self.model, adapter_dir, is_trainable=False)
+                print("[VQAEngine] LoRA adapter attached successfully!")
             except Exception as e:
                 print(f"[Warning] Failed to load adapter from {adapter_dir}: {e}. Running base model.")
+        elif adapter_dir:
+            print(f"[Warning] Adapter dir {adapter_dir} does not contain adapter_config.json. Running base model.")
         
         self.model.eval()
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        # `device_map="auto"` has already dispatched a GPU model. A CPU model
-        # still needs an explicit placement for consistent inference behaviour.
-        if not hasattr(self.model, "hf_device_map"):
+        self.device = torch.device("cuda" if use_cuda else "cpu")
+        if not hasattr(self.model, "hf_device_map") and not hasattr(self.model, "is_quantized"):
             self.model.to(self.device)
 
-    def extract_and_answer(self, image_path: str, question: str = "Trích xuất thông tin hóa đơn và kiểm tra tính toán.") -> str:
-        # Sử dụng đúng System Prompt đã được huấn luyện trong Dataset
+    def extract_and_answer(self, image_input, question: str = "Trích xuất thông tin hóa đơn và kiểm tra tính toán.") -> str:
+        # Hỗ trợ cả đường dẫn ảnh (str) và đối tượng PIL.Image
+        if isinstance(image_input, str):
+            image = Image.open(image_input)
+        else:
+            image = image_input
+
+        if hasattr(image, "mode") and image.mode != "RGB":
+            image = image.convert("RGB")
+
         messages = [
             {
                 "role": "system",
@@ -35,7 +49,7 @@ class VQAEngine:
             {
                 "role": "user",
                 "content": [
-                    {"type": "image", "image": image_path, "max_pixels": 1024 * 1024},
+                    {"type": "image", "image": image},
                     {"type": "text", "text": question},
                 ],
             }
@@ -57,11 +71,10 @@ class VQAEngine:
         target_device = next(self.model.parameters()).device
         inputs = inputs.to(target_device)
 
-        # Tránh repetition_penalty gây phạt token kết thúc <|im_end|> và sinh ký tự rác
         with torch.no_grad():
             generated_ids = self.model.generate(
                 **inputs,
-                max_new_tokens=300,
+                max_new_tokens=256,
                 do_sample=False,
                 use_cache=True,
             )
@@ -75,6 +88,3 @@ class VQAEngine:
         )
         
         return response[0].strip()
-
-if __name__ == "__main__":
-    pass

@@ -53,7 +53,8 @@ def get_lora_config(target_modules: Optional[list] = None) -> LoraConfig:
 def load_model_and_processor(
     base_model_name: str = BASE_MODEL_NAME,
     device_map: str = "auto",
-    is_training: bool = True
+    is_training: bool = True,
+    use_4bit: bool = True
 ) -> Tuple:
     """
     Load base VLM with 4-bit quantization and processor. Apply LoRA if training.
@@ -62,6 +63,7 @@ def load_model_and_processor(
         base_model_name: Hugging Face model identifier.
         device_map: Device allocation strategy.
         is_training: If True, applies QLoRA preparation.
+        use_4bit: If True, loads in 4-bit nf4 quantization (consistent with QLoRA).
 
     Returns:
         Tuple of (model, processor).
@@ -70,7 +72,8 @@ def load_model_and_processor(
 
     processor = AutoProcessor.from_pretrained(base_model_name)
     use_cuda = torch.cuda.is_available()
-    quantization_config = get_quantization_config() if is_training and use_cuda else None
+    # Luôn áp dụng 4-bit quantization trên GPU để khớp 100% với trọng số QLoRA
+    quantization_config = get_quantization_config() if (use_4bit and use_cuda) else None
 
     model = Qwen2VLForConditionalGeneration.from_pretrained(
         base_model_name,
@@ -87,7 +90,7 @@ def load_model_and_processor(
         model.print_trainable_parameters()
         print("[model] Model loaded with QLoRA adapters applied.")
     else:
-        print("[model] Model loaded for inference.")
+        print(f"[model] Model loaded for inference (4-bit: {quantization_config is not None}).")
 
     return model, processor
 
