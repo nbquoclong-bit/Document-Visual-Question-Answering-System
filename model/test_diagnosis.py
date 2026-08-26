@@ -14,22 +14,37 @@ def run_test(image_path: str, question: str = "Tổng tiền thanh toán trên h
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"🖥️ Thiết bị: {device}")
     
-    # 1. Nạp Base Model chuẩn theo đúng tài liệu Hugging Face
+    from transformers import BitsAndBytesConfig
+    bnb_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_use_double_quant=True,
+        bnb_4bit_quant_type="nf4",
+        bnb_4bit_compute_dtype=torch.float16,
+    ) if torch.cuda.is_available() else None
+
+    # 1. Nạp Base Model ở chế độ 4-bit (chỉ tốn ~1.5 GB VRAM)
     print("\n[1/3] Đang nạp Base Model: Qwen/Qwen2-VL-2B-Instruct...")
     processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-2B-Instruct")
     base_model = Qwen2VLForConditionalGeneration.from_pretrained(
         "Qwen/Qwen2-VL-2B-Instruct",
-        torch_dtype="auto",
-        device_map="auto"
+        quantization_config=bnb_config,
+        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+        device_map="auto" if torch.cuda.is_available() else None,
+        low_cpu_mem_usage=True,
     )
     base_model.eval()
 
-    # Chuẩn bị Prompt
+    # Chuẩn bị Prompt với giới hạn max_pixels (chống tràn VRAM trên ảnh lớn)
     messages = [
         {
             "role": "user",
             "content": [
-                {"type": "image", "image": image_path},
+                {
+                    "type": "image", 
+                    "image": image_path,
+                    "min_pixels": 256 * 28 * 28,
+                    "max_pixels": 768 * 28 * 28
+                },
                 {"type": "text", "text": question},
             ],
         }
@@ -62,7 +77,7 @@ def run_test(image_path: str, question: str = "Tổng tiền thanh toán trên h
     if os.path.exists(os.path.join(adapter_path, "adapter_config.json")):
         print(f"\n--- 🔍 TEST 2: KẾT QUẢ SAU KHI GẮN LORA ADAPTER ({adapter_path}) ---")
         try:
-            lora_model = PeftModel.from_pretrained(base_model, adapter_path)
+            lora_model = PeftModel.from_pretrained(base_model, adapter_path, is_trainable=False)
             lora_model.eval()
             with torch.no_grad():
                 out_ids_lora = lora_model.generate(**inputs, max_new_tokens=128, do_sample=False)
