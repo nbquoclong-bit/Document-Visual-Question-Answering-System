@@ -35,13 +35,21 @@ def get_quantization_config() -> BitsAndBytesConfig:
     )
 
 
-def get_lora_config(target_modules: Optional[list] = None) -> LoraConfig:
-    """Return LoRA configuration for Qwen2-VL attention layers (q_proj, v_proj)."""
-    default_targets = ["q_proj", "v_proj"]
+def get_lora_config(
+    target_modules: Optional[list] = None,
+    r: int = 16,
+    lora_alpha: int = 32,
+    lora_dropout: float = 0.05
+) -> LoraConfig:
+    """Return LoRA configuration for Qwen2-VL layers."""
+    default_targets = [
+        "q_proj", "k_proj", "v_proj", "o_proj",
+        "gate_proj", "up_proj", "down_proj"
+    ]
     return LoraConfig(
-        r=16,
-        lora_alpha=16,
-        lora_dropout=0.05,
+        r=r,
+        lora_alpha=lora_alpha,
+        lora_dropout=lora_dropout,
         bias="none",
         task_type=TaskType.CAUSAL_LM,
         target_modules=target_modules or default_targets,
@@ -52,7 +60,11 @@ def load_model_and_processor(
     base_model_name: str = BASE_MODEL_NAME,
     device_map: str = "auto",
     is_training: bool = True,
-    use_4bit: bool = True
+    use_4bit: bool = True,
+    lora_r: int = 16,
+    lora_alpha: int = 32,
+    lora_dropout: float = 0.05,
+    target_modules: Optional[list] = None,
 ) -> Tuple:
     """
     Load base VLM with 4-bit quantization and processor. Apply LoRA if training.
@@ -62,6 +74,10 @@ def load_model_and_processor(
         device_map: Device allocation strategy.
         is_training: If True, applies QLoRA preparation.
         use_4bit: If True, loads in 4-bit nf4 quantization (consistent with QLoRA).
+        lora_r: LoRA rank.
+        lora_alpha: LoRA scaling factor.
+        lora_dropout: LoRA dropout probability.
+        target_modules: List of target linear modules.
 
     Returns:
         Tuple of (model, processor).
@@ -85,7 +101,12 @@ def load_model_and_processor(
 
     if is_training:
         model = prepare_model_for_kbit_training(model)
-        lora_cfg = get_lora_config()
+        lora_cfg = get_lora_config(
+            target_modules=target_modules,
+            r=lora_r,
+            lora_alpha=lora_alpha,
+            lora_dropout=lora_dropout
+        )
         model = get_peft_model(model, lora_cfg)
         model.print_trainable_parameters()
         print("[model] Model loaded with QLoRA adapters applied.")

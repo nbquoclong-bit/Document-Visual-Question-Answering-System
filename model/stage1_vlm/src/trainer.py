@@ -11,8 +11,11 @@ from transformers import Trainer, TrainingArguments
 # Auto-add model directory to sys.path so imports work from any cwd
 _here = os.path.dirname(os.path.abspath(__file__))
 _model_dir = os.path.abspath(os.path.join(_here, "../.."))
+project_root = os.path.abspath(os.path.join(_here, "../../.."))
 if _model_dir not in sys.path:
     sys.path.insert(0, _model_dir)
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 try:
     from qwen_vl_utils import process_vision_info
@@ -104,9 +107,14 @@ def train(config_path="stage1_vlm/configs/train_config.yaml"):
     with open(config_path, "r", encoding="utf-8") as f:
         cfg = yaml.safe_load(f)
         
+    lora_cfg_dict = cfg.get("lora", {})
     model, processor = load_model_and_processor(
         base_model_name=cfg.get("model_name", "Qwen/Qwen2-VL-2B-Instruct"),
-        is_training=True
+        is_training=True,
+        lora_r=lora_cfg_dict.get("r", 16),
+        lora_alpha=lora_cfg_dict.get("lora_alpha", 32),
+        lora_dropout=lora_cfg_dict.get("lora_dropout", 0.05),
+        target_modules=lora_cfg_dict.get("target_modules", None)
     )
     
     data_cfg = cfg.get("data", {})
@@ -157,11 +165,46 @@ def train(config_path="stage1_vlm/configs/train_config.yaml"):
         actual_train_path = train_out
 
     records = load_dataset_records(actual_train_path) if actual_train_path and os.path.exists(actual_train_path) else []
+    
+    # Kiểm tra tính hợp lệ của đường dẫn ảnh trên môi trường hiện tại
+    valid_records = [r for r in records if os.path.exists(r.get("image_path", ""))]
+    if records and len(valid_records) < len(records) * 0.5:
+        print("[trainer] ⚠️ Đường dẫn ảnh trong file json không khớp với máy hiện tại. Đang tự động quét và lập chỉ mục lại...")
+        try:
+            from stage1_vlm.src.prepare_vlm_data import find_all_images, convert_funsd_to_vqa
+        except ImportError:
+            from prepare_vlm_data import find_all_images, convert_funsd_to_vqa
+            
+        image_dirs = [
+            "/kaggle/input", "/kaggle/working",
+            os.path.join(project_root, "datasets/vietnamese-receipts-v3"),
+            os.path.join(project_root, "datasets/MCOCR"),
+            os.path.join(project_root, "datasets"),
+        ]
+        image_index = find_all_images(image_dirs)
+        
+        train_data_dirs = [
+            os.path.join(project_root, "datasets/vietnamese-receipts-v3/VN_receipts_train_funsd"),
+            os.path.join(project_root, "datasets/vietnamese-receipts-v3/train/funsd_json"),
+            os.path.join(project_root, "datasets/VN_receipts_train_funsd"),
+            os.path.join(project_root, "datasets/MCOCR/mcocr_train_funsd"),
+            os.path.join(project_root, "datasets/MCOCR/train/funsd_json"),
+            os.path.join(project_root, "datasets/mcocr_train_funsd"),
+        ]
+        out_dir = os.path.abspath(os.path.join(_model_dir, "data"))
+        os.makedirs(out_dir, exist_ok=True)
+        train_out = os.path.join(out_dir, "vlm_train.json")
+        convert_funsd_to_vqa(train_data_dirs, image_index, train_out)
+        actual_train_path = train_out
+        records = load_dataset_records(actual_train_path)
+    elif valid_records:
+        records = valid_records
+
     if not records:
-        print(f"[Error] Không thể nạp dữ liệu từ {actual_train_path}. Vui lòng kiểm tra thư mục datasets.")
+        print(f"[Error] Không tìm thấy ảnh hoặc dữ liệu hợp lệ tại {actual_train_path}. Vui lòng kiểm tra thư mục datasets.")
         return
 
-    print(f"📊 [trainer] Nạp thành công {len(records)} mẫu huấn luyện từ {actual_train_path}!")
+    print(f"📊 [trainer] Nạp thành công {len(records)} mẫu huấn luyện hợp lệ!")
 
     train_dataset = VQADataset(
         records=records,
@@ -179,15 +222,17 @@ def train(config_path="stage1_vlm/configs/train_config.yaml"):
         output_dir=abs_output_dir,
         max_steps=cfg.get("max_steps", 400),
         per_device_train_batch_size=cfg.get("batch_size", 2),
-        gradient_accumulation_steps=4,
+        gradient_accumulation_steps=cfg.get("gradient_accumulation_steps", 4),
         learning_rate=float(cfg.get("learning_rate", 5e-5)),
-        warmup_steps=20,
+        warmup_steps=30,
         weight_decay=0.01,
+        max_grad_norm=1.0,
         lr_scheduler_type="cosine",
         fp16=use_cuda,
         logging_steps=10,
         save_strategy="steps",
         save_steps=100,
+        save_total_limit=2,
         remove_unused_columns=False,
         report_to="none",
         label_names=["labels"],
@@ -201,7 +246,7 @@ def train(config_path="stage1_vlm/configs/train_config.yaml"):
         data_collator=data_collator,
     )
     
-    print("[trainer] Starting training...")
+    print("[trainer] 🚀 Bắt đầu huấn luyện QLoRA Golden (Dự kiến: 15-25 phút trên GPU T4)...")
     trainer.train()
     
     save_model(model, processor, cfg.get("output_dir", "./stage1_vlm/output"))

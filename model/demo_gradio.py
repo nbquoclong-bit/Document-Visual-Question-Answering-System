@@ -1,7 +1,27 @@
 import os
 import sys
 import torch
-import gradio as gr
+
+try:
+    import gradio as gr
+    from qwen_vl_utils import process_vision_info
+    from peft import PeftModel
+except ImportError:
+    import subprocess
+    print("📦 [demo_gradio] Đang tự động cài đặt các thư viện cần thiết...")
+    subprocess.check_call([
+        sys.executable, "-m", "pip", "install", 
+        "gradio>=4.0.0", 
+        "qwen-vl-utils>=0.0.8", 
+        "peft>=0.12.0", 
+        "bitsandbytes>=0.43.3", 
+        "transformers>=4.45.0", 
+        "accelerate>=0.34.0", 
+        "-q"
+    ])
+    import gradio as gr
+    from qwen_vl_utils import process_vision_info
+    from peft import PeftModel
 
 # Tự động nạp đường dẫn module
 base_dir = os.path.dirname(os.path.abspath(__file__))

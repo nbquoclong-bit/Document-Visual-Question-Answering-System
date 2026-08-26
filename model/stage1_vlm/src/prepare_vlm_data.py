@@ -108,42 +108,52 @@ def convert_funsd_to_vqa(data_dirs, image_index, output_path):
             
             # 2. Targeted VQA QA pairs cho từng trường thực thể tiếng Việt
             if "SELLER" in entities:
-                vqa_records.append({
-                    "image_path": img_abs,
-                    "instruction": "Tên cửa hàng / bên bán trên hóa đơn là gì?",
-                    "output": " ".join(entities["SELLER"])
-                })
+                seller_text = clean_text(" ".join(entities["SELLER"]))
+                if seller_text:
+                    vqa_records.append({
+                        "image_path": img_abs,
+                        "instruction": "Tên cửa hàng / bên bán trên hóa đơn là gì?",
+                        "output": seller_text
+                    })
             
             if "ADDRESS" in entities:
-                vqa_records.append({
-                    "image_path": img_abs,
-                    "instruction": "Địa chỉ cửa hàng / bên bán là ở đâu?",
-                    "output": " ".join(entities["ADDRESS"])
-                })
+                addr_text = clean_text(" ".join(entities["ADDRESS"]))
+                if addr_text:
+                    vqa_records.append({
+                        "image_path": img_abs,
+                        "instruction": "Địa chỉ cửa hàng / bên bán là ở đâu?",
+                        "output": addr_text
+                    })
                 
             if "TOTAL_COST" in entities:
-                vqa_records.append({
-                    "image_path": img_abs,
-                    "instruction": "Tổng tiền thanh toán trên hóa đơn là bao nhiêu?",
-                    "output": " ".join(entities["TOTAL_COST"])
-                })
+                cost_text = clean_text(" ".join(entities["TOTAL_COST"]))
+                if cost_text:
+                    vqa_records.append({
+                        "image_path": img_abs,
+                        "instruction": "Tổng tiền thanh toán trên hóa đơn là bao nhiêu?",
+                        "output": cost_text
+                    })
                 
             if "TIMESTAMP" in entities:
-                vqa_records.append({
-                    "image_path": img_abs,
-                    "instruction": "Ngày giờ lập hóa đơn là khi nào?",
-                    "output": " ".join(entities["TIMESTAMP"])
-                })
+                time_text = clean_text(" ".join(entities["TIMESTAMP"]))
+                if time_text:
+                    vqa_records.append({
+                        "image_path": img_abs,
+                        "instruction": "Ngày giờ lập hóa đơn là khi nào?",
+                        "output": time_text
+                    })
                 
             if items_list:
-                vqa_records.append({
-                    "image_path": img_abs,
-                    "instruction": "Các sản phẩm / món hàng được mua trên hóa đơn là gì?",
-                    "output": ", ".join(items_list)
-                })
+                items_text = clean_text(", ".join(items_list))
+                if items_text:
+                    vqa_records.append({
+                        "image_path": img_abs,
+                        "instruction": "Các sản phẩm / món hàng được mua trên hóa đơn là gì?",
+                        "output": items_text
+                    })
                 
             if "TAX" in entities or "VAT" in entities:
-                tax_val = " ".join(entities.get("TAX", entities.get("VAT", [])))
+                tax_val = clean_text(" ".join(entities.get("TAX", entities.get("VAT", []))))
                 if tax_val:
                     vqa_records.append({
                         "image_path": img_abs,

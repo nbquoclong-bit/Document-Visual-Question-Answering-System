@@ -34,8 +34,12 @@ def run_test(image_path: str, question: str = "Tổng tiền thanh toán trên h
     )
     base_model.eval()
 
-    # Chuẩn bị Prompt với giới hạn max_pixels (chống tràn VRAM trên ảnh lớn)
+    # Chuẩn bị Prompt với System Prompt chuẩn hóa đơn tiếng Việt
     messages = [
+        {
+            "role": "system",
+            "content": "Bạn là chuyên gia trích xuất dữ liệu hóa đơn kế toán. Hãy đọc kỹ ảnh và trả lời ngắn gọn, chính xác thông tin hoặc số tiền thực tế ghi trên hóa đơn, không giải thích dài dòng."
+        },
         {
             "role": "user",
             "content": [
@@ -61,10 +65,23 @@ def run_test(image_path: str, question: str = "Tổng tiền thanh toán trên h
         return_tensors="pt"
     ).to(device)
 
+    eos_ids = [processor.tokenizer.eos_token_id]
+    for special_tok in ["<|im_end|>", "<|endoftext|>"]:
+        tok_id = processor.tokenizer.convert_tokens_to_ids(special_tok)
+        if isinstance(tok_id, int) and tok_id not in eos_ids:
+            eos_ids.append(tok_id)
+
     # --- TEST 1: CHẠY TRỰC TIẾP TRÊN BASE MODEL ---
     print("\n--- 🔍 TEST 1: KẾT QUẢ TỪ BASE MODEL GỐC (Chưa gắn LoRA) ---")
     with torch.no_grad():
-        out_ids = base_model.generate(**inputs, max_new_tokens=128, do_sample=False)
+        out_ids = base_model.generate(
+            **inputs, 
+            max_new_tokens=128, 
+            do_sample=False,
+            repetition_penalty=1.15,
+            no_repeat_ngram_size=3,
+            eos_token_id=eos_ids
+        )
     trimmed_ids = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, out_ids)]
     ans_base = processor.batch_decode(trimmed_ids, skip_special_tokens=True)[0].strip()
     print(f"👉 Trả lời (Base Model): {ans_base}")
@@ -80,7 +97,14 @@ def run_test(image_path: str, question: str = "Tổng tiền thanh toán trên h
             lora_model = PeftModel.from_pretrained(base_model, adapter_path, is_trainable=False)
             lora_model.eval()
             with torch.no_grad():
-                out_ids_lora = lora_model.generate(**inputs, max_new_tokens=128, do_sample=False)
+                out_ids_lora = lora_model.generate(
+                    **inputs, 
+                    max_new_tokens=128, 
+                    do_sample=False,
+                    repetition_penalty=1.15,
+                    no_repeat_ngram_size=3,
+                    eos_token_id=eos_ids
+                )
             trimmed_lora = [out_ids_lora[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, out_ids_lora)]
             ans_lora = processor.batch_decode(trimmed_lora, skip_special_tokens=True)[0].strip()
             print(f"👉 Trả lời (LoRA Fine-tuned): {ans_lora}")

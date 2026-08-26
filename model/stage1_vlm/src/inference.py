@@ -68,7 +68,7 @@ class VQAEngine:
                         "type": "image", 
                         "image": image,
                         "min_pixels": 256 * 28 * 28,
-                        "max_pixels": 1024 * 1024
+                        "max_pixels": 768 * 28 * 28
                     },
                     {"type": "text", "text": question},
                 ],
@@ -91,11 +91,21 @@ class VQAEngine:
         target_device = next(self.model.parameters()).device
         inputs = inputs.to(target_device)
 
+        # Lấy danh sách token kết thúc của Qwen2-VL (<|im_end|>, <|endoftext|>)
+        eos_ids = [self.processor.tokenizer.eos_token_id]
+        for special_tok in ["<|im_end|>", "<|endoftext|>"]:
+            tok_id = self.processor.tokenizer.convert_tokens_to_ids(special_tok)
+            if isinstance(tok_id, int) and tok_id not in eos_ids:
+                eos_ids.append(tok_id)
+
         with torch.no_grad():
             generated_ids = self.model.generate(
                 **inputs,
                 max_new_tokens=256,
                 do_sample=False,
+                repetition_penalty=1.15,
+                no_repeat_ngram_size=3,
+                eos_token_id=eos_ids,
             )
 
         generated_ids_trimmed = [
@@ -112,7 +122,14 @@ class VQAEngine:
         if not res_text and hasattr(self.model, "disable_adapter"):
             with self.model.disable_adapter():
                 with torch.no_grad():
-                    gen_ids_base = self.model.generate(**inputs, max_new_tokens=256, do_sample=False)
+                    gen_ids_base = self.model.generate(
+                        **inputs,
+                        max_new_tokens=256,
+                        do_sample=False,
+                        repetition_penalty=1.15,
+                        no_repeat_ngram_size=3,
+                        eos_token_id=eos_ids
+                    )
                 trim_base = [gen_ids_base[0][len(inputs["input_ids"][0]):]]
                 res_text = self.processor.batch_decode(trim_base, skip_special_tokens=True)[0].strip()
                 
