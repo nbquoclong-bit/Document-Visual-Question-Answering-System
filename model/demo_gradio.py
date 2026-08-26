@@ -17,6 +17,26 @@ except ImportError:
     from model.stage1_vlm.src.inference import VQAEngine
 
 def find_adapter_dir():
+    import zipfile
+    # Tự động giải nén nếu có file zip trong /kaggle/working hoặc thư mục model/output
+    zip_candidates = [
+        "/kaggle/working/qwen2_vl_lora_adapters.zip",
+        os.path.join(base_dir, "output", "qwen2_vl_lora_adapters.zip"),
+        os.path.join(base_dir, "qwen2_vl_lora_adapters.zip"),
+        os.path.join(project_root, "qwen2_vl_lora_adapters.zip")
+    ]
+    for z in zip_candidates:
+        if os.path.exists(z):
+            extract_target = os.path.join(base_dir, "output", "lora_adapters")
+            if not os.path.exists(os.path.join(extract_target, "adapter_config.json")):
+                os.makedirs(extract_target, exist_ok=True)
+                try:
+                    with zipfile.ZipFile(z, 'r') as zip_ref:
+                        zip_ref.extractall(extract_target)
+                    print(f"📦 Đã tự động giải nén trọng số LoRA từ {z}!")
+                except Exception as err:
+                    print(f"⚠️ Lỗi giải nén {z}: {err}")
+
     candidates = [
         os.path.join(base_dir, "stage1_vlm", "output", "lora_adapters"),
         os.path.join(base_dir, "output", "lora_adapters"),
