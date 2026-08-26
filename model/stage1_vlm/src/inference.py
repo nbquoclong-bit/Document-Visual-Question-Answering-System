@@ -32,6 +32,11 @@ class VQAEngine:
             self.model.to(self.device)
 
     def extract_and_answer(self, image_input, question: str = "Trích xuất thông tin hóa đơn và kiểm tra tính toán.") -> str:
+        import gc
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
         # Hỗ trợ cả đường dẫn ảnh (str) và đối tượng PIL.Image
         if isinstance(image_input, str):
             image = Image.open(image_input)
@@ -41,6 +46,7 @@ class VQAEngine:
         if hasattr(image, "mode") and image.mode != "RGB":
             image = image.convert("RGB")
 
+        # Giới hạn max_pixels để tránh bùng nổ token trên ảnh hóa đơn 4K/A4 (chống OOM)
         messages = [
             {
                 "role": "system",
@@ -49,7 +55,12 @@ class VQAEngine:
             {
                 "role": "user",
                 "content": [
-                    {"type": "image", "image": image},
+                    {
+                        "type": "image", 
+                        "image": image,
+                        "min_pixels": 256 * 28 * 28,
+                        "max_pixels": 768 * 28 * 28
+                    },
                     {"type": "text", "text": question},
                 ],
             }
