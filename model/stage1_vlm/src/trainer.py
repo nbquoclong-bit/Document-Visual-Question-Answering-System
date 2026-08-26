@@ -81,6 +81,12 @@ class Qwen2VLDataCollator:
 
 
 def train(config_path="stage1_vlm/configs/train_config.yaml"):
+    # Tìm kiếm đường dẫn config linh hoạt theo thư mục thực thi
+    if not os.path.exists(config_path):
+        alt_config = os.path.join(_here, "../configs/train_config.yaml")
+        if os.path.exists(alt_config):
+            config_path = alt_config
+
     with open(config_path, "r", encoding="utf-8") as f:
         cfg = yaml.safe_load(f)
         
@@ -91,6 +97,10 @@ def train(config_path="stage1_vlm/configs/train_config.yaml"):
     
     data_cfg = cfg.get("data", {})
     train_path = data_cfg.get("train_data_path", "data/vlm_train.json")
+    if not os.path.exists(train_path):
+        alt_train = os.path.join(_model_dir, "data/vlm_train.json")
+        if os.path.exists(alt_train):
+            train_path = alt_train
     
     records = load_dataset_records(train_path) if os.path.exists(train_path) else []
     if not records:

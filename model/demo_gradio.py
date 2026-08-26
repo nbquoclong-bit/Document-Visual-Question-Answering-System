@@ -21,9 +21,13 @@ def find_adapter_dir():
     
     # 1. Tự động giải nén nếu có file zip trong /kaggle/working hoặc thư mục model/output
     possible_zips = [
+        "/kaggle/working/qwen2_vl_lora_adapters_golden.zip",
         "/kaggle/working/qwen2_vl_lora_adapters.zip",
+        os.path.join(base_dir, "output", "qwen2_vl_lora_adapters_golden.zip"),
         os.path.join(base_dir, "output", "qwen2_vl_lora_adapters.zip"),
+        os.path.join(base_dir, "qwen2_vl_lora_adapters_golden.zip"),
         os.path.join(base_dir, "qwen2_vl_lora_adapters.zip"),
+        os.path.join(project_root, "qwen2_vl_lora_adapters_golden.zip"),
         os.path.join(project_root, "qwen2_vl_lora_adapters.zip")
     ]
     for z in possible_zips:
