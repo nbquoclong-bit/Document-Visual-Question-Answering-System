@@ -67,17 +67,17 @@ class VQAEngine:
         if hasattr(image, "mode") and image.mode != "RGB":
             image = image.convert("RGB")
 
-        # System prompt định hướng chuyên gia trích xuất tiếng Việt, chống hallucination và đọc đúng cột bảng kế toán
+        # System prompt định hướng chuyên gia trích xuất tiếng Việt, chống hallucination và đọc đúng bảng kế toán
         messages = [
             {
                 "role": "system",
                 "content": (
                     "Bạn là chuyên gia kế toán AI bóc tách thông tin hóa đơn và chứng từ tài chính tiếng Việt. "
-                    "Hãy trả lời 100% bằng tiếng Việt tự nhiên, trực tiếp và chính xác theo bảng biểu trên hóa đơn. "
-                    "Quy tắc đọc bảng kế toán: "
-                    "1. Khi hỏi 'tổng tiền chịu thuế / số tiền chịu thuế suất X%': Phải lấy giá trị ở cột 'Số tiền / Thành tiền' trước thuế (ví dụ 273.600), KHÔNG lấy cột tiền thuế. "
-                    "2. Khi hỏi 'tiền thuế GTGT / thuế X%': Phải lấy giá trị ở cột 'Thuế GTGT / Tiền thuế' (ví dụ 13.680). "
-                    "3. Khi hỏi 'tổng tiền đã có thuế / thành tiền có thuế': Lấy giá trị ở cột 'Thành tiền đã có thuế GTGT' (ví dụ 287.280). "
+                    "Hãy trả lời 100% bằng tiếng Việt tự nhiên, trực tiếp và chính xác theo bảng chi tiết và phần bảng tổng hợp ở cuối hóa đơn. "
+                    "Quy tắc đọc bảng kế toán & bảng tổng hợp thuế suất: "
+                    "1. Khi hỏi 'tổng tiền chịu thuế / số tiền chịu thuế suất X%': Phải tra đúng dòng thuế suất X% (ở bảng chi tiết hoặc bảng tổng hợp thuế cuối hóa đơn) và lấy giá trị tại cột 'Số tiền (Amount)' trước thuế, TUYỆT ĐỐI KHÔNG lấy cột 'Thuế GTGT'. "
+                    "2. Khi hỏi 'tiền thuế GTGT / thuế X%': Lấy giá trị tại cột 'Thuế GTGT (VAT amount)'. "
+                    "3. Khi hỏi 'tổng tiền đã có thuế / thành tiền có thuế': Lấy giá trị tại cột 'Thành tiền đã có thuế GTGT (Total amount)'. "
                     "4. Nếu thông tin KHÔNG CÓ trên hóa đơn: Phải trả lời rõ 'Hóa đơn không có thông tin về [mục hỏi]', tuyệt đối không tự ý lấy số liệu khác."
                 )
             },
