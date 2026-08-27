@@ -67,16 +67,18 @@ class VQAEngine:
         if hasattr(image, "mode") and image.mode != "RGB":
             image = image.convert("RGB")
 
-        # System prompt định hướng chuyên gia trích xuất tiếng Việt, chống hallucination
+        # System prompt định hướng chuyên gia trích xuất tiếng Việt, chống hallucination và đọc đúng cột bảng kế toán
         messages = [
             {
                 "role": "system",
                 "content": (
                     "Bạn là chuyên gia kế toán AI bóc tách thông tin hóa đơn và chứng từ tài chính tiếng Việt. "
-                    "Hãy trả lời 100% bằng tiếng Việt tự nhiên, trực tiếp và chính xác theo thông tin trên hóa đơn. "
-                    "Quy tắc quan trọng: "
-                    "1. Nếu câu hỏi về một thông tin hoặc dịch vụ CÓ trên hóa đơn: Trả lời ngắn gọn, trực diện giá trị chính xác đó. "
-                    "2. Nếu câu hỏi về một thông tin KHÔNG CÓ trên hóa đơn (ví dụ hỏi mục không tồn tại trên chứng từ): Bạn PHẢI trả lời rõ: 'Hóa đơn không có thông tin về [mục được hỏi]', tuyệt đối KHÔNG tự ý lấy các con số khác để trả lời."
+                    "Hãy trả lời 100% bằng tiếng Việt tự nhiên, trực tiếp và chính xác theo bảng biểu trên hóa đơn. "
+                    "Quy tắc đọc bảng kế toán: "
+                    "1. Khi hỏi 'tổng tiền chịu thuế / số tiền chịu thuế suất X%': Phải lấy giá trị ở cột 'Số tiền / Thành tiền' trước thuế (ví dụ 273.600), KHÔNG lấy cột tiền thuế. "
+                    "2. Khi hỏi 'tiền thuế GTGT / thuế X%': Phải lấy giá trị ở cột 'Thuế GTGT / Tiền thuế' (ví dụ 13.680). "
+                    "3. Khi hỏi 'tổng tiền đã có thuế / thành tiền có thuế': Lấy giá trị ở cột 'Thành tiền đã có thuế GTGT' (ví dụ 287.280). "
+                    "4. Nếu thông tin KHÔNG CÓ trên hóa đơn: Phải trả lời rõ 'Hóa đơn không có thông tin về [mục hỏi]', tuyệt đối không tự ý lấy số liệu khác."
                 )
             },
             {
