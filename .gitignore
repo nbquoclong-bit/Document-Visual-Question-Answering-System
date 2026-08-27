@@ -14,11 +14,12 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Temporary Image / Input / Certificate Files
-temp_*.jpg
-temp_*.png
+# Temporary Image / Input / Logs
+*.log
 *.tmp
 .gradio/
+temp_*.jpg
+temp_*.png
 
 # Backend runtime data and local model caches
 backend/backend-docvqa/backend/.paddle/
@@ -28,27 +29,33 @@ backend/backend-docvqa/backend/results/*
 !backend/backend-docvqa/backend/results/.gitkeep
 backend/backend-docvqa/backend/pytest-cache-files-*/
 
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+.oxlintrc.json
+
 # Archives & Large Model Weights
 *.zip
 *.tar.gz
-*.safetensors
 *.bin
 *.pt
 *.pth
 *.ckpt
 *.onnx
 
-# Exceptions for tracked model files
+# Allow tracking fine-tuned LoRA weights
 !model/stage1_vlm/output/lora_adapters/adapter_model.safetensors
 
-# Large extracted dataset image directories
+# Large raw datasets
 datasets/vietnamese-receipts-v3/train/
 datasets/vietnamese-receipts-v3/val/
-datasets/MCOCR/train_images/
-datasets/MCOCR/val_images/
+datasets/MCOCR/
+datasets/vietnamese-receipts/
 
-# Configuration & Credential Files (OAuth, secrets, etc.)
+# Configuration & Secrets
+kaggle.json
 *.conf
 
-# Exception: keep .gitkeep in output folders
+# Keep .gitkeep in essential empty dirs
 !*/.gitkeep
+

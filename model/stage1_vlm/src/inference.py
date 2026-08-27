@@ -1,6 +1,12 @@
 import os
 import sys
 import torch
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
+
 from typing import Dict, Any
 from PIL import Image
 
@@ -59,7 +65,7 @@ class VQAEngine:
         messages = [
             {
                 "role": "system",
-                "content": "Bạn là chuyên gia trích xuất dữ liệu hóa đơn kế toán. Hãy đọc kỹ ảnh và trả lời ngắn gọn, chính xác thông tin hoặc số tiền thực tế ghi trên hóa đơn, không giải thích dài dòng."
+                "content": "Bạn là hệ thống AI trích xuất thông tin hóa đơn tài chính tiếng Việt độ chính xác cao. Hãy quan sát thật kỹ các ký tự, dấu tiếng Việt và con số trên hóa đơn để trả lời chính xác, đầy đủ ngày giờ hoặc số tiền. Tuyệt đối chỉ trả về giá trị cần trích xuất, không thêm tiền tố hay giải thích."
             },
             {
                 "role": "user",
@@ -68,7 +74,7 @@ class VQAEngine:
                         "type": "image", 
                         "image": image,
                         "min_pixels": 256 * 28 * 28,
-                        "max_pixels": 768 * 28 * 28
+                        "max_pixels": 1280 * 28 * 28
                     },
                     {"type": "text", "text": question},
                 ],
@@ -103,10 +109,10 @@ class VQAEngine:
                 **inputs,
                 max_new_tokens=256,
                 do_sample=False,
-                repetition_penalty=1.15,
-                no_repeat_ngram_size=3,
+                repetition_penalty=1.05,
                 eos_token_id=eos_ids,
             )
+
 
         generated_ids_trimmed = [
             out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs["input_ids"], generated_ids)

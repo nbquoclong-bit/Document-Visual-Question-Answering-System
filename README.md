@@ -61,7 +61,7 @@ Tập trung vào 2 bộ dữ liệu đại diện đã được chuẩn hóa v�
 - CUDA >= 12.1 (dành cho GPU) hoặc CPU 8GB+ RAM
 
 ### Installation
-
+++ 
 1. **Clone repository:**
    ```bash
    git clone https://github.com/nbquoclong-bit/Document-Visual-Question-Answering-System.git

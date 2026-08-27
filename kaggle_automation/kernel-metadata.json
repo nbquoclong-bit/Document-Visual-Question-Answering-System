@@ -1,0 +1,20 @@
+{
+  "id": "lminhsang241/qwen2-vl-receipt-vqa-golden",
+  "title": "qwen2-vl-receipt-vqa-golden",
+  "code_file": "qwen2_vl_lora_training.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "lminhsang241/newest-dataset",
+    "lminhsang241/mliot-final-project",
+    "lminhsang241/new-dataset-mliot-project"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}
