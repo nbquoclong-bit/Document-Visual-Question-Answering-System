@@ -2,7 +2,7 @@
 Router: /documents
 Chứa toàn bộ endpoint theo đúng luồng nghiệp vụ mô tả trong đề cương:
 
-    upload ảnh -> process (OCR + KIE) -> ask (VQA) -> get/export JSON
+    upload ảnh -> Stage 0 + Qwen2-VL -> ask (VQA) -> get/export JSON
 """
 import mimetypes
 from pathlib import Path
@@ -32,7 +32,7 @@ def _get_document_or_404(db: Session, document_id: str) -> Document:
 
 @router.post("/upload", response_model=UploadResponse)
 def upload_document(file: UploadFile = File(...), db: Session = Depends(get_db)):
-    """Nhận ảnh hoá đơn, lưu vào disk + tạo record DB. Chưa chạy OCR ở bước này."""
+    """Nhận tài liệu, lưu vào disk và tạo record DB. Chưa chạy model ở bước này."""
     stored_path = save_upload(file)
 
     document = Document(
@@ -53,7 +53,7 @@ def upload_document(file: UploadFile = File(...), db: Session = Depends(get_db))
 
 @router.post("/{document_id}/process", response_model=ProcessResponse)
 def process_document(document_id: str, db: Session = Depends(get_db)):
-    """Chạy pipeline OCR + KIE cho document đã upload. Có thể gọi lại để re-process."""
+    """Chạy Stage 0 + Qwen2-VL. Có thể gọi lại để xử lý lại document."""
     document = _get_document_or_404(db, document_id)
     document = pipeline_service.process_document(db, document)
 

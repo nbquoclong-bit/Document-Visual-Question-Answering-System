@@ -18,11 +18,17 @@ def four_point_transform(image, pts, target_size=1024):
     width = max(np.linalg.norm(rect[1] - rect[0]), np.linalg.norm(rect[2] - rect[3]))
     height = max(np.linalg.norm(rect[3] - rect[0]), np.linalg.norm(rect[2] - rect[1]))
     aspect = width / height if height > 0 else 1.0
+    if aspect >= 1.0:
+        output_width = target_size
+        output_height = max(1, int(round(target_size / aspect)))
+    else:
+        output_height = target_size
+        output_width = max(1, int(round(target_size * aspect)))
     dst = np.array([
         [0, 0],
-        [target_size - 1, 0],
-        [target_size - 1, target_size * aspect - 1],
-        [0, target_size * aspect - 1]
+        [output_width - 1, 0],
+        [output_width - 1, output_height - 1],
+        [0, output_height - 1]
     ], dtype=np.float32)
     M = cv2.getPerspectiveTransform(rect, dst)
-    return cv2.warpPerspective(image, M, (int(target_size * aspect), target_size))
+    return cv2.warpPerspective(image, M, (output_width, output_height))

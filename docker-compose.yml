@@ -11,10 +11,13 @@ services:
       - DATABASE_URL=sqlite:////app/db/app.db
       - MODEL_DIR=/app/model
       - VLM_ADAPTER_PATH=/app/model/stage1_vlm/output/lora_adapters
+      - VLM_ALLOW_BASE_MODEL=false
+      - VLM_EXTRACTION_MODE=base
     volumes:
       - backend-uploads:/app/uploads
       - backend-results:/app/results
       - backend-db:/app/db
+      - hf-cache:/home/appuser/.cache/huggingface
       - ./model:/app/model:ro
     restart: unless-stopped
     healthcheck:
@@ -44,3 +47,4 @@ volumes:
   backend-uploads:
   backend-results:
   backend-db:
+  hf-cache:

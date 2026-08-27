@@ -17,8 +17,8 @@ app = FastAPI(
     title=settings.app_name,
     description=(
         "Backend cho hệ thống Hỏi-đáp Trực quan trên Tài liệu (Document VQA), "
-        "sử dụng OCR + kiến trúc đa phương thức để trích xuất thông tin hoá đơn "
-        "và trả lời câu hỏi tự nhiên kèm bằng chứng (evidence highlight)."
+        "sử dụng Stage 0 OpenCV và Qwen2-VL + LoRA để trích xuất thông tin hoá đơn "
+        "và trả lời câu hỏi tự nhiên trực tiếp từ ảnh."
     ),
     version="0.1.0",
 )

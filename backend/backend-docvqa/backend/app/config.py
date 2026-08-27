@@ -6,6 +6,7 @@ Mọi tham số có thể thay đổi theo môi trường triển khai (local / 
 """
 from pathlib import Path
 import os
+from typing import Literal
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -33,7 +34,10 @@ class Settings(BaseSettings):
     model_dir: Path = base_dir.parent.parent.parent / "model"
     vlm_base_model: str = "Qwen/Qwen2-VL-2B-Instruct"
     vlm_adapter_path: Path | None = None
-    vlm_allow_base_model: bool = True
+    # Repo đã có adapter hoàn chỉnh; mặc định không được âm thầm rơi về base model.
+    vlm_allow_base_model: bool = False
+    # `base` cho JSON ổn định; `single`/`multi` dùng LoRA để thử nghiệm.
+    vlm_extraction_mode: Literal["base", "multi", "single"] = "base"
 
     # Kept configurable so a deployed model can be forced to CPU if necessary.
     device: str = "cuda" if os.environ.get("CUDA_VISIBLE_DEVICES") else "cpu"

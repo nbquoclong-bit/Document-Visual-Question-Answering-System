@@ -1,29 +1,16 @@
 import os
 import sys
 import torch
+from contextlib import nullcontext
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8")
 
-from typing import Dict, Any
 from PIL import Image
-
-try:
-    from peft import PeftModel
-except ImportError:
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "peft>=0.12.0", "bitsandbytes>=0.43.0", "-q"])
-    from peft import PeftModel
-
-try:
-    from qwen_vl_utils import process_vision_info
-except ImportError:
-    import subprocess
-    print("📦 [inference] Đang tự động cài đặt thư viện 'qwen-vl-utils'...")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "qwen-vl-utils>=0.0.8", "-q"])
-    from qwen_vl_utils import process_vision_info
+from peft import PeftModel
+from qwen_vl_utils import process_vision_info
 
 from .model import load_model_and_processor
 
@@ -42,19 +29,38 @@ class VQAEngine:
                 self.model = PeftModel.from_pretrained(self.model, adapter_dir, is_trainable=False)
                 print("🎯 [VQAEngine] Nạp LoRA adapter chuẩn thành công 100%!")
             except Exception as e:
-                print(f"[Warning] Failed to load adapter from {adapter_dir}: {e}. Running base model.")
+                raise RuntimeError(f"Không thể nạp LoRA adapter từ {adapter_dir}: {e}") from e
         elif adapter_dir:
-            print(f"[Warning] Adapter dir {adapter_dir} does not contain adapter_config.json. Running base model.")
+            raise FileNotFoundError(
+                f"Adapter dir {adapter_dir} không chứa adapter_config.json."
+            )
         
         self.model.eval()
         self.device = torch.device("cuda" if use_cuda else "cpu")
         if not hasattr(self.model, "hf_device_map") and not hasattr(self.model, "is_quantized"):
             self.model.to(self.device)
 
-    def extract_and_answer(self, image_input, question: str = "Trích xuất thông tin hóa đơn và kiểm tra tính toán.") -> str:
-        # Hỗ trợ cả đường dẫn ảnh (str) và đối tượng PIL.Image
-        if isinstance(image_input, str):
-            image = Image.open(image_input)
+    def extract_and_answer(
+        self,
+        image_input=None,
+        question: str = "Trích xuất thông tin hóa đơn và kiểm tra tính toán.",
+        *,
+        image_path=None,
+        max_new_tokens: int = 256,
+        use_adapter: bool = True,
+    ) -> str:
+        """Answer from a file path or PIL image; `image_path` keeps API compatibility."""
+        if image_input is None:
+            image_input = image_path
+        elif image_path is not None:
+            raise ValueError("Chỉ truyền một trong hai tham số image_input hoặc image_path.")
+        if image_input is None:
+            raise ValueError("Thiếu ảnh đầu vào cho VQAEngine.")
+
+        # Hỗ trợ cả đường dẫn ảnh và đối tượng PIL.Image.
+        if isinstance(image_input, (str, os.PathLike)):
+            with Image.open(image_input) as source_image:
+                image = source_image.convert("RGB")
         else:
             image = image_input
 
@@ -65,7 +71,7 @@ class VQAEngine:
         messages = [
             {
                 "role": "system",
-                "content": "Bạn là hệ thống AI trích xuất thông tin hóa đơn tài chính tiếng Việt độ chính xác cao. Hãy quan sát thật kỹ các ký tự, dấu tiếng Việt và con số trên hóa đơn để trả lời chính xác, đầy đủ ngày giờ hoặc số tiền. Tuyệt đối chỉ trả về giá trị cần trích xuất, không thêm tiền tố hay giải thích."
+                "content": "Bạn là hệ thống AI trích xuất thông tin hóa đơn tài chính tiếng Việt độ chính xác cao. Hãy quan sát kỹ ký tự, dấu tiếng Việt và con số. Tuân thủ đúng định dạng người dùng yêu cầu: nếu yêu cầu JSON thì chỉ trả JSON hợp lệ; nếu là câu hỏi đơn thì chỉ trả giá trị cần thiết, không giải thích dài dòng."
             },
             {
                 "role": "user",
@@ -104,14 +110,18 @@ class VQAEngine:
             if isinstance(tok_id, int) and tok_id not in eos_ids:
                 eos_ids.append(tok_id)
 
-        with torch.no_grad():
-            generated_ids = self.model.generate(
-                **inputs,
-                max_new_tokens=256,
-                do_sample=False,
-                repetition_penalty=1.05,
-                eos_token_id=eos_ids,
-            )
+        adapter_context = nullcontext()
+        if not use_adapter and hasattr(self.model, "disable_adapter"):
+            adapter_context = self.model.disable_adapter()
+        with adapter_context:
+            with torch.no_grad():
+                generated_ids = self.model.generate(
+                    **inputs,
+                    max_new_tokens=max_new_tokens,
+                    do_sample=False,
+                    repetition_penalty=1.05,
+                    eos_token_id=eos_ids,
+                )
 
 
         generated_ids_trimmed = [
@@ -125,12 +135,12 @@ class VQAEngine:
         res_text = response[0].strip()
         
         # Nếu gắn LoRA mà bị rỗng, tự động tắt LoRA để lấy câu trả lời chuẩn xác từ Base Model
-        if not res_text and hasattr(self.model, "disable_adapter"):
+        if use_adapter and not res_text and hasattr(self.model, "disable_adapter"):
             with self.model.disable_adapter():
                 with torch.no_grad():
                     gen_ids_base = self.model.generate(
                         **inputs,
-                        max_new_tokens=256,
+                        max_new_tokens=max_new_tokens,
                         do_sample=False,
                         repetition_penalty=1.15,
                         no_repeat_ngram_size=3,

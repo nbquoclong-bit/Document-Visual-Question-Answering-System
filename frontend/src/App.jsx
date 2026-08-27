@@ -174,7 +174,7 @@ export default function App() {
             </div>
             <div className="p-4.5">
               <FieldsLedger fields={fields} onSelectField={setActiveBbox} />
-              {fields.length > 0 && (
+              {fields.some((field) => field.bbox) && (
                 <p className="mt-2 text-xs text-ink-soft">Bấm vào một dòng để xem vị trí trên ảnh.</p>
               )}
             </div>

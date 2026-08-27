@@ -11,6 +11,7 @@
     strength: 1.5
   perspective:
     min_contour_area: 1000
+    min_area_ratio: 0.50
     output_size: 1024
   pdf:
     render_dpi: 300

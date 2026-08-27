@@ -92,3 +92,26 @@ def test_upload_rejects_invalid_extension():
     files = {"file": ("invoice.exe", io.BytesIO(b"not-an-image"), "application/octet-stream")}
     resp = client.post("/api/v1/documents/upload", files=files)
     assert resp.status_code == 400
+
+
+def test_upload_rejects_file_over_size_limit():
+    oversized = b"x" * (10 * 1024 * 1024 + 1)
+    files = {"file": ("large.jpg", io.BytesIO(oversized), "image/jpeg")}
+    resp = client.post("/api/v1/documents/upload", files=files)
+    assert resp.status_code == 413
+
+
+def test_vlm_training_labels_are_mapped_to_frontend_fields(monkeypatch):
+    monkeypatch.setattr(vlm_service.settings, "vlm_extraction_mode", "single")
+    monkeypatch.setattr(
+        vlm_service,
+        "answer_question",
+        lambda *_args, **_kwargs: '{"SELLER":"Cửa hàng An An","TOTAL_COST":"27500","ADDRESS":"Dĩ An"}',
+    )
+    fields, _raw = vlm_service.extract_fields("invoice.jpg")
+    values = {field.key: field.value for field in fields}
+    assert values == {
+        "store_name": "Cửa hàng An An",
+        "total_amount": "27.500",
+        "address": "Dĩ An",
+    }

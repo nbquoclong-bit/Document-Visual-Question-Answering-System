@@ -2,7 +2,6 @@
 Lớp tiện ích thao tác file trên disk. Tách riêng để sau này dễ thay bằng
 S3 / GCS / Hugging Face Hub storage khi deploy mà không đụng vào route logic.
 """
-import shutil
 from pathlib import Path
 from uuid import uuid4
 
@@ -28,8 +27,21 @@ def save_upload(file: UploadFile) -> str:
     unique_name = f"{uuid4().hex}{ext}"
     dest_path = settings.upload_dir / unique_name
 
-    with dest_path.open("wb") as buffer:
-        shutil.copyfileobj(file.file, buffer)
+    max_bytes = settings.max_upload_size_mb * 1024 * 1024
+    written = 0
+    try:
+        with dest_path.open("wb") as buffer:
+            while chunk := file.file.read(1024 * 1024):
+                written += len(chunk)
+                if written > max_bytes:
+                    raise HTTPException(
+                        status_code=413,
+                        detail=f"File vượt quá giới hạn {settings.max_upload_size_mb} MB.",
+                    )
+                buffer.write(chunk)
+    except Exception:
+        dest_path.unlink(missing_ok=True)
+        raise
 
     return str(dest_path)
 

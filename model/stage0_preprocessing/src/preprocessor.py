@@ -9,7 +9,9 @@ class PreprocessingEngine:
         import yaml
         resolved_config = Path(config_path) if config_path else Path(__file__).with_name("config.py")
         with resolved_config.open('r', encoding='utf-8') as f:
-            self.cfg = yaml.safe_load(f)
+            loaded_cfg = yaml.safe_load(f) or {}
+        # config.py hiện chứa YAML với một root key `stage0`.
+        self.cfg = loaded_cfg.get('stage0', loaded_cfg)
         self.quality_cfg = self.cfg.get('quality', {})
         self.clahe_cfg = self.cfg.get('clahe', {})
         self.sharp_cfg = self.cfg.get('sharpen', {})
@@ -24,8 +26,9 @@ class PreprocessingEngine:
 
     def _crop_perspective(self, image, contour):
         from .perspective import four_point_transform
-        contour = contour.reshape(-1, 2)
-        if len(contour) < 4:
+        perimeter = cv2.arcLength(contour, True)
+        contour = cv2.approxPolyDP(contour, 0.02 * perimeter, True).reshape(-1, 2)
+        if len(contour) != 4:
             return image
         return four_point_transform(image, contour.astype(np.float32),
                                     target_size=self.persp_cfg.get('output_size', 1024))
@@ -55,10 +58,12 @@ class PreprocessingEngine:
             meta['clahe'] = True
             meta['sharpen'] = True
 
-        if not report.has_background_glare:
-            _, max_contour = assessor.detect_background_ratio(out)
-            if max_contour is not None and len(max_contour) >= 4:
-                out = self._crop_perspective(out, max_contour)
+        contour_ratio, max_contour = assessor.detect_background_ratio(out)
+        min_area_ratio = self.persp_cfg.get('min_area_ratio', 0.5)
+        if max_contour is not None and contour_ratio >= min_area_ratio:
+            cropped = self._crop_perspective(out, max_contour)
+            if cropped is not out:
+                out = cropped
                 meta['perspective_crop'] = True
 
         return out, meta

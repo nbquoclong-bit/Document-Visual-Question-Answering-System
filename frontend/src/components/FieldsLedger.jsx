@@ -6,6 +6,8 @@ const KEY_LABELS = {
   tax_code: "Mã số thuế",
   invoice_date: "Ngày hoá đơn",
   total_amount: "Tổng cộng",
+  address: "Địa chỉ",
+  items: "Sản phẩm",
   vlm_response: "Phản hồi VLM",
 };
 
@@ -32,7 +34,7 @@ export default function FieldsLedger({ fields, onSelectField }) {
             {KEY_LABELS[field.key] || field.key}
           </span>
           <span className="-translate-y-0.5 flex-1 border-b border-dotted border-line" />
-          <span className="whitespace-nowrap font-mono text-[13.5px] font-medium text-ink group-enabled:group-hover:text-stamp">
+          <span className="max-w-[60%] break-words text-right font-mono text-[13.5px] font-medium leading-5 text-ink group-enabled:group-hover:text-stamp">
             {field.value}
           </span>
         </button>

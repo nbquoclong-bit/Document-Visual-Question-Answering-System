@@ -28,7 +28,7 @@ export async function uploadDocument(file) {
   return data;
 }
 
-/** Chạy OCR + trích xuất field cho một document đã upload. */
+/** Chạy Stage 0 + Qwen2-VL để trích xuất field cho document đã upload. */
 export async function processDocument(documentId) {
   const { data } = await client.post(`/documents/${documentId}/process`);
   return data;

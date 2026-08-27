@@ -25,8 +25,8 @@ Thay vì dùng đường ống truyền thống (PaddleOCR + LayoutXLM) dễ b�
 | :--- | :--- | :--- |
 | **Định dạng Đầu ra** | Phản hồi tự do dạng Chatbot | Chuẩn kế toán (Markdown / JSON) |
 | **Hiểu thuật ngữ VN** | Nhầm lẫn Đơn giá / Thành tiền | Bóc tách chuẩn MST, Ký hiệu mẫu, VAT |
-| **Chỉ số ANLS (DocVQA)** | ~64.0% | **~93.0%** (Tăng +29%) |
-| **Tỉ lệ Khớp Exact Match** | ~48.0% | **~88.5%** (Tăng +40.5%) |
+| **Chỉ số ANLS (DocVQA)** | Chưa benchmark lại | Chưa benchmark lại bằng prediction thực |
+| **Tỉ lệ Khớp Exact Match** | Chưa benchmark lại | Chưa benchmark lại bằng prediction thực |
 | **Dung lượng VRAM tiêu thụ**| ~4.2 GB VRAM | **~4.2 GB VRAM** |
 
 ---
@@ -41,15 +41,15 @@ pip install gradio opencv-python pillow
 ```
 
 ### Đặt trọng số LoRA Adapters:
-Tải folder `lora_adapters` (73MB) đặt vào vị trí:
-`model/output/lora_adapters/`
+Adapter 73.9 MB đã được lưu tại:
+`model/stage1_vlm/output/lora_adapters/`
 
 ### Tích hợp Backend (Python API):
 ```python
 from model.stage1_vlm.src.inference import VQAEngine
 
 # Khởi tạo Engine
-engine = VQAEngine(adapter_dir="model/output/lora_adapters")
+engine = VQAEngine(adapter_dir="model/stage1_vlm/output/lora_adapters")
 
 # Gọi hàm trích xuất
 answer = engine.extract_and_answer(
@@ -59,6 +59,8 @@ answer = engine.extract_and_answer(
 print(answer)
 ```
 
+Xem hướng dẫn chạy toàn bộ React + FastAPI + model tại [`../RUNNING.md`](../RUNNING.md).
+
 ### Khởi chạy CLI / Web UI Demo:
 ```bash
 # Kiểm thử CLI
@@ -67,8 +69,9 @@ python test_vlm.py
 # Khởi chạy Gradio Web UI
 python demo_gradio.py
 
-# Đo chỉ số đánh giá ANLS
-python evaluate_metrics.py
+# Chạy suy luận thật rồi mới đo ANLS/Exact Match
+cd ..
+python -m model.run_real_evaluation
 ```
 
 ---
@@ -81,7 +84,7 @@ model/
 ├── stage1_vlm/             # Pipeline Qwen2-VL-2B (QLoRA)
 │   ├── configs/            # train_config.yaml
 │   └── src/                # trainer.py, prepare_vlm_data.py, dataset.py, model.py, inference.py
-├── output/                 # Thư mục lưu trọng số lora_adapters
+├── stage1_vlm/output/      # Thư mục lưu trọng số lora_adapters
 ├── test_vlm.py             # Script kiểm thử CLI
 ├── demo_gradio.py          # Web UI Demo bằng Gradio
 ├── evaluate_metrics.py     # Script đo chỉ số ANLS & Exact Match
