@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Optional
 
-from app.services import vlm_service
+from app.services import vlm_service, ocr_service
 
 
 @dataclass
@@ -11,7 +11,17 @@ class QAResult:
     confidence: Optional[float]
 
 
-def answer_question(processed_image_path: str, question: str) -> QAResult:
-    """Answer directly from the image with Qwen2-VL; this model has no bbox head."""
+def answer_question(
+    processed_image_path: str,
+    question: str,
+    ocr_tokens: Optional[list[dict]] = None,
+) -> QAResult:
+    """Answer directly from the image with Qwen2-VL, then locate evidence bbox from OCR tokens."""
     answer = vlm_service.answer_question(processed_image_path, question)
-    return QAResult(answer=answer, evidence_bbox=None, confidence=None)
+    
+    # Định vị toạ độ bằng chứng từ OCR tokens
+    evidence_bbox = None
+    if ocr_tokens:
+        evidence_bbox = ocr_service.locate_evidence_bbox(ocr_tokens, answer)
+
+    return QAResult(answer=answer, evidence_bbox=evidence_bbox, confidence=None)

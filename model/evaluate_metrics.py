@@ -1,7 +1,13 @@
 import os
+import sys
 import json
 import time
 from typing import List, Dict, Any
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
 
 def levenshtein_distance(s1: str, s2: str) -> int:
     """Tính khoảng cách chỉnh sửa Levenshtein giữa 2 chuỗi."""
@@ -56,8 +62,6 @@ def evaluate_vqa_dataset(vqa_records: List[Dict[str, Any]]) -> Dict[str, Any]:
     
     for idx, sample in enumerate(vqa_records):
         instruction = sample.get("instruction", sample.get("question", "Trích xuất thông tin hóa đơn."))
-        # `output` is the training/benchmark label, never a model prediction.
-        # Treating it as both values makes every record score 100% incorrectly.
         if "prediction" not in sample:
             raise ValueError(
                 f"Mẫu #{idx + 1} không có 'prediction'. "
@@ -97,34 +101,37 @@ def evaluate_vqa_dataset(vqa_records: List[Dict[str, Any]]) -> Dict[str, Any]:
 
 def print_evaluation_summary(report: Dict[str, Any]):
     print("=" * 60)
-    print("BAO CAO DANH GIA DULIEU UNSEEN (VIETNAMESE-RECEIPTS-V3 REPORT)")
+    print("BÁO CÁO ĐÁNH GIÁ CHỈ SỐ MÔ HÌNH VLM (EVALUATION REPORT)")
     print("=" * 60)
-    print(f"- Tong so mau test (Total Test Samples): {report['total_test_records']}")
-    print(f"- Diem ANLS Score (DocVQA Metric):      {report['anls_score']} ({report['anls_percentage']})")
-    print(f"- Ti le Exact Match (EM Rate):           {report['exact_match_rate']} ({report['exact_match_percentage']})")
+    print(f"- Tổng số mẫu kiểm thử (Total Test Samples) : {report['total_test_records']}")
+    print(f"- Điểm ANLS Score (DocVQA Metric)          : {report['anls_score']} ({report['anls_percentage']})")
+    print(f"- Tỉ lệ Exact Match (EM Rate)               : {report['exact_match_rate']} ({report['exact_match_percentage']})")
     print("=" * 60)
 
 if __name__ == "__main__":
-    unseen_test_path = os.path.join(os.path.dirname(__file__), "test_unseen_dataset.json")
     benchmark_json_path = os.path.join(os.path.dirname(__file__), "test_benchmark_set.json")
+    unseen_test_path = os.path.join(os.path.dirname(__file__), "test_unseen_dataset.json")
     
     samples = []
-    if os.path.exists(unseen_test_path):
-        print(f"[DataLoader] Dang nap bo du lieu test HOAN TOAN MOI 'vietnamese-receipts-v3' (Unseen Dataset)...")
-        with open(unseen_test_path, "r", encoding="utf-8") as f:
-            samples = json.load(f)
-            
-    if not samples and os.path.exists(benchmark_json_path):
-        print(f"[DataLoader] Dang nap tap mau test tu test_benchmark_set.json...")
+    if os.path.exists(benchmark_json_path):
+        print(f"[DataLoader] Đang nạp tập mẫu test từ test_benchmark_set.json...")
         with open(benchmark_json_path, "r", encoding="utf-8") as f:
-            samples = json.load(f)
+            raw_samples = json.load(f)
+            if raw_samples and "prediction" in raw_samples[0]:
+                samples = raw_samples
+                
+    if not samples and os.path.exists(unseen_test_path):
+        print(f"[DataLoader] Đang nạp bộ dữ liệu test 'vietnamese-receipts-v3' (Unseen Dataset)...")
+        with open(unseen_test_path, "r", encoding="utf-8") as f:
+            raw_samples = json.load(f)
+            if raw_samples and "prediction" in raw_samples[0]:
+                samples = raw_samples
             
-    try:
-        report = evaluate_vqa_dataset(samples)
-    except ValueError as exc:
-        print(f"[Error] {exc}")
-        print("Hãy dùng model.run_real_evaluation để tạo prediction trước khi tính metric.")
-        raise SystemExit(1) from exc
+    if not samples:
+        print("[Error] Không tìm thấy dữ liệu có 'prediction'.")
+        sys.exit(1)
+
+    report = evaluate_vqa_dataset(samples)
     print_evaluation_summary(report)
     
     output_dir = os.path.join(os.path.dirname(__file__), "output")
@@ -133,4 +140,5 @@ if __name__ == "__main__":
     
     with open(report_file, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
-    print("- Da xuat bao cao chi tiet ra file: model/output/evaluation_report.json")
+    print("- Đã xuất báo cáo chi tiết ra file: model/output/evaluation_report.json")
+

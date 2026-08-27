@@ -80,7 +80,9 @@ def ask_question(document_id: str, payload: AskRequest, db: Session = Depends(ge
 
     processed_path = preprocessing_service.get_processed_image_path(document.id)
     try:
-        result = qa_service.answer_question(str(processed_path), payload.question)
+        result = qa_service.answer_question(
+            str(processed_path), payload.question, ocr_tokens=document.ocr_raw
+        )
     except vlm_service.VLMRuntimeError as exc:
         raise HTTPException(status_code=503, detail=str(exc)) from exc
 

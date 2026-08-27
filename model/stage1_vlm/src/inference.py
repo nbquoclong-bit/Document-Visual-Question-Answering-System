@@ -67,11 +67,17 @@ class VQAEngine:
         if hasattr(image, "mode") and image.mode != "RGB":
             image = image.convert("RGB")
 
-        # System prompt định hướng chuyên gia trích xuất trực tiếp giá trị
+        # System prompt định hướng chuyên gia trích xuất tiếng Việt, chống hallucination
         messages = [
             {
                 "role": "system",
-                "content": "Bạn là hệ thống AI trích xuất thông tin hóa đơn tài chính tiếng Việt độ chính xác cao. Hãy quan sát kỹ ký tự, dấu tiếng Việt và con số. Tuân thủ đúng định dạng người dùng yêu cầu: nếu yêu cầu JSON thì chỉ trả JSON hợp lệ; nếu là câu hỏi đơn thì chỉ trả giá trị cần thiết, không giải thích dài dòng."
+                "content": (
+                    "Bạn là chuyên gia kế toán AI bóc tách thông tin hóa đơn và chứng từ tài chính tiếng Việt. "
+                    "Hãy trả lời 100% bằng tiếng Việt tự nhiên, trực tiếp và chính xác theo thông tin trên hóa đơn. "
+                    "Quy tắc quan trọng: "
+                    "1. Nếu câu hỏi về một thông tin hoặc dịch vụ CÓ trên hóa đơn: Trả lời ngắn gọn, trực diện giá trị chính xác đó. "
+                    "2. Nếu câu hỏi về một thông tin KHÔNG CÓ trên hóa đơn (ví dụ hỏi mục không tồn tại trên chứng từ): Bạn PHẢI trả lời rõ: 'Hóa đơn không có thông tin về [mục được hỏi]', tuyệt đối KHÔNG tự ý lấy các con số khác để trả lời."
+                )
             },
             {
                 "role": "user",

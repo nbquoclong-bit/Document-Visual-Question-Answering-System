@@ -10,29 +10,34 @@ Router (documents.py) không gọi trực tiếp các service này mà luôn đi
 from sqlalchemy.orm import Session
 
 from app.models_db import Document, ExtractedField, DocumentStatus
-from app.services import preprocessing_service, vlm_service
+from app.services import preprocessing_service, vlm_service, ocr_service
 
 
 def process_document(db: Session, document: Document) -> Document:
-    """Run Stage 0 then Qwen2-VL extraction, saving fields for the React dashboard."""
+    """Run Stage 0 then Qwen2-VL extraction + OCR grounding, saving fields and bboxes."""
     document.status = DocumentStatus.PROCESSING
     db.commit()
 
     try:
         preprocessed = preprocessing_service.preprocess_document(document.id, document.stored_path)
-        fields, _raw_vlm_response = vlm_service.extract_fields(preprocessed.image_path)
-        # Qwen2-VL is end-to-end and does not emit OCR token boxes. Preserve the
-        # legacy JSON column as an empty list to keep the frontend contract stable.
-        document.ocr_raw = []
+        
+        # 1. OCR Token Extraction (nhẹ, nhanh, dùng để vẽ token nền và so khớp Bounding Box)
+        ocr_tokens = ocr_service.extract_tokens(preprocessed.image_path)
+        document.ocr_raw = ocr_tokens
 
-        # Xoá field cũ (nếu re-process) rồi ghi field mới
+        # 2. VLM Semantic Field Extraction
+        fields, _raw_vlm_response = vlm_service.extract_fields(preprocessed.image_path)
+
+        # 3. Xoá field cũ (nếu re-process) rồi ghi field mới kèm Bounding Box
         db.query(ExtractedField).filter(ExtractedField.document_id == document.id).delete()
         for f in fields:
+            # Tự động tìm Bounding Box cho từng trường bóc tách
+            field_bbox = ocr_service.locate_evidence_bbox(ocr_tokens, f.value)
             db.add(ExtractedField(
                 document_id=document.id,
                 key=f.key,
                 value=f.value,
-                bbox=None,
+                bbox=field_bbox,
                 confidence=f.confidence,
             ))
 

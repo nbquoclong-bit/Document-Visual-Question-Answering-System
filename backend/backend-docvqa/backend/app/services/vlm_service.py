@@ -12,16 +12,15 @@ from typing import Any
 from app.config import settings
 
 
-EXTRACTION_PROMPT = """Đọc hóa đơn/tài liệu trong ảnh và trả về DUY NHẤT một JSON hợp lệ.
-Không thêm Markdown hay giải thích. Dùng các nhãn đã được fine-tune sau:
+EXTRACTION_PROMPT = """Đọc kỹ ảnh hóa đơn/tài liệu tài chính và trả về DUY NHẤT một JSON hợp lệ (không markdown, không giải thích):
 {
-  "SELLER": "... hoặc null",
-  "INVOICE_NUMBER": "Chỉ lấy giá trị ngay sau nhãn Số (No.) hóa đơn; không lấy Ký hiệu (Serial No.), hoặc null",
-  "TAX_CODE": "Chuỗi 10 hoặc 13 chữ số ngay sau nhãn Mã số thuế (Tax code) của đơn vị bán; tuyệt đối không dùng Mã Cơ quan thuế (GDT code) hay Số (No.) hóa đơn",
-  "TIMESTAMP": "... hoặc null",
-  "TOTAL_COST": "Tổng cộng/Total amount cuối cùng, hoặc null"
+  "SELLER": "Tên công ty / đơn vị bên bán hàng",
+  "INVOICE_NUMBER": "Số hóa đơn (chỉ lấy dãy số ở mục 'Số / No.', không lấy ký hiệu mẫu hay serial)",
+  "TAX_CODE": "Mã số thuế của công ty/bên bán (chuỗi 10 hoặc 13 chữ số)",
+  "TIMESTAMP": "Ngày tháng năm lập hóa đơn",
+  "TOTAL_COST": "Tổng cộng tiền thanh toán cuối cùng đã gồm thuế (VD: 3.404.009)"
 }
-Chỉ điền thông tin nhìn thấy rõ trong tài liệu."""
+Chỉ trích xuất đúng thông tin có trên hóa đơn."""
 
 FIELD_ALIASES = {
     "SELLER": "store_name",
@@ -197,7 +196,7 @@ def extract_fields(image_path: str) -> tuple[list[VLMField], str]:
         image_path,
         EXTRACTION_PROMPT,
         max_new_tokens=192,
-        use_adapter=settings.vlm_extraction_mode != "base",
+        use_adapter=True,
     )
     parsed = _parse_json_response(response)
     if not parsed:
