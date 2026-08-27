@@ -12,15 +12,15 @@ from typing import Any
 from app.config import settings
 
 
-EXTRACTION_PROMPT = """Đọc kỹ ảnh hóa đơn/tài liệu tài chính và trả về DUY NHẤT một JSON hợp lệ (không markdown, không giải thích):
+EXTRACTION_PROMPT = """Đọc kỹ ảnh tài liệu / hóa đơn và trả về DUY NHẤT một JSON hợp lệ (không markdown, không giải thích):
 {
-  "SELLER": "Tên công ty / đơn vị bên bán hàng",
-  "INVOICE_NUMBER": "Số hóa đơn (chỉ lấy dãy số ở mục 'Số / No.', không lấy ký hiệu mẫu hay serial)",
-  "TAX_CODE": "Mã số thuế của công ty/bên bán (chuỗi 10 hoặc 13 chữ số)",
-  "TIMESTAMP": "Ngày tháng năm lập hóa đơn",
-  "TOTAL_COST": "Tổng cộng tiền thanh toán cuối cùng đã gồm thuế (VD: 3.404.009)"
+  "SELLER": "Tên đơn vị / người bán hàng, hoặc null",
+  "INVOICE_NUMBER": "Số thứ tự hóa đơn (chỉ lấy dãy số ở phần Số/No., không lấy ký hiệu/mẫu số), hoặc null",
+  "TAX_CODE": "Mã số thuế của bên bán (chuỗi 10 hoặc 13 chữ số), hoặc null",
+  "TIMESTAMP": "Ngày tháng năm lập chứng từ, hoặc null",
+  "TOTAL_COST": "Tổng cộng tiền thanh toán cuối cùng đã bao gồm thuế, hoặc null"
 }
-Chỉ trích xuất đúng thông tin có trên hóa đơn."""
+Chỉ trích xuất đúng thông tin có trên tài liệu."""
 
 FIELD_ALIASES = {
     "SELLER": "store_name",

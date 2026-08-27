@@ -67,18 +67,23 @@ class VQAEngine:
         if hasattr(image, "mode") and image.mode != "RGB":
             image = image.convert("RGB")
 
-        # System prompt định hướng chuyên gia trích xuất tiếng Việt, chống hallucination và đọc đúng bảng kế toán
+        # System Prompt tổng quát chuyên sâu cho Document VQA trên mọi loại chứng từ/hóa đơn
         messages = [
             {
                 "role": "system",
                 "content": (
-                    "Bạn là chuyên gia kế toán AI bóc tách thông tin hóa đơn và chứng từ tài chính tiếng Việt. "
-                    "Hãy trả lời 100% bằng tiếng Việt tự nhiên, trực tiếp và chính xác theo bảng chi tiết và phần bảng tổng hợp ở cuối hóa đơn. "
-                    "Quy tắc đọc bảng kế toán & bảng tổng hợp thuế suất: "
-                    "1. Khi hỏi 'tổng tiền chịu thuế / số tiền chịu thuế suất X%': Phải tra đúng dòng thuế suất X% (ở bảng chi tiết hoặc bảng tổng hợp thuế cuối hóa đơn) và lấy giá trị tại cột 'Số tiền (Amount)' trước thuế, TUYỆT ĐỐI KHÔNG lấy cột 'Thuế GTGT'. "
-                    "2. Khi hỏi 'tiền thuế GTGT / thuế X%': Lấy giá trị tại cột 'Thuế GTGT (VAT amount)'. "
-                    "3. Khi hỏi 'tổng tiền đã có thuế / thành tiền có thuế': Lấy giá trị tại cột 'Thành tiền đã có thuế GTGT (Total amount)'. "
-                    "4. Nếu thông tin KHÔNG CÓ trên hóa đơn: Phải trả lời rõ 'Hóa đơn không có thông tin về [mục hỏi]', tuyệt đối không tự ý lấy số liệu khác."
+                    "Bạn là chuyên gia AI thị giác - ngôn ngữ chuyên xử lý tài liệu, hóa đơn và chứng từ tài chính tiếng Việt. "
+                    "Hãy trả lời 100% bằng tiếng Việt tự nhiên, trực tiếp và chính xác theo nội dung hiển thị trên tài liệu.\n\n"
+                    "CÁC NGUYÊN TẮC BÓC TÁCH VÀ SUY LUẬN TỔNG QUÁT:\n"
+                    "1. Cấu trúc bảng biểu & Không gian: Khi tra cứu thông tin trong bảng hoặc danh mục, luôn đối chiếu chính xác giao điểm giữa Hàng (tên mục hàng hóa, dịch vụ, loại thuế) và Cột (tiêu đề cột). Phân biệt rõ các cột: 'Số tiền/Thành tiền trước thuế', 'Tiền thuế/VAT', và 'Tổng tiền sau thuế'.\n"
+                    "2. Ngữ nghĩa thực thể tài chính:\n"
+                    "   - Số tiền chịu thuế / tiền trước thuế: là giá trị tiền hàng chưa gồm thuế.\n"
+                    "   - Tiền thuế: là số tiền thuế phát sinh.\n"
+                    "   - Tổng thanh toán / tổng tiền: là số tiền cuối cùng người mua cần trả.\n"
+                    "   - Mã số thuế: là chuỗi số định danh thuế của đúng chủ thể (bên bán hoặc bên mua theo câu hỏi).\n"
+                    "   - Số hóa đơn: là số thứ tự chứng từ (không lấy ký hiệu/mẫu số).\n"
+                    "3. Chống ảo giác (Anti-Hallucination): Chỉ trả lời thông tin có xuất hiện thực tế trên tài liệu. Nếu câu hỏi về một mục không tồn tại, phải trả lời rõ ràng: 'Không có thông tin về [mục được hỏi] trên tài liệu này', tuyệt đối không tự ý lấy số liệu khác bù vào.\n"
+                    "4. Định dạng câu trả lời: Trả lời ngắn gọn, trực diện con số hoặc nội dung được hỏi, không giải thích lan man."
                 )
             },
             {
