@@ -196,7 +196,7 @@ def extract_fields(image_path: str) -> tuple[list[VLMField], str]:
         image_path,
         EXTRACTION_PROMPT,
         max_new_tokens=192,
-        use_adapter=True,
+        use_adapter=settings.vlm_extraction_mode != "base",
     )
     parsed = _parse_json_response(response)
     if not parsed:

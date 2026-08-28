@@ -1,12 +1,39 @@
 """API contract tests with injected Stage 0/VLM results; no GPU or weights required."""
 import io
 
+import pytest
 from fastapi.testclient import TestClient
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.pool import StaticPool
 
+from app.database import Base, get_db
 from app.main import app
-from app.services import preprocessing_service, qa_service, vlm_service
+from app.services import ocr_service, preprocessing_service, qa_service, vlm_service
 
-client = TestClient(app)
+
+@pytest.fixture
+def client():
+    test_engine = create_engine(
+        "sqlite://",
+        connect_args={"check_same_thread": False},
+        poolclass=StaticPool,
+    )
+    testing_session = sessionmaker(autocommit=False, autoflush=False, bind=test_engine)
+    Base.metadata.create_all(bind=test_engine)
+
+    def override_get_db():
+        db = testing_session()
+        try:
+            yield db
+        finally:
+            db.close()
+
+    app.dependency_overrides[get_db] = override_get_db
+    with TestClient(app) as test_client:
+        yield test_client
+    app.dependency_overrides.pop(get_db, None)
+    test_engine.dispose()
 
 
 def _fake_image_bytes() -> bytes:
@@ -14,13 +41,13 @@ def _fake_image_bytes() -> bytes:
     return b"\xff\xd8\xff\xe0fake-jpeg-content"
 
 
-def test_health():
+def test_health(client):
     resp = client.get("/health")
     assert resp.status_code == 200
     assert resp.json()["status"] == "ok"
 
 
-def test_full_pipeline_flow(monkeypatch):
+def test_full_pipeline_flow(client, monkeypatch):
     monkeypatch.setattr(
         preprocessing_service,
         "preprocess_document",
@@ -33,10 +60,11 @@ def test_full_pipeline_flow(monkeypatch):
         "extract_fields",
         lambda _path: ([vlm_service.VLMField("total_amount", "150,000 VND")], '{"total_amount":"150,000 VND"}'),
     )
+    monkeypatch.setattr(ocr_service, "extract_tokens", lambda _path: [])
     monkeypatch.setattr(
         qa_service,
         "answer_question",
-        lambda *_args: qa_service.QAResult("150,000 VND", None, None),
+        lambda *_args, **_kwargs: qa_service.QAResult("150,000 VND", None, None),
     )
     # 1) Upload
     files = {"file": ("invoice.jpg", io.BytesIO(_fake_image_bytes()), "image/jpeg")}
@@ -76,7 +104,7 @@ def test_full_pipeline_flow(monkeypatch):
     assert resp.headers["content-type"] == "application/json"
 
 
-def test_ask_before_process_returns_409():
+def test_ask_before_process_returns_409(client):
     files = {"file": ("invoice2.jpg", io.BytesIO(_fake_image_bytes()), "image/jpeg")}
     resp = client.post("/api/v1/documents/upload", files=files)
     document_id = resp.json()["document_id"]
@@ -88,13 +116,13 @@ def test_ask_before_process_returns_409():
     assert resp.status_code == 409
 
 
-def test_upload_rejects_invalid_extension():
+def test_upload_rejects_invalid_extension(client):
     files = {"file": ("invoice.exe", io.BytesIO(b"not-an-image"), "application/octet-stream")}
     resp = client.post("/api/v1/documents/upload", files=files)
     assert resp.status_code == 400
 
 
-def test_upload_rejects_file_over_size_limit():
+def test_upload_rejects_file_over_size_limit(client):
     oversized = b"x" * (10 * 1024 * 1024 + 1)
     files = {"file": ("large.jpg", io.BytesIO(oversized), "image/jpeg")}
     resp = client.post("/api/v1/documents/upload", files=files)
@@ -115,3 +143,21 @@ def test_vlm_training_labels_are_mapped_to_frontend_fields(monkeypatch):
         "total_amount": "27.500",
         "address": "Dĩ An",
     }
+
+
+def test_vlm_extraction_mode_routes_base_and_lora(monkeypatch):
+    calls = []
+
+    def fake_answer(*_args, **kwargs):
+        calls.append(kwargs["use_adapter"])
+        return '{"SELLER":"Cửa hàng An An"}'
+
+    monkeypatch.setattr(vlm_service, "answer_question", fake_answer)
+
+    monkeypatch.setattr(vlm_service.settings, "vlm_extraction_mode", "base")
+    vlm_service.extract_fields("invoice.jpg")
+
+    monkeypatch.setattr(vlm_service.settings, "vlm_extraction_mode", "single")
+    vlm_service.extract_fields("invoice.jpg")
+
+    assert calls == [False, True]

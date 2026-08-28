@@ -12,46 +12,44 @@ và Kiến trúc Đa phương thức"** (Nhóm 5 — Boboiboys).
 [Document: status=uploaded]  (lưu ảnh + tạo record SQLite)
    │  POST /documents/{id}/process
    ▼
-[OCR service]  ──text/bbox──►  [KIE service]  ──field key/value/bbox──►  DB
+[Stage 0 OpenCV] ──ảnh chuẩn hoá──► [Qwen2-VL] ──field key/value──► DB
+                                      ▲
+[EasyOCR] ──token/bbox──► đối chiếu bằng chứng và gắn bbox cho field
    │
 [Document: status=processed]
    │  POST /documents/{id}/ask  {"question": "..."}
    ▼
-[QA service]  ──answer + evidence bbox──►  DB (QARecord)
+[Qwen2-VL + LoRA QA] ──answer──► [EasyOCR grounding] ──evidence bbox──► DB
    │
    GET /documents/{id}            → xem toàn bộ kết quả
    GET /documents/{id}/export     → tải file JSON hoàn chỉnh
 ```
 
-Ba service (`ocr_service`, `kie_service`, `qa_service`) là **interface cố định**,
-tách biệt hoàn toàn khỏi routing/DB. Đây chính là ranh giới tích hợp model.
+Các service model tách biệt khỏi routing/DB. `pipeline_service` điều phối Stage 0,
+EasyOCR và VLM; `qa_service` gọi VLM rồi đối chiếu câu trả lời với token OCR.
 
 ## 2. Cài đặt & chạy local
 
-```bash
+```powershell
 cd "D:\ML\Repo\Document-Visual-Question-Answering-System\backend\backend-docvqa\backend"
-.\venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
-
-or
-
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
+py -3.12 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+Copy-Item .env.example .env
+python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 1
 ```
 
 Swagger UI: http://localhost:8000/docs
 
 Chạy test:
-```bash
-pytest tests/ -v
+```powershell
+.\.venv\Scripts\python.exe -m pytest -q tests\test_api.py -p no:cacheprovider
 ```
 
 Chạy bằng Docker:
-```bash
-docker build -t docvqa-backend .
-docker run -p 8000:8000 docvqa-backend
+```powershell
+cd ..\..\..
+docker compose up --build
 ```
 
 ## 3. API Endpoints
@@ -59,31 +57,28 @@ docker run -p 8000:8000 docvqa-backend
 | Method | Endpoint | Chức năng |
 |---|---|---|
 | POST | `/api/v1/documents/upload` | Upload ảnh hoá đơn (multipart/form-data, field `file`) |
-| POST | `/api/v1/documents/{id}/process` | Chạy OCR + trích xuất field (KIE) |
+| POST | `/api/v1/documents/{id}/process` | Tiền xử lý, OCR grounding và trích xuất field bằng Qwen2-VL |
 | POST | `/api/v1/documents/{id}/ask` | Đặt câu hỏi, nhận câu trả lời + evidence bbox |
 | GET | `/api/v1/documents/{id}` | Lấy toàn bộ kết quả (field + lịch sử hỏi-đáp) |
 | GET | `/api/v1/documents/{id}/export` | Tải file JSON kết quả cuối cùng |
 | GET | `/health` | Health check |
 
-## 4. ⚠️ CÁC ĐIỂM CẦN SẢN PHẨM CỦA NHÓM (quan trọng)
+## 4. Cấu hình model
 
-Backend hiện **chạy end-to-end bằng dữ liệu MOCK** (giả lập) để cả nhóm có API
-dùng ngay, test frontend, và demo luồng — không cần chờ model train xong.
-Ba file sau **phải được thay bằng model thật** trước khi báo cáo:
+Backend đang dùng model thật. Cấu hình chính nằm trong `.env`:
 
-| File | Model theo đề cương | Người phụ trách | Việc cần làm |
-|---|---|---|---|
-| `app/services/ocr_service.py` → `run_ocr()` | PaddleOCR (PP-OCRv4) | Model Lead / Data Engineer | Thay mock bằng load PaddleOCR thật, giữ nguyên input/output là `List[OCRToken]` |
-| `app/services/kie_service.py` → `extract_fields()` | LayoutLMv3 / LayoutXLM / LiLT | Model Lead | Thay rule-based mock bằng model multimodal thật, giữ nguyên `List[FieldResult]` |
-| `app/services/qa_service.py` → `answer_question()` | Qwen2-VL 2B / Qwen2.5-3B | Model Lead | Thay tra cứu mock bằng inference model thật, giữ nguyên `QAResult` |
+```dotenv
+VLM_BASE_MODEL=Qwen/Qwen2-VL-2B-Instruct
+VLM_ALLOW_BASE_MODEL=false
+VLM_EXTRACTION_MODE=base
+```
 
-Mỗi file đều có docstring chi tiết + ví dụ khung code tích hợp thật ngay bên
-trong hàm — chỉ cần đọc theo TODO. Miễn giữ đúng **chữ ký hàm (input/output)**,
-phần router/DB/pipeline không cần sửa gì thêm.
+- `base`: base model trích xuất JSON một lượt; LoRA vẫn dùng cho hỏi đáp.
+- `single`: LoRA trích xuất JSON một lượt.
+- `multi`: LoRA hỏi tuần tự từng field, chậm hơn đáng kể.
 
-Ngoài ra `app/config.py` đã khai báo sẵn các biến `ocr_model_path`,
-`kie_model_path`, `qa_model_path`, `device` để cấu hình checkpoint/device mà
-không cần sửa code — DevOps (Nguyễn Bá Quốc Long) có thể set qua file `.env`.
+Model và EasyOCR được cache trong tiến trình. Sau khi đổi checkpoint hoặc `.env`,
+phải khởi động lại backend để nạp cấu hình mới.
 
 ## 5. Cấu trúc thư mục
 
@@ -99,11 +94,12 @@ backend/
 │   ├── routers/
 │   │   └── documents.py     # Toàn bộ endpoint /documents/*
 │   └── services/
-│       ├── ocr_service.py   # ⚠️ interface OCR — cần model thật
-│       ├── kie_service.py   # ⚠️ interface KIE — cần model thật
-│       ├── qa_service.py    # ⚠️ interface QA — cần model thật
-│       └── pipeline_service.py  # Điều phối OCR → KIE, ghi DB
-├── tests/test_api.py        # Test smoke toàn bộ luồng (chạy trên mock)
+│       ├── preprocessing_service.py # Adapter Stage 0 OpenCV
+│       ├── vlm_service.py   # Qwen2-VL/LoRA và parser field
+│       ├── ocr_service.py   # EasyOCR token + evidence bbox
+│       ├── qa_service.py    # Hỏi đáp VLM + OCR grounding
+│       └── pipeline_service.py  # Điều phối Stage 0 → OCR/VLM → DB
+├── tests/test_api.py        # Contract test; mock inference để không cần GPU
 ├── requirements.txt
 └── Dockerfile
 ```

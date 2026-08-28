@@ -4,10 +4,11 @@ Hướng dẫn này dành cho bản tích hợp hoàn chỉnh trong repo:
 
 ```text
 React → FastAPI → Stage 0 OpenCV → Qwen2-VL-2B → LoRA QA
-                                  └→ Base model JSON extraction
+                                  ├→ Base model JSON extraction
+                                  └→ EasyOCR evidence bounding boxes
 ```
 
-Backend chỉ nạp model ở request xử lý đầu tiên và giữ một instance trong mỗi worker. Không cần chạy PaddleOCR, KIE hay Gradio riêng.
+Backend chỉ nạp model ở request xử lý đầu tiên và giữ một instance trong mỗi worker. EasyOCR được gọi bên trong pipeline để định vị bằng chứng; không cần chạy OCR, KIE hay Gradio thành service riêng.
 
 ## 1. Yêu cầu
 
@@ -101,7 +102,7 @@ docker compose up --build
 
 - Dashboard: <http://localhost>
 - API docs: <http://localhost:8000/docs>
-- Upload, kết quả, SQLite và Hugging Face cache được giữ trong named volumes.
+- Upload, kết quả, SQLite, Hugging Face cache và EasyOCR cache được giữ trong named volumes.
 - Model/adapter trong repo được mount read-only vào `/app/model`.
 - Nginx đã được cấu hình timeout 10 phút cho inference CPU.
 
@@ -116,11 +117,11 @@ docker compose down
 ## 5. Sử dụng sản phẩm
 
 1. Upload ảnh JPG/JPEG/PNG hoặc PDF tối đa 10 MB.
-2. Bấm **Xử lý tài liệu**. Stage 0 sửa ảnh rồi model trích xuất tên bên bán, số hóa đơn, mã số thuế, ngày và tổng tiền.
+2. Bấm **Xử lý tài liệu**. Stage 0 sửa ảnh, EasyOCR lấy token/toạ độ và Qwen2-VL trích xuất tên bên bán, số hóa đơn, mã số thuế, ngày và tổng tiền.
 3. Sau khi trạng thái là `processed`, đặt câu hỏi tự do trong khung **Hỏi đáp**.
 4. Bấm **Xuất kết quả JSON** để tải field và lịch sử hỏi đáp.
 
-PDF nhiều trang hiện chỉ xử lý trang đầu. Adapter không có grounding head nên API chưa trả bounding box bằng chứng.
+PDF nhiều trang hiện chỉ xử lý trang đầu. Adapter không có grounding head riêng; API suy ra bounding box bằng cách đối chiếu câu trả lời VLM với token EasyOCR. Nếu OCR không khớp được đáp án, `evidence_bbox` sẽ là `null`.
 
 ## 6. Kiểm thử
 
@@ -159,6 +160,7 @@ docker compose config --quiet
 |---|---|
 | Không tải được Hugging Face | Kết nối Internet ở lần đầu hoặc đặt `VLM_BASE_MODEL` tới snapshot local. |
 | `Không thể nạp LoRA adapter` | Kiểm tra đủ `adapter_config.json` và `adapter_model.safetensors` trong thư mục adapter. |
+| EasyOCR tải model ở lần chạy đầu | Giữ kết nối Internet trong lần đầu hoặc chuẩn bị cache EasyOCR trước khi chạy offline. |
 | Request bị chậm trên CPU | Dùng `VLM_EXTRACTION_MODE=base`, giữ `--workers 1`, hoặc chuyển sang GPU. |
 | Hết RAM/VRAM | Dừng worker/model khác; không dùng `--reload` hoặc nhiều worker; dùng GPU 4-bit trên Linux/WSL2. |
 | Ảnh sau preprocessing bị cắt sai | Cập nhật code Stage 0 mới nhất; pipeline hiện chỉ perspective-crop contour tứ giác chiếm ít nhất 50% ảnh. |
