@@ -122,7 +122,7 @@ Document-Visual-Question-Answering-System/
 | **Nguyễn Văn Nhật Nam** | *25521168* | **Data Engineer** | Tiền xử lý, gán nhãn và chuẩn hóa 2 bộ dataset (**SROIE** & **MCOCR** & **VietnamReceiptsV3**) sang FUNSD format. |
 | **Lê Minh Sang** | *25521574* | **AI Evaluation Lead** | Xây dựng pipeline đánh giá, tính toán chỉ số **ANLS**, **Exact Match (EM)**, **F1-Score** & **Latency**. |
 | **Trần Hoàng Minh Thiên** | *2550222* | **Backend Engineer** | Lập trình RESTful API với **FastAPI**, kết nối pipeline VLM và lưu trữ SQLite. |
-| **Trịnh Minh Đức Hoàng** | *(Điền MSSV)* | **Frontend & Demo Lead** | Phát triển giao diện Demo (**Gradio/Streamlit** & **React Web UI**) và thực hiện video demo. |
+| **Trịnh Minh Đức Hoàng** | *26127136* | **Frontend & Demo Lead** | Phát triển giao diện Demo (**Gradio/Streamlit** & **React Web UI**) và thực hiện video demo. |
 
 ---
 
