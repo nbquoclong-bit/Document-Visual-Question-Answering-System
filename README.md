@@ -34,7 +34,7 @@
 
 ```mermaid
 flowchart TD
-    A[📄 Input File: JPG / PNG / PDF] --> B[🖼️ Adaptive Preprocessing\nOpenCV: Deskew / CLAHE / Sharpen]
+    A[📄 Input File: JPG / PNG] --> B[🖼️ Adaptive Preprocessing\nOpenCV: Deskew / CLAHE / Sharpen]
     B --> C[🤖 Fine-Tuned Qwen2-VL-2B\nMultimodal Vision-Language Model]
     
     C -->|Visual QA & KIE Output| D[🎯 Format Evidence & Output JSON]
