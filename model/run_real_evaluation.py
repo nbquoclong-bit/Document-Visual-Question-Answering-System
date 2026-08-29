@@ -84,22 +84,30 @@ def run_real_model_evaluation(num_samples: int = 20):
     unseen_path = os.path.join(os.path.dirname(__file__), "test_unseen_dataset.json")
 
     all_samples = []
-    # Ưu tiên tập test chuẩn mới nhất từ data/vlm_test.json
+    # 1. Thử nạp từ data/vlm_test.json nếu có dữ liệu
     if os.path.exists(vlm_test_path):
-        with open(vlm_test_path, "r", encoding="utf-8") as f:
-            vlm_test_records = json.load(f)
-            for r in vlm_test_records:
-                all_samples.append({
-                    "image_path": r.get("image_path", ""),
-                    "question": r.get("instruction", "Trích xuất thông tin hóa đơn."),
-                    "ground_truth": r.get("output", "")
-                })
-    elif os.path.exists(unseen_path):
+        try:
+            with open(vlm_test_path, "r", encoding="utf-8") as f:
+                vlm_test_records = json.load(f)
+                if isinstance(vlm_test_records, list) and len(vlm_test_records) > 0:
+                    for r in vlm_test_records:
+                        all_samples.append({
+                            "image_path": r.get("image_path", ""),
+                            "question": r.get("instruction", "Trích xuất thông tin hóa đơn."),
+                            "ground_truth": r.get("output", "")
+                        })
+        except Exception:
+            pass
+
+    # 2. Nếu vlm_test.json rỗng, nạp từ test_unseen_dataset.json
+    if not all_samples and os.path.exists(unseen_path):
         with open(unseen_path, "r", encoding="utf-8") as f:
-            all_samples.extend(json.load(f))
+            raw_unseen = json.load(f)
+            if isinstance(raw_unseen, list):
+                all_samples.extend(raw_unseen)
 
     if not all_samples:
-        print("[Error] Không tìm thấy dữ liệu test ở data/vlm_test.json. Hãy chạy prepare_vlm_data trước!")
+        print("[Error] Không tìm thấy dữ liệu test ở data/vlm_test.json hoặc test_unseen_dataset.json!")
         return
 
     # Quét tự động thư mục datasets để lập chỉ mục tất cả các file ảnh thực tế
@@ -198,10 +206,14 @@ def run_real_model_evaluation(num_samples: int = 20):
     print_evaluation_summary(report)
     
     out_file = os.path.join(os.path.dirname(__file__), "output", "real_evaluation_report.json")
+    eval_file = os.path.join(os.path.dirname(__file__), "output", "evaluation_report.json")
     os.makedirs(os.path.dirname(out_file), exist_ok=True)
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
+    with open(eval_file, "w", encoding="utf-8") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
     print(f"- Da luu ket qua suy luan thuc te ra file: model/output/real_evaluation_report.json")
+    print(f"- Da cap nhat bao cao danh gia chinh thuc: model/output/evaluation_report.json")
 
 if __name__ == "__main__":
     run_real_model_evaluation(num_samples=20)

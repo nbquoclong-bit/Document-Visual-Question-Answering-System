@@ -88,8 +88,8 @@ def load_model_and_processor(
     use_cuda = torch.cuda.is_available()
     quantization_config = get_quantization_config() if (use_4bit and use_cuda) else None
 
-    # Qwen2-VL khuyến nghị dùng bfloat16 để tránh lỗi tràn số (overflow) ở tầng RoPE
-    model_dtype = torch.bfloat16 if (use_cuda and torch.cuda.is_bf16_supported()) else (torch.float16 if use_cuda else torch.float32)
+    # Qwen2-VL khuyến nghị dùng bfloat16 để tránh lỗi tràn số (overflow) ở tầng RoPE và tiết kiệm 50% RAM
+    model_dtype = torch.bfloat16 if (use_cuda and torch.cuda.is_bf16_supported()) else (torch.float16 if use_cuda else torch.bfloat16)
 
     model = Qwen2VLForConditionalGeneration.from_pretrained(
         base_model_name,

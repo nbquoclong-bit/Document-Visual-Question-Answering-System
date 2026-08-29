@@ -1,0 +1,18 @@
+{
+  "id": "lminhsang241/qwen2-vl-base-model-eval",
+  "title": "qwen2-vl-base-model-eval",
+  "code_file": "qwen2_vl_base_eval.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "lminhsang241/docvqa-benchmark-dataset"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

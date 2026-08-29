@@ -1,0 +1,946 @@
+[
+  {
+    "id": 1,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CÔNG TY CỔ PHẦN ĐẦU TƯ & PHÁT TRIỂN HƯNG PHÁT"
+  },
+  {
+    "id": 2,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "24,389,200đ"
+  },
+  {
+    "id": 3,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "13/06/2026 15:43"
+  },
+  {
+    "id": 4,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 322 Lý Thường Kiệt, Quận Ba Đình, Hà Nội"
+  },
+  {
+    "id": 5,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CÔNG TY TNHH THƯƠNG MẠI & DỊCH VỤ KHÁNH AN"
+  },
+  {
+    "id": 6,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "16,393,300đ"
+  },
+  {
+    "id": 7,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "31/05/2026 09:04"
+  },
+  {
+    "id": 8,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 375 Nguyễn Trãi, Quận Bình Thạnh, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 9,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CÔNG TY TNHH PHÁT TRIỂN CÔNG NGHỆ HOÀNG PHÁT"
+  },
+  {
+    "id": 10,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "7,326,000đ"
+  },
+  {
+    "id": 11,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "06/06/2026 11:59"
+  },
+  {
+    "id": 12,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 99 Nguyễn Huệ, Quận 7, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 13,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CÔNG TY TNHH PHÁT TRIỂN CÔNG NGHỆ HOÀNG PHÁT"
+  },
+  {
+    "id": 14,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "11,167,200đ"
+  },
+  {
+    "id": 15,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "20/06/2026 18:23"
+  },
+  {
+    "id": 16,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 19 Lý Thường Kiệt, Quận 1, Hải Phòng"
+  },
+  {
+    "id": 17,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM"
+  },
+  {
+    "id": 18,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "165.000 VND"
+  },
+  {
+    "id": 19,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "Ngày 17 tháng 06 năm 2026"
+  },
+  {
+    "id": 20,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 255 Bùi Thị Xuân, Quận Hoàn Kiếm, Hà Nội"
+  },
+  {
+    "id": 21,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI"
+  },
+  {
+    "id": 22,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "1.705.000 VND"
+  },
+  {
+    "id": 23,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "Ngày 15 tháng 06 năm 2026"
+  },
+  {
+    "id": 24,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 173 Nguyễn Huệ, Quận 1, Bình Dương"
+  },
+  {
+    "id": 25,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "VINCOMMERCE"
+  },
+  {
+    "id": 26,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "94.050"
+  },
+  {
+    "id": 27,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "12/06/2026 13:46"
+  },
+  {
+    "id": 28,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 102 Hai Bà Trưng, Quận 1, Hải Phòng"
+  },
+  {
+    "id": 29,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "VM+HN TRẦN DUY HƯNG"
+  },
+  {
+    "id": 30,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "407.160"
+  },
+  {
+    "id": 31,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "06/06/2026 17:28"
+  },
+  {
+    "id": 32,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 220 Lý Thường Kiệt, Quận Hoàn Kiếm, Hà Nội"
+  },
+  {
+    "id": 33,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "SAIGON CO.OP"
+  },
+  {
+    "id": 34,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "759,550.00"
+  },
+  {
+    "id": 35,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "21/05/2026 18:55:00"
+  },
+  {
+    "id": 36,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 274 Cách Mạng Tháng Tám, Quận 1, Cần Thơ"
+  },
+  {
+    "id": 37,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CO.OPMART CỐNG QUỲNH"
+  },
+  {
+    "id": 38,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "1,015,200.00"
+  },
+  {
+    "id": 39,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "31/05/2026 09:44:00"
+  },
+  {
+    "id": 40,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 32 Nguyễn Huệ, Quận Cầu Giấy, Hà Nội"
+  },
+  {
+    "id": 41,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "BÁCH HÓA XANH"
+  },
+  {
+    "id": 42,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "233,200"
+  },
+  {
+    "id": 43,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "21/05/2026 13:25"
+  },
+  {
+    "id": 44,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 127 Hai Bà Trưng, Quận 1, Bình Dương"
+  },
+  {
+    "id": 45,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "BÁCH HÓA XANH"
+  },
+  {
+    "id": 46,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "108,900"
+  },
+  {
+    "id": 47,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "08/06/2026 19:12"
+  },
+  {
+    "id": 48,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 189 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 49,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CIRCLE K"
+  },
+  {
+    "id": 50,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "92,400đ"
+  },
+  {
+    "id": 51,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "07/06/2026 14:03"
+  },
+  {
+    "id": 52,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 395 Trần Hưng Đạo, Quận Hai Bà Trưng, Hà Nội"
+  },
+  {
+    "id": 53,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "Circle K Lê Lợi"
+  },
+  {
+    "id": 54,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "129,800đ"
+  },
+  {
+    "id": 55,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "16/06/2026 18:08"
+  },
+  {
+    "id": 56,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 24 Lý Thường Kiệt, Quận Ba Đình, Hà Nội"
+  },
+  {
+    "id": 57,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "GS25 TÔN THẤT THUYẾT"
+  },
+  {
+    "id": 58,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "117,720đ"
+  },
+  {
+    "id": 59,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "30/05/2026 16:59"
+  },
+  {
+    "id": 60,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 242 Bùi Thị Xuân, Quận 1, Đồng Nai"
+  },
+  {
+    "id": 61,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "GS25 NGUYỄN HUỆ"
+  },
+  {
+    "id": 62,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "77,760đ"
+  },
+  {
+    "id": 63,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "19/06/2026 19:05"
+  },
+  {
+    "id": 64,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 238 Lê Lợi, Quận 1, Cần Thơ"
+  },
+  {
+    "id": 65,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "7-Eleven Saigon Trade Center"
+  },
+  {
+    "id": 66,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "66,000"
+  },
+  {
+    "id": 67,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "29/05/2026 22:37"
+  },
+  {
+    "id": 68,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "7-ELEVEN BÙI VIỆN"
+  },
+  {
+    "id": 69,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "321,840"
+  },
+  {
+    "id": 70,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "10/06/2026 21:34"
+  },
+  {
+    "id": 71,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "HIGHLANDS COFFEE TRẦN HƯNG ĐẠO"
+  },
+  {
+    "id": 72,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "796,068"
+  },
+  {
+    "id": 73,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "31/05/2026 16:41"
+  },
+  {
+    "id": 74,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 116 Bùi Thị Xuân, Thành phố Thủ Đức, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 75,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "HIGHLANDS COFFEE"
+  },
+  {
+    "id": 76,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "434,160"
+  },
+  {
+    "id": 77,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "29/05/2026 19:24"
+  },
+  {
+    "id": 78,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 398 Nguyễn Trãi, Quận 1, Đồng Nai"
+  },
+  {
+    "id": 79,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "PHÚC LONG NGUYỄN VĂN CỪ"
+  },
+  {
+    "id": 80,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "506,825"
+  },
+  {
+    "id": 81,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "01/06/2026 21:19"
+  },
+  {
+    "id": 82,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 62 Lý Thường Kiệt, Quận 1, Hải Phòng"
+  },
+  {
+    "id": 83,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "PHÚC LONG LÊ LAI"
+  },
+  {
+    "id": 84,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "306,900"
+  },
+  {
+    "id": 85,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "14/06/2026 14:56"
+  },
+  {
+    "id": 86,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 436 Nguyễn Trãi, Quận 1, Hải Phòng"
+  },
+  {
+    "id": 87,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "STARBUCKS HÀN THUYÊN"
+  },
+  {
+    "id": 88,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "841,500"
+  },
+  {
+    "id": 89,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "03/06/2026"
+  },
+  {
+    "id": 90,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 152 Trần Hưng Đạo, Quận Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "id": 91,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "STARBUCKS HÀN THUYÊN"
+  },
+  {
+    "id": 92,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "502,740"
+  },
+  {
+    "id": 93,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "19/06/2026"
+  },
+  {
+    "id": 94,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 48 Lê Lợi, Thành phố Thủ Đức, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 95,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "KFC Bà Hom"
+  },
+  {
+    "id": 96,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "437,800"
+  },
+  {
+    "id": 97,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "02/06/2026 15:04"
+  },
+  {
+    "id": 98,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 198 Cách Mạng Tháng Tám, Quận 1, Đồng Nai"
+  },
+  {
+    "id": 99,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "KFC VIỆT NAM"
+  },
+  {
+    "id": 100,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "364,100"
+  },
+  {
+    "id": 101,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "07/06/2026 15:54"
+  },
+  {
+    "id": 102,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 437 Bùi Thị Xuân, Quận 1, Bình Dương"
+  },
+  {
+    "id": 103,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "JOLLIBEE COOPMART"
+  },
+  {
+    "id": 104,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "127,440đ"
+  },
+  {
+    "id": 105,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "02/06/2026 21:31"
+  },
+  {
+    "id": 106,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 408 Cách Mạng Tháng Tám, Quận Tân Bình, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 107,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "JOLLIBEE VINCOM"
+  },
+  {
+    "id": 108,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "422,400đ"
+  },
+  {
+    "id": 109,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "25/05/2026 22:53"
+  },
+  {
+    "id": 110,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 179 Hai Bà Trưng, Quận Đống Đa, Hà Nội"
+  },
+  {
+    "id": 111,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CỬA HÀNG TIỆN LỢI AN AN"
+  },
+  {
+    "id": 112,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "207.900"
+  },
+  {
+    "id": 113,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "02/06/2026 20:13"
+  },
+  {
+    "id": 114,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 151 Nguyễn Huệ, Quận Đống Đa, Hà Nội"
+  },
+  {
+    "id": 115,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "MINIMART ANAN"
+  },
+  {
+    "id": 116,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "661.100"
+  },
+  {
+    "id": 117,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "26/05/2026 14:30"
+  },
+  {
+    "id": 118,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 70 Nguyễn Huệ, Quận Thanh Khê, Đà Nẵng"
+  }
+]

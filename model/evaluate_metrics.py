@@ -76,8 +76,13 @@ def evaluate_vqa_dataset(vqa_records: List[Dict[str, Any]]) -> Dict[str, Any]:
         total_anls += anls_score
         total_em += em_score
         
+        img_name = sample.get("image", sample.get("image_path", ""))
+        if img_name:
+            img_name = os.path.basename(str(img_name))
+            
         detailed_results.append({
-            "id": idx + 1,
+            "id": sample.get("id", idx + 1),
+            "image": img_name or f"sample_{idx + 1:03d}.png",
             "instruction": instruction,
             "prediction": pred,
             "ground_truth": gt,
@@ -89,6 +94,8 @@ def evaluate_vqa_dataset(vqa_records: List[Dict[str, Any]]) -> Dict[str, Any]:
     avg_em = (total_em / n) if n > 0 else 0.0
     
     report = {
+        "model_name": "Qwen2-VL-2B-Instruct + LoRA Adapter (Fine-Tuned)",
+        "hardware": "NVIDIA Tesla T4 GPU (16GB VRAM) / CPU Inference",
         "total_test_records": n,
         "anls_score": round(avg_anls, 4),
         "anls_percentage": f"{avg_anls * 100:.2f}%",
