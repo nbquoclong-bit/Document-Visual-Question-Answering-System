@@ -4,9 +4,10 @@
 **/*.py[cod]
 **/.pytest_cache/
 **/pytest-cache-files-*/
-backend/venv/
-backend/**/venv/
-backend/**/.venv/
+**/.venv/
+**/venv/
+.venv/
+venv/
 backend/backend-docvqa/backend/uploads/
 backend/backend-docvqa/backend/results/
 backend/backend-docvqa/backend/*.db
@@ -20,4 +21,3 @@ model/__pycache__/
 *.tar.gz
 *.log
 .env
-

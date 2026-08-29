@@ -15,7 +15,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     curl \
     libgl1 \
-    libgl1-mesa-glx \
     libglib2.0-0 \
     libgomp1 \
     libsm6 \
@@ -24,22 +23,26 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
-# Upgrade pip tools
-RUN pip install --no-cache-dir --upgrade pip setuptools wheel
+# Create non-root user first
+RUN useradd -m -u 1000 appuser
 
-# Install dependencies first for layer caching
+# Upgrade pip tools with BuildKit cache
+RUN --mount=type=cache,target=/root/.cache/pip \
+    pip install --upgrade pip setuptools wheel
+
+# Install PyTorch CPU and dependencies with BuildKit cache
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN --mount=type=cache,target=/root/.cache/pip \
+    pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu && \
+    pip install -r requirements.txt
 
 # Create storage directories
-RUN mkdir -p /app/uploads /app/results
+RUN mkdir -p /app/uploads /app/results && \
+    chown -R appuser:appuser /app
 
 # Copy backend source code
-COPY . .
+COPY --chown=appuser:appuser . .
 
-# Set up non-root user and directory permissions
-RUN useradd -m -u 1000 appuser && \
-    chown -R appuser:appuser /app
 USER appuser
 
 EXPOSE 8000
