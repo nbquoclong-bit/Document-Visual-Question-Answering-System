@@ -1,11 +1,14 @@
 import os
 import sys
 import time
+import re
+import numpy as np
 import torch
 from PIL import Image
 
 try:
     import gradio as gr
+    import easyocr
     from qwen_vl_utils import process_vision_info
     from peft import PeftModel
     from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
@@ -15,6 +18,7 @@ except ImportError:
     subprocess.check_call([
         sys.executable, "-m", "pip", "install", 
         "gradio>=4.0.0", 
+        "easyocr",
         "qwen-vl-utils>=0.0.8", 
         "peft>=0.12.0", 
         "transformers>=4.49.0", 
@@ -22,6 +26,7 @@ except ImportError:
         "-q"
     ])
     import gradio as gr
+    import easyocr
     from qwen_vl_utils import process_vision_info
     from peft import PeftModel
     from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
@@ -33,8 +38,9 @@ if project_root not in sys.path:
 if base_dir not in sys.path:
     sys.path.insert(0, base_dir)
 
+from stage1_vlm.src.visual_grounding import perform_smart_grounding
+
 def find_adapter_dir():
-    import zipfile
     possible_paths = [
         os.path.join(base_dir, "output", "qwen2_5_vl_lora_adapters"),
         os.path.join(base_dir, "output", "lora_adapters"),
@@ -61,6 +67,10 @@ else:
     print("ℹ️ Chạy Base Model Qwen2.5-VL-3B-Instruct.")
     model = base_model.eval()
 
+print("🔍 Đang nạp EasyOCR Engine...")
+reader = easyocr.Reader(['vi', 'en'], gpu=torch.cuda.is_available())
+print("🎉 Đã sẵn sàng phục vụ!")
+
 SYSTEM_PROMPT = (
     "Bạn là trợ lý AI kế toán chuyên đọc và bóc tách hóa đơn, chứng từ. "
     "Hãy đọc ảnh và trả lời câu hỏi chính xác, trung thực theo đúng tài liệu. "
@@ -68,9 +78,9 @@ SYSTEM_PROMPT = (
     "và từng hạng mục mặt hàng mà không bỏ sót bất kỳ chi tiết nào."
 )
 
-def predict_docvqa(image, question):
+def predict_docvqa(image, question, enable_bbox):
     if image is None:
-        return "⚠️ Vui lòng tải lên ảnh hóa đơn hoặc chứng từ.", "0.00s", "0.00 GB"
+        return None, "⚠️ Vui lòng tải lên ảnh hóa đơn hoặc chứng từ.", "0.00s", "0.00 GB"
     
     if not question or not question.strip():
         question = "Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON."
@@ -80,6 +90,16 @@ def predict_docvqa(image, question):
     is_json = any(k in q_lower for k in ["json", "toàn bộ", "cấu trúc", "tất cả", "hạng mục"])
     max_tokens = 1024 if is_json else 384
     
+    # 1. OCR tokens nếu người dùng bật BBox và không phải trích JSON
+    ocr_results = []
+    if enable_bbox and not is_json:
+        try:
+            img_np = np.array(image.convert("RGB"))
+            ocr_results = reader.readtext(img_np)
+        except Exception:
+            pass
+            
+    # 2. VLM Inference
     messages = [{"role": "user", "content": [{"type": "image", "image": image}, {"type": "text", "text": f"{SYSTEM_PROMPT}\n\nCâu hỏi: {question.strip()}"}]}]
     text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     image_inputs, video_inputs = process_vision_info(messages)
@@ -90,13 +110,21 @@ def predict_docvqa(image, question):
         generated_ids_trimmed = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)]
         raw_response = processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0].strip()
         
+    clean_ans = str(raw_response).strip()
+    if not is_json:
+        for p in [r'^Hóa đơn được lập vào ngày\s*', r'^Theo thông tin trong phiếu thanh toán, ngày lập hóa đơn là\s*', r'^Theo hóa đơn bán lẻ, các mặt hàng/dịch vụ được mua bao gồm:\s*', r'^Theo hóa đơn, các mặt hàng/dịch vụ được mua bao gồm:\s*', r'^The address of the selling company is at\s*']:
+            clean_ans = re.sub(p, '', clean_ans, flags=re.IGNORECASE).strip()
+            
+    # 3. Vẽ Bounding Box tối giản (1 màu, không nhãn chữ)
+    annotated_img = perform_smart_grounding(image, clean_ans, question, ocr_results, enable_bbox=enable_bbox)
+    
     lat = time.time() - t0
     vram = (torch.cuda.memory_allocated() / (1024**3)) if torch.cuda.is_available() else 0.0
-    return raw_response, f"{lat:.2f}s", f"{vram:.2f} GB"
+    return annotated_img, clean_ans, f"{lat:.2f}s", f"{vram:.2f} GB"
 
-with gr.Blocks(title="Document VQA Pro - Qwen2.5-VL", theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="Document Visual QA Pro - Qwen2.5-VL", theme=gr.themes.Soft()) as demo:
     gr.Markdown("# 📄 Hệ Thống Document Visual Question Answering (DocVQA Pro)")
-    gr.Markdown("💡 Mô hình **Qwen2.5-VL-3B (LoRA Fine-Tuned 94.94% ANLS)**. Hỗ trợ hỏi đáp hóa đơn và trích xuất **Full JSON 1024 Tokens** siêu nhanh.")
+    gr.Markdown("💡 Mô hình **Qwen2.5-VL-3B (LoRA Fine-Tuned 94.94% ANLS)**. Hỗ trợ hỏi đáp hóa đơn, trích xuất **Full JSON 1024 Tokens** và **Bounding Box minh chứng tối giản (1 màu)**.")
     
     with gr.Row():
         with gr.Column(scale=1):
@@ -107,6 +135,8 @@ with gr.Blocks(title="Document VQA Pro - Qwen2.5-VL", theme=gr.themes.Soft()) as
                 value="Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON đầy đủ 100% tất cả các trường và từng hạng mục mặt hàng.",
                 label="💬 2. Câu hỏi cần bóc tách"
             )
+            chk_bbox = gr.Checkbox(value=True, label="🎯 Hiển thị Bounding Box minh chứng trực quan (1 màu, không nhãn chữ)")
+            
             with gr.Row():
                 btn_json = gr.Button("🧾 Trích xuất JSON Đầy Đủ", variant="primary", size="sm")
                 btn_items = gr.Button("📦 Danh sách món hàng", size="sm")
@@ -119,7 +149,8 @@ with gr.Blocks(title="Document VQA Pro - Qwen2.5-VL", theme=gr.themes.Soft()) as
             btn_submit = gr.Button("🚀 Phân tích & Trích xuất", variant="primary", size="lg")
             
         with gr.Column(scale=1):
-            txt_output = gr.Textbox(lines=16, label="💬 3. Kết quả Trích xuất từ AI (Full JSON / Text)")
+            img_output = gr.Image(type="pil", label="🎯 3. Ảnh Đối Soát Minh Chứng (Bounding Box)")
+            txt_output = gr.Textbox(lines=16, label="💬 4. Kết quả Trích xuất từ AI (Full JSON / Text)")
             with gr.Row():
                 lat_output = gr.Textbox(label="⏱️ Tốc độ suy luận", interactive=False)
                 vram_output = gr.Textbox(label="🧠 VRAM sử dụng", interactive=False)
@@ -134,8 +165,8 @@ with gr.Blocks(title="Document VQA Pro - Qwen2.5-VL", theme=gr.themes.Soft()) as
     
     btn_submit.click(
         fn=predict_docvqa, 
-        inputs=[img_input, q_input], 
-        outputs=[txt_output, lat_output, vram_output]
+        inputs=[img_input, q_input, chk_bbox], 
+        outputs=[img_output, txt_output, lat_output, vram_output]
     )
 
 if __name__ == "__main__":
