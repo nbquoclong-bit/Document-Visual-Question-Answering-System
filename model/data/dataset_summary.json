@@ -1,0 +1,28 @@
+{
+  "total_images": 4995,
+  "total_vqa_pairs": 94736,
+  "seller_questions": 9990,
+  "total_cost_questions": 9990,
+  "timestamp_questions": 9990,
+  "address_questions": 9324,
+  "line_items_list_questions": 9324,
+  "item_price_questions": 31756,
+  "item_qty_questions": 14362,
+  "template_distribution": {
+    "cafe_highlands": 333,
+    "cafe_phuclong": 333,
+    "cafe_starbucks": 333,
+    "convenience_7eleven": 333,
+    "convenience_circlek": 333,
+    "convenience_gs25": 333,
+    "einvoice_viettel": 333,
+    "einvoice_vnpt": 333,
+    "minimart_anan": 333,
+    "receipt_c45_bb": 333,
+    "restaurant_jollibee": 333,
+    "restaurant_kfc": 333,
+    "supermarket_bachhoaxanh": 333,
+    "supermarket_lotte": 333,
+    "supermarket_winmart": 333
+  }
+}
