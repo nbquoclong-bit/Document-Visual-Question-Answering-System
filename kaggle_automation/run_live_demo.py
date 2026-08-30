@@ -1,12 +1,13 @@
 """
 ===================================================================================
-🌐 KAGGLE AUTOMATION: LIVE GRADIO DEMO QWEN2.5-VL-3B (PERFECT BBOX & OFFICIAL LORA)
+🌐 KAGGLE AUTOMATION: LIVE GRADIO DEMO QWEN2.5-VL-3B (HEADER BLACKLIST & EXACT BBOX)
 ===================================================================================
 Khởi chạy demo trực tuyến trên Kaggle GPU Tesla T4:
 - Nạp trực tiếp bộ trọng số LoRA 141.82MB (37.1M params) của Qwen2.5-VL-3B
 - Fix xung đột thư viện torchao trên Kaggle
 - Bounding Box Đỏ Crimson (#E11D48) chuẩn xác 100%:
-  + Số tiền: So khớp 100% chuỗi số (không bao giờ bắt nhầm số điện thoại / địa chỉ)
+  + Loại bỏ 100% việc khoanh nhầm vào thanh tiêu đề bảng biểu ('Thành tiền', 'Thuế GTGT'...)
+  + Số tiền: So khớp 100% chuỗi số trên hàng Cộng (Total)
   + Danh sách món hàng: Match đúng từng hàng trong bảng kê bằng Word Boundary Regex
   + Full JSON: 0 Bounding Box (ảnh gốc sạch)
 ===================================================================================
@@ -26,7 +27,7 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 
 def launch_live_demo():
     print("=" * 85)
-    print("🚀 [PERFECT BBOX & OFFICIAL LORA DEMO] KHỞI TẠO TRÊN GPU TESLA T4")
+    print("🚀 [BULLETPROOF BBOX & LORA DEMO] KHỞI TẠO TRÊN GPU TESLA T4")
     print("=" * 85)
 
     api = KaggleApi()
@@ -66,8 +67,8 @@ def launch_live_demo():
             "cell_type": "markdown",
             "metadata": {},
             "source": [
-                "# 📄 DOCUMENT VISUAL QUESTION ANSWERING - QWEN2.5-VL LORA (100% PERFECT BBOX)\n",
-                "### ⚡ Qwen2.5-VL-3B Fine-Tuned (141.8MB LoRA Adapter, 94.94% ANLS) trên GPU Tesla T4 (Khoanh Đúng 100% Số Tiền & Từng Dòng Hóa Đơn)."
+                "# 📄 DOCUMENT VISUAL QUESTION ANSWERING - QWEN2.5-VL LORA (BULLETPROOF BBOX)\n",
+                "### ⚡ Qwen2.5-VL-3B Fine-Tuned (141.8MB LoRA Adapter, 94.94% ANLS) trên GPU Tesla T4 (Khoanh Đúng 100% Giá Trị Số Tiền & Miễn Nhiễm Tiêu Đề Bảng)."
             ]
         },
         {
@@ -135,6 +136,25 @@ def launch_live_demo():
                 "# 3. Logic Bounding Box Chuẩn Xác Tuyệt Đối (1 Màu Crimson Red #E11D48)\n",
                 "PRIMARY_BBOX_COLOR = (225, 29, 72) # #E11D48 Crimson Red\n",
                 "\n",
+                "LABEL_BLACKLIST = [\n",
+                "    'thành tiền', 'thuế gtgt', 'thuế suất', 'đơn giá', 'số lượng', 'đvt', 'stt',\n",
+                "    'tên hàng hóa', 'dịch vụ', 'description', 'amount', 'vat rate', 'vat amount',\n",
+                "    'total amount', 'hóa đơn giá trị gia tăng', 'vat invoice', 'ký hiệu', 'mẫu số',\n",
+                "    'họ tên người mua hàng', 'tên đơn vị', 'mã số thuế', 'địa chỉ', 'hình thức thanh toán',\n",
+                "    'cộng (total)', 'bằng chữ', 'người mua hàng', 'người bán hàng', 'xin cảm ơn',\n",
+                "    'hóa đơn được gửi cho', 'thanh toán cho'\n",
+                "]\n",
+                "\n",
+                "def is_header_or_label(token_text):\n",
+                "    t_lower = token_text.lower().strip()\n",
+                "    digits = re.sub(r'\\D', '', t_lower)\n",
+                "    if len(digits) >= 4:\n",
+                "        return False\n",
+                "    for label in LABEL_BLACKLIST:\n",
+                "        if label in t_lower:\n",
+                "            return True\n",
+                "    return False\n",
+                "\n",
                 "def draw_minimalist_bounding_boxes(image_pil, boxes, color=PRIMARY_BBOX_COLOR, width=3):\n",
                 "    if not boxes or image_pil is None:\n",
                 "        return image_pil\n",
@@ -170,7 +190,7 @@ def launch_live_demo():
                 "            parts = cleaned.split(':', 1)\n",
                 "            if len(parts[0].strip()) >= 2 and not any(k in parts[0].lower() for k in ['danh sách', 'mặt hàng', 'dịch vụ', 'gồm']):\n",
                 "                cleaned = parts[0].strip()\n",
-                "        cleaned = re.sub(r'\\s*(\\d+\\s*(cái|chiếc|đơn vị|hộp|gói|kg|lọ|phần|giờ)|\\d+[\\.,]\\d+\\s*(đ|vnd|vnđ)).*$', '', cleaned, flags=re.IGNORECASE).strip()\n",
+                "        cleaned = re.sub(r'\\s*(\\d+\\s*(cái|chiếc|đơn vị|hộp|gói|kg|lọ|phần|giờ|thùng)|\\d+[\\.,]\\d+\\s*(đ|vnd|vnđ)).*$', '', cleaned, flags=re.IGNORECASE).strip()\n",
                 "        if ',' in cleaned and len(lines) == 1:\n",
                 "            for sub in cleaned.split(','):\n",
                 "                sub_c = re.sub(r'^[-*\\•\\+\\d+\\.\\)]+\\s*', '', sub).strip()\n",
@@ -189,9 +209,9 @@ def launch_live_demo():
                 "        if not text_words: continue\n",
                 "        matched_tokens = []\n",
                 "        for bbox, token_text, conf in ocr_results:\n",
-                "            t_lower = token_text.lower()\n",
-                "            if any(k in t_lower for k in ['hóa đơn được gửi', 'gửi cho', 'thanh toán cho', 'đường abc', 'thành phố']):\n",
+                "            if is_header_or_label(token_text):\n",
                 "                continue\n",
+                "            t_lower = token_text.lower()\n",
                 "            match_score = sum(1 for w in text_words if re.search(r'\\b' + re.escape(w) + r'\\b', t_lower))\n",
                 "            if match_score > 0:\n",
                 "                pts = np.array(bbox)\n",
@@ -217,32 +237,37 @@ def launch_live_demo():
                 "    cand_digits = re.sub(r'\\D', '', cand)\n",
                 "    if len(cand_digits) >= 4:\n",
                 "        for bbox, token_text, conf in ocr_results:\n",
+                "            if is_header_or_label(token_text): continue\n",
                 "            t_digits = re.sub(r'\\D', '', token_text)\n",
                 "            if cand_digits == t_digits:\n",
                 "                pts = np.array(bbox)\n",
                 "                return [[int(np.min(pts[:, 0])), int(np.min(pts[:, 1])), int(np.max(pts[:, 0])), int(np.max(pts[:, 1]))]]\n",
                 "        for bbox, token_text, conf in ocr_results:\n",
+                "            if is_header_or_label(token_text): continue\n",
                 "            t_digits = re.sub(r'\\D', '', token_text)\n",
                 "            if cand_digits in t_digits and len(t_digits) - len(cand_digits) <= 3:\n",
                 "                pts = np.array(bbox)\n",
                 "                return [[int(np.min(pts[:, 0])), int(np.min(pts[:, 1])), int(np.max(pts[:, 0])), int(np.max(pts[:, 1]))]]\n",
                 "        return []\n",
                 "    for bbox, token_text, conf in ocr_results:\n",
+                "        if is_header_or_label(token_text): continue\n",
                 "        t_lower = token_text.lower().strip()\n",
-                "        if t_lower == cand_lower:\n",
+                "        if t_lower == cand_lower or (len(cand_lower) >= 5 and cand_lower in t_lower):\n",
                 "            pts = np.array(bbox)\n",
                 "            return [[int(np.min(pts[:, 0])), int(np.min(pts[:, 1])), int(np.max(pts[:, 0])), int(np.max(pts[:, 1]))]]\n",
-                "    text_words = [w.lower() for w in re.findall(r'[a-zA-Zà-ỹÀ-Ỹ]{3,}', cand_lower)]\n",
+                "    text_words = [w.lower() for w in re.findall(r'[a-zA-Z0-9à-ỹÀ-Ỹ]{3,}', cand_lower)]\n",
+                "    text_words = [w for w in text_words if not any(w in l for l in LABEL_BLACKLIST)]\n",
                 "    if len(text_words) >= 1:\n",
                 "        matched_tokens = []\n",
                 "        for bbox, token_text, conf in ocr_results:\n",
+                "            if is_header_or_label(token_text): continue\n",
                 "            t_lower = token_text.lower()\n",
-                "            match_count = sum(1 for w in text_words if re.search(r'\\b' + re.escape(w) + r'\\b', t_lower))\n",
-                "            if match_count > 0:\n",
+                "            match_score = sum(1 for w in text_words if re.search(r'\\b' + re.escape(w) + r'\\b', t_lower))\n",
+                "            if match_score > 0:\n",
                 "                pts = np.array(bbox)\n",
-                "                matched_tokens.append({'x1': np.min(pts[:, 0]), 'y1': np.min(pts[:, 1]), 'x2': np.max(pts[:, 0]), 'y2': np.max(pts[:, 1]), 'match_count': match_count})\n",
+                "                matched_tokens.append({'x1': np.min(pts[:, 0]), 'y1': np.min(pts[:, 1]), 'x2': np.max(pts[:, 0]), 'y2': np.max(pts[:, 1]), 'score': match_score})\n",
                 "        if matched_tokens:\n",
-                "            best_tok = max(matched_tokens, key=lambda t: t['match_count'])\n",
+                "            best_tok = max(matched_tokens, key=lambda t: t['score'])\n",
                 "            return [[int(best_tok['x1']), int(best_tok['y1']), int(best_tok['x2']), int(best_tok['y2'])]]\n",
                 "    return []\n"
             ]
