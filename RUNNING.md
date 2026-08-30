@@ -1,168 +1,97 @@
-# Chạy sản phẩm Document VQA
+# 🚀 HƯỚNG DẪN KHỞI CHẠY HỆ THỐNG DOCUMENT VQA
 
-Hướng dẫn này dành cho bản tích hợp hoàn chỉnh trong repo:
-
-```text
-React → FastAPI → Stage 0 OpenCV → Qwen2-VL-2B → LoRA QA
-                                  ├→ Base model JSON extraction
-                                  └→ EasyOCR evidence bounding boxes
-```
-
-Backend chỉ nạp model ở request xử lý đầu tiên và giữ một instance trong mỗi worker. EasyOCR được gọi bên trong pipeline để định vị bằng chứng; không cần chạy OCR, KIE hay Gradio thành service riêng.
-
-## 1. Yêu cầu
-
-- Python 3.11 hoặc 3.12.
-- Node.js 20+.
-- Tối thiểu khoảng 16 GB RAM nếu chạy CPU.
-- Khuyến nghị NVIDIA GPU từ 6 GB VRAM khi demo nhiều tài liệu.
-- Khoảng 6 GB ổ đĩa trống cho môi trường và base model.
-
-LoRA adapter đã nằm đúng chỗ trong repo:
+Tài liệu hướng dẫn khởi chạy toàn bộ các thành phần của hệ thống DocVQA: từ Full-Stack Local (FastAPI + React) đến môi trường Cloud GPU (Kaggle T4).
 
 ```text
-model/stage1_vlm/output/lora_adapters/
-├── adapter_config.json
-├── adapter_model.safetensors   # 73.9 MB
-└── tokenizer / processor files
+Cấu trúc thực thi:
+├── [1] Full-Stack Cục Bộ (Local): React Frontend (Vite) + FastAPI Backend
+├── [2] Local Model Demo: Gradio Pure VLM Server
+└── [3] Cloud GPU Kaggle: Huấn luyện LoRA + Benchmark 174 mẫu + Live Demo 10h
 ```
 
-Base model `Qwen/Qwen2-VL-2B-Instruct` không được commit vào Git. Lần chạy đầu cần Internet để tải khoảng 4.13 GB vào Hugging Face cache.
+---
 
-## 2. Chạy local trên Windows
+## 💻 1. Khởi Chạy Full-Stack Cục Bộ (Local Windows / Linux / macOS)
 
-Mở PowerShell tại thư mục gốc repo.
+### A. Khởi động Backend (FastAPI)
+Mở cửa sổ Terminal 1 tại thư mục gốc của dự án:
 
-### Backend
+```bash
+cd backend/backend-docvqa/backend
+python -m venv venv
+# Kích hoạt môi trường ảo:
+# Windows:
+venv\Scripts\activate
+# Linux/macOS:
+# source venv/bin/activate
 
-```powershell
-cd backend\backend-docvqa\backend
-py -3.12 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-Copy-Item .env.example .env
-python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 1
+pip install --upgrade pip
+pip install -r requirements.txt
+
+# Khởi động server
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
+- **API Swagger Docs:** `http://localhost:8000/docs`
+- **Health Check:** `http://localhost:8000/health`
 
-Mở API docs tại <http://localhost:8000/docs> và health check tại <http://localhost:8000/health>.
+---
 
-Không dùng nhiều worker: mỗi worker sẽ nạp một bản Qwen2-VL riêng và tiêu tốn thêm RAM/VRAM. Trên CPU, lần xử lý đầu có thể mất 2–3 phút gồm thời gian nạp model; các request sau nhanh hơn vì model được cache trong tiến trình.
+### B. Khởi động Frontend (React 18 + Vite)
+Mở cửa sổ Terminal 2 tại thư mục gốc của dự án:
 
-### Frontend
-
-Mở PowerShell thứ hai tại thư mục gốc repo:
-
-```powershell
+```bash
 cd frontend
-npm ci
-Copy-Item .env.example .env
+npm install
 npm run dev
 ```
+- **Giao diện Dashboard:** `http://localhost:5173`
 
-Mở <http://localhost:5173>. Khi chạy Vite trực tiếp, `frontend/.env` dùng:
+---
 
-```dotenv
-VITE_API_URL=http://localhost:8000/api/v1
+## 🧠 2. Khởi Chạy Local Demo Gradio (Pure VLM Engine)
+
+Nếu bạn muốn kiểm tra trực tiếp khả năng hỏi đáp và trích xuất JSON của mô hình trên máy cục bộ có GPU:
+
+```bash
+cd model
+python demo_gradio.py
 ```
+- Giao diện Gradio tương tác sẽ mở tại: `http://localhost:7860` (kèm Public Share Link).
 
-## 3. Cấu hình model
+---
 
-Các biến nằm trong `backend/backend-docvqa/backend/.env`:
+## ☁️ 3. Tự Động Hóa Trên Kaggle GPU (Tesla T4)
 
-```dotenv
-VLM_BASE_MODEL=Qwen/Qwen2-VL-2B-Instruct
-VLM_ALLOW_BASE_MODEL=false
-VLM_EXTRACTION_MODE=base
+Thư mục `kaggle_automation/` cung cấp 3 script độc lập giúp bạn quản lý toàn bộ vòng đời của mô hình AI:
+
+### A. Huấn luyện LoRA Fine-Tuning Qwen2.5-VL-3B:
+```bash
+python kaggle_automation/train_qwen2_5_vl.py
 ```
+- Tự động đẩy notebook và kích hoạt session GPU Tesla T4 để huấn luyện mô hình với 7 lớp Linear.
 
-`VLM_EXTRACTION_MODE` có ba giá trị:
-
-| Giá trị | Cách chạy | Khi nên dùng |
-|---|---|---|
-| `base` | Base model sinh JSON một lượt; LoRA vẫn dùng cho hỏi đáp | Mặc định, cân bằng tốc độ và kết quả |
-| `single` | LoRA sinh JSON một lượt | Thử nghiệm adapter |
-| `multi` | LoRA trả lời tuần tự 5 câu hỏi field | Chỉ nên thử trên GPU; rất chậm trên CPU |
-
-Để chạy hoàn toàn offline, đặt `VLM_BASE_MODEL` thành đường dẫn tuyệt đối tới snapshot đã tải, ví dụ:
-
-```dotenv
-VLM_BASE_MODEL=C:\Users\user\.cache\huggingface\hub\models--Qwen--Qwen2-VL-2B-Instruct\snapshots\<revision>
+### B. Chạy Benchmark Đánh Giá 174 Mẫu Hóa Đơn (ANLS / F1 / EM):
+```bash
+python kaggle_automation/eval_benchmark.py
 ```
+- Đánh giá toàn diện trên 174 mẫu hóa đơn thực tế và xuất báo cáo `evaluation_report.json` đạt **94.94% ANLS**.
 
-Không đặt `VLM_ALLOW_BASE_MODEL=true` trong bản demo chính thức: nếu LoRA bị thiếu hoặc hỏng, backend nên báo lỗi rõ ràng thay vì âm thầm chạy model khác.
-
-## 4. Chạy bằng Docker Compose
-
-Đảm bảo Docker Desktop đang hoạt động rồi chạy tại root repo:
-
-```powershell
-docker compose up --build
+### C. Khởi chạy Live Demo Server (Freeze Time 10 Giờ):
+```bash
+python kaggle_automation/run_live_demo.py
 ```
+- Mở server Gradio trực tuyến với **1024 Max Tokens cho Full JSON**, hỗ trợ test trực tiếp trên Web.
 
-- Dashboard: <http://localhost>
-- API docs: <http://localhost:8000/docs>
-- Upload, kết quả, SQLite, Hugging Face cache và EasyOCR cache được giữ trong named volumes.
-- Model/adapter trong repo được mount read-only vào `/app/model`.
-- Nginx đã được cấu hình timeout 10 phút cho inference CPU.
+---
 
-Compose hiện chạy CPU để tương thích rộng. Muốn dùng NVIDIA GPU, cần Docker Desktop/WSL2 và NVIDIA Container Toolkit; sau đó thêm `gpus: all` vào service `backend` trước khi build lại.
+## ⚙️ 4. Cấu Hình Biến Môi Trường (Environment Variables)
 
-Tắt dịch vụ nhưng giữ dữ liệu:
-
-```powershell
-docker compose down
+File `.env` tại thư mục backend cấu hình các tham số:
+```env
+APP_ENV=development
+API_V1_STR=/api/v1
+PROJECT_NAME="Document VQA System"
+DATABASE_URL=sqlite:///./docvqa.db
+UPLOAD_DIR=./uploads
+RESULTS_DIR=./results
 ```
-
-## 5. Sử dụng sản phẩm
-
-1. Upload ảnh JPG/JPEG/PNG hoặc PDF tối đa 10 MB.
-2. Bấm **Xử lý tài liệu**. Stage 0 sửa ảnh, EasyOCR lấy token/toạ độ và Qwen2-VL trích xuất tên bên bán, số hóa đơn, mã số thuế, ngày và tổng tiền.
-3. Sau khi trạng thái là `processed`, đặt câu hỏi tự do trong khung **Hỏi đáp**.
-4. Bấm **Xuất kết quả JSON** để tải field và lịch sử hỏi đáp.
-
-PDF nhiều trang hiện chỉ xử lý trang đầu. Adapter không có grounding head riêng; API suy ra bounding box bằng cách đối chiếu câu trả lời VLM với token EasyOCR. Nếu OCR không khớp được đáp án, `evidence_bbox` sẽ là `null`.
-
-## 6. Kiểm thử
-
-### Backend và Stage 0
-
-```powershell
-cd backend\backend-docvqa\backend
-.\.venv\Scripts\python.exe -m pytest -q tests\test_api.py -p no:cacheprovider
-
-cd ..\..\..
-.\backend\backend-docvqa\backend\.venv\Scripts\python.exe -m pytest -q model\stage0_preprocessing\tests -p no:cacheprovider
-```
-
-API tests mock inference để kiểm tra nhanh contract upload/process/ask/export. Muốn test checkpoint thật trên một ảnh:
-
-```powershell
-.\backend\backend-docvqa\backend\.venv\Scripts\python.exe -m model.query_manual `
-  --image "C:\duong-dan\hoa-don.png" `
-  --question "Tổng tiền thanh toán trên hóa đơn là bao nhiêu?"
-```
-
-### Frontend và Compose
-
-```powershell
-cd frontend
-npm run lint
-npm run build
-
-cd ..
-docker compose config --quiet
-```
-
-## 7. Lỗi thường gặp
-
-| Hiện tượng | Cách xử lý |
-|---|---|
-| Không tải được Hugging Face | Kết nối Internet ở lần đầu hoặc đặt `VLM_BASE_MODEL` tới snapshot local. |
-| `Không thể nạp LoRA adapter` | Kiểm tra đủ `adapter_config.json` và `adapter_model.safetensors` trong thư mục adapter. |
-| EasyOCR tải model ở lần chạy đầu | Giữ kết nối Internet trong lần đầu hoặc chuẩn bị cache EasyOCR trước khi chạy offline. |
-| Request bị chậm trên CPU | Dùng `VLM_EXTRACTION_MODE=base`, giữ `--workers 1`, hoặc chuyển sang GPU. |
-| Hết RAM/VRAM | Dừng worker/model khác; không dùng `--reload` hoặc nhiều worker; dùng GPU 4-bit trên Linux/WSL2. |
-| Ảnh sau preprocessing bị cắt sai | Cập nhật code Stage 0 mới nhất; pipeline hiện chỉ perspective-crop contour tứ giác chiếm ít nhất 50% ảnh. |
-| Frontend không gọi được backend local | Kiểm tra cổng 8000 và `VITE_API_URL=http://localhost:8000/api/v1`. |
-| Docker tải lại base model | Không xoá volume `hf-cache`; `docker compose down` không xoá volume, còn `down -v` thì có. |

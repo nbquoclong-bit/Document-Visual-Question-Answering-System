@@ -1,27 +1,64 @@
-# Python / PyCache
+# ====================================================================
+# Git Ignore Configuration for Document VQA System
+# ====================================================================
+
+# Python & Caches
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .pytest_cache/
+.coverage
+htmlcov/
 
 # Virtual Environments & IDE
 venv/
 env/
 ENV/
+.env
+.venv/
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
-# Temporary Image / Input / Logs
+# Large Archives & Raw Datasets (Do not commit >100MB files to GitHub)
+datasets.zip
+*.zip
+*.tar.gz
+*.7z
+*.rar
+datasets/
+data/raw/
+data/processed/
+
+# Model Checkpoints & Large Binary Weights
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+!model/stage1_vlm/output/lora_adapters/adapter_config.json
+!model/output/qwen2_5_vl_lora_adapters/adapter_config.json
+
+# Temporary Files, Logs & Gradio
 *.log
 *.tmp
 .gradio/
 temp_*.jpg
 temp_*.png
+temp_*.jpeg
 
-# Backend runtime data and local model caches
+# Kaggle Automation Temp Folders
+kaggle_automation/*_kernel/
+kaggle_automation/live_*/
+kaggle_automation/temp_*/
+kaggle_automation/fresh_*/
+kaggle_automation/base_*/
+kaggle_automation/.kaggle/
+
+# Backend Runtime Data
 *.db
 *.sqlite
 *.sqlite3
@@ -37,30 +74,6 @@ frontend/node_modules/
 frontend/dist/
 .oxlintrc.json
 
-# Archives & Large Model Weights
-*.zip
-*.tar.gz
-*.bin
-*.pt
-*.pth
-*.ckpt
-*.onnx
-
-# Allow tracking fine-tuned LoRA weights
-!model/stage1_vlm/output/lora_adapters/adapter_model.safetensors
-
-# Large raw datasets
-datasets/vietnamese-receipts-v3/train/
-datasets/vietnamese-receipts-v3/val/
-datasets/MCOCR/
-datasets/vietnamese-receipts/
-
-# Configuration & Secrets
-.env
-!.env.example
-kaggle.json
-*.conf
-
-# Keep .gitkeep in essential empty dirs
-!*/.gitkeep
-
+# Environment / API Configuration
+.env.local
+.env.*.local
