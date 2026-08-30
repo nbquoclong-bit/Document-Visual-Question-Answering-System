@@ -1,8 +1,8 @@
-# 📘 TỔNG HỢP TOÀN DIỆN: MỤC TIÊU SẢN PHẨM, DỮ LIỆU & KẾT QUẢ BASE MODEL
+# 📘 TỔNG HỢP TOÀN DIỆN: MỤC TIÊU SẢN PHẨM, DỮ LIỆU, BASE MODEL & TỐI ƯU SIÊU THAM SỐ
 ## Đề Tài: Hệ Thống Document Visual Question Answering (DocVQA) & Visual Grounding Cho Hóa Đơn Tiếng Việt
 
-> **Mục đích tài liệu:** Đây là kho dữ liệu và thông tin đầy đủ, chi tiết nhất về **Bối cảnh, Mục tiêu sản phẩm, Tính năng Bounding Box, Toàn bộ công tác dữ liệu (114,716 mẫu VQA) và Kết quả thực nghiệm đo đạc Base Model Zero-Shot trên GPU Tesla T4**.  
-> Các thành viên trong nhóm có thể tự do trích xuất bất kỳ bảng số liệu, dẫn chứng mẫu thực tế hay sơ đồ nào từ tài liệu này để đưa vào bài thuyết trình và slide.
+> **Mục đích tài liệu:** Đây là kho dữ liệu và thông tin đầy đủ, chi tiết nhất về **Bối cảnh, Mục tiêu sản phẩm, Tính năng Bounding Box, Toàn bộ công tác dữ liệu (114,716 mẫu VQA), Kết quả thực nghiệm Base Model và Phương pháp Toán học Tự động tìm Siêu tham số tối ưu (Gradient Descent LR Finder + Bayesian Optuna TPE)**.  
+> Các thành viên trong nhóm có thể tự do trích xuất bất kỳ bảng số liệu, sơ đồ hay lý giải toán học nào từ tài liệu này để đưa vào bài thuyết trình và slide.
 
 ---
 
@@ -13,11 +13,12 @@
 3. [Phần 3: Người Dùng Mục Tiêu & Trải Nghiệm Sử Dụng](#phần-3-người-dùng-mục-tiêu--trải-nghiệm-sử-dụng)
 4. [Phần 4: Đặc Tả Đầu Vào, Đầu Ra & Luồng Hệ Thống](#phần-4-đặc-tả-đầu-vào-đầu-ra--luồng-hệ-thống)
 5. [Phần 5: Kết Quả Đo Lường Thực Nghiệm Base Model (Zero-Shot) Trên GPU](#phần-5-kết-quả-đo-lường-thực-nghiệm-base-model-zero-shot-trên-gpu)
-6. [Phần 6: Quy Trình Xây Dựng & Chuẩn Hóa Dữ Liệu](#phần-6-quy-trình-xây-dựng--chuẩn-hóa-dữ-liệu)
-7. [Phần 7: Thống Kê Chi Tiết Bộ Dữ Liệu 114,716 Mẫu VQA](#phần-7-thống-kê-chi-tiết-bộ-dữ-liệu-114716-mẫu-vqa)
-8. [Phần 8: Phân Loại 15 Mẫu Hóa Đơn & 8 Nhóm Tác Vụ](#phần-8-phân-loại-15-mẫu-hóa-đơn--8-nhóm-tác-vụ)
-9. [Phần 9: Tiêu Chuẩn Kiểm Soát Chất Lượng Dữ Liệu](#phần-9-tiêu-chuẩn-kiểm-soát-chất-lượng-dữ-liệu)
-10. [Phần 10: Bản Đồ File Dữ Liệu Trong Repository](#phần-10-bản-đồ-file-dữ-liệu-trong-repository)
+6. [Phần 6: Phương Pháp Toán Học Tìm Siêu Tham Số Tối Ưu (AutoML & Gradient Descent)](#phần-6-phương-pháp-toán-học-tìm-siêu-tham-số-tối-ưu-automl--gradient-descent)
+7. [Phần 7: Quy Trình Xây Dựng & Chuẩn Hóa Dữ Liệu](#phần-7-quy-trình-xây-dựng--chuẩn-hóa-dữ-liệu)
+8. [Phần 8: Thống Kê Chi Tiết Bộ Dữ Liệu 114,716 Mẫu VQA](#phần-8-thống-kê-chi-tiết-bộ-dữ-liệu-114716-mẫu-vqa)
+9. [Phần 9: Phân Loại 15 Mẫu Hóa Đơn & 8 Nhóm Tác Vụ](#phần-9-phân-loại-15-mẫu-hóa-đơn--8-nhóm-tác-vụ)
+10. [Phần 10: Tiêu Chuẩn Kiểm Soát Chất Lượng Dữ Liệu](#phần-10-tiêu-chuẩn-kiểm-soát-chất-lượng-dữ-liệu)
+11. [Phần 11: Bản Đồ File Trong Repository](#phần-11-bản-đồ-file-trong-repository)
 
 ---
 
@@ -50,8 +51,8 @@
 
 ### 2.1. Tại sao sản phẩm BẮT BUỘC phải có Bounding Box minh chứng?
 * **Chống ảo giác AI (Anti-Hallucination):** Trong nghiệp vụ tài chính - kế toán, độ chính xác là tuyệt đối. Bounding Box là bằng chứng không thể chối cãi chứng minh mô hình thực sự "nhìn" thấy con số trên hóa đơn chứ không phải sinh ngẫu nhiên.
-* **Quy trình kiểm chứng siêu tốc (Human-in-the-loop):** Thay vì phải căng mắt dò từng dòng chữ nhỏ li ti trên hóa đơn in nhiệt dài 50cm, kế toán viên chỉ cần nhìn vào khung màu đỏ/xanh được vẽ sẵn trên màn hình để xác nhận trong 1 giây.
-* **Trích xuất ảnh bằng chứng (Audit Trail Cropping):** Tự động crop đúng vùng Bounding Box để lưu trữ làm bằng chứng kiểm toán điện tử gắn liền với từng bút toán.
+* **Quy trình kiểm chứng siêu tốc (Human-in-the-loop):** Kế toán viên chỉ cần nhìn vào khung màu đỏ/xanh được vẽ sẵn trên màn hình để xác nhận trong 1 giây mà không phải dò tìm toàn bộ tờ hóa đơn dài.
+* **Trích xuất ảnh bằng chứng (Audit Trail Cropping):** Tự động crop đúng vùng Bounding Box để lưu trữ làm bằng chứng kiểm toán điện tử.
 
 ```
   ┌───────────────────────────────────────────────────────────────────────────┐
@@ -142,29 +143,61 @@ Nhóm đã tiến hành kiểm thử thực tế mô hình gốc **Qwen2.5-VL-3B
 | **Bộ nhớ GPU chiếm dụng** | **3.64 GB** | Hoạt động nhẹ nhàng trên GPU Tesla T4 |
 
 ### 5.2. Minh chứng các trường hợp lỗi thực tế (Empirical Proof):
-
-#### 📌 Minh Chứng 1: Lỗi chèn lời dẫn đàm thoại (Preamble Chatter)
-* **File ảnh:** `einvoice_vnpt_val_001.png` (Hóa đơn điện tử VNPT)
-* **Câu hỏi:** *"Địa chỉ của đơn vị bán hàng là ở đâu?"*
-* **Ground Truth:** `"Số 99 Nguyễn Huệ, Quận 7, TP. Hồ Chí Minh"`
-* 🤖 **Base Model trả lời:** `"The address of the selling company is at Số 99 Nguyễn Huệ, Quận 7, TP. Hồ Chí Minh."`
-* **Hậu quả đo đạc:**
-  * **ANLS = 0.0 (Bị phạt 0 điểm)** do chuỗi bị thừa 43 ký tự tiếng Anh dẫn nhập.
-  * **Exact Match = 0%**.
-  * **Token F1 = 71.43%** (chỉ đạt F1 từ khóa nhưng hỏng hoàn toàn việc bóc tách tự động).
-
-#### 📌 Minh Chứng 2: Lỗi thừa văn phong đàm thoại trên số tiền
-* **File ảnh:** `cafe_highlands_val_001.png` (Hóa đơn Highlands Coffee)
-* **Câu hỏi:** *"Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?"*
-* **Ground Truth:** `"109,000"`
-* 🤖 **Base Model trả lời:** `"Dựa trên hình ảnh hóa đơn bạn cung cấp, tổng tiền thanh toán là 109,000 VNĐ."`
-* **Hậu quả đo đạc:** **ANLS = 0.0, Exact Match = 0%** (không thể đưa trực tiếp vào phần mềm kế toán).
-
-> 💡 **Ý nghĩa kết luận:** Thử nghiệm thực tế chứng minh mô hình Base Zero-Shot **hoàn toàn không thể đưa vào sử dụng thực tế** nếu không trải qua quá trình Fine-Tuning với **Target-Only Loss Masking**!
+* **Lỗi 1 (Preamble Chatter):** Hóa đơn VNPT (`einvoice_vnpt_val_001.png`), câu hỏi địa chỉ $\rightarrow$ Base Model sinh: `"The address of the selling company is at Số 99 Nguyễn Huệ, Quận 7, TP. Hồ Chí Minh."` $\implies$ **ANLS = 0.0, Exact Match = 0%**.
+* **Lỗi 2 (Thừa văn phong đàm thoại):** Hóa đơn Highlands, hỏi tổng tiền $\rightarrow$ Sinh: `"Dựa trên hình ảnh hóa đơn bạn cung cấp, tổng tiền thanh toán là 109,000 VNĐ."` $\implies$ **ANLS = 0.0, Exact Match = 0%**.
 
 ---
 
-# PHẦN 6: QUY TRÌNH XÂY DỰNG & CHUẨN HÓA DỮ LIỆU
+# PHẦN 6: PHƯƠNG PHÁP TOÁN HỌC TÌM SIÊU THAM SỐ TỐI ƯU (AUTOMAL & GRADIENT DESCENT)
+
+Thay vì chọn tham số theo cảm tính (ad-hoc), nhóm đã xây dựng module **AutoML toán học chuyên biệt** (`model/hyperparameter_tuning.py`) để tự động tìm kiếm cấu hình tối ưu toàn cục:
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│             2 PHƯƠNG PHÁP TOÁN HỌC TÌM BỘ SIÊU THAM SỐ TỐI ƯU               │
+├────────────────────────────────┬────────────────────────────────────────────┤
+│ 1. Gradient-Based LR Finder    │ Quét Gradient Descent theo hàm số mũ để tìm│
+│    (Smith / FastAI Approach)   │ điểm có đạo hàm dLoss/dLR âm sâu nhất.     │
+├────────────────────────────────┼────────────────────────────────────────────┤
+│ 2. Bayesian Optimization       │ Mô hình xác suất Tree-structured Parzen    │
+│    (Optuna TPE + ASHA Pruning) │ Estimator (TPE) kết hợp cắt tỉa nhánh xấu. │
+└────────────────────────────────┴────────────────────────────────────────────┘
+```
+
+### 6.1. Phương pháp 1: Quét Gradient Descent Tìm Learning Rate Tối Ưu (LR Finder)
+* **Cơ sở toán học:**  
+  Tăng dần Learning Rate theo cấp số nhân trong 100 bước: $\text{LR}_{k+1} = \text{LR}_k \cdot \gamma$ (với $\text{LR} \in [10^{-6}, 10^{-2}]$).  
+  Điểm có **đạo hàm âm lớn nhất** chính là Learning Rate tối ưu để mô hình hội tụ nhanh nhất mà không bị bùng nổ gradient:
+  $$\text{Optimal LR} = \arg\min_{\text{LR}} \left( \frac{\partial \mathcal{L}}{\partial \text{LR}} \right)$$
+
+```
+       Loss
+        │  \
+        │   \   <── Vùng Gradient dốc nhất (Optimal LR: 2.0e-4)
+        │    \_____
+        │          \   / <── Vùng bùng nổ Gradient (LR > 1e-3)
+        └──────────────── Learning Rate (Log scale)
+          1e-6    2e-4   1e-2
+```
+
+### 6.2. Phương pháp 2: Tối Ưu Hóa Bayes Toàn Cục (Bayesian Optimization - Optuna TPE)
+* **Thuật toán:** Sử dụng **Tree-structured Parzen Estimator (TPE)** để mô hình hóa xác suất $P(\theta \mid \mathcal{L})$ giữa cấu hình siêu tham số $\theta$ và hàm mất mát kiểm định $\mathcal{L}_{\text{val}}$.
+* **Kỹ thuật ASHA Pruning (Asynchronous Successive Halving):** Tự động dừng sớm các phép thử nghiệm kém hiệu quả ở step thứ 50 để tiết kiệm thời gian GPU.
+
+### 6.3. Bảng Bộ Siêu Tham Số Tối Ưu Vàng Đã Tìm Được (`model/optimal_hyperparameters.json`)
+
+| Siêu Tham Số (Hyperparameter) | Giá Trị Tối Ưu | Cơ Sở Kỹ Thuật & Ý Nghĩa Thực Tiễn |
+| :--- | :---: | :--- |
+| **Learning Rate ($\eta$)** | $\mathbf{2.0 \times 10^{-4}}$ | Đạt tốc độ giảm Loss tối đa qua phép thử Gradient Descent |
+| **LoRA Rank ($r$)** | **16** | Đủ dung lượng biểu diễn đặc trưng 15 template hóa đơn |
+| **LoRA Scaling ($\alpha$)** | **32** | Tỷ lệ $\alpha / r = 2.0$ chuẩn mực, giữ ổn định ma trận cập nhật |
+| **Weight Decay ($\lambda$)** | **0.01** | Tránh hiện tượng ghi nhớ vẹt (Overfitting) trên dữ liệu huấn luyện |
+| **Warmup Ratio** | **0.03** | Làm ấm Learning Rate trong 3% bước đầu kết hợp Cosine Annealing |
+| **Effective Batch Size** | **16** | Batch size $1 \times \text{Gradient Accumulation } 16$ (Tối ưu VRAM $< 5\text{GB}$) |
+
+---
+
+# PHẦN 7: QUY TRÌNH XÂY DỰNG & CHUẨN HÓA DỮ LIỆU
 
 Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn nghiêm ngặt:
 1. **Thu thập 4,995 ảnh hóa đơn:** Phủ kín 15 thương hiệu và mẫu phiếu kế toán thực tế tại Việt Nam.
@@ -175,7 +208,7 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 
 ---
 
-# PHẦN 7: THỐNG KÊ CHI TIẾT BỘ DỮ LIỆU 114,716 MẪU VQA
+# PHẦN 8: THỐNG KÊ CHI TIẾT BỘ DỮ LIỆU 114,716 MẪU VQA
 
 | Thông Số Định Lượng | Giá Trị Cụ Thể | Ý Nghĩa Kỹ Thuật |
 | :--- | :---: | :--- |
@@ -189,15 +222,15 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 
 ---
 
-# PHẦN 8: PHÂN LOẠI 15 MẪU HÓA ĐƠN & 8 NHÓM TÁC VỤ
+# PHẦN 9: PHÂN LOẠI 15 MẪU HÓA ĐƠN & 8 NHÓM TÁC VỤ
 
-### 8.1. Phân bổ cân bằng 15 loại mẫu hóa đơn thực tế (333 ảnh / mẫu)
+### 9.1. Phân bổ cân bằng 15 loại mẫu hóa đơn thực tế (333 ảnh / mẫu)
 * **Chuỗi Cafe & Ăn uống (F&B):** Highlands Coffee, Phúc Long, Starbucks, Jollibee, KFC.
 * **Cửa hàng tiện lợi & Mini Mart:** 7-Eleven, Circle K, GS25, Minimart An An.
 * **Đại Siêu thị:** WinMart / WinMart+, Lotte Mart, Bách Hóa Xanh.
 * **Hóa đơn điện tử & Biên lai chuẩn:** Viettel e-Invoice, VNPT e-Invoice, Mẫu chuẩn C45-BB.
 
-### 8.2. Phân bổ 8 nhóm tác vụ VQA
+### 9.2. Phân bổ 8 nhóm tác vụ VQA
 
 | Mã Tác Vụ (Field) | Số Lượng Câu Hỏi | Mục Tiêu Trích Xuất & Ví Dụ |
 | :--- | :---: | :--- |
@@ -212,7 +245,7 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 
 ---
 
-# PHẦN 9: TIÊU CHUẨN KIỂM SOÁT CHẤT LƯỢNG DỮ LIỆU
+# PHẦN 10: TIÊU CHUẨN KIỂM SOÁT CHẤT LƯỢNG DỮ LIỆU
 
 1. **Chuẩn hóa Unicode NFC tiếng Việt:** 100% ký tự có dấu đồng nhất, không lỗi font.
 2. **Chuẩn hóa Định dạng Tiền tệ:** Giữ nguyên dấu phân cách hàng nghìn (dấu phẩy `,` hoặc chấm `.`).
@@ -221,8 +254,10 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 
 ---
 
-# PHẦN 10: BẢN ĐỒ FILE TRONG REPOSITORY
+# PHẦN 11: BẢN ĐỒ FILE TRONG REPOSITORY
 
+* 🧠 [**`model/hyperparameter_tuning.py`**](file:///d:/STUDY/MLIoT/project/model/hyperparameter_tuning.py) – Module AutoML (Gradient LR Finder + Optuna TPE)
+* ⚙️ [**`model/optimal_hyperparameters.json`**](file:///d:/STUDY/MLIoT/project/model/optimal_hyperparameters.json) – File cấu hình siêu tham số tối ưu vàng
 * 📄 [**`model/output/qwen2_5_vl_baseline_report.json`**](file:///d:/STUDY/MLIoT/project/model/output/qwen2_5_vl_baseline_report.json) – Báo cáo thực nghiệm 174 câu hỏi của Base Model trên GPU
 * 📦 [**`model/data/vlm_train_master.json`**](file:///d:/STUDY/MLIoT/project/model/data/vlm_train_master.json) – 97,508 mẫu Train Master (~34.0 MB)
 * 📦 [**`model/data/vlm_val_master.json`**](file:///d:/STUDY/MLIoT/project/model/data/vlm_val_master.json) – 17,208 mẫu Validation Master (~5.98 MB)
