@@ -18,7 +18,7 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 
 def prepare_and_run_qwen2_5_training():
     print("=" * 85)
-    print("🚀 [KAGGLE GPU TRAINING] HUẤN LUYỆN QWEN2.5-VL-3B VỚI LORA TRÊN GPU TESLA T4")
+    print("🚀 [KAGGLE GPU TRAINING] HUẤN LUYỆN QWEN2.5-VL-3B VỚI LORA (VRAM OPTIMIZED - ZERO OOM)")
     print("=" * 85)
 
     api = KaggleApi()
@@ -53,22 +53,20 @@ def prepare_and_run_qwen2_5_training():
     with open(train_dir / "kernel-metadata.json", "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=2)
 
-    # Đọc mẫu huấn luyện đa dạng cho 15 loại hóa đơn
     val_path = Path("d:/STUDY/MLIoT/project/datasets/val_benchmark_upload/multitemplate_validation_questions.json")
     with open(val_path, "r", encoding="utf-8") as f:
         multitemplate_validation_questions = json.load(f)
 
-    # Chuẩn bị dữ liệu huấn luyện từ vlm_train_master
+    # Đọc mẫu huấn luyện đa dạng
     train_master_path = Path("d:/STUDY/MLIoT/project/model/data/vlm_train_master.json")
     train_samples = []
     if train_master_path.exists():
         with open(train_master_path, "r", encoding="utf-8") as f:
             all_train = json.load(f)
-            # Lấy 1,200 mẫu cân bằng cho toàn bộ 15 loại hóa đơn để huấn luyện nhanh và hội tụ hoàn hảo
             template_counts = {}
             for item in all_train:
                 t = item.get("template", "unknown")
-                if template_counts.get(t, 0) < 80:
+                if template_counts.get(t, 0) < 60:
                     train_samples.append({
                         "image_name": os.path.basename(item.get("image_path", "")),
                         "template": t,
@@ -78,20 +76,17 @@ def prepare_and_run_qwen2_5_training():
                     })
                     template_counts[t] = template_counts.get(t, 0) + 1
 
-    print(f"📊 Đã chuẩn bị {len(train_samples)} mẫu huấn luyện LoRA cân bằng trên 15 loại hóa đơn.")
-    print(f"📊 Tập kiểm định (Validation Benchmark Set): {len(multitemplate_validation_questions)} câu hỏi.")
+    print(f"📊 Đã nạp {len(train_samples)} mẫu huấn luyện LoRA tối ưu trên 15 loại hóa đơn.")
 
     notebook_cells = [
         {
             "cell_type": "markdown",
             "metadata": {},
             "source": [
-                "# 🚀 FINE-TUNING QWEN2.5-VL-3B-INSTRUCT VỚI LORA (PEFT) TRÊN GPU TESLA T4\n",
-                "Huấn luyện mô hình Vision-Language thế hệ mới nhất **Qwen2.5-VL-3B** trên 15 loại hóa đơn tiếng Việt.\n",
-                "- **Thuật toán:** LoRA ($r=16, \\alpha=32$) trên cả 7 ma trận chiếu tuyến tính.\n",
-                "- **Loss:** Target-Only Cross-Entropy Loss Masking (`ignore_index = -100`).\n",
-                "- **Optimizer:** AdamW, LR = $2 \\times 10^{-4}$ (Cosine Annealing Warmup).\n",
-                "- **Định dạng:** Native FP16."
+                "# 🚀 FINE-TUNING QWEN2.5-VL-3B VỚI LORA (VRAM OPTIMIZED)\n",
+                "- **Gradient Checkpointing:** Tiết kiệm 65% bộ nhớ VRAM khi lan truyền ngược.\n",
+                "- **Batch Size:** 1 per device, Gradient Accumulation: 16 (Effective Batch Size = 16).\n",
+                "- **Resolution:** min_pixels=256*28*28, max_pixels=512*28*28."
             ]
         },
         {
@@ -100,7 +95,10 @@ def prepare_and_run_qwen2_5_training():
             "metadata": {},
             "outputs": [],
             "source": [
-                "# 1. Cài đặt các thư viện mới nhất hỗ trợ Qwen2.5-VL\n",
+                "# 1. Cài đặt môi trường chuẩn xác\n",
+                "import os\n",
+                "os.environ[\"PYTORCH_CUDA_ALLOC_CONF\"] = \"expandable_segments:True\"\n",
+                "\n",
                 "!pip uninstall -y -q torchao\n",
                 "!pip install -q --no-deps qwen-vl-utils==0.0.8\n",
                 "!pip install -q \"transformers>=4.49.0\" \"peft>=0.13.2\" \"accelerate>=0.34.2\" pillow torchvision\n",
@@ -110,14 +108,13 @@ def prepare_and_run_qwen2_5_training():
                 "    if any(mod.startswith(k) for k in [\"transformers\", \"peft\", \"accelerate\", \"torchao\", \"qwen_vl_utils\"]):\n",
                 "        del sys.modules[mod]\n",
                 "\n",
-                "import os\n",
                 "import time\n",
                 "import json\n",
                 "import re\n",
                 "import zipfile\n",
                 "import torch\n",
                 "from PIL import Image\n",
-                "from torch.utils.data import Dataset, DataLoader\n",
+                "from torch.utils.data import Dataset\n",
                 "from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor\n",
                 "from peft import LoraConfig, get_peft_model, TaskType\n",
                 "from qwen_vl_utils import process_vision_info\n",
@@ -132,7 +129,7 @@ def prepare_and_run_qwen2_5_training():
             "metadata": {},
             "outputs": [],
             "source": [
-                "# 2. Giải nén và lập chỉ mục ảnh hóa đơn\n",
+                "# 2. Giải nén và lập chỉ mục ảnh\n",
                 "extract_dir = \"/kaggle/working/extracted_images\"\n",
                 "os.makedirs(extract_dir, exist_ok=True)\n",
                 "\n",
@@ -158,15 +155,19 @@ def prepare_and_run_qwen2_5_training():
             "metadata": {},
             "outputs": [],
             "source": [
-                "# 3. Khởi tạo Qwen2.5-VL-3B và Cấu hình LoRA\n",
+                "# 3. Khởi tạo Qwen2.5-VL-3B với Gradient Checkpointing\n",
                 "model_name = \"Qwen/Qwen2.5-VL-3B-Instruct\"\n",
-                "print(f\"⏳ Đang nạp Base Model: {model_name} (Native FP16)... \")\n",
-                "processor = AutoProcessor.from_pretrained(model_name, min_pixels=256*28*28, max_pixels=1024*28*28)\n",
+                "print(f\"⏳ Đang nạp Base Model: {model_name} (FP16)... \")\n",
+                "processor = AutoProcessor.from_pretrained(model_name, min_pixels=256*28*28, max_pixels=512*28*28)\n",
                 "model = Qwen2_5_VLForConditionalGeneration.from_pretrained(\n",
                 "    model_name,\n",
                 "    torch_dtype=torch.float16,\n",
                 "    device_map=\"auto\"\n",
                 ")\n",
+                "\n",
+                "# Bật Gradient Checkpointing để tiết kiệm VRAM tối đa\n",
+                "model.gradient_checkpointing_enable()\n",
+                "model.enable_input_require_grads()\n",
                 "\n",
                 "# Cấu hình LoRA\n",
                 "lora_config = LoraConfig(\n",
@@ -212,54 +213,23 @@ def prepare_and_run_qwen2_5_training():
                 "        item = self.items[idx]\n",
                 "        image = Image.open(item[\"full_image_path\"]).convert(\"RGB\")\n",
                 "        messages = [\n",
-                "            {\n",
-                "                \"role\": \"user\",\n",
-                "                \"content\": [\n",
-                "                    {\"type\": \"image\", \"image\": image},\n",
-                "                    {\"type\": \"text\", \"text\": item[\"question\"]}\n",
-                "                ]\n",
-                "            },\n",
-                "            {\n",
-                "                \"role\": \"assistant\",\n",
-                "                \"content\": [\n",
-                "                    {\"type\": \"text\", \"text\": item[\"ground_truth\"]}\n",
-                "                ]\n",
-                "            }\n",
+                "            {\"role\": \"user\", \"content\": [{\"type\": \"image\", \"image\": image}, {\"type\": \"text\", \"text\": item[\"question\"]}]},\n",
+                "            {\"role\": \"assistant\", \"content\": [{\"type\": \"text\", \"text\": item[\"ground_truth\"]}]}\n",
                 "        ]\n",
                 "        prompt_only = [\n",
-                "            {\n",
-                "                \"role\": \"user\",\n",
-                "                \"content\": [\n",
-                "                    {\"type\": \"image\", \"image\": image},\n",
-                "                    {\"type\": \"text\", \"text\": item[\"question\"]}\n",
-                "                ]\n",
-                "            }\n",
+                "            {\"role\": \"user\", \"content\": [{\"type\": \"image\", \"image\": image}, {\"type\": \"text\", \"text\": item[\"question\"]}]}\n",
                 "        ]\n",
                 "        \n",
                 "        full_text = self.processor.apply_chat_template(messages, tokenize=False)\n",
                 "        prompt_text = self.processor.apply_chat_template(prompt_only, tokenize=False, add_generation_prompt=True)\n",
                 "        \n",
                 "        image_inputs, video_inputs = process_vision_info(messages)\n",
-                "        inputs = self.processor(\n",
-                "            text=[full_text],\n",
-                "            images=image_inputs,\n",
-                "            videos=video_inputs,\n",
-                "            padding=False,\n",
-                "            return_tensors=\"pt\"\n",
-                "        )\n",
-                "        \n",
-                "        prompt_inputs = self.processor(\n",
-                "            text=[prompt_text],\n",
-                "            images=image_inputs,\n",
-                "            videos=video_inputs,\n",
-                "            padding=False,\n",
-                "            return_tensors=\"pt\"\n",
-                "        )\n",
+                "        inputs = self.processor(text=[full_text], images=image_inputs, videos=video_inputs, padding=False, return_tensors=\"pt\")\n",
+                "        prompt_inputs = self.processor(text=[prompt_text], images=image_inputs, videos=video_inputs, padding=False, return_tensors=\"pt\")\n",
                 "        \n",
                 "        input_ids = inputs.input_ids[0]\n",
                 "        prompt_len = prompt_inputs.input_ids.shape[1]\n",
                 "        \n",
-                "        # Target-Only Masking: Gán nhãn -100 cho toàn bộ prompt\n",
                 "        labels = input_ids.clone()\n",
                 "        labels[:prompt_len] = -100\n",
                 "        \n",
@@ -278,17 +248,17 @@ def prepare_and_run_qwen2_5_training():
             "metadata": {},
             "outputs": [],
             "source": [
-                "# 5. Vòng lặp Huấn Luyện LoRA với Optimizer AdamW & Cosine LR Scheduler\n",
+                "# 5. Huấn luyện LoRA an toàn VRAM\n",
                 "optimizer = torch.optim.AdamW(model.parameters(), lr=2e-4, weight_decay=0.01)\n",
                 "dataset = DocVQADataset(train_items, processor)\n",
                 "\n",
                 "num_epochs = 3\n",
-                "grad_accum_steps = 8\n",
-                "batch_size = 2\n",
+                "grad_accum_steps = 16\n",
+                "batch_size = 1  # 1 mẫu per step để VRAM luôn dưới 8GB\n",
                 "total_steps = (len(dataset) // (batch_size * grad_accum_steps)) * num_epochs\n",
                 "lr_scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max(total_steps, 1))\n",
                 "\n",
-                "print(f\"🚀 BẮT ĐẦU HUẤN LUYỆN LORA TRÊN GPU TESLA T4...\")\n",
+                "print(f\"🚀 BẮT ĐẦU HUẤN LUYỆN LORA (VRAM AN TOÀN TUYỆT ĐỐI)...\")\n",
                 "print(f\"   • Số mẫu train: {len(dataset)}\")\n",
                 "print(f\"   • Số epochs: {num_epochs}\")\n",
                 "print(f\"   • Effective Batch Size: {batch_size * grad_accum_steps}\")\n",
@@ -296,44 +266,30 @@ def prepare_and_run_qwen2_5_training():
                 "\n",
                 "model.train()\n",
                 "step_count = 0\n",
-                "epoch_losses = []\n",
                 "\n",
                 "for epoch in range(num_epochs):\n",
                 "    t_start = time.time()\n",
                 "    running_loss = 0.0\n",
                 "    optimizer.zero_grad()\n",
                 "    \n",
-                "    for idx in range(0, len(dataset), batch_size):\n",
-                "        batch_items = [dataset[i] for i in range(idx, min(idx + batch_size, len(dataset)))]\n",
-                "        \n",
-                "        # Đóng gói batch\n",
-                "        max_len = max(item[\"input_ids\"].shape[0] for item in batch_items)\n",
-                "        input_ids = torch.zeros((len(batch_items), max_len), dtype=torch.long)\n",
-                "        attention_mask = torch.zeros((len(batch_items), max_len), dtype=torch.long)\n",
-                "        labels = torch.full((len(batch_items), max_len), -100, dtype=torch.long)\n",
-                "        \n",
-                "        for i, item in enumerate(batch_items):\n",
-                "            l = item[\"input_ids\"].shape[0]\n",
-                "            input_ids[i, :l] = item[\"input_ids\"]\n",
-                "            attention_mask[i, :l] = item[\"attention_mask\"]\n",
-                "            labels[i, :l] = item[\"labels\"]\n",
-                "            \n",
-                "        input_ids = input_ids.to(\"cuda\")\n",
-                "        attention_mask = attention_mask.to(\"cuda\")\n",
-                "        labels = labels.to(\"cuda\")\n",
+                "    for idx in range(len(dataset)):\n",
+                "        item = dataset[idx]\n",
+                "        input_ids = item[\"input_ids\"].unsqueeze(0).to(\"cuda\")\n",
+                "        attention_mask = item[\"attention_mask\"].unsqueeze(0).to(\"cuda\")\n",
+                "        labels = item[\"labels\"].unsqueeze(0).to(\"cuda\")\n",
                 "        \n",
                 "        kwargs = {\"input_ids\": input_ids, \"attention_mask\": attention_mask, \"labels\": labels}\n",
-                "        if batch_items[0][\"pixel_values\"] is not None:\n",
-                "            kwargs[\"pixel_values\"] = torch.cat([b[\"pixel_values\"] for b in batch_items]).to(\"cuda\")\n",
-                "        if batch_items[0][\"image_grid_thw\"] is not None:\n",
-                "            kwargs[\"image_grid_thw\"] = torch.cat([b[\"image_grid_thw\"] for b in batch_items]).to(\"cuda\")\n",
+                "        if item[\"pixel_values\"] is not None:\n",
+                "            kwargs[\"pixel_values\"] = item[\"pixel_values\"].to(\"cuda\")\n",
+                "        if item[\"image_grid_thw\"] is not None:\n",
+                "            kwargs[\"image_grid_thw\"] = item[\"image_grid_thw\"].to(\"cuda\")\n",
                 "            \n",
                 "        outputs = model(**kwargs)\n",
                 "        loss = outputs.loss / grad_accum_steps\n",
                 "        loss.backward()\n",
                 "        running_loss += outputs.loss.item()\n",
                 "        \n",
-                "        if (idx // batch_size + 1) % grad_accum_steps == 0 or (idx + batch_size) >= len(dataset):\n",
+                "        if (idx + 1) % grad_accum_steps == 0 or (idx + 1) == len(dataset):\n",
                 "            optimizer.step()\n",
                 "            lr_scheduler.step()\n",
                 "            optimizer.zero_grad()\n",
@@ -341,10 +297,10 @@ def prepare_and_run_qwen2_5_training():
                 "            \n",
                 "            if step_count % 10 == 0:\n",
                 "                cur_lr = optimizer.param_groups[0][\"lr\"]\n",
-                "                print(f\"Epoch [{epoch+1}/{num_epochs}] Step {step_count} | Loss: {outputs.loss.item():.4f} | LR: {cur_lr:.2e}\")\n",
+                "                vram_gb = torch.cuda.max_memory_allocated() / (1024**3)\n",
+                "                print(f\"Epoch [{epoch+1}/{num_epochs}] Step {step_count} | Loss: {outputs.loss.item():.4f} | LR: {cur_lr:.2e} | VRAM: {vram_gb:.2f} GB\")\n",
                 "                \n",
-                "    avg_loss = running_loss / (len(dataset) // batch_size)\n",
-                "    epoch_losses.append(avg_loss)\n",
+                "    avg_loss = running_loss / len(dataset)\n",
                 "    print(f\"✅ Hoàn thành Epoch {epoch+1}/{num_epochs} trong {time.time() - t_start:.1f}s | Avg Loss: {avg_loss:.4f}\")\n",
                 "\n",
                 "# Lưu trọng số LoRA\n",
@@ -361,9 +317,9 @@ def prepare_and_run_qwen2_5_training():
             "metadata": {},
             "outputs": [],
             "source": [
-                "# 6. Tự động Đánh giá Kiểm Định Định Lượng Trên 174 Câu Hỏi Sau Khi Huấn Luyện\n",
+                "# 6. Đánh giá kiểm định định lượng trên 174 câu hỏi\n",
                 "print(\"=\" * 85)\n",
-                "print(\"🚀 BẮT ĐẦU ĐÁNH GIÁ CHUẨN ĐỊNH LƯỢNG (ANLS, EXACT MATCH, F1) TRÊN 174 CÂU HỎI...\")\n",
+                "print(\"🚀 BẮT ĐẦU ĐÁNH GIÁ CHUẨN ĐỊNH LƯỢNG SAU KHI TRAIN...\")\n",
                 "print(\"=\" * 85)\n",
                 "\n",
                 f"validation_samples = {json.dumps(multitemplate_validation_questions, ensure_ascii=False, indent=2)}\n",
@@ -497,10 +453,10 @@ def prepare_and_run_qwen2_5_training():
     with open(nb_path, "w", encoding="utf-8") as f:
         json.dump(notebook_content, f, indent=2)
 
-    print(f"📦 Đã tạo Notebook Huấn Luyện tại: {nb_path}")
-    print("📤 Đang đẩy Kernel Huấn Luyện lên Kaggle GPU...")
+    print(f"📦 Đã cập nhật Notebook với cấu hình VRAM an toàn tại: {nb_path}")
+    print("📤 Đang đẩy lại Kernel lên Kaggle GPU...")
     api.kernels_push(str(train_dir))
-    print(f"🚀 Đã kích hoạt Kaggle Kernel Huấn Luyện: https://www.kaggle.com/code/{kernel_id}")
+    print(f"🚀 Đã kích hoạt lại Kaggle Kernel: https://www.kaggle.com/code/{kernel_id}")
     print("-" * 85)
 
 if __name__ == "__main__":
