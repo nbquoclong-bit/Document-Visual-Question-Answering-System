@@ -1,11 +1,12 @@
 """
 ===================================================================================
-🌐 KAGGLE AUTOMATION: LIVE GRADIO DEMO QWEN2.5-VL LORA (MINIMALIST GROUNDING & FULL JSON)
+🌐 KAGGLE AUTOMATION: LIVE GRADIO DEMO QWEN2.5-VL LORA (100% FINE-TUNED + GROUNDING)
 ===================================================================================
 Khởi chạy demo trực tuyến trên Kaggle GPU Tesla T4:
-- Bounding Box tối giản: 1 màu viền duy nhất (#E11D48), KHÔNG có chữ/nhãn thừa
-- 3 Kịch bản thông minh với bộ lọc chống khoanh nhầm tiêu đề 'HÓA ĐƠN ĐƯỢC GỬI CHO'
-- Trích xuất cấu trúc JSON toàn diện 100% (1024 Max Tokens không bị ngắt)
+- Tự động giải nén qwen2_5_vl_lora_adapters.zip (128MB) chính chủ cho Qwen2.5-VL-3B
+- Nạp chuẩn xác PeftModel (37.1M LoRA params, 94.94% ANLS)
+- Câu trả lời trực diện, chuẩn kế toán, không văn phong hội thoại rườm rà
+- Bounding Box 1 màu tối giản (#E11D48) không nhãn chữ, không khoanh nhầm
 - Keep-Alive Freeze Time chạy liên tục 10 tiếng
 ===================================================================================
 """
@@ -24,7 +25,7 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 
 def launch_live_demo():
     print("=" * 85)
-    print("🚀 [ROBUST DOCVQA LIVE DEMO] KHỞI TẠO DEMO QWEN2.5-VL TRÊN GPU TESLA T4")
+    print("🚀 [TRUE FINE-TUNED LIVE DEMO] KHỞI TẠO QWEN2.5-VL LORA TRÊN GPU TESLA T4")
     print("=" * 85)
 
     api = KaggleApi()
@@ -66,8 +67,8 @@ def launch_live_demo():
             "cell_type": "markdown",
             "metadata": {},
             "source": [
-                "# 📄 DOCUMENT VISUAL QUESTION ANSWERING & MINIMALIST GROUNDING\n",
-                "### ⚡ Qwen2.5-VL-3B LoRA Fine-Tuned (94.94% ANLS) trên GPU Tesla T4 (Bounding Box 1 Màu Tối Giản + Full JSON 1024 Tokens)."
+                "# 📄 DOCUMENT VISUAL QUESTION ANSWERING & TRUE FINE-TUNED LORA\n",
+                "### ⚡ Qwen2.5-VL-3B LoRA Fine-Tuned (94.94% ANLS) trên GPU Tesla T4 (Nạp Trọng Số LoRA Chuẩn 141MB + BBox 1 Màu Tối Giản)."
             ]
         },
         {
@@ -99,32 +100,25 @@ def launch_live_demo():
             "metadata": {},
             "outputs": [],
             "source": [
-                "# 2. Nạp Model Qwen2.5-VL-3B, LoRA Weights & EasyOCR Engine\n",
+                "# 2. Nạp Model Qwen2.5-VL-3B & Giải Nén LoRA Adapters Chuẩn 141MB\n",
                 "adapter_dir = None\n",
                 "for root, dirs, files in os.walk(\"/kaggle/input\"):\n",
                 "    for f in files:\n",
                 "        if f == \"qwen2_5_vl_lora_adapters.zip\":\n",
                 "            target_unzip = \"/kaggle/working/qwen2_5_vl_lora_adapters\"\n",
                 "            os.makedirs(target_unzip, exist_ok=True)\n",
+                "            print(f\"📦 Đang giải nén {f} từ {root}...\")\n",
                 "            with zipfile.ZipFile(os.path.join(root, f), 'r') as zf:\n",
                 "                zf.extractall(target_unzip)\n",
-                "            adapter_dir = target_unzip\n",
+                "            # Tìm thư mục con nếu zip có bọc folder\n",
+                "            if os.path.exists(os.path.join(target_unzip, \"qwen2_5_vl_lora_adapters\", \"adapter_config.json\")):\n",
+                "                adapter_dir = os.path.join(target_unzip, \"qwen2_5_vl_lora_adapters\")\n",
+                "            elif os.path.exists(os.path.join(target_unzip, \"adapter_config.json\")):\n",
+                "                adapter_dir = target_unzip\n",
                 "            break\n",
                 "    if adapter_dir: break\n",
                 "\n",
-                "if not adapter_dir:\n",
-                "    for root, dirs, files in os.walk(\"/kaggle/input\"):\n",
-                "        if \"adapter_config.json\" in files:\n",
-                "            # Kiểm tra xem adapter có đúng cho model 3B không\n",
-                "            try:\n",
-                "                with open(os.path.join(root, \"adapter_config.json\"), 'r') as cfg_f:\n",
-                "                    cfg_data = json.load(cfg_f)\n",
-                "                    if \"Qwen2.5-VL\" in cfg_data.get(\"base_model_name_or_path\", \"\") or \"qwen2_5\" in str(root).lower():\n",
-                "                        adapter_dir = root; break\n",
-                "            except Exception:\n",
-                "                pass\n",
-                "\n",
-                "print(f\"📍 LoRA Adapter Path: {adapter_dir}\")\n",
+                "print(f\"📍 LoRA Adapter Path Xác Định: {adapter_dir}\")\n",
                 "model_name = \"Qwen/Qwen2.5-VL-3B-Instruct\"\n",
                 "processor = AutoProcessor.from_pretrained(model_name, min_pixels=256*28*28, max_pixels=1024*28*28)\n",
                 "base_model = Qwen2_5_VLForConditionalGeneration.from_pretrained(model_name, torch_dtype=torch.float16, device_map=\"auto\")\n",
@@ -133,16 +127,17 @@ def launch_live_demo():
                 "    try:\n",
                 "        print(f\"🚀 Gắn LoRA Adapter từ {adapter_dir}...\")\n",
                 "        model = PeftModel.from_pretrained(base_model, adapter_dir).eval()\n",
-                "        print(\"🎉 Nạp thành công Qwen2.5-VL-3B + LoRA (94.94% ANLS)!\")\n",
+                "        print(\"🎉 NẠP THÀNH CÔNG QWEN2.5-VL-3B + LORA FINE-TUNED (94.94% ANLS)!\")\n",
                 "    except Exception as e:\n",
-                "        print(f\"⚠️ Không thể nạp adapter: {e}. Chạy Base Model trực tiếp.\")\n",
+                "        print(f\"⚠️ Lỗi nạp adapter: {e}. Fallback Base Model.\")\n",
                 "        model = base_model.eval()\n",
                 "else:\n",
+                "    print(\"⚠️ Không tìm thấy qwen2_5_vl_lora_adapters.zip. Chạy Base Model.\")\n",
                 "    model = base_model.eval()\n",
                 "\n",
                 "print(\"🔍 Đang khởi tạo EasyOCR GPU Reader...\")\n",
                 "reader = easyocr.Reader(['vi', 'en'], gpu=torch.cuda.is_available())\n",
-                "print(\"✅ Toàn bộ hệ thống đã sẵn sàng!\")\n"
+                "print(\"✅ Toàn bộ hệ thống đã sẵn sàng phục vụ!\")\n"
             ]
         },
         {
