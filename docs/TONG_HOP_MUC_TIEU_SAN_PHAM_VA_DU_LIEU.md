@@ -1,8 +1,12 @@
-# 📘 TỔNG HỢP TOÀN DIỆN: MỤC TIÊU SẢN PHẨM, DỮ LIỆU, BASE MODEL & TỐI ƯU SIÊU THAM SỐ
+# 📘 TỔNG HỢP TOÀN DIỆN: MỤC TIÊU SẢN PHẨM, DỮ LIỆU & KẾT QUẢ MÔ HÌNH TỐI ƯU
 ## Đề Tài: Hệ Thống Document Visual Question Answering (DocVQA) & Visual Grounding Cho Hóa Đơn Tiếng Việt
 
-> **Mục đích tài liệu:** Đây là kho dữ liệu và thông tin đầy đủ, chi tiết nhất về **Bối cảnh, Mục tiêu sản phẩm, Tính năng Bounding Box, Toàn bộ công tác dữ liệu (114,716 mẫu VQA), Kết quả thực nghiệm Base Model và Phương pháp Toán học Tự động tìm Siêu tham số tối ưu (Gradient Descent LR Finder + Bayesian Optuna TPE)**.  
-> Các thành viên trong nhóm có thể tự do trích xuất bất kỳ bảng số liệu, sơ đồ hay lý giải toán học nào từ tài liệu này để đưa vào bài thuyết trình và slide.
+> **Mục đích tài liệu:** Đây là kho thông tin và số liệu thực nghiệm đầy đủ, chi tiết và chuẩn xác nhất về:
+> 1. **Bối cảnh, Mục tiêu sản phẩm & Tính năng Bounding Box minh chứng trực quan.**
+> 2. **Toàn bộ công tác kỹ thuật dữ liệu (114,716 mẫu VQA trên 15 loại hóa đơn).**
+> 3. **Phương pháp Toán học & AutoML tìm Siêu tham số tối ưu (Gradient LR Finder + Optuna TPE).**
+> 4. **Kết quả thực nghiệm định lượng toàn diện trên GPU Tesla T4 (Base Model vs Fine-Tuned vs Optimized Model đạt 94.94% ANLS).**  
+> Các thành viên trong nhóm có thể tự do trích xuất bất kỳ bảng biểu, số liệu so sánh hay ví dụ thực tế nào để đưa vào bài thuyết trình và slide.
 
 ---
 
@@ -14,11 +18,12 @@
 4. [Phần 4: Đặc Tả Đầu Vào, Đầu Ra & Luồng Hệ Thống](#phần-4-đặc-tả-đầu-vào-đầu-ra--luồng-hệ-thống)
 5. [Phần 5: Kết Quả Đo Lường Thực Nghiệm Base Model (Zero-Shot) Trên GPU](#phần-5-kết-quả-đo-lường-thực-nghiệm-base-model-zero-shot-trên-gpu)
 6. [Phần 6: Phương Pháp Toán Học Tìm Siêu Tham Số Tối Ưu (AutoML & Gradient Descent)](#phần-6-phương-pháp-toán-học-tìm-siêu-tham-số-tối-ưu-automl--gradient-descent)
-7. [Phần 7: Quy Trình Xây Dựng & Chuẩn Hóa Dữ Liệu](#phần-7-quy-trình-xây-dựng--chuẩn-hóa-dữ-liệu)
-8. [Phần 8: Thống Kê Chi Tiết Bộ Dữ Liệu 114,716 Mẫu VQA](#phần-8-thống-kê-chi-tiết-bộ-dữ-liệu-114716-mẫu-vqa)
-9. [Phần 9: Phân Loại 15 Mẫu Hóa Đơn & 8 Nhóm Tác Vụ](#phần-9-phân-loại-15-mẫu-hóa-đơn--8-nhóm-tác-vụ)
-10. [Phần 10: Tiêu Chuẩn Kiểm Soát Chất Lượng Dữ Liệu](#phần-10-tiêu-chuẩn-kiểm-soát-chất-lượng-dữ-liệu)
-11. [Phần 11: Bản Đồ File Trong Repository](#phần-11-bản-đồ-file-trong-repository)
+7. [Phần 7: Kết Quả Thực Nghiệm Mô Hình Sau Tối Ưu Hóa Toàn Diện (Đạt 94.94% ANLS)](#phần-7-kết-quả-thực-nghiệm-mô-hình-sau-tối-ưu-hóa-toàn-diện-đạt-9494-anls)
+8. [Phần 8: Quy Trình Xây Dựng & Chuẩn Hóa Dữ Liệu](#phần-8-quy-trình-xây-dựng--chuẩn-hóa-dữ-liệu)
+9. [Phần 9: Thống Kê Chi Tiết Bộ Dữ Liệu 114,716 Mẫu VQA](#phần-9-thống-kê-chi-tiết-bộ-dữ-liệu-114716-mẫu-vqa)
+10. [Phần 10: Phân Loại 15 Mẫu Hóa Đơn & 8 Nhóm Tác Vụ](#phần-10-phân-loại-15-mẫu-hóa-đơn--8-nhóm-tác-vụ)
+11. [Phần 11: Tiêu Chuẩn Kiểm Soát Chất Lượng Dữ Liệu](#phần-11-tiêu-chuẩn-kiểm-soát-chất-lượng-dữ-liệu)
+12. [Phần 12: Bản Đồ File Trong Repository](#phần-12-bản-đồ-file-trong-repository)
 
 ---
 
@@ -168,21 +173,11 @@ Thay vì chọn tham số theo cảm tính (ad-hoc), nhóm đã xây dựng modu
 * **Cơ sở toán học:**  
   Tăng dần Learning Rate theo cấp số nhân trong 100 bước: $\text{LR}_{k+1} = \text{LR}_k \cdot \gamma$ (với $\text{LR} \in [10^{-6}, 10^{-2}]$).  
   Điểm có **đạo hàm âm lớn nhất** chính là Learning Rate tối ưu để mô hình hội tụ nhanh nhất mà không bị bùng nổ gradient:
-  $$\text{Optimal LR} = \arg\min_{\text{LR}} \left( \frac{\partial \mathcal{L}}{\partial \text{LR}} \right)$$
-
-```
-       Loss
-        │  \
-        │   \   <── Vùng Gradient dốc nhất (Optimal LR: 2.0e-4)
-        │    \_____
-        │          \   / <── Vùng bùng nổ Gradient (LR > 1e-3)
-        └──────────────── Learning Rate (Log scale)
-          1e-6    2e-4   1e-2
-```
+  $$\text{Optimal LR} = \arg\min_{\text{LR}} \left( \frac{\partial \mathcal{L}}{\partial \text{LR}} \right) = \mathbf{2.0 \times 10^{-4}}$$
 
 ### 6.2. Phương pháp 2: Tối Ưu Hóa Bayes Toàn Cục (Bayesian Optimization - Optuna TPE)
 * **Thuật toán:** Sử dụng **Tree-structured Parzen Estimator (TPE)** để mô hình hóa xác suất $P(\theta \mid \mathcal{L})$ giữa cấu hình siêu tham số $\theta$ và hàm mất mát kiểm định $\mathcal{L}_{\text{val}}$.
-* **Kỹ thuật ASHA Pruning (Asynchronous Successive Halving):** Tự động dừng sớm các phép thử nghiệm kém hiệu quả ở step thứ 50 để tiết kiệm thời gian GPU.
+* **Kỹ thuật ASHA Pruning:** Cắt tỉa sớm các thử nghiệm kém ở step thứ 50 để tiết kiệm GPU.
 
 ### 6.3. Bảng Bộ Siêu Tham Số Tối Ưu Vàng Đã Tìm Được (`model/optimal_hyperparameters.json`)
 
@@ -197,7 +192,55 @@ Thay vì chọn tham số theo cảm tính (ad-hoc), nhóm đã xây dựng modu
 
 ---
 
-# PHẦN 7: QUY TRÌNH XÂY DỰNG & CHUẨN HÓA DỮ LIỆU
+# PHẦN 7: KẾT QUẢ THỰC NGHIỆM MÔ HÌNH SAU TỐI ƯU HÓA TOÀN DIỆN (ĐẠT 94.94% ANLS)
+
+Sau khi áp dụng **Bộ siêu tham số tối ưu**, kết hợp **Strict System Prompt** và **2,400 mẫu dữ liệu đa tác vụ**, mô hình **Qwen2.5-VL-3B LoRA Optimized** đã hoàn thành kiểm định trên 174 câu hỏi thực tế (`model/output/optimized_evaluation_report.json`):
+
+### 7.1. Bảng so sánh 3 giai đoạn tiến hóa hiệu năng:
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                    BẢNG SO SÁNH TIẾN TRÌNH TỐI ƯU HÓA TOÀN DIỆN                         │
+├──────────────────────────────┬──────────────────┬──────────────────┬────────────────────┤
+│ Chỉ Số Đo Lường Học Thuật    │ Base (Zero-Shot) │ Đợt 1 (LoRA 900) │ Đợt 2 (Tối Ưu Hoá) │
+├──────────────────────────────┼──────────────────┼──────────────────┼────────────────────┤
+│ ANLS Score (DocVQA Metric)   │ 🔴 0.68%         │ 🟡 59.48%        │ 🟢 94.94% (Gấp 139)│
+│ Token F1-Score               │ 🔴 35.25%        │ 🟡 73.45%        │ 🟢 92.80% (Gấp 2.6)│
+│ Exact Match (EM %)           │ 🔴 0.00% (0/174) │ 🟡 39.66%        │ 🟢 74.14% (129/174)│
+│ Tốc độ suy luận (Latency)    │ 3.76 giây / câu  │ 4.56 giây / câu  │ ⚡ 2.59 giây / câu │
+│ VRAM GPU chiếm dụng          │ 3.64 GB          │ 4.96 GB          │ 5.28 GB (Tesla T4) │
+└──────────────────────────────┴──────────────────┴──────────────────┴────────────────────┘
+```
+
+### 7.2. Bảng kết quả định lượng chi tiết trên 15 loại mẫu hóa đơn:
+
+```
+┌──────────────────────────────────────┬──────────┬──────────┬──────────┐
+│ Loại Mẫu Hóa Đơn (Template)          │   ANLS   │    EM    │ Token F1 │
+├──────────────────────────────────────┼──────────┼──────────┼──────────┤
+│ 1. supermarket_bachhoaxanh           │ 100.00%  │ 100.00%  │ 100.00%  │ (⭐ Hoàn hảo 100%)
+│ 2. supermarket_lotte                 │  99.85%  │  91.67%  │  99.36%  │
+│ 3. restaurant_kfc                    │  98.88%  │  75.00%  │  95.93%  │
+│ 4. cafe_phuclong                     │  98.71%  │  66.67%  │  96.56%  │
+│ 5. einvoice_vnpt                     │  98.16%  │  75.00%  │  93.52%  │
+│ 6. supermarket_winmart               │  98.04%  │  75.00%  │  95.81%  │
+│ 7. convenience_circlek               │  97.55%  │  75.00%  │  91.15%  │
+│ 8. convenience_gs25                  │  96.93%  │  75.00%  │  91.11%  │
+│ 9. restaurant_jollibee               │  96.82%  │  66.67%  │  89.64%  │
+│ 10. cafe_starbucks                   │  94.48%  │  58.33%  │  87.44%  │
+│ 11. einvoice_viettel                 │  93.59%  │  58.33%  │  87.80%  │
+│ 12. minimart_anan                    │  91.67%  │  91.67%  │  96.43%  │
+│ 13. cafe_highlands                   │  90.96%  │  75.00%  │  92.40%  │
+│ 14. convenience_7eleven              │  89.93%  │  80.00%  │  95.33%  │
+│ 15. receipt_c45_bb                   │  69.04%  │  37.50%  │  73.45%  │
+├──────────────────────────────────────┼──────────┼──────────┼──────────┤
+│ TRUNG BÌNH TOÀN BỘ HỆ THỐNG          │  94.94%  │  74.14%  │  92.80%  │
+└──────────────────────────────────────┴──────────┴──────────┴──────────┘
+```
+
+---
+
+# PHẦN 8: QUY TRÌNH XÂY DỰNG & CHUẨN HÓA DỮ LIỆU
 
 Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn nghiêm ngặt:
 1. **Thu thập 4,995 ảnh hóa đơn:** Phủ kín 15 thương hiệu và mẫu phiếu kế toán thực tế tại Việt Nam.
@@ -208,7 +251,7 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 
 ---
 
-# PHẦN 8: THỐNG KÊ CHI TIẾT BỘ DỮ LIỆU 114,716 MẪU VQA
+# PHẦN 9: THỐNG KÊ CHI TIẾT BỘ DỮ LIỆU 114,716 MẪU VQA
 
 | Thông Số Định Lượng | Giá Trị Cụ Thể | Ý Nghĩa Kỹ Thuật |
 | :--- | :---: | :--- |
@@ -222,15 +265,15 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 
 ---
 
-# PHẦN 9: PHÂN LOẠI 15 MẪU HÓA ĐƠN & 8 NHÓM TÁC VỤ
+# PHẦN 10: PHÂN LOẠI 15 MẪU HÓA ĐƠN & 8 NHÓM TÁC VỤ
 
-### 9.1. Phân bổ cân bằng 15 loại mẫu hóa đơn thực tế (333 ảnh / mẫu)
+### 10.1. Phân bổ cân bằng 15 loại mẫu hóa đơn thực tế (333 ảnh / mẫu)
 * **Chuỗi Cafe & Ăn uống (F&B):** Highlands Coffee, Phúc Long, Starbucks, Jollibee, KFC.
 * **Cửa hàng tiện lợi & Mini Mart:** 7-Eleven, Circle K, GS25, Minimart An An.
 * **Đại Siêu thị:** WinMart / WinMart+, Lotte Mart, Bách Hóa Xanh.
 * **Hóa đơn điện tử & Biên lai chuẩn:** Viettel e-Invoice, VNPT e-Invoice, Mẫu chuẩn C45-BB.
 
-### 9.2. Phân bổ 8 nhóm tác vụ VQA
+### 10.2. Phân bổ 8 nhóm tác vụ VQA
 
 | Mã Tác Vụ (Field) | Số Lượng Câu Hỏi | Mục Tiêu Trích Xuất & Ví Dụ |
 | :--- | :---: | :--- |
@@ -245,7 +288,7 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 
 ---
 
-# PHẦN 10: TIÊU CHUẨN KIỂM SOÁT CHẤT LƯỢNG DỮ LIỆU
+# PHẦN 11: TIÊU CHUẨN KIỂM SOÁT CHẤT LƯỢNG DỮ LIỆU
 
 1. **Chuẩn hóa Unicode NFC tiếng Việt:** 100% ký tự có dấu đồng nhất, không lỗi font.
 2. **Chuẩn hóa Định dạng Tiền tệ:** Giữ nguyên dấu phân cách hàng nghìn (dấu phẩy `,` hoặc chấm `.`).
@@ -254,8 +297,9 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 
 ---
 
-# PHẦN 11: BẢN ĐỒ FILE TRONG REPOSITORY
+# PHẦN 12: BẢN ĐỒ FILE TRONG REPOSITORY
 
+* 📊 [**`model/output/optimized_evaluation_report.json`**](file:///d:/STUDY/MLIoT/project/model/output/optimized_evaluation_report.json) – Báo cáo kiểm định mô hình tối ưu đạt **94.94% ANLS & 92.80% F1**
 * 🧠 [**`model/hyperparameter_tuning.py`**](file:///d:/STUDY/MLIoT/project/model/hyperparameter_tuning.py) – Module AutoML (Gradient LR Finder + Optuna TPE)
 * ⚙️ [**`model/optimal_hyperparameters.json`**](file:///d:/STUDY/MLIoT/project/model/optimal_hyperparameters.json) – File cấu hình siêu tham số tối ưu vàng
 * 📄 [**`model/output/qwen2_5_vl_baseline_report.json`**](file:///d:/STUDY/MLIoT/project/model/output/qwen2_5_vl_baseline_report.json) – Báo cáo thực nghiệm 174 câu hỏi của Base Model trên GPU
