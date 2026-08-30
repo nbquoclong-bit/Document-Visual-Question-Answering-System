@@ -1,11 +1,12 @@
 """
 ===================================================================================
-🎨 MINIMALIST VISUAL GROUNDING ENGINE (1 MÀU ĐỒNG NHẤT - KHÔNG CHỮ THỪA)
+🎨 ROBUST MINIMALIST VISUAL GROUNDING ENGINE (1 MÀU ĐỒNG NHẤT - KHÔNG CHỮ THỪA)
 ===================================================================================
-Engine định vị và khoanh vùng thông minh:
+Engine định vị và khoanh vùng thông minh tối ưu:
 1. Duy nhất 1 màu viền đồng nhất (Crimson Red #E11D48) với độ dày 2-3px.
 2. Không vẽ nhãn/chữ/badge đè lên ảnh.
-3. 3 Kịch bản:
+3. Bộ lọc câu dẫn (Preamble Filter) chống khoanh nhầm vào các tiêu đề 'HÓA ĐƠN ĐƯỢC GỬI CHO'.
+4. 3 Kịch bản:
    - Single Entity: 1 Bounding Box ôm khít giá trị thực thể.
    - List Items: Từng Bounding Box riêng biệt cho từng dòng hàng hóa đã mua.
    - Full JSON: 0 Bounding Box (ảnh gốc sạch sẽ 100%).
@@ -58,30 +59,53 @@ def draw_minimalist_bounding_boxes(
 
 
 def extract_clean_items(text: str) -> list[str]:
-    """Tách chuỗi câu trả lời thành từng món hàng/dịch vụ riêng lẻ."""
+    """
+    Tách chuỗi câu trả lời thành từng món hàng/dịch vụ riêng lẻ.
+    Bộ lọc chuyên biệt khử 100% câu dẫn (preamble), câu kết luận (total), 
+    đảm bảo không khoanh nhầm vào 'HÓA ĐƠN ĐƯỢC GỬI CHO'.
+    """
     if not text:
         return []
-    
-    # Loại bỏ tiền tố
-    t = re.sub(r'^(Theo|Danh sách|Các mặt hàng|Dịch vụ)[^:]*:\s*', '', text, flags=re.IGNORECASE).strip()
-    
-    # Tách theo dòng hoặc dấu phẩy
-    lines = [ln.strip() for ln in t.split('\n') if ln.strip()]
+        
+    lines = [ln.strip() for ln in text.split('\n') if ln.strip()]
     items = []
     
+    skip_patterns = [
+        r'^(dựa vào|theo|danh sách|các mặt hàng|dịch vụ|sau đây|dưới đây|tổng|tổng cộng|xin cảm ơn|thuế|thanh toán)',
+        r'^(tổng số tiền|tổng giá trị|thành tiền|hóa đơn được)'
+    ]
+    
     for ln in lines:
-        cleaned_line = re.sub(r'^[\d+\.\-\*\•\)\s]+', '', ln).strip()
-        if not cleaned_line:
-            continue
+        ln_lower = ln.lower().strip()
         
-        if ',' in cleaned_line and len(cleaned_line.split(',')) > 1 and len(lines) == 1:
-            for sub in cleaned_line.split(','):
-                sub_clean = re.sub(r'^[\d+\.\-\*\•\)\s]+', '', sub).strip()
-                if len(sub_clean) >= 2:
-                    items.append(sub_clean)
+        # Kiểm tra nếu là câu dẫn mở đầu hoặc câu kết
+        if any(re.search(pat, ln_lower) for pat in skip_patterns):
+            if not ln.startswith(('-', '*', '•', '+')) and not re.match(r'^\d+[\.\)]', ln):
+                continue
+                
+        # Bỏ dấu gạch đầu dòng, số thứ tự
+        cleaned = re.sub(r'^[-\*\•\+\d+\.\)]+\s*', '', ln).strip()
+        if not cleaned:
+            continue
+            
+        # Cắt bỏ phần sau dấu hai chấm ':' nếu có (VD: 'Tiếp cận (tiểu thuyết): 1 đơn vị, giá 3tr' -> 'Tiếp cận (tiểu thuyết)')
+        if ':' in cleaned:
+            parts = cleaned.split(':', 1)
+            if len(parts[0].strip()) >= 2 and not any(k in parts[0].lower() for k in ['danh sách', 'mặt hàng', 'dịch vụ', 'gồm']):
+                cleaned = parts[0].strip()
+                
+        # Bỏ các thông tin phụ như số lượng, đơn giá nếu dính liền
+        cleaned = re.sub(r'\s*(\d+\s*(cái|chiếc|đơn vị|hộp|gói|kg|lọ|phần|giờ)|\d+[\.,]\d+\s*(đ|vnd|vnđ)).*$', '', cleaned, flags=re.IGNORECASE).strip()
+        
+        # Nếu có dấu phẩy trong 1 dòng duy nhất
+        if ',' in cleaned and len(lines) == 1:
+            for sub in cleaned.split(','):
+                sub_c = re.sub(r'^[-\*\•\+\d+\.\)]+\s*', '', sub).strip()
+                if len(sub_c) >= 2 and not any(re.search(pat, sub_c.lower()) for pat in skip_patterns):
+                    items.append(sub_c)
         else:
-            if len(cleaned_line) >= 2:
-                items.append(cleaned_line)
+            if len(cleaned) >= 2 and not any(re.search(pat, cleaned.lower()) for pat in skip_patterns):
+                items.append(cleaned)
                 
     return items[:15]
 
@@ -91,14 +115,19 @@ def locate_list_items(ocr_results: list, items: list[str]) -> list:
     row_boxes = []
     
     for item in items:
-        # Lấy từ khóa chính của món hàng
-        keywords = [w.lower() for w in re.findall(r'\w+', item) if len(w) >= 2]
+        # Lấy từ khóa chính của món hàng (chỉ lấy các từ có ý nghĩa >= 2 ký tự)
+        keywords = [w.lower() for w in re.findall(r'\w+', item) if len(w) >= 2 and w.lower() not in ['tiểu', 'thuyết', 'tranh', 'ảnh', 'sử', 'loại', 'món']]
+        if not keywords:
+            keywords = [w.lower() for w in re.findall(r'\w+', item) if len(w) >= 2]
         if not keywords:
             continue
             
         matched_tokens = []
         for bbox, token_text, conf in ocr_results:
             t_lower = token_text.lower()
+            # Bỏ qua các token thuộc khối tiêu đề hoặc địa chỉ
+            if any(k in t_lower for k in ['hóa đơn được gửi', 'gửi cho', 'thanh toán cho', 'đường abc']):
+                continue
             if any(k in t_lower for k in keywords):
                 pts = np.array(bbox)
                 x1, y1 = np.min(pts, axis=0)
@@ -195,7 +224,6 @@ def locate_single_exact_token(ocr_results: list, answer_str: str) -> list:
                 all_y2 = [t["y2"] for t in best_cluster["tokens"]]
                 return [[int(min(all_x1)), int(min(all_y1)), int(max(all_x2)), int(max(all_y2))]]
 
-    # Tuyệt đối không fallback bừa bãi
     return []
 
 
@@ -222,7 +250,7 @@ def perform_smart_grounding(
         return image_pil
         
     # Kịch bản 2: Hỏi danh sách món hàng / dịch vụ
-    if any(k in q_lower for k in ["danh sách", "món", "hàng", "dịch vụ", "các mặt hàng"]):
+    if any(k in q_lower for k in ["danh sách", "món", "hàng", "dịch vụ", "các mặt hàng", "hạng mục"]):
         items = extract_clean_items(answer_text)
         if items and ocr_results:
             boxes = locate_list_items(ocr_results, items)
