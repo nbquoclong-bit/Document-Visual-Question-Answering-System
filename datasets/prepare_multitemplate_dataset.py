@@ -9,7 +9,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 def build_multitemplate_validation_benchmark():
     print("=" * 80)
-    print("🚀 ĐANG THIẾT LẬP TẬP BENCHMARK ĐA DẠNG 15 LOẠI HÓA ĐƠN TIẾNG VIỆT")
+    print("🚀 THIẾT LẬP TẬP BENCHMARK ĐA DẠNG 15 LOẠI HÓA ĐƠN (GỒM CẢ LINE-ITEMS & DỊCH VỤ)")
     print("=" * 80)
 
     val_img_dir = Path("datasets/vietnamese-receipts-v3/val/images")
@@ -19,7 +19,6 @@ def build_multitemplate_validation_benchmark():
     out_images_dir = out_dir / "images"
     out_images_dir.mkdir(parents=True, exist_ok=True)
     
-    # Xóa ảnh cũ
     for p in out_images_dir.glob("*"):
         if p.is_file():
             p.unlink()
@@ -47,7 +46,6 @@ def build_multitemplate_validation_benchmark():
     copied_images = set()
 
     for t in templates:
-        # Lấy 2 ảnh đại diện cho mỗi template: _val_001.png và _val_002.png
         for idx_str in ["001", "002"]:
             img_name = f"{t}_val_{idx_str}.png"
             label_name = f"{t}_val_{idx_str}.json"
@@ -56,20 +54,28 @@ def build_multitemplate_validation_benchmark():
             label_src = val_label_dir / label_name
             
             if img_src.exists() and label_src.exists():
-                # Copy ảnh vào thư mục upload
                 shutil.copy2(img_src, out_images_dir / img_name)
                 copied_images.add(img_name)
                 
                 with open(label_src, "r", encoding="utf-8") as f:
                     label_data = json.load(f)
-                    
-                annotations = {a.get("label"): a.get("text") for a in label_data.get("annotations", [])}
                 
-                seller = annotations.get("SELLER")
-                total = annotations.get("TOTAL_COST")
-                timestamp = annotations.get("TIMESTAMP")
-                address = annotations.get("ADDRESS")
+                annotations = label_data.get("annotations", [])
                 
+                # 1. Thu thập thông tin header/footer
+                seller, total, timestamp, address = None, None, None, None
+                for a in annotations:
+                    lbl = a.get("label", "").upper()
+                    txt = a.get("text", "").strip()
+                    if lbl == "SELLER" and not seller:
+                        seller = txt
+                    elif lbl == "TOTAL_COST" and not total:
+                        total = txt
+                    elif lbl == "TIMESTAMP" and not timestamp:
+                        timestamp = txt
+                    elif lbl == "ADDRESS" and not address:
+                        address = txt
+
                 if seller:
                     all_benchmark_samples.append({
                         "id": sample_id,
@@ -114,16 +120,61 @@ def build_multitemplate_validation_benchmark():
                     })
                     sample_id += 1
 
-    print(f"✅ Đã copy {len(copied_images)} ảnh thuộc 15 loại hóa đơn vào {out_images_dir}!")
-    print(f"📋 Tổng số câu hỏi kiểm định tạo ra: {len(all_benchmark_samples)} câu hỏi.")
+                # 2. Thu thập danh sách mặt hàng / dịch vụ
+                items = []
+                current_item = {}
+                for a in annotations:
+                    lbl = a.get("label", "").upper()
+                    txt = a.get("text", "").strip()
+                    if lbl == "ITEM_NAME":
+                        if current_item and "name" in current_item:
+                            items.append(current_item)
+                        current_item = {"name": txt}
+                    elif lbl == "ITEM_QTY":
+                        current_item["qty"] = txt
+                    elif lbl == "ITEM_PRICE":
+                        current_item["price"] = txt
+                    elif lbl == "ITEM_AMOUNT":
+                        current_item["amount"] = txt
+                if current_item and "name" in current_item:
+                    items.append(current_item)
 
-    # Lưu file metadata câu hỏi
+                # Thêm câu hỏi danh sách mặt hàng/dịch vụ
+                if items:
+                    item_names_str = ", ".join([it["name"] for it in items[:6]])
+                    all_benchmark_samples.append({
+                        "id": sample_id,
+                        "template": t,
+                        "image_name": img_name,
+                        "field": "ITEMS_LIST",
+                        "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+                        "ground_truth": item_names_str
+                    })
+                    sample_id += 1
+                    
+                    # Thêm câu hỏi tra cứu giá cho món đầu tiên
+                    first_item = items[0]
+                    first_name = first_item["name"]
+                    first_val = first_item.get("amount") or first_item.get("price")
+                    if first_val:
+                        all_benchmark_samples.append({
+                            "id": sample_id,
+                            "template": t,
+                            "image_name": img_name,
+                            "field": "ITEM_PRICE",
+                            "question": f"Thành tiền của {first_name} là bao nhiêu?",
+                            "ground_truth": first_val
+                        })
+                        sample_id += 1
+
+    print(f"✅ Đã copy {len(copied_images)} ảnh thuộc 15 loại hóa đơn vào {out_images_dir}!")
+    print(f"📋 Tổng số câu hỏi kiểm định toàn diện tạo ra: {len(all_benchmark_samples)} câu hỏi.")
+
     questions_file = out_dir / "multitemplate_validation_questions.json"
     with open(questions_file, "w", encoding="utf-8") as f:
         json.dump(all_benchmark_samples, f, ensure_ascii=False, indent=2)
     print(f"💾 Đã lưu file câu hỏi kiểm định: {questions_file}")
 
-    # Tạo file dataset-metadata.json cho Kaggle Dataset
     dataset_metadata = {
         "title": "docvqa-benchmark-dataset",
         "id": "lminhsang241/docvqa-benchmark-dataset",
