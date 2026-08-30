@@ -1,0 +1,8 @@
+{
+  "learning_rate": 0.0002,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.03,
+  "effective_batch_size": 16
+}
