@@ -1,0 +1,344 @@
+{
+    "form": [
+        {
+            "box": [
+                355,
+                1267,
+                614,
+                1309
+            ],
+            "text": "Cảm ơn quý khách",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                344,
+                1187,
+                548,
+                1228
+            ],
+            "text": "Khách hàng trả:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                701,
+                1193,
+                805,
+                1235
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                330,
+                1138,
+                550,
+                1178
+            ],
+            "text": "Tổng tiền (VND)",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                675,
+                1149,
+                808,
+                1193
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                345,
+                1093,
+                551,
+                1137
+            ],
+            "text": "Tổng tiền hàng:",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                709,
+                1105,
+                809,
+                1140
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                357,
+                1047,
+                556,
+                1096
+            ],
+            "text": "Tổng số lượng:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                301,
+                962,
+                372,
+                992
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                436,
+                965,
+                530,
+                1002
+            ],
+            "text": "88.000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                727,
+                978,
+                819,
+                1017
+            ],
+            "text": "000 88",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                190,
+                915,
+                491,
+                962
+            ],
+            "text": "Banh my Hoa Cuc 210g",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                440,
+                874,
+                533,
+                911
+            ],
+            "text": "45,000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                728,
+                888,
+                820,
+                922
+            ],
+            "text": "45,000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                191,
+                824,
+                665,
+                881
+            ],
+            "text": "sap thom Ambipur huong hoa hong",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                304,
+                780,
+                382,
+                816
+            ],
+            "text": "5 Gói",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                460,
+                786,
+                538,
+                822
+            ],
+            "text": "000",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                734,
+                799,
+                824,
+                835
+            ],
+            "text": "000 GE",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                189,
+                733,
+                459,
+                781
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                688,
+                382,
+                730
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                423,
+                693,
+                541,
+                739
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                743,
+                707,
+                828,
+                746
+            ],
+            "text": "T.Tiền",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                192,
+                607,
+                353,
+                646
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                392,
+                612,
+                637,
+                656
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                193,
+                564,
+                339,
+                603
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                394,
+                571,
+                544,
+                610
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                194,
+                524,
+                273,
+                561
+            ],
+            "text": "Ngày:",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                398,
+                528,
+                667,
+                572
+            ],
+            "text": "",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                195,
+                477,
+                357,
+                523
+            ],
+            "text": "Khách hàng:",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                395,
+                487,
+                511,
+                526
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                368,
+                428,
+                667,
+                486
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                414,
+                385,
+                624,
+                426
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                241,
+                338,
+                797,
+                397
+            ],
+            "text": "T111111111 1C 12 Tầng Ngõ 25 Vũ Ngọc Phan",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                370,
+                292,
+                670,
+                342
+            ],
+            "text": "SIỀU THỊ MINH LOAN",
+            "label": "SELLER"
+        }
+    ]
+}

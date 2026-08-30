@@ -1,0 +1,354 @@
+{
+    "form": [
+        {
+            "box": [
+                72,
+                970,
+                268,
+                994
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                69,
+                942,
+                321,
+                971
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                87,
+                921,
+                119,
+                932
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                128,
+                712,
+                468,
+                738
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                172,
+                691,
+                425,
+                716
+            ],
+            "text": "CẨM CN QUÝ KHÁCH VÀ HỆN GẶP LẠI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                438,
+                659,
+                477,
+                679
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                130,
+                652,
+                446,
+                676
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                190,
+                630,
+                407,
+                655
+            ],
+            "text": "chỉ xuất hóa đơn trong ngày",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                199,
+                572,
+                407,
+                594
+            ],
+            "text": "(Giả đã bao gồn thuế Gigr)",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                135,
+                550,
+                234,
+                571
+            ],
+            "text": "TIỀN TRẢ LAI",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                423,
+                535,
+                477,
+                556
+            ],
+            "text": "60.582",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                144,
+                532,
+                214,
+                551
+            ],
+            "text": "TIỀN MAT",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                425,
+                516,
+                477,
+                533
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                139,
+                514,
+                252,
+                530
+            ],
+            "text": "TIỀN KHÁCH TRA",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                141,
+                493,
+                268,
+                512
+            ],
+            "text": "TỔNG TIỀN Ả GIẦN",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                424,
+                477,
+                477,
+                493
+            ],
+            "text": "",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                141,
+                470,
+                309,
+                495
+            ],
+            "text": "TỔNG TIỀN PHẢI T.TOÁN",
+            "label": "TOTAL_COST"
+        },
+        {
+            "box": [
+                425,
+                437,
+                477,
+                454
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                288,
+                435,
+                342,
+                456
+            ],
+            "text": "60.582",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                139,
+                437,
+                244,
+                453
+            ],
+            "text": "2051965008765",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                139,
+                417,
+                207,
+                434
+            ],
+            "text": "0,878 KG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                141,
+                397,
+                438,
+                416
+            ],
+            "text": "Táo Jazz New Si20 nhỎ 150 69.000/KG X",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                420,
+                378,
+                468,
+                394
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                283,
+                378,
+                334,
+                398
+            ],
+            "text": "ơn giá",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                139,
+                378,
+                207,
+                396
+            ],
+            "text": "Mặt hàng",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                369,
+                338,
+                477,
+                357
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                141,
+                338,
+                206,
+                358
+            ],
+            "text": "Quấy: 001",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                386,
+                320,
+                470,
+                337
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                141,
+                319,
+                342,
+                340
+            ],
+            "text": "Ngày bán: 14/08/2020 08:20",
+            "label": "TIMESTAMP"
+        },
+        {
+            "box": [
+                243,
+                301,
+                367,
+                319
+            ],
+            "text": "HOA ƠN BÁN HÀNG",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                312,
+                264,
+                408,
+                282
+            ],
+            "text": "",
+            "label": "OTHER"
+        },
+        {
+            "box": [
+                297,
+                243,
+                423,
+                260
+            ],
+            "text": "",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                147,
+                237,
+                252,
+                265
+            ],
+            "text": "VinCommerce",
+            "label": "SELLER"
+        },
+        {
+            "box": [
+                287,
+                221,
+                437,
+                239
+            ],
+            "text": "",
+            "label": "ADDRESS"
+        },
+        {
+            "box": [
+                305,
+                198,
+                419,
+                220
+            ],
+            "text": "",
+            "label": "ADDRESS"
+        }
+    ]
+}
