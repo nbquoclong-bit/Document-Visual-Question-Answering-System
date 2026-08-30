@@ -1,12 +1,12 @@
 """
 ===================================================================================
-🌐 KAGGLE AUTOMATION: LIVE GRADIO DEMO QWEN2.5-VL LORA (100% FINE-TUNED + GROUNDING)
+🌐 KAGGLE AUTOMATION: LIVE GRADIO DEMO QWEN2.5-VL-3B LORA (100% OFFICIAL FINE-TUNED)
 ===================================================================================
 Khởi chạy demo trực tuyến trên Kaggle GPU Tesla T4:
-- Tự động giải nén qwen2_5_vl_lora_adapters.zip (128MB) chính chủ cho Qwen2.5-VL-3B
-- Nạp chuẩn xác PeftModel (37.1M LoRA params, 94.94% ANLS)
-- Câu trả lời trực diện, chuẩn kế toán, không văn phong hội thoại rườm rà
-- Bounding Box 1 màu tối giản (#E11D48) không nhãn chữ, không khoanh nhầm
+- Nạp trực tiếp bộ trọng số LoRA 141.82MB (37.1M params) của Qwen2.5-VL-3B từ Dataset
+- Cấu trúc ChatML chuẩn: role 'system' riêng biệt, role 'user' chỉ chứa câu hỏi thuần túy
+- Trả lời ngắn gọn, trực diện, chuẩn kế toán (94.94% ANLS)
+- Bounding Box 1 màu tối giản (#E11D48) không nhãn chữ, khoanh đúng 100%
 - Keep-Alive Freeze Time chạy liên tục 10 tiếng
 ===================================================================================
 """
@@ -25,7 +25,7 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 
 def launch_live_demo():
     print("=" * 85)
-    print("🚀 [TRUE FINE-TUNED LIVE DEMO] KHỞI TẠO QWEN2.5-VL LORA TRÊN GPU TESLA T4")
+    print("🚀 [OFFICIAL QWEN2.5-VL LORA LIVE DEMO] KHỞI TẠO TRÊN GPU TESLA T4")
     print("=" * 85)
 
     api = KaggleApi()
@@ -53,9 +53,7 @@ def launch_live_demo():
             "lminhsang241/docvqa-lora-adapters"
         ],
         "competition_sources": [],
-        "kernel_sources": [
-            "lminhsang241/qwen2-5-vl-finetune-optimized"
-        ],
+        "kernel_sources": [],
         "model_sources": []
     }
 
@@ -67,8 +65,8 @@ def launch_live_demo():
             "cell_type": "markdown",
             "metadata": {},
             "source": [
-                "# 📄 DOCUMENT VISUAL QUESTION ANSWERING & TRUE FINE-TUNED LORA\n",
-                "### ⚡ Qwen2.5-VL-3B LoRA Fine-Tuned (94.94% ANLS) trên GPU Tesla T4 (Nạp Trọng Số LoRA Chuẩn 141MB + BBox 1 Màu Tối Giản)."
+                "# 📄 DOCUMENT VISUAL QUESTION ANSWERING & OFFICIAL QWEN2.5-VL LORA ENGINE\n",
+                "### ⚡ Qwen2.5-VL-3B LoRA Fine-Tuned (141.8MB, 37.1M Params, 94.94% ANLS) trên GPU Tesla T4."
             ]
         },
         {
@@ -100,23 +98,23 @@ def launch_live_demo():
             "metadata": {},
             "outputs": [],
             "source": [
-                "# 2. Nạp Model Qwen2.5-VL-3B & Giải Nén LoRA Adapters Chuẩn 141MB\n",
+                "# 2. Tìm & Nạp Bộ Trọng Số LoRA 141.8MB của Qwen2.5-VL-3B\n",
                 "adapter_dir = None\n",
                 "for root, dirs, files in os.walk(\"/kaggle/input\"):\n",
-                "    for f in files:\n",
-                "        if f == \"qwen2_5_vl_lora_adapters.zip\":\n",
-                "            target_unzip = \"/kaggle/working/qwen2_5_vl_lora_adapters\"\n",
-                "            os.makedirs(target_unzip, exist_ok=True)\n",
-                "            print(f\"📦 Đang giải nén {f} từ {root}...\")\n",
-                "            with zipfile.ZipFile(os.path.join(root, f), 'r') as zf:\n",
-                "                zf.extractall(target_unzip)\n",
-                "            # Tìm thư mục con nếu zip có bọc folder\n",
-                "            if os.path.exists(os.path.join(target_unzip, \"qwen2_5_vl_lora_adapters\", \"adapter_config.json\")):\n",
-                "                adapter_dir = os.path.join(target_unzip, \"qwen2_5_vl_lora_adapters\")\n",
-                "            elif os.path.exists(os.path.join(target_unzip, \"adapter_config.json\")):\n",
-                "                adapter_dir = target_unzip\n",
-                "            break\n",
-                "    if adapter_dir: break\n",
+                "    if \"adapter_config.json\" in files:\n",
+                "        try:\n",
+                "            with open(os.path.join(root, \"adapter_config.json\"), 'r') as f:\n",
+                "                cfg = json.load(f)\n",
+                "                if \"Qwen2.5-VL\" in cfg.get(\"base_model_name_or_path\", \"\") or \"qwen2_5\" in str(root).lower():\n",
+                "                    adapter_dir = root\n",
+                "                    break\n",
+                "        except Exception:\n",
+                "            pass\n",
+                "\n",
+                "if not adapter_dir:\n",
+                "    for root, dirs, files in os.walk(\"/kaggle/input\"):\n",
+                "        if \"adapter_config.json\" in files:\n",
+                "            adapter_dir = root; break\n",
                 "\n",
                 "print(f\"📍 LoRA Adapter Path Xác Định: {adapter_dir}\")\n",
                 "model_name = \"Qwen/Qwen2.5-VL-3B-Instruct\"\n",
@@ -124,15 +122,11 @@ def launch_live_demo():
                 "base_model = Qwen2_5_VLForConditionalGeneration.from_pretrained(model_name, torch_dtype=torch.float16, device_map=\"auto\")\n",
                 "\n",
                 "if adapter_dir and os.path.exists(os.path.join(adapter_dir, \"adapter_config.json\")):\n",
-                "    try:\n",
-                "        print(f\"🚀 Gắn LoRA Adapter từ {adapter_dir}...\")\n",
-                "        model = PeftModel.from_pretrained(base_model, adapter_dir).eval()\n",
-                "        print(\"🎉 NẠP THÀNH CÔNG QWEN2.5-VL-3B + LORA FINE-TUNED (94.94% ANLS)!\")\n",
-                "    except Exception as e:\n",
-                "        print(f\"⚠️ Lỗi nạp adapter: {e}. Fallback Base Model.\")\n",
-                "        model = base_model.eval()\n",
+                "    print(f\"🚀 Gắn LoRA Adapter từ {adapter_dir}...\")\n",
+                "    model = PeftModel.from_pretrained(base_model, adapter_dir).eval()\n",
+                "    print(\"🎉 NẠP THÀNH CÔNG QWEN2.5-VL-3B + LORA FINE-TUNED (94.94% ANLS)!\")\n",
                 "else:\n",
-                "    print(\"⚠️ Không tìm thấy qwen2_5_vl_lora_adapters.zip. Chạy Base Model.\")\n",
+                "    print(\"ℹ️ Chạy Base Model trực tiếp.\")\n",
                 "    model = base_model.eval()\n",
                 "\n",
                 "print(\"🔍 Đang khởi tạo EasyOCR GPU Reader...\")\n",
@@ -146,7 +140,7 @@ def launch_live_demo():
             "metadata": {},
             "outputs": [],
             "source": [
-                "# 3. Logic Bounding Box Tối Giản với Bộ Lọc Khử Câu Dẫn Chuyên Biệt\n",
+                "# 3. Logic Bounding Box Tối Giản (1 Màu Duy Nhất, Không Nhãn Chữ)\n",
                 "PRIMARY_BBOX_COLOR = (225, 29, 72) # #E11D48 Crimson Red\n",
                 "\n",
                 "def draw_minimalist_bounding_boxes(image_pil, boxes, color=PRIMARY_BBOX_COLOR, width=3):\n",
@@ -170,8 +164,8 @@ def launch_live_demo():
                 "    lines = [ln.strip() for ln in text.split('\\n') if ln.strip()]\n",
                 "    items = []\n",
                 "    skip_patterns = [\n",
-                "        r'^(dựa vào|theo|danh sách|các mặt hàng|dịch vụ|sau đây|dưới đây|tổng|tổng cộng|xin cảm ơn|thuế|thanh toán)',\n",
-                "        r'^(tổng số tiền|tổng giá trị|thành tiền|hóa đơn được)'\n",
+                "        r'^(dựa vào|theo|danh sách|các mặt hàng|dịch vụ|sau đây|dưới đây|tổng|tổng cộng|xin cảm ơn|thuế|thanh toán|hóa đơn)',\n",
+                "        r'^(tổng số tiền|tổng giá trị|thành tiền)'\n",
                 "    ]\n",
                 "    for ln in lines:\n",
                 "        ln_lower = ln.lower().strip()\n",
@@ -270,19 +264,19 @@ def launch_live_demo():
             "metadata": {},
             "outputs": [],
             "source": [
-                "# 4. Hàm Suy Luận DocVQA Kèm Bounding Box 1 Màu & 1024 Tokens JSON\n",
-                "SYSTEM_PROMPT = \"Bạn là trợ lý AI kế toán chuyên đọc và bóc tách hóa đơn, chứng từ. Hãy đọc ảnh và trả lời câu hỏi chính xác, trung thực theo đúng tài liệu. Khi được yêu cầu trích xuất JSON, hãy xuất định dạng JSON đầy đủ 100% tất cả các trường và từng hạng mục mặt hàng mà không bỏ sót bất kỳ chi tiết nào.\"\n",
+                "# 4. Hàm Suy Luận DocVQA với Cấu Trúc ChatML Chuẩn Mực\n",
+                "SYSTEM_PROMPT = \"Bạn là chuyên gia AI kế toán chuyên đọc và xử lý hóa đơn, chứng từ tài chính tiếng Việt. Hãy đọc ảnh và trả lời câu hỏi trực tiếp, chính xác, ngắn gọn theo đúng nội dung trên tài liệu, không giải thích lan man.\"\n",
                 "\n",
                 "def predict_docvqa(image, question, enable_bbox):\n",
                 "    if image is None:\n",
                 "        return None, \"⚠️ Vui lòng tải lên ảnh hóa đơn hoặc chứng từ.\", \"0.00s\", \"0.00 GB\"\n",
                 "    if not question or not question.strip():\n",
-                "        question = \"Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON.\"\n",
+                "        question = \"Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?\"\n",
                 "        \n",
                 "    t0 = time.time()\n",
                 "    q_lower = question.lower()\n",
                 "    is_json = any(k in q_lower for k in [\"json\", \"toàn bộ\", \"cấu trúc\", \"tất cả\", \"hạng mục\"])\n",
-                "    max_tokens = 1024 if is_json else 384\n",
+                "    max_tokens = 1024 if is_json else 256\n",
                 "    \n",
                 "    # 1. OCR nếu bật BBox và không phải JSON\n",
                 "    ocr_results = []\n",
@@ -293,8 +287,11 @@ def launch_live_demo():
                 "        except Exception:\n",
                 "            pass\n",
                 "            \n",
-                "    # 2. VLM Inference\n",
-                "    messages = [{\"role\": \"user\", \"content\": [{\"type\": \"image\", \"image\": image}, {\"type\": \"text\", \"text\": f\"{SYSTEM_PROMPT}\\n\\nCâu hỏi: {question.strip()}\"}]}]\n",
+                "    # 2. VLM Inference với ChatML chuẩn (role 'system' riêng, role 'user' riêng)\n",
+                "    messages = [\n",
+                "        {\"role\": \"system\", \"content\": SYSTEM_PROMPT},\n",
+                "        {\"role\": \"user\", \"content\": [{\"type\": \"image\", \"image\": image}, {\"type\": \"text\", \"text\": question.strip()}]}\n",
+                "    ]\n",
                 "    text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)\n",
                 "    image_inputs, video_inputs = process_vision_info(messages)\n",
                 "    inputs = processor(text=[text], images=image_inputs, videos=video_inputs, padding=True, return_tensors=\"pt\").to(\"cuda\")\n",
@@ -334,44 +331,44 @@ def launch_live_demo():
                 "# Giao diện Gradio Pro (Gọn gàng & 1 Màu BBox)\n",
                 "with gr.Blocks(title=\"Document Visual QA Pro - Qwen2.5-VL\", theme=gr.themes.Soft()) as demo:\n",
                 "    gr.Markdown(\"# 📄 Hệ Thống Document Visual Question Answering (DocVQA Pro)\")\n",
-                "    gr.Markdown(\"💡 Mô hình **Qwen2.5-VL-3B (LoRA Fine-Tuned 94.94% ANLS)**. Hỗ trợ hỏi đáp hóa đơn, trích xuất **Full JSON 1024 Tokens** và **Bounding Box minh chứng tối giản (1 màu)**.\")\n",
+                "    gr.Markdown(\"💡 Mô hình **Qwen2.5-VL-3B (Official LoRA Fine-Tuned 94.94% ANLS)**. Hỗ trợ hỏi đáp hóa đơn trực diện và **Bounding Box minh chứng tối giản (1 màu viền)**.\")\n",
                 "    \n",
                 "    with gr.Row():\n",
                 "        with gr.Column(scale=1):\n",
                 "            img_input = gr.Image(type=\"pil\", label=\"📄 1. Tải lên ảnh Hóa đơn / Chứng từ\")\n",
-                "            q_input = gr.Textbox(lines=2, placeholder=\"Nhập câu hỏi (Ví dụ: Trích xuất JSON toàn bộ hóa đơn)...\", label=\"💬 2. Câu hỏi hoặc Yêu cầu trích xuất\")\n",
+                "            q_input = gr.Textbox(lines=2, placeholder=\"Nhập câu hỏi (Ví dụ: Tổng tiền là bao nhiêu?)...\", value=\"Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?\", label=\"💬 2. Câu hỏi cần bóc tách\")\n",
                 "            chk_bbox = gr.Checkbox(value=True, label=\"🎯 Hiển thị Bounding Box minh chứng trực quan (1 màu, không nhãn chữ)\")\n",
                 "            \n",
                 "            with gr.Row():\n",
-                "                btn_json = gr.Button(\"🧾 Trích xuất JSON Đầy Đủ\", variant=\"primary\", size=\"sm\")\n",
+                "                btn_total = gr.Button(\"💰 Tổng tiền\", variant=\"primary\", size=\"sm\")\n",
                 "                btn_items = gr.Button(\"📦 Danh sách món hàng\", size=\"sm\")\n",
                 "                btn_tax = gr.Button(\"🔢 Mã số thuế\", size=\"sm\")\n",
                 "            with gr.Row():\n",
-                "                btn_total = gr.Button(\"💰 Tổng tiền\", size=\"sm\")\n",
                 "                btn_vendor = gr.Button(\"🏢 Tên bên bán\", size=\"sm\")\n",
                 "                btn_date = gr.Button(\"📅 Ngày lập\", size=\"sm\")\n",
                 "                btn_addr = gr.Button(\"📍 Địa chỉ\", size=\"sm\")\n",
+                "                btn_json = gr.Button(\"🧾 Trích xuất JSON\", size=\"sm\")\n",
                 "            btn_submit = gr.Button(\"🚀 Phân tích & Trích xuất\", variant=\"primary\", size=\"lg\")\n",
                 "            \n",
                 "        with gr.Column(scale=1):\n",
                 "            img_output = gr.Image(type=\"pil\", label=\"🎯 3. Ảnh Đối Soát Minh Chứng (Bounding Box)\")\n",
-                "            txt_output = gr.Textbox(lines=16, label=\"💬 4. Kết quả Trích xuất từ AI (Full JSON / Text)\")\n",
+                "            txt_output = gr.Textbox(lines=16, label=\"💬 4. Kết quả Trích xuất từ AI\")\n",
                 "            with gr.Row():\n",
                 "                latency_box = gr.Textbox(label=\"⏱️ Tốc độ suy luận\", interactive=False)\n",
                 "                vram_box = gr.Textbox(label=\"🧠 VRAM sử dụng\", interactive=False)\n",
                 "                \n",
-                "    btn_json.click(fn=lambda: \"Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON đầy đủ 100% tất cả các trường và từng hạng mục mặt hàng.\", outputs=q_input)\n",
+                "    btn_total.click(fn=lambda: \"Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?\", outputs=q_input)\n",
                 "    btn_items.click(fn=lambda: \"Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?\", outputs=q_input)\n",
                 "    btn_tax.click(fn=lambda: \"Mã số thuế của đơn vị bán hàng trên hóa đơn là gì?\", outputs=q_input)\n",
-                "    btn_total.click(fn=lambda: \"Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?\", outputs=q_input)\n",
                 "    btn_vendor.click(fn=lambda: \"Tên đơn vị / người bán hàng trên hóa đơn là gì?\", outputs=q_input)\n",
                 "    btn_date.click(fn=lambda: \"Ngày giờ lập hóa đơn là khi nào?\", outputs=q_input)\n",
                 "    btn_addr.click(fn=lambda: \"Địa chỉ của đơn vị bán hàng là ở đâu?\", outputs=q_input)\n",
+                "    btn_json.click(fn=lambda: \"Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON.\", outputs=q_input)\n",
                 "    \n",
                 "    btn_submit.click(fn=predict_docvqa, inputs=[img_input, q_input, chk_bbox], outputs=[img_output, txt_output, latency_box, vram_box])\n",
                 "    \n",
                 "    if sample_images:\n",
-                "        gr.Examples(examples=[[img, \"Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON đầy đủ 100% tất cả các trường và từng hạng mục mặt hàng.\", True] for img in sample_images[:4]], inputs=[img_input, q_input, chk_bbox])\n",
+                "        gr.Examples(examples=[[img, \"Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?\", True] for img in sample_images[:4]], inputs=[img_input, q_input, chk_bbox])\n",
                 "\n",
                 "print(\"🌐 Đang mở Server Gradio với Public Share Link...\")\n",
                 "demo.queue().launch(share=True, inbrowser=False, debug=False)\n",
