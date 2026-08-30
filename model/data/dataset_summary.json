@@ -1,6 +1,6 @@
 {
   "total_images": 4995,
-  "total_vqa_pairs": 94736,
+  "total_vqa_pairs": 114716,
   "seller_questions": 9990,
   "total_cost_questions": 9990,
   "timestamp_questions": 9990,
@@ -8,6 +8,8 @@
   "line_items_list_questions": 9324,
   "item_price_questions": 31756,
   "item_qty_questions": 14362,
+  "full_json_extraction_questions": 9990,
+  "bounding_box_grounding_questions": 9990,
   "template_distribution": {
     "cafe_highlands": 333,
     "cafe_phuclong": 333,
