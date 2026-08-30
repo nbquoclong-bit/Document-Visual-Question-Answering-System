@@ -1,5 +1,5 @@
 # 📊 BÁO CÁO CHI TIẾT BỘ DỮ LIỆU HUẤN LUYỆN & KIỂM ĐỊNH (DATASET REPORT)
-## Dự Án Document Visual Question Answering Cho 15 Loại Hóa Đơn Tiếng Việt
+## Dự Án Document Visual Question Answering & Visual Grounding Cho 15 Loại Hóa Đơn Tiếng Việt
 
 ---
 
@@ -40,24 +40,34 @@
 
 ---
 
-## 3. Phân Bổ Theo 7 Nhóm Tác Vụ Trích Xuất (Task Breakdown)
+## 3. Phân Bổ Theo 8 Nhóm Tác Vụ Trích Xuất & Định Vị (Task Breakdown)
 
-| Tác vụ trích xuất (Field) | Số câu hỏi | Ví dụ câu hỏi thực tế |
+| Tác vụ trích xuất (Field) | Số câu hỏi | Cấu trúc dữ liệu & Ví dụ câu hỏi thực tế |
 | :--- | :---: | :--- |
-| **`SELLER`** | 9,990 | *"Hóa đơn này do cửa hàng / công ty nào phát hành?"* |
-| **`TOTAL_COST`** | 9,990 | *"Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?"* |
-| **`TIMESTAMP`** | 9,990 | *"Hóa đơn được lập vào ngày giờ nào?"* |
-| **`ADDRESS`** | 9,324 | *"Địa chỉ cửa hàng xuất hóa đơn ở đâu?"* |
-| **`ITEM_PRICE`** | 31,756 | *"Đơn giá của [Tên mặt hàng] là bao nhiêu?"* |
-| **`ITEM_QTY`** | 14,362 | *"Số lượng của [Tên mặt hàng] là bao nhiêu?"* |
-| **`FULL_JSON`** | 9,990 | *"Trích xuất toàn bộ thông tin hóa đơn dưới dạng JSON?"* |
-| **`BOUNDING_BOX`** | 9,990 | *"Tọa độ vùng chữ của tổng tiền trên ảnh là bao nhiêu?"* |
+| **`SELLER`** | 9,990 | Text: *"Hóa đơn này do cửa hàng / công ty nào phát hành?"* $\rightarrow$ `HIGHLANDS COFFEE` |
+| **`TOTAL_COST`** | 9,990 | Text: *"Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?"* $\rightarrow$ `109,000` |
+| **`TIMESTAMP`** | 9,990 | Text: *"Hóa đơn được lập vào ngày giờ nào?"* $\rightarrow$ `28/06/2026 09:15` |
+| **`ADDRESS`** | 9,324 | Text: *"Địa chỉ cửa hàng xuất hóa đơn ở đâu?"* $\rightarrow$ `Số 11 Sư Vạn Hạnh, Q.10` |
+| **`ITEM_PRICE`** | 31,756 | Text: *"Đơn giá của Trà Sen Vàng là bao nhiêu?"* $\rightarrow$ `55,000` |
+| **`ITEM_QTY`** | 14,362 | Text: *"Số lượng của Phin Sữa Đá là bao nhiêu?"* $\rightarrow$ `1` |
+| **`FULL_JSON`** | 9,990 | JSON: `{"seller": "...", "timestamp": "...", "total_cost": "...", "items": [...]}` |
+| **`BOUNDING_BOX`** *(Visual Grounding)* | **9,990** | **Tọa độ Bounding Box:** `{"text": "HIGHLANDS COFFEE", "box": [ymin, xmin, ymax, xmax]}` |
 
 ---
 
-## 4. Vị Trí Lưu Trữ Dữ Liệu Trên Hệ Thống
+## 4. Chi Tiết Tác Vụ Bounding Box (Visual Grounding)
 
-* 📦 [**`model/data/vlm_train_master.json`**](file:///d:/STUDY/MLIoT/project/model/data/vlm_train_master.json) (~34 MB)
-* 📦 [**`model/data/vlm_val_master.json`**](file:///d:/STUDY/MLIoT/project/model/data/vlm_val_master.json) (~5.9 MB)
+Trong tập dữ liệu có **9,990 cặp hỏi đáp định vị tọa độ**:
+* **`GROUNDING_SELLER` (4,995 câu):** Định vị tọa độ của tên bên bán/thương hiệu.  
+  *Ví dụ:* `"Tìm và định vị vùng chứa tên đơn vị bán hàng trên hóa đơn?"` $\rightarrow$ `{"text": "HIGHLANDS COFFEE LANDMARK", "box": [97, 16, 282, 37]}`
+* **`GROUNDING_TOTAL` (4,995 câu):** Định vị tọa độ của số tổng tiền.  
+  *Ví dụ:* `"Tìm và định vị vùng chứa tổng tiền thanh toán trên hóa đơn?"` $\rightarrow$ `{"text": "561,000", "box": [307, 456, 359, 477]}`
+
+---
+
+## 5. Vị Trí Lưu Trữ Dữ Liệu Trên Hệ Thống
+
+* 📦 [**`model/data/vlm_train_master.json`**](file:///d:/STUDY/MLIoT/project/model/data/vlm_train_master.json) (~34 MB, 97,508 mẫu)
+* 📦 [**`model/data/vlm_val_master.json`**](file:///d:/STUDY/MLIoT/project/model/data/vlm_val_master.json) (~5.9 MB, 17,208 mẫu)
 * 📊 [**`model/data/dataset_summary.json`**](file:///d:/STUDY/MLIoT/project/model/data/dataset_summary.json)
 * 🔗 Đã được đồng bộ 100% trên GitHub `main`.

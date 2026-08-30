@@ -1,7 +1,7 @@
 # 📘 TỔNG HỢP TOÀN DIỆN: MỤC TIÊU SẢN PHẨM & CÔNG TÁC DỮ LIỆU (DATASET)
 ## Đề Tài: Hệ Thống Document Visual Question Answering (DocVQA) Cho Hóa Đơn Tiếng Việt
 
-> **Mục đích tài liệu:** Đây là kho dữ liệu và thông tin đầy đủ, chi tiết nhất về **Bối cảnh, Mục tiêu sản phẩm, Giá trị thực tiễn, Luồng hệ thống và Toàn bộ công tác kỹ thuật dữ liệu (114,716 mẫu VQA)**.  
+> **Mục đích tài liệu:** Đây là kho dữ liệu và thông tin đầy đủ, chi tiết nhất về **Bối cảnh, Mục tiêu sản phẩm, Giá trị thực tiễn, Luồng hệ thống, Tác vụ Định vị Bounding Box và Toàn bộ công tác kỹ thuật dữ liệu (114,716 mẫu VQA)**.  
 > Các thành viên trong nhóm có thể tự do trích xuất, lựa chọn bất kỳ bảng số liệu, sơ đồ hay thông tin nào từ tài liệu này để đưa vào bài thuyết trình và slide theo ý muốn.
 
 ---
@@ -11,11 +11,12 @@
 1. [Phần 1: Bối Cảnh Bài Toán & Mục Tiêu Sản Phẩm](#phần-1-bối-cảnh-bài-toán--mục-tiêu-sản-phẩm)
 2. [Phần 2: Người Dùng Mục Tiêu & Trải Nghiệm Sử Dụng](#phần-2-người-dùng-mục-tiêu--trải-nghiệm-sử-dụng)
 3. [Phần 3: Đặc Tả Đầu Vào, Đầu Ra & Luồng Hệ Thống](#phần-3-đặc-tả-đầu-vào-đầu-ra--luồng-hệ-thống)
-4. [Phần 4: Quy Trình Xây Dựng & Chuẩn Hóa Dữ Liệu](#phần-4-quy-trình-xây-dựng--chuẩn-hóa-dữ-liệu)
-5. [Phần 5: Thống Kê Chi Tiết Bộ Dữ Liệu 114,716 Mẫu VQA](#phần-5-thống-kê-chi-tiết-bộ-dữ-liệu-114716-mẫu-vqa)
-6. [Phần 6: Phân Loại 15 Mẫu Hóa Đơn & 7 Nhóm Tác Vụ](#phần-6-phân-loại-15-mẫu-hóa-đơn--7-nhóm-tác-vụ)
-7. [Phần 7: Tiêu Chuẩn Kiểm Soát Chất Lượng Dữ Liệu](#phần-7-tiêu-chuẩn-kiểm-soát-chất-lượng-dữ-liệu)
-8. [Phần 8: Bản Đồ File Dữ Liệu Trong Repository](#phần-8-bản-đồ-file-dữ-liệu-trong-repository)
+4. [Phần 4: Đặc Tả Tác Vụ Định Vị Tọa Độ Bounding Box (Visual Grounding)](#phần-4-đặc-tả-tác-vụ-định-vị-tọa-độ-bounding-box-visual-grounding)
+5. [Phần 5: Quy Trình Xây Dựng & Chuẩn Hóa Dữ Liệu](#phần-5-quy-trình-xây-dựng--chuẩn-hóa-dữ-liệu)
+6. [Phần 6: Thống Kê Chi Tiết Bộ Dữ Liệu 114,716 Mẫu VQA](#phần-6-thống-kê-chi-tiết-bộ-dữ-liệu-114716-mẫu-vqa)
+7. [Phần 7: Phân Loại 15 Mẫu Hóa Đơn & 8 Nhóm Tác Vụ](#phần-7-phân-loại-15-mẫu-hóa-đơn--8-nhóm-tác-vụ)
+8. [Phần 8: Tiêu Chuẩn Kiểm Soát Chất Lượng Dữ Liệu](#phần-8-tiêu-chuẩn-kiểm-soát-chất-lượng-dữ-liệu)
+9. [Phần 9: Bản Đồ File Dữ Liệu Trong Repository](#phần-9-bản-đồ-file-dữ-liệu-trong-repository)
 
 ---
 
@@ -39,8 +40,8 @@
    * **Rập khuôn theo mẫu (Template-dependent):** Khi cửa hàng đổi mẫu in hóa đơn, toàn bộ rule/regex cũ bị sụp đổ, phải lập trình lại từ đầu.
 
 ### 1.3. Mục tiêu & Tầm nhìn của sản phẩm
-* **Tên sản phẩm:** Hệ thống Trích Xuất & Hỏi Đáp Hóa Đơn Thông Minh (**Document VQA for Vietnamese Invoices**).
-* **Định hướng công nghệ:** Ứng dụng **Vision-Language Model (VLM) End-to-End**, nhận trực tiếp ảnh pixel và câu hỏi tự nhiên để trích xuất thẳng kết quả mà không qua bước OCR trung gian.
+* **Tên sản phẩm:** Hệ thống Trích Xuất & Định Vị Hóa Đơn Thông Minh (**Document VQA & Visual Grounding for Vietnamese Invoices**).
+* **Định hướng công nghệ:** Ứng dụng **Vision-Language Model (VLM) End-to-End**, nhận trực tiếp ảnh pixel và câu hỏi tự nhiên để trích xuất thẳng kết quả văn bản, JSON và **khung bao tọa độ Bounding Box** mà không qua bước OCR trung gian.
 * **Mục tiêu định lượng (KPIs):**
   * **Tốc độ xử lý:** Dưới **2 giây / hóa đơn** trên phần cứng GPU phổ thông.
   * **Tự do mẫu mã:** Hoạt động chính xác trên mọi loại hóa đơn không cần định nghĩa khung mẫu trước.
@@ -60,7 +61,7 @@
 │ 1. Kế toán doanh nghiệp  │ Trích xuất tự động mã số thuế, tổng tiền, ngày  │
 │                          │ hóa đơn, chi tiết VAT để lập báo cáo tài chính. │
 ├──────────────────────────┼─────────────────────────────────────────────────┤
-│ 2. Chủ cửa hàng / Thu kho│ Quản lý danh sách mặt hàng nhập kho, số lượng,  │
+│ 2. Chủ cửa hàng / Thủ kho│ Quản lý danh sách mặt hàng nhập kho, số lượng,  │
 │                          │ đơn giá từ các phiếu thu, hóa đơn nhà cung cấp. │
 ├──────────────────────────┼─────────────────────────────────────────────────┤
 │ 3. Người dùng cá nhân    │ Chụp ảnh hóa đơn mua sắm để tự động theo dõi và │
@@ -73,7 +74,7 @@
    * *"Hóa đơn này của công ty nào?"* $\rightarrow$ Trả về: `HIGHLANDS COFFEE`.
    * *"Tổng tiền thanh toán cuối cùng là bao nhiêu?"* $\rightarrow$ Trả về: `109,000`.
 2. **Trích xuất toàn bộ (Full Document Structuring):** Người dùng tải ảnh lên và chọn chế độ *"Trích xuất JSON"*, hệ thống lập tức trả về file JSON chứa toàn bộ thông tin bên bán, thời gian, danh sách mặt hàng và tổng tiền.
-3. **Định vị vùng văn bản (Visual Grounding):** Hệ thống trả về tọa độ Bounding Box của vùng thông tin tương ứng trên ảnh để người dùng đối chiếu kiểm tra mắt thường.
+3. **Định vị vùng văn bản (Visual Grounding / Bounding Box):** Hệ thống vẽ khung hình chữ nhật nổi bật (Bounding Box) trực tiếp lên ảnh tại vị trí dòng tiền hoặc tên cửa hàng để người dùng kiểm chứng nhanh bằng mắt thường.
 
 ---
 
@@ -89,7 +90,7 @@
               ▼
    ┌───────────────────────┐     ┌────────────────────────────┐
    │ Bộ Tiền Xử Lý Ảnh     │ <── │ Câu Hỏi Tự Nhiên Tiếng Việt│
-   │ (Dynamic Resolution)  │     │ (Hoặc yêu cầu xuất JSON)   │
+   │ (Dynamic Resolution)  │     │ (Hỏi giá trị / Bounding Box│
    └──────────┬────────────┘     └─────────────┬──────────────┘
               │                                │
               ▼                                ▼
@@ -98,50 +99,79 @@
    │           Nhìn ảnh 2D + Hiểu ngữ cảnh câu hỏi            │
    └──────────────────────────┬───────────────────────────────┘
                               │
-              ┌───────────────┴───────────────┐
-              ▼                               ▼
-   ┌───────────────────────┐     ┌────────────────────────────┐
-   │ 1. Câu Trả Lời Ngắn   │     │ 2. Dữ Liệu JSON Cấu Trúc   │
-   │    (Văn bản trực diện)│     │    (Đầy đủ các trường & món│
-   │    VD: "109,000"      │     │     lưu trực tiếp vào CSDL)│
-   └───────────────────────┘     └────────────────────────────┘
-```
-
-### 3.2. Đặc tả dữ liệu đầu vào (Input Specifications)
-* **Định dạng ảnh hỗ trợ:** PNG, JPG, JPEG, WebP.
-* **Độ phân giải:** Tự động điều chỉnh linh hoạt từ `256 × 28 × 28` pixels (tối thiểu) đến `1024 × 28 × 28` pixels (tối đa).
-* **Tình trạng ảnh được xử lý:**
-  * Ảnh chụp camera điện thoại bị nghiêng góc, bóng mờ, lóa đèn flash.
-  * Hóa đơn in nhiệt bị nếp gấp, phai mực, mờ một phần nét chữ.
-  * Hóa đơn điện tử dạng PDF/PNG sắc nét chuẩn doanh nghiệp.
-
-### 3.3. Đặc tả dữ liệu đầu ra (Output Specifications)
-* **Chế độ 1 - Câu trả lời đơn (Entity Text):** Chỉ trả về giá trị thực thể đích, không kèm lời dẫn đàm thoại thừa.
-* **Chế độ 2 - Cấu trúc JSON chuẩn hóa (Structured JSON):**
-```json
-{
-  "seller": "HIGHLANDS COFFEE - VẠN HẠNH MALL",
-  "address": "Số 11 Sư Vạn Hạnh, Phường 12, Quận 10, TP.HCM",
-  "timestamp": "28/06/2026 09:15",
-  "total_cost": "109,000",
-  "items": [
-    {"name": "Trà Sen Vàng (L)", "qty": "1", "amount": "55,000"},
-    {"name": "Phin Sữa Đá (M)", "qty": "1", "amount": "54,000"}
-  ]
-}
+       ┌──────────────────────┼──────────────────────┐
+       ▼                      ▼                      ▼
+┌──────────────┐      ┌───────────────┐      ┌───────────────┐
+│ 1. Text Trực │      │ 2. Dữ Liệu    │      │ 3. Khung Tọa  │
+│    Diện      │      │    JSON Chuẩn │      │    Độ Bounding│
+│    "109,000" │      │    Hóa Phân   │      │    Box [x,y,  │
+│              │      │    Cấp CSDL   │      │    w,h]       │
+└──────────────┘      └───────────────┘      └───────────────┘
 ```
 
 ---
 
-# PHẦN 4: QUY TRÌNH XÂY DỰNG & CHUẨN HÓA DỮ LIỆU
+# PHẦN 4: ĐẶC TẢ TÁC VỤ ĐỊNH VỊ TỌA ĐỘ BOUNDING BOX (VISUAL GROUNDING)
+
+### 4.1. Tác vụ Bounding Box là gì?
+Trong bài toán Document VQA nâng cao, **Bounding Box (Visual Grounding)** là khả năng mô hình không chỉ đọc hiểu nội dung chữ mà còn **xác định chính xác tọa độ vị trí không gian của vùng chứa nội dung đó trên ảnh hóa đơn**.
+
+```
+  ┌───────────────────────────────────────────────────────────────┐
+  │ [Ảnh Hóa Đơn]                                                 │
+  │                                                               │
+  │   HIGHLANDS COFFEE  <── 🟥 [Bounding Box: (97, 16, 282, 37)]  │
+  │   Số 11 Sư Vạn Hạnh, Q.10                                     │
+  │   --------------------------------------------------------    │
+  │   1. Trà Sen Vàng (L)     55,000                              │
+  │   2. Phin Sữa Đá  (M)     54,000                              │
+  │   --------------------------------------------------------    │
+  │   TỔNG TIỀN: 109,000đ  <── 🟩 [Bounding Box: (307, 456, 359)] │
+  │                                                               │
+  └───────────────────────────────────────────────────────────────┘
+```
+
+### 4.2. Quy chuẩn Tọa độ Bounding Box trong Hệ thống
+Tọa độ Bounding Box được biểu diễn theo chuẩn 4 chiều:
+$$\text{Bounding Box} = [y_{\min}, x_{\min}, y_{\max}, x_{\max}]$$
+Trong đó:
+* $(x_{\min}, y_{\min})$: Tọa độ góc trên bên trái của vùng chữ.
+* $(x_{\max}, y_{\max})$: Tọa độ góc dưới bên phải của vùng chữ.
+* Tọa độ được chuẩn hóa theo tỷ lệ kích thước pixel của ảnh thực tế.
+
+### 4.3. Thống kê & Ví dụ Mẫu Bounding Box trong Dataset
+
+Trong bộ dữ liệu **114,716 mẫu VQA**, có tổng cộng **9,990 mẫu gán nhãn Bounding Box** chuyên biệt:
+* **`GROUNDING_SELLER` (4,995 câu):** Định vị tọa độ của tên thương hiệu / đơn vị bán hàng.
+* **`GROUNDING_TOTAL` (4,995 câu):** Định vị tọa độ của dòng tổng tiền thanh toán cuối cùng.
+
+#### 📌 Ví dụ thực tế từ bộ dữ liệu (`vlm_train_master.json`):
+* **Ví dụ 1 (Highlands Coffee):**
+  * *Câu hỏi:* `"Tìm và định vị vùng chứa tên đơn vị bán hàng trên hóa đơn?"`
+  * *Đáp án đầu ra:* `{"text": "HIGHLANDS COFFEE LANDMARK", "box": [97, 16, 282, 37]}`
+* **Ví dụ 2 (Circle K):**
+  * *Câu hỏi:* `"Tìm và định vị vùng chứa tên đơn vị bán hàng trên hóa đơn?"`
+  * *Đáp án đầu ra:* `{"text": "Circle K Lê Lợi", "box": [154, 21, 250, 44]}`
+* **Ví dụ 3 (Tổng tiền thanh toán):**
+  * *Câu hỏi:* `"Tìm và định vị vùng chứa tổng tiền thanh toán trên hóa đơn?"`
+  * *Đáp án đầu ra:* `{"text": "561,000", "box": [307, 456, 359, 477]}`
+
+### 4.4. Giá trị thực tiễn của Bounding Box đối với Sản phẩm
+1. **Kiểm chứng mắt người (Human-in-the-loop):** Kế toán viên có thể nhìn trực tiếp khung màu nổi bật được vẽ trên ảnh để kiểm tra tính xác thực của số tiền mà không cần mất thời gian rà soát toàn bộ tờ hóa đơn dài.
+2. **Tính giải thích được (Explainability / Transparency):** Chứng minh mô hình thực sự "nhìn" đúng vùng văn bản chứa thông tin thay vì học vẹt hay suy đoán mò.
+3. **Cắt ảnh trích xuất con dấu / chữ ký:** Cho phép tự động crop đúng vùng Bounding Box để lưu trữ làm bằng chứng kiểm toán điện tử.
+
+---
+
+# PHẦN 5: QUY TRÌNH XÂY DỰNG & CHUẨN HÓA DỮ LIỆU
 
 Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn nghiêm ngặt:
 
 ```
   1. THU THẬP & SỐ HÓA       2. TIỀN XỬ LÝ THỊ GIÁC       3. THIẾT KẾ SCHEMA & NHÃN
 ┌───────────────────────┐   ┌───────────────────────┐   ┌───────────────────────────┐
-│ Thu thập 4,995 ảnh    │──>│ Xoay ảnh chuẩn góc,   │──>│ Định nghĩa 7 nhóm trường  │
-│ 15 mẫu hóa đơn VN     │   │ cắt viền, lọc mờ nhòe │   │ VQA đơn trường & đa trường│
+│ Thu thập 4,995 ảnh    │──>│ Xoay ảnh chuẩn góc,   │──>│ Định nghĩa 8 nhóm trường  │
+│ 15 mẫu hóa đơn VN     │   │ cắt viền, lọc mờ nhòe │   │ VQA đơn trường, JSON, BBox│
 └───────────────────────┘   └───────────────────────┘   └─────────────┬─────────────┘
                                                                       │
                                                                       ▼
@@ -149,21 +179,21 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 ┌───────────────────────┐   ┌───────────────────────────┐             │
 │ Train: 85% (97k mẫu)  │<──│ Sinh 114,716 cặp VQA,     │<────────────┘
 │ Val  : 15% (17k mẫu)  │   │ kiểm tra chéo 100% nhãn   │
-│ Test : 174 mẫu độc lập│   │ dấu tiếng Việt & số tiền  │
+│ Test : 174 mẫu độc lập│   │ dấu tiếng Việt, box, tiền │
 └───────────────────────┘   └───────────────────────────┘
 ```
 
 1. **Giai đoạn 1 - Thu thập ảnh hóa đơn:** Tổng hợp 4,995 hóa đơn thực tế trải đều 15 thương hiệu và mẫu phiếu kế toán tại Việt Nam.
 2. **Giai đoạn 2 - Tiền xử lý thị giác:** Chuẩn hóa hệ màu RGB, khử nhiễu, căn chỉnh góc xoay thẳng đứng, tối ưu độ phân giải động.
-3. **Giai đoạn 3 - Xây dựng Schema đặc tả nhãn:** Phân loại rõ ràng 7 nhóm tác vụ từ mức độ đơn giản (tên cửa hàng, tổng tiền) đến phức tạp (danh sách món, đơn giá, số lượng, JSON).
+3. **Giai đoạn 3 - Xây dựng Schema đặc tả nhãn:** Phân loại rõ ràng 8 nhóm tác vụ từ mức độ đơn giản (tên cửa hàng, tổng tiền) đến phức tạp (danh sách món, đơn giá, số lượng, JSON và Bounding Box).
 4. **Giai đoạn 4 - Tạo lập & Làm sạch câu hỏi VQA:** Tạo câu hỏi tự nhiên phong phú với nhiều biến thể cách hỏi trong tiếng Việt (ví dụ: *"Tổng tiền?"*, *"Tổng thanh toán?"*, *"Khách cần trả bao nhiêu?"* đều trỏ về cùng một thực thể `TOTAL_COST`).
 5. **Giai đoạn 5 - Phân tách tập dữ liệu khoa học:** Đảm bảo không xảy ra hiện tượng rò rỉ dữ liệu (*Data Leakage*) giữa tập huấn luyện và kiểm định.
 
 ---
 
-# PHẦN 5: THỐNG KÊ CHI TIẾT BỘ DỮ LIỆU 114,716 MẪU VQA
+# PHẦN 6: THỐNG KÊ CHI TIẾT BỘ DỮ LIỆU 114,716 MẪU VQA
 
-### 5.1. Bảng tổng quan quy mô dữ liệu
+### 6.1. Bảng tổng quan quy mô dữ liệu
 
 | Thông Số Định Lượng | Giá Trị Cụ Thể | Ý Nghĩa Kỹ Thuật |
 | :--- | :---: | :--- |
@@ -177,9 +207,9 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 
 ---
 
-# PHẦN 6: PHÂN LOẠI 15 MẪU HÓA ĐƠN & 7 NHÓM TÁC VỤ
+# PHẦN 7: PHÂN LOẠI 15 MẪU HÓA ĐƠN & 8 NHÓM TÁC VỤ
 
-### 6.1. Phân bổ cân bằng 15 loại mẫu hóa đơn thực tế (333 ảnh / mẫu)
+### 7.1. Phân bổ cân bằng 15 loại mẫu hóa đơn thực tế (333 ảnh / mẫu)
 
 ```
 ┌─────────────────────────┬──────────────────────┬──────────────┬───────────────────┐
@@ -193,7 +223,7 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 ├─────────────────────────┼──────────────────────┼──────────────┼───────────────────┤
 │                         │ convenience_7eleven  │ 333 ảnh      │ Mã vạch, điểm tích│
 │ 2. Cửa hàng tiện lợi &  │ convenience_circlek  │ 333 ảnh      │ In nhiệt hẹp      │
-│    Siêu thị mini        │ convenience_gs25     │ 333 ảnh      │ Chiết khấu thành viên
+│    Siêu thị mini        │ convenience_gs25     │ 333 ảnh      │ Chiết khấu TV     │
 │                         │ minimart_anan        │ 333 ảnh      │ Mẫu phiếu bán lẻ  │
 ├─────────────────────────┼──────────────────────┼──────────────┼───────────────────┤
 │                         │ supermarket_winmart  │ 333 ảnh      │ Bảng kê dài, VAT  │
@@ -208,7 +238,7 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 └─────────────────────────┴──────────────────────┴──────────────┴───────────────────┘
 ```
 
-### 6.2. Phân bổ 7 nhóm tác vụ VQA (Task Taxonomy)
+### 7.2. Phân bổ 8 nhóm tác vụ VQA (Task Taxonomy)
 
 | Mã Tác Vụ (Field) | Số Lượng Câu Hỏi | Mục Tiêu Trích Xuất & Ví Dụ |
 | :--- | :---: | :--- |
@@ -219,11 +249,11 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
 | **`ITEM_PRICE`** | **31,756 câu** | Trích xuất đơn giá của từng mặt hàng cụ thể.<br>*Ví dụ: "Giá của Coca Cola Lon 320ml là bao nhiêu?" $\rightarrow$ `10,000`* |
 | **`ITEM_QTY`** | **14,362 câu** | Trích xuất số lượng mua của từng mặt hàng.<br>*Ví dụ: "Khách mua mấy lon Coca Cola?" $\rightarrow$ `4`* |
 | **`FULL_JSON`** | **9,990 câu** | Trích xuất toàn bộ cấu trúc phân cấp hóa đơn dạng JSON.<br>*Gồm đầy đủ: seller, timestamp, address, total_cost, items.* |
-| **`BOUNDING_BOX`** | **9,990 câu** | Định vị tọa độ vùng chữ trên ảnh phục vụ kiểm chứng thị giác. |
+| **`BOUNDING_BOX`** *(Visual Grounding)* | **9,990 câu** | **Định vị tọa độ khung bao `[ymin, xmin, ymax, xmax]` trên ảnh phục vụ kiểm chứng trực quan.** |
 
 ---
 
-# PHẦN 7: TIÊU CHUẨN KIỂM SOÁT CHẤT LƯỢNG DỮ LIỆU
+# PHẦN 8: TIÊU CHUẨN KIỂM SOÁT CHẤT LƯỢNG DỮ LIỆU
 
 Để bộ dữ liệu đạt tiêu chuẩn học thuật cao nhất, nhóm đã áp dụng 4 nguyên tắc kiểm định:
 
@@ -233,12 +263,12 @@ Nhóm đã hoàn thành quy trình xây dựng dữ liệu qua 5 giai đoạn ng
    * Các con số được giữ nguyên dấu phân cách hàng nghìn (dấu phẩy `,` hoặc dấu chấm `.`) đúng theo quy ước ghi trên từng hóa đơn thực tế.
 3. **Đa dạng hóa Câu hỏi Ngôn ngữ tự nhiên:**
    * Mỗi trường thông tin có ít nhất 5–10 cách diễn đạt câu hỏi khác nhau (ví dụ: *"Tổng tiền"*, *"Tổng cộng"*, *"Số tiền thanh toán"*, *"Thành tiền cuối cùng"*), giúp mô hình có khả năng khái quát hóa vượt trội.
-4. **Kiểm tra cú pháp JSON nghiêm ngặt:**
-   * 100% mẫu câu hỏi `FULL_JSON` được kiểm tra cú pháp hợp lệ bằng `json.loads()`, đảm bảo không có lỗi thiếu dấu ngoặc kép hoặc sai định dạng mảng `items`.
+4. **Kiểm tra cú pháp JSON & Tọa độ Bounding Box:**
+   * 100% mẫu câu hỏi `FULL_JSON` và `BOUNDING_BOX` được kiểm tra cú pháp hợp lệ bằng `json.loads()`, đảm bảo tọa độ không vượt quá khung ảnh $0 \le \text{coord} \le \text{dim}$.
 
 ---
 
-# PHẦN 8: BẢN ĐỒ FILE DỮ LIỆU TRONG REPOSITORY
+# PHẦN 9: BẢN ĐỒ FILE DỮ LIỆU TRONG REPOSITORY
 
 Toàn bộ tập dữ liệu đã được lưu trữ và đồng bộ trên GitHub repository:
 
