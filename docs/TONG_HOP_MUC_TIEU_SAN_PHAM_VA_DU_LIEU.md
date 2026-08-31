@@ -388,7 +388,7 @@ Nhóm đã áp dụng **4 bước tối ưu hóa đồng bộ** để đạt bư
 * 🌐 [**`kaggle_automation/run_live_demo.py`**](file:///d:/STUDY/MLIoT/project/kaggle_automation/run_live_demo.py) – Server Live Demo Gradio (Freeze Time 10h, Full JSON 1024 Tokens)
 * 🐍 [**`model/demo_gradio.py`**](file:///d:/STUDY/MLIoT/project/model/demo_gradio.py) – Ứng dụng Web Demo tương tác cục bộ
 * 📚 [**`docs/TONG_HOP_KIEN_THUC_VA_FINETUNE.md`**](file:///d:/STUDY/MLIoT/project/docs/TONG_HOP_KIEN_THUC_VA_FINETUNE.md) – Báo cáo tri thức chuyên sâu
-* 🎓 [**`docs/DE_CUONG_THUYET_TRINH_CASE_STUDY_THAT_BAI_BOUNDING_BOX.md`**](file:///d:/STUDY/MLIoT/project/docs/DE_CUONG_THUYET_TRINH_CASE_STUDY_THAT_BAI_BOUNDING_BOX.md) – Đề cương thuyết trình Case Study Thất bại Bounding Box
+* 📑 [**`docs/BAO_CAO_VAN_DE_BOUNDING_BOX_VA_HUONG_GIAI_QUYET.md`**](file:///d:/STUDY/MLIoT/project/docs/BAO_CAO_VAN_DE_BOUNDING_BOX_VA_HUONG_GIAI_QUYET.md) – Báo cáo phân tích chuyên sâu vấn đề Bounding Box & Hướng giải quyết
 
 ---
 
