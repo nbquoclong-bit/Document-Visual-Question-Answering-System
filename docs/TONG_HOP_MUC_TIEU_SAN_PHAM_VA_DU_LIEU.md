@@ -29,6 +29,7 @@
 13. [Phần 13: Toàn Bộ Kỹ Thuật Tối Ưu Hóa Chuyên Sâu (Optimization Deep-Dive)](#phần-13-toàn-bộ-kỹ-thuật-tối-ưu-hóa-chuyên-sâu-optimization-deep-dive)
 14. [Phần 14: Bảng So Sánh 3 Thế Hệ Mô Hình & Phân Tích Lỗi (Error Analysis)](#phần-14-bảng-so-sánh-3-thế-hệ-mô-hình--phân-tích-lỗi-error-analysis)
 15. [Phần 15: Bản Đồ File Trong Repository Chuẩn Bị Đẩy Lên GitHub](#phần-15-bản-đồ-file-trong-repository-chuẩn-bị-đẩy-lên-github)
+16. [Phần 16: Case Study Chuyên Sâu: Phân Tích Thực Nghiệm Thất Bại Trong Module Visual Grounding (Bounding Box) & Bài Học Kinh Nghiệm](#phần-16-case-study-chuyên-sâu-phân-tích-thực-nghiệm-thất-bại-trong-module-visual-grounding-bounding-box--bài-học-kinh-nghiệm)
 
 ---
 
@@ -387,5 +388,111 @@ Nhóm đã áp dụng **4 bước tối ưu hóa đồng bộ** để đạt bư
 * 🌐 [**`kaggle_automation/run_live_demo.py`**](file:///d:/STUDY/MLIoT/project/kaggle_automation/run_live_demo.py) – Server Live Demo Gradio (Freeze Time 10h, Full JSON 1024 Tokens)
 * 🐍 [**`model/demo_gradio.py`**](file:///d:/STUDY/MLIoT/project/model/demo_gradio.py) – Ứng dụng Web Demo tương tác cục bộ
 * 📚 [**`docs/TONG_HOP_KIEN_THUC_VA_FINETUNE.md`**](file:///d:/STUDY/MLIoT/project/docs/TONG_HOP_KIEN_THUC_VA_FINETUNE.md) – Báo cáo tri thức chuyên sâu
+* 🎓 [**`docs/DE_CUONG_THUYET_TRINH_CASE_STUDY_THAT_BAI_BOUNDING_BOX.md`**](file:///d:/STUDY/MLIoT/project/docs/DE_CUONG_THUYET_TRINH_CASE_STUDY_THAT_BAI_BOUNDING_BOX.md) – Đề cương thuyết trình Case Study Thất bại Bounding Box
 
+---
+
+# PHẦN 16: CASE STUDY CHUYÊN SÂU: PHÂN TÍCH THỰC NGHIỆM THẤT BẠI TRONG MODULE VISUAL GROUNDING (BOUNDING BOX) & BÀI HỌC KINH NGHIỆM
+
+> **Tuyên ngôn học thuật:** *"Một nghiên cứu Khoa học Dữ liệu có giá trị không chỉ nằm ở việc công bố con số độ chính xác cao, mà còn nằm ở năng lực mổ xẻ tường tận bản chất toán học và kiến trúc hệ thống của các thử nghiệm thất bại để rút ra bài học đắt giá."*
+
+### 16.1. Bối cảnh & Thách thức đặc thù của bài toán Bounding Box trên Hóa đơn
+- **Mục tiêu:** Không chỉ trích xuất đúng chuỗi văn bản (ví dụ: `12.000.000đ`), mà hệ thống phải **tự động vẽ đúng khung chữ nhật (Bounding Box)** bao quanh vùng ảnh chứa thông tin đó để người dùng/kế toán viên đối soát tức thì (Human-in-the-loop).
+- **Thách thức:** Hóa đơn tài chính tiếng Việt có mật độ văn bản và số liệu cực kỳ dày đặc (hàng chục con số điện thoại, số nhà, mã số thuế, số tiền, ngày tháng nằm san sát nhau) cùng với các dải màu tiêu đề bảng biểu phức tạp.
+
+---
+
+### 16.2. Thất bại #1: Tiếp cận 2-Stage Pipeline (VLM + Heuristic OCR Token Matcher)
+
+```
+                          SƠ ĐỒ NGUYÊN NHÂN LỖI 2-STAGE GROUNDING
+                          
+      [Ảnh Hóa Đơn] ───► [VLM: Qwen2.5-VL] ───► Text: "12.000.000đ"
+                                │
+                                ▼
+                         [EasyOCR Engine]
+                                │
+         ┌──────────────────────┴──────────────────────┐
+         ▼                                             ▼
+   Token: "Số ĐT: +84 912 345 678"          Token: "12.000.000đ" (Chân trang)
+   Token: "123 Đường ABC"
+         │                                             │
+         ▼                                             ▼
+   Substring Match: chứa '12'               Số trọn vẹn: 12000000
+   Clustering 2 dòng gần nhau (Y < 25px)    Đứng đơn lẻ 1 dòng
+         │
+         ▼
+   🔴 KHOANH NHẦM LÊN ĐẦU TRANG!
+```
+
+#### 🔴 Lỗi 1: Xung đột xâu con chữ số (Lexical Substring Collision)
+- **Hiện tượng thực tế:** Khi hỏi *"Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?"*, mô hình VLM trả lời đúng `12.000.000đ`, nhưng khung chữ nhật lại khoanh nhầm lên góc trái đầu trang vào `Số điện thoại: +84 912 345 678` và `123 Đường ABC`.
+- **Bản chất nguyên nhân:**
+  - Bộ tách từ (tokenizer) chia nhỏ chuỗi `12.000.000` thành các token con ngắn: `['12', '000', '000']`.
+  - Giải thuật so khớp chuỗi con (`in`) tìm thấy `'12'` xuất hiện trong số điện thoại (`912`) và số nhà (`123`).
+  - Do hai dòng số điện thoại và địa chỉ nằm kề nhau trên trục tung (khoảng cách $Y < 25\text{px}$), giải thuật phân cụm (Clustering) đã gộp chúng thành 1 cụm có 2 token, đạt "điểm số lượng" cao hơn token đơn lẻ `12.000.000đ` ở chân trang $\rightarrow$ Dẫn đến việc chọn sai vùng hiển thị.
+
+#### 🔴 Lỗi 2: Bẫy ngữ nghĩa thanh tiêu đề bảng (Table Header Semantic Trap)
+- **Hiện tượng thực tế:** Trên các hóa đơn Giá trị gia tăng (VAT Invoice), khi hỏi về tiền thuế hoặc thành tiền, khung chữ nhật bị khoanh trọn vào dải màu xanh chứa tiêu đề cột: `Thành tiền (Amount)`, `Thuế suất GTGT`, `Thuế GTGT`, `Tổng tiền`.
+- **Bản chất nguyên nhân:**
+  - Khi mô hình trả lời kèm ngữ cảnh diễn giải (ví dụ: *"Thành tiền đã có thuế GTGT là 3.404.009đ"*), thuật toán hậu xử lý tìm kiếm các từ ngữ trùng khớp.
+  - Thanh tiêu đề màu xanh chứa tới 4 từ khóa trùng lặp liên tiếp (`thành`, `tiền`, `thuế`, `gtgt`), trong khi ô giá trị số ở chân bảng (`3.404.009đ`) chỉ chứa chữ số thuần túy.
+  - Thuật toán chấm điểm trùng từ (Word Overlap Score) ưu tiên từ ngữ đã chọn nhầm thanh tiêu đề thay vì ô số liệu thực tế.
+
+---
+
+### 16.3. Thất bại #2: Tiếp cận End-to-End V2 (Native Grounding qua 2D M-RoPE & Hiện tượng Loss: NaN)
+
+- **Ý tưởng thiết kế:** Loại bỏ hoàn toàn module OCR trung gian, huấn luyện mô hình VLM sinh trực tiếp chuỗi JSON hợp nhất `{"answer": "...", "box": [ymin, xmin, ymax, xmax]}` dựa trên cơ chế nhúng vị trí không gian 2 chiều **2D Multimodal Rotary Position Embedding (2D M-RoPE)** có sẵn của `Qwen2.5-VL`.
+- **Thực tế phát sinh lỗi nghiêm trọng (Ghi nhận trong `evaluation_report_v2.json`):**
+  ```json
+  "loss_history": [
+    { "epoch": 1, "loss": NaN, "time": 1812.2 },
+    { "epoch": 2, "loss": NaN, "time": 1797.2 },
+    { "epoch": 3, "loss": NaN, "time": 1796.8 }
+  ],
+  "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+  "anls_score": "0.00%",
+  "exact_match": "0.00%",
+  "f1_score": "0.00%"
+  ```
+
+#### 💥 Mổ xẻ bản chất Toán học & Phần cứng của Lỗi `Loss: NaN`:
+1. **Giới hạn dải động của kiểu dữ liệu Float16:**
+   - Trên GPU Tesla T4, ta cấu hình `torch_dtype = torch.float16` kết hợp `gradient_checkpointing_enable()`.
+   - Kiểu số `float16` chỉ có 5-bit exponent, giới hạn giá trị cực đại biểu diễn được là $65,504$ (so với $3.4 \times 10^{38}$ của `float32` hay `bfloat16` có 8-bit exponent).
+2. **Tràn số trong phép tính Attention Logits của 2D M-RoPE:**
+   - Khi xử lý ảnh hóa đơn có mật độ điểm ảnh lớn ($512 \times 512$) cùng chuỗi nhãn tọa độ dài, ma trận tích vô hướng Attention Logits:
+     $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{Q K^T}{\sqrt{d_k}} + \mathcal{R}_{\text{2D-M-RoPE}}\right) V$$
+     đã xuất hiện các giá trị trung gian vượt quá $65,504$, dẫn đến hiện tượng **Tràn số (Overflow $\rightarrow +\infty$)**.
+   - Khi đi qua hàm Softmax và Cross-Entropy Loss, phép toán $\ln(0)$ hoặc $\frac{\infty}{\infty}$ lập tức sinh ra giá trị **`NaN` (Not a Number)**.
+3. **Hiện tượng Sụp Đổ Mô Hình (Model Collapse):**
+   - Khi Gradient bị nhiễm `NaN`, toàn bộ ma trận trọng số LoRA thích ứng bị gán giá trị không hợp lệ.
+   - Khi suy luận (Inference), phân phối xác suất đầu ra bị san phẳng, mô hình rơi vào vòng lặp vô hạn sinh ký tự token lặp `!` (0.00% ANLS, EM, F1).
+
+---
+
+### 16.4. Giải Pháp "Chữa Cháy Kỹ Thuật" Thành Công (Hybrid Hardening Baseline)
+
+Để khắc phục ngay cho phiên bản sản phẩm thực tế và duy trì điểm số cao (**94.94% ANLS** của bản LoRA V1), nhóm đã xây dựng cơ chế **Hybrid Hardening**:
+
+1. **Khớp số nguyên vẹn tuyệt đối (Strict Digits Equality):**
+   - Đối với mọi trường số ($\ge 4$ chữ số): **Chỉ chấp nhận so khớp khi 100% chuỗi số trùng khớp hoàn toàn**:
+     $$\text{re.sub}(r'\backslash\text{D}', '', \text{token}) == \text{cand\_digits}$$
+   - Tuyệt đối cấm so khớp xâu con để triệt tiêu hiện tượng bắt nhầm số điện thoại và số nhà.
+2. **Bộ lọc danh sách đen tiêu đề (Header & Label Blacklisting):**
+   - Định nghĩa `LABEL_BLACKLIST` tự động loại bỏ các vùng thanh tiêu đề cột bảng biểu: `'thành tiền'`, `'thuế gtgt'`, `'thuế suất'`, `'đơn giá'`, `'số lượng'`, `'tên hàng hóa'`, `'cộng (total)'`...
+3. **So khớp nguyên từ với Word-Boundary Regex (`\b`):**
+   - Áp dụng `re.search(r'\b' + word + r'\b', text)` giúp định vị chính xác từng món hàng trong bảng kê.
+
+---
+
+### 16.5. 4 Bài Học Kinh Nghiệm Quý Giá Cho Kỹ Sư Machine Learning (Lessons Learned)
+
+| STT | Bài học đúc kết | Ý nghĩa thực tiễn & Hướng đi tương lai |
+| :---: | :--- | :--- |
+| **1** | **Precision Matters trong VLM** | Với các kiến trúc Vision Transformer dùng 2D M-RoPE, **không bao giờ dùng `float16` trần** mà bắt buộc phải dùng `bfloat16` (trên GPU A100/V100) hoặc dùng `torch.cuda.amp.GradScaler` kèm `float32` cho attention logits trên T4. |
+| **2** | **Dữ liệu số tài chính đòi hỏi Logic khắt khe** | Trong tài liệu kế toán, dữ liệu số có cấu trúc hoàn toàn khác văn bản thông thường. Thuật toán so khớp chuỗi ngây thơ (naive substring match) sẽ luôn thất bại trước số điện thoại và địa chỉ. |
+| **3** | **Lỗi lan truyền trong hệ thống 2-Stage** | Pipeline ghép nối 2 mô hình (VLM + OCR) luôn tạo ra sai số kép. Tương lai của xử lý tài liệu bắt buộc phải là **Single-Pass End-to-End Multimodal Modeling**. |
+| **4** | **Giá trị của việc đọc Log và Metric đối chứng** | Việc theo dõi biểu đồ Loss và log từng epoch giúp phát hiện sớm sự sụp đổ mô hình thay vì chỉ nhìn vào kết quả đầu ra cuối cùng. |
 
