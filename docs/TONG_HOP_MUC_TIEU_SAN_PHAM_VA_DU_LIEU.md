@@ -387,3 +387,5 @@ Nhóm đã áp dụng **4 bước tối ưu hóa đồng bộ** để đạt bư
 * 🌐 [**`kaggle_automation/run_live_demo.py`**](file:///d:/STUDY/MLIoT/project/kaggle_automation/run_live_demo.py) – Server Live Demo Gradio (Freeze Time 10h, Full JSON 1024 Tokens)
 * 🐍 [**`model/demo_gradio.py`**](file:///d:/STUDY/MLIoT/project/model/demo_gradio.py) – Ứng dụng Web Demo tương tác cục bộ
 * 📚 [**`docs/TONG_HOP_KIEN_THUC_VA_FINETUNE.md`**](file:///d:/STUDY/MLIoT/project/docs/TONG_HOP_KIEN_THUC_VA_FINETUNE.md) – Báo cáo tri thức chuyên sâu
+
+
