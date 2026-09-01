@@ -48,6 +48,7 @@
 | **`TOTAL_COST`** | 9,990 | Text: *"Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?"* $\rightarrow$ `109,000` |
 | **`TIMESTAMP`** | 9,990 | Text: *"Hóa đơn được lập vào ngày giờ nào?"* $\rightarrow$ `28/06/2026 09:15` |
 | **`ADDRESS`** | 9,324 | Text: *"Địa chỉ cửa hàng xuất hóa đơn ở đâu?"* $\rightarrow$ `Số 11 Sư Vạn Hạnh, Q.10` |
+| **`LINE_ITEM_LISTS`** | 9,324 | Text: *"Tên, Số lượng, Đơn giá?"* $\rightarrow$ `Sữa tươi - Số lượng: 2 - Đơn giá: 20.000đ` |
 | **`ITEM_PRICE`** | 31,756 | Text: *"Đơn giá của Trà Sen Vàng là bao nhiêu?"* $\rightarrow$ `55,000` |
 | **`ITEM_QTY`** | 14,362 | Text: *"Số lượng của Phin Sữa Đá là bao nhiêu?"* $\rightarrow$ `1` |
 | **`FULL_JSON`** | 9,990 | JSON: `{"seller": "...", "timestamp": "...", "total_cost": "...", "items": [...]}` |
