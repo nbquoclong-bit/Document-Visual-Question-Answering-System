@@ -394,7 +394,6 @@ Nhóm đã áp dụng **4 bước tối ưu hóa đồng bộ** để đạt bư
 
 # PHẦN 16: CASE STUDY CHUYÊN SÂU: PHÂN TÍCH THỰC NGHIỆM THẤT BẠI TRONG MODULE VISUAL GROUNDING (BOUNDING BOX) & BÀI HỌC KINH NGHIỆM
 
-> **Tuyên ngôn học thuật:** *"Một nghiên cứu Khoa học Dữ liệu có giá trị không chỉ nằm ở việc công bố con số độ chính xác cao, mà còn nằm ở năng lực mổ xẻ tường tận bản chất toán học và kiến trúc hệ thống của các thử nghiệm thất bại để rút ra bài học đắt giá."*
 
 ### 16.1. Bối cảnh & Thách thức đặc thù của bài toán Bounding Box trên Hóa đơn
 - **Mục tiêu:** Không chỉ trích xuất đúng chuỗi văn bản (ví dụ: `12.000.000đ`), mà hệ thống phải **tự động vẽ đúng khung chữ nhật (Bounding Box)** bao quanh vùng ảnh chứa thông tin đó để người dùng/kế toán viên đối soát tức thì (Human-in-the-loop).
