@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Send, Loader2, MessageSquareText, ScanSearch } from "lucide-react";
+import { Send, Loader2, MessageSquareText, ShieldCheck } from "lucide-react";
 
-export default function QAConsole({ qaHistory, onAsk, onShowEvidence, disabled, asking }) {
+export default function QAConsole({ qaHistory, onAsk, disabled, asking }) {
   const [question, setQuestion] = useState("");
 
   function handleSubmit(e) {
@@ -21,31 +21,47 @@ export default function QAConsole({ qaHistory, onAsk, onShowEvidence, disabled, 
             Chưa có câu hỏi nào. Hãy hỏi về nội dung hoá đơn bên dưới.
           </div>
         )}
-        {qaHistory?.map((entry, idx) => (
-          <div key={idx} className="text-[13.5px]">
-            <p className="mb-1 font-mono text-ink-soft before:mr-1 before:text-stamp before:content-['›']">
-              {entry.question}
-            </p>
-            <p className="rounded-r-sm border-l-2 border-ledger bg-paper px-2.5 py-2 text-ink">
-              {entry.answer}
-              {entry.evidence_bbox && (
-                <button
-                  type="button"
-                  onClick={() => onShowEvidence(entry.evidence_bbox)}
-                  className="ml-2 inline-flex items-center gap-1 text-[11px] text-stamp underline"
-                >
-                  <ScanSearch size={11} />
-                  xem bằng chứng
-                </button>
-              )}
-              {!entry.evidence_bbox && (
-                <span className="ml-2 text-[11px] text-ink-soft">
-                  VLM chưa trả về toạ độ bằng chứng.
-                </span>
-              )}
-            </p>
-          </div>
-        ))}
+        {qaHistory?.map((entry, idx) => {
+          const conf = entry.confidence != null ? Math.round(entry.confidence * 100) : null;
+          let badgeStyle = "bg-emerald-50 text-emerald-800 border-emerald-300";
+          let labelText = "Rất tin cậy";
+
+          if (conf != null) {
+            if (conf < 60) {
+              badgeStyle = "bg-rose-50 text-rose-800 border-rose-300";
+              labelText = "Cần đối soát";
+            } else if (conf < 85) {
+              badgeStyle = "bg-amber-50 text-amber-800 border-amber-300";
+              labelText = "Khá tin cậy";
+            }
+          }
+
+          return (
+            <div key={idx} className="text-[13.5px]">
+              <p className="mb-1 font-mono text-ink-soft before:mr-1 before:text-stamp before:content-['›']">
+                {entry.question}
+              </p>
+              <div className="rounded-r-sm border-l-2 border-ledger bg-paper px-2.5 py-2 text-ink">
+                <p>{entry.answer}</p>
+                {conf != null && (
+                  <div className="mt-2 flex items-center gap-2 border-t border-dotted border-line/60 pt-1.5 text-xs">
+                    <span className="text-ink-soft">Độ tin cậy VLM:</span>
+                    <span
+                      className={`inline-flex items-center gap-1 rounded border px-2 py-0.5 font-mono text-[11px] font-semibold ${badgeStyle}`}
+                      title={`Độ tin cậy toán học: ${conf}% (${labelText})`}
+                    >
+                      <ShieldCheck size={11} className="shrink-0" />
+                      {conf}%
+                      <span className="text-[10px] font-normal text-ink-soft">
+                        • {labelText}
+                      </span>
+                    </span>
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+        })}
       </div>
 
       <form onSubmit={handleSubmit} className="flex gap-2">

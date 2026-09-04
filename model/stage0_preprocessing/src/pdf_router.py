@@ -29,6 +29,18 @@ def render_pdf_pages(pdf_path: Union[str, Path], dpi: int = 300, max_pages: int 
 
 
 def load_image(path: Union[str, Path]) -> np.ndarray:
+    try:
+        with Image.open(str(path)) as pil_img:
+            return cv2.cvtColor(np.array(pil_img.convert("RGB")), cv2.COLOR_RGB2BGR)
+    except Exception:
+        pass
+    try:
+        data = np.fromfile(str(path), dtype=np.uint8)
+        img = cv2.imdecode(data, cv2.IMREAD_COLOR)
+        if img is not None:
+            return img
+    except Exception:
+        pass
     img = cv2.imread(str(path))
     if img is None:
         raise FileNotFoundError(f"Không đọc được ảnh: {path}")

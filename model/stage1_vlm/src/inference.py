@@ -1,3 +1,4 @@
+import math
 import os
 import sys
 import torch
@@ -48,7 +49,8 @@ class VQAEngine:
         image_path=None,
         max_new_tokens: int = 256,
         use_adapter: bool = True,
-    ) -> str:
+        return_confidence: bool = False,
+    ):
         """Answer from a file path or PIL image; `image_path` keeps API compatibility."""
         if image_input is None:
             image_input = image_path
@@ -93,7 +95,7 @@ class VQAEngine:
                         "type": "image", 
                         "image": image,
                         "min_pixels": 256 * 28 * 28,
-                        "max_pixels": 1280 * 28 * 28
+                        "max_pixels": (512 * 28 * 28) if not torch.cuda.is_available() else (1024 * 28 * 28)
                     },
                     {"type": "text", "text": question},
                 ],
@@ -122,44 +124,81 @@ class VQAEngine:
             tok_id = self.processor.tokenizer.convert_tokens_to_ids(special_tok)
             if isinstance(tok_id, int) and tok_id not in eos_ids:
                 eos_ids.append(tok_id)
+        eos_ids_set = set(eos_ids)
+
+        def _compute_confidence(outputs, input_len):
+            scores = getattr(outputs, "scores", None)
+            if not scores:
+                return 0.88
+            sequences = outputs.sequences[0]
+            gen_tokens = sequences[input_len:]
+            token_probs = []
+            margin_scores = []
+            for idx, step_logits in enumerate(scores):
+                if idx >= len(gen_tokens):
+                    break
+                tok_id = gen_tokens[idx].item()
+                if tok_id in eos_ids_set:
+                    continue
+                probs = torch.softmax(step_logits[0], dim=-1)
+                p_tok = probs[tok_id].item()
+                token_probs.append(p_tok)
+                top2 = torch.topk(probs, k=min(2, probs.shape[-1])).values
+                margin = (top2[0] - top2[1]).item()
+                margin_scores.append(margin)
+            if not token_probs:
+                return 0.88
+            min_prob = min(token_probs)
+            log_probs = [math.log(max(p, 1e-7)) for p in token_probs]
+            geom_prob = math.exp(sum(log_probs) / len(log_probs))
+            avg_margin = sum(margin_scores) / len(margin_scores) if margin_scores else 0.5
+            # Hiệu chuẩn toán học: 40% Geometric Mean + 30% Min Token Prob (Mắt xích yếu nhất) + 30% Margin
+            raw_conf = 0.40 * geom_prob + 0.30 * min_prob + 0.30 * avg_margin
+            return round(max(0.05, min(0.99, raw_conf)), 4)
 
         adapter_context = nullcontext()
         if not use_adapter and hasattr(self.model, "disable_adapter"):
             adapter_context = self.model.disable_adapter()
         with adapter_context:
             with torch.no_grad():
-                generated_ids = self.model.generate(
+                gen_outputs = self.model.generate(
                     **inputs,
                     max_new_tokens=max_new_tokens,
                     do_sample=False,
                     repetition_penalty=1.05,
                     eos_token_id=eos_ids,
+                    return_dict_in_generate=True,
+                    output_scores=True,
                 )
 
-
-        generated_ids_trimmed = [
-            out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs["input_ids"], generated_ids)
-        ]
+        input_len = len(inputs["input_ids"][0])
+        generated_ids_trimmed = [gen_outputs.sequences[0][input_len:]]
         
         response = self.processor.batch_decode(
             generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
         )
         
         res_text = response[0].strip()
+        confidence = _compute_confidence(gen_outputs, input_len)
         
         # Nếu gắn LoRA mà bị rỗng, tự động tắt LoRA để lấy câu trả lời chuẩn xác từ Base Model
         if use_adapter and not res_text and hasattr(self.model, "disable_adapter"):
             with self.model.disable_adapter():
                 with torch.no_grad():
-                    gen_ids_base = self.model.generate(
+                    gen_outputs_base = self.model.generate(
                         **inputs,
                         max_new_tokens=max_new_tokens,
                         do_sample=False,
                         repetition_penalty=1.15,
                         no_repeat_ngram_size=3,
-                        eos_token_id=eos_ids
+                        eos_token_id=eos_ids,
+                        return_dict_in_generate=True,
+                        output_scores=True,
                     )
-                trim_base = [gen_ids_base[0][len(inputs["input_ids"][0]):]]
+                trim_base = [gen_outputs_base.sequences[0][input_len:]]
                 res_text = self.processor.batch_decode(trim_base, skip_special_tokens=True)[0].strip()
+                confidence = _compute_confidence(gen_outputs_base, input_len)
                 
+        if return_confidence:
+            return res_text, confidence
         return res_text

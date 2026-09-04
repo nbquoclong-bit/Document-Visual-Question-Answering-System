@@ -21,23 +21,18 @@ def process_document(db: Session, document: Document) -> Document:
     try:
         preprocessed = preprocessing_service.preprocess_document(document.id, document.stored_path)
         
-        # 1. OCR Token Extraction (nhẹ, nhanh, dùng để vẽ token nền và so khớp Bounding Box)
-        ocr_tokens = ocr_service.extract_tokens(preprocessed.image_path)
-        document.ocr_raw = ocr_tokens
-
-        # 2. VLM Semantic Field Extraction
+        # 1. VLM Semantic Field Extraction with End-to-End Confidence Score
         fields, _raw_vlm_response = vlm_service.extract_fields(preprocessed.image_path)
+        document.ocr_raw = []
 
-        # 3. Xoá field cũ (nếu re-process) rồi ghi field mới kèm Bounding Box
+        # 2. Xoá field cũ (nếu re-process) rồi ghi field mới kèm Confidence Score
         db.query(ExtractedField).filter(ExtractedField.document_id == document.id).delete()
         for f in fields:
-            # Tự động tìm Bounding Box cho từng trường bóc tách
-            field_bbox = ocr_service.locate_evidence_bbox(ocr_tokens, f.value)
             db.add(ExtractedField(
                 document_id=document.id,
                 key=f.key,
                 value=f.value,
-                bbox=field_bbox,
+                bbox=None,
                 confidence=f.confidence,
             ))
 

@@ -36,8 +36,8 @@ class Settings(BaseSettings):
     vlm_adapter_path: Path | None = None
     # Repo đã có adapter hoàn chỉnh; mặc định không được âm thầm rơi về base model.
     vlm_allow_base_model: bool = False
-    # `base` cho JSON ổn định; `single`/`multi` dùng LoRA để thử nghiệm.
-    vlm_extraction_mode: Literal["base", "multi", "single"] = "base"
+    # Mặc định sử dụng LoRA adapter đã fine-tune cho extraction và QA
+    vlm_extraction_mode: Literal["base", "multi", "single"] = "single"
 
     # Kept configurable so a deployed model can be forced to CPU if necessary.
     device: str = "cuda" if os.environ.get("CUDA_VISIBLE_DEVICES") else "cpu"

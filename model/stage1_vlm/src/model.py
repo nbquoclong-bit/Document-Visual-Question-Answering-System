@@ -18,6 +18,10 @@ from peft import (
     prepare_model_for_kbit_training,
 )
 from transformers import Qwen2VLForConditionalGeneration, AutoProcessor, BitsAndBytesConfig
+try:
+    from transformers import Qwen2_5_VLForConditionalGeneration
+except ImportError:
+    Qwen2_5_VLForConditionalGeneration = None
 
 BASE_MODEL_NAME = "Qwen/Qwen2-VL-2B-Instruct"
 
@@ -91,7 +95,12 @@ def load_model_and_processor(
     # Qwen2-VL khuyến nghị dùng bfloat16 để tránh lỗi tràn số (overflow) ở tầng RoPE và tiết kiệm 50% RAM
     model_dtype = torch.bfloat16 if (use_cuda and torch.cuda.is_bf16_supported()) else (torch.float16 if use_cuda else torch.bfloat16)
 
-    model = Qwen2VLForConditionalGeneration.from_pretrained(
+    if "2.5" in base_model_name or "2_5" in base_model_name:
+        model_cls = Qwen2_5_VLForConditionalGeneration if Qwen2_5_VLForConditionalGeneration is not None else Qwen2VLForConditionalGeneration
+    else:
+        model_cls = Qwen2VLForConditionalGeneration
+
+    model = model_cls.from_pretrained(
         base_model_name,
         quantization_config=quantization_config,
         torch_dtype=model_dtype,

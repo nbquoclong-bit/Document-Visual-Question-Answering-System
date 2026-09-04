@@ -44,6 +44,16 @@ def preprocess_document(document_id: str, input_path: str) -> PreprocessedDocume
         metadata = {**metadata, "source_kind": "image"}
 
     output_path = get_processed_image_path(document_id)
-    if not cv2.imwrite(str(output_path), image):
+    saved = False
+    try:
+        suffix = output_path.suffix or ".jpg"
+        is_success, buffer = cv2.imencode(suffix, image)
+        if is_success:
+            with open(output_path, "wb") as f:
+                f.write(buffer)
+            saved = True
+    except Exception:
+        pass
+    if not saved and not cv2.imwrite(str(output_path), image):
         raise RuntimeError("Không thể lưu ảnh sau tiền xử lý.")
     return PreprocessedDocument(image_path=str(output_path), metadata=metadata)

@@ -11,9 +11,10 @@
 Document-Visual-Question-Answering-System/
 ├── 📁 docs/                                        <-- 🎯 THƯ MỤC TÀI LIỆU CHÍNH CHO NHÓM
 │   ├── README.md                                   (Bản đồ tra cứu tài liệu)
-│   ├── TONG_HOP_MUC_TIEU_SAN_PHAM_VA_DU_LIEU.md   (⭐ KHO TƯ LIỆU TOÀN DIỆN: Mục tiêu sản phẩm & Dữ liệu 114k mẫu)
-│   ├── BAO_CAO_CHI_TIET_DATASET.md                 (Báo cáo số liệu chi tiết 15 loại mẫu & 7 tác vụ VQA)
-│   └── DE_CUONG_SLIDE_MUC_TIEU_VA_DATA.md          (Gợi ý khung slide mẫu tham khảo)
+│   ├── KE_HOACH_SLIDE.md                           (⭐ BỘ 10 SLIDE THUYẾT TRÌNH CHUẨN: 4 phần, 8 tác vụ, Case study BBox, Video Demo)
+│   ├── TONG_HOP_KIEN_THUC.md                       (📚 KHO TƯ LIỆU TOÀN DIỆN: Mục tiêu sản phẩm, Kiến trúc & Dữ liệu 114k mẫu)
+│   ├── BAO_CAO_CHI_TIET_DATASET.md                 (Báo cáo số liệu chi tiết 15 loại mẫu & 8 tác vụ VQA)
+│   └── BAO_CAO_VAN_DE_BOUNDING_BOX_VA_HUONG_GIAI_QUYET.md (Báo cáo kỹ thuật mổ xẻ thất bại Bounding Box)
 │
 ├── 📁 model/                                       <-- 🧠 MÃ NGUỒN & TRỌNG SỐ
 │   ├── data/                                       (Tập dữ liệu 114,716 cặp VQA trên 15 templates)
@@ -21,13 +22,16 @@ Document-Visual-Question-Answering-System/
 │   │   ├── vlm_val_master.json                     (17,208 mẫu Val Master ~5.9MB)
 │   │   └── dataset_summary.json                    (Bản tóm tắt phân bổ)
 │   ├── output/                                     (Báo cáo kết quả đánh giá định lượng)
-│   │   └── qwen2_5_vl_baseline_report.json         (Kết quả 174 câu hỏi Base Model trên GPU)
-│   ├── hyperparameter_tuning.py                    (Module AutoML: Optuna TPE & LR Finder)
-│   └── demo_gradio.py                              (Giao diện Web Demo trực quan)
+│   │   ├── qwen2_5_vl_baseline_report.json         (Kết quả 174 câu hỏi Base Model trên GPU)
+│   │   ├── evaluation_report.json                  (Kết quả sau khi Fine-Tune LoRA)
+│   │   └── optimized_evaluation_report.json        (Kết quả sau khi Optimize: 94.94% ANLS)
+│   └── stage1_vlm/                                 (Mô hình Qwen2.5-VL / Qwen2-VL kèm LoRA)
 │
-└── 📁 kaggle_automation/                           <-- ☁️ TIẾN TRÌNH GPU KAGGLE
-    ├── run_kaggle_qwen2_5_training.py              (Script huấn luyện LoRA tối ưu VRAM)
-    └── train_kernel_qwen2_5/                       (Notebook huấn luyện)
+├── 📁 backend/                                     <-- ⚙️ BACKEND FASTAPI & ĐỘ TIN CẬY
+│   └── backend-docvqa/backend/                     (FastAPI service, Confidence Score, SQLite)
+│
+└── 📁 frontend/                                    <-- 💻 FRONTEND REACT & WEB INTERFACE
+    └── src/                                        (React 18, Vite, Giao diện Sổ Hóa Đơn & Hỏi đáp)
 ```
 
 ---
@@ -36,6 +40,7 @@ Document-Visual-Question-Answering-System/
 
 | Mục đích công việc | File tài liệu cần mở | Mô tả nội dung |
 | :--- | :--- | :--- |
-| **Lấy Tư Liệu Làm Slide Mục Tiêu & Data** | [`docs/TONG_HOP_MUC_TIEU_SAN_PHAM_VA_DU_LIEU.md`](file:///d:/STUDY/MLIoT/project/docs/TONG_HOP_MUC_TIEU_SAN_PHAM_VA_DU_LIEU.md) | **Kho thông tin chi tiết nhất (8 phần đầy đủ)** về bối cảnh, giá trị sản phẩm, sơ đồ luồng, quy trình và toàn bộ 114k mẫu data. |
-| **Lấy Bảng Thống Kê Số Liệu** | [`docs/BAO_CAO_CHI_TIET_DATASET.md`](file:///d:/STUDY/MLIoT/project/docs/BAO_CAO_CHI_TIET_DATASET.md) | Bảng phân bổ 15 loại mẫu hóa đơn và 7 nhóm trường trích xuất. |
-| **Tham Khảo Đề Cương Slide Mẫu** | [`docs/DE_CUONG_SLIDE_MUC_TIEU_VA_DATA.md`](file:///d:/STUDY/MLIoT/project/docs/DE_CUONG_SLIDE_MUC_TIEU_VA_DATA.md) | Bản khung gợi ý bố cục slide. |
+| **Làm Slide Thuyết Trình & Tập Nói** | [`docs/KE_HOACH_SLIDE.md`](file:///d:/STUDY/MLIoT/project/docs/KE_HOACH_SLIDE.md) | **Kế hoạch 10 slide hoàn chỉnh** bám sát cấu trúc 4 phần (Bài toán $\rightarrow$ Giải quyết $\rightarrow$ Pipeline $\rightarrow$ Hiệu quả), kèm lời thoại thuyết trình (Speaker Notes). |
+| **Tra Cứu Toàn Diện Kiến Thức & Nghiệp Vụ** | [`docs/TONG_HOP_KIEN_THUC.md`](file:///d:/STUDY/MLIoT/project/docs/TONG_HOP_KIEN_THUC.md) | **Kho tư liệu đầy đủ 10 phần** về bối cảnh, giá trị sản phẩm, sơ đồ luồng, quy trình và toàn bộ 114k mẫu data. |
+| **Lấy Bảng Thống Kê Số Liệu 8 Tác Vụ** | [`docs/BAO_CAO_CHI_TIET_DATASET.md`](file:///d:/STUDY/MLIoT/project/docs/BAO_CAO_CHI_TIET_DATASET.md) | Bảng phân bổ 15 loại mẫu hóa đơn và 8 nhóm trường trích xuất. |
+| **Tham Khảo Case Study Bounding Box** | [`docs/BAO_CAO_VAN_DE_BOUNDING_BOX_VA_HUONG_GIAI_QUYET.md`](file:///d:/STUDY/MLIoT/project/docs/BAO_CAO_VAN_DE_BOUNDING_BOX_VA_HUONG_GIAI_QUYET.md) | Phân tích chi tiết 3 lỗi thất bại khi ghép EasyOCR và lý do chuyển sang đo Điểm Tin Cậy. |

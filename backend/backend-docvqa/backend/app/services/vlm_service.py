@@ -12,15 +12,38 @@ from typing import Any
 from app.config import settings
 
 
-EXTRACTION_PROMPT = """Đọc kỹ ảnh tài liệu / hóa đơn và trả về DUY NHẤT một JSON hợp lệ (không markdown, không giải thích):
-{
-  "SELLER": "Tên đơn vị / người bán hàng, hoặc null",
-  "INVOICE_NUMBER": "Số thứ tự hóa đơn (chỉ lấy dãy số ở phần Số/No., không lấy ký hiệu/mẫu số), hoặc null",
-  "TAX_CODE": "Mã số thuế của bên bán (chuỗi 10 hoặc 13 chữ số), hoặc null",
-  "TIMESTAMP": "Ngày tháng năm lập chứng từ, hoặc null",
-  "TOTAL_COST": "Tổng cộng tiền thanh toán cuối cùng đã bao gồm thuế, hoặc null"
-}
-Chỉ trích xuất đúng thông tin có trên tài liệu."""
+EXTRACTION_PROMPT = """Trích xuất toàn bộ thông tin hóa đơn dưới dạng JSON.
+Đọc kỹ ảnh tài liệu hóa đơn và điền thông tin thực tế vào các trường sau:
+- SELLER: Tên cửa hàng / công ty / đơn vị bán hàng
+- INVOICE_NUMBER: Số hóa đơn (nếu có)
+- TAX_CODE: Mã số thuế người bán (nếu có)
+- TIMESTAMP: Ngày tháng năm lập hóa đơn
+- TOTAL_COST: Tổng cộng tiền thanh toán cuối cùng
+
+Quy tắc bắt buộc:
+1. Điền NỘI DUNG THỰC TẾ đọc được từ ảnh vào giá trị. Tuyệt đối KHÔNG chép lại văn bản hướng dẫn.
+2. Nếu trường nào không xuất hiện trên hóa đơn, bắt buộc đặt giá trị là null.
+3. Chỉ trả về một đối tượng JSON hợp lệ duy nhất:
+{"SELLER": null, "INVOICE_NUMBER": null, "TAX_CODE": null, "TIMESTAMP": null, "TOTAL_COST": null}"""
+
+def _is_invalid_or_placeholder(value: str) -> bool:
+    """Check if value is empty, null-like, or an echoed prompt instruction."""
+    if not value or not str(value).strip():
+        return True
+    val_lower = str(value).strip().lower()
+    if val_lower in {"", "null", "none", "n/a", "undefined", "không có", "chưa rõ", "unknown"}:
+        return True
+    placeholder_indicators = [
+        "hoặc null", "hoac null", "người bán", "nguoi ban",
+        "chỉ lấy dãy số", "chi lay day so", "chuỗi 10", "chuoi 10",
+        "lập chứng từ", "lap chung tu", "đã bao gồm thuế", "da bao gom thue",
+        "ký hiệu", "ky hieu", "mẫu số", "mau so", "tên đơn vị", "ten don vi",
+        "thứ tự hóa đơn", "thu tu hoa don", "thực tế", "thuc te", "hướng dẫn", "huong dan"
+    ]
+    if any(ind in val_lower for ind in placeholder_indicators):
+        return True
+    return False
+
 
 FIELD_ALIASES = {
     "SELLER": "store_name",
@@ -102,24 +125,91 @@ def _get_engine():
         raise VLMRuntimeError(f"Không thể tải Qwen2-VL: {exc}") from exc
 
 
+def _calculate_format_confidence(key: str, value: str) -> float:
+    """Evaluate format and business sanity for a field, returning score in [0.0, 1.0]."""
+    if not value or not value.strip():
+        return 0.20
+    val = value.strip()
+    val_lower = val.lower()
+
+    # Nhận diện các câu trả lời thể hiện thông tin không tồn tại hoặc mập mờ
+    UNAVAILABLE_PHRASES = ["không có", "không tìm thấy", "không rõ", "chưa xác định", "không đề cập", "chưa rõ", "n/a", "null"]
+    if any(phrase in val_lower for phrase in UNAVAILABLE_PHRASES):
+        return 0.25
+
+    if key == "total_amount":
+        digits = re.sub(r"\D", "", val)
+        if digits and len(digits) >= 4:
+            return 0.95
+        elif digits and len(digits) >= 3:
+            return 0.70
+        return 0.20  # Không trích xuất được số tiền hợp lệ -> Phạt nặng
+
+    if key == "tax_code":
+        digits = re.sub(r"\D", "", val)
+        if len(digits) in (10, 13) or (len(digits) == 14 and "-" in val):
+            return 0.98
+        elif len(digits) >= 8:
+            return 0.65
+        return 0.25  # Mã số thuế sai chuẩn (quá ngắn hoặc lẫn chữ) -> Phạt nặng
+
+    if key == "invoice_date":
+        if re.search(r"\b\d{1,2}[/-]\d{1,2}[/-]\d{2,4}\b", val):
+            return 0.95
+        elif any(c.isdigit() for c in val):
+            return 0.60
+        return 0.30  # Không có cấu trúc ngày tháng hợp lệ
+
+    if key in ("store_name", "seller"):
+        if len(val) >= 4 and any(c.isalpha() for c in val):
+            return 0.95
+        return 0.35  # Tên cửa hàng quá ngắn hoặc vô nghĩa
+
+    if key == "invoice_number":
+        digits = re.sub(r"\D", "", val)
+        if digits and len(digits) >= 1:
+            return 0.92
+        return 0.35
+
+    if len(val) >= 2:
+        return 0.85
+    return 0.40
+
+
 def answer_question(
     image_path: str,
     question: str,
     max_new_tokens: int = 256,
     use_adapter: bool = True,
-) -> str:
+    return_confidence: bool = False,
+):
     """Run the VLM on a preprocessed document image and a natural-language question."""
     if not Path(image_path).is_file():
         raise VLMRuntimeError("Không tìm thấy ảnh đã tiền xử lý cho document này.")
-    response = _get_engine().extract_and_answer(
+    result = _get_engine().extract_and_answer(
         image_path=image_path,
         question=question,
         max_new_tokens=max_new_tokens,
         use_adapter=use_adapter,
+        return_confidence=True,
     )
+    if isinstance(result, tuple):
+        response, confidence = result
+    else:
+        response = result
+        confidence = 0.88
+
     if not response or not response.strip():
         raise VLMRuntimeError("Qwen2-VL trả về nội dung rỗng.")
-    return response.strip()
+
+    clean_res = response.strip()
+    UNAVAILABLE_PHRASES = ["không có", "không tìm thấy", "không rõ", "chưa xác định", "không đề cập", "chưa rõ", "n/a", "null"]
+    if any(phrase in clean_res.lower() for phrase in UNAVAILABLE_PHRASES):
+        confidence = min(float(confidence), 0.38)
+
+    if return_confidence:
+        return clean_res, float(confidence)
+    return clean_res
 
 
 def _parse_json_response(response: str) -> dict[str, Any] | None:
@@ -184,23 +274,35 @@ def extract_fields(image_path: str) -> tuple[list[VLMField], str]:
         fields: list[VLMField] = []
         raw_answers: dict[str, str] = {}
         for key, question in FIELD_QUESTIONS:
-            response = answer_question(image_path, question, max_new_tokens=96)
+            res = answer_question(image_path, question, max_new_tokens=96, return_confidence=True)
+            if isinstance(res, tuple):
+                response, vlm_conf = res
+            else:
+                response, vlm_conf = res, 0.88
             raw_answers[key] = response
             value = _single_field_value(response, key)
             if value:
-                fields.append(VLMField(key=key, value=value))
+                fmt_conf = _calculate_format_confidence(key, value)
+                composite_conf = round(0.70 * vlm_conf + 0.30 * fmt_conf, 2)
+                fields.append(VLMField(key=key, value=value, confidence=composite_conf))
         raw_response = json.dumps(raw_answers, ensure_ascii=False)
-        return fields or [VLMField(key="vlm_response", value=raw_response)], raw_response
+        return fields or [VLMField(key="vlm_response", value=raw_response, confidence=0.80)], raw_response
 
-    response = answer_question(
+    res = answer_question(
         image_path,
         EXTRACTION_PROMPT,
-        max_new_tokens=192,
-        use_adapter=settings.vlm_extraction_mode != "base",
+        max_new_tokens=110,
+        use_adapter=True,
+        return_confidence=True,
     )
+    if isinstance(res, tuple):
+        response, vlm_conf = res
+    else:
+        response, vlm_conf = res, 0.88
+
     parsed = _parse_json_response(response)
     if not parsed:
-        return [VLMField(key="vlm_response", value=response)], response
+        return [VLMField(key="vlm_response", value=response, confidence=round(vlm_conf * 0.7, 2))], response
 
     fields: list[VLMField] = []
     seen_keys: set[str] = set()
@@ -215,7 +317,33 @@ def extract_fields(image_path: str) -> tuple[list[VLMField], str]:
             text_value = json.dumps(value, ensure_ascii=False)
         else:
             text_value = str(value).strip()
-        if text_value:
-            fields.append(VLMField(key=key, value=_normalize_field_value(key, text_value)))
+        if text_value and not _is_invalid_or_placeholder(text_value):
+            norm_val = _normalize_field_value(key, text_value)
+            fmt_conf = _calculate_format_confidence(key, norm_val)
+            composite_conf = round(0.70 * vlm_conf + 0.30 * fmt_conf, 2)
+            fields.append(VLMField(key=key, value=norm_val, confidence=composite_conf))
             seen_keys.add(key)
-    return fields or [VLMField(key="vlm_response", value=response)], response
+
+    if len(fields) < 2:
+        # Fallback: Nếu trích xuất JSON chưa đủ các trường cốt lõi, hỏi trực diện VLM
+        CORE_QUESTIONS = (
+            ("store_name", "Tên cửa hàng / bên bán trên hóa đơn là gì?"),
+            ("total_amount", "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?"),
+            ("invoice_date", "Ngày giờ lập hóa đơn là khi nào?"),
+        )
+        for c_key, c_q in CORE_QUESTIONS:
+            if c_key in seen_keys:
+                continue
+            res_c = answer_question(image_path, c_q, max_new_tokens=32, return_confidence=True)
+            if isinstance(res_c, tuple):
+                ans, c_vlm_conf = res_c
+            else:
+                ans, c_vlm_conf = res_c, 0.88
+            val = _single_field_value(ans, c_key)
+            if val and not _is_invalid_or_placeholder(val):
+                fmt_conf = _calculate_format_confidence(c_key, val)
+                composite_conf = round(0.70 * c_vlm_conf + 0.30 * fmt_conf, 2)
+                fields.append(VLMField(key=c_key, value=val, confidence=composite_conf))
+                seen_keys.add(c_key)
+
+    return fields or [VLMField(key="vlm_response", value=response, confidence=vlm_conf)], response

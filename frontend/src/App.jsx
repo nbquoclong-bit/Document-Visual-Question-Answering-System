@@ -105,7 +105,7 @@ export default function App() {
             Sổ Hoá Đơn
           </h1>
           <p className="mt-1 text-[13px] text-ink-soft">
-            Hỏi-đáp trực quan trên tài liệu — tiền xử lý &amp; trích xuất bằng Qwen2-VL
+            Hỏi-đáp trực quan trên tài liệu — Pure End-to-End VLM Qwen2.5-VL kèm Độ Tin Cậy (Confidence Score)
           </p>
         </div>
         <StatusBadge status={status} />
@@ -173,9 +173,11 @@ export default function App() {
               </h2>
             </div>
             <div className="p-4.5">
-              <FieldsLedger fields={fields} onSelectField={setActiveBbox} />
-              {fields.some((field) => field.bbox) && (
-                <p className="mt-2 text-xs text-ink-soft">Bấm vào một dòng để xem vị trí trên ảnh.</p>
+              <FieldsLedger fields={fields} />
+              {fields.length > 0 && (
+                <p className="mt-2 text-xs text-ink-soft">
+                  Điểm tin cậy được tính trực tiếp từ xác suất phân phối của mô hình VLM.
+                </p>
               )}
             </div>
           </section>
@@ -190,7 +192,6 @@ export default function App() {
               <QAConsole
                 qaHistory={qaHistory}
                 onAsk={handleAsk}
-                onShowEvidence={setActiveBbox}
                 disabled={!canAsk}
                 asking={asking}
               />

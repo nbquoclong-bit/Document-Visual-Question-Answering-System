@@ -1,4 +1,4 @@
-import { Receipt } from "lucide-react";
+import { Receipt, ShieldCheck } from "lucide-react";
 
 const KEY_LABELS = {
   store_name: "Tên cửa hàng",
@@ -11,7 +11,7 @@ const KEY_LABELS = {
   vlm_response: "Phản hồi VLM",
 };
 
-export default function FieldsLedger({ fields, onSelectField }) {
+export default function FieldsLedger({ fields }) {
   if (!fields || fields.length === 0) {
     return (
       <div className="flex flex-col items-center gap-2 py-6 text-center text-sm text-ink-soft">
@@ -22,23 +22,60 @@ export default function FieldsLedger({ fields, onSelectField }) {
   }
 
   return (
-    <div>
-      {fields.map((field, idx) => (
-        <button
-          key={`${field.key}-${idx}`}
-          onClick={() => field.bbox && onSelectField(field.bbox)}
-          disabled={!field.bbox}
-          className="group flex w-full items-baseline gap-2 border-b border-dotted border-line py-2.5 text-left last:border-b-0 disabled:cursor-default"
-        >
-          <span className="whitespace-nowrap text-xs uppercase tracking-wide text-ink-soft">
-            {KEY_LABELS[field.key] || field.key}
-          </span>
-          <span className="-translate-y-0.5 flex-1 border-b border-dotted border-line" />
-          <span className="max-w-[60%] break-words text-right font-mono text-[13.5px] font-medium leading-5 text-ink group-enabled:group-hover:text-stamp">
-            {field.value}
-          </span>
-        </button>
-      ))}
+    <div className="flex flex-col gap-2.5">
+      {fields.map((field, idx) => {
+        const conf = field.confidence != null ? Math.round(field.confidence * 100) : null;
+        let badgeStyle = "bg-emerald-50 text-emerald-800 border-emerald-300";
+        let statusText = "Rất tin cậy";
+
+        if (conf != null) {
+          if (conf < 60) {
+            badgeStyle = "bg-rose-50 text-rose-800 border-rose-300";
+            statusText = "Độ tin cậy thấp";
+          } else if (conf < 85) {
+            badgeStyle = "bg-amber-50 text-amber-800 border-amber-300";
+            statusText = "Khá tin cậy";
+          }
+        }
+
+        return (
+          <div
+            key={`${field.key}-${idx}`}
+            className="flex flex-col gap-1 rounded-sm border border-line/60 bg-paper/40 p-2.5 transition-colors hover:bg-paper/70"
+          >
+            <div className="flex items-center justify-between gap-2">
+              <span className="text-xs font-semibold uppercase tracking-wider text-ink-soft">
+                {KEY_LABELS[field.key] || field.key}
+              </span>
+
+              {conf != null && (
+                <span
+                  className={`inline-flex items-center gap-1 rounded border px-2 py-0.5 font-mono text-[11px] font-semibold ${badgeStyle}`}
+                  title={`Độ tin cậy mô hình: ${conf}% (${statusText})`}
+                >
+                  <ShieldCheck size={11} className="shrink-0" />
+                  {conf}%
+                  <span className="text-[10px] font-normal text-ink-soft">
+                    {conf >= 85 ? "• Chuẩn xác" : conf >= 60 ? "• Đối soát" : "• Xem lại"}
+                  </span>
+                </span>
+              )}
+            </div>
+
+            <div className="break-words font-mono text-[13.5px] font-medium leading-5 text-ink">
+              {field.value}
+            </div>
+          </div>
+        );
+      })}
+
+      <div className="mt-2 flex items-center justify-between border-t border-dotted border-line pt-2 text-[11.5px] text-ink-soft">
+        <span className="flex items-center gap-1">
+          <ShieldCheck size={13} className="text-ledger" />
+          Độ tin cậy End-to-End Qwen2.5-VL (Logits &amp; Format)
+        </span>
+        <span className="font-mono text-[10.5px]">≥85% Chuẩn xác</span>
+      </div>
     </div>
   );
 }
