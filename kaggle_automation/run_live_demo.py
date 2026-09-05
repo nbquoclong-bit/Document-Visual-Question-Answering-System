@@ -36,7 +36,7 @@ def launch_live_demo():
     kernel_slug = "qwen2-5-vl-docvqa-live-demo"
     kernel_id = f"lminhsang241/{kernel_slug}"
     
-    demo_dir = Path("d:/STUDY/MLIoT/project/kaggle_automation/demo_kernel")
+    demo_dir = Path(__file__).resolve().parent / "demo_kernel"
     demo_dir.mkdir(parents=True, exist_ok=True)
 
     metadata = {
@@ -290,7 +290,8 @@ def launch_live_demo():
                 "    t0 = time.time()\n",
                 "    q_lower = question.lower()\n",
                 "    is_json = any(k in q_lower for k in [\"json\", \"toàn bộ\", \"cấu trúc\", \"tất cả\", \"hạng mục\"])\n",
-                "    max_tokens = 1024 if is_json else 256\n",
+                "    is_items = any(k in q_lower for k in [\"danh sách\", \"món\", \"hàng\", \"dịch vụ\", \"mặt hàng\"])\n",
+                "    max_tokens = 1024 if is_json else (384 if is_items else 160)\n",
                 "    \n",
                 "    # 1. OCR nếu bật BBox và không phải JSON\n",
                 "    ocr_results = []\n",
@@ -345,7 +346,7 @@ def launch_live_demo():
                 "# Giao diện Gradio Pro (Gọn gàng & 1 Màu BBox)\n",
                 "with gr.Blocks(title=\"Document Visual QA Pro - Qwen2.5-VL\", theme=gr.themes.Soft()) as demo:\n",
                 "    gr.Markdown(\"# 📄 Hệ Thống Document Visual Question Answering (DocVQA Pro)\")\n",
-                "    gr.Markdown(\"💡 Mô hình **Qwen2.5-VL-3B (LoRA Fine-Tuned 94.94% ANLS)**. Hỗ trợ hỏi đáp hóa đơn trực diện và **Bounding Box minh chứng tối giản (1 màu viền)**.\")\n",
+                "    gr.Markdown(\"💡 Mô hình **Qwen2.5-VL-3B LoRA Fine-Tuned (89.63% ANLS trên GPU Tesla T4)**. Hỗ trợ hỏi đáp hóa đơn trực diện và **Bounding Box minh chứng tối giản (1 màu viền)**.\")\n",
                 "    \n",
                 "    with gr.Row():\n",
                 "        with gr.Column(scale=1):\n",
