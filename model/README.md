@@ -22,23 +22,25 @@ Khác với đường ống OCR truyền thống dễ tích lũy sai số, Qwen2
 
 ---
 
-## 📊 2. Bảng Kết Quả Benchmark 174 Mẫu Hóa Đơn Thực Tế (Unseen Test Set)
+## 📊 2. Bảng Kết Quả Benchmark 174 Mẫu Hóa Đơn Thực Tế (Kaggle GPU Tesla T4)
 
-| Tiêu chí Đánh Giá (Metric) | Base Model (`Qwen2.5-VL-3B`) | **Fine-Tuned Model (`Qwen2.5-VL-3B LoRA`)** | Mức độ cải thiện |
+| Tiêu chí Đánh Giá (Metric) | Base Zero-Shot (`02_...zeroshot.json`) | **Fine-Tuned Model (`04_...optimized_kaggle_gpu.json`)** | Mức độ cải thiện |
 | :--- | :---: | :---: | :---: |
-| **ANLS (Độ chính xác chuỗi)** | **71.30%** | **94.94%** | **+23.64%** 🚀 |
-| **Token F1-Score** | **68.45%** | **92.80%** | **+24.35%** 🚀 |
-| **Exact Match (EM)** | **42.10%** | **74.14%** | **+32.04%** 🚀 |
-| **Độ trễ trung bình** | ~2.60s | **~2.50s** | Tối ưu hóa Token Budget |
-| **VRAM Tiêu thụ** | 7.85 GB | **8.12 GB** | Hoạt động trên Tesla T4 |
+| **ANLS (Độ chính xác chuỗi)** | **0.68%** | **89.61%** | **+88.93%** 🚀 |
+| **Token F1-Score** | **35.25%** | **89.82%** | **+54.57%** 🚀 |
+| **Exact Match (EM)** | **0.00%** | **66.09%** | **+66.09%** 🚀 |
+| **Độ trễ trung bình** | ~3.76s | **~3.08s** | Tối ưu hóa Greedy & FP16 |
+| **VRAM Tiêu thụ** | ~4.82 GB | **~3.60 GB** | Native FP16 trên Tesla T4 |
 
 ### Chi tiết ANLS theo từng nhóm trường:
-- **Mã số thuế (TAX):** `98.20%`
-- **Tổng tiền (TOTAL_COST):** `96.50%`
-- **Ngày lập (TIMESTAMP):** `95.80%`
-- **Tên đơn vị bán (SELLER):** `94.10%`
-- **Danh sách mặt hàng (ITEMS_LIST):** `93.80%`
-- **Địa chỉ bên bán (ADDRESS):** `91.20%`
+- **Tên đơn vị bán (SELLER):** ANLS `98.37%` | Exact Match `76.67%`
+- **Đơn giá từng món (ITEM_PRICE):** ANLS `96.99%` | Exact Match `78.57%`
+- **Tổng tiền (TOTAL_COST):** ANLS `96.77%` | Exact Match `73.33%`
+- **Địa chỉ bên bán (ADDRESS):** ANLS `85.36%` | Exact Match `78.57%`
+- **Ngày lập (TIMESTAMP):** ANLS `84.08%` | Exact Match `76.67%`
+- **Danh mục hàng hóa (ITEMS_LIST):** ANLS `75.37%` | Exact Match `10.71%` *(Tác vụ bảng kê nhiều dòng)*
+
+> 💡 *Chi tiết toàn bộ báo cáo và phân tích xin xem tại:* [model/output/README.md](output/README.md)
 
 ---
 

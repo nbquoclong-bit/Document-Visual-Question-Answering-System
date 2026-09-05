@@ -8,11 +8,10 @@ Thư mục này chứa toàn bộ các file báo cáo JSON chi tiết về kết
 
 | Thứ tự file | Tên File | Mô Hình & Cấu Hình | Số lượng mẫu | ANLS | Exact Match | Token F1 | Độ trễ (s/câu) | Ghi chú & Ý nghĩa |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **01** | [`01_qwen2_vl_2b_baseline_legacy.json`](01_qwen2_vl_2b_baseline_legacy.json) | `Qwen2-VL-2B-Instruct` (Zero-shot) | 45 | 2.22% | 2.22% | 40.09% | 2.65s | **Giai đoạn đầu (Legacy):** Thử nghiệm ban đầu trên tập test nhỏ 45 mẫu. |
 | **02** | [`02_qwen2_5_vl_3b_baseline_zeroshot.json`](02_qwen2_5_vl_3b_baseline_zeroshot.json) | `Qwen2.5-VL-3B-Instruct` (Base Zero-shot) | 174 | 0.68% | 0.00% | 35.25% | 4.82s | **Mô hình nền tảng gốc:** Chưa fine-tune, chưa có LoRA adapter. Không hiểu cấu trúc hóa đơn VN. |
 | **03** | [`03_qwen2_5_vl_3b_lora_raw_uncleaned.json`](03_qwen2_5_vl_3b_lora_raw_uncleaned.json) | `Qwen2.5-VL-3B` + LoRA Adapter (Raw Output) | 174 | 59.48% | 39.66% | 73.45% | 4.56s | **LoRA đợt 1 (Chưa tối ưu hậu xử lý):** Đã gắn adapter nhưng câu trả lời bị dính lời dẫn rườm rà làm giảm điểm ANLS/EM. |
 | **04** | [`04_qwen2_5_vl_3b_lora_optimized_kaggle_gpu.json`](04_qwen2_5_vl_3b_lora_optimized_kaggle_gpu.json) | `Qwen2.5-VL-3B` + LoRA + Optimized Pipeline | 174 | **89.61%** | **66.09%** | **89.82%** | **3.08s** | 🌟 **KẾT QUẢ CHUẨN THỰC TẾ (KAGGLE GPU TESLA T4):** Đã nạp LoRA + Native FP16 + Dynamic Resolution + Regex Post-Processing. |
-| **Archive** | [`archive_simulated_report_94anls.json`](archive_simulated_report_94anls.json) | `Qwen2.5-VL-3B` (Simulated Optimization) | 174 | 94.94% | 74.14% | 92.80% | 2.59s | *File lưu trữ:* Báo cáo giả định cũ từng bị góp ý số liệu chưa phản ánh đúng điều kiện GPU thực tế. |
+| **Bị sai** | [`đánh giá lần trước bị sai.json`](đánh%20giá%20lần%20trước%20bị%20sai.json) | `Qwen2.5-VL-3B` (Báo cáo cũ) | 174 | 94.94% | 74.14% | 92.80% | 2.59s | *File lưu trữ:* Báo cáo giả định cũ từng bị góp ý số liệu chưa phản ánh đúng điều kiện GPU thực tế. |
 | **Alias** | [`evaluation_report.json`](evaluation_report.json) | *Bản sao chính thức của File 04* | 174 | **89.61%** | **66.09%** | **89.82%** | **3.08s** | Giữ tên này để các script backend và công cụ kiểm thử mặc định luôn tự động tải báo cáo chuẩn nhất. |
 
 ---
