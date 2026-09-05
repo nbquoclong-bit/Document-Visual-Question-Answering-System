@@ -24,21 +24,21 @@ Khác với đường ống OCR truyền thống dễ tích lũy sai số, Qwen2
 
 ## 📊 2. Bảng Kết Quả Benchmark 174 Mẫu Hóa Đơn Thực Tế (Kaggle GPU Tesla T4)
 
-| Tiêu chí Đánh Giá (Metric) | Base Zero-Shot (`02_...zeroshot.json`) | **Fine-Tuned Model (`04_...optimized_kaggle_gpu.json`)** | Mức độ cải thiện |
-| :--- | :---: | :---: | :---: |
-| **ANLS (Độ chính xác chuỗi)** | **0.68%** | **89.61%** | **+88.93%** 🚀 |
-| **Token F1-Score** | **35.25%** | **89.82%** | **+54.57%** 🚀 |
-| **Exact Match (EM)** | **0.00%** | **66.09%** | **+66.09%** 🚀 |
-| **Độ trễ trung bình** | ~3.76s | **~3.08s** | Tối ưu hóa Greedy & FP16 |
-| **VRAM Tiêu thụ** | ~4.82 GB | **~3.60 GB** | Native FP16 trên Tesla T4 |
+| Tiêu chí Đánh Giá (Metric) | Base Zero-Shot (`02_...zeroshot.json`) | LoRA Raw (`03_...raw_uncleaned.json`) | **Fine-Tuned Model (`04_...optimized_kaggle_gpu.json`)** | Mức độ cải thiện (vs Base) |
+| :--- | :---: | :---: | :---: | :---: |
+| **ANLS (Độ chính xác chuỗi)** | **85.07%** | **89.63%** | **89.63%** | **+4.56%** 🚀 |
+| **Token F1-Score** | **86.39%** | **89.88%** | **89.88%** | **+3.49%** 🚀 |
+| **Exact Match (EM)** | **59.20%** | **66.09%** | **66.09%** | **+6.89%** 🚀 |
+| **Độ trễ trung bình** | **2.39s** | **3.50s** | **3.50s** | Dynamic Token Budget |
+| **VRAM Tiêu thụ** | **~3.64 GB** | **~3.64 GB** | **~3.64 GB** | Native FP16 trên Tesla T4 |
 
-### Chi tiết ANLS theo từng nhóm trường:
-- **Tên đơn vị bán (SELLER):** ANLS `98.37%` | Exact Match `76.67%`
-- **Đơn giá từng món (ITEM_PRICE):** ANLS `96.99%` | Exact Match `78.57%`
-- **Tổng tiền (TOTAL_COST):** ANLS `96.77%` | Exact Match `73.33%`
-- **Địa chỉ bên bán (ADDRESS):** ANLS `85.36%` | Exact Match `78.57%`
-- **Ngày lập (TIMESTAMP):** ANLS `84.08%` | Exact Match `76.67%`
-- **Danh mục hàng hóa (ITEMS_LIST):** ANLS `75.37%` | Exact Match `10.71%` *(Tác vụ bảng kê nhiều dòng)*
+### Chi tiết ANLS theo từng nhóm trường (Fine-Tuned Optimized):
+- **Tên đơn vị bán (SELLER):** ANLS `98.37%` | Exact Match `76.67%` | F1 `93.00%`
+- **Đơn giá từng món (ITEM_PRICE):** ANLS `96.99%` | Exact Match `78.57%` | F1 `89.88%`
+- **Tổng tiền (TOTAL_COST):** ANLS `96.77%` | Exact Match `73.33%` | F1 `88.06%`
+- **Địa chỉ bên bán (ADDRESS):** ANLS `85.36%` | Exact Match `78.57%` | F1 `89.93%`
+- **Ngày lập (TIMESTAMP):** ANLS `84.08%` | Exact Match `76.67%` | F1 `92.85%`
+- **Danh mục hàng hóa (ITEMS_LIST):** ANLS `75.47%` | Exact Match `10.71%` | F1 `85.26%` *(Tác vụ bảng kê nhiều dòng - Full items)*
 
 > 💡 *Chi tiết toàn bộ báo cáo và phân tích xin xem tại:* [model/output/README.md](output/README.md)
 

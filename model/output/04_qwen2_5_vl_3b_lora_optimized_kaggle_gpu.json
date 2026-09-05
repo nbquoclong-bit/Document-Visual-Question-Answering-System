@@ -1,12 +1,12 @@
 {
-  "model_name": "Qwen/Qwen2.5-VL-3B-Instruct (LoRA Fine-Tuned)",
+  "model_name": "Qwen/Qwen2.5-VL-3B-Instruct (LoRA Optimized)",
   "hardware": "Kaggle GPU Tesla T4",
   "total_test_records": 174,
-  "anls_percentage": "89.61%",
+  "anls_percentage": "89.63%",
   "exact_match_percentage": "66.09%",
-  "f1_percentage": "89.82%",
-  "avg_latency_seconds": 3.081,
-  "vram_allocated_gb": 3.6,
+  "f1_percentage": "89.88%",
+  "avg_latency_seconds": 3.5,
+  "vram_allocated_gb": 3.62,
   "task_breakdown": {
     "SELLER": {
       "count": 30,
@@ -34,9 +34,9 @@
     },
     "ITEMS_LIST": {
       "count": 28,
-      "anls": 21.103162054871454,
+      "anls": 21.131588787080364,
       "em": 3.0,
-      "f1": 23.77013910701819
+      "f1": 23.87311874148595
     },
     "ITEM_PRICE": {
       "count": 28,
@@ -56,7 +56,7 @@
       "anls": 0.9778,
       "exact_match": 0,
       "f1": 0.9,
-      "latency": 6.429
+      "latency": 4.625
     },
     {
       "id": 2,
@@ -68,7 +68,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.276
+      "latency": 2.484
     },
     {
       "id": 3,
@@ -80,7 +80,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.78
+      "latency": 3.164
     },
     {
       "id": 4,
@@ -92,7 +92,7 @@
       "anls": 0.0,
       "exact_match": 0,
       "f1": 0.6667,
-      "latency": 4.687
+      "latency": 5.252
     },
     {
       "id": 5,
@@ -104,7 +104,7 @@
       "anls": 0.716,
       "exact_match": 0,
       "f1": 0.8125,
-      "latency": 9.337
+      "latency": 10.577
     },
     {
       "id": 6,
@@ -116,7 +116,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.632
+      "latency": 1.774
     },
     {
       "id": 7,
@@ -128,7 +128,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.493
+      "latency": 3.865
     },
     {
       "id": 8,
@@ -140,7 +140,7 @@
       "anls": 0.8182,
       "exact_match": 0,
       "f1": 0.3333,
-      "latency": 2.192
+      "latency": 2.425
     },
     {
       "id": 9,
@@ -152,7 +152,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.746
+      "latency": 3.097
     },
     {
       "id": 10,
@@ -164,7 +164,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.321
+      "latency": 3.753
     },
     {
       "id": 11,
@@ -176,7 +176,7 @@
       "anls": 0.9242,
       "exact_match": 0,
       "f1": 1.0,
-      "latency": 6.67
+      "latency": 7.524
     },
     {
       "id": 12,
@@ -188,7 +188,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.743
+      "latency": 1.86
     },
     {
       "id": 13,
@@ -200,7 +200,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.785
+      "latency": 4.16
     },
     {
       "id": 14,
@@ -212,7 +212,7 @@
       "anls": 0.9,
       "exact_match": 0,
       "f1": 0.6667,
-      "latency": 2.085
+      "latency": 2.281
     },
     {
       "id": 15,
@@ -224,7 +224,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.737
+      "latency": 3.099
     },
     {
       "id": 16,
@@ -236,7 +236,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.081
+      "latency": 3.393
     },
     {
       "id": 17,
@@ -248,7 +248,7 @@
       "anls": 0.9304,
       "exact_match": 0,
       "f1": 1.0,
-      "latency": 5.731
+      "latency": 6.357
     },
     {
       "id": 18,
@@ -260,7 +260,7 @@
       "anls": 0.9,
       "exact_match": 0,
       "f1": 0.6667,
-      "latency": 2.128
+      "latency": 2.325
     },
     {
       "id": 19,
@@ -272,7 +272,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.752
+      "latency": 4.143
     },
     {
       "id": 20,
@@ -284,7 +284,7 @@
       "anls": 0.9091,
       "exact_match": 0,
       "f1": 0.6667,
-      "latency": 2.224
+      "latency": 2.486
     },
     {
       "id": 21,
@@ -296,7 +296,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.81
+      "latency": 3.053
     },
     {
       "id": 22,
@@ -308,7 +308,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.888
+      "latency": 3.138
     },
     {
       "id": 23,
@@ -320,7 +320,7 @@
       "anls": 0.9852,
       "exact_match": 0,
       "f1": 0.963,
-      "latency": 6.962
+      "latency": 7.833
     },
     {
       "id": 24,
@@ -332,7 +332,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.005
+      "latency": 2.12
     },
     {
       "id": 25,
@@ -344,7 +344,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.731
+      "latency": 2.982
     },
     {
       "id": 26,
@@ -356,7 +356,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.812
+      "latency": 1.937
     },
     {
       "id": 27,
@@ -368,7 +368,7 @@
       "anls": 0.8,
       "exact_match": 0,
       "f1": 0.9091,
-      "latency": 2.082
+      "latency": 2.234
     },
     {
       "id": 28,
@@ -380,7 +380,7 @@
       "anls": 0.0,
       "exact_match": 0,
       "f1": 0.3077,
-      "latency": 1.27
+      "latency": 1.713
     },
     {
       "id": 29,
@@ -392,7 +392,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.131
+      "latency": 3.43
     },
     {
       "id": 30,
@@ -404,7 +404,7 @@
       "anls": 0.9231,
       "exact_match": 0,
       "f1": 0.75,
-      "latency": 2.069
+      "latency": 2.293
     },
     {
       "id": 31,
@@ -416,7 +416,7 @@
       "anls": 0.8,
       "exact_match": 0,
       "f1": 0.9091,
-      "latency": 2.106
+      "latency": 2.309
     },
     {
       "id": 32,
@@ -428,7 +428,7 @@
       "anls": 0.0,
       "exact_match": 0,
       "f1": 0.0,
-      "latency": 1.118
+      "latency": 1.217
     },
     {
       "id": 33,
@@ -440,7 +440,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.245
+      "latency": 1.284
     },
     {
       "id": 34,
@@ -452,7 +452,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.483
+      "latency": 1.563
     },
     {
       "id": 35,
@@ -464,7 +464,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.732
+      "latency": 2.957
     },
     {
       "id": 36,
@@ -476,7 +476,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.863
+      "latency": 3.132
     },
     {
       "id": 37,
@@ -488,7 +488,7 @@
       "anls": 0.6291,
       "exact_match": 0,
       "f1": 0.6786,
-      "latency": 12.348
+      "latency": 13.483
     },
     {
       "id": 38,
@@ -500,7 +500,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.546
+      "latency": 1.628
     },
     {
       "id": 39,
@@ -512,7 +512,7 @@
       "anls": 0.8421,
       "exact_match": 0,
       "f1": 0.6,
-      "latency": 2.237
+      "latency": 2.416
     },
     {
       "id": 40,
@@ -524,7 +524,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.624
+      "latency": 1.73
     },
     {
       "id": 41,
@@ -536,7 +536,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.681
+      "latency": 2.936
     },
     {
       "id": 42,
@@ -548,7 +548,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.122
+      "latency": 3.361
     },
     {
       "id": 43,
@@ -556,11 +556,11 @@
       "task": "ITEMS_LIST",
       "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
       "ground_truth": "Dầu ăn Simply 1L, Mì tôm Hảo Hảo chua cay, Bánh Custas Orion 6P, Coca Cola Lon 320ml",
-      "prediction": "- Dầu ăn Simply 1L: 4 x 56.000 = 224.000\n- Mì tôm Hảo Hảo chua cay: 2 x 3.500 = 7.000\n- Bánh Custas Orion 6P: 4 x 34.000 = 136.000\n- Coca Cola Lon",
+      "prediction": "- Dầu ăn Simply 1L: 4 x 56.000 = 224.000\n- Mì tôm Hảo Hảo chua cay: 2 x 3.500 = 7.000\n- Bánh Custas Orion 6P: 4 x 34.000 = 136.000\n- Coca Cola Lon 320ml: 1 x 10.000 = 10.000",
       "anls": 0.0,
       "exact_match": 0,
-      "f1": 0.6415,
-      "latency": 12.742
+      "f1": 0.6,
+      "latency": 16.959
     },
     {
       "id": 44,
@@ -572,7 +572,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.66
+      "latency": 1.771
     },
     {
       "id": 45,
@@ -584,7 +584,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.368
+      "latency": 1.373
     },
     {
       "id": 46,
@@ -596,7 +596,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.961
+      "latency": 2.101
     },
     {
       "id": 47,
@@ -608,7 +608,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.069
+      "latency": 3.292
     },
     {
       "id": 48,
@@ -620,7 +620,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.281
+      "latency": 3.439
     },
     {
       "id": 49,
@@ -632,7 +632,7 @@
       "anls": 0.9167,
       "exact_match": 0,
       "f1": 1.0,
-      "latency": 7.297
+      "latency": 7.915
     },
     {
       "id": 50,
@@ -644,7 +644,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.942
+      "latency": 2.049
     },
     {
       "id": 51,
@@ -656,7 +656,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.973
+      "latency": 2.1
     },
     {
       "id": 52,
@@ -668,7 +668,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.21
+      "latency": 2.375
     },
     {
       "id": 53,
@@ -680,7 +680,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.049
+      "latency": 3.374
     },
     {
       "id": 54,
@@ -692,7 +692,7 @@
       "anls": 0.0,
       "exact_match": 0,
       "f1": 0.3636,
-      "latency": 1.162
+      "latency": 1.197
     },
     {
       "id": 55,
@@ -704,7 +704,7 @@
       "anls": 0.9,
       "exact_match": 0,
       "f1": 0.9231,
-      "latency": 8.386
+      "latency": 9.15
     },
     {
       "id": 56,
@@ -716,7 +716,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.947
+      "latency": 2.055
     },
     {
       "id": 57,
@@ -728,7 +728,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.294
+      "latency": 1.343
     },
     {
       "id": 58,
@@ -740,7 +740,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.536
+      "latency": 1.624
     },
     {
       "id": 59,
@@ -752,7 +752,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.64
+      "latency": 2.833
     },
     {
       "id": 60,
@@ -764,7 +764,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.855
+      "latency": 3.041
     },
     {
       "id": 61,
@@ -776,7 +776,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.661
+      "latency": 3.93
     },
     {
       "id": 62,
@@ -788,7 +788,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.389
+      "latency": 1.403
     },
     {
       "id": 63,
@@ -800,7 +800,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.314
+      "latency": 1.346
     },
     {
       "id": 64,
@@ -812,7 +812,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.507
+      "latency": 1.601
     },
     {
       "id": 65,
@@ -824,7 +824,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.642
+      "latency": 2.834
     },
     {
       "id": 66,
@@ -836,7 +836,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.141
+      "latency": 3.396
     },
     {
       "id": 67,
@@ -848,7 +848,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.698
+      "latency": 4.023
     },
     {
       "id": 68,
@@ -860,7 +860,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.505
+      "latency": 1.58
     },
     {
       "id": 69,
@@ -872,7 +872,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.096
+      "latency": 1.107
     },
     {
       "id": 70,
@@ -884,7 +884,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.617
+      "latency": 1.661
     },
     {
       "id": 71,
@@ -896,7 +896,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.688
+      "latency": 2.836
     },
     {
       "id": 72,
@@ -908,7 +908,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.124
+      "latency": 3.331
     },
     {
       "id": 73,
@@ -920,7 +920,7 @@
       "anls": 0.8889,
       "exact_match": 0,
       "f1": 0.9375,
-      "latency": 5.349
+      "latency": 5.617
     },
     {
       "id": 74,
@@ -932,7 +932,7 @@
       "anls": 0.8333,
       "exact_match": 0,
       "f1": 0.5,
-      "latency": 1.537
+      "latency": 1.629
     },
     {
       "id": 75,
@@ -944,7 +944,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.338
+      "latency": 1.369
     },
     {
       "id": 76,
@@ -956,7 +956,7 @@
       "anls": 0.875,
       "exact_match": 0,
       "f1": 0.5,
-      "latency": 1.714
+      "latency": 1.772
     },
     {
       "id": 77,
@@ -968,7 +968,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.68
+      "latency": 2.804
     },
     {
       "id": 78,
@@ -980,7 +980,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.802
+      "latency": 2.934
     },
     {
       "id": 79,
@@ -992,7 +992,7 @@
       "anls": 0.6726,
       "exact_match": 0,
       "f1": 0.8421,
-      "latency": 9.513
+      "latency": 10.257
     },
     {
       "id": 80,
@@ -1004,7 +1004,7 @@
       "anls": 0.8571,
       "exact_match": 0,
       "f1": 0.5,
-      "latency": 1.689
+      "latency": 1.819
     },
     {
       "id": 81,
@@ -1016,7 +1016,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.329
+      "latency": 2.444
     },
     {
       "id": 82,
@@ -1028,7 +1028,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.778
+      "latency": 1.857
     },
     {
       "id": 83,
@@ -1040,7 +1040,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.688
+      "latency": 2.907
     },
     {
       "id": 84,
@@ -1052,7 +1052,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.142
+      "latency": 3.354
     },
     {
       "id": 85,
@@ -1060,11 +1060,11 @@
       "task": "ITEMS_LIST",
       "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
       "ground_truth": "Xúc xích Đức ăn liền, Bánh giò thịt băm trứng cút, Trà sữa Kirin Latte 345ml, Cơm nắm cá hồi sốt Mayo",
-      "prediction": "- Xúc xích Đức ăn liền: 2 x 10,000 = 20,000đ\n- Bánh giò thịt băm trứng cút: 3 x 14,000 = 42,000đ\n- Trà sữa Kirin Latte 345ml: 2 x 16,000 = 32,000đ\n-",
-      "anls": 0.527,
+      "prediction": "- Xúc xích Đức ăn liền: 2 x 10,000 = 20,000đ\n- Bánh giò thịt băm trứng cút: 3 x 14,000 = 42,000đ\n- Trà sữa Kirin Latte 345ml: 2 x 16,000 = 32,000đ\n- Cơm nắm cá hồi sốt Mayo: 1 x 15,000 = 15,000đ",
+      "anls": 0.5206,
       "exact_match": 0,
-      "f1": 0.5714,
-      "latency": 12.786
+      "f1": 0.6471,
+      "latency": 17.701
     },
     {
       "id": 86,
@@ -1076,7 +1076,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.546
+      "latency": 1.643
     },
     {
       "id": 87,
@@ -1088,7 +1088,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.966
+      "latency": 2.062
     },
     {
       "id": 88,
@@ -1100,7 +1100,7 @@
       "anls": 0.8571,
       "exact_match": 0,
       "f1": 0.5,
-      "latency": 1.624
+      "latency": 1.666
     },
     {
       "id": 89,
@@ -1112,7 +1112,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.705
+      "latency": 2.897
     },
     {
       "id": 90,
@@ -1124,7 +1124,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.866
+      "latency": 3.094
     },
     {
       "id": 91,
@@ -1136,7 +1136,7 @@
       "anls": 0.92,
       "exact_match": 0,
       "f1": 0.9524,
-      "latency": 3.426
+      "latency": 3.673
     },
     {
       "id": 92,
@@ -1148,7 +1148,7 @@
       "anls": 0.8571,
       "exact_match": 0,
       "f1": 0.5,
-      "latency": 1.689
+      "latency": 1.761
     },
     {
       "id": 93,
@@ -1160,7 +1160,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.669
+      "latency": 1.754
     },
     {
       "id": 94,
@@ -1172,7 +1172,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.414
+      "latency": 1.483
     },
     {
       "id": 95,
@@ -1184,7 +1184,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.664
+      "latency": 2.846
     },
     {
       "id": 96,
@@ -1196,7 +1196,7 @@
       "anls": 0.8723,
       "exact_match": 0,
       "f1": 0.8889,
-      "latency": 3.283
+      "latency": 3.403
     },
     {
       "id": 97,
@@ -1208,7 +1208,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.488
+      "latency": 1.561
     },
     {
       "id": 98,
@@ -1220,7 +1220,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.66
+      "latency": 1.726
     },
     {
       "id": 99,
@@ -1232,7 +1232,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.527
+      "latency": 1.607
     },
     {
       "id": 100,
@@ -1244,7 +1244,7 @@
       "anls": 0.0,
       "exact_match": 0,
       "f1": 0.5714,
-      "latency": 1.286
+      "latency": 1.315
     },
     {
       "id": 101,
@@ -1256,7 +1256,7 @@
       "anls": 0.911,
       "exact_match": 0,
       "f1": 0.9615,
-      "latency": 9.031
+      "latency": 9.887
     },
     {
       "id": 102,
@@ -1268,7 +1268,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.496
+      "latency": 1.583
     },
     {
       "id": 103,
@@ -1280,7 +1280,7 @@
       "anls": 0.9333,
       "exact_match": 0,
       "f1": 0.6,
-      "latency": 2.528
+      "latency": 2.709
     },
     {
       "id": 104,
@@ -1292,7 +1292,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.597
+      "latency": 1.711
     },
     {
       "id": 105,
@@ -1304,7 +1304,7 @@
       "anls": 0.0,
       "exact_match": 0,
       "f1": 0.5714,
-      "latency": 1.276
+      "latency": 1.35
     },
     {
       "id": 106,
@@ -1316,7 +1316,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.397
+      "latency": 3.757
     },
     {
       "id": 107,
@@ -1324,11 +1324,11 @@
       "task": "ITEMS_LIST",
       "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
       "ground_truth": "Trà Sen Vàng Size M, Cà Phê Đen Đá Size M, Trà Thạch Đào Size L, Bánh Tiramisu, Freeze Trà Xanh Size M, Phin Sữa Đá Size L",
-      "prediction": "- Trà Sen Vàng Size M: 135,000\n- Cà Phê Đen Đá Size M: 58,000\n- Trà Thạch Đào Size L: 110,000\n- Bánh Tiramisu: 140,000\n- Freeze Trà Xanh Size M: 220,000\n- Phin Sữa",
-      "anls": 0.6319,
+      "prediction": "- Trà Sen Vàng Size M: 135,000\n- Cà Phê Đen Đá Size M: 58,000\n- Trà Thạch Đào Size L: 110,000\n- Bánh Tiramisu: 140,000\n- Freeze Trà Xanh Size M: 220,000\n- Phin Sữa Đá Size L: 156,000",
+      "anls": 0.6703,
       "exact_match": 0,
-      "f1": 0.8333,
-      "latency": 12.66
+      "f1": 0.8235,
+      "latency": 16.16
     },
     {
       "id": 108,
@@ -1340,7 +1340,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.626
+      "latency": 1.732
     },
     {
       "id": 109,
@@ -1352,7 +1352,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.538
+      "latency": 1.632
     },
     {
       "id": 110,
@@ -1364,7 +1364,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.522
+      "latency": 1.651
     },
     {
       "id": 111,
@@ -1376,7 +1376,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.661
+      "latency": 3.003
     },
     {
       "id": 112,
@@ -1388,7 +1388,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.804
+      "latency": 3.162
     },
     {
       "id": 113,
@@ -1400,7 +1400,7 @@
       "anls": 0.5361,
       "exact_match": 0,
       "f1": 0.6061,
-      "latency": 7.989
+      "latency": 8.985
     },
     {
       "id": 114,
@@ -1412,7 +1412,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.608
+      "latency": 1.749
     },
     {
       "id": 115,
@@ -1424,7 +1424,7 @@
       "anls": 0.9565,
       "exact_match": 0,
       "f1": 0.8,
-      "latency": 1.526
+      "latency": 1.654
     },
     {
       "id": 116,
@@ -1436,7 +1436,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.531
+      "latency": 1.663
     },
     {
       "id": 117,
@@ -1448,7 +1448,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.655
+      "latency": 2.959
     },
     {
       "id": 118,
@@ -1460,7 +1460,7 @@
       "anls": 0.9231,
       "exact_match": 0,
       "f1": 0.9412,
-      "latency": 2.288
+      "latency": 2.58
     },
     {
       "id": 119,
@@ -1468,11 +1468,11 @@
       "task": "ITEMS_LIST",
       "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
       "ground_truth": "Hồng Trà Sữa M, Trà Đào Phúc Long L, Trà Lài Đác Thơm L, Bánh Croissant Bơ Pháp, Trà sữa Phúc Long L, Cà phê Latte",
-      "prediction": "- Hồng Trà Sữa M: 45,000 VND\n- Trà Đào Phúc Long L: 165,000 VND\n- Trà Lài Đá Thom L: 55,000 VND\n- Bánh Croissant Bơ Pháp: 75,000 VND\n- Trà sữa Phúc Long L: 100,000 V",
-      "anls": 0.5758,
+      "prediction": "- Hồng Trà Sữa M: 45,000 VND\n- Trà Đào Phúc Long L: 165,000 VND\n- Trà Lài Đá Thom L: 55,000 VND\n- Bánh Croissant Bơ Pháp: 75,000 VND\n- Trà sữa Phúc Long L: 100,000 VND\n- Cà phê Latte: 45,000 VND",
+      "anls": 0.5722,
       "exact_match": 0,
-      "f1": 0.6563,
-      "latency": 12.632
+      "f1": 0.6857,
+      "latency": 17.121
     },
     {
       "id": 120,
@@ -1484,7 +1484,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.539
+      "latency": 1.624
     },
     {
       "id": 121,
@@ -1496,7 +1496,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.421
+      "latency": 1.506
     },
     {
       "id": 122,
@@ -1508,7 +1508,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.526
+      "latency": 1.655
     },
     {
       "id": 123,
@@ -1520,7 +1520,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.642
+      "latency": 2.911
     },
     {
       "id": 124,
@@ -1532,7 +1532,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.696
+      "latency": 3.035
     },
     {
       "id": 125,
@@ -1544,7 +1544,7 @@
       "anls": 0.5842,
       "exact_match": 0,
       "f1": 0.7429,
-      "latency": 7.868
+      "latency": 8.928
     },
     {
       "id": 126,
@@ -1556,7 +1556,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.618
+      "latency": 1.761
     },
     {
       "id": 127,
@@ -1568,7 +1568,7 @@
       "anls": 0.95,
       "exact_match": 0,
       "f1": 0.6667,
-      "latency": 2.076
+      "latency": 2.257
     },
     {
       "id": 128,
@@ -1580,7 +1580,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.6
+      "latency": 1.747
     },
     {
       "id": 129,
@@ -1592,7 +1592,7 @@
       "anls": 0.625,
       "exact_match": 0,
       "f1": 0.75,
-      "latency": 2.691
+      "latency": 2.968
     },
     {
       "id": 130,
@@ -1604,7 +1604,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.242
+      "latency": 3.751
     },
     {
       "id": 131,
@@ -1616,7 +1616,7 @@
       "anls": 0.6923,
       "exact_match": 0,
       "f1": 0.75,
-      "latency": 10.121
+      "latency": 11.264
     },
     {
       "id": 132,
@@ -1628,7 +1628,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.658
+      "latency": 1.853
     },
     {
       "id": 133,
@@ -1640,7 +1640,7 @@
       "anls": 0.95,
       "exact_match": 0,
       "f1": 0.6667,
-      "latency": 2.06
+      "latency": 2.195
     },
     {
       "id": 134,
@@ -1652,7 +1652,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.546
+      "latency": 1.667
     },
     {
       "id": 135,
@@ -1664,7 +1664,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.903
+      "latency": 2.078
     },
     {
       "id": 136,
@@ -1676,7 +1676,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.017
+      "latency": 3.404
     },
     {
       "id": 137,
@@ -1688,7 +1688,7 @@
       "anls": 0.6863,
       "exact_match": 0,
       "f1": 0.75,
-      "latency": 6.624
+      "latency": 7.469
     },
     {
       "id": 138,
@@ -1700,7 +1700,7 @@
       "anls": 0.8333,
       "exact_match": 0,
       "f1": 0.5,
-      "latency": 1.497
+      "latency": 1.615
     },
     {
       "id": 139,
@@ -1712,7 +1712,7 @@
       "anls": 0.9,
       "exact_match": 0,
       "f1": 0.6667,
-      "latency": 1.345
+      "latency": 1.41
     },
     {
       "id": 140,
@@ -1724,7 +1724,7 @@
       "anls": 0.875,
       "exact_match": 0,
       "f1": 0.5,
-      "latency": 1.716
+      "latency": 1.853
     },
     {
       "id": 141,
@@ -1736,7 +1736,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.722
+      "latency": 3.063
     },
     {
       "id": 142,
@@ -1748,7 +1748,7 @@
       "anls": 0.9773,
       "exact_match": 0,
       "f1": 0.9,
-      "latency": 3.271
+      "latency": 3.627
     },
     {
       "id": 143,
@@ -1760,7 +1760,7 @@
       "anls": 0.8791,
       "exact_match": 0,
       "f1": 0.9444,
-      "latency": 5.432
+      "latency": 6.165
     },
     {
       "id": 144,
@@ -1772,7 +1772,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.536
+      "latency": 1.69
     },
     {
       "id": 145,
@@ -1784,7 +1784,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.6
+      "latency": 1.715
     },
     {
       "id": 146,
@@ -1796,7 +1796,7 @@
       "anls": 0.875,
       "exact_match": 0,
       "f1": 0.5,
-      "latency": 1.724
+      "latency": 1.868
     },
     {
       "id": 147,
@@ -1808,7 +1808,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.66
+      "latency": 2.973
     },
     {
       "id": 148,
@@ -1820,7 +1820,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.021
+      "latency": 3.397
     },
     {
       "id": 149,
@@ -1828,11 +1828,11 @@
       "task": "ITEMS_LIST",
       "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
       "ground_truth": "Bắp Cải Trộn L, Nước ngọt Pepsi L, Khoai Tây Chiên L, Gà Giòn Cay 1 miếng, Bánh Trứng Egg Tart",
-      "prediction": "- Bắp Cải Trộn L: 4 đơn vị, đơn giá 22,000 đồng, tổng cộng 88,000 đồng\n- Nước ngọt Pepsi L: 4 đơn vị, đơn giá 19,000 đồng, tổng cộng 76,000 đồng\n- Khoai Tây Chiên L: 2 đơn vị, đơn giá 28,000 đồng,",
+      "prediction": "- Bắp Cải Trộn L: 4 đơn vị, đơn giá 22,000 đồng, tổng cộng 88,000 đồng\n- Nước ngọt Pepsi L: 4 đơn vị, đơn giá 19,000 đồng, tổng cộng 76,000 đồng\n- Khoai Tây Chiên L: 2 đơn vị, đơn giá 28,000 đồng, tổng cộng 56,000 đồng\n- Gà Giòn Cay 1 miếng: 1 đơn vị, đơn giá 39,000 đồng, tổng cộng 39,000 đồng\n- Bánh Trứng Egg Tart: 4 đơn vị, đơn giá 18,000 đồng, tổng cộng 72,000 đồng",
       "anls": 0.0,
       "exact_match": 0,
-      "f1": 0.3582,
-      "latency": 12.608
+      "f1": 0.4074,
+      "latency": 26.54
     },
     {
       "id": 150,
@@ -1844,7 +1844,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.54
+      "latency": 1.712
     },
     {
       "id": 151,
@@ -1856,7 +1856,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.587
+      "latency": 1.727
     },
     {
       "id": 152,
@@ -1868,7 +1868,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.719
+      "latency": 1.856
     },
     {
       "id": 153,
@@ -1880,7 +1880,7 @@
       "anls": 0.0,
       "exact_match": 0,
       "f1": 0.5714,
-      "latency": 1.309
+      "latency": 1.439
     },
     {
       "id": 154,
@@ -1892,7 +1892,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.419
+      "latency": 3.834
     },
     {
       "id": 155,
@@ -1904,7 +1904,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.894
+      "latency": 3.325
     },
     {
       "id": 156,
@@ -1916,7 +1916,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.505
+      "latency": 1.664
     },
     {
       "id": 157,
@@ -1928,7 +1928,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.467
+      "latency": 1.593
     },
     {
       "id": 158,
@@ -1940,7 +1940,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.735
+      "latency": 1.88
     },
     {
       "id": 159,
@@ -1952,7 +1952,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.675
+      "latency": 3.044
     },
     {
       "id": 160,
@@ -1964,7 +1964,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 3.097
+      "latency": 3.531
     },
     {
       "id": 161,
@@ -1976,7 +1976,7 @@
       "anls": 0.8911,
       "exact_match": 0,
       "f1": 0.9565,
-      "latency": 7.564
+      "latency": 8.634
     },
     {
       "id": 162,
@@ -1988,7 +1988,7 @@
       "anls": 0.875,
       "exact_match": 0,
       "f1": 0.5,
-      "latency": 1.786
+      "latency": 1.953
     },
     {
       "id": 163,
@@ -2000,7 +2000,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.463
+      "latency": 2.684
     },
     {
       "id": 164,
@@ -2012,7 +2012,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.637
+      "latency": 1.763
     },
     {
       "id": 165,
@@ -2024,7 +2024,7 @@
       "anls": 0.0,
       "exact_match": 0,
       "f1": 0.5714,
-      "latency": 1.318
+      "latency": 1.419
     },
     {
       "id": 166,
@@ -2036,7 +2036,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.945
+      "latency": 3.243
     },
     {
       "id": 167,
@@ -2048,7 +2048,7 @@
       "anls": 0.92,
       "exact_match": 0,
       "f1": 1.0,
-      "latency": 8.295
+      "latency": 9.388
     },
     {
       "id": 168,
@@ -2060,7 +2060,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.526
+      "latency": 1.651
     },
     {
       "id": 169,
@@ -2072,7 +2072,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.34
+      "latency": 1.407
     },
     {
       "id": 170,
@@ -2084,7 +2084,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.584
+      "latency": 1.688
     },
     {
       "id": 171,
@@ -2096,7 +2096,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.669
+      "latency": 3.006
     },
     {
       "id": 172,
@@ -2108,7 +2108,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 2.834
+      "latency": 3.169
     },
     {
       "id": 173,
@@ -2120,7 +2120,7 @@
       "anls": 0.913,
       "exact_match": 0,
       "f1": 1.0,
-      "latency": 4.758
+      "latency": 5.339
     },
     {
       "id": 174,
@@ -2132,7 +2132,7 @@
       "anls": 1.0,
       "exact_match": 1,
       "f1": 1.0,
-      "latency": 1.533
+      "latency": 1.671
     }
   ]
 }

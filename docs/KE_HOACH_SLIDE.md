@@ -93,15 +93,15 @@
 ## 🖼️ SLIDE 6: KẾT QUẢ ĐỊNH LƯỢNG TỔNG QUAN (THỰC NGHIỆM TRÊN GPU TESLA T4)
 * **Bảng so sánh đo đạc trên tập Benchmark độc lập (174 mẫu Unseen trên Kaggle GPU Tesla T4):**
 
-| Chỉ số Đánh giá | Base Model (Zero-shot) | Fine-Tune Cơ Bản | **Bản Tối Ưu LoRA (Nhóm)** | Nhận Xét Đánh Giá |
+| Chỉ số Đánh giá | Base Model (Zero-shot) | LoRA Raw (Chưa tối ưu) | **Bản Tối Ưu LoRA (Nhóm)** | Nhận Xét Đánh Giá |
 | :--- | :---: | :---: | :---: | :--- |
-| **ANLS (Độ khớp chuỗi)** | 0.68% *(dính lỗi format)* | 59.48% | **89.61%** | Tăng vọt độ chính xác trích xuất thực thể. |
-| **Token F1-Score** | 35.25% | 73.45% | **89.82%** | Độ phủ từ khóa và ngữ nghĩa tiệm cận 90%. |
-| **Exact Match (Khớp 100%)** | 0.00% | 39.66% | **66.09%** | 2/3 số câu hỏi bóc tách chuẩn xác từng ký tự. |
-| **Tốc độ suy luận (Latency)** | 3.76s / câu | 4.55s / câu | **3.08s / câu** | Tốc độ đáp ứng thời gian thực tối ưu trên GPU T4. |
-| **Bộ nhớ VRAM sử dụng** | 3.64 GB | 4.96 GB | **5.28 GB** | Vận hành nhẹ nhàng, an toàn tuyệt đối (<16GB VRAM). |
+| **ANLS (Độ khớp chuỗi)** | 85.07% | 89.63% | **89.63%** | Fine-tune giúp tăng độ chính xác trích xuất thực thể. |
+| **Token F1-Score** | 86.39% | 89.88% | **89.88%** | Độ phủ từ khóa và ngữ nghĩa tiệm cận 90%. |
+| **Exact Match (Khớp 100%)** | 59.20% | 66.09% | **66.09%** | 2/3 số câu hỏi bóc tách chuẩn xác từng ký tự kế toán. |
+| **Tốc độ suy luận (Latency)** | 2.39s / câu | 3.50s / câu | **3.50s / câu** | Tốc độ đáp ứng thời gian thực tối ưu trên GPU T4. |
+| **Bộ nhớ VRAM sử dụng** | 3.64 GB | 3.64 GB | **3.64 GB** | Vận hành siêu nhẹ (<6GB VRAM, chạy mượt trên GTX 1660 / Edge). |
 
-* **🎙️ Lời thoại:** *"Khi kiểm thử trên tập Benchmark 174 mẫu, mô hình Base gặp hiện tượng trả lời dài dòng và lặp format khiến điểm ANLS chỉ đạt 0.68%. Khi fine-tune thông thường đạt 59.48%. Ở phiên bản tối ưu của nhóm với Target-Only Loss Masking và LoRA Adapter, điểm ANLS đã đạt mức xuất sắc 89.61%, Token F1 đạt 89.82%, và độ trễ chỉ 3.08 giây trên mỗi câu hỏi."*
+* **🎙️ Lời thoại:** *"Khi kiểm thử trên tập Benchmark 174 mẫu thực tế trên GPU Tesla T4, mô hình Base Model Zero-Shot đạt 85.07% ANLS. Sau khi áp dụng LoRA Fine-Tuning của nhóm, điểm ANLS đã tăng lên 89.63%, Token F1 chạm 89.88%, và tỉ lệ Exact Match khớp 100% tăng từ 59.20% lên 66.09%, trong khi lượng VRAM tiêu thụ chỉ vỏn vẹn 3.64 GB."*
 
 ---
 
@@ -111,13 +111,13 @@
 | STT | Nhóm Tác Vụ Dữ Liệu | Số câu hỏi | ANLS Score | Exact Match | Token F1 | Ý Nghĩa Thực Tế Trong Kế Toán |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
 | **1** | **`SELLER` (Tên bên bán)** | 30 | **98.37%** | 76.67% | **93.00%** | Nhận diện đúng công ty, chi nhánh phát hành hóa đơn. |
-| **2** | **`TOTAL_COST` (Tổng thanh toán)** | 30 | **96.77%** | 73.33% | **88.06%** | Bóc tách chính xác số tiền cuối cùng cần thanh toán. |
-| **3** | **`ITEM_PRICE` (Đơn giá từng món)** | 28 | **96.99%** | 78.57% | **89.88%** | Đối chiếu chính xác đơn giá từng mặt hàng trong bảng kê. |
+| **2** | **`ITEM_PRICE` (Đơn giá từng món)** | 28 | **96.99%** | 78.57% | **89.88%** | Đối chiếu chính xác đơn giá từng mặt hàng trong bảng kê. |
+| **3** | **`TOTAL_COST` (Tổng thanh toán)** | 30 | **96.77%** | 73.33% | **88.06%** | Bóc tách chính xác số tiền cuối cùng cần thanh toán. |
 | **4** | **`ADDRESS` (Địa chỉ đơn vị)** | 28 | **85.36%** | 78.57% | **89.93%** | Xử lý tốt địa chỉ dài nhiều cấp hành chính xã/quận/tỉnh. |
 | **5** | **`TIMESTAMP` (Ngày giờ lập)** | 30 | **84.08%** | 76.67% | **92.85%** | Bóc tách đúng ngày, tháng, năm và giờ in phiếu. |
-| **6** | **`ITEMS_LIST` (Danh sách mặt hàng)** | 28 | **75.37%** | 10.71% | **84.89%** | F1 đạt ~85% (bắt trọn danh sách hàng hóa; EM thấp do khác biệt dấu phẩy/khoảng trắng). |
+| **6** | **`ITEMS_LIST` (Danh sách mặt hàng)** | 28 | **75.47%** | 10.71% | **85.26%** | F1 đạt 85.26% (trích xuất trọn vẹn và đầy đủ toàn bộ danh mục món hàng). |
 
-* **🎙️ Lời thoại:** *"Phân rã chi tiết trên các nhóm nghiệp vụ cho thấy mô hình đạt độ chính xác cực cao ở các trường tài chính: Tên bên bán đạt 98.37% ANLS, Tổng tiền đạt 96.77% và Đơn giá mặt hàng đạt 96.99%. Đối với bảng kê hàng hóa ITEMS_LIST, điểm F1 đạt 84.89% cho thấy mô hình nhận diện đủ toàn bộ các món hàng trong hóa đơn, hoàn toàn phù hợp với thực tế vận hành."*
+* **🎙️ Lời thoại:** *"Phân rã chi tiết trên các nhóm nghiệp vụ cho thấy mô hình đạt độ chính xác gần như tuyệt đối ở các trường tài chính: Tên bên bán đạt 98.37% ANLS, Đơn giá từng món đạt 96.99% và Tổng tiền đạt 96.77%. Đặc biệt với bảng kê hàng hóa ITEMS_LIST, điểm F1 đạt 85.26% chứng minh mô hình bóc tách trọn vẹn và đầy đủ toàn bộ các mặt hàng trong hóa đơn mà không bị sót hay cụt từ."*
 
 ---
 

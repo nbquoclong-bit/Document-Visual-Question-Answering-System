@@ -1,0 +1,1394 @@
+validation_samples = [
+  {
+    "id": 1,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CÔNG TY CỔ PHẦN ĐẦU TƯ & PHÁT TRIỂN HƯNG PHÁT"
+  },
+  {
+    "id": 2,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "24,389,200đ"
+  },
+  {
+    "id": 3,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "13/06/2026 15:43"
+  },
+  {
+    "id": 4,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 322 Lý Thường Kiệt, Quận Ba Đình, Hà Nội"
+  },
+  {
+    "id": 5,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Bút bi Thiên Long FO-03, Giấy Double A A4 70gsm, Dịch vụ Bảo trì Hệ thống mạng, Máy in HP LaserJet Pro, Mực in Canon Cartridge"
+  },
+  {
+    "id": 6,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Bút bi Thiên Long FO-03 là bao nhiêu?",
+    "ground_truth": "12,000"
+  },
+  {
+    "id": 7,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CÔNG TY TNHH THƯƠNG MẠI & DỊCH VỤ KHÁNH AN"
+  },
+  {
+    "id": 8,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "16,393,300đ"
+  },
+  {
+    "id": 9,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "31/05/2026 09:04"
+  },
+  {
+    "id": 10,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 375 Nguyễn Trãi, Quận Bình Thạnh, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 11,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Giấy Double A A4 70gsm, Bút bi Thiên Long FO-03, Dịch vụ Bảo trì Hệ thống mạng, Mực in Canon Cartridge, Máy in HP LaserJet Pro"
+  },
+  {
+    "id": 12,
+    "template": "einvoice_viettel",
+    "image_name": "einvoice_viettel_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Giấy Double A A4 70gsm là bao nhiêu?",
+    "ground_truth": "195,000"
+  },
+  {
+    "id": 13,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CÔNG TY TNHH PHÁT TRIỂN CÔNG NGHỆ HOÀNG PHÁT"
+  },
+  {
+    "id": 14,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "7,326,000đ"
+  },
+  {
+    "id": 15,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "06/06/2026 11:59"
+  },
+  {
+    "id": 16,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 99 Nguyễn Huệ, Quận 7, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 17,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Chuột không dây Logitech, Bàn phím cơ Dareu EK87, Dịch vụ Lắp đặt camera giám sát, Bộ phát Wifi TP-Link Archer"
+  },
+  {
+    "id": 18,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Chuột không dây Logitech là bao nhiêu?",
+    "ground_truth": "1,160,000"
+  },
+  {
+    "id": 19,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CÔNG TY TNHH PHÁT TRIỂN CÔNG NGHỆ HOÀNG PHÁT"
+  },
+  {
+    "id": 20,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "11,167,200đ"
+  },
+  {
+    "id": 21,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "20/06/2026 18:23"
+  },
+  {
+    "id": 22,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 19 Lý Thường Kiệt, Quận 1, Hải Phòng"
+  },
+  {
+    "id": 23,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Bộ phát Wifi TP-Link Archer, Chuột không dây Logitech, Dịch vụ Lắp đặt camera giám sát, Cáp mạng Cat6 UTP 305m, Bàn phím cơ Dareu EK87"
+  },
+  {
+    "id": 24,
+    "template": "einvoice_vnpt",
+    "image_name": "einvoice_vnpt_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Bộ phát Wifi TP-Link Archer là bao nhiêu?",
+    "ground_truth": "3,400,000"
+  },
+  {
+    "id": 25,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "TRUNG TÂM Y TẾ HUYỆN GIA LÂM"
+  },
+  {
+    "id": 26,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "165.000 VND"
+  },
+  {
+    "id": 27,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "Ngày 17 tháng 06 năm 2026"
+  },
+  {
+    "id": 28,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 255 Bùi Thị Xuân, Quận Hoàn Kiếm, Hà Nội"
+  },
+  {
+    "id": 29,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI"
+  },
+  {
+    "id": 30,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "1.705.000 VND"
+  },
+  {
+    "id": 31,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "Ngày 15 tháng 06 năm 2026"
+  },
+  {
+    "id": 32,
+    "template": "receipt_c45_bb",
+    "image_name": "receipt_c45_bb_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 173 Nguyễn Huệ, Quận 1, Bình Dương"
+  },
+  {
+    "id": 33,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "VINCOMMERCE"
+  },
+  {
+    "id": 34,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "94.050"
+  },
+  {
+    "id": 35,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "12/06/2026 13:46"
+  },
+  {
+    "id": 36,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 102 Hai Bà Trưng, Quận 1, Hải Phòng"
+  },
+  {
+    "id": 37,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Coca Cola Lon 320ml, Nước rửa chén Sunlight 750ml, Khăn giấy Pulppy 100 tờ, Mì tôm Hảo Hảo chua cay"
+  },
+  {
+    "id": 38,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Coca Cola Lon 320ml là bao nhiêu?",
+    "ground_truth": "10.000"
+  },
+  {
+    "id": 39,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "VM+HN TRẦN DUY HƯNG"
+  },
+  {
+    "id": 40,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "407.160"
+  },
+  {
+    "id": 41,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "06/06/2026 17:28"
+  },
+  {
+    "id": 42,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 220 Lý Thường Kiệt, Quận Hoàn Kiếm, Hà Nội"
+  },
+  {
+    "id": 43,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Dầu ăn Simply 1L, Mì tôm Hảo Hảo chua cay, Bánh Custas Orion 6P, Coca Cola Lon 320ml"
+  },
+  {
+    "id": 44,
+    "template": "supermarket_winmart",
+    "image_name": "supermarket_winmart_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Dầu ăn Simply 1L là bao nhiêu?",
+    "ground_truth": "224.000"
+  },
+  {
+    "id": 45,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "SAIGON CO.OP"
+  },
+  {
+    "id": 46,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "759,550.00"
+  },
+  {
+    "id": 47,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "21/05/2026 18:55:00"
+  },
+  {
+    "id": 48,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 274 Cách Mạng Tháng Tám, Quận 1, Cần Thơ"
+  },
+  {
+    "id": 49,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Bia Heineken Lon 330ml, Khăn ướt Bobby 80 tờ, Bột giặt Ariel 3.2kg, Hộp dâu tây Đà Lạt 250g"
+  },
+  {
+    "id": 50,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Bia Heineken Lon 330ml là bao nhiêu?",
+    "ground_truth": "19,500.00"
+  },
+  {
+    "id": 51,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CO.OPMART CỐNG QUỲNH"
+  },
+  {
+    "id": 52,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "1,015,200.00"
+  },
+  {
+    "id": 53,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "31/05/2026 09:44:00"
+  },
+  {
+    "id": 54,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 32 Nguyễn Huệ, Quận Cầu Giấy, Hà Nội"
+  },
+  {
+    "id": 55,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Bánh quy Cosy Kinh Đô, Hộp dâu tây Đà Lạt 250g, Nước cam ép Twister 1L, Khăn ướt Bobby 80 tờ, Bột giặt Ariel 3.2kg"
+  },
+  {
+    "id": 56,
+    "template": "supermarket_lotte",
+    "image_name": "supermarket_lotte_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Bánh quy Cosy Kinh Đô là bao nhiêu?",
+    "ground_truth": "44,000.00"
+  },
+  {
+    "id": 57,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "BÁCH HÓA XANH"
+  },
+  {
+    "id": 58,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "233,200"
+  },
+  {
+    "id": 59,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "21/05/2026 13:25"
+  },
+  {
+    "id": 60,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 127 Hai Bà Trưng, Quận 1, Bình Dương"
+  },
+  {
+    "id": 61,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Rau muống nước 500g, Thịt đùi heo 500g"
+  },
+  {
+    "id": 62,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Rau muống nước 500g là bao nhiêu?",
+    "ground_truth": "8,000"
+  },
+  {
+    "id": 63,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "BÁCH HÓA XANH"
+  },
+  {
+    "id": 64,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "108,900"
+  },
+  {
+    "id": 65,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "08/06/2026 19:12"
+  },
+  {
+    "id": 66,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 189 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 67,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Thịt ba rọi heo 500g, Rau muống nước 500g"
+  },
+  {
+    "id": 68,
+    "template": "supermarket_bachhoaxanh",
+    "image_name": "supermarket_bachhoaxanh_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Thịt ba rọi heo 500g là bao nhiêu?",
+    "ground_truth": "75,000"
+  },
+  {
+    "id": 69,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CIRCLE K"
+  },
+  {
+    "id": 70,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "92,400đ"
+  },
+  {
+    "id": 71,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "07/06/2026 14:03"
+  },
+  {
+    "id": 72,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 395 Trần Hưng Đạo, Quận Hai Bà Trưng, Hà Nội"
+  },
+  {
+    "id": 73,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Xúc xích tiệt trùng Ponnie, Trà xanh Không Độ 500ml, Kẹo cao su Cool Air hũ"
+  },
+  {
+    "id": 74,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Xúc xích tiệt trùng Ponnie là bao nhiêu?",
+    "ground_truth": "8,000"
+  },
+  {
+    "id": 75,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "Circle K Lê Lợi"
+  },
+  {
+    "id": 76,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "129,800đ"
+  },
+  {
+    "id": 77,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "16/06/2026 18:08"
+  },
+  {
+    "id": 78,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 24 Lý Thường Kiệt, Quận Ba Đình, Hà Nội"
+  },
+  {
+    "id": 79,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Bánh bao trứng muối, Trà xanh Không Độ 500ml, Băng cá nhân Urgo hộp 10 miếng"
+  },
+  {
+    "id": 80,
+    "template": "convenience_circlek",
+    "image_name": "convenience_circlek_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Bánh bao trứng muối là bao nhiêu?",
+    "ground_truth": "48,000"
+  },
+  {
+    "id": 81,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "GS25 TÔN THẤT THUYẾT"
+  },
+  {
+    "id": 82,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "117,720đ"
+  },
+  {
+    "id": 83,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "30/05/2026 16:59"
+  },
+  {
+    "id": 84,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 242 Bùi Thị Xuân, Quận 1, Đồng Nai"
+  },
+  {
+    "id": 85,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Xúc xích Đức ăn liền, Bánh giò thịt băm trứng cút, Trà sữa Kirin Latte 345ml, Cơm nắm cá hồi sốt Mayo"
+  },
+  {
+    "id": 86,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Xúc xích Đức ăn liền là bao nhiêu?",
+    "ground_truth": "20,000"
+  },
+  {
+    "id": 87,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "GS25 NGUYỄN HUỆ"
+  },
+  {
+    "id": 88,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "77,760đ"
+  },
+  {
+    "id": 89,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "19/06/2026 19:05"
+  },
+  {
+    "id": 90,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 238 Lê Lợi, Quận 1, Cần Thơ"
+  },
+  {
+    "id": 91,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Trà sữa Kirin Latte 345ml, Xúc xích Đức ăn liền"
+  },
+  {
+    "id": 92,
+    "template": "convenience_gs25",
+    "image_name": "convenience_gs25_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Trà sữa Kirin Latte 345ml là bao nhiêu?",
+    "ground_truth": "32,000"
+  },
+  {
+    "id": 93,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "7-Eleven Saigon Trade Center"
+  },
+  {
+    "id": 94,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "66,000"
+  },
+  {
+    "id": 95,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "29/05/2026 22:37"
+  },
+  {
+    "id": 96,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Mì xào tương đen, Nước khoáng Dasani 500ml"
+  },
+  {
+    "id": 97,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Mì xào tương đen là bao nhiêu?",
+    "ground_truth": "40,000"
+  },
+  {
+    "id": 98,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "7-ELEVEN BÙI VIỆN"
+  },
+  {
+    "id": 99,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "321,840"
+  },
+  {
+    "id": 100,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "10/06/2026 21:34"
+  },
+  {
+    "id": 101,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Trà đào sả Slurpee, Kẹo dẻo Haribo Goldbears, Snack khoai tây Lays 95g, Sandwich xá xíu phô mai, Nước khoáng Dasani 500ml, Mì xào tương đen"
+  },
+  {
+    "id": 102,
+    "template": "convenience_7eleven",
+    "image_name": "convenience_7eleven_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Trà đào sả Slurpee là bao nhiêu?",
+    "ground_truth": "36,000"
+  },
+  {
+    "id": 103,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "HIGHLANDS COFFEE TRẦN HƯNG ĐẠO"
+  },
+  {
+    "id": 104,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "796,068"
+  },
+  {
+    "id": 105,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "31/05/2026 16:41"
+  },
+  {
+    "id": 106,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 116 Bùi Thị Xuân, Thành phố Thủ Đức, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 107,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Trà Sen Vàng Size M, Cà Phê Đen Đá Size M, Trà Thạch Đào Size L, Bánh Tiramisu, Freeze Trà Xanh Size M, Phin Sữa Đá Size L"
+  },
+  {
+    "id": 108,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Trà Sen Vàng Size M là bao nhiêu?",
+    "ground_truth": "135,000"
+  },
+  {
+    "id": 109,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "HIGHLANDS COFFEE"
+  },
+  {
+    "id": 110,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "434,160"
+  },
+  {
+    "id": 111,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "29/05/2026 19:24"
+  },
+  {
+    "id": 112,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 398 Nguyễn Trãi, Quận 1, Đồng Nai"
+  },
+  {
+    "id": 113,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Bánh Tiramisu, Trà Sen Vàng Size M, Phin Sữa Đá Size L"
+  },
+  {
+    "id": 114,
+    "template": "cafe_highlands",
+    "image_name": "cafe_highlands_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Bánh Tiramisu là bao nhiêu?",
+    "ground_truth": "105,000"
+  },
+  {
+    "id": 115,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "PHÚC LONG NGUYỄN VĂN CỪ"
+  },
+  {
+    "id": 116,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "506,825"
+  },
+  {
+    "id": 117,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "01/06/2026 21:19"
+  },
+  {
+    "id": 118,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 62 Lý Thường Kiệt, Quận 1, Hải Phòng"
+  },
+  {
+    "id": 119,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Hồng Trà Sữa M, Trà Đào Phúc Long L, Trà Lài Đác Thơm L, Bánh Croissant Bơ Pháp, Trà sữa Phúc Long L, Cà phê Latte"
+  },
+  {
+    "id": 120,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Hồng Trà Sữa M là bao nhiêu?",
+    "ground_truth": "45,000"
+  },
+  {
+    "id": 121,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "PHÚC LONG LÊ LAI"
+  },
+  {
+    "id": 122,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "306,900"
+  },
+  {
+    "id": 123,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "14/06/2026 14:56"
+  },
+  {
+    "id": 124,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 436 Nguyễn Trãi, Quận 1, Hải Phòng"
+  },
+  {
+    "id": 125,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Trà sữa Phúc Long L, Hồng Trà Sữa M, Bánh Croissant Bơ Pháp"
+  },
+  {
+    "id": 126,
+    "template": "cafe_phuclong",
+    "image_name": "cafe_phuclong_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Trà sữa Phúc Long L là bao nhiêu?",
+    "ground_truth": "150,000"
+  },
+  {
+    "id": 127,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "STARBUCKS HÀN THUYÊN"
+  },
+  {
+    "id": 128,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "841,500"
+  },
+  {
+    "id": 129,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "03/06/2026"
+  },
+  {
+    "id": 130,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 152 Trần Hưng Đạo, Quận Ngũ Hành Sơn, Đà Nẵng"
+  },
+  {
+    "id": 131,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Caffe Americano L, Chocolate Muffin, Butter Croissant, Caramel Macchiato L, Cold Brew Coffee M, Green Tea Latte M"
+  },
+  {
+    "id": 132,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Caffe Americano L là bao nhiêu?",
+    "ground_truth": "180,000"
+  },
+  {
+    "id": 133,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "STARBUCKS HÀN THUYÊN"
+  },
+  {
+    "id": 134,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "502,740"
+  },
+  {
+    "id": 135,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "19/06/2026"
+  },
+  {
+    "id": 136,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 48 Lê Lợi, Thành phố Thủ Đức, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 137,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Chocolate Muffin, Cold Brew Coffee M, Butter Croissant, Green Tea Latte M"
+  },
+  {
+    "id": 138,
+    "template": "cafe_starbucks",
+    "image_name": "cafe_starbucks_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Chocolate Muffin là bao nhiêu?",
+    "ground_truth": "90,000"
+  },
+  {
+    "id": 139,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "KFC Bà Hom"
+  },
+  {
+    "id": 140,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "437,800"
+  },
+  {
+    "id": 141,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "02/06/2026 15:04"
+  },
+  {
+    "id": 142,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 198 Cách Mạng Tháng Tám, Quận 1, Đồng Nai"
+  },
+  {
+    "id": 143,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Nước ngọt Pepsi L, Khoai Tây Chiên L, Burger Tôm, Bánh Trứng Egg Tart, Bắp Cải Trộn L"
+  },
+  {
+    "id": 144,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Nước ngọt Pepsi L là bao nhiêu?",
+    "ground_truth": "38,000"
+  },
+  {
+    "id": 145,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "KFC VIỆT NAM"
+  },
+  {
+    "id": 146,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "364,100"
+  },
+  {
+    "id": 147,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "07/06/2026 15:54"
+  },
+  {
+    "id": 148,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 437 Bùi Thị Xuân, Quận 1, Bình Dương"
+  },
+  {
+    "id": 149,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Bắp Cải Trộn L, Nước ngọt Pepsi L, Khoai Tây Chiên L, Gà Giòn Cay 1 miếng, Bánh Trứng Egg Tart"
+  },
+  {
+    "id": 150,
+    "template": "restaurant_kfc",
+    "image_name": "restaurant_kfc_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Bắp Cải Trộn L là bao nhiêu?",
+    "ground_truth": "88,000"
+  },
+  {
+    "id": 151,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "JOLLIBEE COOPMART"
+  },
+  {
+    "id": 152,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "127,440đ"
+  },
+  {
+    "id": 153,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "02/06/2026 21:31"
+  },
+  {
+    "id": 154,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 408 Cách Mạng Tháng Tám, Quận Tân Bình, TP. Hồ Chí Minh"
+  },
+  {
+    "id": 155,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Khoai Tây Lắc Phô Mai, Nước ngọt 7Up L"
+  },
+  {
+    "id": 156,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Khoai Tây Lắc Phô Mai là bao nhiêu?",
+    "ground_truth": "50,000"
+  },
+  {
+    "id": 157,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "JOLLIBEE VINCOM"
+  },
+  {
+    "id": 158,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "422,400đ"
+  },
+  {
+    "id": 159,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "25/05/2026 22:53"
+  },
+  {
+    "id": 160,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 179 Hai Bà Trưng, Quận Đống Đa, Hà Nội"
+  },
+  {
+    "id": 161,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Gà Giòn Vui Vẻ 1 miếng, Khoai Tây Lắc Phô Mai, Mì Ý Sốt Bò Bằm, Bánh Khoai Môn, Nước ngọt 7Up L"
+  },
+  {
+    "id": 162,
+    "template": "restaurant_jollibee",
+    "image_name": "restaurant_jollibee_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Gà Giòn Vui Vẻ 1 miếng là bao nhiêu?",
+    "ground_truth": "105,000"
+  },
+  {
+    "id": 163,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_001.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "CỬA HÀNG TIỆN LỢI AN AN"
+  },
+  {
+    "id": 164,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_001.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "207.900"
+  },
+  {
+    "id": 165,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_001.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "02/06/2026 20:13"
+  },
+  {
+    "id": 166,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_001.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 151 Nguyễn Huệ, Quận Đống Đa, Hà Nội"
+  },
+  {
+    "id": 167,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_001.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Kem đánh răng Colgate, Bánh bao trứng muối, Xúc xích tiệt trùng Ponnie, Mì Ly ăn liền Modern, Nước uống Aquafina 500ml, Trà xanh Không Độ 500ml"
+  },
+  {
+    "id": 168,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_001.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Kem đánh răng Colgate là bao nhiêu?",
+    "ground_truth": "64.000"
+  },
+  {
+    "id": 169,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_002.png",
+    "field": "SELLER",
+    "question": "Tên đơn vị / người bán hàng trên hóa đơn là gì?",
+    "ground_truth": "MINIMART ANAN"
+  },
+  {
+    "id": 170,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_002.png",
+    "field": "TOTAL_COST",
+    "question": "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?",
+    "ground_truth": "661.100"
+  },
+  {
+    "id": 171,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_002.png",
+    "field": "TIMESTAMP",
+    "question": "Ngày giờ lập hóa đơn là khi nào?",
+    "ground_truth": "26/05/2026 14:30"
+  },
+  {
+    "id": 172,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_002.png",
+    "field": "ADDRESS",
+    "question": "Địa chỉ của đơn vị bán hàng là ở đâu?",
+    "ground_truth": "Số 70 Nguyễn Huệ, Quận Thanh Khê, Đà Nẵng"
+  },
+  {
+    "id": 173,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_002.png",
+    "field": "ITEMS_LIST",
+    "question": "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?",
+    "ground_truth": "Bánh bao trứng muối, Bột giặt Ariel 3.2kg, Kẹo cao su Cool Air hũ"
+  },
+  {
+    "id": 174,
+    "template": "minimart_anan",
+    "image_name": "minimart_anan_val_002.png",
+    "field": "ITEM_PRICE",
+    "question": "Thành tiền của Bánh bao trứng muối là bao nhiêu?",
+    "ground_truth": "32.000"
+  }
+]
