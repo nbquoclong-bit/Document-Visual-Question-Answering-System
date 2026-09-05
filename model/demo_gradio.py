@@ -119,7 +119,7 @@ for special_tok in ["<|im_end|>", "<|endoftext|>"]:
     if isinstance(tok_id, int) and tok_id not in eos_ids:
         eos_ids.append(tok_id)
 
-def predict_docvqa(image, question, schema_format="Canonical (Quốc tế)"):
+def predict_docvqa(image, question):
     if image is None:
         return "⚠️ Vui lòng tải lên ảnh hóa đơn hoặc chứng từ.", "--", "0.00s", "0.00 GB"
     if not question or not question.strip():
@@ -127,7 +127,7 @@ def predict_docvqa(image, question, schema_format="Canonical (Quốc tế)"):
         
     t0 = time.time()
     q_lower = question.lower()
-    is_json = any(k in q_lower for k in ["json", "toàn bộ", "cấu trúc", "tất cả", "hạng mục", "misa", "sap", "fast"])
+    is_json = any(k in q_lower for k in ["json", "toàn bộ", "cấu trúc", "tất cả", "hạng mục"])
     is_items = any(k in q_lower for k in ["danh sách", "món", "hàng", "dịch vụ", "mặt hàng"])
     max_tokens = 1024 if is_json else (384 if is_items else 160)
     
@@ -173,11 +173,6 @@ def predict_docvqa(image, question, schema_format="Canonical (Quốc tế)"):
             r'^The address of the selling company is at\s*'
         ]:
             clean_ans = re.sub(p, '', clean_ans, flags=re.IGNORECASE).strip()
-    else:
-        # Áp dụng Enterprise Schema Adapter nếu người dùng chọn định dạng kế toán cụ thể
-        if schema_format != "Canonical (Quốc tế)":
-            adapted_dict = SchemaAdapter.adapt(clean_ans, target_format=schema_format)
-            clean_ans = json.dumps(adapted_dict, ensure_ascii=False, indent=2)
             
     lat = time.time() - t0
     vram = (torch.cuda.memory_allocated() / (1024**3)) if torch.cuda.is_available() else 0.0
@@ -185,7 +180,6 @@ def predict_docvqa(image, question, schema_format="Canonical (Quốc tế)"):
 
 with gr.Blocks(title="Document Visual QA Pro - Qwen2.5-VL", theme=gr.themes.Soft()) as demo:
     gr.Markdown("# 📄 Hệ Thống Document Visual Question Answering (DocVQA Pro)")
-    gr.Markdown("💡 Mô hình **Qwen2.5-VL-3B Pure End-to-End (LoRA Fine-Tuned 89.63% ANLS)**. Bóc tách hóa đơn tiếng Việt & **Độ tin cậy toán học (Confidence Score)**.")
     
     with gr.Row():
         with gr.Column(scale=1):
@@ -197,23 +191,13 @@ with gr.Blocks(title="Document Visual QA Pro - Qwen2.5-VL", theme=gr.themes.Soft
                 label="💬 2. Câu hỏi cần bóc tách / Prompt nghiệp vụ"
             )
             
-            schema_choice = gr.Radio(
-                choices=["Canonical (Quốc tế)", "MISA meInvoice", "SAP S/4HANA ERP", "FAST Accounting"],
-                value="Canonical (Quốc tế)",
-                label="🏢 Chuẩn Hóa Schema Kế Toán (Enterprise Adapter)"
-            )
-            
             with gr.Row():
                 btn_json = gr.Button("🧾 Trích xuất JSON", variant="primary", size="sm")
-                btn_misa = gr.Button("🏢 Xuất MISA JSON", size="sm")
-                btn_sap = gr.Button("🌐 Xuất SAP ERP", size="sm")
-                btn_fast = gr.Button("⚡ Xuất FAST JSON", size="sm")
-            with gr.Row():
                 btn_total = gr.Button("💰 Tổng tiền", size="sm")
                 btn_items = gr.Button("📦 Danh sách món", size="sm")
                 btn_tax = gr.Button("🔢 Mã số thuế", size="sm")
-                btn_vendor = gr.Button("🏢 Tên bên bán", size="sm")
             with gr.Row():
+                btn_vendor = gr.Button("🏢 Tên bên bán", size="sm")
                 btn_date = gr.Button("📅 Ngày lập", size="sm")
                 btn_addr = gr.Button("📍 Địa chỉ", size="sm")
                 
@@ -231,11 +215,7 @@ with gr.Blocks(title="Document Visual QA Pro - Qwen2.5-VL", theme=gr.themes.Soft
                 vram_output = gr.Textbox(label="🧠 VRAM sử dụng", interactive=False)
                 
     json_prompt = "Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON đầy đủ 100% tất cả các trường và từng hạng mục mặt hàng."
-    btn_json.click(fn=lambda: (json_prompt, "Canonical (Quốc tế)"), outputs=[q_input, schema_choice])
-    btn_misa.click(fn=lambda: (json_prompt, "MISA meInvoice"), outputs=[q_input, schema_choice])
-    btn_sap.click(fn=lambda: (json_prompt, "SAP S/4HANA ERP"), outputs=[q_input, schema_choice])
-    btn_fast.click(fn=lambda: (json_prompt, "FAST Accounting"), outputs=[q_input, schema_choice])
-    
+    btn_json.click(fn=lambda: json_prompt, outputs=q_input)
     btn_total.click(fn=lambda: "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?", outputs=q_input)
     btn_items.click(fn=lambda: "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?", outputs=q_input)
     btn_tax.click(fn=lambda: "Mã số thuế của đơn vị bán hàng trên hóa đơn là gì?", outputs=q_input)
@@ -245,7 +225,7 @@ with gr.Blocks(title="Document Visual QA Pro - Qwen2.5-VL", theme=gr.themes.Soft
     
     btn_submit.click(
         fn=predict_docvqa, 
-        inputs=[img_input, q_input, schema_choice], 
+        inputs=[img_input, q_input], 
         outputs=[txt_output, conf_output, lat_output, vram_output]
     )
 
