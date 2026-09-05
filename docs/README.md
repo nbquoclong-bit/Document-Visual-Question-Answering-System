@@ -21,10 +21,13 @@ Document-Visual-Question-Answering-System/
 │   │   ├── vlm_train_master.json                   (97,508 mẫu Train Master ~34MB)
 │   │   ├── vlm_val_master.json                     (17,208 mẫu Val Master ~5.9MB)
 │   │   └── dataset_summary.json                    (Bản tóm tắt phân bổ)
-│   ├── output/                                     (Báo cáo kết quả đánh giá định lượng)
-│   │   ├── qwen2_5_vl_baseline_report.json         (Kết quả 174 câu hỏi Base Model trên GPU)
-│   │   ├── evaluation_report.json                  (Kết quả sau khi Fine-Tune LoRA)
-│   │   └── optimized_evaluation_report.json        (Kết quả sau khi Optimize: 94.94% ANLS)
+│   ├── output/                                     (Báo cáo kết quả đánh giá định lượng - Xem README.md chi tiết)
+│   │   ├── 01_qwen2_vl_2b_baseline_legacy.json     (Thế hệ 1: Base 2B trên 45 mẫu)
+│   │   ├── 02_qwen2_5_vl_3b_baseline_zeroshot.json (Thế hệ 2: Base 3B Zero-shot trên 174 mẫu - 0.68% ANLS)
+│   │   ├── 03_qwen2_5_vl_3b_lora_raw_uncleaned.json (Thế hệ 3: LoRA chưa tối ưu hậu xử lý - 59.48% ANLS)
+│   │   ├── 04_qwen2_5_vl_3b_lora_optimized_kaggle_gpu.json (🌟 CHUẨN KAGGLE GPU: LoRA + Optimized - 89.61% ANLS)
+│   │   ├── evaluation_report.json                  (Bản sao chính thức của 04 cho các script mặc định)
+│   │   └── README.md                               (Bảng tổng hợp so sánh chi tiết & Task Breakdown)
 │   └── stage1_vlm/                                 (Mô hình Qwen2.5-VL / Qwen2-VL kèm LoRA)
 │
 ├── 📁 backend/                                     <-- ⚙️ BACKEND FASTAPI & ĐỘ TIN CẬY

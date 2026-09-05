@@ -132,7 +132,7 @@
 
 # PHẦN 5: KẾT QUẢ ĐO LƯỜNG THỰC NGHIỆM BASE MODEL (ZERO-SHOT) TRÊN GPU
 
-Nhóm đã tiến hành kiểm thử thực tế mô hình gốc **Qwen2.5-VL-3B-Instruct (Zero-Shot)** trên toàn bộ **174 câu hỏi kiểm định** thuộc 15 loại mẫu hóa đơn trên **GPU NVIDIA Tesla T4** (`model/output/qwen2_5_vl_baseline_report.json`).
+Nhóm đã tiến hành kiểm thử thực tế mô hình gốc **Qwen2.5-VL-3B-Instruct (Zero-Shot)** trên toàn bộ **174 câu hỏi kiểm định** thuộc 15 loại mẫu hóa đơn trên **GPU NVIDIA Tesla T4** (`model/output/02_qwen2_5_vl_3b_baseline_zeroshot.json`).
 
 ### 5.1. Bảng số liệu định lượng thực tế
 
@@ -377,10 +377,10 @@ Nhóm đã áp dụng **4 bước tối ưu hóa đồng bộ** để đạt bư
 
 # PHẦN 15: BẢN ĐỒ FILE TRONG REPOSITORY CHUẨN BỊ ĐẨY LÊN GITHUB
 
-* 📊 [**`model/output/optimized_evaluation_report.json`**](file:///d:/STUDY/MLIoT/project/model/output/optimized_evaluation_report.json) – Báo cáo kiểm định mô hình tối ưu đạt **94.94% ANLS & 92.80% F1**
-* 🧠 [**`model/hyperparameter_tuning.py`**](file:///d:/STUDY/MLIoT/project/model/hyperparameter_tuning.py) – Module AutoML (Gradient LR Finder + Optuna TPE)
-* ⚙️ [**`model/optimal_hyperparameters.json`**](file:///d:/STUDY/MLIoT/project/model/optimal_hyperparameters.json) – File cấu hình siêu tham số tối ưu vàng
-* 📄 [**`model/output/qwen2_5_vl_baseline_report.json`**](file:///d:/STUDY/MLIoT/project/model/output/qwen2_5_vl_baseline_report.json) – Báo cáo thực nghiệm 174 câu hỏi của Base Model trên GPU
+* 📊 [**`model/output/04_qwen2_5_vl_3b_lora_optimized_kaggle_gpu.json`**](file:///d:/STUDY/MLIoT/project%20cuối%20kì/Document-Visual-Question-Answering-System/model/output/04_qwen2_5_vl_3b_lora_optimized_kaggle_gpu.json) – Báo cáo kiểm định thực tế chuẩn trên Kaggle GPU đạt **89.61% ANLS & 89.82% F1**
+* 🧠 [**`model/hyperparameter_tuning.py`**](file:///d:/STUDY/MLIoT/project%20cuối%20kì/Document-Visual-Question-Answering-System/model/hyperparameter_tuning.py) – Module AutoML (Gradient LR Finder + Optuna TPE)
+* ⚙️ [**`model/optimal_hyperparameters.json`**](file:///d:/STUDY/MLIoT/project%20cuối%20kì/Document-Visual-Question-Answering-System/model/optimal_hyperparameters.json) – File cấu hình siêu tham số tối ưu vàng
+* 📄 [**`model/output/02_qwen2_5_vl_3b_baseline_zeroshot.json`**](file:///d:/STUDY/MLIoT/project%20cuối%20kì/Document-Visual-Question-Answering-System/model/output/02_qwen2_5_vl_3b_baseline_zeroshot.json) – Báo cáo thực nghiệm 174 câu hỏi của Base Model trên GPU
 * 📦 [**`model/data/vlm_train_master.json`**](file:///d:/STUDY/MLIoT/project/model/data/vlm_train_master.json) – 97,508 mẫu Train Master (~34.0 MB)
 * 📦 [**`model/data/vlm_val_master.json`**](file:///d:/STUDY/MLIoT/project/model/data/vlm_val_master.json) – 17,208 mẫu Validation Master (~5.98 MB)
 * 🚀 [**`kaggle_automation/train_qwen2_5_vl.py`**](file:///d:/STUDY/MLIoT/project/kaggle_automation/train_qwen2_5_vl.py) – Script tự động đẩy huấn luyện LoRA lên Kaggle GPU
