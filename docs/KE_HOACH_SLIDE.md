@@ -5,25 +5,25 @@
 > 1. **Bài toán là gì?** (The Problem & Pain Points)
 > 2. **Giải quyết bài toán như thế nào?** (Approach & Pure End-to-End VLM)
 > 3. **Pipeline hệ thống?** (Architecture & End-to-End Flow)
-> 4. **Giải quyết bài toán ra sao?** (Results on 8 Tasks, Failure Case Study, Video Demo & Impact)
+> 4. **Giải quyết bài toán ra sao?** (Results on 6 Accounting Tasks, Failure Case Study, Video Demo & Impact)
 >
-> 💡 **Điểm tối ưu:** Lược bỏ toàn bộ công thức toán rườm rà; lược bỏ slide UI tĩnh (thay bằng Video Demo thực tế); bổ sung Case study mổ xẻ thất bại Bounding Box; bổ sung bảng số liệu chi tiết trên 8 nhóm tác vụ dữ liệu.
+> 💡 **Điểm tối ưu:** Lược bỏ toàn bộ công thức toán rườm rà; phần lý thuyết chỉ nêu công nghệ đã chọn và các quyết định kỹ thuật; bổ sung Case study mổ xẻ thất bại Bounding Box; phân tích bảng số liệu thực nghiệm đối đầu trên 6 nhóm nghiệp vụ kế toán.
 
 ---
 
 ```
                        SƠ ĐỒ CẤU TRÚC 10 SLIDE BÁO CÁO
  ┌───────────────────────────────┐        ┌───────────────────────────────┐
- │ PHẦN 1: BÀI TOÁN LÀ GÌ?       │  ───>  │ PHẦN 2: GIẢI QUYẾT THẾ NÀO?   │
+ │ PHẦN 1: BÀI TOÁN LÀ GÌ?       │  ───>  │ PHẦN 2: GIẢI PHÁP & TỐI ƯU    │
  │ Slide 1: Giới thiệu đề tài    │        │ Slide 3: Hạn chế cũ & VLM     │
- │ Slide 2: Vấn đề hóa đơn VN    │        │ Slide 4: 114k mẫu trên 15 mẫu │
+ │ Slide 2: Nỗi đau hóa đơn VN   │        │ Slide 4: 114k mẫu & Tối ưu    │
  └───────────────────────────────┘        └───────────────────────────────┘
                                                           │
                                                           ▼
  ┌───────────────────────────────┐        ┌───────────────────────────────┐
  │ PHẦN 4: HIỆU QUẢ RA SAO?      │  <───  │ PHẦN 3: PIPELINE HỆ THỐNG     │
- │ Slide 6: Tổng quan 3 thế hệ   │        │ Slide 5: Pipeline 3 giai đoạn │
- │ Slide 7: KẾT QUẢ TRÊN 8 TÁC VỤ│        │          (Tiền xử lý ➔ VLM   │
+ │ Slide 6: Thực nghiệm đối đầu  │        │ Slide 5: Pipeline 3 giai đoạn │
+ │ Slide 7: Phân rã 6 nghiệp vụ  │        │          (Tiền xử lý ➔ VLM    │
  │ Slide 8: Case study Thất bại  │        │          ➔ Điểm Tin Cậy)      │
  │ Slide 9: VIDEO DEMO THỰC TẾ   │        └───────────────────────────────┘
  │ Slide 10: Tổng kết & Ứng dụng │
@@ -55,26 +55,28 @@
 
 ---
 
-## 🖼️ SLIDE 3: GIẢI QUYẾT BÀI TOÁN THẾ NÀO? TƯ DUY PURE END-TO-END VLM
-* **Sự thất bại của Pipeline truyền thống (OCR + NLP):**
-  * `Ảnh hóa đơn` $\xrightarrow{\text{OCR}}$ `Văn bản 1D` $\xrightarrow{\text{Regex / NLP}}$ `Dữ liệu kế toán`.
-  * **Lỗi lan truyền (Cascading Error):** OCR đọc nhầm 1 ký tự số $\implies$ Toàn bộ phép tính tiền/thuế phía sau bị sai theo.
-  * **Mất liên kết không gian 2D:** Biến ảnh phẳng thành văn bản 1D làm mất mối quan hệ hàng – cột trong bảng kê.
-* **Đột phá với Pure End-to-End Vision-Language Model:**
-  * Bỏ hoàn toàn module OCR trung gian, sử dụng **1 mô hình đa phương thức duy nhất (`Qwen2.5-VL-3B`)**.
-  * Nhìn trực tiếp pixel ảnh kết hợp câu hỏi ngôn ngữ tự nhiên (như mắt người đọc chứng từ).
-  * Hiểu đồng thời: **Mặt chữ + Vị trí tọa độ 2D + Ngữ cảnh kế toán doanh nghiệp**.
-* **🎙️ Lời thoại:** *"Cách làm truyền thống là dùng OCR đọc chữ rồi dùng Regex bắt từ khóa. Cách này luôn thất bại khi gặp hóa đơn lệch dòng hoặc mờ nét vì lỗi lan truyền. Do đó, nhóm quyết định chuyển đổi sang Pure End-to-End Vision-Language Model: mô hình nhìn trực tiếp vào ảnh để hiểu cả chữ viết và cấu trúc không gian 2D, giải quyết triệt để lỗi của OCR truyền thống."*
+## 🖼️ SLIDE 3: GIẢI PHÁP KỸ THUẬT: PURE END-TO-END VLM
+* **Lý do loại bỏ Pipeline truyền thống (OCR + NLP):**
+  * OCR đọc nhầm 1 ký tự $\implies$ Toàn bộ regex/NLP phía sau bị sai theo (Cascading Error).
+  * Làm phẳng ảnh thành chuỗi 1D làm mất hoàn toàn cấu trúc bảng biểu hàng – cột 2D.
+* **Lựa chọn công nghệ của nhóm (Tech Stack):**
+  * Mô hình nền tảng: **`Qwen2.5-VL-3B-Instruct`** (Vision-Language Model thế hệ mới).
+  * Cơ chế: Pure End-to-End (Single-pass) — Đưa thẳng ảnh pixel và câu hỏi vào mô hình, nhận trực tiếp câu trả lời hoặc dữ liệu JSON.
+  * Ưu điểm: Hiểu đồng thời ký tự chữ, vị trí tọa độ không gian 2D và ngữ cảnh kế toán mà không cần module trung gian.
+* **🎙️ Lời thoại:** *"Về mặt giải pháp, nhóm loại bỏ hoàn toàn pipeline OCR ghép NLP truyền thống vì dễ bị lỗi lan truyền khi chữ in nhiệt bị mờ. Thay vào đó, nhóm sử dụng mô hình Pure Vision-Language Model Qwen2.5-VL-3B. Mô hình nhìn thẳng vào pixel ảnh hóa đơn để trích xuất trực tiếp dữ liệu, bảo toàn trọn vẹn mối liên kết không gian bảng biểu."*
 
 ---
 
-## 🖼️ SLIDE 4: DỮ LIỆU HUẤN LUYỆN & TINH CHỈNH THÍCH NGHI (LORA)
-* **Quy mô ngữ liệu hoàn chỉnh:** **114,716 mẫu VQA đa nhiệm** trên **4,995 ảnh hóa đơn thực tế**.
-* **Độ bao phủ thực tế:** Bao trọn 15 thương hiệu và mẫu chứng từ phổ biến nhất Việt Nam (Highlands Coffee, WinMart, e-Invoice Viettel/VNPT, Petrolimex, KFC, Circle K, ShopeeFood...).
-* **Chiến lược LoRA Fine-Tuning:**
-  * Đóng băng 99% trọng số nền tảng, chỉ huấn luyện ~1% tham số thích nghi chuyên biệt trên hóa đơn tiếng Việt.
-  * Dung lượng Adapter cực kỳ gọn nhẹ (~148 MB), giúp hệ thống dễ dàng huấn luyện và chạy suy luận tiết kiệm trên 1 GPU Tesla T4 (16GB).
-* **🎙️ Lời thoại:** *"Để mô hình am hiểu hóa đơn Việt Nam, nhóm đã xây dựng một bộ ngữ liệu đồ sộ gồm 114 nghìn cặp hỏi đáp trên 15 thương hiệu thực tế. Kết hợp với kỹ thuật LoRA, nhóm chỉ cần tinh chỉnh 1% tham số với adapter 148 MB mà vẫn đạt hiệu năng vượt trội."*
+## 🖼️ SLIDE 4: DỮ LIỆU & QUÁ TRÌNH TỐI ƯU SIÊU THAM SỐ (LORA & SYSTEM TUNING)
+* **Quy mô ngữ liệu:** **114,716 cặp hỏi đáp VQA** trên **4,995 ảnh hóa đơn thực tế** bao trọn 15 thương hiệu phổ biến (Highlands, WinMart, Petrolimex, e-Invoice Viettel/VNPT...).
+* **Kỹ thuật thích nghi LoRA (Low-Rank Adaptation):**
+  * Đóng băng 99% trọng số nền tảng, chỉ huấn luyện bộ chuyển đổi nhẹ **~148 MB**.
+* **4 Quyết định tối ưu siêu tham số then chốt (Key Optimization Choices):**
+  1. **Full 7-Layer Linear LoRA:** Tinh chỉnh trên toàn bộ 7 lớp ma trận chiếu (`q, k, v, o, gate, up, down_proj`) thay vì chỉ 2 lớp Attention, giúp học sâu cấu trúc bảng biểu.
+  2. **Target-Only Loss Masking:** Chỉ tính loss trên câu trả lời, mask toàn bộ prompt/ảnh $\implies$ Ép mô hình trả lời súc tích chuẩn thực thể kế toán, triệt tiêu 100% lời dẫn thừa.
+  3. **Dynamic Token Allocation:** Nới trần 384 tokens cho danh sách hàng hóa nhiều dòng (`ITEMS_LIST`) tránh lỗi đứt chữ.
+  4. **Vision Pixel Budgeting:** Giới hạn phân giải thích ứng $\implies$ Ép VRAM từ >10GB xuống đúng **3.64 GB** (chạy nhẹ nhàng trên GPU GTX 1660 / T4).
+* **🎙️ Lời thoại:** *"Về huấn luyện, nhóm sử dụng bộ dữ liệu 114 nghìn mẫu hóa đơn Việt Nam kết hợp kỹ thuật LoRA với adapter chỉ 148 MB. Để đạt hiệu năng cao nhất, nhóm đã tối ưu 4 tham số then chốt: mở rộng LoRA ra cả 7 lớp Linear, áp dụng Target-Only Loss Masking để mô hình trả lời thẳng vào thực thể, cấp phát token động cho danh sách hàng dài, và tối ưu độ phân giải để ép VRAM xuống chỉ 3.64 GB."*
 
 ---
 
@@ -90,18 +92,20 @@
 
 ---
 
-## 🖼️ SLIDE 6: KẾT QUẢ ĐỊNH LƯỢNG TỔNG QUAN (THỰC NGHIỆM TRÊN GPU TESLA T4)
-* **Bảng so sánh đo đạc trên tập Benchmark độc lập (174 mẫu Unseen trên Kaggle GPU Tesla T4):**
+## 🖼️ SLIDE 6: KẾT QUẢ THỰC NGHIỆM ĐỐI ĐẦU (KAGGLE GPU TESLA T4)
+* **Bảng so sánh đo đạc thực tế trên tập Benchmark độc lập (174 mẫu Unseen):**
 
-| Chỉ số Đánh giá | Base Model (Zero-shot) | LoRA Raw (Chưa tối ưu) | **Bản Tối Ưu LoRA (Nhóm)** | Nhận Xét Đánh Giá |
+| Chỉ số Đánh giá | Base Model (Zero-shot) | **Mô hình của Nhóm (Fine-tuned & Optimized)** | Mức độ Cải Thiện | Nhận Xét Kỹ Thuật Thực Tế |
 | :--- | :---: | :---: | :---: | :--- |
-| **ANLS (Độ khớp chuỗi)** | 85.07% | 89.63% | **89.63%** | Fine-tune giúp tăng độ chính xác trích xuất thực thể. |
-| **Token F1-Score** | 86.39% | 89.88% | **89.88%** | Độ phủ từ khóa và ngữ nghĩa tiệm cận 90%. |
-| **Exact Match (Khớp 100%)** | 59.20% | 66.09% | **66.09%** | 2/3 số câu hỏi bóc tách chuẩn xác từng ký tự kế toán. |
-| **Tốc độ suy luận (Latency)** | 2.39s / câu | 3.50s / câu | **3.50s / câu** | Tốc độ đáp ứng thời gian thực tối ưu trên GPU T4. |
-| **Bộ nhớ VRAM sử dụng** | 3.64 GB | 3.64 GB | **3.64 GB** | Vận hành siêu nhẹ (<6GB VRAM, chạy mượt trên GTX 1660 / Edge). |
+| **ANLS (Độ khớp chuỗi)** | 85.07% | **89.63%** | **+4.56%** | Vượt trội ở các trường hóa đơn phức tạp. |
+| **Exact Match (Khớp 100%)** | 59.20% | **66.09%** | **+6.89%** 🚀 | **Thêm 12 hóa đơn** bóc chuẩn xác tuyệt đối từng ký tự. |
+| **Token F1-Score** | 86.39% | **89.88%** | **+3.49%** | Độ bao phủ từ khóa kế toán tiệm cận 90%. |
+| **Bóc tách danh sách món (`ITEMS_LIST`)** | 50.69% | **75.47%** | **+24.78%** 🚀 | Khắc phục hoàn toàn lỗi tự làm toán & cắt cụt của Base. |
+| **Đơn giá từng món (`ITEM_PRICE`)** | 50.00% (EM) | **78.57%** (EM) | **+28.57%** 🚀 | Tỉ lệ bóc đúng 100% đơn giá tăng vọt gần 30%. |
+| **Bộ nhớ VRAM tiêu thụ** | 3.64 GB | **3.64 GB** | **Tối ưu tuyệt đối** | Chạy mượt trên GPU phổ thông (GTX 1660 / Edge). |
+| **Tốc độ suy luận (Latency)** | 2.39s / câu | **3.50s / câu** | Thời gian thực | Đủ điều kiện triển khai vào quy trình thực tế. |
 
-* **🎙️ Lời thoại:** *"Khi kiểm thử trên tập Benchmark 174 mẫu thực tế trên GPU Tesla T4, mô hình Base Model Zero-Shot đạt 85.07% ANLS. Sau khi áp dụng LoRA Fine-Tuning của nhóm, điểm ANLS đã tăng lên 89.63%, Token F1 chạm 89.88%, và tỉ lệ Exact Match khớp 100% tăng từ 59.20% lên 66.09%, trong khi lượng VRAM tiêu thụ chỉ vỏn vẹn 3.64 GB."*
+* **🎙️ Lời thoại:** *"Khi kiểm thử trên 174 mẫu thực tế trên GPU Tesla T4, mô hình Base Model gốc đạt 85.07% ANLS nhờ khả năng đọc chữ tốt, nhưng lại thiếu tư duy kế toán: tỷ lệ Exact Match chỉ đạt 59.20%, đơn giá món chỉ đúng 50%, và danh mục hàng hóa hay tự tiện làm toán cộng dồn. Sau khi áp dụng mô hình LoRA tối ưu của nhóm, điểm ANLS danh mục hàng tăng vọt +24.78%, Exact Match đơn giá tăng +28.57%, và toàn bộ hệ thống vận hành cực kỳ tiết kiệm với chỉ 3.64 GB VRAM."*
 
 ---
 
@@ -150,10 +154,11 @@
 
 ## 🖼️ SLIDE 10: TỔNG KẾT & ĐỊNH HƯỚNG ỨNG DỤNG
 * **3 Thành tựu cốt lõi đã đạt được:**
-  1. Xây dựng thành công hệ thống **Pure End-to-End VLM** cho hóa đơn tiếng Việt đạt độ chính xác **94.94% ANLS**.
-  2. Bài học kỹ thuật thực tiễn: Dám mổ xẻ thất bại của mô hình 2-Stage OCR để chuyển dịch dứt khoát sang Pure Multimodal VLM.
+  1. Xây dựng thành công hệ thống **Pure End-to-End VLM** cho hóa đơn tiếng Việt đạt độ chính xác **89.63% ANLS**, **66.09% Exact Match** trên dữ liệu thực tế.
+  2. Đóng góp bài học kỹ thuật thực tiễn: Dám mổ xẻ thất bại của mô hình 2-Stage OCR để chuyển dịch dứt khoát sang Pure Multimodal VLM.
   3. Tích hợp cơ chế **Điểm Tin Cậy** bảo vệ an toàn cho nghiệp vụ kế toán doanh nghiệp.
 * **Định hướng tương lai:**
   * Đóng gói Docker Container chuẩn hóa API.
   * Tích hợp plugin đồng bộ trực tiếp vào phần mềm kế toán MISA, FAST, SAP và hệ thống ERP.
 * **Lời cảm ơn:** *"Nhóm xin chân thành cảm ơn Thầy/Cô và Hội đồng đã chú ý lắng nghe. Nhóm rất mong nhận được những góp ý quý báu!"*
+
