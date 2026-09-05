@@ -1,4 +1,4 @@
-# 🎙️ KỊCH BẢN THUYẾT TRÌNH BẢO VỆ ĐỒ ÁN (FULL SCRIPT 10 SLIDES)
+# 🎙️ KỊCH BẢN THUYẾT TRÌNH BẢO VỆ ĐỒ ÁN (BẢN THAM KHẢO - FULL SCRIPT 10 SLIDES)
 ## Đề Tài: Hệ Thống Document Visual Question Answering & Bóc Tách Hóa Đơn Tiếng Việt Ứng Dụng Qwen2.5-VL-3B LoRA
 * **Đơn vị:** Machine Learning & IoT Lab — Đại học Bách Khoa ĐHQG-HCM
 * **Tổng thời lượng khuyến nghị:** 8 – 10 phút (Bao gồm 1.5 – 2 phút Video Demo)
