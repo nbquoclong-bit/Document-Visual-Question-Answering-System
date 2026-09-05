@@ -96,7 +96,7 @@ def compute_confidence_score(outputs, input_len):
         margin = (top2[0] - top2[1]).item()
         margin_scores.append(margin)
     if not token_probs:
-        return 96.5, "96.5% (🟢 Rất tin cậy)"
+        return 96.5, "96.5% (🟢 Tin cậy)"
     
     geom_mean = np.exp(np.mean(np.log(np.clip(token_probs, 1e-7, 1.0))))
     min_prob = min(token_probs)
@@ -105,7 +105,7 @@ def compute_confidence_score(outputs, input_len):
     conf_pct = round(float(np.clip(raw_conf, 0.05, 0.99)) * 100, 1)
     
     if conf_pct >= 80:
-        badge = f"{conf_pct}% (🟢 Rất tin cậy)"
+        badge = f"{conf_pct}% (🟢 Tin cậy)"
     elif conf_pct >= 60:
         badge = f"{conf_pct}% (🟡 Cần kiểm tra)"
     else:
