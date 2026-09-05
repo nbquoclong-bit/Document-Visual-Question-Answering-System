@@ -104,9 +104,9 @@ def compute_confidence_score(outputs, input_len):
     raw_conf = 0.40 * geom_mean + 0.30 * min_prob + 0.30 * avg_margin
     conf_pct = round(float(np.clip(raw_conf, 0.05, 0.99)) * 100, 1)
     
-    if conf_pct >= 85:
+    if conf_pct >= 80:
         badge = f"{conf_pct}% (🟢 Rất tin cậy)"
-    elif conf_pct >= 65:
+    elif conf_pct >= 60:
         badge = f"{conf_pct}% (🟡 Cần kiểm tra)"
     else:
         badge = f"{conf_pct}% (🔴 Độ tin cậy thấp)"
