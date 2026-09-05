@@ -112,21 +112,34 @@ def compute_confidence_score(outputs, input_len):
         badge = f"{conf_pct}% (🔴 Độ tin cậy thấp)"
     return conf_pct, badge
 
+# Lấy danh sách token kết thúc chuẩn của Qwen2.5-VL (<|im_end|>, <|endoftext|>)
+eos_ids = [processor.tokenizer.eos_token_id]
+for special_tok in ["<|im_end|>", "<|endoftext|>"]:
+    tok_id = processor.tokenizer.convert_tokens_to_ids(special_tok)
+    if isinstance(tok_id, int) and tok_id not in eos_ids:
+        eos_ids.append(tok_id)
+
 def predict_docvqa(image, question, schema_format="Canonical (Quốc tế)"):
     if image is None:
         return "⚠️ Vui lòng tải lên ảnh hóa đơn hoặc chứng từ.", "--", "0.00s", "0.00 GB"
     if not question or not question.strip():
-        question = "Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON."
+        question = "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?"
         
     t0 = time.time()
     q_lower = question.lower()
     is_json = any(k in q_lower for k in ["json", "toàn bộ", "cấu trúc", "tất cả", "hạng mục", "misa", "sap", "fast"])
-    max_tokens = 1024 if is_json else 384
+    is_items = any(k in q_lower for k in ["danh sách", "món", "hàng", "dịch vụ", "mặt hàng"])
+    max_tokens = 1024 if is_json else (384 if is_items else 160)
     
-    # Pure VLM Inference (Không chạy qua OCR truyền thống)
+    # Chuẩn hóa Prompt vào role 'user' đúng như khi huấn luyện LoRA
     messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": [{"type": "image", "image": image}, {"type": "text", "text": f"Câu hỏi: {question.strip()}"}]}
+        {
+            "role": "user",
+            "content": [
+                {"type": "image", "image": image},
+                {"type": "text", "text": f"{SYSTEM_PROMPT}\n\nCâu hỏi: {question.strip()}"}
+            ]
+        }
     ]
     text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     image_inputs, video_inputs = process_vision_info(messages)
@@ -137,6 +150,8 @@ def predict_docvqa(image, question, schema_format="Canonical (Quốc tế)"):
             **inputs, 
             max_new_tokens=max_tokens, 
             do_sample=False,
+            repetition_penalty=1.05,
+            eos_token_id=eos_ids,
             return_dict_in_generate=True,
             output_scores=True
         )
