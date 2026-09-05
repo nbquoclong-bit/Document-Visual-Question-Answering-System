@@ -82,12 +82,18 @@ def predict_docvqa(image, question, enable_bbox):
     if image is None:
         return None, "⚠️ Vui lòng tải lên ảnh hóa đơn hoặc chứng từ.", "0.00s", "0.00 GB"
     
+from schema_adapter import SchemaAdapter
+import json
+
+def predict_docvqa(image, question, enable_bbox=True, schema_format="Canonical (Quốc tế)"):
+    if image is None:
+        return None, "⚠️ Vui lòng tải lên ảnh hóa đơn hoặc chứng từ.", "0.00s", "0.00 GB"
     if not question or not question.strip():
         question = "Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON."
         
     t0 = time.time()
     q_lower = question.lower()
-    is_json = any(k in q_lower for k in ["json", "toàn bộ", "cấu trúc", "tất cả", "hạng mục"])
+    is_json = any(k in q_lower for k in ["json", "toàn bộ", "cấu trúc", "tất cả", "hạng mục", "misa", "sap", "fast"])
     max_tokens = 1024 if is_json else 384
     
     # 1. OCR tokens nếu người dùng bật BBox và không phải trích JSON
@@ -114,6 +120,10 @@ def predict_docvqa(image, question, enable_bbox):
     if not is_json:
         for p in [r'^Hóa đơn được lập vào ngày\s*', r'^Theo thông tin trong phiếu thanh toán, ngày lập hóa đơn là\s*', r'^Theo hóa đơn bán lẻ, các mặt hàng/dịch vụ được mua bao gồm:\s*', r'^Theo hóa đơn, các mặt hàng/dịch vụ được mua bao gồm:\s*', r'^The address of the selling company is at\s*']:
             clean_ans = re.sub(p, '', clean_ans, flags=re.IGNORECASE).strip()
+    else:
+        # Áp dụng Enterprise Schema Adapter nếu là tác vụ trích xuất JSON
+        adapted_dict = SchemaAdapter.adapt(clean_ans, target_format=schema_format)
+        clean_ans = json.dumps(adapted_dict, ensure_ascii=False, indent=2)
             
     # 3. Vẽ Bounding Box tối giản (1 màu, không nhãn chữ)
     annotated_img = perform_smart_grounding(image, clean_ans, question, ocr_results, enable_bbox=enable_bbox)
@@ -124,7 +134,7 @@ def predict_docvqa(image, question, enable_bbox):
 
 with gr.Blocks(title="Document Visual QA Pro - Qwen2.5-VL", theme=gr.themes.Soft()) as demo:
     gr.Markdown("# 📄 Hệ Thống Document Visual Question Answering (DocVQA Pro)")
-    gr.Markdown("💡 Mô hình **Qwen2.5-VL-3B (LoRA Fine-Tuned 94.94% ANLS)**. Hỗ trợ hỏi đáp hóa đơn, trích xuất **Full JSON 1024 Tokens** và **Bounding Box minh chứng tối giản (1 màu)**.")
+    gr.Markdown("💡 Mô hình **Qwen2.5-VL-3B (LoRA Fine-Tuned 89.63% ANLS)**. Hỗ trợ hỏi đáp hóa đơn, trích xuất **Full JSON** với **Enterprise Schema Adapter (MISA / SAP / FAST)**.")
     
     with gr.Row():
         with gr.Column(scale=1):
@@ -135,17 +145,30 @@ with gr.Blocks(title="Document Visual QA Pro - Qwen2.5-VL", theme=gr.themes.Soft
                 value="Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON đầy đủ 100% tất cả các trường và từng hạng mục mặt hàng.",
                 label="💬 2. Câu hỏi cần bóc tách"
             )
+            
+            with gr.Row():
+                schema_choice = gr.Radio(
+                    choices=["Canonical (Quốc tế)", "MISA meInvoice", "SAP S/4HANA ERP", "FAST Accounting"],
+                    value="Canonical (Quốc tế)",
+                    label="🏢 Chuẩn Hóa Schema Kế Toán (Enterprise Adapter)"
+                )
+            
             chk_bbox = gr.Checkbox(value=True, label="🎯 Hiển thị Bounding Box minh chứng trực quan (1 màu, không nhãn chữ)")
             
             with gr.Row():
-                btn_json = gr.Button("🧾 Trích xuất JSON Đầy Đủ", variant="primary", size="sm")
-                btn_items = gr.Button("📦 Danh sách món hàng", size="sm")
-                btn_tax = gr.Button("🔢 Mã số thuế", size="sm")
+                btn_json = gr.Button("🧾 Trích xuất JSON (Canonical)", variant="primary", size="sm")
+                btn_misa = gr.Button("🏢 Xuất MISA JSON", size="sm")
+                btn_sap = gr.Button("🌐 Xuất SAP ERP", size="sm")
+                btn_fast = gr.Button("⚡ Xuất FAST JSON", size="sm")
             with gr.Row():
                 btn_total = gr.Button("💰 Tổng tiền", size="sm")
+                btn_items = gr.Button("📦 Danh sách món hàng", size="sm")
+                btn_tax = gr.Button("🔢 Mã số thuế", size="sm")
                 btn_vendor = gr.Button("🏢 Tên bên bán", size="sm")
+            with gr.Row():
                 btn_date = gr.Button("📅 Ngày lập", size="sm")
                 btn_addr = gr.Button("📍 Địa chỉ", size="sm")
+                
             btn_submit = gr.Button("🚀 Phân tích & Trích xuất", variant="primary", size="lg")
             
         with gr.Column(scale=1):
@@ -155,7 +178,12 @@ with gr.Blocks(title="Document Visual QA Pro - Qwen2.5-VL", theme=gr.themes.Soft
                 lat_output = gr.Textbox(label="⏱️ Tốc độ suy luận", interactive=False)
                 vram_output = gr.Textbox(label="🧠 VRAM sử dụng", interactive=False)
                 
-    btn_json.click(fn=lambda: "Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON đầy đủ 100% tất cả các trường và từng hạng mục mặt hàng.", outputs=q_input)
+    json_prompt = "Trích xuất toàn bộ thông tin quan trọng của hóa đơn dưới dạng JSON đầy đủ 100% tất cả các trường và từng hạng mục mặt hàng."
+    btn_json.click(fn=lambda: (json_prompt, "Canonical (Quốc tế)"), outputs=[q_input, schema_choice])
+    btn_misa.click(fn=lambda: (json_prompt, "MISA meInvoice"), outputs=[q_input, schema_choice])
+    btn_sap.click(fn=lambda: (json_prompt, "SAP S/4HANA ERP"), outputs=[q_input, schema_choice])
+    btn_fast.click(fn=lambda: (json_prompt, "FAST Accounting"), outputs=[q_input, schema_choice])
+    
     btn_items.click(fn=lambda: "Danh sách các mặt hàng / dịch vụ được mua trên hóa đơn gồm những gì?", outputs=q_input)
     btn_tax.click(fn=lambda: "Mã số thuế của đơn vị bán hàng trên hóa đơn là gì?", outputs=q_input)
     btn_total.click(fn=lambda: "Tổng tiền thanh toán cuối cùng trên hóa đơn là bao nhiêu?", outputs=q_input)
@@ -165,7 +193,7 @@ with gr.Blocks(title="Document Visual QA Pro - Qwen2.5-VL", theme=gr.themes.Soft
     
     btn_submit.click(
         fn=predict_docvqa, 
-        inputs=[img_input, q_input, chk_bbox], 
+        inputs=[img_input, q_input, chk_bbox, schema_choice], 
         outputs=[img_output, txt_output, lat_output, vram_output]
     )
 
